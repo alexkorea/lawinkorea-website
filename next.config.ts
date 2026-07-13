@@ -9,6 +9,16 @@ const nextConfig: NextConfig = {
         destination: "https://lawinkorea.com/:path*",
         permanent: true,
       },
+      {
+        source: "/",
+        destination: "/ko",
+        permanent: false,
+      },
+      {
+        source: "/contact",
+        destination: "/ko/contact",
+        permanent: false,
+      },
     ];
   },
 };
