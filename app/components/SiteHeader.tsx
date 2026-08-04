@@ -10,6 +10,7 @@ const NAV_BY_LOCALE: Record<string, { home: string; cases: string; process: stri
   en: { home: "Home", cases: "Cases", process: "Process", consult: "Consult", blog: "Blog" },
   zh: { home: "首页", cases: "案例", process: "流程", consult: "咨询", blog: "博客" },
   ja: { home: "ホーム", cases: "事例", process: "手続き", consult: "相談", blog: "ブログ" },
+  vi: { home: "Trang chủ", cases: "Trường hợp", process: "Quy trình", consult: "Tư vấn", blog: "Blog" },
 };
 
 const CTA_NAV: Record<string, string> = {
@@ -17,6 +18,7 @@ const CTA_NAV: Record<string, string> = {
   en: "Urgent Consult",
   zh: "紧急咨询",
   ja: "緊急相談",
+  vi: "Tư vấn khẩn",
 };
 
 export default function SiteHeader() {
@@ -24,7 +26,7 @@ export default function SiteHeader() {
   const router = useRouter();
 
   // Determine current locale from URL
-  const localeMatch = pathname.match(/^\/(en|zh|ja)(\/|$)/);
+  const localeMatch = pathname.match(/^\/(en|zh|ja|vi)(\/|$)/);
   const locale = localeMatch ? localeMatch[1] : "ko";
   const home = locale === "ko" ? "/" : `/${locale}`;
   const blog = locale === "ko" ? "/blog" : `/${locale}/blog`;
@@ -32,16 +34,12 @@ export default function SiteHeader() {
   const ctaNav = CTA_NAV[locale] || CTA_NAV.ko;
 
   function changeLocale(newLocale: string) {
-    // Preserve path within blog if applicable
-    let newPath: string;
-    const blogMatch = pathname.match(/\/blog(\/.*)?$/);
-    if (blogMatch) {
-      const tail = blogMatch[1] || "";
-      newPath = newLocale === "ko" ? `/blog${tail}` : `/${newLocale}/blog${tail}`;
-    } else {
-      newPath = newLocale === "ko" ? "/" : `/${newLocale}`;
-    }
-    router.push(newPath);
+    // Strip current locale prefix to get the subpath
+    const subpath = pathname
+      .replace(/^\/(ko|en|zh|ja|vi)(\/|$)/, "/")
+      .replace(/^\/\//, "/");
+    const newPath = newLocale === "ko" ? subpath || "/" : `/${newLocale}${subpath === "/" ? "" : subpath}`;
+    router.push(newPath || "/");
   }
 
   return (

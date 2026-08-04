@@ -1,10 +1,11 @@
-export type Locale = "ko" | "en" | "zh" | "ja";
+export type Locale = "ko" | "en" | "zh" | "ja" | "vi";
 
 export const LANG_LABELS = [
   { code: "ko", label: "한국어", short: "KR" },
   { code: "en", label: "English", short: "EN" },
   { code: "zh", label: "中文", short: "ZH" },
   { code: "ja", label: "日本語", short: "JA" },
+  { code: "vi", label: "Tiếng Việt", short: "VI" },
 ] as const;
 
 export const NAV_KEYS = ["home", "review", "cases", "process", "team", "consult"] as const;
@@ -14,6 +15,7 @@ export const NAV: Record<Locale, string[]> = {
   en: ["Home", "Review", "Cases", "Process", "Team", "Consult"],
   zh: ["首页", "事犯审查", "主要案例", "办理流程", "专家团队", "咨询"],
   ja: ["ホーム", "事犯審査", "主要事例", "手続き", "専門家", "相談"],
+  vi: ["Trang chủ", "Xem xét vi phạm", "Các trường hợp", "Quy trình", "Chuyên gia", "Tư vấn"],
 };
 
 export const CTA_NAV: Record<Locale, string> = {
@@ -21,6 +23,7 @@ export const CTA_NAV: Record<Locale, string> = {
   en: "Urgent Consult",
   zh: "紧急咨询",
   ja: "緊急相談",
+  vi: "Tư vấn khẩn cấp",
 };
 
 export const HERO: Record<
@@ -90,6 +93,19 @@ export const HERO: Record<
     aside_label: "現在の段階",
     aside_steps: ["通知受領", "詳細診断", "書類準備", "出席対応"],
     aside_note: "初出席前の準備が結果の 80% を決めます。",
+  },
+  vi: {
+    eyebrow: "Xem xét vi phạm xuất nhập cảnh · Đối phó hành chính",
+    h1_a: "Nhận được thông báo xem xét vi phạm?",
+    h1_b: "Hãy bình tĩnh.",
+    h1_c: "Đây là bước đầu tiên để bảo vệ tư cách lưu trú của bạn.",
+    sub: "Vi phạm lái xe say rượu, vụ án hình sự, vi phạm luật xuất nhập cảnh — từ tài liệu đối phó ban đầu đến hồ sơ nộp cho cơ quan xuất nhập cảnh, chuyên viên hành chính sẽ đồng hành cùng bạn.",
+    cta_primary: "Yêu cầu tư vấn",
+    cta_secondary: "Xem danh sách kiểm tra",
+    trust: ["Since 2018", "Hỗ trợ 5 ngôn ngữ", "Văn phòng chính Seoul"],
+    aside_label: "Giai đoạn hiện tại của bạn",
+    aside_steps: ["Nhận thông báo", "Chẩn đoán", "Chuẩn bị hồ sơ", "Chuẩn bị ra hầu"],
+    aside_note: "Chuẩn bị trước buổi ra hầu đầu tiên quyết định 80% kết quả.",
   },
 };
 
@@ -456,6 +472,41 @@ export const SECTION_LABELS: Record<
       "初動返信",
     ],
   },
+  vi: {
+    casesEyebrow: "Lĩnh vực đối phó · Cases We Handle",
+    casesTitle: "Nếu bạn đang trong tình huống này, bạn cần được hỗ trợ xem xét vi phạm",
+    casesCount: "08 CATEGORIES",
+    processEyebrow: "Quy trình · Process",
+    processTitle1: "Quy trình",
+    processTitle2: "năm bước rõ ràng",
+    processIntro:
+      "Từ cuộc gọi đầu tiên đến chuẩn bị ra hầu, không bỏ qua bước nào. Mỗi khách hàng sẽ nhận được bảng điều khiển riêng để theo dõi tiến trình theo thời gian thực.",
+    processDisclaimer:
+      "Văn phòng thực hiện soạn thảo và nộp hồ sơ theo Luật Hành chính. Nếu cần đại diện tại tòa hoặc bào chữa hình sự, chúng tôi sẽ kết nối với luật sư đối tác.",
+    servicesEyebrow: "Dịch vụ hành chính chuyên nghiệp · Services",
+    servicesTitle: "Không chỉ đại lý — đối phó hành chính chiến lược",
+    quietEyebrow: "A QUIET WORD ON THIS",
+    quietTitle: "Nộp phạt xong chưa chắc là kết thúc.",
+    quietDesc:
+      "Xem xét vi phạm xuất nhập cảnh là một thủ tục hành chính riêng biệt có thể dẫn đến từ chối gia hạn visa, bác bỏ thường trú, thậm chí lệnh trục xuất. Bước đầu tiên là chẩn đoán chính xác tình huống của bạn.",
+    quietCtaPrimary: "Chẩn đoán tình huống của tôi",
+    quietCtaPhone: "Tư vấn qua điện thoại · +82-2-363-2251",
+    quietCtaPhoneNote: "Thứ Hai – Thứ Sáu 09–18 KST",
+    teamEyebrow: "Giới thiệu chuyên gia · Team",
+    teamTitle: "Người sẽ trực tiếp xử lý vụ việc của bạn",
+    contactEyebrow: "Đăng ký tư vấn · Consultation",
+    contactTitle1: "Bắt đầu",
+    contactTitle2: "tư vấn ngay bây giờ",
+    contactDesc1: "Thông tin càng chi tiết, chẩn đoán càng chính xác.",
+    contactDesc2: "Chuyên gia sẽ phản hồi trong vòng 1 giờ vào ngày làm việc.",
+    bookCta: "Đặt lịch tư vấn →",
+    statsLabel: [
+      "Vụ xem xét vi phạm đã xử lý",
+      "Kinh nghiệm thực tế xuất nhập cảnh",
+      "KR · EN · 中文 · 日本語",
+      "Cam kết phản hồi ban đầu",
+    ],
+  },
 };
 
 export const TEAM = [
@@ -528,6 +579,16 @@ export const FOOTER: Record<
       { h: "主要サービス", items: ["飲酒運転事犯審査", "刑事事件ビザ防御", "入国禁止解除申請", "在留資格変更·延長"] },
       { h: "企業顧客", items: ["E-7 / E-9 コンサル", "外国人採用事犯対応", "企業顧問契約", "コンプライアンス点検"] },
       { h: "顧客サポート", items: ["プライバシーポリシー", "利用規約", "アクセス", "事業者情報"] },
+    ],
+    copyright: "© 2026 VISION Administrative Attorney Agent (Law in Korea). All rights reserved.",
+  },
+  vi: {
+    disclaimer:
+      "Đây là văn phòng hành chính chuyên nghiệp. Đại diện tại tòa và bào chữa hình sự thuộc thẩm quyền riêng của luật sư; chúng tôi chuyên về thủ tục hành chính xuất nhập cảnh và soạn thảo hồ sơ.",
+    columns: [
+      { h: "Dịch vụ chính", items: ["Xem xét vi phạm lái xe say rượu", "Bào chữa visa vụ án hình sự", "Xin hủy lệnh cấm nhập cảnh", "Thay đổi/gia hạn tư cách lưu trú"] },
+      { h: "Doanh nghiệp", items: ["Tư vấn E-7 / E-9", "Đối phó vi phạm nhân viên nước ngoài", "Hợp đồng cố vấn", "Kiểm tra tuân thủ"] },
+      { h: "Hỗ trợ", items: ["Chính sách bảo mật", "Điều khoản sử dụng", "Bản đồ văn phòng", "Thông tin công ty"] },
     ],
     copyright: "© 2026 VISION Administrative Attorney Agent (Law in Korea). All rights reserved.",
   },

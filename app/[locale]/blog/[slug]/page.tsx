@@ -1,16 +1,26 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getAllPosts, getPostBySlug, getPostSlugs } from "../../../lib/blog";
 import { ACCENT, COMPANY, SITE } from "../../../lib/constants";
-import { Locale } from "../../../lib/content";
+import { getBlogPostData, getBlogPostsByLocale } from "../../../data/blog-posts-data";
 
-const VALID_LOCALES = ["en", "zh", "ja"] as const;
+export const dynamicParams = false;
+
+const VALID_LOCALES = ["ko", "en", "zh", "ja", "vi"] as const;
 type LocaleParam = (typeof VALID_LOCALES)[number];
 
 type Params = { locale: string; slug: string };
 
 const CTA_TEXT: Record<LocaleParam, { backToBlog: string; faqHeading: string; ctaTitle: string; ctaDesc: string; ctaPrimary: string; ctaPhone: string; relatedHeading: string }> = {
+  ko: {
+    backToBlog: "← 전체 기사",
+    faqHeading: "자주 묻는 질문",
+    ctaTitle: "지금 무료 진단받기",
+    ctaDesc: "출입국사범심사는 시간이 결과를 결정합니다. 평일 1시간 이내 전문가가 회신합니다.",
+    ctaPrimary: "상담 요청하기 →",
+    ctaPhone: "전화",
+    relatedHeading: "관련 기사",
+  },
   en: {
     backToBlog: "← All articles",
     faqHeading: "Frequently Asked Questions",
@@ -38,13 +48,22 @@ const CTA_TEXT: Record<LocaleParam, { backToBlog: string; faqHeading: string; ct
     ctaPhone: "電話",
     relatedHeading: "関連記事",
   },
+  vi: {
+    backToBlog: "← Tất cả bài viết",
+    faqHeading: "Câu hỏi thường gặp",
+    ctaTitle: "Nhận chẩn đoán miễn phí ngay",
+    ctaDesc: "Trong xem xét vi phạm xuất nhập cảnh, thời gian quyết định kết quả. Chuyên gia phản hồi trong 1 giờ vào ngày làm việc.",
+    ctaPrimary: "Yêu cầu tư vấn →",
+    ctaPhone: "Gọi điện",
+    relatedHeading: "Bài viết liên quan",
+  },
 };
 
-export async function generateStaticParams() {
+export function generateStaticParams() {
   const params: { locale: string; slug: string }[] = [];
   for (const locale of VALID_LOCALES) {
-    for (const slug of getPostSlugs(locale as Locale)) {
-      params.push({ locale, slug });
+    for (const post of getBlogPostsByLocale(locale)) {
+      params.push({ locale, slug: post.slug });
     }
   }
   return params;
@@ -53,7 +72,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
   const { locale, slug } = await params;
   if (!VALID_LOCALES.includes(locale as LocaleParam)) return { title: "Not Found" };
-  const post = await getPostBySlug(slug, locale as Locale);
+  const post = getBlogPostData(slug, locale);
   if (!post) return { title: "Not Found" };
   return {
     title: post.title,
@@ -62,10 +81,11 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
     alternates: {
       canonical: `/${locale}/blog/${slug}`,
       languages: {
-        ko: `/blog/${slug}`,
+        ko: `/ko/blog/${slug}`,
         en: `/en/blog/${slug}`,
         zh: `/zh/blog/${slug}`,
         ja: `/ja/blog/${slug}`,
+        vi: `/vi/blog/${slug}`,
       },
     },
     openGraph: {
@@ -81,11 +101,10 @@ export default async function LocaleBlogPost({ params }: { params: Promise<Param
   const { locale, slug } = await params;
   if (!VALID_LOCALES.includes(locale as LocaleParam)) notFound();
   const t = CTA_TEXT[locale as LocaleParam];
-  const post = await getPostBySlug(slug, locale as Locale);
+  const post = getBlogPostData(slug, locale);
   if (!post) notFound();
 
-  const allPosts = await getAllPosts(locale as Locale);
-  const related = allPosts.filter((p) => p.slug !== slug).slice(0, 3);
+  const related = getBlogPostsByLocale(locale).filter((p) => p.slug !== slug).slice(0, 3);
 
   return (
     <main style={{ background: ACCENT.bg, minHeight: "100vh" }}>

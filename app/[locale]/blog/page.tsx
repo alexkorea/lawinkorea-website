@@ -5,10 +5,17 @@ import { getAllPosts } from "../../lib/blog";
 import { ACCENT } from "../../lib/constants";
 import { Locale } from "../../lib/content";
 
-const VALID_LOCALES = ["en", "zh", "ja"] as const;
+const VALID_LOCALES = ["ko", "en", "zh", "ja", "vi"] as const;
 type LocaleParam = (typeof VALID_LOCALES)[number];
 
 const HEADER_TEXT: Record<LocaleParam, { eyebrow: string; title: string; subtitle: string; cta: string }> = {
+  ko: {
+    eyebrow: "블로그 · 심층 가이드",
+    title: "대한민국 출입국사범심사 — 실무 가이드",
+    subtitle:
+      "음주운전·형사사건·마약 조사·불법취업·비자 위기에 처한 외국인을 위한 실질적 대응 전략. 비전행정사사무소 작성.",
+    cta: "무료 상담 요청하기 →",
+  },
   en: {
     eyebrow: "BLOG · INSIGHTS",
     title: "Korea Immigration Offense Review — In-Depth Guides",
@@ -30,6 +37,13 @@ const HEADER_TEXT: Record<LocaleParam, { eyebrow: string; title: string; subtitl
       "韓国在住外国人向け、飲酒運転・刑事事件・麻薬調査・不法就労・ビザ危機への対応実務。VISION行政書士事務所が直接執筆。",
     cta: "無料相談を申し込む →",
   },
+  vi: {
+    eyebrow: "BLOG · HƯỚNG DẪN THỰC TẾ",
+    title: "Xem xét vi phạm xuất nhập cảnh Hàn Quốc — Hướng dẫn chi tiết",
+    subtitle:
+      "Chiến lược đối phó thực tế cho người nước ngoài gặp vấn đề về lái xe say rượu, vụ án hình sự, điều tra ma túy, lao động bất hợp pháp và khủng hoảng visa tại Hàn Quốc. Được viết bởi Văn phòng Hành chính VISION.",
+    cta: "Yêu cầu tư vấn miễn phí →",
+  },
 };
 
 export async function generateStaticParams() {
@@ -46,10 +60,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     alternates: {
       canonical: `/${locale}/blog`,
       languages: {
-        ko: "/blog",
+        ko: "/ko/blog",
         en: "/en/blog",
         zh: "/zh/blog",
         ja: "/ja/blog",
+        vi: "/vi/blog",
       },
     },
   };
@@ -112,9 +127,11 @@ export default async function LocaleBlogIndex({ params }: { params: Promise<{ lo
             }}
           >
             <p style={{ margin: 0, fontSize: 14 }}>
+              {locale === "ko" && "준비 중입니다."}
               {locale === "en" && "Translations coming soon."}
               {locale === "zh" && "译文正在准备中。"}
               {locale === "ja" && "翻訳を準備しています。"}
+              {locale === "vi" && "Đang chuẩn bị bản dịch."}
             </p>
             <Link
               href={`/${locale}`}

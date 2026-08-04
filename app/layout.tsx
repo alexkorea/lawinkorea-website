@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { COMPANY, SITE } from "./lib/constants";
-import SiteHeader from "./components/SiteHeader";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
@@ -107,7 +106,6 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-full font-sans">
-        <SiteHeader />
         {children}
         {SITE.gaId && (
           <>

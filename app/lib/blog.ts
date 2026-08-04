@@ -74,7 +74,7 @@ export async function getAllPosts(locale: Locale): Promise<BlogPost[]> {
 
 export function getAllSlugsAcrossLocales(): { slug: string; locale: Locale }[] {
   const out: { slug: string; locale: Locale }[] = [];
-  for (const locale of ["ko", "en", "zh", "ja"] as Locale[]) {
+  for (const locale of ["ko", "en", "zh", "ja", "vi"] as Locale[]) {
     for (const slug of getPostSlugs(locale)) {
       out.push({ slug, locale });
     }

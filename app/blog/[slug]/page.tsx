@@ -1,19 +1,20 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getAllPosts, getPostBySlug, getPostSlugs } from "../../lib/blog";
 import { ACCENT, COMPANY, SITE } from "../../lib/constants";
+import BLOG_POSTS_DATA, { getBlogPostData, getBlogPostsByLocale } from "../../data/blog-posts-data";
+
+export const dynamicParams = false;
 
 type Params = { slug: string };
 
-export async function generateStaticParams() {
-  const slugs = getPostSlugs("ko");
-  return slugs.map((slug) => ({ slug }));
+export function generateStaticParams() {
+  return getBlogPostsByLocale("ko").map((p) => ({ slug: p.slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
   const { slug } = await params;
-  const post = await getPostBySlug(slug, "ko");
+  const post = getBlogPostData(slug, "ko");
   if (!post) return { title: "Not Found" };
   return {
     title: post.title,
@@ -40,11 +41,10 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
 
 export default async function BlogPost({ params }: { params: Promise<Params> }) {
   const { slug } = await params;
-  const post = await getPostBySlug(slug, "ko");
+  const post = getBlogPostData(slug, "ko");
   if (!post) notFound();
 
-  const allPosts = await getAllPosts("ko");
-  const related = allPosts.filter((p) => p.slug !== slug).slice(0, 3);
+  const related = getBlogPostsByLocale("ko").filter((p) => p.slug !== slug).slice(0, 3);
 
   return (
     <main style={{ background: ACCENT.bg, minHeight: "100vh" }}>
