@@ -2,6 +2,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { getAllPosts } from "../lib/blog";
 import { ACCENT } from "../lib/constants";
+import SiteHeader from "../components/SiteHeader";
+import SiteFooter from "../components/SiteFooter";
 
 export const metadata: Metadata = {
   title: "블로그 · 출입국사범심사 가이드",
@@ -18,6 +20,7 @@ export default async function BlogIndex() {
 
   return (
     <main style={{ background: ACCENT.bg, minHeight: "100vh" }}>
+      <SiteHeader />
       <header
         style={{
           background: ACCENT.navy,
@@ -182,6 +185,7 @@ export default async function BlogIndex() {
           </Link>
         </div>
       </section>
+      <SiteFooter />
     </main>
   );
 }

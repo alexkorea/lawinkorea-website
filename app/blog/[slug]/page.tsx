@@ -3,6 +3,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ACCENT, COMPANY, SITE } from "../../lib/constants";
 import BLOG_POSTS_DATA, { getBlogPostData, getBlogPostsByLocale } from "../../data/blog-posts-data";
+import SiteHeader from "../../components/SiteHeader";
+import SiteFooter from "../../components/SiteFooter";
 
 export const dynamicParams = false;
 
@@ -48,6 +50,7 @@ export default async function BlogPost({ params }: { params: Promise<Params> }) 
 
   return (
     <main style={{ background: ACCENT.bg, minHeight: "100vh" }}>
+      <SiteHeader />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -357,6 +360,7 @@ export default async function BlogPost({ params }: { params: Promise<Params> }) 
           </section>
         )}
       </article>
+      <SiteFooter />
     </main>
   );
 }
