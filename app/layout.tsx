@@ -55,6 +55,7 @@ export const metadata: Metadata = {
   authors: [{ name: COMPANY.nameKo }],
   publisher: COMPANY.nameKo,
   verification: {
+    other: { 'naver-site-verification': '9ac042ba0061de3ece8166f57df7f9436b1d6e8a', 'msvalidate.01': '9040F35010B56E1A9C560DD7708280D7' },
     google: "a477b2dbb0364322",
   },
 };
