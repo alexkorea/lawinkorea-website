@@ -2,7 +2,9 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ACCENT, COMPANY, SITE } from "../../../lib/constants";
-import { getBlogPostData, getBlogPostsByLocale } from "../../../data/blog-posts-data";
+import { getBlogPostData, getBlogPostsByLocale, getLocalesForSlug } from "../../../data/blog-posts-data";
+import { alternatesFor } from "../../../lib/seo";
+import { breadcrumbSchema, faqSchema, inLanguage, ORG_ID, PERSON_ID, personSchema } from "../../../lib/schema";
 
 export const dynamicParams = false;
 
@@ -11,9 +13,26 @@ type LocaleParam = (typeof VALID_LOCALES)[number];
 
 type Params = { locale: string; slug: string };
 
-const CTA_TEXT: Record<LocaleParam, { backToBlog: string; faqHeading: string; ctaTitle: string; ctaDesc: string; ctaPrimary: string; ctaPhone: string; relatedHeading: string }> = {
+const CTA_TEXT: Record<
+  LocaleParam,
+  {
+    backToBlog: string;
+    breadcrumbBlog: string;
+    updatedLabel: string;
+    authorLabel: string;
+    faqHeading: string;
+    ctaTitle: string;
+    ctaDesc: string;
+    ctaPrimary: string;
+    ctaPhone: string;
+    relatedHeading: string;
+  }
+> = {
   ko: {
     backToBlog: "← 전체 기사",
+    breadcrumbBlog: "블로그",
+    updatedLabel: "최종 수정",
+    authorLabel: "작성",
     faqHeading: "자주 묻는 질문",
     ctaTitle: "지금 무료 진단받기",
     ctaDesc: "출입국사범심사는 시간이 결과를 결정합니다. 평일 1시간 이내 전문가가 회신합니다.",
@@ -23,6 +42,9 @@ const CTA_TEXT: Record<LocaleParam, { backToBlog: string; faqHeading: string; ct
   },
   en: {
     backToBlog: "← All articles",
+    breadcrumbBlog: "Blog",
+    updatedLabel: "Last updated",
+    authorLabel: "By",
     faqHeading: "Frequently Asked Questions",
     ctaTitle: "Get a free diagnosis now",
     ctaDesc: "Time decides outcomes in immigration offense reviews. Our specialists reply within one hour on weekdays.",
@@ -32,6 +54,9 @@ const CTA_TEXT: Record<LocaleParam, { backToBlog: string; faqHeading: string; ct
   },
   zh: {
     backToBlog: "← 全部文章",
+    breadcrumbBlog: "博客",
+    updatedLabel: "最后更新",
+    authorLabel: "撰写",
     faqHeading: "常见问题",
     ctaTitle: "立即获取免费诊断",
     ctaDesc: "出入境事犯审查时间决定结果。工作日 1 小时内由专人回复。",
@@ -41,6 +66,9 @@ const CTA_TEXT: Record<LocaleParam, { backToBlog: string; faqHeading: string; ct
   },
   ja: {
     backToBlog: "← 全記事",
+    breadcrumbBlog: "ブログ",
+    updatedLabel: "最終更新",
+    authorLabel: "執筆",
     faqHeading: "よくある質問",
     ctaTitle: "今すぐ無料診断を",
     ctaDesc: "出入国事犯審査は時間が結果を左右します。平日 1 時間以内に専門家が返信します。",
@@ -50,6 +78,9 @@ const CTA_TEXT: Record<LocaleParam, { backToBlog: string; faqHeading: string; ct
   },
   vi: {
     backToBlog: "← Tất cả bài viết",
+    breadcrumbBlog: "Blog",
+    updatedLabel: "Cập nhật lần cuối",
+    authorLabel: "Tác giả",
     faqHeading: "Câu hỏi thường gặp",
     ctaTitle: "Nhận chẩn đoán miễn phí ngay",
     ctaDesc: "Trong xem xét vi phạm xuất nhập cảnh, thời gian quyết định kết quả. Chuyên gia phản hồi trong 1 giờ vào ngày làm việc.",
@@ -75,24 +106,18 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   const post = getBlogPostData(slug, locale);
   if (!post) return { title: "Not Found" };
   return {
-    title: post.title,
+    // 루트 템플릿(" · Law in Korea")이 붙으면 60자를 넘으므로 absolute 사용
+    title: { absolute: post.title },
     description: post.description,
     keywords: post.keywords,
-    alternates: {
-      canonical: `/${locale}/blog/${slug}`,
-      languages: {
-        ko: `/ko/blog/${slug}`,
-        en: `/en/blog/${slug}`,
-        zh: `/zh/blog/${slug}`,
-        ja: `/ja/blog/${slug}`,
-        vi: `/vi/blog/${slug}`,
-      },
-    },
+    // 실제 번역본이 있는 로케일에만 hreflang 을 건다
+    alternates: alternatesFor(locale, `/blog/${slug}`, getLocalesForSlug(slug)),
     openGraph: {
       title: post.title,
       description: post.description,
       type: "article",
       publishedTime: post.date,
+      modifiedTime: post.updated || post.date,
     },
   };
 }
@@ -104,7 +129,15 @@ export default async function LocaleBlogPost({ params }: { params: Promise<Param
   const post = getBlogPostData(slug, locale);
   if (!post) notFound();
 
-  const related = getBlogPostsByLocale(locale).filter((p) => p.slug !== slug).slice(0, 3);
+  const localePosts = getBlogPostsByLocale(locale);
+  // 내부링크: 프론트매터 related 우선, 부족하면 같은 언어의 다른 글로 3건 채운다 (고아 페이지 0)
+  const relatedBySlug = (post.related ?? [])
+    .map((r) => localePosts.find((p) => p.slug === r))
+    .filter((p): p is NonNullable<typeof p> => Boolean(p) && p!.slug !== slug);
+  const fallback = localePosts.filter(
+    (p) => p.slug !== slug && !relatedBySlug.some((r) => r.slug === p.slug)
+  );
+  const related = [...relatedBySlug, ...fallback].slice(0, 3);
 
   return (
     <main style={{ background: ACCENT.bg, minHeight: "100vh" }}>
@@ -113,40 +146,69 @@ export default async function LocaleBlogPost({ params }: { params: Promise<Param
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
-            headline: post.title,
-            description: post.description,
-            datePublished: post.date,
-            inLanguage: locale,
-            author: { "@type": "Organization", name: COMPANY.nameEn },
-            publisher: { "@type": "Organization", name: COMPANY.brandKo, url: SITE.url },
-            mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE.url}/${locale}/blog/${slug}` },
+            "@graph": [
+              {
+                "@type": "Article",
+                "@id": `${SITE.url}/${locale}/blog/${slug}#article`,
+                headline: post.title,
+                description: post.description,
+                keywords: post.keywords,
+                articleSection: post.category,
+                datePublished: post.date,
+                dateModified: post.updated || post.date,
+                inLanguage: inLanguage(locale),
+                author: { "@id": PERSON_ID },
+                publisher: { "@id": ORG_ID },
+                isPartOf: { "@id": `${SITE.url}/#website` },
+                mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE.url}/${locale}/blog/${slug}` },
+              },
+              {
+                "@type": ["Organization", "ProfessionalService", "LegalService"],
+                "@id": ORG_ID,
+                name: COMPANY.brandKo,
+                alternateName: ["Law in Korea", COMPANY.nameEn],
+                url: SITE.url,
+                logo: `${SITE.url}/logo-vision.png`,
+                telephone: COMPANY.phoneIntl,
+              },
+              personSchema(locale),
+            ],
           }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            breadcrumbSchema(locale, [
+              { name: t.breadcrumbBlog, path: "/blog" },
+              { name: post.title, path: `/blog/${slug}` },
+            ])
+          ),
         }}
       />
       {post.faq && post.faq.length > 0 && (
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              mainEntity: post.faq.map((q) => ({
-                "@type": "Question",
-                name: q.q,
-                acceptedAnswer: { "@type": "Answer", text: q.a },
-              })),
-            }),
-          }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(post.faq)) }}
         />
       )}
 
       <article style={{ maxWidth: 760, margin: "0 auto", padding: "64px 24px 96px" }}>
-        <div style={{ marginBottom: 24 }}>
-          <Link href={`/${locale}/blog`} style={{ fontSize: 12, color: ACCENT.primary, fontWeight: 600 }}>
-            {t.backToBlog}
+        <nav
+          aria-label="Breadcrumb"
+          style={{ marginBottom: 24, fontSize: 14, color: ACCENT.textMuteSoft, display: "flex", gap: 8, flexWrap: "wrap" }}
+        >
+          <Link href={`/${locale}`} style={{ color: ACCENT.primary, fontWeight: 600 }}>
+            {locale === "ko" ? "홈" : locale === "ja" ? "ホーム" : locale === "zh" ? "首页" : locale === "vi" ? "Trang chủ" : "Home"}
           </Link>
-        </div>
+          <span aria-hidden="true">/</span>
+          <Link href={`/${locale}/blog`} style={{ color: ACCENT.primary, fontWeight: 600 }}>
+            {t.breadcrumbBlog}
+          </Link>
+          <span aria-hidden="true">/</span>
+          <span aria-current="page">{post.category}</span>
+        </nav>
 
         <div
           style={{
@@ -190,9 +252,13 @@ export default async function LocaleBlogPost({ params }: { params: Promise<Param
             fontFamily: "var(--font-mono)",
           }}
         >
-          <span>{post.date}</span>
-          <span>·</span>
-          <span>{COMPANY.nameEn}</span>
+          <span>
+            {t.authorLabel} · {COMPANY.brandKo}
+          </span>
+          <span aria-hidden="true">·</span>
+          <time dateTime={post.updated || post.date}>
+            {t.updatedLabel} {post.updated || post.date}
+          </time>
         </div>
 
         <div

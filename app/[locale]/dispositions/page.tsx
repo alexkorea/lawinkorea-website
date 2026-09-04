@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import { alternatesFor } from "../../lib/seo";
 import type { Metadata } from "next";
 import { SITE } from "../../lib/constants";
 
@@ -31,9 +32,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       title: l === "ko" ? "출국명령·강제퇴거·입국금지, 무엇이 다른가" : metaData[l].title,
       description: l === "ko" ? "처분별 성격과 결과를 혼동 없이 정리했습니다." : metaData[l].description,
     },
-    alternates: {
-      canonical: `${SITE.url}/${l}/dispositions`,
-    },
+    alternates: alternatesFor(l, "/dispositions"),
   };
 }
 

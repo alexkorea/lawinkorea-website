@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import { alternatesFor } from "../../../lib/seo";
 import type { Metadata } from "next";
 import React from "react";
 
@@ -1096,7 +1097,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const content = SLUG_CONTENT[slug];
   if (content) {
     const m = content.meta[l];
-    return { title: m.title, description: m.description, alternates: { canonical: `https://lawinkorea.com/${l}/dispositions/${slug}` } };
+    return { title: m.title, description: m.description, alternates: alternatesFor(l, `/dispositions/${slug}`) };
   }
   return { title: LABELS[l].title + " · 비전행정사사무소" };
 }

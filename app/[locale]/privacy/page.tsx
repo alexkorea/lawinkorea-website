@@ -1,4 +1,6 @@
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
+import { alternatesFor } from "../../lib/seo";
 
 
 const VALID_LOCALES = ["ko", "en", "ja", "zh", "vi"] as const;
@@ -11,6 +13,17 @@ const titles: Record<L, string> = {
   zh: "隐私政策",
   vi: "Chính sách bảo mật",
 };
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const l = VALID_LOCALES.includes(locale as L) ? (locale as L) : "ko";
+  return {
+    title: { absolute: titles[l] },
+    alternates: alternatesFor(l, "/privacy"),
+    // 정식 문안 확정 전까지 색인 제외 (얇은 콘텐츠 방지)
+    robots: { index: false, follow: true },
+  };
+}
 
 export async function generateStaticParams() {
   return VALID_LOCALES.map((locale) => ({ locale }));

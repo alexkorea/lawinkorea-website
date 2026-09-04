@@ -1,6 +1,6 @@
 ---
-title: "DUI for Foreigners in Korea — Can You Keep Your Visa? (2026 Guide)"
-description: "What every foreigner caught for DUI in Korea must know to avoid deportation: BAC-tier penalties, offense review process, mitigation evidence, real case comparisons."
+title: "DUI and Visa Extension for Foreigners in Korea (2026)"
+description: "What foreigners caught for DUI in Korea must know: penalties by blood-alcohol level, how the immigration offense review runs, and the mitigation evidence that decides it."
 date: "2026-05-01"
 category: "DUI · 음주운전"
 cluster: "cluster"
@@ -116,7 +116,7 @@ The difference is **not BAC**. It's **document depth and preparation**.
 
 ## 5. What an Administrative Scrivener Adds
 
-[Vision Administrative Law Office](/) brings:
+[Vision Administrative Law Office](/en) brings:
 
 ### (1) Pre-attendance simulation
 30 typical questions practiced. Saying "I only had one drink" creates greater risk.
@@ -144,7 +144,7 @@ If you've been caught for DUI, **start preparing for the review even before the 
 
 Vision Administrative Law Office offers a **free initial diagnosis** — Korean, English, Chinese, Japanese all supported.
 
-[Request your free diagnosis →](/#contact)
+[Request your free diagnosis →](/en)
 
 ---
 

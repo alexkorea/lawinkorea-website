@@ -47,7 +47,7 @@ related:
 ### (2) 절도·사기
 - 단순 절도 (액수 적음): 벌금 50~300만 원 → 자격 변경 또는 출국 명령
 - 상습/특수 절도: 6개월~3년 징역 → 강제퇴거
-- 사기 (보이스피싱 가담 포함): [별도 가이드 참고](/blog/voice-phishing-foreigners)
+- 사기 (보이스피싱 가담 포함): [별도 가이드 참고](/ko/blog/voice-phishing-foreigners)
 
 ### (3) 명예훼손·모욕
 - 인터넷 댓글, SNS 게시물로도 처벌 가능
@@ -62,7 +62,7 @@ related:
 - 합의 가능하나 형사 처벌은 면제 안 됨
 
 ### (5) 음주운전
-- [별도 가이드 참고](/blog/dui-foreigner-visa)
+- [별도 가이드 참고](/ko/blog/dui-foreigner-visa)
 
 ## 2. 형사 처분 단계별 비자 영향
 
@@ -169,7 +169,7 @@ related:
 
 ## 6. 행정사 동행이 만드는 차이
 
-[비전행정사사무소](/)의 형사 사건 사범심사 대응 패키지:
+[비전행정사사무소](/ko)의 형사 사건 사범심사 대응 패키지:
 
 1. **사건 분석** (당일 무료) — 형사 처분과 비자 영향 진단
 2. **자료 수집 및 정리** (5-7일) — 가족/직장/기여도 자료 체계화
@@ -184,11 +184,11 @@ related:
 
 **무료 초기 진단** — 한국어, 영어, 중국어, 일본어 가능
 
-[지금 진단 신청하기 →](/#contact)
+[지금 진단 신청하기 →](/ko)
 
 ---
 
 **관련 글:**
-- [출입국사범심사 완전 가이드](/blog/immigration-offense-review-guide)
-- [외국인 음주운전 사범심사 대응법](/blog/dui-foreigner-visa)
-- [형사 기록이 영주권에 미치는 영향](/blog/criminal-record-pr-impact)
+- [출입국사범심사 완전 가이드](/ko/blog/immigration-offense-review-guide)
+- [외국인 음주운전 사범심사 대응법](/ko/blog/dui-foreigner-visa)
+- [형사 기록이 영주권에 미치는 영향](/ko/blog/criminal-record-pr-impact)

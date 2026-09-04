@@ -10,8 +10,16 @@ export const metadata: Metadata = {
   description:
     "음주운전, 형사사건, 마약 조사, 불법취업, 보이스피싱 등 외국인 출입국사범심사 대응 가이드. 비전행정사사무소 전문가가 직접 작성한 실전 정보.",
   alternates: {
-    canonical: "/blog",
-    languages: { ko: "/blog", en: "/en/blog", zh: "/zh/blog", ja: "/ja/blog" },
+    // 레거시 /blog 는 한국어판 /ko/blog 와 동일 콘텐츠이므로 canonical 을 /ko/blog 로 통일한다
+    canonical: "/ko/blog",
+    languages: {
+      ko: "/ko/blog",
+      en: "/en/blog",
+      zh: "/zh/blog",
+      ja: "/ja/blog",
+      vi: "/vi/blog",
+      "x-default": "/ko/blog",
+    },
   },
 };
 

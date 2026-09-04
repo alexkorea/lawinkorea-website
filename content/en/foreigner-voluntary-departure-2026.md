@@ -1,6 +1,6 @@
 ---
-title: "Voluntary Departure for Overstaying Foreigners in Korea — Entry Ban & Removal Guide 2026"
-description: "A complete 2026 guide for foreigners overstaying in Korea: voluntary departure benefits, entry ban periods by overstay duration, and how to apply for entry ban removal."
+title: "Voluntary Departure & Entry Ban Removal in Korea (2026)"
+description: "A 2026 guide for foreigners overstaying in Korea: the benefits of voluntary departure, entry ban periods by overstay length, and how to apply to have the ban lifted."
 date: "2026-05-13"
 category: "Overstay"
 keywords:
@@ -21,8 +21,6 @@ faq:
   - q: "Can I reapply for a Korea visa after voluntary departure?"
     a: "Once the entry ban period expires, you can apply for a new visa. Note that an overstay record may disadvantage your application, so submitting strong supporting materials is important."
 ---
-
-# Voluntary Departure for Overstaying Foreigners in Korea — Entry Ban & Removal Guide 2026
 
 If you remain in Korea after your visa expires, you become classified as an overstayer (illegal resident).
 Getting caught in an enforcement raid leads to forced deportation and an entry ban — but choosing to leave voluntarily can significantly reduce the consequences.
@@ -162,4 +160,4 @@ VISION Administrative Attorney Office guides you through voluntary departure, en
 
 **Book your free consultation now.**
 
-[Request a Free Consultation →](/contact)
+[Request a Free Consultation →](/en/contact)

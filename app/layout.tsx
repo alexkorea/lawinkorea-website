@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     template: "%s · Law in Korea",
   },
   description:
-    "출입국사범심사·음주운전·형사사건·체류 연장 행정 대응. 비전행정사사무소 (서울 중구), Since 2018, 4개 국어(KR·EN·中文·日本語) 지원. 1,000+ 성공 사례, 98% 승인율.",
+    "출입국사범심사·음주운전·형사사건·체류 연장 행정 대응. 비전행정사사무소 (서울 중구), Since 2018, 5개 국어(KR·EN·中文·日本語·Tiếng Việt) 지원. 1,000+ 성공 사례, 98% 승인율.",
   keywords: [
     "출입국사범심사",
     "사범심사",
@@ -23,13 +23,14 @@ export const metadata: Metadata = {
     "Korean visa lawyer",
   ],
   alternates: {
-    canonical: SITE.url,
+    canonical: `${SITE.url}/ko`,
     languages: {
       ko: `${SITE.url}/ko`,
       en: `${SITE.url}/en`,
       zh: `${SITE.url}/zh`,
       ja: `${SITE.url}/ja`,
-      "x-default": SITE.url,
+      vi: `${SITE.url}/vi`,
+      "x-default": `${SITE.url}/ko`,
     },
   },
   openGraph: {
@@ -37,10 +38,10 @@ export const metadata: Metadata = {
     siteName: "Law in Korea",
     title: "대한민국 출입국사범심사 · Law in Korea",
     description:
-      "출입국사범심사·음주운전·형사사건·비자 위기 시 차분하게 함께하는 전문 행정사. 4개 국어 지원, 서울 중구.",
+      "출입국사범심사·음주운전·형사사건·비자 위기 시 차분하게 함께하는 전문 행정사. 5개 국어 지원, 서울 중구.",
     url: SITE.url,
     locale: "ko_KR",
-    alternateLocale: ["en_US", "zh_CN", "ja_JP"],
+    alternateLocale: ["en_US", "zh_CN", "ja_JP", "vi_VN"],
   },
   twitter: {
     card: "summary_large_image",
@@ -70,12 +71,18 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+        <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="" />
         <link
           href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap"
           rel="stylesheet"
         />
+        {/*
+          WEBSITE STANDARD v2.0 §3 — 한글 웹폰트는 subset 필수.
+          기존 static/pretendard.css 는 전체 굵기 파일(약 780KB × 3)을 내려받았다.
+          dynamic-subset 은 실제 사용된 글자 범위만 woff2 조각으로 받아 초기 로딩을 크게 줄인다.
+        */}
         <link
-          href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css"
+          href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css"
           rel="stylesheet"
         />
         <script
@@ -100,7 +107,7 @@ export default function RootLayout({
                 addressCountry: "KR",
               },
               areaServed: { "@type": "Country", name: "South Korea" },
-              availableLanguage: ["Korean", "English", "Chinese", "Japanese"],
+              availableLanguage: ["Korean", "English", "Chinese", "Japanese", "Vietnamese"],
               priceRange: "$$",
             }),
           }}

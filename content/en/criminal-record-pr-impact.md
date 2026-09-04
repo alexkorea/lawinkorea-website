@@ -1,6 +1,6 @@
 ---
-title: "Criminal Records & Korean Permanent Residency (F-5) / Naturalization — 5-Year Bar? 10-Year?"
-description: "How fines, suspended sentences, and imprisonment affect Korean F-5 PR and citizenship applications. Bar periods, recovery timing, case-by-case forecasts."
+title: "Criminal Records, F-5 Permanent Residency & Naturalization"
+description: "How fines, suspended sentences and prison terms affect F-5 permanent residency and Korean citizenship: disqualification periods, recovery timing and case-by-case outlooks."
 date: "2026-05-01"
 category: "PR · Citizenship"
 cluster: "cluster"
@@ -231,7 +231,7 @@ F-5 application timing must be **neither too early nor too late.** Pre-diagnosis
 
 **Free initial diagnosis — multilingual**
 
-[Request your diagnosis →](/#contact)
+[Request your diagnosis →](/en)
 
 ---
 

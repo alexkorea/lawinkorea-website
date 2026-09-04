@@ -197,12 +197,12 @@ related:
 
 **무료 초기 진단 — 비밀 보장 — 다국어 지원**
 
-[지금 진단 신청 →](/#contact)
+[지금 진단 신청 →](/ko)
 
 ---
 
 **관련 글:**
-- [출입국사범심사 완전 가이드](/blog/immigration-offense-review-guide)
-- [외국인 형사사건과 비자 방어](/blog/criminal-case-visa-defense)
-- [형사 기록이 영주권에 미치는 영향](/blog/criminal-record-pr-impact)
-- [입국 금지 해제 신청](/blog/entry-ban-removal)
+- [출입국사범심사 완전 가이드](/ko/blog/immigration-offense-review-guide)
+- [외국인 형사사건과 비자 방어](/ko/blog/criminal-case-visa-defense)
+- [형사 기록이 영주권에 미치는 영향](/ko/blog/criminal-record-pr-impact)
+- [입국 금지 해제 신청](/ko/blog/entry-ban-removal)

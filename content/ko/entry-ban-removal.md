@@ -211,12 +211,12 @@ related:
 
 **무료 초기 진단** — 한국어, 영어, 중국어, 일본어 가능. 전 세계 어디서든 신청 가능.
 
-[지금 진단 신청 →](/#contact)
+[지금 진단 신청 →](/ko)
 
 ---
 
 **관련 글:**
-- [출입국사범심사 완전 가이드](/blog/immigration-offense-review-guide)
-- [형사 기록이 영주권에 미치는 영향](/blog/criminal-record-pr-impact)
-- [외국인 형사사건과 비자 방어](/blog/criminal-case-visa-defense)
-- [마약 사건 후 강제퇴거](/blog/drug-case-deportation)
+- [출입국사범심사 완전 가이드](/ko/blog/immigration-offense-review-guide)
+- [형사 기록이 영주권에 미치는 영향](/ko/blog/criminal-record-pr-impact)
+- [외국인 형사사건과 비자 방어](/ko/blog/criminal-case-visa-defense)
+- [마약 사건 후 강제퇴거](/ko/blog/drug-case-deportation)

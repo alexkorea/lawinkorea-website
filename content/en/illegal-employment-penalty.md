@@ -1,6 +1,6 @@
 ---
-title: "Illegal Employment & Out-of-Status Activity for Foreigners in Korea"
-description: "Penalty and visa-defense guide for foreign students exceeding work hours, E-9 holders changing employers, C-3 tourists working — and the strategy that prevents deportation."
+title: "Unauthorized Work in Korea — Avoiding Deportation"
+description: "Student part-time hour limits, E-9 workplace departure and D-2 out-of-status work: penalties for you and your employer, mitigation evidence and how to keep your visa."
 date: "2026-05-01"
 category: "Employment · 불법취업"
 cluster: "cluster"
@@ -175,7 +175,7 @@ Out-of-status activity is **time-critical**. Self-reporting before detection vs.
 
 **Free initial diagnosis — confidential — multilingual**
 
-[Request your diagnosis →](/#contact)
+[Request your diagnosis →](/en)
 
 ---
 

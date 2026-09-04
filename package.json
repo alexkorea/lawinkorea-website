@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "blog:data": "node scripts/build-blog-data.mjs",
+    "prebuild": "node scripts/build-blog-data.mjs"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

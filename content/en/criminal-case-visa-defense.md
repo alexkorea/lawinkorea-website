@@ -1,6 +1,6 @@
 ---
-title: "Criminal Cases & Visa Defense for Foreigners in Korea — Avoiding Deportation After Assault, Theft, Fraud"
-description: "Step-by-step visa defense for foreigners convicted of assault, theft, fraud, or defamation in Korea. Suspended sentence, settlement, and mitigation strategy that changes outcomes."
+title: "Criminal Cases & Visa Defense for Foreigners in Korea"
+description: "How foreigners punished for assault, theft or fraud in Korea can keep their visa and avoid deportation: charge-by-charge outcomes, mitigation evidence and a 5-step plan."
 date: "2026-05-01"
 category: "Criminal · 형사사건"
 cluster: "cluster"
@@ -139,7 +139,7 @@ The difference is **not the offense or fine**. It's **document depth from the im
 
 ## 6. What Vision Adds
 
-[Vision Administrative Law Office](/) protocol:
+[Vision Administrative Law Office](/en) protocol:
 1. Case analysis (free, same day)
 2. Document collection and packaging (5–7 days)
 3. Reason letter / petition drafting (3–5 days)
@@ -153,7 +153,7 @@ The criminal-incident moment is the best starting point. Starting after criminal
 
 **Free initial diagnosis** — Korean, English, Chinese, Japanese.
 
-[Book your diagnosis →](/#contact)
+[Book your diagnosis →](/en)
 
 ---
 

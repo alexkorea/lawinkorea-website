@@ -1,5 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import { pageMetadata } from "../../lib/seo";
+import { breadcrumbSchema } from "../../lib/schema";
 
 const VALID_LOCALES = ["ko", "en", "ja", "zh", "vi"] as const;
 type L = (typeof VALID_LOCALES)[number];
@@ -78,8 +80,7 @@ const CONTENT: Record<L, { title: string; sub: string; visas: { type: string; im
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
-  const l = VALID_LOCALES.includes(locale as L) ? (locale as L) : "ko";
-  return { title: CONTENT[l].title + " · 비전행정사사무소" };
+  return pageMetadata(locale, "visa-impact", "/visa-impact");
 }
 
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
@@ -89,6 +90,12 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   const c = CONTENT[l];
   return (
     <main style={{ maxWidth: 860, margin: "0 auto", padding: "64px 24px" }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumbSchema(l, [{ name: c.title, path: "/visa-impact" }])),
+        }}
+      />
       <h1 style={{ fontSize: 36, fontWeight: 700, color: "#0a1628", marginBottom: 12 }}>{c.title}</h1>
       <p style={{ color: "#475569", fontSize: 17, lineHeight: 1.7, marginBottom: 40 }}>{c.sub}</p>
 

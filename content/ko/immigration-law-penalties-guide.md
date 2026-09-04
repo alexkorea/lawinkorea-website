@@ -180,7 +180,7 @@ related:
 
 **핵심:** 형사 절차에서 벌금형으로 끝나도 출입국 사범심사는 별도. **벌금만 내면 안전하다는 오해**가 강제 퇴거로 이어지는 가장 흔한 실수입니다.
 
-[출입국사범심사 완전 가이드](/blog/immigration-offense-review-guide)에서 사범심사 절차의 모든 것을 확인하세요.
+[출입국사범심사 완전 가이드](/ko/blog/immigration-offense-review-guide)에서 사범심사 절차의 모든 것을 확인하세요.
 
 ## 10. 행정사 동행이 필요한 이유
 
@@ -196,15 +196,15 @@ related:
 
 비전행정사사무소 — Since 2018, 1,000+ 사범심사 처리, 한국어/영어/중국어/일본어 모두 가능.
 
-[무료 초기 진단 신청 →](/#contact)
+[무료 초기 진단 신청 →](/ko)
 
 ---
 
 **관련 글:**
-- [출입국사범심사 완전 가이드](/blog/immigration-offense-review-guide)
-- [외국인 불법취업·자격외 활동 처분](/blog/illegal-employment-penalty)
-- [비자 연장 거절 후 30일 대응](/blog/visa-denial-response)
-- [형사 기록과 영주권(F-5) 영향](/blog/criminal-record-pr-impact)
+- [출입국사범심사 완전 가이드](/ko/blog/immigration-offense-review-guide)
+- [외국인 불법취업·자격외 활동 처분](/ko/blog/illegal-employment-penalty)
+- [비자 연장 거절 후 30일 대응](/ko/blog/visa-denial-response)
+- [형사 기록과 영주권(F-5) 영향](/ko/blog/criminal-record-pr-impact)
 
 ---
 

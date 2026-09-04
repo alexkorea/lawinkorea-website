@@ -1,6 +1,32 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // WEBSITE STANDARD v2.0 §3 — 보안 헤더 + 정적자산 캐시.
+  // HTML 의 s-maxage(엣지 캐시)는 Next 기본값을 그대로 두고 보안 헤더만 추가한다.
+  async headers() {
+    const security = [
+      { key: "X-Content-Type-Options", value: "nosniff" },
+      { key: "X-Frame-Options", value: "SAMEORIGIN" },
+      { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+      { key: "Permissions-Policy", value: "geolocation=(), microphone=(), camera=()" },
+      {
+        key: "Strict-Transport-Security",
+        value: "max-age=31536000; includeSubDomains; preload",
+      },
+    ];
+    return [
+      { source: "/:path*", headers: security },
+      {
+        // 파일명이 바뀌지 않는 정적 이미지 — 현재 no-store 로 나가고 있어 재다운로드가 발생한다
+        source: "/:path*.(png|jpg|jpeg|svg|webp|avif|ico|woff2)",
+        headers: [
+          ...security,
+          { key: "Cache-Control", value: "public, max-age=31536000, immutable" },
+        ],
+      },
+    ];
+  },
+
   async redirects() {
     return [
       {

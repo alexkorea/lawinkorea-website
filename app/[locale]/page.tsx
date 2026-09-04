@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import { alternatesFor } from "../lib/seo";
 import type { Metadata } from "next";
 import { SITE } from "../lib/constants";
 
@@ -10,7 +11,7 @@ const titles: Record<L, string> = {
   en: "Immigration Offense Review Specialists · Law in Korea",
   ja: "出入国審査専門 · Law in Korea",
   zh: "出入境违规专业 · Law in Korea",
-  vi: "Chuyên gia xem xét vi phạm xuất nhập cảnh · Law in Korea",
+  vi: "Xem xét vi phạm xuất nhập cảnh · Law in Korea",
 };
 
 const descriptions: Record<L, string> = {
@@ -26,7 +27,7 @@ const ogTitles: Record<L, string> = {
   en: "Immigration Offense Review Specialists · Law in Korea",
   ja: "出入国審査専門 · Law in Korea",
   zh: "出入境违规专业 · Law in Korea",
-  vi: "Chuyên gia xem xét vi phạm xuất nhập cảnh · Law in Korea",
+  vi: "Xem xét vi phạm xuất nhập cảnh · Law in Korea",
 };
 
 const ogDescriptions: Record<L, string> = {
@@ -50,7 +51,8 @@ export async function generateMetadata({
   if (!VALID_LOCALES.includes(locale as L)) return {};
   const l = locale as L;
   return {
-    title: titles[l],
+    // 각 타이틀에 이미 브랜드가 포함돼 있어 루트 템플릿을 덧붙이지 않는다
+    title: { absolute: titles[l] },
     description: descriptions[l],
     openGraph: {
       title: ogTitles[l],
@@ -60,9 +62,7 @@ export async function generateMetadata({
       locale: l,
       type: "website",
     },
-    alternates: {
-      canonical: `${SITE.url}/${l}`,
-    },
+    alternates: alternatesFor(l, ""),
   };
 }
 

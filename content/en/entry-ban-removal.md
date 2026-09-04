@@ -1,6 +1,6 @@
 ---
-title: "Korea Entry Ban Removal — Shortening 5-Year and 10-Year Bans"
-description: "How deported foreigners can apply to remove or shorten Korean entry bans. Eligible reasons, application procedures, required documents, and success-rate strategy."
+title: "Korea Entry Ban Removal — How to Shorten 5 or 10 Years"
+description: "How deported foreigners apply to lift a Korean entry ban: grounds that shorten a 5 or 10-year ban, where to file, documents required and how to raise your success rate."
 date: "2026-05-01"
 category: "Entry Ban · 입국금지"
 cluster: "cluster"
@@ -207,7 +207,7 @@ Entry-ban removal **outcomes hinge on timing**. Too early = denial. Too late = f
 
 **Free initial diagnosis — applicable from anywhere worldwide — multilingual**
 
-[Request your diagnosis →](/#contact)
+[Request your diagnosis →](/en)
 
 ---
 

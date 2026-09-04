@@ -247,12 +247,12 @@ related:
 
 **무료 초기 진단** — 한국어, 영어, 중국어, 일본어 가능
 
-[지금 진단 신청 →](/#contact)
+[지금 진단 신청 →](/ko)
 
 ---
 
 **관련 글:**
-- [출입국사범심사 완전 가이드](/blog/immigration-offense-review-guide)
-- [외국인 형사사건과 비자 방어](/blog/criminal-case-visa-defense)
-- [외국인 음주운전 사범심사](/blog/dui-foreigner-visa)
-- [마약 사건 후 강제퇴거](/blog/drug-case-deportation)
+- [출입국사범심사 완전 가이드](/ko/blog/immigration-offense-review-guide)
+- [외국인 형사사건과 비자 방어](/ko/blog/criminal-case-visa-defense)
+- [외국인 음주운전 사범심사](/ko/blog/dui-foreigner-visa)
+- [마약 사건 후 강제퇴거](/ko/blog/drug-case-deportation)

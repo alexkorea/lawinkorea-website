@@ -1,6 +1,6 @@
 ---
-title: "Korea Visa Renewal Denied — 30-Day Action Plan (Supplementary Order, Objection)"
-description: "Step-by-step response to Korean visa denials and supplementary orders. Document submission, status change, objection (행정심판), or voluntary departure — choosing the right path within 30 days."
+title: "Visa Extension Denied in Korea — Your 30-Day Action Plan"
+description: "What to do within 30 days of a visa extension denial or supplementary order: submitting evidence, filing an objection, changing status and timing voluntary departure."
 date: "2026-05-01"
 category: "Visa Denial · 비자거절"
 cluster: "cluster"
@@ -242,7 +242,7 @@ Applicants in Korea or abroad can engage; Korean family can attend on behalf.
 
 **Free initial diagnosis — multilingual**
 
-[Request your diagnosis →](/#contact)
+[Request your diagnosis →](/en)
 
 ---
 

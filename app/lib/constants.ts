@@ -29,7 +29,7 @@ export const SITE = {
   domain: "lawinkorea.com",
   url: "https://lawinkorea.com",
   defaultLocale: "ko",
-  locales: ["ko", "en", "zh", "ja"] as const,
+  locales: ["ko", "en", "zh", "ja", "vi"] as const,
   gaId: "G-8DH9HJG4GS",
 };
 

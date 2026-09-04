@@ -1,6 +1,6 @@
 ---
-title: "Voice Phishing Charges for Foreigners in Korea — Even Couriers Face Deportation"
-description: "Foreigners pulled into voice phishing as cash couriers, withdrawal agents, or bank-account lenders face severe Korean penalties. Self-surrender + cooperation strategy that saves visas."
+title: "Voice Phishing Charges for Foreigners — Review Response"
+description: "Even a simple courier faces deportation: how couriers and withdrawers are treated, unknowing participation, and the weight of self-surrender and investigative cooperation."
 date: "2026-05-01"
 category: "Phishing · 보이스피싱"
 cluster: "cluster"
@@ -189,7 +189,7 @@ Voice-phishing outcomes are **80% determined by time**. Self-surrender shortly a
 
 **Free initial diagnosis — confidential — multilingual**
 
-[Request your diagnosis →](/#contact)
+[Request your diagnosis →](/en)
 
 ---
 

@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import { alternatesFor } from "../../../lib/seo";
 import type { Metadata } from "next";
 
 const VALID_LOCALES = ["ko", "en", "ja", "zh", "vi"] as const;
@@ -964,7 +965,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const content = SLUG_CONTENT[slug];
   if (content) {
     const m = content.meta[l];
-    return { title: m.title, description: m.description, alternates: { canonical: `https://lawinkorea.com/${l}/offenses/${slug}` } };
+    return { title: m.title, description: m.description, alternates: alternatesFor(l, `/offenses/${slug}`) };
   }
   return { title: COMING_SOON[l].title + " · 비전행정사사무소" };
 }

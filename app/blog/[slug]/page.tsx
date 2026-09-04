@@ -19,16 +19,19 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   const post = getBlogPostData(slug, "ko");
   if (!post) return { title: "Not Found" };
   return {
-    title: post.title,
+    title: { absolute: post.title },
     description: post.description,
     keywords: post.keywords,
     alternates: {
-      canonical: `/blog/${slug}`,
+      // 레거시 /blog/:slug 는 /ko/blog/:slug 와 동일 콘텐츠 → 사이트맵에 실린 로케일판으로 통합
+      canonical: `/ko/blog/${slug}`,
       languages: {
-        ko: `/blog/${slug}`,
+        ko: `/ko/blog/${slug}`,
         en: `/en/blog/${slug}`,
         zh: `/zh/blog/${slug}`,
         ja: `/ja/blog/${slug}`,
+        vi: `/vi/blog/${slug}`,
+        "x-default": `/ko/blog/${slug}`,
       },
     },
     openGraph: {

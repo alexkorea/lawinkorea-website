@@ -1,6 +1,6 @@
 ---
-title: "Received a Visa Status Cancellation Notice in Korea? A Complete Response Guide"
-description: "A practical guide for foreigners who received a visa status cancellation notice — covering objection procedures, administrative litigation, and emergency response strategies."
+title: "Visa Status Cancellation in Korea — Response Guide"
+description: "A practical guide for foreigners served a visa status cancellation notice: objection deadlines, administrative litigation, stay of execution and emergency response steps."
 date: "2026-05-13"
 category: "Visa Cancellation"
 keywords:
@@ -21,8 +21,6 @@ faq:
   - q: "How much does the process cost?"
     a: "Costs vary by case. Please contact us for a free consultation where we can provide an accurate estimate."
 ---
-
-# Received a Visa Status Cancellation Notice in Korea? A Complete Response Guide
 
 Receiving a visa status cancellation notice can be alarming, but acting quickly gives you real options.
 Under Article 89 of the [Immigration Act](https://www.law.go.kr), you have the right to file an objection against the cancellation decision — and you can pursue administrative litigation to challenge the ruling itself.
@@ -50,7 +48,7 @@ The best approach is prevention — but if you have already received a notice, i
 
 The window to file an objection is limited. Contact an expert now.
 
-**[Request an Emergency Free Consultation →](/contact)**
+**[Request an Emergency Free Consultation →](/en/contact)**
 
 ---
 
@@ -128,16 +126,16 @@ Costs vary by case. We provide an accurate estimate during your free consultatio
 
 ## Related Articles
 
-- [How to Appeal a Deportation Order in Korea](/blog/entry-ban-removal)
-- [Visa Cancelled Due to Unauthorized Employment](/blog/illegal-employment-penalty)
-- [How to Remove an Entry Ban](/blog/entry-ban-removal)
+- [How to Appeal a Deportation Order in Korea](/en/blog/entry-ban-removal)
+- [Visa Cancelled Due to Unauthorized Employment](/en/blog/illegal-employment-penalty)
+- [How to Remove an Entry Ban](/en/blog/entry-ban-removal)
 
 ---
 
 VISION Administrative Attorney Office specializes in visa status cancellation defense, deportation appeals, and administrative litigation.
 Multilingual consultations available in English, Korean, Chinese, and Japanese.
 
-**[Request a Free Consultation Now →](/contact)**
+**[Request a Free Consultation Now →](/en/contact)**
 
 ---
 

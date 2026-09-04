@@ -1,6 +1,6 @@
 ---
-title: "Korea Drug Case Deportation — Can Foreigners Avoid Removal? Offense Review Strategy"
-description: "Korea applies territorial jurisdiction: marijuana legal at home is illegal here. Foreigners facing drug charges must understand offense review timelines, mitigation, and entry-ban consequences."
+title: "Drug Cases and Deportation of Foreigners in Korea"
+description: "Legal at home but punished in Korea: how possession, use and distribution are treated, deportation odds for foreigners, and how to build your immigration review file."
 date: "2026-05-01"
 category: "Drug · 마약"
 cluster: "cluster"
@@ -162,7 +162,7 @@ Drug cases are **most decisively shaped by time**. Voluntary surrender, treatmen
 
 **Free initial diagnosis — Korean, English, Chinese, Japanese — confidential.**
 
-[Request your diagnosis →](/#contact)
+[Request your diagnosis →](/en)
 
 ---
 

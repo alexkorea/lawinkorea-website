@@ -1,9 +1,10 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getAllPosts } from "../../lib/blog";
+import { getBlogPostsByLocale } from "../../data/blog-posts-data";
 import { ACCENT } from "../../lib/constants";
-import { Locale } from "../../lib/content";
+import { alternatesFor } from "../../lib/seo";
+import { breadcrumbSchema } from "../../lib/schema";
 
 const VALID_LOCALES = ["ko", "en", "zh", "ja", "vi"] as const;
 type LocaleParam = (typeof VALID_LOCALES)[number];
@@ -39,9 +40,9 @@ const HEADER_TEXT: Record<LocaleParam, { eyebrow: string; title: string; subtitl
   },
   vi: {
     eyebrow: "BLOG · HƯỚNG DẪN THỰC TẾ",
-    title: "Xem xét vi phạm xuất nhập cảnh Hàn Quốc — Hướng dẫn chi tiết",
+    title: "Xem xét vi phạm xuất nhập cảnh Hàn Quốc — Hướng dẫn",
     subtitle:
-      "Chiến lược đối phó thực tế cho người nước ngoài gặp vấn đề về lái xe say rượu, vụ án hình sự, điều tra ma túy, lao động bất hợp pháp và khủng hoảng visa tại Hàn Quốc. Được viết bởi Văn phòng Hành chính VISION.",
+      "Chiến lược thực tế cho người nước ngoài đối mặt với DUI, án hình sự, điều tra ma túy, lao động trái phép và khủng hoảng visa tại Hàn Quốc, do VISION biên soạn.",
     cta: "Yêu cầu tư vấn miễn phí →",
   },
 };
@@ -55,18 +56,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   if (!VALID_LOCALES.includes(locale as LocaleParam)) return {};
   const t = HEADER_TEXT[locale as LocaleParam];
   return {
-    title: t.title,
+    title: { absolute: t.title },
     description: t.subtitle,
-    alternates: {
-      canonical: `/${locale}/blog`,
-      languages: {
-        ko: "/ko/blog",
-        en: "/en/blog",
-        zh: "/zh/blog",
-        ja: "/ja/blog",
-        vi: "/vi/blog",
-      },
-    },
+    alternates: alternatesFor(locale, "/blog"),
   };
 }
 
@@ -74,10 +66,18 @@ export default async function LocaleBlogIndex({ params }: { params: Promise<{ lo
   const { locale } = await params;
   if (!VALID_LOCALES.includes(locale as LocaleParam)) notFound();
   const t = HEADER_TEXT[locale as LocaleParam];
-  const posts = await getAllPosts(locale as Locale);
+  const posts = getBlogPostsByLocale(locale).slice().sort((a, b) => (a.date < b.date ? 1 : -1));
 
   return (
     <main style={{ background: ACCENT.bg, minHeight: "100vh" }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            breadcrumbSchema(locale, [{ name: t.eyebrow.split(" · ")[0], path: "/blog" }])
+          ),
+        }}
+      />
       <header
         style={{
           background: ACCENT.navy,

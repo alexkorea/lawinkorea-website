@@ -1,6 +1,6 @@
 ---
-title: "Korea Immigration Control Act Penalties — Case-Based Fines and Imprisonment (2026)"
-description: "Articles 93-3 to 100 of the Korean Immigration Control Act, organized by offense type: out-of-status work, overstay, illegal hiring, ID failures. Verified from current statute."
+title: "Korea Immigration Act Penalties & Fines Explained (2026)"
+description: "Articles 93-3 and 94 to 100 of the Immigration Control Act, case by case: out-of-status work, overstay, illegal hiring — sentencing ranges and the effect on your review."
 date: "2026-05-01"
 category: "Penalties · 벌칙"
 cluster: "cluster"
@@ -179,7 +179,7 @@ If notified for an Immigration Control Act violation, **paying the fine is not t
 
 Vision Administrative Law Office — immigration practice since 2018, 1,000+ offense review handling, Korean / English / Chinese / Japanese.
 
-[Free initial diagnosis →](/#contact)
+[Free initial diagnosis →](/en)
 
 ---
 

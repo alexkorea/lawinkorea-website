@@ -1,6 +1,6 @@
 ---
-title: "Korea Immigration Offense Review: Complete Guide for Foreigners (2026)"
-description: "A step-by-step guide for foreigners summoned for an Immigration Offense Review in Korea after DUI, criminal cases, drug investigations, or illegal employment. practice since 2018 from Vision Administrative Law Office."
+title: "Korea Immigration Offense Review — Complete Guide 2026"
+description: "A step-by-step guide for foreigners summoned to an immigration offense review after a DUI, criminal case, drug charge or unauthorized work, from VISION's casework."
 date: "2026-05-01"
 category: "PILLAR · Offense Review Guide"
 cluster: "pillar"
@@ -64,28 +64,28 @@ In short, this single procedure can determine whether you can continue your life
 The eight most common situations:
 
 ### (1) DUI Detection
-Regardless of blood-alcohol level, a single DUI triggers review at next visa renewal. BAC ≥ 0.03% means criminal liability; BAC ≥ 0.08% greatly increases deportation risk. See [DUI defense guide](/blog/dui-foreigner-visa).
+Regardless of blood-alcohol level, a single DUI triggers review at next visa renewal. BAC ≥ 0.03% means criminal liability; BAC ≥ 0.08% greatly increases deportation risk. See [DUI defense guide](/en/blog/dui-foreigner-visa).
 
 ### (2) Criminal Cases
-Assault, theft, fraud, defamation — any criminal record reaches Immigration. Even a fine, especially for violent offenses, can trigger deportation. See [criminal-case visa defense](/blog/criminal-case-visa-defense).
+Assault, theft, fraud, defamation — any criminal record reaches Immigration. Even a fine, especially for violent offenses, can trigger deportation. See [criminal-case visa defense](/en/blog/criminal-case-visa-defense).
 
 ### (3) Drug Investigations / Charges
-Marijuana, cocaine, methamphetamine — Korea applies territorial jurisdiction (속지주의). **Marijuana legal in your home country is still illegal here.** Immediate status revocation risk. See [drug-case deportation](/blog/drug-case-deportation).
+Marijuana, cocaine, methamphetamine — Korea applies territorial jurisdiction (속지주의). **Marijuana legal in your home country is still illegal here.** Immediate status revocation risk. See [drug-case deportation](/en/blog/drug-case-deportation).
 
 ### (4) Illegal Employment / Out-of-Status Activity
-D-2 students exceeding 25 weekly hours, E-9 holders changing employers without permission. Both worker and employer face penalties. See [illegal employment penalty](/blog/illegal-employment-penalty).
+D-2 students exceeding 25 weekly hours, E-9 holders changing employers without permission. Both worker and employer face penalties. See [illegal employment penalty](/en/blog/illegal-employment-penalty).
 
 ### (5) False Statements / Document Fraud
 False educational records, forged employment certificates, fake marriage. A single discovered lie can result in permanent entry ban.
 
 ### (6) Voice Phishing / Fraud Involvement
-Even mere couriers face severe review. Immigration treats this as serious crime. See [voice phishing penalty](/blog/voice-phishing-foreigners).
+Even mere couriers face severe review. Immigration treats this as serious crime. See [voice phishing penalty](/en/blog/voice-phishing-foreigners).
 
 ### (7) Visa Renewal / Status Change Denial
-Past records surface during processing, leading to a supplementary order or denial. Response within 30 days is mandatory. See [visa denial response](/blog/visa-denial-response).
+Past records surface during processing, leading to a supplementary order or denial. Response within 30 days is mandatory. See [visa denial response](/en/blog/visa-denial-response).
 
 ### (8) Re-entry Attempt After Entry Ban
-If you were deported and try to re-enter, an entry-ban removal is required first. See [entry-ban removal](/blog/entry-ban-removal).
+If you were deported and try to re-enter, an entry-ban removal is required first. See [entry-ban removal](/en/blog/entry-ban-removal).
 
 ## 3. Five Things to Do Immediately After the Notice
 
@@ -110,7 +110,7 @@ Not a generic apology — a logically structured argument from Immigration's per
 ### (5) Consult an Administrative Scrivener or Attorney Immediately
 A solo appearance often misses what to emphasize. Pre-appearance simulation with someone who knows Immigration practice creates a decisive difference.
 
-[Request a free initial diagnosis →](/#contact)
+[Request a free initial diagnosis →](/en)
 
 ## 4. Possible Outcomes of the Review
 
@@ -161,14 +161,14 @@ Office attendance with you, or a thorough simulation. Within 30 days of disposit
 
 The 10 essential Q&A above (FAQ section) cover the core questions. Case-specific issues are addressed in the cluster articles below.
 
-- [DUI offense review for foreigners →](/blog/dui-foreigner-visa)
-- [Criminal cases and visa defense →](/blog/criminal-case-visa-defense)
-- [Drug cases and deportation →](/blog/drug-case-deportation)
-- [Illegal employment penalty →](/blog/illegal-employment-penalty)
-- [Voice phishing and review →](/blog/voice-phishing-foreigners)
-- [Entry-ban removal →](/blog/entry-ban-removal)
-- [Visa renewal denial response →](/blog/visa-denial-response)
-- [Impact on F-5 / nationality →](/blog/criminal-record-pr-impact)
+- [DUI offense review for foreigners →](/en/blog/dui-foreigner-visa)
+- [Criminal cases and visa defense →](/en/blog/criminal-case-visa-defense)
+- [Drug cases and deportation →](/en/blog/drug-case-deportation)
+- [Illegal employment penalty →](/en/blog/illegal-employment-penalty)
+- [Voice phishing and review →](/en/blog/voice-phishing-foreigners)
+- [Entry-ban removal →](/en/blog/entry-ban-removal)
+- [Visa renewal denial response →](/en/blog/visa-denial-response)
+- [Impact on F-5 / nationality →](/en/blog/criminal-record-pr-impact)
 
 ## Closing: Time Decides Outcomes
 

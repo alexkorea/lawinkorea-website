@@ -119,7 +119,7 @@ related:
 
 ## 5. 행정사가 동행하면 무엇이 다른가
 
-[비전행정사사무소](/)의 실제 사범심사 동행 시 차이점:
+[비전행정사사무소](/ko)의 실제 사범심사 동행 시 차이점:
 
 ### (1) 사전 시뮬레이션
 출입국 직원이 자주 묻는 질문 30가지를 준비하고, 의뢰인의 답변을 다듬습니다. "왜 음주운전을 했나요?"라는 질문에 "한 잔밖에 안 마셨어요"라고 답하면 더 큰 위험입니다.
@@ -156,11 +156,11 @@ related:
 
 비전행정사사무소는 무료 초기 진단을 제공합니다. 한국어, 영어, 중국어, 일본어 모두 가능합니다.
 
-[지금 무료 진단을 신청하세요 →](/#contact)
+[지금 무료 진단을 신청하세요 →](/ko)
 
 ---
 
 **관련 글:**
-- [출입국사범심사 완전 가이드](/blog/immigration-offense-review-guide)
-- [형사사건과 비자 방어 가이드](/blog/criminal-case-visa-defense)
-- [음주운전이 영주권 신청에 미치는 영향](/blog/criminal-record-pr-impact)
+- [출입국사범심사 완전 가이드](/ko/blog/immigration-offense-review-guide)
+- [형사사건과 비자 방어 가이드](/ko/blog/criminal-case-visa-defense)
+- [음주운전이 영주권 신청에 미치는 영향](/ko/blog/criminal-record-pr-impact)
