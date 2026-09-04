@@ -90,6 +90,14 @@ const CTA_TEXT: Record<
   },
 };
 
+const BRAND_BY_LOCALE: Record<LocaleParam, string> = {
+  ko: COMPANY.brandKo,
+  en: "VISION · Law in Korea",
+  zh: "VISION 行政士事务所",
+  ja: "VISION 行政書士事務所",
+  vi: "VISION · Law in Korea",
+};
+
 export function generateStaticParams() {
   const params: { locale: string; slug: string }[] = [];
   for (const locale of VALID_LOCALES) {
@@ -247,18 +255,21 @@ export default async function LocaleBlogPost({ params }: { params: Promise<Param
             paddingBottom: 32,
             borderBottom: `1px solid ${ACCENT.border}`,
             marginBottom: 48,
-            fontSize: 12,
+            fontSize: 14,
             color: ACCENT.textMuteSoft,
-            fontFamily: "var(--font-mono)",
+            flexWrap: "wrap",
+            rowGap: 8,
           }}
         >
           <span>
-            {t.authorLabel} · {COMPANY.brandKo}
+            {t.authorLabel} · {BRAND_BY_LOCALE[locale as LocaleParam]}
           </span>
-          <span aria-hidden="true">·</span>
-          <time dateTime={post.updated || post.date}>
-            {t.updatedLabel} {post.updated || post.date}
-          </time>
+          <span>
+            {t.updatedLabel}{" "}
+            <time dateTime={post.updated || post.date} style={{ fontFamily: "var(--font-mono)" }}>
+              {post.updated || post.date}
+            </time>
+          </span>
         </div>
 
         <div

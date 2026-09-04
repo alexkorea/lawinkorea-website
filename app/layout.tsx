@@ -77,12 +77,14 @@ export default function RootLayout({
           rel="stylesheet"
         />
         {/*
-          WEBSITE STANDARD v2.0 §3 — 한글 웹폰트는 subset 필수.
-          기존 static/pretendard.css 는 전체 굵기 파일(약 780KB × 3)을 내려받았다.
-          dynamic-subset 은 실제 사용된 글자 범위만 woff2 조각으로 받아 초기 로딩을 크게 줄인다.
+          현행 유지: static/pretendard.css.
+          검증 결과 라이브에서는 이 CSS 가 실제 woff2 를 한 건도 내려받지 않아 한글이
+          시스템 폰트로 렌더되고 있다(= Pretendard 미적용). variable dynamic-subset 으로
+          바꾸면 Pretendard 가 정상 적용되지만 약 320KB / 모바일 FCP 약 +2s 비용이 발생한다.
+          본문 디자인 변경은 발주 범위 밖이라 현행 동작을 그대로 두고 보고서에 결정 요청으로 올린다.
         */}
         <link
-          href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css"
+          href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css"
           rel="stylesheet"
         />
         <script
