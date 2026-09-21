@@ -11,6 +11,33 @@
 import fs from "node:fs";
 import path from "node:path";
 
+// ── CH-01: HTML 문서에 장기 s-maxage 가 실려 나가는 것을 차단한다 ──────────────
+// Next 는 프리렌더된 페이지 응답에 `Cache-Control: s-maxage=31536000`(1년) 을 붙인다.
+// Pages 의 `_headers` 는 정적자산에만 적용되고 `_worker.js` 응답에는 적용되지 않으므로
+// 워커 출구에서 직접 덮어쓴다. 정적자산은 `_routes.json` exclude 로 워커를 아예
+// 거치지 않으므로 장기 immutable 캐시는 그대로 유지된다.
+// ISR 의 짧은 s-maxage(예: s-maxage=2)는 의도된 값이라 건드리지 않는다.
+const WORKER_WRAPPER = `import opennextWorker from "./_worker-opennext.js";
+export { DOQueueHandler, DOShardedTagCache, BucketCachePurge } from "./_worker-opennext.js";
+
+const HTML_CACHE_CONTROL = "public, max-age=0, must-revalidate";
+const LONG_S_MAXAGE_SECONDS = 60;
+const BODYLESS_STATUS = new Set([101, 204, 205, 304]);
+
+export default {
+  async fetch(request, env, ctx) {
+    const response = await opennextWorker.fetch(request, env, ctx);
+    if (!(response.headers.get("content-type") || "").includes("text/html")) return response;
+    if (BODYLESS_STATUS.has(response.status)) return response;
+    const match = /s-maxage=(\\d+)/i.exec(response.headers.get("cache-control") || "");
+    if (!match || Number(match[1]) <= LONG_S_MAXAGE_SECONDS) return response;
+    const patched = new Response(response.body, response);
+    patched.headers.set("cache-control", HTML_CACHE_CONTROL);
+    return patched;
+  },
+};
+`
+
 const ROOT = process.cwd();
 const OUT = path.join(ROOT, ".open-next");
 const ASSETS = path.join(OUT, "assets");
@@ -21,7 +48,8 @@ if (!fs.existsSync(path.join(OUT, "worker.js"))) {
 }
 
 // 1) worker 진입점을 Pages 규약(_worker.js)으로 복사
-fs.copyFileSync(path.join(OUT, "worker.js"), path.join(ASSETS, "_worker.js"));
+fs.copyFileSync(path.join(OUT, 'worker.js'), path.join(ASSETS, '_worker-opennext.js'))
+fs.writeFileSync(path.join(ASSETS, '_worker.js'), WORKER_WRAPPER)
 
 // 2) _worker.js 가 상대경로로 import 하는 번들 소스를 assets 안으로 복사
 for (const dir of ["cloudflare", "middleware", "server-functions", ".build"]) {
