@@ -26,6 +26,23 @@ const BODYLESS_STATUS = new Set([101, 204, 205, 304]);
 
 export default {
   async fetch(request, env, ctx) {
+    // GSC-D2: 경로 정규화 — 트레일링 슬래시 제거 + 퍼센트 이스케이프 대문자화.
+    // (1) Next 는 실재하는 라우트에만 /x/ → /x 정규화를 적용하고 redirects() 규칙은
+    //     원본 경로로 매칭한다. 그래서 구 워드프레스 URL 의 슬래시 판(/about-us-2/ 등)이
+    //     어떤 규칙에도 안 걸리고 404 로 떨어졌다.
+    // (2) 엣지가 넘겨주는 한글 경로는 %eb%b9%84 처럼 소문자 이스케이프인데
+    //     next.config 의 리다이렉트 source 는 대문자(%EB%B9%84) 라 매칭이 빗나갔다.
+    //     RFC 3986 정규형(대문자)으로 맞춘다.
+    // 사이트맵 125 URL 중 슬래시로 끝나거나 퍼센트 이스케이프를 쓰는 것은 0건이라
+    // 기존 200 URL 에는 영향이 없다.
+    const url = new URL(request.url);
+    const normalized = url.pathname
+      .replace(/%[0-9a-fA-F]{2}/g, (m) => m.toUpperCase())
+      .replace(/[/]+$/, "");
+    if (normalized !== url.pathname && normalized !== "") {
+      url.pathname = normalized;
+      return Response.redirect(url.toString(), 308);
+    }
     const response = await opennextWorker.fetch(request, env, ctx);
     if (!(response.headers.get("content-type") || "").includes("text/html")) return response;
     if (BODYLESS_STATUS.has(response.status)) return response;

@@ -69,12 +69,15 @@ const REP_JOB_TITLE: Record<string, string> = {
   vi: "Hành chính sĩ · Giám đốc",
 };
 
+// 대표 행정사 = 한경택(brand_registry 브랜드 E).
+// 외국어 표기(로마자·한자·가타카나)는 Boss 확정 대기 — 임의 생성 금지이므로
+// 확정 전까지 전 로케일에서 검증된 한글 표기를 그대로 쓴다.
 const REP_NAME: Record<string, string> = {
-  ko: "이원중",
-  en: "Lee Won-jung",
-  zh: "李元中",
-  ja: "イ・ウォンジュン",
-  vi: "Lee Won-jung",
+  ko: "한경택",
+  en: "한경택",
+  zh: "한경택",
+  ja: "한경택",
+  vi: "한경택",
 };
 
 /** Person(대표 행정사) — STANDARD §2 / §3 저자 표기 */
@@ -144,12 +147,15 @@ export function siteGraph(locale: Locale | string) {
         "@type": ["Organization", "ProfessionalService", "LegalService"],
         "@id": ORG_ID,
         name: COMPANY.brandKo,
-        alternateName: ["Law in Korea", COMPANY.nameEn, COMPANY.nameKo],
+        // 영문 사무소명 확정 전까지 사이트 브랜드명만 둔다(옛 브랜드 VISION 표기 제거).
+        alternateName: ["Law in Korea"],
         url: SITE.url,
-        logo: `${SITE.url}/logo-vision.png`,
+        logo: `${SITE.url}/logo-sunshine.png`,
         telephone: COMPANY.phoneIntl,
         email: COMPANY.consultEmail,
-        founder: { "@id": PERSON_ID },
+        // 브랜드 이관(비전→선샤인) 후 창업자 관계가 미확인이라 founder 대신 소속 관계로 둔다.
+        // foundingDate(2018)·"Since 2018" 표기는 Boss 확인 대기 항목.
+        employee: { "@id": PERSON_ID },
         foundingDate: String(COMPANY.estYear),
         address: {
           "@type": "PostalAddress",
@@ -162,6 +168,12 @@ export function siteGraph(locale: Locale | string) {
         areaServed: { "@type": "Country", name: "South Korea" },
         availableLanguage: ["Korean", "English", "Chinese", "Japanese", "Vietnamese"],
         priceRange: "$$",
+        openingHoursSpecification: {
+          "@type": "OpeningHoursSpecification",
+          dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          opens: "09:30",
+          closes: "17:30",
+        },
       },
       personSchema(String(locale)),
       serviceSchema(String(locale)),

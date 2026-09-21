@@ -14,7 +14,7 @@ const HEADER_TEXT: Record<LocaleParam, { eyebrow: string; title: string; subtitl
     eyebrow: "블로그 · 심층 가이드",
     title: "대한민국 출입국사범심사 — 실무 가이드",
     subtitle:
-      "음주운전·형사사건·마약 조사·불법취업·비자 위기에 처한 외국인을 위한 실질적 대응 전략. 비전행정사사무소 작성.",
+      "음주운전·형사사건·마약 조사·불법취업·비자 위기에 처한 외국인을 위한 실질적 대응 전략. 선샤인행정사사무소 작성.",
     cta: "무료 상담 요청하기 →",
   },
   en: {

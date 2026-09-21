@@ -114,7 +114,7 @@ export default function SiteHeader() {
       <header className="site-header">
         <div className="site-header-inner">
           <Link href={base} className="site-brand" aria-label={brand}>
-            <img src="/logo-vision.png" alt="" width={40} height={40} aria-hidden="true" />
+            <img src="/logo-sunshine.png" alt="" width={40} height={40} aria-hidden="true" />
             <span className="site-brand-name">{brand}</span>
           </Link>
 

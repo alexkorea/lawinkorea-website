@@ -37,9 +37,9 @@ type Seo = { title: string; description: string };
 export const PAGE_SEO: Record<string, Record<Locale, Seo>> = {
   about: {
     ko: {
-      title: "사무소 소개 — 출입국사범심사 전문 비전행정사사무소",
+      title: "사무소 소개 — 출입국사범심사 전문 선샤인행정사사무소",
       description:
-        "비전행정사사무소는 외국인 출입국사범심사 대응을 전문으로 하는 서울 중구 소재 행정사 사무소입니다. 음주운전·형사사건·불법취업·출국명령 등 체류 위기 대응 전문 분야와 5개 국어 상담 체계를 안내합니다.",
+        "선샤인행정사사무소는 외국인 출입국사범심사 대응을 전문으로 하는 서울 중구 소재 행정사 사무소입니다. 음주운전·형사사건·불법취업·출국명령 등 체류 위기 대응 전문 분야와 5개 국어 상담 체계를 안내합니다.",
     },
     en: {
       title: "About VISION — Korea Immigration Offense Review Specialists",
@@ -66,7 +66,7 @@ export const PAGE_SEO: Record<string, Record<Locale, Seo>> = {
     ko: {
       title: "주요 대응 사례 — 사범심사·출국명령 처리 사례 모음",
       description:
-        "비전행정사사무소가 지원한 출입국사범심사 대응 사례를 유형별로 정리했습니다. 음주운전, 형사사건 입건, 허가 외 취업, 체류기간 초과 자진출국 등 실제 처리 흐름과 쟁점을 익명·재구성해 소개합니다.",
+        "선샤인행정사사무소가 지원한 출입국사범심사 대응 사례를 유형별로 정리했습니다. 음주운전, 형사사건 입건, 허가 외 취업, 체류기간 초과 자진출국 등 실제 처리 흐름과 쟁점을 익명·재구성해 소개합니다.",
     },
     en: {
       title: "Case Highlights — Immigration Offense Review Outcomes",
@@ -174,7 +174,7 @@ export const PAGE_SEO: Record<string, Record<Locale, Seo>> = {
     ko: {
       title: "상담 진행 절차 — 접수부터 사범심사 동행까지",
       description:
-        "비전행정사사무소의 상담은 초기 진단, 자료 정리, 소명서 작성, 출석 시뮬레이션, 사범심사 동행, 결과 통보 후 후속 대응 순으로 진행됩니다. 각 단계에서 무엇을 준비하고 얼마나 걸리는지 안내합니다.",
+        "선샤인행정사사무소의 상담은 초기 진단, 자료 정리, 소명서 작성, 출석 시뮬레이션, 사범심사 동행, 결과 통보 후 후속 대응 순으로 진행됩니다. 각 단계에서 무엇을 준비하고 얼마나 걸리는지 안내합니다.",
     },
     en: {
       title: "Our Process — From Intake to Immigration Review Attendance",

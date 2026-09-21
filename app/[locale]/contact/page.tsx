@@ -15,11 +15,11 @@ const CONTENT: Record<L, { title: string; sub: string; methods: { label: string;
     title: "상담 신청",
     sub: "출입국 사범심사, 체류 위기 상황에 처한 경우 아래 방법으로 연락주세요. 빠른 검토 후 안내드립니다.",
     methods: [
-      { label: "카카오톡", value: "비전행정사사무소", note: "카카오 채널 검색 후 메시지" },
+      { label: "카카오톡", value: "선샤인행정사사무소", note: "카카오 채널 검색 후 메시지" },
       { label: "이메일", value: "문의 양식 이용", note: "아래 양식을 통해 상황을 간략히 설명해 주세요" },
       { label: "방문 상담", value: "서울 소재", note: "방문 전 예약 필수" },
     ],
-    hours: "상담 가능 시간: 평일 오전 9시 ~ 오후 6시 (공휴일 제외)",
+    hours: "상담 가능 시간: 평일 오전 9시 30분 ~ 오후 5시 30분 (공휴일 제외)",
     note: "긴급 상황(출국명령 수령, 강제퇴거 통보 등)의 경우 가능한 신속히 연락 주시기 바랍니다.",
   },
   en: {
@@ -30,7 +30,7 @@ const CONTENT: Record<L, { title: string; sub: string; methods: { label: string;
       { label: "Email", value: "Use contact form", note: "Briefly describe your situation using the form below" },
       { label: "In-Person", value: "Seoul office", note: "Appointment required before visiting" },
     ],
-    hours: "Business hours: Weekdays 9 AM – 6 PM (Korean holidays excluded)",
+    hours: "Business hours: Weekdays 9:30 AM – 5:30 PM (Korean holidays excluded)",
     note: "For urgent situations (departure order received, deportation notice, etc.), please contact us as soon as possible.",
   },
   zh: {
@@ -41,7 +41,7 @@ const CONTENT: Record<L, { title: string; sub: string; methods: { label: string;
       { label: "电子邮件", value: "使用联系表格", note: "请通过以下表格简述您的情况" },
       { label: "到访咨询", value: "首尔事务所", note: "到访前需提前预约" },
     ],
-    hours: "咨询时间：工作日上午9时～下午6时（韩国公假日除外）",
+    hours: "咨询时间：工作日上午9时30分～下午5时30分（韩国公假日除外）",
     note: "紧急情况（收到出境命令、强制驱逐通知等）请尽快联系我们。",
   },
   ja: {
@@ -52,7 +52,7 @@ const CONTENT: Record<L, { title: string; sub: string; methods: { label: string;
       { label: "メール", value: "お問い合わせフォームを利用", note: "以下のフォームで状況を簡単にご説明ください" },
       { label: "来所相談", value: "ソウル事務所", note: "来所前に予約必須" },
     ],
-    hours: "相談可能時間：平日 午前9時〜午後6時（祝日除く）",
+    hours: "相談可能時間：平日 午前9時30分〜午後5時30分（祝日除く）",
     note: "緊急の場合（出国命令受領、強制退去通知等）は、できるだけ早くご連絡ください。",
   },
   vi: {
@@ -63,7 +63,7 @@ const CONTENT: Record<L, { title: string; sub: string; methods: { label: string;
       { label: "Email", value: "Dùng biểu mẫu liên hệ", note: "Mô tả ngắn gọn tình huống của bạn qua biểu mẫu bên dưới" },
       { label: "Gặp trực tiếp", value: "Văn phòng Seoul", note: "Cần đặt hẹn trước khi đến" },
     ],
-    hours: "Giờ làm việc: Thứ 2–6, 9 giờ sáng – 6 giờ chiều (trừ ngày lễ Hàn Quốc)",
+    hours: "Giờ làm việc: Thứ 2–6, 9 giờ 30 sáng – 5 giờ 30 chiều (trừ ngày lễ Hàn Quốc)",
     note: "Với tình huống khẩn cấp (nhận lệnh xuất cảnh, thông báo trục xuất...), vui lòng liên hệ ngay.",
   },
 };

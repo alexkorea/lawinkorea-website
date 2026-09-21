@@ -550,7 +550,7 @@ export const FOOTER: Record<
       { h: "기업 고객", items: ["E-7 / E-9 컨설팅", "외국인 채용 사범 대응", "기업 자문 계약", "Compliance 점검"] },
       { h: "고객 지원", items: ["개인정보처리방침", "이용약관", "오시는 길", "사업자 정보"] },
     ],
-    copyright: "© 2026 비전행정사사무소 (Law in Korea). All rights reserved.",
+    copyright: "© 2026 선샤인행정사사무소 (Law in Korea). All rights reserved.",
   },
   en: {
     disclaimer:

@@ -7,7 +7,7 @@ const VALID_LOCALES = ["ko", "en", "ja", "zh", "vi"] as const;
 type L = (typeof VALID_LOCALES)[number];
 
 const titles: Record<L, string> = {
-  ko: "외국인 출입국 사범심사 대응 · 비전행정사사무소",
+  ko: "외국인 출입국 사범심사 대응 · 선샤인행정사사무소",
   en: "Immigration Offense Review Specialists · Law in Korea",
   ja: "出入国審査専門 · Law in Korea",
   zh: "出入境违规专业 · Law in Korea",
@@ -58,7 +58,7 @@ export async function generateMetadata({
       title: ogTitles[l],
       description: ogDescriptions[l],
       url: `${SITE.url}/${l}`,
-      siteName: "비전행정사사무소 | Law in Korea",
+      siteName: "선샤인행정사사무소 | Law in Korea",
       locale: l,
       type: "website",
     },
@@ -188,10 +188,10 @@ const KoHomePage = () => (
       </p>
     </section>
 
-    {/* 비전이 도와드리는 방식 */}
+    {/* 선샤인이 도와드리는 방식 */}
     <section style={{ background: "#f1f5f9", padding: "64px 24px" }}>
       <div style={{ maxWidth: 800, margin: "0 auto" }}>
-        <h2 style={{ fontSize: 26, fontWeight: 700, color: "#0a1628", marginBottom: 32 }}>비전행정사사무소가 도와드리는 방식</h2>
+        <h2 style={{ fontSize: 26, fontWeight: 700, color: "#0a1628", marginBottom: 32 }}>선샤인행정사사무소가 도와드리는 방식</h2>
         <ul style={{ lineHeight: 2, color: "#374151", paddingLeft: 20 }}>
           <li>담당 행정사가 사건 개요와 체류 상황을 함께 확인합니다.</li>
           <li>출입국 제출용 소명자료와 진술서·사유서·탄원서 등 행정서류 작성을 지원합니다.</li>
@@ -758,7 +758,7 @@ const GenericHomePage = ({ l }: { l: Exclude<L, "ko"> }) => {
         <p style={{ lineHeight: 1.9, color: "#374151" }}>{c.why.p3}</p>
       </section>
 
-      {/* 비전이 도와드리는 방식 */}
+      {/* 선샤인이 도와드리는 방식 */}
       <section style={{ background: "#f1f5f9", padding: "64px 24px" }}>
         <div style={{ maxWidth: 800, margin: "0 auto" }}>
           <h2 style={{ fontSize: 24, fontWeight: 700, color: "#0a1628", marginBottom: 28 }}>{c.how.title}</h2>

@@ -13,7 +13,7 @@ export async function generateStaticParams() {
 const CONTENT: Record<L, { title: string; intro: string; points: { label: string; desc: string }[]; closing: string }> = {
   ko: {
     title: "사무소 소개",
-    intro: "비전행정사사무소는 외국인 출입국 사범심사 대응을 전문으로 하는 행정사 사무소입니다. 음주운전, 형사사건, 불법취업, 출국명령 등 체류 위기 상황에서 외국인의 권익 보호를 위해 활동합니다.",
+    intro: "선샤인행정사사무소는 외국인 출입국 사범심사 대응을 전문으로 하는 행정사 사무소입니다. 음주운전, 형사사건, 불법취업, 출국명령 등 체류 위기 상황에서 외국인의 권익 보호를 위해 활동합니다.",
     points: [
       { label: "전문 분야", desc: "외국인 출입국사범심사 소명 대응, 체류자격 유지 지원, 출국명령·강제퇴거 이의신청 보조" },
       { label: "서비스 언어", desc: "한국어, 영어, 중국어, 일본어, 베트남어 상담 가능" },

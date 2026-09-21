@@ -4,12 +4,20 @@ import { COMPANY, SITE } from "./lib/constants";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/icon-32.png", type: "image/png", sizes: "32x32" },
+    ],
+    apple: [{ url: "/apple-icon.png", sizes: "180x180" }],
+    shortcut: [{ url: "/icon-32.png" }],
+  },
   title: {
     default: "대한민국 출입국사범심사 · Law in Korea",
     template: "%s · Law in Korea",
   },
   description:
-    "출입국사범심사·음주운전·형사사건·체류 연장 행정 대응. 비전행정사사무소 (서울 중구), Since 2018, 5개 국어(KR·EN·中文·日本語·Tiếng Việt) 지원. 1,000+ 성공 사례, 98% 승인율.",
+    "출입국사범심사·음주운전·형사사건·체류 연장 행정 대응. 선샤인행정사사무소 (서울 중구), Since 2018, 5개 국어(KR·EN·中文·日本語·Tiếng Việt) 지원. 1,000+ 성공 사례, 98% 승인율.",
   keywords: [
     "출입국사범심사",
     "사범심사",
@@ -93,8 +101,10 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LegalService",
+              // siteGraph 의 Organization 과 같은 엔티티임을 명시(엔티티 중복 방지)
+              "@id": `${SITE.url}/#organization`,
               name: COMPANY.brandKo,
-              alternateName: ["Law in Korea", COMPANY.nameKo, COMPANY.nameEn],
+              alternateName: ["Law in Korea"],
               description:
                 "출입국사범심사 · DUI · 형사사건 · 비자 연장 전문 행정사 사무소.",
               url: SITE.url,
@@ -111,6 +121,12 @@ export default function RootLayout({
               areaServed: { "@type": "Country", name: "South Korea" },
               availableLanguage: ["Korean", "English", "Chinese", "Japanese", "Vietnamese"],
               priceRange: "$$",
+              openingHoursSpecification: {
+                "@type": "OpeningHoursSpecification",
+                dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                opens: "09:30",
+                closes: "17:30",
+              },
             }),
           }}
         />

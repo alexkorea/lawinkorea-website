@@ -22,7 +22,7 @@ type SlugContent = {
 const SLUG_CONTENT: Record<string, SlugContent> = {
   "departure-order": {
     meta: {
-      ko: { title: "출국권고 — 의미·대응·재입국 금지 · Law in Korea", description: "출국권고(자진 출국 권고)의 의미, 강제퇴거와의 차이, 이의신청 방법, 재입국 금지 기간 등 핵심 정보를 비전행정사사무소가 안내합니다." },
+      ko: { title: "출국권고 — 의미·대응·재입국 금지 · Law in Korea", description: "출국권고(자진 출국 권고)의 의미, 강제퇴거와의 차이, 이의신청 방법, 재입국 금지 기간 등 핵심 정보를 선샤인행정사사무소가 안내합니다." },
       en: { title: "Departure Order (출국권고) in Korea — What It Means & How to Respond · Law in Korea", description: "Understand Korea's voluntary departure recommendation, how it differs from forced deportation, appeal options, and re-entry ban implications." },
       ja: { title: "出国勧告（출국권고）— 意味・対応・再入国禁止 · Law in Korea", description: "韓国の出国勧告の意味、強制退去との違い、異議申立て方法、再入国禁止期間について解説します。" },
       zh: { title: "出境建议（출국권고）— 含义·应对·再入境禁止 · Law in Korea", description: "了解韩国出境建议的含义、与强制出境的区别、申诉方法及再入境禁止期限。" },
@@ -51,8 +51,8 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             "지정 기간 내 자진 출국 이행",
             "출국 후 재입국 금지 기간 적용",
           ],
-          s3: "Vision이 할 수 있는 일",
-          p3: "비전행정사사무소는 출국권고 처분을 받은 외국인을 위해 다음과 같이 지원합니다:",
+          s3: "선샤인행정사사무소가 할 수 있는 일",
+          p3: "선샤인행정사사무소는 출국권고 처분을 받은 외국인을 위해 다음과 같이 지원합니다:",
           services: [
             "출국권고 처분의 이의신청(행정 심판) 가능 여부 검토",
             "처분 수위 조정을 위한 소명 자료 준비",
@@ -67,7 +67,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             { q: "출국권고는 항상 재입국 금지로 이어지나요?", a: "반드시 그렇지는 않습니다. 위반 경중, 체류 기간, 자진 출국 이행 여부 등에 따라 재입국 금지 없이 출국권고만 받는 경우도 있습니다." },
             { q: "출국권고를 강제퇴거보다 낮은 처분으로 조정받을 수 있나요?", a: "이미 출국권고가 발부된 경우, 추가적인 처분 하향보다는 재입국 금지 기간 단축이나 면제를 협의하는 방향이 현실적입니다." },
           ],
-          notice: "※ 이 페이지는 일반적인 법령 정보 제공 목적이며 개별 사건에 대한 법률 조언이 아닙니다. 구체적인 상담은 비전행정사사무소에 문의하십시오.",
+          notice: "※ 이 페이지는 일반적인 법령 정보 제공 목적이며 개별 사건에 대한 법률 조언이 아닙니다. 구체적인 상담은 선샤인행정사사무소에 문의하십시오.",
         },
         en: {
           tag: "Departure Order",
@@ -255,7 +255,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
 
             <div style={{ background: ACCENT.primary, color: "#fff", borderRadius: 10, padding: "28px 32px", display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap" as const, gap: 18, marginBottom: 40 }}>
               <div>
-                <div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>비전행정사사무소 · Vision</div>
+                <div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div>
                 <div style={{ opacity: 0.9, fontSize: 15 }}>서울 중구 퇴계로 324, 3층 · +82-2-363-2251</div>
               </div>
               <a href={`/${locale}#contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
@@ -282,7 +282,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
 
   "deportation-order": {
     meta: {
-      ko: { title: "강제퇴거명령 — 절차·이의신청·재입국금지 · Law in Korea", description: "강제퇴거명령의 의미, 보호(구금) 절차, 이의신청 방법, 재입국 금지 기간 및 비전행정사사무소의 대응 방법을 안내합니다." },
+      ko: { title: "강제퇴거명령 — 절차·이의신청·재입국금지 · Law in Korea", description: "강제퇴거명령의 의미, 보호(구금) 절차, 이의신청 방법, 재입국 금지 기간 및 선샤인행정사사무소의 대응 방법을 안내합니다." },
       en: { title: "Forced Deportation Order (강제퇴거명령) in Korea — Process & Appeals · Law in Korea", description: "Everything you need to know about Korea's forced deportation order: what triggers it, detention process, appeal options, and re-entry ban periods." },
       ja: { title: "強制退去命令（강제퇴거명령）— 手続き・異議申立て・再入国禁止 · Law in Korea", description: "韓国の強制退去命令の意味、保護（拘禁）手続き、異議申立て方法、再入国禁止期間と対応方法を解説します。" },
       zh: { title: "强制出境命令（강제퇴거명령）— 程序·申诉·再入境禁止 · Law in Korea", description: "了解韩国强制出境命令的触发条件、保护（拘留）程序、申诉方法及再入境禁止期限。" },
@@ -313,8 +313,8 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             "강제퇴거 집행 (항공편 탑승 후 출국)",
             "출국 후 재입국 금지 기간 적용 (1년~영구)",
           ],
-          s3: "Vision이 할 수 있는 일",
-          p3: "비전행정사사무소는 강제퇴거명령을 받은 외국인을 위해 다음과 같이 지원합니다:",
+          s3: "선샤인행정사사무소가 할 수 있는 일",
+          p3: "선샤인행정사사무소는 강제퇴거명령을 받은 외국인을 위해 다음과 같이 지원합니다:",
           services: [
             "강제퇴거명령에 대한 이의신청 및 행정 소송 제기 검토",
             "보호 집행 정지 신청 지원",
@@ -329,7 +329,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             { q: "보호(구금) 절차란 무엇인가요?", a: "강제퇴거명령 발부 후 당사자를 외국인보호소에 수용하는 절차입니다. 보호 기간은 원칙적으로 3개월이며 연장될 수 있습니다. 보호 해제 신청 또는 보증금 납부로 일시 해제를 받을 수 있는 경우도 있습니다." },
             { q: "강제퇴거 집행을 유예받을 수 있나요?", a: "인도주의적 사유(중병, 영아 양육 등) 또는 행정 소송 진행 중인 경우 집행 유예가 인정되는 사례가 있습니다. 전문가 조력이 필수적입니다." },
           ],
-          notice: "※ 이 페이지는 일반적인 법령 정보 제공 목적이며 개별 사건에 대한 법률 조언이 아닙니다. 구체적인 상담은 비전행정사사무소에 문의하십시오.",
+          notice: "※ 이 페이지는 일반적인 법령 정보 제공 목적이며 개별 사건에 대한 법률 조언이 아닙니다. 구체적인 상담은 선샤인행정사사무소에 문의하십시오.",
         },
         en: {
           tag: "Deportation Order",
@@ -525,7 +525,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
 
             <div style={{ background: ACCENT.primary, color: "#fff", borderRadius: 10, padding: "28px 32px", display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap" as const, gap: 18, marginBottom: 40 }}>
               <div>
-                <div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>비전행정사사무소 · Vision</div>
+                <div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div>
                 <div style={{ opacity: 0.9, fontSize: 15 }}>서울 중구 퇴계로 324, 3층 · +82-2-363-2251</div>
               </div>
               <a href={`/${locale}#contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
@@ -552,7 +552,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
 
   "entry-ban": {
     meta: {
-      ko: { title: "입국금지 — 기간·사유·해제 신청 · Law in Korea", description: "한국 입국금지(입국금지) 처분의 기간 유형, 발부 사유, 해제 신청 방법, 가족에 대한 영향을 비전행정사사무소가 안내합니다." },
+      ko: { title: "입국금지 — 기간·사유·해제 신청 · Law in Korea", description: "한국 입국금지(입국금지) 처분의 기간 유형, 발부 사유, 해제 신청 방법, 가족에 대한 영향을 선샤인행정사사무소가 안내합니다." },
       en: { title: "Entry Ban (입국금지) in Korea — Duration, Grounds & How to Lift It · Law in Korea", description: "Understand Korea's entry ban system: ban duration categories, grounds for entry ban, how to apply to lift an entry ban, and whether family members are affected." },
       ja: { title: "入国禁止（입국금지）— 期間・事由・解除申請 · Law in Korea", description: "韓国の入国禁止処分の期間、発付事由、解除申請の方法、家族への影響について解説します。" },
       zh: { title: "入境禁止（입국금지）— 期限·事由·解除申请 · Law in Korea", description: "了解韩国入境禁止处分的期限类型、发出事由、申请解除方法及对家属的影响。" },
@@ -582,8 +582,8 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             "법무부 심사 (통상 수주~수개월 소요)",
             "해제 결정 또는 기각 통보",
           ],
-          s3: "Vision이 할 수 있는 일",
-          p3: "비전행정사사무소는 입국금지 해제를 원하는 외국인을 위해 다음과 같이 지원합니다:",
+          s3: "선샤인행정사사무소가 할 수 있는 일",
+          p3: "선샤인행정사사무소는 입국금지 해제를 원하는 외국인을 위해 다음과 같이 지원합니다:",
           services: [
             "입국금지 여부 및 금지 기간 확인 지원",
             "해제 신청을 위한 소명 자료 작성 및 번역",
@@ -598,7 +598,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             { q: "내가 입국금지 명단에 있는지 어떻게 알 수 있나요?", a: "본인 확인은 재외공관(대사관·영사관)에 비자 신청을 시도하는 방법이 가장 일반적입니다. 국내에서는 출입국·외국인청에 문의할 수 있습니다." },
             { q: "입국금지가 가족 비자에도 영향을 주나요?", a: "입국금지는 원칙적으로 해당 개인에게만 적용됩니다. 다만 입국금지된 배우자의 가족 초청 자격이 제한될 수 있으며, 동반 가족의 체류 자격에 간접적 영향이 있을 수 있습니다." },
           ],
-          notice: "※ 이 페이지는 일반적인 법령 정보 제공 목적이며 개별 사건에 대한 법률 조언이 아닙니다. 구체적인 상담은 비전행정사사무소에 문의하십시오.",
+          notice: "※ 이 페이지는 일반적인 법령 정보 제공 목적이며 개별 사건에 대한 법률 조언이 아닙니다. 구체적인 상담은 선샤인행정사사무소에 문의하십시오.",
         },
         en: {
           tag: "Entry Ban",
@@ -790,7 +790,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
 
             <div style={{ background: ACCENT.primary, color: "#fff", borderRadius: 10, padding: "28px 32px", display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap" as const, gap: 18, marginBottom: 40 }}>
               <div>
-                <div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>비전행정사사무소 · Vision</div>
+                <div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div>
                 <div style={{ opacity: 0.9, fontSize: 15 }}>서울 중구 퇴계로 324, 3층 · +82-2-363-2251</div>
               </div>
               <a href={`/${locale}#contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
@@ -817,7 +817,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
 
   "visa-denial": {
     meta: {
-      ko: { title: "사증발급거부 — 사유·이의신청·재신청 전략 · Law in Korea", description: "한국 비자 거부(사증발급거부) 사유, 이의신청 방법, 재신청 전략, 향후 비자 심사에 미치는 영향을 비전행정사사무소가 안내합니다." },
+      ko: { title: "사증발급거부 — 사유·이의신청·재신청 전략 · Law in Korea", description: "한국 비자 거부(사증발급거부) 사유, 이의신청 방법, 재신청 전략, 향후 비자 심사에 미치는 영향을 선샤인행정사사무소가 안내합니다." },
       en: { title: "Visa Denial (사증발급거부) in Korea — Grounds, Appeals & Reapplication · Law in Korea", description: "Understand why Korean visas get denied, how to appeal or reapply, and how denial history affects future applications — Vision Administrative Office explains." },
       ja: { title: "査証発給拒否（사증발급거부）— 事由・異議申立て・再申請 · Law in Korea", description: "韓国ビザの拒否事由、異議申立て方法、再申請戦略、将来の審査への影響について解説します。" },
       zh: { title: "签证发放拒绝（사증발급거부）— 事由·申诉·再申请 · Law in Korea", description: "了解韩国签证被拒的常见原因、申诉方法、再申请策略及对未来申请的影响。" },
@@ -848,8 +848,8 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             "재외공관 또는 법무부에 이의신청 또는 재신청",
             "심사 결과 대기 (통상 수주~수개월 소요)",
           ],
-          s3: "Vision이 할 수 있는 일",
-          p3: "비전행정사사무소는 비자 거부에 대응하는 외국인을 위해 다음 서비스를 제공합니다:",
+          s3: "선샤인행정사사무소가 할 수 있는 일",
+          p3: "선샤인행정사사무소는 비자 거부에 대응하는 외국인을 위해 다음 서비스를 제공합니다:",
           services: [
             "비자 거부 사유 분석 및 대응 전략 수립",
             "이의신청서 작성 및 소명 자료 번역 지원",
@@ -864,7 +864,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             { q: "거부 후 얼마나 기다렸다가 재신청해야 하나요?", a: "거부 사유가 해소된 경우 즉시 재신청이 가능합니다. 그러나 같은 사유로 반복 거부될 경우 심사에서 불리하게 작용할 수 있으므로, 전문가와 전략을 수립한 후 재신청하는 것이 중요합니다." },
             { q: "비자 거부 이력이 향후 신청에 계속 남나요?", a: "거부 이력은 기록에 남으며 향후 비자 심사에서 참고됩니다. 다만 거부 사유가 해소되었음을 충분히 소명하면 불이익을 최소화할 수 있습니다." },
           ],
-          notice: "※ 이 페이지는 일반적인 법령 정보 제공 목적이며 개별 사건에 대한 법률 조언이 아닙니다. 구체적인 상담은 비전행정사사무소에 문의하십시오.",
+          notice: "※ 이 페이지는 일반적인 법령 정보 제공 목적이며 개별 사건에 대한 법률 조언이 아닙니다. 구체적인 상담은 선샤인행정사사무소에 문의하십시오.",
         },
         en: {
           tag: "Visa Denial",
@@ -1060,7 +1060,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
 
             <div style={{ background: ACCENT.primary, color: "#fff", borderRadius: 10, padding: "28px 32px", display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap" as const, gap: 18, marginBottom: 40 }}>
               <div>
-                <div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>비전행정사사무소 · Vision</div>
+                <div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div>
                 <div style={{ opacity: 0.9, fontSize: 15 }}>서울 중구 퇴계로 324, 3층 · +82-2-363-2251</div>
               </div>
               <a href={`/${locale}#contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
@@ -1099,7 +1099,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     const m = content.meta[l];
     return { title: m.title, description: m.description, alternates: alternatesFor(l, `/dispositions/${slug}`) };
   }
-  return { title: LABELS[l].title + " · 비전행정사사무소" };
+  return { title: LABELS[l].title + " · 선샤인행정사사무소" };
 }
 
 export default async function Page({ params }: { params: Promise<{ locale: string; slug: string }> }) {

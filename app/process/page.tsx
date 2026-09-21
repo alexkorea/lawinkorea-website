@@ -1,4 +1,4 @@
-import { redirect } from "next/navigation";
+import { permanentRedirect } from "next/navigation";
 
 export const metadata = {
   title: "절차 · Process",
@@ -6,5 +6,6 @@ export const metadata = {
 };
 
 export default function ProcessPage() {
-  redirect("/#process");
+  // 로케일 없는 레거시 경로. /#process 앵커는 더 이상 없으므로 최종 200 URL 로 바로 보낸다.
+  permanentRedirect("/ko/process");
 }

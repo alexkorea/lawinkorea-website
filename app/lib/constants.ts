@@ -1,19 +1,19 @@
 export const COMPANY = {
-  nameKo: "비전행정사사무소",
-  nameEn: "VISION Administrative Attorney Agent",
-  brandKo: "비전행정사사무소",
-  brandEn: "VISION · Law in Korea",
-  representative: "이원중",
-  contactManager: "김영주",
-  bizRegNo: "405-05-54079",
+  nameKo: "선샤인행정사사무소",
+  // 영문·중문·일문 사무소명은 Boss 확정 대기(brand_registry 브랜드 E) — 임의 생성 금지.
+  // 확정 전까지 스키마 alternateName 등 대외 표기에는 사용하지 않는다.
+  brandKo: "선샤인행정사사무소",
+  representative: "한경택",
+  bizRegNo: "752-17-01689",
   addressKo: "(04614) 서울특별시 중구 퇴계로 324, 3층 (성우빌딩)",
   addressKoExtra: "동대문역사문화공원역 4번출구 10미터",
   addressEn: "3F Sungwoo Bldg, 324 Toegye-ro, Jung-gu, Seoul 04614, Korea",
   addressEnExtra: "10m from Dongdaemun History & Culture Park Stn, Exit 4",
   phone: "02-363-2251",
   phoneIntl: "+82-2-363-2251",
-  email: "5000meter@gmail.com",
-  consultEmail: "5000meter@gmail.com",
+  // 대외 표기용 이메일. 수신은 5000meter@gmail.com 으로 Gmail 포워딩된다(Boss 설정).
+  email: "teamhelp888@gmail.com",
+  consultEmail: "teamhelp888@gmail.com",
   hoursKo: "월~금 09:30 – 17:30 (토·일·공휴일 휴무)",
   hoursEn: "Mon–Fri 09:30 – 17:30 KST (Closed Sat/Sun/Holidays)",
   hoursZh: "周一~周五 09:30 – 17:30 (周末/节假日休息)",

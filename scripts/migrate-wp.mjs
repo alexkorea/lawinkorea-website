@@ -169,7 +169,7 @@ async function main() {
 
     const fm = frontmatter({
       title,
-      description: excerpt || `${title} — 비전행정사사무소 출입국사범심사 가이드`,
+      description: excerpt || `${title} — 선샤인행정사사무소 출입국사범심사 가이드`,
       date,
       category: cat,
       cluster: "cluster",

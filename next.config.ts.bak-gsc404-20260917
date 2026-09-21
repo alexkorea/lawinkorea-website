@@ -34,33 +34,6 @@ const nextConfig: NextConfig = {
         destination: "/ko",
         permanent: true,
       },
-
-      // ── GSC 404 정리 (2026-09-17, 맥7 지시) ─────────────────────────────
-      // 로케일 없는 옛 blog URL. /ko/blog/<slug> 가 canonical 이므로 전부 그리로 보낸다.
-      // 순서 중요 — 좁은 규칙이 /blog/:slug 보다 먼저 와야 한다.
-      { source: "/blog/ko/:slug", destination: "/ko/blog/:slug", permanent: true },
-      { source: "/blog/page/:page", destination: "/ko/blog", permanent: true },
-      { source: "/blog", destination: "/ko/blog", permanent: true },
-      { source: "/blog/:slug", destination: "/ko/blog/:slug", permanent: true },
-
-      // 워드프레스 고정페이지 잔재
-      { source: "/home", destination: "/ko", permanent: true },
-      { source: "/about-us-2", destination: "/ko/about", permanent: true },
-      { source: "/our-team", destination: "/ko/about", permanent: true },
-      { source: "/contact-us", destination: "/ko/contact", permanent: true },
-      { source: "/services", destination: "/ko", permanent: true },
-
-      // 워드프레스 아카이브(카테고리·태그·피드) — 대응 페이지가 없어 블로그 목록으로
-      { source: "/category/:path*", destination: "/ko/blog", permanent: true },
-      { source: "/tag/:path*", destination: "/ko/blog", permanent: true },
-      { source: "/feed", destination: "/ko/blog", permanent: true },
-
-      // 워드프레스 시절 개별 글 — 현행 대응 글로
-      { source: "/d-8-비자-음주운전-벌금및-출국명령-구제방법", destination: "/ko/blog/dui-foreigner-visa", permanent: true },
-      { source: "/d-8-비자-음주운전-벌금및-출국명령-구제방법/feed", destination: "/ko/blog/dui-foreigner-visa", permanent: true },
-      // 한글 slug 는 Next 가 퍼센트 인코딩된 pathname 으로 매칭한다 — 인코딩 판을 함께 둔다.
-      { source: "/d-8-%EB%B9%84%EC%9E%90-%EC%9D%8C%EC%A3%BC%EC%9A%B4%EC%A0%84-%EB%B2%8C%EA%B8%88%EB%B0%8F-%EC%B6%9C%EA%B5%AD%EB%AA%85%EB%A0%B9-%EA%B5%AC%EC%A0%9C%EB%B0%A9%EB%B2%95", destination: "/ko/blog/dui-foreigner-visa", permanent: true },
-      { source: "/d-8-%EB%B9%84%EC%9E%90-%EC%9D%8C%EC%A3%BC%EC%9A%B4%EC%A0%84-%EB%B2%8C%EA%B8%88%EB%B0%8F-%EC%B6%9C%EA%B5%AD%EB%AA%85%EB%A0%B9-%EA%B5%AC%EC%A0%9C%EB%B0%A9%EB%B2%95/feed", destination: "/ko/blog/dui-foreigner-visa", permanent: true },
       {
         source: "/contact",
         destination: "/ko/contact",

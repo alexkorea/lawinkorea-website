@@ -1,4 +1,4 @@
-import { redirect } from "next/navigation";
+import { permanentRedirect } from "next/navigation";
 
 export const metadata = {
   title: "사례 · Cases",
@@ -6,5 +6,7 @@ export const metadata = {
 };
 
 export default function CasesPage() {
-  redirect("/#cases");
+  // 로케일 없는 레거시 경로. 예전에는 홈 앵커(/#cases)로 보냈으나 그 앵커는 더 이상 없고
+  // /<locale>/cases 전용 페이지가 생겨서, 리다이렉트 체인 없이 최종 200 URL 로 바로 보낸다.
+  permanentRedirect("/ko/cases");
 }

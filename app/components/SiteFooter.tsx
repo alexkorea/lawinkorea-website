@@ -15,8 +15,8 @@ const NAV: Record<string, {
     addressDetail: "(우) 04614",
     tel: "대표전화",
     hours: "운영시간",
-    hoursVal: "평일 09:00 – 18:00",
-    copy: "비전행정사사무소 · Law in Korea. All rights reserved.",
+    hoursVal: "평일 09:30 – 17:30",
+    copy: "선샤인행정사사무소 · Law in Korea. All rights reserved.",
   },
   en: {
     about: "About", cases: "Cases", process: "Process", blog: "Blog", offenses: "Offense Types", dispositions: "Disposition Types", contact: "Contact",
@@ -24,8 +24,8 @@ const NAV: Record<string, {
     addressDetail: "04614, Republic of Korea",
     tel: "Phone",
     hours: "Hours",
-    hoursVal: "Mon–Fri 09:00 – 18:00 KST",
-    copy: "비전행정사사무소 · Law in Korea. All rights reserved.",
+    hoursVal: "Mon–Fri 09:30 – 17:30 KST",
+    copy: "선샤인행정사사무소 · Law in Korea. All rights reserved.",
   },
   ja: {
     about: "紹介", cases: "事例", process: "手続き", blog: "ブログ", offenses: "違反の種類", dispositions: "処分の種類", contact: "お問い合わせ",
@@ -33,8 +33,8 @@ const NAV: Record<string, {
     addressDetail: "〒04614 大韓民国",
     tel: "電話",
     hours: "営業時間",
-    hoursVal: "平日 09:00 – 18:00 KST",
-    copy: "비전행정사사무소 · Law in Korea. All rights reserved.",
+    hoursVal: "平日 09:30 – 17:30 KST",
+    copy: "선샤인행정사사무소 · Law in Korea. All rights reserved.",
   },
   zh: {
     about: "简介", cases: "案例", process: "流程", blog: "博客", offenses: "违规类型", dispositions: "处分类型", contact: "联系咨询",
@@ -42,8 +42,8 @@ const NAV: Record<string, {
     addressDetail: "邮编 04614，大韩民国",
     tel: "电话",
     hours: "营业时间",
-    hoursVal: "周一至周五 09:00 – 18:00 KST",
-    copy: "비전행정사사무소 · Law in Korea. All rights reserved.",
+    hoursVal: "周一至周五 09:30 – 17:30 KST",
+    copy: "선샤인행정사사무소 · Law in Korea. All rights reserved.",
   },
   vi: {
     about: "Giới thiệu", cases: "Trường hợp", process: "Quy trình", blog: "Blog", offenses: "Loại vi phạm", dispositions: "Loại xử lý", contact: "Tư vấn",
@@ -51,8 +51,8 @@ const NAV: Record<string, {
     addressDetail: "04614, Đại Hàn Dân Quốc",
     tel: "Điện thoại",
     hours: "Giờ làm việc",
-    hoursVal: "Thứ 2–6: 09:00 – 18:00 KST",
-    copy: "비전행정사사무소 · Law in Korea. All rights reserved.",
+    hoursVal: "Thứ 2–6: 09:30 – 17:30 KST",
+    copy: "선샤인행정사사무소 · Law in Korea. All rights reserved.",
   },
 };
 
@@ -68,7 +68,7 @@ export default function SiteFooter() {
       <div style={{ maxWidth: 1100, margin: "0 auto", padding: "48px 24px 32px", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: 40 }}>
         {/* 회사 정보 */}
         <div>
-          <div style={{ color: "#fff", fontWeight: 700, fontSize: 16, marginBottom: 12 }}>비전행정사사무소</div>
+          <div style={{ color: "#fff", fontWeight: 700, fontSize: 16, marginBottom: 12 }}>선샤인행정사사무소</div>
           <div style={{ fontSize: 13, lineHeight: 1.7 }}>
             <div>{t.address}</div>
             <div>{t.addressDetail}</div>
