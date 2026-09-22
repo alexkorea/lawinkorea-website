@@ -6,7 +6,7 @@ const NOTION_API = "https://api.notion.com/v1/pages";
 
 // 발신은 Resend 에 검증된 도메인이어야 한다. lawinkorea.com 은 미검증이라 그대로 쓰면
 // 403 validation_error 로 전부 실패한다(2026-09-22 확인). 검증되면 이 상수만 되돌리면 된다.
-const MAIL_FROM = "법무법인 로인코리아 <noreply@ko-visas.com>";
+const MAIL_FROM = "선샤인행정사사무소 <noreply@ko-visas.com>";
 const NOTIFY_EMAIL = "5000meter@gmail.com";
 
 // 관리자 알림 메일. Notion 저장 성공 여부와 무관하게 반드시 보낸다 —
