@@ -179,7 +179,8 @@ export default async function LocaleBlogPost({ params }: { params: Promise<Param
                 mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE.url}/${locale}/blog/${slug}` },
               },
               {
-                "@type": ["Organization", "ProfessionalService", "LegalService"],
+                // 행정사사무소는 LegalService(법률사무소) 가 아니다 — 변호사법 오해 소지 차단(맥7 20260922-1455)
+                "@type": ["Organization", "ProfessionalService"],
                 "@id": ORG_ID,
                 name: COMPANY.brandKo,
                 alternateName: ["Law in Korea"],

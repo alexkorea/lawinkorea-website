@@ -100,7 +100,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "LegalService",
+              "@type": "ProfessionalService",
               // siteGraph 의 Organization 과 같은 엔티티임을 명시(엔티티 중복 방지)
               "@id": `${SITE.url}/#organization`,
               name: COMPANY.brandKo,
