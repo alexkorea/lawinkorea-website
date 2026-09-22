@@ -386,7 +386,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
       };
       const c = t[l] || t.ko;
       return (
-        <main style={{ background: A.bg, minHeight: "100vh" }}>
+        <main lang={l} style={{ background: A.bg, minHeight: "100vh", wordBreak: l === "ko" ? "keep-all" : "normal" }}>
           <div style={{ maxWidth: 900, margin: "0 auto", padding: "48px 24px 80px" }}>
             <div style={{ fontSize: 12, fontWeight: 600, letterSpacing: "0.08em", textTransform: "uppercase" as const, color: A.primary, marginBottom: 8 }}>{c.tag}</div>
             <h1 style={{ fontSize: "clamp(22px, 3vw, 34px)", fontWeight: 700, color: A.navy, lineHeight: 1.25, marginBottom: 18 }}>{c.h1}</h1>
@@ -413,7 +413,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
                   <tbody>
                     {g.rows.map((r) => (
                       <tr key={r.key} style={{ borderBottom: `1px solid ${A.border}` }}>
-                        <th scope="row" style={{ padding: "8px 10px", textAlign: "left" as const, fontWeight: 400, color: A.muted, wordBreak: "keep-all" as const }}>{r.period}</th>
+                        <th scope="row" style={{ padding: "8px 10px", textAlign: "left" as const, fontWeight: 400, color: A.muted }}>{r.period}</th>
                         <td style={{ padding: "8px 10px", textAlign: "right" as const, fontWeight: 600, color: g.severity === "high" ? A.red : A.navy, whiteSpace: "nowrap" as const }}>{r.amount}</td>
                       </tr>
                     ))}

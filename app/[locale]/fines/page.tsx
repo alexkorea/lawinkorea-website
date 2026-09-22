@@ -94,7 +94,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       <tbody>
         {g.rows.map((r) => (
           <tr key={r.key} style={{ borderBottom: `1px solid ${A.border}` }}>
-            <th scope="row" style={{ padding: "8px 10px", textAlign: "left", fontWeight: 400, color: A.muted, wordBreak: "keep-all" }}>
+            <th scope="row" style={{ padding: "8px 10px", textAlign: "left", fontWeight: 400, color: A.muted }}>
               {r.period}
             </th>
             <td style={{ padding: "8px 10px", textAlign: "right", fontWeight: 600, color: SEVERITY[g.severity], whiteSpace: "nowrap" }}>
@@ -173,7 +173,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   };
 
   return (
-    <main style={{ background: A.bg, minHeight: "100vh" }}>
+    <main lang={l} style={{ background: A.bg, minHeight: "100vh", wordBreak: l === "ko" ? "keep-all" : "normal" }}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <div style={{ maxWidth: 900, margin: "0 auto", padding: "28px 18px 80px" }}>
         <nav aria-label="breadcrumb" style={{ fontSize: 13, color: A.muted, marginBottom: 14 }}>
