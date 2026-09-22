@@ -1,43 +1,47 @@
 import { NextResponse } from "next/server";
+import {
+  adminNotifyMail,
+  customerConfirmMail,
+  kstStamp,
+  toMailLocale,
+  type MailLocale,
+} from "@/app/lib/intake-mail";
 
 export const runtime = "nodejs";
 
 const NOTION_API = "https://api.notion.com/v1/pages";
 
-// 발신은 Resend 에 검증된 도메인이어야 한다. lawinkorea.com 은 미검증이라 그대로 쓰면
-// 403 validation_error 로 전부 실패한다(2026-09-22 확인). 검증되면 이 상수만 되돌리면 된다.
+// 발신 표시명은 brand_registry.md 의 브랜드 E(선샤인행정사사무소) 고정이다.
+// 이 사이트 운영 주체는 행정사사무소이므로 "법무법인/변호사/law firm/attorney" 계열
+// 표현을 발신명·제목·본문에 쓰면 변호사법 위반이다(2026-09-22 보스 직접 지적).
+// 발신 주소는 Resend 에 검증된 도메인이어야 한다. lawinkorea.com 은 미검증이라
+// 그대로 쓰면 403 validation_error 로 전부 실패한다. 검증되면 주소만 바꾼다.
 const MAIL_FROM = "선샤인행정사사무소 <noreply@ko-visas.com>";
 const NOTIFY_EMAIL = "5000meter@gmail.com";
 
-// 관리자 알림 메일. Notion 저장 성공 여부와 무관하게 반드시 보낸다 —
-// 이 사이트는 예전에 Notion 이 유일한 경로여서, env 가 비어 있는 동안
-// 문의가 100% 유실되고 고객에게는 500 만 돌아갔다.
-async function sendAdminEmail(
-  data: Record<string, unknown>,
-  customerEmail: string,
-  notionNote: string,
-): Promise<boolean> {
+// Resend 단일 발송기. 실패는 삼키지 않고 false 로 알린다 —
+// 호출부가 '한 경로라도 성공' 판정에 쓴다.
+async function sendMail(opts: {
+  to: string;
+  subject: string;
+  html: string;
+  replyTo?: string;
+}): Promise<boolean> {
   const key = process.env.RESEND_API_KEY;
   if (!key) {
-    console.error("[contact API] RESEND_API_KEY 미설정 — 관리자 알림 발송 불가");
+    console.error("[contact API] RESEND_API_KEY 미설정 — 메일 발송 불가");
     return false;
   }
-  const rows = Object.entries(data)
-    .filter(([k, v]) => k !== "website" && String(v ?? "").trim() !== "")
-    .map(([k, v]) => `<tr><td style="padding:6px 10px;border:1px solid #ddd;background:#f7f7f7">${k}</td><td style="padding:6px 10px;border:1px solid #ddd">${String(v).replace(/</g, "&lt;")}</td></tr>`)
-    .join("");
   try {
     const res = await fetch("https://api.resend.com/emails", {
       method: "POST",
       headers: { Authorization: `Bearer ${key}`, "Content-Type": "application/json" },
       body: JSON.stringify({
         from: MAIL_FROM,
-        to: [NOTIFY_EMAIL],
-        // 관리자가 '회신' 을 누르면 곧바로 고객에게 가도록 (이메일 없으면 생략)
-        ...(customerEmail ? { reply_to: customerEmail } : {}),
-        subject: `[lawinkorea.com 문의] ${String(data.name ?? "익명")}`,
-        html: `<h2>lawinkorea.com 새 문의</h2><table style="border-collapse:collapse">${rows}</table>`
-          + `<p style="color:#666;font-size:12px;margin-top:14px">CRM: ${notionNote}</p>`,
+        to: [opts.to],
+        subject: opts.subject,
+        html: opts.html,
+        ...(opts.replyTo ? { reply_to: opts.replyTo } : {}),
       }),
     });
     if (!res.ok) {
@@ -49,6 +53,41 @@ async function sendAdminEmail(
     console.error("[contact API] Resend 예외", e);
     return false;
   }
+}
+
+// 관리자 알림 메일. Notion 저장 성공 여부와 무관하게 반드시 보낸다 —
+// 이 사이트는 예전에 Notion 이 유일한 경로여서, env 가 비어 있는 동안
+// 문의가 100% 유실되고 고객에게는 500 만 돌아갔다.
+// 표 형식은 고객 확인메일과 동일하다(2026-09-22 보스 지시).
+async function sendAdminEmail(
+  data: Record<string, unknown>,
+  locale: MailLocale,
+  customerEmail: string,
+  notionNote: string,
+  receivedAt: string,
+  flag: string,
+): Promise<boolean> {
+  const { subject, html } = adminNotifyMail(data, locale, notionNote, receivedAt, flag);
+  return sendMail({
+    to: NOTIFY_EMAIL,
+    subject,
+    html,
+    // 관리자가 '회신' 을 누르면 곧바로 고객에게 가도록 (이메일 없으면 생략)
+    ...(customerEmail ? { replyTo: customerEmail } : {}),
+  });
+}
+
+// 고객 확인메일. 접수 내용 전문을 고객이 제출한 페이지 언어로 보낸다.
+// 실패해도 접수 자체를 실패로 만들지 않는다(관리자 알림이 본선이다).
+async function sendCustomerEmail(
+  data: Record<string, unknown>,
+  locale: MailLocale,
+  customerEmail: string,
+  receivedAt: string,
+): Promise<boolean> {
+  if (!customerEmail) return false;
+  const { subject, html } = customerConfirmMail(data, locale, receivedAt);
+  return sendMail({ to: customerEmail, subject, html, replyTo: NOTIFY_EMAIL });
 }
 
 function rt(text: unknown) {
@@ -105,10 +144,28 @@ function caseTypeMap(raw: string): string {
 export async function POST(req: Request) {
   try {
     const data = await req.json();
-    if (data.website) return NextResponse.json({ ok: true })
+
+    // 허니팟. 예전에는 채워져 오면 조용히 {ok:true} 로 버렸는데, 브라우저 자동완성이
+    // 숨은 input 을 채워버려 사람이 낸 문의가 통째로 사라졌다(2026-09-22 실측:
+    // 브라우저 제출은 crm 필드 없는 {"ok":true}, 관리자 메일 0통). 이제는 버리지 않고
+    // 제목에 [스팸의심] 을 달아 관리자에게 보내고 CRM 저장만 건너뛴다.
+    const honeypot = plain(data.website) !== "";
+
+    // 검증이 없으면 빈 본문 POST 한 번에 관리자 알림 메일이 나가고 200 이 돌아간다
+    // (2026-09-22 실측). 연락 수단이 하나도 없는 접수는 받아도 회신할 수 없다.
+    const hasContact = plain(data.email) || plain(data.contact) || plain(data.phone);
+    if (!plain(data.name) || !hasContact) {
+      return NextResponse.json(
+        { ok: false, error: "이름과 연락처(이메일 또는 전화번호)를 입력해 주세요." },
+        { status: 400 },
+      );
+    }
+
     const NOTION_API_KEY = process.env.NOTION_API_KEY;
     const NOTION_DB_ID = process.env.NOTION_DB_ID;
     const customerEmail = plain(data.email);
+    const mailLocale = toMailLocale(data.locale);
+    const receivedAt = kstStamp();
 
     const name = plain(data.name) || "Anonymous";
     const submittedAt = new Date().toISOString();
@@ -184,7 +241,10 @@ export async function POST(req: Request) {
     // Notion 저장은 '있으면 좋은' 경로로 강등한다. 실패해도 절대 여기서 끝내지 않는다.
     let notionOk = false;
     let notionNote = "미설정(NOTION_API_KEY/NOTION_DB_ID 없음)";
-    if (NOTION_API_KEY && NOTION_DB_ID) {
+    if (honeypot) {
+      notionNote = "건너뜀(허니팟 감지 — 스팸의심)";
+      console.warn("[contact API] 허니팟 감지 — CRM 저장 건너뜀, 관리자 알림은 발송", { name });
+    } else if (NOTION_API_KEY && NOTION_DB_ID) {
       try {
         const res = await fetch(NOTION_API, {
           method: "POST",
@@ -211,7 +271,25 @@ export async function POST(req: Request) {
     }
 
     // 관리자 알림은 Notion 성패와 무관하게 보낸다.
-    const mailOk = await sendAdminEmail(data as Record<string, unknown>, customerEmail, notionNote);
+    const mailOk = await sendAdminEmail(
+      data as Record<string, unknown>,
+      mailLocale,
+      customerEmail,
+      notionNote,
+      receivedAt,
+      honeypot ? "[스팸의심]" : "",
+    );
+
+    // 고객 확인메일 — 접수 내용 전문, 고객이 쓴 언어로. 스팸의심 건에는 보내지 않는다.
+    let customerMailOk = false;
+    if (!honeypot) {
+      customerMailOk = await sendCustomerEmail(
+        data as Record<string, unknown>,
+        mailLocale,
+        customerEmail,
+        receivedAt,
+      );
+    }
 
     // 어느 경로로도 남지 않았을 때만 실패로 알린다. 성공으로 위장하지 않는다.
     if (!notionOk && !mailOk) {
@@ -222,7 +300,7 @@ export async function POST(req: Request) {
       );
     }
 
-    return NextResponse.json({ ok: true, crm: notionOk });
+    return NextResponse.json({ ok: true, crm: notionOk, confirmSent: customerMailOk });
   } catch (e) {
     console.error("Contact API error:", e);
     return NextResponse.json({ ok: false, error: "Bad request" }, { status: 400 });
