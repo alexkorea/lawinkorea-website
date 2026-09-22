@@ -1,6 +1,6 @@
 ---
 title: "Voluntary Departure & Entry Ban Removal in Korea (2026)"
-description: "A 2026 guide for foreigners overstaying in Korea: the benefits of voluntary departure, entry ban periods by overstay length, and how to apply to have the ban lifted."
+description: "A guide for foreigners overstaying in Korea: the benefits of voluntary departure, entry ban periods by overstay length, and how to lift the ban."
 date: "2026-05-13"
 category: "Overstay"
 keywords:

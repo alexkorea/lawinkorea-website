@@ -1,6 +1,6 @@
 ---
 title: "Visa Status Cancellation in Korea — Response Guide"
-description: "A practical guide for foreigners served a visa status cancellation notice: objection deadlines, administrative litigation, stay of execution and emergency response steps."
+description: "A practical guide for foreigners served a visa cancellation notice: objection deadlines, administrative litigation, and emergency response steps."
 date: "2026-05-13"
 category: "Visa Cancellation"
 keywords:

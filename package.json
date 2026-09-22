@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && node scripts/seo-gate.mjs",
     "start": "next start",
     "blog:data": "node scripts/build-blog-data.mjs",
-    "prebuild": "node scripts/build-blog-data.mjs"
+    "prebuild": "node scripts/build-blog-data.mjs",
+    "seo:gate": "node scripts/seo-gate.mjs"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

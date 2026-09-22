@@ -126,6 +126,13 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
       type: "article",
       publishedTime: post.date,
       modifiedTime: post.updated || post.date,
+      images: [{ url: `${SITE.url}${post.cover}`, width: 1200, height: 630, alt: post.title }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.description,
+      images: [`${SITE.url}${post.cover}`],
     },
   };
 }
@@ -156,10 +163,11 @@ export default async function LocaleBlogPost({ params }: { params: Promise<Param
             "@context": "https://schema.org",
             "@graph": [
               {
-                "@type": "Article",
+                "@type": ["Article", "BlogPosting"],
                 "@id": `${SITE.url}/${locale}/blog/${slug}#article`,
                 headline: post.title,
                 description: post.description,
+                image: [`${SITE.url}${post.cover}`],
                 keywords: post.keywords,
                 articleSection: post.category,
                 datePublished: post.date,
@@ -271,6 +279,15 @@ export default async function LocaleBlogPost({ params }: { params: Promise<Param
             </time>
           </span>
         </div>
+
+        <img
+          src={post.cover}
+          alt={post.title}
+          width={1200}
+          height={630}
+          loading="eager"
+          style={{ width: "100%", height: "auto", borderRadius: 8, display: "block", marginBottom: 40 }}
+        />
 
         <div
           className="post-body"

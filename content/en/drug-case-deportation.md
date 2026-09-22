@@ -1,6 +1,6 @@
 ---
 title: "Drug Cases and Deportation of Foreigners in Korea"
-description: "Legal at home but punished in Korea: how possession, use and distribution are treated, deportation odds for foreigners, and how to build your immigration review file."
+description: "Legal at home but punished in Korea: how possession, use and distribution are treated, deportation odds, and how to build your immigration review file."
 date: "2026-05-01"
 category: "Drug · 마약"
 cluster: "cluster"

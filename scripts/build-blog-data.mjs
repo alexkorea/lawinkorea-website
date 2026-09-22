@@ -31,6 +31,14 @@ async function toHtml(md) {
   return processed.toString();
 }
 
+// THUMBNAIL_STANDARD 7장 — og 인덱스가 cover 의 유일한 출처.
+// frontmatter 에 손으로 넣은 스톡 파일명을 쓰지 않는다(BLOG_STANDARD 16장).
+const OG_INDEX = path.join(ROOT, "public/og/index.json");
+const ogIndex = fs.existsSync(OG_INDEX) ? JSON.parse(fs.readFileSync(OG_INDEX, "utf8")).items ?? {} : {};
+function coverFor(locale, slug) {
+  return ogIndex[`${locale}/${slug}`] ? `/og/${locale}/${slug}.png` : "";
+}
+
 const posts = [];
 for (const locale of LOCALES) {
   for (const slug of slugsFor(locale)) {
@@ -52,7 +60,7 @@ for (const locale of LOCALES) {
       keywords: data.keywords ?? [],
       related: data.related ?? [],
       faq: data.faq ?? [],
-      cover: data.cover ?? "",
+      cover: coverFor(locale, slug),
       contentHtml: await toHtml(content),
     });
   }

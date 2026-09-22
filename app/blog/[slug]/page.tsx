@@ -40,6 +40,13 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
       type: "article",
       publishedTime: post.date,
       authors: [COMPANY.nameKo],
+      images: [{ url: `${SITE.url}${post.cover}`, width: 1200, height: 630, alt: post.title }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.description,
+      images: [`${SITE.url}${post.cover}`],
     },
   };
 }
@@ -59,9 +66,10 @@ export default async function BlogPost({ params }: { params: Promise<Params> }) 
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": ["Article", "BlogPosting"],
             headline: post.title,
             description: post.description,
+            image: [`${SITE.url}${post.cover}`],
             datePublished: post.date,
             author: { "@type": "Organization", name: COMPANY.nameKo },
             publisher: {
@@ -173,6 +181,15 @@ export default async function BlogPost({ params }: { params: Promise<Params> }) 
           <span>·</span>
           <span>{COMPANY.brandKo}</span>
         </div>
+
+        <img
+          src={post.cover}
+          alt={post.title}
+          width={1200}
+          height={630}
+          loading="eager"
+          style={{ width: "100%", height: "auto", borderRadius: 8, display: "block", marginBottom: 40 }}
+        />
 
         <div
           className="post-body"

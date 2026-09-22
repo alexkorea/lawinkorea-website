@@ -1,0 +1,8 @@
+{
+  "roots": [".next/server/app"],
+  "pattern": "blog",
+  "locales": ["ko", "en", "zh", "ja", "vi"],
+  "descMin": 70,
+  "descMax": 160,
+  "requireHreflang": true
+}

@@ -136,8 +136,18 @@ fs.writeFileSync(
 /qr/*
   Cache-Control: public, max-age=31536000, immutable
 
-# 루트 정적 이미지 — 프로덕션(Workers)에서는 next.config headers() 가 동일 값을 적용한다
-/*.png
+# 루트 정적 이미지 — 프로덕션(Workers)에서는 next.config headers() 가 동일 값을 적용한다.
+# \`/*.png\` 로 뭉뚱그리면 \`/og/*\` 규칙과 합쳐져 immutable 이 남는다(파일명 버스팅 불가한 OG 가 1년 고정).
+/apple-icon.png
+  Cache-Control: public, max-age=31536000, immutable
+
+/icon-32.png
+  Cache-Control: public, max-age=31536000, immutable
+
+/logo-sunshine.png
+  Cache-Control: public, max-age=31536000, immutable
+
+/logo-vision.png
   Cache-Control: public, max-age=31536000, immutable
 
 /*.svg
@@ -148,6 +158,11 @@ fs.writeFileSync(
 
 /*.ico
   Cache-Control: public, max-age=31536000, immutable
+
+# 블로그 OG/썸네일 — 파일명이 slug 고정이라 제목이 바뀌면 같은 경로의 내용이 바뀐다.
+# 파일명 버스팅이 불가능하므로 1년 immutable 을 걸면 안 된다(위 /*.png 규칙을 덮어쓴다).
+/og/*
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
 `
 );
 

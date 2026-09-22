@@ -165,12 +165,21 @@ export default async function LocaleBlogIndex({ params }: { params: Promise<{ lo
                   background: "#fff",
                   border: `1px solid ${ACCENT.border}`,
                   borderRadius: 8,
-                  padding: 28,
+                  overflow: "hidden",
                   display: "flex",
                   flexDirection: "column",
-                  gap: 12,
                 }}
               >
+                {/* 목록 카드 썸네일 = og:image 와 같은 파일(THUMBNAIL_STANDARD 1장 카드 렌더) */}
+                <img
+                  src={p.cover.replace(/\.png$/, "-card.png")}
+                  alt={p.title}
+                  width={800}
+                  height={450}
+                  loading="lazy"
+                  style={{ width: "100%", height: "auto", display: "block", aspectRatio: "16 / 9", objectFit: "cover" }}
+                />
+                <div style={{ padding: 28, display: "flex", flexDirection: "column", gap: 12, flex: 1 }}>
                 <div
                   style={{
                     fontSize: 11,
@@ -206,6 +215,7 @@ export default async function LocaleBlogIndex({ params }: { params: Promise<{ lo
                   }}
                 >
                   {p.date}
+                </div>
                 </div>
               </Link>
             ))}

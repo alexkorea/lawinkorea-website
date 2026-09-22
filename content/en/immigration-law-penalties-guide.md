@@ -1,6 +1,6 @@
 ---
 title: "Korea Immigration Act Penalties & Fines Explained (2026)"
-description: "Articles 93-3 and 94 to 100 of the Immigration Control Act, case by case: out-of-status work, overstay, illegal hiring — sentencing ranges and the effect on your review."
+description: "Articles 93-3 and 94 to 100 of the Immigration Control Act, case by case: out-of-status work, overstay and illegal hiring sentencing ranges."
 date: "2026-05-01"
 category: "Penalties · 벌칙"
 cluster: "cluster"

@@ -1,6 +1,6 @@
 ---
 title: "Korea Entry Ban Removal — How to Shorten 5 or 10 Years"
-description: "How deported foreigners apply to lift a Korean entry ban: grounds that shorten a 5 or 10-year ban, where to file, documents required and how to raise your success rate."
+description: "How deported foreigners apply to lift a Korean entry ban: grounds that shorten a 5 or 10-year ban, where to file, and the documents required."
 date: "2026-05-01"
 category: "Entry Ban · 입국금지"
 cluster: "cluster"

@@ -1,6 +1,6 @@
 ---
 title: "Voice Phishing Charges for Foreigners — Review Response"
-description: "Even a simple courier faces deportation: how couriers and withdrawers are treated, unknowing participation, and the weight of self-surrender and investigative cooperation."
+description: "Even a simple courier faces deportation: how couriers and withdrawers are treated, unknowing participation, and the weight of self-surrender."
 date: "2026-05-01"
 category: "Phishing · 보이스피싱"
 cluster: "cluster"

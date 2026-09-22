@@ -1,6 +1,6 @@
 ---
 title: "Korea Immigration Offense Review — Complete Guide 2026"
-description: "A step-by-step guide for foreigners summoned to an immigration offense review after a DUI, criminal case, drug charge or unauthorized work, from VISION's casework."
+description: "A step-by-step guide for foreigners summoned to an immigration offence review after a DUI, criminal case, drug charge or unauthorised work."
 date: "2026-05-01"
 category: "PILLAR · Offense Review Guide"
 cluster: "pillar"
