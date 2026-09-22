@@ -4,6 +4,53 @@ export const runtime = "nodejs";
 
 const NOTION_API = "https://api.notion.com/v1/pages";
 
+// 발신은 Resend 에 검증된 도메인이어야 한다. lawinkorea.com 은 미검증이라 그대로 쓰면
+// 403 validation_error 로 전부 실패한다(2026-09-22 확인). 검증되면 이 상수만 되돌리면 된다.
+const MAIL_FROM = "법무법인 로인코리아 <noreply@ko-visas.com>";
+const NOTIFY_EMAIL = "5000meter@gmail.com";
+
+// 관리자 알림 메일. Notion 저장 성공 여부와 무관하게 반드시 보낸다 —
+// 이 사이트는 예전에 Notion 이 유일한 경로여서, env 가 비어 있는 동안
+// 문의가 100% 유실되고 고객에게는 500 만 돌아갔다.
+async function sendAdminEmail(
+  data: Record<string, unknown>,
+  customerEmail: string,
+  notionNote: string,
+): Promise<boolean> {
+  const key = process.env.RESEND_API_KEY;
+  if (!key) {
+    console.error("[contact API] RESEND_API_KEY 미설정 — 관리자 알림 발송 불가");
+    return false;
+  }
+  const rows = Object.entries(data)
+    .filter(([k, v]) => k !== "website" && String(v ?? "").trim() !== "")
+    .map(([k, v]) => `<tr><td style="padding:6px 10px;border:1px solid #ddd;background:#f7f7f7">${k}</td><td style="padding:6px 10px;border:1px solid #ddd">${String(v).replace(/</g, "&lt;")}</td></tr>`)
+    .join("");
+  try {
+    const res = await fetch("https://api.resend.com/emails", {
+      method: "POST",
+      headers: { Authorization: `Bearer ${key}`, "Content-Type": "application/json" },
+      body: JSON.stringify({
+        from: MAIL_FROM,
+        to: [NOTIFY_EMAIL],
+        // 관리자가 '회신' 을 누르면 곧바로 고객에게 가도록 (이메일 없으면 생략)
+        ...(customerEmail ? { reply_to: customerEmail } : {}),
+        subject: `[lawinkorea.com 문의] ${String(data.name ?? "익명")}`,
+        html: `<h2>lawinkorea.com 새 문의</h2><table style="border-collapse:collapse">${rows}</table>`
+          + `<p style="color:#666;font-size:12px;margin-top:14px">CRM: ${notionNote}</p>`,
+      }),
+    });
+    if (!res.ok) {
+      console.error("[contact API] Resend", res.status, await res.text());
+      return false;
+    }
+    return true;
+  } catch (e) {
+    console.error("[contact API] Resend 예외", e);
+    return false;
+  }
+}
+
 function rt(text: unknown) {
   const v = String(text ?? "").slice(0, 2000);
   if (!v) return undefined;
@@ -61,11 +108,7 @@ export async function POST(req: Request) {
     if (data.website) return NextResponse.json({ ok: true })
     const NOTION_API_KEY = process.env.NOTION_API_KEY;
     const NOTION_DB_ID = process.env.NOTION_DB_ID;
-
-    if (!NOTION_API_KEY || !NOTION_DB_ID) {
-      console.error("Missing NOTION env vars");
-      return NextResponse.json({ ok: false, error: "Server not configured" }, { status: 500 });
-    }
+    const customerEmail = plain(data.email);
 
     const name = plain(data.name) || "Anonymous";
     const submittedAt = new Date().toISOString();
@@ -138,23 +181,48 @@ export async function POST(req: Request) {
       properties,
     };
 
-    const res = await fetch(NOTION_API, {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${NOTION_API_KEY}`,
-        "Notion-Version": "2022-06-28",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(body),
-    });
-
-    if (!res.ok) {
-      const errText = await res.text();
-      console.error("Notion API error:", res.status, errText);
-      return NextResponse.json({ ok: false, error: "Submission failed" }, { status: 500 });
+    // Notion 저장은 '있으면 좋은' 경로로 강등한다. 실패해도 절대 여기서 끝내지 않는다.
+    let notionOk = false;
+    let notionNote = "미설정(NOTION_API_KEY/NOTION_DB_ID 없음)";
+    if (NOTION_API_KEY && NOTION_DB_ID) {
+      try {
+        const res = await fetch(NOTION_API, {
+          method: "POST",
+          headers: {
+            Authorization: `Bearer ${NOTION_API_KEY}`,
+            "Notion-Version": "2022-06-28",
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(body),
+        });
+        notionOk = res.ok;
+        if (!res.ok) {
+          notionNote = `저장 실패 ${res.status}`;
+          console.error("Notion API error:", res.status, await res.text());
+        } else {
+          notionNote = "저장됨";
+        }
+      } catch (e) {
+        notionNote = "저장 예외";
+        console.error("Notion API 예외:", e);
+      }
+    } else {
+      console.error("[contact API] NOTION env 미설정 — CRM 저장 건너뜀");
     }
 
-    return NextResponse.json({ ok: true });
+    // 관리자 알림은 Notion 성패와 무관하게 보낸다.
+    const mailOk = await sendAdminEmail(data as Record<string, unknown>, customerEmail, notionNote);
+
+    // 어느 경로로도 남지 않았을 때만 실패로 알린다. 성공으로 위장하지 않는다.
+    if (!notionOk && !mailOk) {
+      console.error("[contact API] 접수 경로 전부 실패", { name, email: customerEmail });
+      return NextResponse.json(
+        { ok: false, error: "접수에 실패했습니다. 02-363-2251 로 연락해 주세요." },
+        { status: 500 },
+      );
+    }
+
+    return NextResponse.json({ ok: true, crm: notionOk });
   } catch (e) {
     console.error("Contact API error:", e);
     return NextResponse.json({ ok: false, error: "Bad request" }, { status: 400 });
