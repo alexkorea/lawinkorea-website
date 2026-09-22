@@ -6,14 +6,14 @@ import { useEffect, useRef, useState } from "react";
 import { ACCENT, COMPANY } from "../lib/constants";
 import { LANG_LABELS } from "../lib/content";
 
-type NavKey = "home" | "review" | "cases" | "process" | "blog";
+type NavKey = "home" | "review" | "fines" | "cases" | "process" | "blog";
 
 const NAV_BY_LOCALE: Record<string, Record<NavKey, string>> = {
-  ko: { home: "홈", review: "사범심사", cases: "사례", process: "절차", blog: "블로그" },
-  en: { home: "Home", review: "Offense Review", cases: "Cases", process: "Process", blog: "Blog" },
-  zh: { home: "首页", review: "事犯审查", cases: "案例", process: "流程", blog: "博客" },
-  ja: { home: "ホーム", review: "事犯審査", cases: "事例", process: "手続き", blog: "ブログ" },
-  vi: { home: "Trang chủ", review: "Xem xét vi phạm", cases: "Trường hợp", process: "Quy trình", blog: "Blog" },
+  ko: { home: "홈", review: "사범심사", fines: "벌금기준", cases: "사례", process: "절차", blog: "블로그" },
+  en: { home: "Home", review: "Offense Review", fines: "Fine Standards", cases: "Cases", process: "Process", blog: "Blog" },
+  zh: { home: "首页", review: "事犯审查", fines: "罚款标准", cases: "案例", process: "流程", blog: "博客" },
+  ja: { home: "ホーム", review: "事犯審査", fines: "罰金基準", cases: "事例", process: "手続き", blog: "ブログ" },
+  vi: { home: "Trang chủ", review: "Xem xét vi phạm", fines: "Mức phạt", cases: "Trường hợp", process: "Quy trình", blog: "Blog" },
 };
 
 const CTA_NAV: Record<string, string> = {
@@ -59,6 +59,7 @@ export default function SiteHeader() {
   const items: { key: NavKey; href: string; match: string }[] = [
     { key: "home", href: base, match: `^${base}/?$` },
     { key: "review", href: `${base}/immigration-offense-review`, match: "/immigration-offense-review" },
+    { key: "fines", href: `${base}/fines`, match: "/fines" },
     { key: "cases", href: `${base}/cases`, match: "/cases" },
     { key: "process", href: `${base}/process`, match: "/process" },
     { key: "blog", href: `${base}/blog`, match: "/blog" },

@@ -8,6 +8,7 @@ const pages = [
   "",
   "/immigration-offense-review",
   "/offenses",
+  "/fines",
   "/dispositions",
   "/visa-impact",
   "/process",

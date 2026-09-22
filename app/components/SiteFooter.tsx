@@ -105,6 +105,7 @@ export default function SiteFooter() {
               { href: `${base}/offenses/drugs`, label: locale === "ko" ? "마약 사건" : locale === "ja" ? "薬物事件" : locale === "zh" ? "毒品案件" : locale === "vi" ? "Vụ án ma túy" : "Drug Offense" },
               { href: `${base}/offenses/dui`, label: locale === "ko" ? "음주운전" : locale === "ja" ? "飲酒運転" : locale === "zh" ? "酒驾" : locale === "vi" ? "Lái xe say rượu" : "DUI" },
               { href: `${base}/offenses/immigration-fines`, label: locale === "ko" ? "출입국 범칙금" : locale === "ja" ? "犯則金" : locale === "zh" ? "出入境罚款" : locale === "vi" ? "Phạt xuất nhập cảnh" : "Immigration Fines" },
+              { href: `${base}/fines`, label: locale === "ko" ? "벌금기준 전체표" : locale === "ja" ? "罰金基準表" : locale === "zh" ? "罚款标准全表" : locale === "vi" ? "Bảng mức phạt" : "Fine Standards" },
               { href: `${base}/dispositions/deportation-order`, label: locale === "ko" ? "강제퇴거" : locale === "ja" ? "強制退去" : locale === "zh" ? "强制遣返" : locale === "vi" ? "Trục xuất" : "Deportation" },
               { href: `${base}/dispositions/entry-ban`, label: locale === "ko" ? "입국금지" : locale === "ja" ? "入国禁止" : locale === "zh" ? "禁止入境" : locale === "vi" ? "Cấm nhập cảnh" : "Entry Ban" },
             ].map((item) => (

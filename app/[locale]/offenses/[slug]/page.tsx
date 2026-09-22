@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import { fineLabels, finesFor, FINE_TIER_COUNT } from "../../../lib/fines";
 import { alternatesFor } from "../../../lib/seo";
 import type { Metadata } from "next";
 
@@ -281,118 +282,19 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
       zh: { title: "出入境罚款基准表完整指南 · Law in Korea", description: "外国人登记未办理、超期滞留、非法就业等出入境管理法违规罚款金额一览。了解各违规类型和期间的金额及应对方法。" },
       vi: { title: "Bảng Tiêu Chuẩn Phạt Xuất Nhập Cảnh Hàn Quốc — Hướng Dẫn Đầy Đủ · Law in Korea", description: "Mức phạt chính thức cho các vi phạm luật xuất nhập cảnh: không đăng ký, ở quá hạn, làm việc trái phép và hơn thế nữa. Hiểu rõ mức phạt của bạn." },
     },
+    /**
+     * 표는 app/lib/fines.ts 한 곳에서 온다 — 이 페이지와 /{locale}/fines 가 같은 데이터를 쓴다.
+     * 예전에는 로케일마다 표를 따로 적어서 ko 16개 / en 7 / ja 6 / zh 5 / vi 5 로 갈라졌다.
+     */
     render: (l, locale) => {
       const A = { navy: "#001F3F", primary: "#0056B3", muted: "#475569", border: "#E9ECEF", bg: "#f8f9fb", warn: "#fff8e6", warnBorder: "#f59e0b", red: "#dc2626" };
+      const L = fineLabels(l);
+      const groups = finesFor(l);
       const t = {
         ko: {
           tag: "출입국 범칙금",
           h1: "출입국 범칙금 기준표 — 위반 유형별 완전 정리",
-          lead: "출입국관리법 위반 시 부과되는 범칙금은 위반 행위의 종류와 위반 기간에 따라 크게 달라집니다. 아래 기준표는 법무부 고시 기준을 정리한 것입니다. 범칙금 고지를 받으셨거나 위반 가능성이 있는 경우 즉시 전문가 상담을 권장합니다.",
-          tableTitle: "범칙금 기준표",
-          col: ["해당 법조문", "위반 내용", "위반 기간", "범칙금 기준액"],
-          sections: [
-            {
-              title: "외국인 고용 신고의무 위반",
-              law: "법 제100조 제1항 제1호",
-              desc: "외국인을 고용한 사용자가 해고·퇴직·사망·소재불명 등 사실 발생 후 15일 이내 신고하지 않은 경우",
-              rows: [["3개월 미만", "10만원"], ["3개월 이상 ~ 6개월 미만", "30만원"], ["6개월 이상 ~ 1년 미만", "50만원"]],
-            },
-            {
-              title: "근무처 변경·추가 신고의무 위반",
-              law: "법 제21조 제1항 제3호",
-              desc: "전문 지식·기술·기능 외국인이 근무처 변경·추가 후 15일 이내 신고하지 않은 경우",
-              rows: [["1년 이상 ~ 2년 미만", "100만원"], ["2년 이상", "200만원"]],
-            },
-            {
-              title: "17세 미만 외국인 보호자 신청·신고 의무 위반",
-              law: "법 제100조 제2항 제2호",
-              desc: "17세 미만 외국인 보호자가 체류자격 변경·연장·등록 등을 법정기간 내 신청하지 않은 경우",
-              rows: [["1년 미만", "10만원"], ["1년 이상 ~ 2년 미만", "30만원"], ["2년 이상 ~ 3년 미만", "50만원"], ["3년 이상", "100만원"]],
-            },
-            {
-              title: "외국인등록사항 변경신고 위반",
-              law: "법 제100조 제2항 제1호",
-              desc: "성명·국적·여권번호·소속기관 변경 후 14일 이내 신고하지 않은 경우",
-              rows: [["3개월 미만", "10만원"], ["3개월 이상 ~ 6개월 미만", "30만원"], ["6개월 이상 ~ 1년 미만", "50만원"], ["1년 이상", "100만원"]],
-            },
-            {
-              title: "재외동포 국내거소 이전 신고 위반",
-              law: "재외동포법 제17조 제1항",
-              desc: "거소신고 재외동포가 국내거소 이전 후 14일 이내 신고하지 않은 경우",
-              rows: [["3개월 미만", "10만원"], ["3개월 이상 ~ 6개월 미만", "30만원"], ["6개월 이상 ~ 1년 미만", "50만원"], ["1년 이상 ~ 2년 미만", "100만원"], ["2년 이상", "200만원"]],
-            },
-            {
-              title: "외국인 등록 미이행",
-              law: "법 제95조 제7호",
-              desc: "입국 후 90일 이내 외국인등록을 하지 않은 경우 (체류기간 90일 초과 외국인)",
-              rows: [["1개월 미만", "20만원"], ["1개월 이상 ~ 3개월 미만", "50만원"], ["3개월 이상 ~ 6개월 미만", "100만원"], ["6개월 이상 ~ 1년 미만", "200만원"], ["1년 이상 ~ 2년 미만", "500만원"], ["2년 이상", "1,000만원"]],
-              highlight: true,
-            },
-            {
-              title: "불법 고용 (미등록 외국인 고용)",
-              law: "법 제94조 제9호 / 제99조의3(양벌규정)",
-              desc: "취업 체류자격 없는 외국인을 고용한 경우. 법인·개인 모두 처벌 가능",
-              rows: [["3개월 미만", "300만원 ~ 3,000만원"], ["3개월 이상 ~ 6개월 미만", "500만원 ~ 3,000만원"], ["6개월 이상 ~ 1년 미만", "700만원 ~ 3,000만원"], ["1년 이상 ~ 2년 미만", "900만원 ~ 3,000만원"], ["2년 이상", "1,100만원 ~ 3,000만원"]],
-              highlight: true,
-            },
-            {
-              title: "위·변조 여권 사용",
-              law: "법 제94조 제2호",
-              desc: "위·변조 또는 타인의 여권 행사, 국적상실로 효력 상실된 여권 사용",
-              rows: [["1회", "500만원"], ["2회", "1,500만원"], ["3회 이상", "3,000만원"]],
-              highlight: true,
-            },
-            {
-              title: "체류기간·체류자격 범위 위반 활동",
-              law: "법 제94조 제7호",
-              desc: "체류기간 초과 또는 체류자격 범위를 벗어난 활동을 한 경우",
-              rows: [["1개월 미만", "200만원"], ["1개월 이상 ~ 3개월 미만", "300만원"], ["3개월 이상 ~ 6개월 미만", "400만원"]],
-            },
-            {
-              title: "불법 취업 (외국인 당사자)",
-              law: "법 제94조 제18호",
-              desc: "취업 체류자격 없이 취업한 외국인 본인",
-              rows: [["6개월 이상 ~ 1년 미만", "700만원"], ["1년 이상 ~ 2년 미만", "1,000만원"], ["2년 이상 ~ 3년 미만", "1,500만원"]],
-              highlight: true,
-            },
-            {
-              title: "체류자격외 활동 허가 없이 추가 활동",
-              law: "법 제94조 제12호",
-              desc: "허가 없이 다른 체류자격에 해당하는 활동을 추가로 한 경우",
-              rows: [["3년 이상 ~ 5년 미만", "2,000만원"], ["5년 이상 ~ 7년 미만", "2,500만원"], ["7년 이상", "3,000만원"]],
-            },
-            {
-              title: "사전허가 없이 근무처 변경·추가 활동",
-              law: "법 제95조 제6호",
-              desc: "허가 없이 근무처를 변경하거나 추가하여 활동한 경우",
-              rows: [["3개월 미만", "100만원"], ["3개월 이상 ~ 6개월 미만", "200만원"], ["6개월 이상 ~ 1년 미만", "300만원"], ["1년 이상 ~ 2년 미만", "500만원"], ["2년 이상", "1,000만원"]],
-            },
-            {
-              title: "체류자격 미부여 (출생 등)",
-              law: "법 제94조 제15호",
-              desc: "출생·국적상실 등으로 체류자격을 받아야 하는 사람이 기간 내 받지 않은 경우",
-              rows: [["1개월 미만", "50만원"], ["1개월 이상 ~ 3개월 미만", "100만원"], ["3개월 이상 ~ 6개월 미만", "200만원"], ["6개월 이상 ~ 1년 미만", "500만원"]],
-            },
-            {
-              title: "무허가 체류자격 변경 활동",
-              law: "법 제94조 제16호",
-              desc: "사전허가 없이 현재 체류자격과 다른 체류자격에 해당하는 활동을 한 경우",
-              rows: [["1년 이상 ~ 2년 미만", "1,000만원"], ["2년 이상 ~ 3년 미만", "1,500만원"], ["3년 이상 ~ 5년 미만", "2,000만원"]],
-            },
-            {
-              title: "체류기간 연장 미신청 (초과 체류)",
-              law: "법 제94조 제17호",
-              desc: "체류기간 만료 전 연장허가를 받지 않은 경우 (오버스테이)",
-              rows: [["3년 이상 ~ 5년 미만", "2,000만원"], ["5년 이상 ~ 7년 미만", "2,500만원"], ["7년 이상", "3,000만원"]],
-              highlight: true,
-            },
-            {
-              title: "체류지 변경신고 위반",
-              law: "법 제98조 제2호",
-              desc: "등록외국인이 체류지 이전 후 14일 이내 신고하지 않은 경우",
-              rows: [["3개월 미만", "10만원"], ["3개월 이상 ~ 6개월 미만", "30만원"], ["6개월 이상 ~ 1년 미만", "50만원"], ["1년 이상 ~ 2년 미만", "70만원"], ["2년 이상", "100만원"]],
-            },
-          ],
+          lead: "출입국관리법을 위반하면 위반 행위의 종류와 위반 기간(또는 위반 횟수)에 따라 범칙금 또는 과태료가 부과됩니다. 아래 기준액은 출입국관리법 시행규칙 [별표 7]·[별표 8], 같은 법 시행령 [별표 2], 재외동포법 시행령 [별표] 에 규정된 금액입니다.",
           tip1: "📌 범칙금 통지를 받았다면",
           tip1body: "범칙금은 납부 기한 내 납부하지 않으면 가산금이 부과되고, 강제징수 또는 출국정지로 이어질 수 있습니다. 통지서를 받은 즉시 내용을 확인하고 전문가와 상담하세요.",
           tip2: "⚠️ 범칙금 vs 과태료 vs 형사처벌",
@@ -406,23 +308,12 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
           cta: "지금 상담 예약",
           ctaBody: "범칙금 통지, 불법취업 고용 문제, 체류기간 초과 등 출입국 관련 사안은 선샤인행정사사무소와 즉시 상담하세요.",
           back: "사건 유형 목록으로",
-          notice: "※ 본 페이지의 범칙금 기준액은 법무부 고시 기준을 정리한 것입니다. 실제 처분은 담당 공무원의 재량 및 개별 사안에 따라 달라질 수 있으며, 법적 조언이 필요한 경우 전문가 상담을 받으시기 바랍니다.",
+          notice: "※ 이 페이지의 기준액은 법령 별표에 규정된 금액입니다. 실제 부과액은 위반 정황·위반 횟수·고용인원 등에 따라 가중되거나 감경될 수 있으며, 처분은 담당 심사관의 판단과 개별 사정에 따라 달라집니다. 일반 정보 제공 목적이며 개별 사건에 대한 법률 자문이 아닙니다.",
         },
         en: {
           tag: "Immigration Fines",
           h1: "Korea Immigration Fine Schedule — Complete Guide",
-          lead: "Fines under the Immigration Control Act vary significantly by violation type and duration. The table below summarises the official guidelines issued by the Ministry of Justice. If you have received a fine notice or are concerned about a potential violation, consult a specialist immediately.",
-          tableTitle: "Fine Reference Table",
-          col: ["Applicable Law", "Violation", "Duration", "Standard Fine"],
-          sections: [
-            { title: "Failure to Report Foreign Employee Status Change", law: "Art. 100(1)(1)", desc: "Employer fails to report within 15 days of dismissal, resignation, death, whereabouts unknown, contract change, etc.", rows: [["< 3 months", "₩100,000"], ["3–6 months", "₩300,000"], ["6 months – 1 year", "₩500,000"]], highlight: false },
-            { title: "Failure to Register as Foreigner (Overstay of Registration)", law: "Art. 95(7)", desc: "Foreign national who must register (stay > 90 days) fails to do so within 90 days of entry", rows: [["< 1 month", "₩200,000"], ["1–3 months", "₩500,000"], ["3–6 months", "₩1,000,000"], ["6 months – 1 year", "₩2,000,000"], ["1–2 years", "₩5,000,000"], ["2+ years", "₩10,000,000"]], highlight: true },
-            { title: "Hiring Unauthorised Foreign Workers", law: "Art. 94(9) / Art. 99-3", desc: "Employing a foreign national without a valid work visa. Both corporations and individuals may be punished", rows: [["< 3 months", "₩3M – ₩30M"], ["3–6 months", "₩5M – ₩30M"], ["6 months – 1 year", "₩7M – ₩30M"], ["1–2 years", "₩9M – ₩30M"], ["2+ years", "₩11M – ₩30M"]], highlight: true },
-            { title: "Overstay / Unauthorised Activities", law: "Art. 94(7)", desc: "Activity beyond permitted stay period or visa category", rows: [["< 1 month", "₩2,000,000"], ["1–3 months", "₩3,000,000"], ["3–6 months", "₩4,000,000"]], highlight: false },
-            { title: "Working Without a Work Visa (Employee Side)", law: "Art. 94(18)", desc: "Foreign national personally working without a valid work visa", rows: [["6 months – 1 year", "₩7,000,000"], ["1–2 years", "₩10,000,000"], ["2–3 years", "₩15,000,000"]], highlight: true },
-            { title: "Using Forged / Others' Passport", law: "Art. 94(2)", desc: "Use of a forged, altered, or another person's passport", rows: [["1st offence", "₩5,000,000"], ["2nd offence", "₩15,000,000"], ["3rd+ offence", "₩30,000,000"]], highlight: true },
-            { title: "Address Change Notification Failure", law: "Art. 98(2)", desc: "Registered foreigner fails to report change of residence within 14 days", rows: [["< 3 months", "₩100,000"], ["3–6 months", "₩300,000"], ["6 months – 1 year", "₩500,000"], ["1–2 years", "₩700,000"], ["2+ years", "₩1,000,000"]], highlight: false },
-          ],
+          lead: "A breach of Korea's Immigration Act attracts either a fine or an administrative penalty, set by the type of breach and how long it lasted — or how many times it happened. The amounts below are those fixed in Tables 7 and 8 of the Enforcement Rule, Table 2 of the Enforcement Decree, and the Table to the Enforcement Decree of the Overseas Koreans Act.",
           tip1: "📌 Received a Fine Notice?",
           tip1body: "Fines must be paid by the stated deadline. Late payment results in surcharges and may lead to forced collection or a departure ban. Check the notice immediately and consult a specialist.",
           tip2: "⚠️ Fine vs Administrative Penalty vs Criminal Punishment",
@@ -436,22 +327,12 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
           cta: "Book a Consultation",
           ctaBody: "For fine notices, illegal employment issues, overstay, or any immigration matter, contact Vision Administrative Office for immediate assistance.",
           back: "Back to Offense Types",
-          notice: "The figures on this page reflect Ministry of Justice guidelines. Actual penalties depend on the discretion of the reviewing officer and individual circumstances. This page is for general information only — please consult a specialist for legal advice.",
+          notice: "The amounts on this page are those fixed in the statutory schedules. The sum actually imposed may be increased or reduced according to the circumstances, repeat violations and the number of workers employed, and the decision depends on the reviewing officer's judgement. This page is general information, not legal advice on an individual case.",
         },
         ja: {
           tag: "出入国犯則金",
           h1: "出入国犯則金基準表 — 違反種別・期間別完全ガイド",
-          lead: "出入国管理法違反に課される犯則金は、違反行為の種類と期間によって大きく異なります。以下の基準表は法務部告示を基に整理したものです。犯則金通知を受け取った方や違反の可能性がある方は、直ちに専門家にご相談ください。",
-          tableTitle: "犯則金基準表",
-          col: ["該当法条文", "違反内容", "違反期間", "犯則金基準額"],
-          sections: [
-            { title: "外国人雇用届出義務違反", law: "法第100条第1項第1号", desc: "外国人雇用者が解雇・退職・死亡等の事実から15日以内に届け出ない場合", rows: [["3か月未満", "10万ウォン"], ["3か月以上6か月未満", "30万ウォン"], ["6か月以上1年未満", "50万ウォン"]], highlight: false },
-            { title: "外国人登録未了", law: "法第95条第7号", desc: "入国後90日以内に外国人登録をしない場合", rows: [["1か月未満", "20万ウォン"], ["1か月以上3か月未満", "50万ウォン"], ["3か月以上6か月未満", "100万ウォン"], ["6か月以上1年未満", "200万ウォン"], ["1年以上2年未満", "500万ウォン"], ["2年以上", "1,000万ウォン"]], highlight: true },
-            { title: "不法就労外国人の雇用", law: "法第94条第9号/第99条の3", desc: "就労資格のない外国人を雇用した場合。法人・個人とも処罰対象", rows: [["3か月未満", "300万〜3,000万ウォン"], ["3か月以上6か月未満", "500万〜3,000万ウォン"], ["6か月以上1年未満", "700万〜3,000万ウォン"]], highlight: true },
-            { title: "在留期間超過・在留資格外活動", law: "法第94条第7号", desc: "在留期間超過または在留資格範囲外の活動", rows: [["1か月未満", "200万ウォン"], ["1か月以上3か月未満", "300万ウォン"], ["3か月以上6か月未満", "400万ウォン"]], highlight: false },
-            { title: "就労資格なし就労（本人）", law: "法第94条第18号", desc: "就労可能な在留資格なく就労した外国人本人", rows: [["6か月以上1年未満", "700万ウォン"], ["1年以上2年未満", "1,000万ウォン"], ["2年以上3年未満", "1,500万ウォン"]], highlight: true },
-            { title: "体留地変更届出義務違反", law: "法第98条第2号", desc: "登録外国人が住所変更後14日以内に届け出ない場合", rows: [["3か月未満", "10万ウォン"], ["3か月以上6か月未満", "30万ウォン"], ["6か月以上1年未満", "50万ウォン"], ["1年以上2年未満", "70万ウォン"], ["2年以上", "100万ウォン"]], highlight: false },
-          ],
+          lead: "出入国管理法に違反すると、違反行為の種類と違反期間（または違反回数）に応じて犯則金または過料が科されます。以下の金額は、出入国管理法施行規則［別表7］・［別表8］、同法施行令［別表2］、在外同胞法施行令［別表］に定められた基準額です。",
           tip1: "📌 犯則金通知を受け取ったら",
           tip1body: "期限内に納付しないと延滞金が課され、強制徴収または出国禁止につながる可能性があります。通知書を受け取ったらすぐに内容を確認し、専門家にご相談ください。",
           tip2: "⚠️ 犯則金・過怠料・刑事処罰の違い",
@@ -464,21 +345,12 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
           cta: "今すぐ相談予約",
           ctaBody: "犯則金通知・不法雇用・在留期間超過など出入国に関するお困りごとはVision行政士事務所にご相談ください。",
           back: "違反の種類に戻る",
-          notice: "本ページの犯則金基準額は法務部告示を基に整理したものです。実際の処分は担当官の裁量および個別事案によって異なる場合があります。法的アドバイスが必要な場合は専門家にご相談ください。",
+          notice: "※ このページの基準額は法令の別表に定められた金額です。実際の賦課額は違反の情状・違反回数・雇用人数などにより加重または減軽されることがあり、処分は担当審査官の判断と個別事情により異なります。一般的な情報提供が目的であり、個別事件に対する法律助言ではありません。",
         },
         zh: {
           tag: "出入境罚款",
           h1: "出入境罚款基准表 — 违规类型完整指南",
-          lead: "根据出入境管理法，处以的罚款因违规行为类型和违规期间不同而差异显著。以下基准表依据法务部公告整理而成。如收到罚款通知或存在潜在违规，请立即咨询专业人士。",
-          tableTitle: "罚款基准表",
-          col: ["适用法条", "违规内容", "违规期间", "罚款基准额"],
-          sections: [
-            { title: "外国人登记未办理", law: "法第95条第7号", desc: "入境后90天内未办理外国人登记", rows: [["1个月未满", "20万韩元"], ["1–3个月", "50万韩元"], ["3–6个月", "100万韩元"], ["6个月–1年", "200万韩元"], ["1–2年", "500万韩元"], ["2年以上", "1,000万韩元"]], highlight: true },
-            { title: "雇用无合法就业资格外国人", law: "法第94条第9号/第99条之3", desc: "雇用无就业签证外国人，法人和个人均可被处罚", rows: [["3个月未满", "300万–3,000万韩元"], ["3–6个月", "500万–3,000万韩元"], ["6个月–1年", "700万–3,000万韩元"]], highlight: true },
-            { title: "超期滞留/签证类别外活动", law: "法第94条第7号", desc: "超出允许停留期限或签证类别范围的活动", rows: [["1个月未满", "200万韩元"], ["1–3个月", "300万韩元"], ["3–6个月", "400万韩元"]], highlight: false },
-            { title: "非法就业（当事人）", law: "法第94条第18号", desc: "无就业签证从事工作的外国人本人", rows: [["6个月–1年", "700万韩元"], ["1–2年", "1,000万韩元"], ["2–3年", "1,500万韩元"]], highlight: true },
-            { title: "住所变更申报违反", law: "法第98条第2号", desc: "登记外国人住所变更后14天内未申报", rows: [["3个月未满", "10万韩元"], ["3–6个月", "30万韩元"], ["6个月–1年", "50万韩元"], ["1–2年", "70万韩元"], ["2年以上", "100万韩元"]], highlight: false },
-          ],
+          lead: "违反出入境管理法时，将根据违规行为的种类与违规期间（或违规次数）科处罚款或过怠金。下列金额依据出入境管理法施行规则［别表7］·［别表8］、同法施行令［别表2］及在外同胞法施行令［别表］的规定。",
           tip1: "📌 收到罚款通知后",
           tip1body: "未在规定期限内缴纳罚款将产生滞纳金，并可能导致强制征收或禁止出境。收到通知后请立即确认内容并咨询专业人士。",
           tip2: "⚠️ 罚款与行政处罚、刑事处罚的区别",
@@ -491,21 +363,12 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
           cta: "立即预约咨询",
           ctaBody: "关于罚款通知、非法雇用、超期滞留等出入境事项，请立即联系Vision行政士事务所。",
           back: "返回违规类型",
-          notice: "本页面罚款基准额依据法务部公告整理，实际处分因主管官员裁量及个案情况而异。本页面仅供一般法律信息参考，如需法律建议请咨询专业人士。",
+          notice: "※ 本页金额为法令别表规定的基准额。实际科处金额可能依违规情节、违规次数、雇用人数等加重或减轻，处分取决于审查官的判断与个案情况。本页仅供一般信息参考，并非针对个别案件的法律意见。",
         },
         vi: {
           tag: "Phạt vi phạm xuất nhập cảnh",
           h1: "Bảng Tiêu Chuẩn Phạt Xuất Nhập Cảnh Hàn Quốc — Hướng Dẫn Đầy Đủ",
-          lead: "Mức phạt theo Luật Quản lý Xuất nhập cảnh khác nhau đáng kể tùy theo loại vi phạm và thời gian vi phạm. Bảng dưới đây tóm tắt hướng dẫn chính thức của Bộ Tư pháp. Nếu bạn nhận được thông báo phạt hoặc lo ngại về vi phạm tiềm ẩn, hãy tư vấn chuyên gia ngay lập tức.",
-          tableTitle: "Bảng Mức Phạt Tham Khảo",
-          col: ["Điều luật áp dụng", "Nội dung vi phạm", "Thời gian vi phạm", "Mức phạt tiêu chuẩn"],
-          sections: [
-            { title: "Không đăng ký người nước ngoài (quá hạn đăng ký)", law: "Điều 95(7)", desc: "Người nước ngoài phải đăng ký (lưu trú > 90 ngày) không đăng ký trong 90 ngày từ ngày nhập cảnh", rows: [["< 1 tháng", "200.000 ₩"], ["1–3 tháng", "500.000 ₩"], ["3–6 tháng", "1.000.000 ₩"], ["6 tháng–1 năm", "2.000.000 ₩"], ["1–2 năm", "5.000.000 ₩"], ["2+ năm", "10.000.000 ₩"]], highlight: true },
-            { title: "Thuê lao động nước ngoài không có visa làm việc", law: "Điều 94(9) / Điều 99-3", desc: "Thuê người nước ngoài không có tư cách lưu trú cho phép làm việc. Cả pháp nhân và cá nhân đều có thể bị xử phạt", rows: [["< 3 tháng", "3tr–30tr ₩"], ["3–6 tháng", "5tr–30tr ₩"], ["6 tháng–1 năm", "7tr–30tr ₩"]], highlight: true },
-            { title: "Ở quá hạn / Hoạt động ngoài phạm vi visa", law: "Điều 94(7)", desc: "Hoạt động vượt quá thời gian lưu trú cho phép hoặc ngoài phạm vi loại visa", rows: [["< 1 tháng", "2.000.000 ₩"], ["1–3 tháng", "3.000.000 ₩"], ["3–6 tháng", "4.000.000 ₩"]], highlight: false },
-            { title: "Làm việc không có visa làm việc (người lao động)", law: "Điều 94(18)", desc: "Người nước ngoài tự làm việc mà không có tư cách lưu trú cho phép làm việc", rows: [["6 tháng–1 năm", "7.000.000 ₩"], ["1–2 năm", "10.000.000 ₩"], ["2–3 năm", "15.000.000 ₩"]], highlight: true },
-            { title: "Thông báo thay đổi địa chỉ", law: "Điều 98(2)", desc: "Người nước ngoài đã đăng ký không thông báo thay đổi địa chỉ trong 14 ngày", rows: [["< 3 tháng", "100.000 ₩"], ["3–6 tháng", "300.000 ₩"], ["6 tháng–1 năm", "500.000 ₩"], ["1–2 năm", "700.000 ₩"], ["2+ năm", "1.000.000 ₩"]], highlight: false },
-          ],
+          lead: "Vi phạm Luật Quản lý Xuất nhập cảnh Hàn Quốc sẽ bị phạt tiền hoặc phạt hành chính, tùy loại vi phạm và thời gian vi phạm — hoặc số lần vi phạm. Các mức dưới đây được quy định tại Bảng 7 và 8 của Thông tư thi hành, Bảng 2 của Nghị định thi hành, và Bảng kèm Nghị định thi hành Luật Kiều bào.",
           tip1: "📌 Nhận được thông báo phạt?",
           tip1body: "Phạt phải được nộp trước hạn chót ghi trên thông báo. Nộp muộn dẫn đến phụ phí và có thể dẫn đến cưỡng chế thu hoặc lệnh cấm xuất cảnh. Kiểm tra thông báo ngay và tư vấn chuyên gia.",
           tip2: "⚠️ Phạt hành chính vs. Xử phạt hình sự",
@@ -518,7 +381,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
           cta: "Đặt lịch tư vấn ngay",
           ctaBody: "Về thông báo phạt, vấn đề thuê lao động trái phép, ở quá hạn hoặc bất kỳ vấn đề xuất nhập cảnh nào, hãy liên hệ văn phòng Vision để được hỗ trợ ngay.",
           back: "Quay lại danh sách vi phạm",
-          notice: "Các số liệu trên trang này phản ánh hướng dẫn của Bộ Tư pháp. Mức xử phạt thực tế phụ thuộc vào quyết định của cán bộ xem xét và hoàn cảnh từng trường hợp. Trang này chỉ cung cấp thông tin chung — vui lòng tư vấn chuyên gia để được tư vấn pháp lý.",
+          notice: "Các mức trên trang này là mức chuẩn do pháp luật ấn định. Số tiền thực tế có thể tăng hoặc giảm tùy hoàn cảnh, số lần tái phạm và số lao động được thuê, và quyết định phụ thuộc vào đánh giá của cán bộ xem xét. Trang này cung cấp thông tin chung, không phải tư vấn pháp lý cho vụ việc cụ thể.",
         },
       };
       const c = t[l] || t.ko;
@@ -527,31 +390,36 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
           <div style={{ maxWidth: 900, margin: "0 auto", padding: "48px 24px 80px" }}>
             <div style={{ fontSize: 12, fontWeight: 600, letterSpacing: "0.08em", textTransform: "uppercase" as const, color: A.primary, marginBottom: 8 }}>{c.tag}</div>
             <h1 style={{ fontSize: "clamp(22px, 3vw, 34px)", fontWeight: 700, color: A.navy, lineHeight: 1.25, marginBottom: 18 }}>{c.h1}</h1>
-            <p style={{ fontSize: 16, color: A.muted, lineHeight: 1.75, marginBottom: 36, borderBottom: `1px solid ${A.border}`, paddingBottom: 32 }}>{c.lead}</p>
+            <p style={{ fontSize: 16, color: A.muted, lineHeight: 1.75, marginBottom: 20 }}>{c.lead}</p>
 
-            {c.sections.map((sec, i) => (
-              <div key={i} style={{ marginBottom: 32 }}>
-                <h2 style={{ fontSize: 17, fontWeight: 700, color: sec.highlight ? A.red : A.navy, marginBottom: 6 }}>{sec.title}</h2>
-                <div style={{ fontSize: 12, color: A.primary, marginBottom: 4, fontWeight: 600 }}>{sec.law}</div>
-                <p style={{ fontSize: 14, color: A.muted, marginBottom: 10, lineHeight: 1.6 }}>{sec.desc}</p>
-                <div style={{ overflowX: "auto" as const }}>
-                  <table style={{ width: "100%", borderCollapse: "collapse" as const, fontSize: 14 }}>
-                    <thead>
-                      <tr style={{ background: sec.highlight ? "#fff1f2" : "#f1f5f9" }}>
-                        <th style={{ padding: "8px 12px", textAlign: "left" as const, borderBottom: `1px solid ${A.border}`, fontWeight: 600, color: A.navy }}>{c.col[2]}</th>
-                        <th style={{ padding: "8px 12px", textAlign: "right" as const, borderBottom: `1px solid ${A.border}`, fontWeight: 600, color: sec.highlight ? A.red : A.navy }}>{c.col[3]}</th>
+            <div style={{ background: "#eef4fc", border: `1px solid ${A.primary}`, borderRadius: 8, padding: "14px 18px", marginBottom: 32, fontSize: 14, lineHeight: 1.7 }}>
+              <strong style={{ color: A.navy }}>{L.ui.summary.replace("{groups}", String(groups.length)).replace("{tiers}", String(FINE_TIER_COUNT))}</strong>
+              <span style={{ margin: "0 8px", color: A.border }}>|</span>
+              <a href={`/${locale}/fines`} style={{ color: A.primary, fontWeight: 700, textDecoration: "none" }}>{L.ui.seeAll} →</a>
+            </div>
+
+            {groups.map((g) => (
+              <div key={g.id} id={g.id} style={{ marginBottom: 32, scrollMarginTop: 90 }}>
+                <h2 style={{ fontSize: 17, fontWeight: 700, color: g.severity === "high" ? A.red : A.navy, marginBottom: 6 }}>{g.title}</h2>
+                <div style={{ fontSize: 12, color: A.primary, marginBottom: 4, fontWeight: 600 }}>{L.kinds[g.kind]} · {g.lawText}</div>
+                <p style={{ fontSize: 14, color: A.muted, marginBottom: 10, lineHeight: 1.6 }}>{g.desc}</p>
+                <table style={{ width: "100%", borderCollapse: "collapse" as const, tableLayout: "fixed" as const, fontSize: 14 }}>
+                  <thead>
+                    <tr style={{ background: g.severity === "high" ? "#fff1f2" : "#f1f5f9" }}>
+                      <th scope="col" style={{ width: "58%", padding: "8px 10px", textAlign: "left" as const, borderBottom: `1px solid ${A.border}`, fontWeight: 600, color: A.navy }}>{g.scale === "count" ? L.ui.colCount : L.ui.colPeriod}</th>
+                      <th scope="col" style={{ padding: "8px 10px", textAlign: "right" as const, borderBottom: `1px solid ${A.border}`, fontWeight: 600, color: g.severity === "high" ? A.red : A.navy }}>{L.ui.colAmount}</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {g.rows.map((r) => (
+                      <tr key={r.key} style={{ borderBottom: `1px solid ${A.border}` }}>
+                        <th scope="row" style={{ padding: "8px 10px", textAlign: "left" as const, fontWeight: 400, color: A.muted, wordBreak: "keep-all" as const }}>{r.period}</th>
+                        <td style={{ padding: "8px 10px", textAlign: "right" as const, fontWeight: 600, color: g.severity === "high" ? A.red : A.navy, whiteSpace: "nowrap" as const }}>{r.amount}</td>
                       </tr>
-                    </thead>
-                    <tbody>
-                      {sec.rows.map(([dur, amt], j) => (
-                        <tr key={j} style={{ borderBottom: `1px solid ${A.border}` }}>
-                          <td style={{ padding: "8px 12px", color: A.muted }}>{dur}</td>
-                          <td style={{ padding: "8px 12px", textAlign: "right" as const, fontWeight: 600, color: sec.highlight ? A.red : A.navy }}>{amt}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
+                    ))}
+                  </tbody>
+                </table>
+                {g.byHeadcount ? <p style={{ fontSize: 12, color: "#b45309", margin: "10px 0 0", lineHeight: 1.6 }}>{L.ui.headcountNote}</p> : null}
               </div>
             ))}
 
@@ -574,11 +442,14 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
 
             <div style={{ marginTop: 40, background: A.primary, borderRadius: 10, padding: "28px 24px", textAlign: "center" as const }}>
               <p style={{ color: "rgba(255,255,255,0.85)", fontSize: 14, marginBottom: 14, lineHeight: 1.6 }}>{c.ctaBody}</p>
-              <a href={`/${locale}#contact`} style={{ display: "inline-block", background: "#fff", color: A.primary, padding: "12px 28px", borderRadius: 6, fontSize: 15, fontWeight: 700, textDecoration: "none" }}>{c.cta}</a>
+              <a href={`/${locale}/contact`} style={{ display: "inline-block", background: "#fff", color: A.primary, padding: "12px 28px", borderRadius: 6, fontSize: 15, fontWeight: 700, textDecoration: "none" }}>{c.cta}</a>
             </div>
 
             <div style={{ marginTop: 20, background: A.warn, border: `1px solid ${A.warnBorder}`, borderRadius: 8, padding: "14px 18px", fontSize: 13, color: "#78350f", lineHeight: 1.6 }}>{c.notice}</div>
-            <div style={{ marginTop: 24 }}><a href={`/${locale}/offenses`} style={{ color: A.primary, fontWeight: 600, fontSize: 14, textDecoration: "none" }}>← {c.back}</a></div>
+            <div style={{ marginTop: 24, display: "flex", gap: 18, flexWrap: "wrap" as const }}>
+              <a href={`/${locale}/offenses`} style={{ color: A.primary, fontWeight: 600, fontSize: 14, textDecoration: "none" }}>← {c.back}</a>
+              <a href={`/${locale}/fines`} style={{ color: A.primary, fontWeight: 600, fontSize: 14, textDecoration: "none" }}>{L.ui.seeAll} →</a>
+            </div>
           </div>
         </main>
       );

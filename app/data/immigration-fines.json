@@ -1,0 +1,1787 @@
+{
+ "version": "2026-09-22",
+ "checkedOn": "2026-09-22",
+ "sources": {
+  "byl7": {
+   "law": "출입국관리법 시행규칙",
+   "table": "별표 7",
+   "title": "범칙금의 양정기준(제86조제1항 관련)",
+   "amended": "2026-01-23",
+   "url": "https://www.law.go.kr/DRF/lawService.do?OC=visionlaw&target=licbyl&ID=18475903&type=HTML",
+   "actKey": "immigRule",
+   "tableNo": 7
+  },
+  "byl8": {
+   "law": "출입국관리법 시행규칙",
+   "table": "별표 8",
+   "title": "범칙금의 양정기준(제86조제1항 관련)",
+   "amended": "2020-09-25",
+   "url": "https://www.law.go.kr/DRF/lawService.do?OC=visionlaw&target=licbyl&ID=18475905&type=HTML",
+   "actKey": "immigRule",
+   "tableNo": 8
+  },
+  "decree2": {
+   "law": "출입국관리법 시행령",
+   "table": "별표 2",
+   "title": "과태료의 부과기준(제102조 관련)",
+   "amended": "2020-12-08",
+   "url": "https://www.law.go.kr/법령/출입국관리법시행령",
+   "actKey": "immigDecree",
+   "tableNo": 2
+  },
+  "okfDecree": {
+   "law": "재외동포의 출입국과 법적 지위에 관한 법률 시행령",
+   "table": "별표",
+   "title": "과태료의 부과기준(제18조 관련)",
+   "amended": "2018-05-08",
+   "url": "https://www.law.go.kr/법령/재외동포의출입국과법적지위에관한법률시행령",
+   "actKey": "okfDecree",
+   "tableNo": null
+  }
+ },
+ "groups": [
+  {
+   "id": "overstay-scope",
+   "sheetNo": 9,
+   "kind": "fine",
+   "source": "byl7",
+   "sourceItem": "거목",
+   "law": {
+    "act": "immig",
+    "parts": [
+     {
+      "n": 94,
+      "t": "jo"
+     },
+     {
+      "n": 7,
+      "t": "ho"
+     }
+    ]
+   },
+   "violated": {
+    "act": "immig",
+    "parts": [
+     {
+      "n": 17,
+      "t": "jo"
+     },
+     {
+      "n": 1,
+      "t": "hang"
+     }
+    ]
+   },
+   "scale": "duration",
+   "severity": "high",
+   "tiers": [
+    {
+     "k": "lt1m",
+     "won": 2000000
+    },
+    {
+     "k": "1m_3m",
+     "won": 3000000
+    },
+    {
+     "k": "3m_6m",
+     "won": 4000000
+    },
+    {
+     "k": "6m_1y",
+     "won": 7000000
+    },
+    {
+     "k": "1y_2y",
+     "won": 10000000
+    },
+    {
+     "k": "2y_3y",
+     "won": 15000000
+    },
+    {
+     "k": "3y_5y",
+     "won": 20000000
+    },
+    {
+     "k": "5y_7y",
+     "won": 25000000
+    },
+    {
+     "k": "ge7y",
+     "won": 30000000
+    }
+   ]
+  },
+  {
+   "id": "unauthorized-work",
+   "sheetNo": 10,
+   "kind": "fine",
+   "source": "byl7",
+   "sourceItem": "너목",
+   "law": {
+    "act": "immig",
+    "parts": [
+     {
+      "n": 94,
+      "t": "jo"
+     },
+     {
+      "n": 8,
+      "t": "ho"
+     }
+    ]
+   },
+   "violated": {
+    "act": "immig",
+    "parts": [
+     {
+      "n": 18,
+      "t": "jo"
+     },
+     {
+      "n": 1,
+      "t": "hang"
+     }
+    ]
+   },
+   "scale": "duration",
+   "severity": "high",
+   "tiers": [
+    {
+     "k": "lt1m",
+     "won": 2000000
+    },
+    {
+     "k": "1m_3m",
+     "won": 3000000
+    },
+    {
+     "k": "3m_6m",
+     "won": 4000000
+    },
+    {
+     "k": "6m_1y",
+     "won": 7000000
+    },
+    {
+     "k": "1y_2y",
+     "won": 10000000
+    },
+    {
+     "k": "2y_3y",
+     "won": 15000000
+    },
+    {
+     "k": "3y_5y",
+     "won": 20000000
+    },
+    {
+     "k": "5y_7y",
+     "won": 25000000
+    },
+    {
+     "k": "ge7y",
+     "won": 30000000
+    }
+   ]
+  },
+  {
+   "id": "out-of-status-activity",
+   "sheetNo": 11,
+   "kind": "fine",
+   "source": "byl7",
+   "sourceItem": "어목",
+   "law": {
+    "act": "immig",
+    "parts": [
+     {
+      "n": 94,
+      "t": "jo"
+     },
+     {
+      "n": 12,
+      "t": "ho"
+     }
+    ]
+   },
+   "violated": {
+    "act": "immig",
+    "parts": [
+     {
+      "n": 20,
+      "t": "jo"
+     }
+    ]
+   },
+   "scale": "duration",
+   "severity": "high",
+   "tiers": [
+    {
+     "k": "lt1m",
+     "won": 2000000
+    },
+    {
+     "k": "1m_3m",
+     "won": 3000000
+    },
+    {
+     "k": "3m_6m",
+     "won": 4000000
+    },
+    {
+     "k": "6m_1y",
+     "won": 7000000
+    },
+    {
+     "k": "1y_2y",
+     "won": 10000000
+    },
+    {
+     "k": "2y_3y",
+     "won": 15000000
+    },
+    {
+     "k": "3y_5y",
+     "won": 20000000
+    },
+    {
+     "k": "5y_7y",
+     "won": 25000000
+    },
+    {
+     "k": "ge7y",
+     "won": 30000000
+    }
+   ]
+  },
+  {
+   "id": "no-status-stay",
+   "sheetNo": 13,
+   "kind": "fine",
+   "source": "byl7",
+   "sourceItem": "퍼목",
+   "law": {
+    "act": "immig",
+    "parts": [
+     {
+      "n": 94,
+      "t": "jo"
+     },
+     {
+      "n": 15,
+      "t": "ho"
+     }
+    ]
+   },
+   "violated": {
+    "act": "immig",
+    "parts": [
+     {
+      "n": 23,
+      "t": "jo"
+     }
+    ]
+   },
+   "scale": "duration",
+   "severity": "high",
+   "tiers": [
+    {
+     "k": "lt1m",
+     "won": 500000
+    },
+    {
+     "k": "1m_3m",
+     "won": 1000000
+    },
+    {
+     "k": "3m_6m",
+     "won": 2000000
+    },
+    {
+     "k": "6m_1y",
+     "won": 5000000
+    },
+    {
+     "k": "1y_2y",
+     "won": 10000000
+    },
+    {
+     "k": "2y_3y",
+     "won": 15000000
+    },
+    {
+     "k": "3y_5y",
+     "won": 20000000
+    },
+    {
+     "k": "5y_7y",
+     "won": 25000000
+    },
+    {
+     "k": "ge7y",
+     "won": 30000000
+    }
+   ]
+  },
+  {
+   "id": "status-change-unpermitted",
+   "sheetNo": 14,
+   "kind": "fine",
+   "source": "byl7",
+   "sourceItem": "허목",
+   "law": {
+    "act": "immig",
+    "parts": [
+     {
+      "n": 94,
+      "t": "jo"
+     },
+     {
+      "n": 16,
+      "t": "ho"
+     }
+    ]
+   },
+   "violated": {
+    "act": "immig",
+    "parts": [
+     {
+      "n": 24,
+      "t": "jo"
+     }
+    ]
+   },
+   "scale": "duration",
+   "severity": "high",
+   "tiers": [
+    {
+     "k": "lt1m",
+     "won": 500000
+    },
+    {
+     "k": "1m_3m",
+     "won": 1000000
+    },
+    {
+     "k": "3m_6m",
+     "won": 2000000
+    },
+    {
+     "k": "6m_1y",
+     "won": 5000000
+    },
+    {
+     "k": "1y_2y",
+     "won": 10000000
+    },
+    {
+     "k": "2y_3y",
+     "won": 15000000
+    },
+    {
+     "k": "3y_5y",
+     "won": 20000000
+    },
+    {
+     "k": "5y_7y",
+     "won": 25000000
+    },
+    {
+     "k": "ge7y",
+     "won": 30000000
+    }
+   ]
+  },
+  {
+   "id": "extension-overstay",
+   "sheetNo": 15,
+   "kind": "fine",
+   "source": "byl7",
+   "sourceItem": "고목",
+   "law": {
+    "act": "immig",
+    "parts": [
+     {
+      "n": 94,
+      "t": "jo"
+     },
+     {
+      "n": 17,
+      "t": "ho"
+     }
+    ]
+   },
+   "violated": {
+    "act": "immig",
+    "parts": [
+     {
+      "n": 25,
+      "t": "jo"
+     }
+    ]
+   },
+   "scale": "duration",
+   "severity": "high",
+   "tiers": [
+    {
+     "k": "lt1m",
+     "won": 500000
+    },
+    {
+     "k": "1m_3m",
+     "won": 1000000
+    },
+    {
+     "k": "3m_6m",
+     "won": 2000000
+    },
+    {
+     "k": "6m_1y",
+     "won": 5000000
+    },
+    {
+     "k": "1y_2y",
+     "won": 10000000
+    },
+    {
+     "k": "2y_3y",
+     "won": 15000000
+    },
+    {
+     "k": "3y_5y",
+     "won": 20000000
+    },
+    {
+     "k": "5y_7y",
+     "won": 25000000
+    },
+    {
+     "k": "ge7y",
+     "won": 30000000
+    }
+   ]
+  },
+  {
+   "id": "employing-unauthorized",
+   "sheetNo": 7,
+   "kind": "fine",
+   "source": "byl8",
+   "sourceItem": "제1호",
+   "law": {
+    "act": "immig",
+    "parts": [
+     {
+      "n": 94,
+      "t": "jo"
+     },
+     {
+      "n": 9,
+      "t": "ho"
+     }
+    ]
+   },
+   "violated": {
+    "act": "immig",
+    "parts": [
+     {
+      "n": 18,
+      "t": "jo"
+     },
+     {
+      "n": 3,
+      "t": "hang"
+     }
+    ]
+   },
+   "scale": "duration",
+   "severity": "high",
+   "byHeadcount": true,
+   "tiers": [
+    {
+     "k": "lt3m",
+     "won": 3000000,
+     "wonMax": 30000000
+    },
+    {
+     "k": "3m_6m",
+     "won": 5000000,
+     "wonMax": 30000000
+    },
+    {
+     "k": "6m_1y",
+     "won": 7000000,
+     "wonMax": 30000000
+    },
+    {
+     "k": "1y_2y",
+     "won": 9000000,
+     "wonMax": 30000000
+    },
+    {
+     "k": "ge2y",
+     "won": 11000000,
+     "wonMax": 30000000
+    }
+   ]
+  },
+  {
+   "id": "workplace-change-unpermitted",
+   "sheetNo": 12,
+   "kind": "fine",
+   "source": "byl7",
+   "sourceItem": "저목",
+   "law": {
+    "act": "immig",
+    "parts": [
+     {
+      "n": 95,
+      "t": "jo"
+     },
+     {
+      "n": 6,
+      "t": "ho"
+     }
+    ]
+   },
+   "violated": {
+    "act": "immig",
+    "parts": [
+     {
+      "n": 21,
+      "t": "jo"
+     },
+     {
+      "n": 1,
+      "t": "hang"
+     }
+    ]
+   },
+   "scale": "duration",
+   "severity": "mid",
+   "tiers": [
+    {
+     "k": "lt3m",
+     "won": 1000000
+    },
+    {
+     "k": "3m_6m",
+     "won": 2000000
+    },
+    {
+     "k": "6m_1y",
+     "won": 3000000
+    },
+    {
+     "k": "1y_2y",
+     "won": 5000000
+    },
+    {
+     "k": "ge2y",
+     "won": 10000000
+    }
+   ]
+  },
+  {
+   "id": "alien-registration-failure",
+   "sheetNo": 6,
+   "kind": "fine",
+   "source": "byl7",
+   "sourceItem": "보목",
+   "law": {
+    "act": "immig",
+    "parts": [
+     {
+      "n": 95,
+      "t": "jo"
+     },
+     {
+      "n": 7,
+      "t": "ho"
+     }
+    ]
+   },
+   "violated": {
+    "act": "immig",
+    "parts": [
+     {
+      "n": 31,
+      "t": "jo"
+     }
+    ]
+   },
+   "scale": "duration",
+   "severity": "mid",
+   "tiers": [
+    {
+     "k": "lt1m",
+     "won": 200000
+    },
+    {
+     "k": "1m_3m",
+     "won": 500000
+    },
+    {
+     "k": "3m_6m",
+     "won": 1000000
+    },
+    {
+     "k": "6m_1y",
+     "won": 2000000
+    },
+    {
+     "k": "1y_2y",
+     "won": 5000000
+    },
+    {
+     "k": "ge2y",
+     "won": 10000000
+    }
+   ]
+  },
+  {
+   "id": "address-change-report",
+   "sheetNo": 16,
+   "kind": "fine",
+   "source": "byl7",
+   "sourceItem": "조목",
+   "law": {
+    "act": "immig",
+    "parts": [
+     {
+      "n": 98,
+      "t": "jo"
+     },
+     {
+      "n": 2,
+      "t": "ho"
+     }
+    ]
+   },
+   "violated": {
+    "act": "immig",
+    "parts": [
+     {
+      "n": 36,
+      "t": "jo"
+     },
+     {
+      "n": 1,
+      "t": "hang"
+     }
+    ]
+   },
+   "scale": "duration",
+   "severity": "low",
+   "tiers": [
+    {
+     "k": "lt3m",
+     "won": 100000
+    },
+    {
+     "k": "3m_6m",
+     "won": 300000
+    },
+    {
+     "k": "6m_1y",
+     "won": 500000
+    },
+    {
+     "k": "1y_2y",
+     "won": 700000
+    },
+    {
+     "k": "ge2y",
+     "won": 1000000
+    }
+   ]
+  },
+  {
+   "id": "entry-violation",
+   "sheetNo": 8,
+   "kind": "fine",
+   "source": "byl7",
+   "sourceItem": "다목",
+   "law": {
+    "act": "immig",
+    "parts": [
+     {
+      "n": 94,
+      "t": "jo"
+     },
+     {
+      "n": 2,
+      "t": "ho"
+     }
+    ]
+   },
+   "violated": {
+    "act": "immig",
+    "parts": [
+     {
+      "n": 7,
+      "t": "jo"
+     }
+    ]
+   },
+   "scale": "count",
+   "severity": "high",
+   "tiers": [
+    {
+     "k": "n1",
+     "won": 5000000
+    },
+    {
+     "k": "n2",
+     "won": 15000000
+    },
+    {
+     "k": "ge3",
+     "won": 30000000
+    }
+   ]
+  },
+  {
+   "id": "employer-report",
+   "sheetNo": 1,
+   "kind": "penalty",
+   "source": "decree2",
+   "sourceItem": "가목",
+   "law": {
+    "act": "immig",
+    "parts": [
+     {
+      "n": 100,
+      "t": "jo"
+     },
+     {
+      "n": 1,
+      "t": "hang"
+     },
+     {
+      "n": 1,
+      "t": "ho"
+     }
+    ]
+   },
+   "violated": {
+    "act": "immig",
+    "parts": [
+     {
+      "n": 19,
+      "t": "jo"
+     }
+    ]
+   },
+   "scale": "duration",
+   "severity": "low",
+   "tiers": [
+    {
+     "k": "lt3m",
+     "won": 100000
+    },
+    {
+     "k": "3m_6m",
+     "won": 300000
+    },
+    {
+     "k": "6m_1y",
+     "won": 500000
+    },
+    {
+     "k": "1y_2y",
+     "won": 1000000
+    },
+    {
+     "k": "ge2y",
+     "won": 2000000
+    }
+   ]
+  },
+  {
+   "id": "workplace-change-report",
+   "sheetNo": 2,
+   "kind": "penalty",
+   "source": "decree2",
+   "sourceItem": "라목",
+   "law": {
+    "act": "immig",
+    "parts": [
+     {
+      "n": 100,
+      "t": "jo"
+     },
+     {
+      "n": 1,
+      "t": "hang"
+     },
+     {
+      "n": 3,
+      "t": "ho"
+     }
+    ]
+   },
+   "violated": {
+    "act": "immig",
+    "parts": [
+     {
+      "n": 21,
+      "t": "jo"
+     },
+     {
+      "n": 1,
+      "t": "hang"
+     }
+    ]
+   },
+   "scale": "duration",
+   "severity": "low",
+   "tiers": [
+    {
+     "k": "lt3m",
+     "won": 100000
+    },
+    {
+     "k": "3m_6m",
+     "won": 300000
+    },
+    {
+     "k": "6m_1y",
+     "won": 500000
+    },
+    {
+     "k": "1y_2y",
+     "won": 1000000
+    },
+    {
+     "k": "ge2y",
+     "won": 2000000
+    }
+   ]
+  },
+  {
+   "id": "registration-change-report",
+   "sheetNo": 4,
+   "kind": "penalty",
+   "source": "decree2",
+   "sourceItem": "사목",
+   "law": {
+    "act": "immig",
+    "parts": [
+     {
+      "n": 100,
+      "t": "jo"
+     },
+     {
+      "n": 2,
+      "t": "hang"
+     },
+     {
+      "n": 1,
+      "t": "ho"
+     }
+    ]
+   },
+   "violated": {
+    "act": "immig",
+    "parts": [
+     {
+      "n": 35,
+      "t": "jo"
+     }
+    ]
+   },
+   "scale": "duration",
+   "severity": "low",
+   "tiers": [
+    {
+     "k": "lt3m",
+     "won": 100000
+    },
+    {
+     "k": "3m_6m",
+     "won": 300000
+    },
+    {
+     "k": "6m_1y",
+     "won": 500000
+    },
+    {
+     "k": "ge1y",
+     "won": 1000000
+    }
+   ]
+  },
+  {
+   "id": "guardian-application",
+   "sheetNo": 3,
+   "kind": "penalty",
+   "source": "decree2",
+   "sourceItem": "카목",
+   "law": {
+    "act": "immig",
+    "parts": [
+     {
+      "n": 100,
+      "t": "jo"
+     },
+     {
+      "n": 2,
+      "t": "hang"
+     },
+     {
+      "n": 2,
+      "t": "ho"
+     }
+    ]
+   },
+   "violated": {
+    "act": "immig",
+    "parts": [
+     {
+      "n": 79,
+      "t": "jo"
+     }
+    ]
+   },
+   "scale": "duration",
+   "severity": "low",
+   "tiers": [
+    {
+     "k": "lt1y",
+     "won": 100000
+    },
+    {
+     "k": "1y_2y",
+     "won": 300000
+    },
+    {
+     "k": "2y_3y",
+     "won": 500000
+    },
+    {
+     "k": "ge3y",
+     "won": 1000000
+    }
+   ]
+  },
+  {
+   "id": "okf-residence-report",
+   "sheetNo": 5,
+   "kind": "penalty",
+   "source": "okfDecree",
+   "sourceItem": "가목",
+   "law": {
+    "act": "okf",
+    "parts": [
+     {
+      "n": 17,
+      "t": "jo"
+     },
+     {
+      "n": 1,
+      "t": "hang"
+     }
+    ]
+   },
+   "violated": {
+    "act": "okf",
+    "parts": [
+     {
+      "n": 6,
+      "t": "jo"
+     },
+     {
+      "n": 2,
+      "t": "hang"
+     }
+    ]
+   },
+   "scale": "duration",
+   "severity": "low",
+   "tiers": [
+    {
+     "k": "lt3m",
+     "won": 100000
+    },
+    {
+     "k": "3m_6m",
+     "won": 300000
+    },
+    {
+     "k": "6m_1y",
+     "won": 500000
+    },
+    {
+     "k": "1y_2y",
+     "won": 1000000
+    },
+    {
+     "k": "ge2y",
+     "won": 2000000
+    }
+   ]
+  }
+ ],
+ "tierOrder": [
+  "lt1m",
+  "1m_3m",
+  "lt3m",
+  "3m_6m",
+  "6m_1y",
+  "lt1y",
+  "1y_2y",
+  "ge1y",
+  "2y_3y",
+  "ge2y",
+  "3y_5y",
+  "ge3y",
+  "5y_7y",
+  "ge7y",
+  "n1",
+  "n2",
+  "ge3"
+ ],
+ "labels": {
+  "ko": {
+   "acts": {
+    "immig": "출입국관리법",
+    "immigDecree": "출입국관리법 시행령",
+    "immigRule": "출입국관리법 시행규칙",
+    "okf": "재외동포법",
+    "okfDecree": "재외동포법 시행령"
+   },
+   "cite": {
+    "jo": "제{n}조",
+    "hang": "제{n}항",
+    "ho": "제{n}호",
+    "sep": " "
+   },
+   "periods": {
+    "lt1m": "1개월 미만",
+    "1m_3m": "1개월 이상 ~ 3개월 미만",
+    "lt3m": "3개월 미만",
+    "3m_6m": "3개월 이상 ~ 6개월 미만",
+    "6m_1y": "6개월 이상 ~ 1년 미만",
+    "lt1y": "1년 미만",
+    "1y_2y": "1년 이상 ~ 2년 미만",
+    "ge1y": "1년 이상",
+    "2y_3y": "2년 이상 ~ 3년 미만",
+    "ge2y": "2년 이상",
+    "3y_5y": "3년 이상 ~ 5년 미만",
+    "ge3y": "3년 이상",
+    "5y_7y": "5년 이상 ~ 7년 미만",
+    "ge7y": "7년 이상",
+    "n1": "1회",
+    "n2": "2회",
+    "ge3": "3회 이상"
+   },
+   "kinds": {
+    "fine": "범칙금",
+    "penalty": "과태료"
+   },
+   "money": {
+    "mode": "man",
+    "pattern": "{n}만원",
+    "group": ",",
+    "range": "{a} ~ {b}"
+   },
+   "groups": {
+    "overstay-scope": {
+     "title": "체류자격·체류기간의 범위를 벗어난 체류",
+     "desc": "허가받은 체류자격이나 체류기간의 범위를 넘어 국내에 체류한 경우. 가장 흔한 초과체류(오버스테이) 유형입니다."
+    },
+    "unauthorized-work": {
+     "title": "취업자격 없이 취업활동을 한 경우(근로자)",
+     "desc": "취업활동을 할 수 있는 체류자격을 받지 않고 일한 외국인 본인에게 부과됩니다."
+    },
+    "out-of-status-activity": {
+     "title": "체류자격 외 활동허가를 받지 않은 경우",
+     "desc": "현재 체류자격을 유지한 채, 다른 체류자격에 해당하는 활동을 허가 없이 추가로 한 경우입니다."
+    },
+    "no-status-stay": {
+     "title": "체류자격을 받지 않고 체류한 경우",
+     "desc": "출생 등으로 국내에 체류하게 된 외국인이 체류자격 부여를 신청하지 않고 계속 체류한 경우입니다."
+    },
+    "status-change-unpermitted": {
+     "title": "체류자격 변경허가를 받지 않은 경우",
+     "desc": "기존 체류자격을 벗어나 다른 체류자격의 활동을 하면서 변경허가를 받지 않은 경우입니다."
+    },
+    "extension-overstay": {
+     "title": "체류기간 연장허가를 받지 않고 초과 체류한 경우",
+     "desc": "체류기간이 끝나기 전에 연장허가를 받지 않고 기간을 넘겨 계속 체류한 경우입니다."
+    },
+    "employing-unauthorized": {
+     "title": "취업자격 없는 외국인을 고용한 경우(사용자)",
+     "desc": "취업활동을 할 수 있는 체류자격이 없는 사람을 고용한 사용자에게 부과됩니다. 금액은 고용인원이 많을수록 올라가며, 양벌규정에 따라 법인·개인에게도 함께 부과될 수 있습니다."
+    },
+    "workplace-change-unpermitted": {
+     "title": "허가 없이 근무처를 변경·추가한 경우",
+     "desc": "근무처 변경·추가에 허가가 필요한 체류자격인데도 허가를 받지 않고 근무처를 옮기거나 늘린 경우입니다."
+    },
+    "alien-registration-failure": {
+     "title": "외국인등록 의무를 위반한 경우",
+     "desc": "91일 이상 체류하려는 외국인이 입국일 또는 사유 발생일부터 90일 이내에 외국인등록을 하지 않은 경우입니다."
+    },
+    "address-change-report": {
+     "title": "체류지 변경신고 의무를 위반한 경우",
+     "desc": "등록외국인이 새 체류지로 전입한 날부터 15일 이내에 신고하지 않은 경우입니다."
+    },
+    "entry-violation": {
+     "title": "유효한 여권·사증 없이 입국한 경우",
+     "desc": "법이 정한 여권과 사증을 갖추지 않고 입국한 경우(법 제7조 제1항·제4항)로, 위반 횟수에 따라 금액이 올라갑니다."
+    },
+    "employer-report": {
+     "title": "외국인 고용 관련 신고의무를 위반한 경우(사용자)",
+     "desc": "외국인을 고용한 사용자가 해고·퇴직·사망·소재불명·고용계약 주요내용 변경 등을 안 날부터 15일 이내에 신고하지 않은 경우입니다."
+    },
+    "workplace-change-report": {
+     "title": "근무처 변경·추가 신고의무를 위반한 경우",
+     "desc": "전문 지식·기술·기능을 가진 사람 등 신고만으로 근무처를 변경·추가할 수 있는 체류자격자가 15일 이내에 신고하지 않은 경우입니다."
+    },
+    "registration-change-report": {
+     "title": "외국인등록사항 변경신고 의무를 위반한 경우",
+     "desc": "성명·성별·생년월일·국적, 여권번호·발급일·유효기간, 소속기관·단체 변경 등을 15일 이내에 신고하지 않은 경우입니다."
+    },
+    "guardian-application": {
+     "title": "대리 신청·신고의무를 위반한 경우(17세 미만 등)",
+     "desc": "17세 미만 외국인의 부모 등 법정 대리인이 체류자격 외 활동, 체류자격 변경, 기간 연장, 외국인등록, 등록사항 변경, 체류지 변경 등의 신청·신고를 법정기간 내에 하지 않은 경우입니다."
+    },
+    "okf-residence-report": {
+     "title": "재외동포 국내거소 이전신고 의무를 위반한 경우",
+     "desc": "국내거소신고를 한 재외동포(F-4 등)가 거소를 옮긴 날부터 14일 이내에 이전신고를 하지 않은 경우입니다."
+    }
+   },
+   "ui": {
+    "h1": "벌금기준 — 출입국 범칙금·과태료 기준표",
+    "lead": "출입국관리법을 위반하면 위반 행위의 종류와 위반 기간(또는 위반 횟수)에 따라 범칙금 또는 과태료가 부과됩니다. 아래 표는 법령 별표에 규정된 기준액 전부를 한 페이지에 정리한 것입니다.",
+    "summary": "{groups}개 위반 유형 · {tiers}개 구간",
+    "kindNoteTitle": "범칙금과 과태료는 다릅니다",
+    "kindNote": "범칙금은 형사처벌 대상 위반에 대해 기소 대신 부과되는 금전이고, 과태료는 신고·등록 의무를 지키지 않은 데 대한 행정질서벌입니다. 납부했다고 해서 강제퇴거·출국명령 등 체류에 관한 처분이 없어지는 것은 아닙니다.",
+    "sourceTitle": "출처",
+    "sourceLine": "{law} [{table}] (개정 {amended})",
+    "asOf": "기준일: {date} 확인",
+    "adjustNote": "실제 부과액은 위반 정황·위반 횟수·고용인원 등에 따라 가중되거나 감경될 수 있습니다. 아래 금액은 법령이 정한 기준액입니다.",
+    "colPeriod": "위반 기간",
+    "colCount": "위반 횟수",
+    "colAmount": "기준액",
+    "sectionFine": "범칙금 (출입국관리법 시행규칙 별표 7·별표 8)",
+    "sectionPenalty": "과태료 (출입국관리법 시행령 별표 2 · 재외동포법 시행령 별표)",
+    "lawLabel": "근거 법조문",
+    "violatedLabel": "위반 조항",
+    "basisLabel": "기준 별표",
+    "tocTitle": "위반 유형 한눈에 보기",
+    "headcountNote": "금액은 고용인원 1명일 때 하한, 50명 이상일 때 상한입니다.",
+    "ctaTitle": "범칙금 고지를 받으셨나요?",
+    "ctaBody": "범칙금·과태료 납부는 사범심사와 별개로 진행됩니다. 통고서에 적힌 기한을 넘기면 가산되거나 강제징수·출국정지로 이어질 수 있습니다. 선샤인행정사사무소가 남은 기한과 대응 방법을 먼저 확인해 드립니다.",
+    "ctaButton": "상담 신청",
+    "relatedTitle": "함께 보면 좋은 페이지",
+    "relatedOffenses": "위반 유형별 상세 안내",
+    "relatedFines": "출입국 범칙금 유형별 설명",
+    "relatedDispositions": "처분 유형(출국명령·강제퇴거 등)",
+    "disclaimer": "이 페이지는 법령에 규정된 일반 기준을 안내할 목적으로 작성되었으며, 개별 사건에 대한 법률 자문이 아닙니다. 실제 처분은 담당 심사관의 판단과 개별 사정에 따라 달라집니다.",
+    "home": "홈",
+    "backToFines": "출입국 범칙금 유형별 설명으로",
+    "seeAll": "전체 기준표 보기",
+    "tableName": "별표 {n}",
+    "tableNameNoNum": "별표"
+   },
+   "seo": {
+    "title": "벌금기준 — 출입국 범칙금·과태료 기준표 16유형 101구간",
+    "description": "출입국관리법 시행규칙 별표 7·8, 시행령 별표 2에 규정된 범칙금·과태료 기준액을 16개 위반 유형 101개 구간으로 모두 정리했습니다. 초과체류, 불법취업, 외국인등록 미이행 등 유형별 금액을 확인하세요."
+   }
+  },
+  "en": {
+   "acts": {
+    "immig": "Immigration Act",
+    "immigDecree": "Enforcement Decree of the Immigration Act",
+    "immigRule": "Enforcement Rule of the Immigration Act",
+    "okf": "Overseas Koreans Act",
+    "okfDecree": "Enforcement Decree of the Overseas Koreans Act"
+   },
+   "cite": {
+    "jo": "art. {n}",
+    "hang": "({n})",
+    "ho": "({n})",
+    "sep": ""
+   },
+   "periods": {
+    "lt1m": "Under 1 month",
+    "1m_3m": "1 – 3 months",
+    "lt3m": "Under 3 months",
+    "3m_6m": "3 – 6 months",
+    "6m_1y": "6 months – 1 year",
+    "lt1y": "Under 1 year",
+    "1y_2y": "1 – 2 years",
+    "ge1y": "1 year or more",
+    "2y_3y": "2 – 3 years",
+    "ge2y": "2 years or more",
+    "3y_5y": "3 – 5 years",
+    "ge3y": "3 years or more",
+    "5y_7y": "5 – 7 years",
+    "ge7y": "7 years or more",
+    "n1": "1st violation",
+    "n2": "2nd violation",
+    "ge3": "3rd violation or more"
+   },
+   "kinds": {
+    "fine": "Fine",
+    "penalty": "Admin. penalty"
+   },
+   "money": {
+    "mode": "full",
+    "pattern": "KRW {n}",
+    "group": ",",
+    "range": "{a} – {b}"
+   },
+   "groups": {
+    "overstay-scope": {
+     "title": "Staying beyond your status or permitted period",
+     "desc": "Remaining in Korea outside the scope of the status of stay granted to you, or beyond the period permitted — the most common form of overstay."
+    },
+    "unauthorized-work": {
+     "title": "Working without a work-eligible status (worker)",
+     "desc": "Imposed on the foreign national who worked without holding a status of stay that permits employment."
+    },
+    "out-of-status-activity": {
+     "title": "Engaging in activities outside your status without permission",
+     "desc": "Carrying out activities that belong to another status of stay, in addition to your current one, without obtaining prior permission."
+    },
+    "no-status-stay": {
+     "title": "Staying without having been granted a status of stay",
+     "desc": "Where a foreign national who came to reside in Korea — for example by birth — continued to stay without applying for a status of stay."
+    },
+    "status-change-unpermitted": {
+     "title": "Changing to another status without permission",
+     "desc": "Engaging in activities under a different status of stay without first obtaining a change-of-status permit."
+    },
+    "extension-overstay": {
+     "title": "Overstaying without an extension permit",
+     "desc": "Continuing to stay past the expiry of your permitted period without having obtained an extension of stay."
+    },
+    "employing-unauthorized": {
+     "title": "Employing a foreign national without work eligibility (employer)",
+     "desc": "Imposed on the employer who hired a person without a work-eligible status. The amount rises with the number of workers employed, and the joint-penalty provision can extend it to the company or the individual."
+    },
+    "workplace-change-unpermitted": {
+     "title": "Changing or adding a workplace without permission",
+     "desc": "Where your status requires prior permission to change or add a workplace, and you moved or took on an additional workplace without it."
+    },
+    "alien-registration-failure": {
+     "title": "Failing to complete alien registration",
+     "desc": "Where a foreign national intending to stay more than 90 days did not register within 90 days of entry or of the event giving rise to the duty."
+    },
+    "address-change-report": {
+     "title": "Failing to report a change of residence",
+     "desc": "Where a registered foreign national did not report the move within 15 days of taking up the new place of residence."
+    },
+    "entry-violation": {
+     "title": "Entering without a valid passport or visa",
+     "desc": "Entering Korea without the passport and visa required by law (art. 7(1) and 7(4)); the amount rises with the number of violations."
+    },
+    "employer-report": {
+     "title": "Employer's duty to report (breach)",
+     "desc": "Where an employer of a foreign national failed to report a dismissal, resignation, death, unknown whereabouts, or a material change to the employment contract within 15 days of learning of it."
+    },
+    "workplace-change-report": {
+     "title": "Failing to report a change or addition of workplace",
+     "desc": "Where a holder of a status that may change or add a workplace by notification alone — such as professionals in knowledge, technology or skills — did not report within 15 days."
+    },
+    "registration-change-report": {
+     "title": "Failing to report a change to registered particulars",
+     "desc": "Where changes to name, sex, date of birth, nationality, passport number, issue date or validity, or affiliated organisation were not reported within 15 days."
+    },
+    "guardian-application": {
+     "title": "Breach of the duty to apply or report on another's behalf (under 17)",
+     "desc": "Where the legal representative of a foreign national under 17 failed to file, within the statutory period, applications or reports such as out-of-status activity, change of status, extension of stay, alien registration, change of particulars or change of residence."
+    },
+    "okf-residence-report": {
+     "title": "Overseas Korean: failing to report a change of domestic residence",
+     "desc": "Where an overseas Korean who filed a domestic residence report — for example on an F-4 status — did not report the move within 14 days of relocating."
+    }
+   },
+   "ui": {
+    "h1": "Immigration Fine Standards — Korea's Fine & Penalty Schedule",
+    "lead": "A breach of Korea's Immigration Act attracts either a fine (범칙금) or an administrative penalty (과태료), set by the type of breach and how long it lasted — or how many times it happened. This page reproduces every amount fixed in the statutory schedules, on one page.",
+    "summary": "{groups} breach types · {tiers} bands",
+    "kindNoteTitle": "A fine and an administrative penalty are not the same thing",
+    "kindNote": "A fine (범칙금) is money imposed instead of prosecution for a breach that is criminally punishable; an administrative penalty (과태료) is an order-keeping penalty for failing a reporting or registration duty. Paying either does not by itself remove a departure order, deportation or any other decision about your stay.",
+    "sourceTitle": "Source",
+    "sourceLine": "{law}, {table} (amended {amended})",
+    "asOf": "Verified as of {date}",
+    "adjustNote": "The amount actually imposed may be increased or reduced according to the circumstances, the number of repeat violations and the number of workers employed. The figures below are the standard amounts fixed by statute.",
+    "colPeriod": "Length of breach",
+    "colCount": "Number of violations",
+    "colAmount": "Standard amount",
+    "sectionFine": "Fine (Enforcement Rule of the Immigration Act, Tables 7 and 8)",
+    "sectionPenalty": "Administrative penalty (Enforcement Decree of the Immigration Act, Table 2 · Enforcement Decree of the Overseas Koreans Act, Table)",
+    "lawLabel": "Penalty provision",
+    "violatedLabel": "Duty breached",
+    "basisLabel": "Statutory table",
+    "tocTitle": "All breach types at a glance",
+    "headcountNote": "The lower figure applies to one worker employed; the upper figure to 50 or more.",
+    "ctaTitle": "Have you received a fine notice?",
+    "ctaBody": "Paying a fine or penalty runs separately from the immigration offense review. Missing the deadline on the notice can add surcharges and lead to compulsory collection or a departure ban. VISION will first confirm how much time you have left and what can still be done.",
+    "ctaButton": "Request a consultation",
+    "relatedTitle": "Related pages",
+    "relatedOffenses": "Offense types explained",
+    "relatedFines": "Immigration fines by offense type",
+    "relatedDispositions": "Disposition types (departure order, deportation)",
+    "disclaimer": "This page sets out the general standards laid down in legislation and is not legal advice on any individual case. The actual decision depends on the reviewing officer's judgement and the circumstances of the case.",
+    "home": "Home",
+    "backToFines": "Back to immigration fines by offense type",
+    "seeAll": "See the full schedule",
+    "tableName": "Table {n}",
+    "tableNameNoNum": "Table"
+   },
+   "seo": {
+    "title": "Immigration Fine Standards — Korea's Full Fine & Penalty Schedule",
+    "description": "Every fine and administrative penalty amount fixed by Korea's Immigration Act schedules — 16 breach types across 101 bands, covering overstay, unauthorized employment, failure to register and more, with the statutory provision for each."
+   }
+  },
+  "ja": {
+   "acts": {
+    "immig": "出入国管理法",
+    "immigDecree": "出入国管理法施行令",
+    "immigRule": "出入国管理法施行規則",
+    "okf": "在外同胞法",
+    "okfDecree": "在外同胞法施行令"
+   },
+   "cite": {
+    "jo": "第{n}条",
+    "hang": "第{n}項",
+    "ho": "第{n}号",
+    "sep": ""
+   },
+   "periods": {
+    "lt1m": "1か月未満",
+    "1m_3m": "1か月以上 ~ 3か月未満",
+    "lt3m": "3か月未満",
+    "3m_6m": "3か月以上 ~ 6か月未満",
+    "6m_1y": "6か月以上 ~ 1年未満",
+    "lt1y": "1年未満",
+    "1y_2y": "1年以上 ~ 2年未満",
+    "ge1y": "1年以上",
+    "2y_3y": "2年以上 ~ 3年未満",
+    "ge2y": "2年以上",
+    "3y_5y": "3年以上 ~ 5年未満",
+    "ge3y": "3年以上",
+    "5y_7y": "5年以上 ~ 7年未満",
+    "ge7y": "7年以上",
+    "n1": "1回",
+    "n2": "2回",
+    "ge3": "3回以上"
+   },
+   "kinds": {
+    "fine": "罰金（犯則金）",
+    "penalty": "過料"
+   },
+   "money": {
+    "mode": "man",
+    "pattern": "{n}万ウォン",
+    "group": ",",
+    "range": "{a} ~ {b}"
+   },
+   "groups": {
+    "overstay-scope": {
+     "title": "在留資格・在留期間の範囲を超えた滞在",
+     "desc": "許可された在留資格または在留期間の範囲を超えて韓国に滞在した場合。最も多い超過滞在（オーバーステイ）の類型です。"
+    },
+    "unauthorized-work": {
+     "title": "就労資格なく就労した場合（本人）",
+     "desc": "就労活動ができる在留資格を受けずに働いた外国人本人に科されます。"
+    },
+    "out-of-status-activity": {
+     "title": "資格外活動許可を受けなかった場合",
+     "desc": "現在の在留資格を維持したまま、他の在留資格に該当する活動を許可なく追加で行った場合です。"
+    },
+    "no-status-stay": {
+     "title": "在留資格を取得せずに滞在した場合",
+     "desc": "出生などにより韓国に滞在することになった外国人が、在留資格の付与を申請せずに滞在を続けた場合です。"
+    },
+    "status-change-unpermitted": {
+     "title": "在留資格変更許可を受けなかった場合",
+     "desc": "従来の在留資格を離れて他の在留資格の活動を行いながら、変更許可を受けなかった場合です。"
+    },
+    "extension-overstay": {
+     "title": "在留期間延長許可を受けずに超過滞在した場合",
+     "desc": "在留期間が終わる前に延長許可を受けず、期間を超えて滞在を続けた場合です。"
+    },
+    "employing-unauthorized": {
+     "title": "就労資格のない外国人を雇用した場合（使用者）",
+     "desc": "就労活動ができる在留資格を持たない人を雇用した使用者に科されます。金額は雇用人数が多いほど上がり、両罰規定により法人・個人にも併せて科されることがあります。"
+    },
+    "workplace-change-unpermitted": {
+     "title": "許可なく勤務先を変更・追加した場合",
+     "desc": "勤務先の変更・追加に許可が必要な在留資格であるにもかかわらず、許可を受けずに勤務先を移したり増やしたりした場合です。"
+    },
+    "alien-registration-failure": {
+     "title": "外国人登録義務に違反した場合",
+     "desc": "91日以上滞在しようとする外国人が、入国日または事由発生日から90日以内に外国人登録をしなかった場合です。"
+    },
+    "address-change-report": {
+     "title": "滞在地変更申告義務に違反した場合",
+     "desc": "登録外国人が新しい滞在地に転入した日から15日以内に申告しなかった場合です。"
+    },
+    "entry-violation": {
+     "title": "有効な旅券・査証なく入国した場合",
+     "desc": "法が定める旅券と査証を備えずに入国した場合（法第7条第1項・第4項）で、違反回数に応じて金額が上がります。"
+    },
+    "employer-report": {
+     "title": "外国人雇用に関する申告義務違反（使用者）",
+     "desc": "外国人を雇用した使用者が、解雇・退職・死亡・所在不明・雇用契約の主要内容の変更などを知った日から15日以内に申告しなかった場合です。"
+    },
+    "workplace-change-report": {
+     "title": "勤務先の変更・追加に関する申告義務違反",
+     "desc": "専門的な知識・技術・技能を有する人など、申告のみで勤務先を変更・追加できる在留資格者が15日以内に申告しなかった場合です。"
+    },
+    "registration-change-report": {
+     "title": "外国人登録事項の変更申告義務に違反した場合",
+     "desc": "氏名・性別・生年月日・国籍、旅券番号・発給日・有効期間、所属機関・団体の変更などを15日以内に申告しなかった場合です。"
+    },
+    "guardian-application": {
+     "title": "代理申請・申告義務に違反した場合（17歳未満など）",
+     "desc": "17歳未満の外国人の親など法定代理人が、資格外活動・在留資格変更・期間延長・外国人登録・登録事項変更・滞在地変更などの申請・申告を法定期間内に行わなかった場合です。"
+    },
+    "okf-residence-report": {
+     "title": "在外同胞の国内居所移転申告義務に違反した場合",
+     "desc": "国内居所申告をした在外同胞（F-4など）が、居所を移した日から14日以内に移転申告をしなかった場合です。"
+    }
+   },
+   "ui": {
+    "h1": "入管罰金基準 — 犯則金・過料の基準表",
+    "lead": "出入国管理法に違反すると、違反行為の種類と違反期間（または違反回数）に応じて犯則金または過料が科されます。以下の表は、法令の別表に定められた基準額をすべて1ページにまとめたものです。",
+    "summary": "{groups}の違反類型 · {tiers}の区間",
+    "kindNoteTitle": "犯則金と過料は別のものです",
+    "kindNote": "犯則金は刑事処罰の対象となる違反について起訴に代えて科される金銭であり、過料は申告・登録義務を果たさなかったことに対する行政秩序罰です。納付しても、強制退去や出国命令など在留に関する処分がなくなるわけではありません。",
+    "sourceTitle": "出典",
+    "sourceLine": "{law}［{table}］（改正 {amended}）",
+    "asOf": "基準日：{date} 確認",
+    "adjustNote": "実際の賦課額は、違反の情状・違反回数・雇用人数などにより加重または減軽されることがあります。以下の金額は法令が定める基準額です。",
+    "colPeriod": "違反期間",
+    "colCount": "違反回数",
+    "colAmount": "基準額",
+    "sectionFine": "犯則金（出入国管理法施行規則 別表7・別表8）",
+    "sectionPenalty": "過料（出入国管理法施行令 別表2 · 在外同胞法施行令 別表）",
+    "lawLabel": "根拠法条",
+    "violatedLabel": "違反した条項",
+    "basisLabel": "基準別表",
+    "tocTitle": "違反類型を一覧で見る",
+    "headcountNote": "金額は雇用人数1名のときが下限、50名以上のときが上限です。",
+    "ctaTitle": "犯則金の通告を受けましたか？",
+    "ctaBody": "犯則金・過料の納付は事犯審査とは別に進みます。通告書に記された期限を過ぎると加算され、強制徴収や出国停止につながることがあります。VISION行政書士事務所が、残りの期限と取りうる対応をまず確認します。",
+    "ctaButton": "相談を申し込む",
+    "relatedTitle": "あわせて読みたいページ",
+    "relatedOffenses": "違反の種類別の詳しい案内",
+    "relatedFines": "出入国犯則金の類型別説明",
+    "relatedDispositions": "処分の種類（出国命令・強制退去など）",
+    "disclaimer": "このページは法令に定められた一般的な基準を案内する目的で作成されたもので、個別事件に対する法律助言ではありません。実際の処分は担当審査官の判断と個別事情により異なります。",
+    "home": "ホーム",
+    "backToFines": "出入国犯則金の類型別説明へ",
+    "seeAll": "基準表の全体を見る",
+    "tableName": "別表{n}",
+    "tableNameNoNum": "別表"
+   },
+   "seo": {
+    "title": "入管罰金基準 — 韓国の犯則金・過料 全16類型101区間",
+    "description": "出入国管理法施行規則 別表7・8、施行令 別表2 に定められた犯則金・過料の基準額を、16の違反類型・101区間としてすべて掲載。超過滞在、不法就労、外国人登録の未了など、類型別の金額をご確認ください。"
+   }
+  },
+  "zh": {
+   "acts": {
+    "immig": "出入境管理法",
+    "immigDecree": "出入境管理法施行令",
+    "immigRule": "出入境管理法施行规则",
+    "okf": "在外同胞法",
+    "okfDecree": "在外同胞法施行令"
+   },
+   "cite": {
+    "jo": "第{n}条",
+    "hang": "第{n}款",
+    "ho": "第{n}项",
+    "sep": ""
+   },
+   "periods": {
+    "lt1m": "不满1个月",
+    "1m_3m": "1个月以上 ~ 不满3个月",
+    "lt3m": "不满3个月",
+    "3m_6m": "3个月以上 ~ 不满6个月",
+    "6m_1y": "6个月以上 ~ 不满1年",
+    "lt1y": "不满1年",
+    "1y_2y": "1年以上 ~ 不满2年",
+    "ge1y": "1年以上",
+    "2y_3y": "2年以上 ~ 不满3年",
+    "ge2y": "2年以上",
+    "3y_5y": "3年以上 ~ 不满5年",
+    "ge3y": "3年以上",
+    "5y_7y": "5年以上 ~ 不满7年",
+    "ge7y": "7年以上",
+    "n1": "1次",
+    "n2": "2次",
+    "ge3": "3次以上"
+   },
+   "kinds": {
+    "fine": "罚款（犯则金）",
+    "penalty": "过怠金"
+   },
+   "money": {
+    "mode": "man",
+    "pattern": "{n}万韩元",
+    "group": ",",
+    "range": "{a} ~ {b}"
+   },
+   "groups": {
+    "overstay-scope": {
+     "title": "超出居留资格·居留期限范围的滞留",
+     "desc": "超出获准的居留资格或居留期限范围继续在韩国滞留的情形，是最常见的超期滞留类型。"
+    },
+    "unauthorized-work": {
+     "title": "无就业资格从事就业活动（本人）",
+     "desc": "对未取得可从事就业活动的居留资格而工作的外国人本人科处。"
+    },
+    "out-of-status-activity": {
+     "title": "未取得居留资格外活动许可",
+     "desc": "在保持现有居留资格的同时，未经许可额外从事属于其他居留资格的活动。"
+    },
+    "no-status-stay": {
+     "title": "未取得居留资格而滞留",
+     "desc": "因出生等原因在韩国居留的外国人，未申请赋予居留资格而继续滞留的情形。"
+    },
+    "status-change-unpermitted": {
+     "title": "未取得居留资格变更许可",
+     "desc": "脱离原居留资格从事其他居留资格的活动，却未取得变更许可的情形。"
+    },
+    "extension-overstay": {
+     "title": "未取得居留期限延长许可而超期滞留",
+     "desc": "在居留期限届满前未取得延长许可，超过期限继续滞留的情形。"
+    },
+    "employing-unauthorized": {
+     "title": "雇用无就业资格外国人（雇主）",
+     "desc": "对雇用不具有可就业居留资格者的雇主科处。金额随雇用人数增加而上升，并可依两罚规定一并对法人或个人科处。"
+    },
+    "workplace-change-unpermitted": {
+     "title": "未经许可变更·增加工作单位",
+     "desc": "在变更或增加工作单位需事先许可的居留资格下，未取得许可即变更或增加工作单位的情形。"
+    },
+    "alien-registration-failure": {
+     "title": "违反外国人登记义务",
+     "desc": "拟停留91日以上的外国人，未在入境日或事由发生日起90日内办理外国人登记的情形。"
+    },
+    "address-change-report": {
+     "title": "违反居留地变更申报义务",
+     "desc": "登记外国人自迁入新居留地之日起15日内未申报的情形。"
+    },
+    "entry-violation": {
+     "title": "未持有效护照·签证入境",
+     "desc": "未具备法律规定的护照与签证而入境的情形（法第7条第1款·第4款），金额随违规次数上升。"
+    },
+    "employer-report": {
+     "title": "违反外国人雇用相关申报义务（雇主）",
+     "desc": "雇用外国人的雇主，自知悉解雇、离职、死亡、下落不明、雇用合同主要内容变更等之日起15日内未申报的情形。"
+    },
+    "workplace-change-report": {
+     "title": "违反工作单位变更·增加申报义务",
+     "desc": "具备专业知识、技术、技能者等仅需申报即可变更或增加工作单位的居留资格者，未在15日内申报的情形。"
+    },
+    "registration-change-report": {
+     "title": "违反外国人登记事项变更申报义务",
+     "desc": "姓名、性别、出生日期、国籍，护照号码、签发日、有效期，所属机构、团体变更等未在15日内申报的情形。"
+    },
+    "guardian-application": {
+     "title": "违反代理申请·申报义务（未满17岁等）",
+     "desc": "未满17岁外国人的父母等法定代理人，未在法定期间内办理资格外活动、居留资格变更、期限延长、外国人登记、登记事项变更、居留地变更等申请或申报的情形。"
+    },
+    "okf-residence-report": {
+     "title": "违反在外同胞国内居所迁移申报义务",
+     "desc": "已办理国内居所申报的在外同胞（如F-4）自迁移居所之日起14日内未申报的情形。"
+    }
+   },
+   "ui": {
+    "h1": "出入境罚款标准 — 罚款·过怠金基准表",
+    "lead": "违反出入境管理法时，将根据违规行为的种类与违规期间（或违规次数）科处罚款或过怠金。下表把法令别表规定的基准金额全部整理在一个页面上。",
+    "summary": "{groups}类违规 · {tiers}个档位",
+    "kindNoteTitle": "罚款与过怠金并不相同",
+    "kindNote": "罚款（범칙금）是对可追究刑事责任的违规行为代替起诉而科处的金钱；过怠金（과태료）则是对未履行申报、登记义务的行政秩序罚。缴纳并不等于免除强制驱逐、出境命令等有关居留的处分。",
+    "sourceTitle": "出处",
+    "sourceLine": "{law}［{table}］（修订 {amended}）",
+    "asOf": "基准日：{date} 确认",
+    "adjustNote": "实际科处金额可能依违规情节、违规次数、雇用人数等加重或减轻。下列金额为法令规定的基准额。",
+    "colPeriod": "违规期间",
+    "colCount": "违规次数",
+    "colAmount": "基准额",
+    "sectionFine": "罚款（出入境管理法施行规则 别表7·别表8）",
+    "sectionPenalty": "过怠金（出入境管理法施行令 别表2 · 在外同胞法施行令 别表）",
+    "lawLabel": "依据法条",
+    "violatedLabel": "违反条款",
+    "basisLabel": "基准别表",
+    "tocTitle": "违规类型一览",
+    "headcountNote": "金额下限对应雇用1人，上限对应雇用50人以上。",
+    "ctaTitle": "收到罚款通告了吗？",
+    "ctaBody": "罚款·过怠金的缴纳与事犯审查分开进行。超过通告书上的期限会加收，并可能导致强制征收或限制出境。VISION行政士事务所将首先确认您剩余的期限与可行的应对方式。",
+    "ctaButton": "申请咨询",
+    "relatedTitle": "相关页面",
+    "relatedOffenses": "各违规类型详细说明",
+    "relatedFines": "出入境罚款分类说明",
+    "relatedDispositions": "处分类型（出境命令·强制驱逐等）",
+    "disclaimer": "本页旨在介绍法令规定的一般基准，并非针对个别案件的法律意见。实际处分取决于审查官的判断与个案情况。",
+    "home": "首页",
+    "backToFines": "前往出入境罚款分类说明",
+    "seeAll": "查看完整基准表",
+    "tableName": "别表{n}",
+    "tableNameNoNum": "别表"
+   },
+   "seo": {
+    "title": "出入境罚款标准 — 韩国罚款·过怠金 16类101档全表",
+    "description": "完整收录出入境管理法施行规则别表7·8与施行令别表2规定的罚款、过怠金基准额，共16类违规、101个档位。涵盖超期滞留、非法就业、未办外国人登记等类型及其依据法条。"
+   }
+  },
+  "vi": {
+   "acts": {
+    "immig": "Luật Quản lý Xuất nhập cảnh",
+    "immigDecree": "Nghị định thi hành Luật Quản lý XNC",
+    "immigRule": "Thông tư thi hành Luật Quản lý XNC",
+    "okf": "Luật Kiều bào Hàn Quốc",
+    "okfDecree": "Nghị định thi hành Luật Kiều bào"
+   },
+   "cite": {
+    "jo": "Điều {n}",
+    "hang": "({n})",
+    "ho": "({n})",
+    "sep": ""
+   },
+   "periods": {
+    "lt1m": "Dưới 1 tháng",
+    "1m_3m": "1 – 3 tháng",
+    "lt3m": "Dưới 3 tháng",
+    "3m_6m": "3 – 6 tháng",
+    "6m_1y": "6 tháng – 1 năm",
+    "lt1y": "Dưới 1 năm",
+    "1y_2y": "1 – 2 năm",
+    "ge1y": "Từ 1 năm",
+    "2y_3y": "2 – 3 năm",
+    "ge2y": "Từ 2 năm",
+    "3y_5y": "3 – 5 năm",
+    "ge3y": "Từ 3 năm",
+    "5y_7y": "5 – 7 năm",
+    "ge7y": "Từ 7 năm",
+    "n1": "Lần 1",
+    "n2": "Lần 2",
+    "ge3": "Từ lần 3"
+   },
+   "kinds": {
+    "fine": "Tiền phạt (범칙금)",
+    "penalty": "Phạt hành chính (과태료)"
+   },
+   "money": {
+    "mode": "full",
+    "pattern": "{n} ₩",
+    "group": ".",
+    "range": "{a} – {b}"
+   },
+   "groups": {
+    "overstay-scope": {
+     "title": "Lưu trú vượt quá tư cách hoặc thời hạn cho phép",
+     "desc": "Ở lại Hàn Quốc ngoài phạm vi tư cách lưu trú được cấp hoặc quá thời hạn cho phép — dạng quá hạn phổ biến nhất."
+    },
+    "unauthorized-work": {
+     "title": "Làm việc khi không có tư cách được phép làm việc (người lao động)",
+     "desc": "Áp dụng với chính người nước ngoài đã làm việc mà không có tư cách lưu trú cho phép lao động."
+    },
+    "out-of-status-activity": {
+     "title": "Hoạt động ngoài tư cách lưu trú mà không xin phép",
+     "desc": "Thực hiện thêm các hoạt động thuộc tư cách lưu trú khác trong khi vẫn giữ tư cách hiện tại mà không xin phép trước."
+    },
+    "no-status-stay": {
+     "title": "Lưu trú mà chưa được cấp tư cách lưu trú",
+     "desc": "Khi người nước ngoài phát sinh cư trú tại Hàn Quốc — ví dụ do sinh ra — tiếp tục ở lại mà không xin cấp tư cách lưu trú."
+    },
+    "status-change-unpermitted": {
+     "title": "Chuyển sang tư cách khác mà không xin phép",
+     "desc": "Thực hiện hoạt động thuộc tư cách lưu trú khác mà chưa được cấp phép thay đổi tư cách."
+    },
+    "extension-overstay": {
+     "title": "Ở quá hạn khi chưa được gia hạn",
+     "desc": "Tiếp tục lưu trú sau khi thời hạn cho phép đã hết mà chưa được cấp phép gia hạn."
+    },
+    "employing-unauthorized": {
+     "title": "Thuê người nước ngoài không đủ điều kiện làm việc (người sử dụng lao động)",
+     "desc": "Áp dụng với người sử dụng lao động đã thuê người không có tư cách lưu trú cho phép làm việc. Mức phạt tăng theo số lao động và có thể mở rộng sang pháp nhân hoặc cá nhân theo quy định xử phạt kép."
+    },
+    "workplace-change-unpermitted": {
+     "title": "Đổi hoặc thêm nơi làm việc mà không xin phép",
+     "desc": "Khi tư cách lưu trú yêu cầu phải xin phép trước để đổi hoặc thêm nơi làm việc, nhưng bạn đã chuyển hoặc thêm nơi làm việc mà không xin phép."
+    },
+    "alien-registration-failure": {
+     "title": "Không thực hiện đăng ký người nước ngoài",
+     "desc": "Khi người nước ngoài dự định lưu trú trên 90 ngày không đăng ký trong vòng 90 ngày kể từ ngày nhập cảnh hoặc ngày phát sinh nghĩa vụ."
+    },
+    "address-change-report": {
+     "title": "Không khai báo thay đổi nơi cư trú",
+     "desc": "Khi người nước ngoài đã đăng ký không khai báo trong vòng 15 ngày kể từ ngày chuyển đến nơi ở mới."
+    },
+    "entry-violation": {
+     "title": "Nhập cảnh khi không có hộ chiếu hoặc visa hợp lệ",
+     "desc": "Nhập cảnh Hàn Quốc mà không có hộ chiếu và visa theo luật định (Điều 7(1) và 7(4)); mức phạt tăng theo số lần vi phạm."
+    },
+    "employer-report": {
+     "title": "Vi phạm nghĩa vụ khai báo khi thuê người nước ngoài (chủ sử dụng)",
+     "desc": "Khi người sử dụng lao động không khai báo trong vòng 15 ngày kể từ khi biết việc sa thải, nghỉ việc, tử vong, mất liên lạc hoặc thay đổi nội dung chính của hợp đồng lao động."
+    },
+    "workplace-change-report": {
+     "title": "Không khai báo việc đổi hoặc thêm nơi làm việc",
+     "desc": "Khi người có tư cách lưu trú chỉ cần khai báo để đổi hoặc thêm nơi làm việc — như chuyên gia về tri thức, kỹ thuật, kỹ năng — không khai báo trong vòng 15 ngày."
+    },
+    "registration-change-report": {
+     "title": "Không khai báo thay đổi thông tin đã đăng ký",
+     "desc": "Khi các thay đổi về họ tên, giới tính, ngày sinh, quốc tịch, số hộ chiếu, ngày cấp hoặc thời hạn, hoặc cơ quan trực thuộc không được khai báo trong vòng 15 ngày."
+    },
+    "guardian-application": {
+     "title": "Vi phạm nghĩa vụ nộp đơn hoặc khai báo thay (dưới 17 tuổi)",
+     "desc": "Khi người đại diện hợp pháp của người nước ngoài dưới 17 tuổi không nộp trong thời hạn luật định các đơn hoặc khai báo như hoạt động ngoài tư cách, thay đổi tư cách, gia hạn, đăng ký người nước ngoài, thay đổi thông tin đăng ký hoặc nơi cư trú."
+    },
+    "okf-residence-report": {
+     "title": "Kiều bào: không khai báo thay đổi nơi cư trú trong nước",
+     "desc": "Khi kiều bào đã khai báo nơi cư trú trong nước — ví dụ theo tư cách F-4 — không khai báo việc chuyển chỗ ở trong vòng 14 ngày."
+    }
+   },
+   "ui": {
+    "h1": "Mức phạt xuất nhập cảnh — Bảng chuẩn phạt và phạt hành chính",
+    "lead": "Vi phạm Luật Quản lý Xuất nhập cảnh Hàn Quốc sẽ bị phạt tiền (범칙금) hoặc phạt hành chính (과태료), tùy loại vi phạm và thời gian vi phạm — hoặc số lần vi phạm. Trang này tập hợp toàn bộ mức tiền được quy định trong các bảng phụ lục của pháp luật.",
+    "summary": "{groups} loại vi phạm · {tiers} mức",
+    "kindNoteTitle": "Tiền phạt và phạt hành chính không giống nhau",
+    "kindNote": "Tiền phạt (범칙금) là khoản tiền áp dụng thay cho việc truy tố đối với vi phạm có thể bị xử lý hình sự; phạt hành chính (과태료) là chế tài trật tự đối với việc không thực hiện nghĩa vụ khai báo hoặc đăng ký. Việc nộp tiền tự nó không xóa bỏ lệnh xuất cảnh, trục xuất hay bất kỳ quyết định nào về tư cách lưu trú.",
+    "sourceTitle": "Nguồn",
+    "sourceLine": "{law}, {table} (sửa đổi {amended})",
+    "asOf": "Đã đối chiếu ngày {date}",
+    "adjustNote": "Mức phạt thực tế có thể tăng hoặc giảm tùy hoàn cảnh, số lần tái phạm và số lao động được thuê. Các con số dưới đây là mức chuẩn do pháp luật ấn định.",
+    "colPeriod": "Thời gian vi phạm",
+    "colCount": "Số lần vi phạm",
+    "colAmount": "Mức chuẩn",
+    "sectionFine": "Tiền phạt (Thông tư thi hành Luật Quản lý XNC, Bảng 7 và 8)",
+    "sectionPenalty": "Phạt hành chính (Nghị định thi hành Luật Quản lý XNC, Bảng 2 · Nghị định thi hành Luật Kiều bào, Bảng)",
+    "lawLabel": "Điều khoản chế tài",
+    "violatedLabel": "Nghĩa vụ bị vi phạm",
+    "basisLabel": "Bảng phụ lục",
+    "tocTitle": "Tổng quan các loại vi phạm",
+    "headcountNote": "Mức thấp áp dụng khi thuê 1 lao động; mức cao khi thuê từ 50 lao động trở lên.",
+    "ctaTitle": "Bạn đã nhận được thông báo phạt?",
+    "ctaBody": "Việc nộp phạt diễn ra độc lập với quy trình xem xét vi phạm xuất nhập cảnh. Quá hạn ghi trên thông báo có thể bị tính thêm phụ phí, bị cưỡng chế thu hoặc bị cấm xuất cảnh. VISION sẽ xác định trước thời hạn còn lại và những gì vẫn có thể làm.",
+    "ctaButton": "Đăng ký tư vấn",
+    "relatedTitle": "Trang liên quan",
+    "relatedOffenses": "Giải thích theo loại vi phạm",
+    "relatedFines": "Phạt xuất nhập cảnh theo từng loại vi phạm",
+    "relatedDispositions": "Loại xử lý (lệnh xuất cảnh, trục xuất)",
+    "disclaimer": "Trang này trình bày các chuẩn mực chung do pháp luật quy định và không phải là tư vấn pháp lý cho vụ việc cụ thể. Quyết định thực tế phụ thuộc vào đánh giá của cán bộ xem xét và hoàn cảnh từng trường hợp.",
+    "home": "Trang chủ",
+    "backToFines": "Quay lại phạt xuất nhập cảnh theo loại vi phạm",
+    "seeAll": "Xem toàn bộ bảng chuẩn",
+    "tableName": "Bảng {n}",
+    "tableNameNoNum": "Bảng"
+   },
+   "seo": {
+    "title": "Mức phạt xuất nhập cảnh Hàn Quốc — 16 loại vi phạm, 101 mức",
+    "description": "Toàn bộ mức tiền phạt và phạt hành chính theo các bảng phụ lục của Luật Quản lý Xuất nhập cảnh Hàn Quốc — 16 loại vi phạm với 101 mức, gồm ở quá hạn, làm việc trái phép, không đăng ký người nước ngoài, kèm điều luật căn cứ."
+   }
+  }
+ }
+}
