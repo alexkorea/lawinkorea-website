@@ -2,7 +2,7 @@
 title: "Nhận được thông báo phạt vi phạm xuất nhập cảnh ở Hàn Quốc: cách xử lý 2026"
 description: "Cách xử lý thông báo phạt của cơ quan xuất nhập cảnh Hàn Quốc: cách nộp phạt, khi nào được khiếu nại, ảnh hưởng đến tư cách lưu trú và khi nào bị thẩm tra."
 date: "2026-09-23"
-category: "Hình phạt · 벌칙·벌금"
+category: "Hình phạt · Penalties"
 cluster: "cluster"
 keywords:
   - "phạt xuất nhập cảnh Hàn Quốc"
@@ -18,7 +18,7 @@ faq:
   - q: "Nộp phạt xong có hoàn toàn không ảnh hưởng đến tư cách lưu trú không?"
     a: "Vụ việc sẽ khép lại nhưng lịch sử vi phạm vẫn được lưu, có thể được tham khảo khi xét gia hạn lưu trú, thay đổi tư cách, hoặc chấm điểm theo hệ thống điểm."
   - q: "Quá hạn nộp phạt có bị trục xuất ngay không?"
-    a: "Quá hạn thường dẫn đến thủ tục tố giác và có thể chuyển sang 사범심사 (thẩm tra tư cách mang tính hình sự). Việc có bị trục xuất hay không còn tùy loại vi phạm, mức độ và hoàn cảnh cá nhân."
+    a: "Quá hạn thường dẫn đến thủ tục tố giác và có thể chuyển sang thẩm tra vi phạm xuất nhập cảnh (thủ tục mang tính hình sự). Việc có bị trục xuất hay không còn tùy loại vi phạm, mức độ và hoàn cảnh cá nhân."
   - q: "Nếu có nhiều vi phạm cùng lúc, tiền phạt có được cộng dồn không?"
     a: "Mỗi loại vi phạm có căn cứ pháp lý và mức phạt riêng, nên khi phát hiện nhiều vi phạm cùng lúc, thông thường sẽ thông báo phạt riêng theo từng mục. Vui lòng kiểm tra thông báo cụ thể và hướng dẫn của cơ quan phụ trách."
 related:
@@ -35,7 +35,7 @@ Bài viết này tổng hợp những điều cần kiểm tra khi nhận thông
 
 ## 1. Beomchikgeum là gì — chế độ thông báo xử phạt
 
-Beomchikgeum (범칙금) là khoản tiền theo chế độ **thông báo xử phạt** (Điều 102 trở đi của Luật Quản lý xuất nhập cảnh): đối với vi phạm tương đối nhẹ, thủ trưởng cơ quan sẽ thông báo nộp một khoản tiền nhất định thay vì tố giác hình sự. Nộp đúng hạn thì thủ tục kết thúc; không nộp thì cơ quan có thể tố giác, chuyển vụ việc sang thủ tục mang tính hình sự (사범심사).
+Beomchikgeum (범칙금) là khoản tiền theo chế độ **thông báo xử phạt** (Điều 102 trở đi của Luật Quản lý xuất nhập cảnh): đối với vi phạm tương đối nhẹ, thủ trưởng cơ quan sẽ thông báo nộp một khoản tiền nhất định thay vì tố giác hình sự. Nộp đúng hạn thì thủ tục kết thúc; không nộp thì cơ quan có thể tố giác, chuyển vụ việc sang thủ tục mang tính hình sự (thẩm tra vi phạm xuất nhập cảnh).
 
 ## 2. 3 điều cần kiểm tra đầu tiên khi nhận thông báo
 
@@ -69,7 +69,7 @@ Vì vậy, nếu có tranh chấp về sự việc thực tế (cách tính th�
 
 ## 5. Nộp phạt có ảnh hưởng đến tư cách lưu trú không
 
-Dù đã nộp phạt đúng hạn và vụ việc kết thúc, lịch sử vi phạm vẫn được lưu lại và có thể được tham khảo sau này khi xét gia hạn lưu trú, thay đổi tư cách lưu trú, hoặc các loại thẩm tra theo hệ thống điểm (ví dụ: mục trừ điểm trong hệ thống điểm chuyển đổi nhân lực kỹ năng). Nếu vi phạm tích lũy nhiều lần hoặc tính chất nghiêm trọng, có thể chuyển sang **사범심사** và dẫn đến xử phạt nặng hơn như hủy tư cách lưu trú, lệnh xuất cảnh. Cần nhớ rằng phạt tiền hình sự và xử phạt hành chính xuất nhập cảnh là hai quy trình riêng biệt, có chủ thể quyết định và thủ tục khác nhau. Xem toàn bộ quy trình 사범심사 tại [Hướng dẫn đầy đủ về 사범심사 xuất nhập cảnh](/blog/immigration-offense-review-guide).
+Dù đã nộp phạt đúng hạn và vụ việc kết thúc, lịch sử vi phạm vẫn được lưu lại và có thể được tham khảo sau này khi xét gia hạn lưu trú, thay đổi tư cách lưu trú, hoặc các loại thẩm tra theo hệ thống điểm (ví dụ: mục trừ điểm trong hệ thống điểm chuyển đổi nhân lực kỹ năng). Nếu vi phạm tích lũy nhiều lần hoặc tính chất nghiêm trọng, có thể chuyển sang **thẩm tra vi phạm xuất nhập cảnh** và dẫn đến xử phạt nặng hơn như hủy tư cách lưu trú, lệnh xuất cảnh. Cần nhớ rằng phạt tiền hình sự và xử phạt hành chính xuất nhập cảnh là hai quy trình riêng biệt, có chủ thể quyết định và thủ tục khác nhau. Xem toàn bộ quy trình thẩm tra vi phạm xuất nhập cảnh tại [Hướng dẫn đầy đủ về thẩm tra vi phạm xuất nhập cảnh](/blog/immigration-offense-review-guide).
 
 ## 6. Trình tự xử lý thực tế
 
@@ -78,7 +78,7 @@ Dù đã nộp phạt đúng hạn và vụ việc kết thúc, lịch sử vi p
 3. Nếu có tranh chấp hoặc có lý do chính đáng, hãy liên hệ cơ quan phát hành và chuẩn bị tài liệu giải trình trước khi nộp phạt.
 4. Nếu lo lắng lịch sử vi phạm ảnh hưởng đến việc xét tư cách lưu trú sau này, hãy cùng văn phòng hành chính sĩ kiểm tra toàn bộ lịch sử lưu trú.
 
-Những vụ việc có khả năng chuyển sang thủ tục hình sự thuộc về một thủ tục pháp lý riêng biệt, còn việc ứng phó với 사범심사 và tư cách lưu trú xuất nhập cảnh thuộc lĩnh vực của hành chính sĩ.
+Những vụ việc có khả năng chuyển sang thủ tục hình sự thuộc về một thủ tục pháp lý riêng biệt, còn việc ứng phó với thẩm tra vi phạm xuất nhập cảnh và tư cách lưu trú thuộc lĩnh vực của hành chính sĩ.
 
 ## 7. Hãy kiểm tra ngay bây giờ
 
@@ -89,7 +89,7 @@ Nếu bạn đã nhận thông báo phạt và muốn kiểm tra luôn ảnh hư
 ---
 
 **Bài viết liên quan:**
-- [Hướng dẫn đầy đủ về 사범심사 xuất nhập cảnh](/blog/immigration-offense-review-guide)
+- [Hướng dẫn đầy đủ về thẩm tra vi phạm xuất nhập cảnh](/blog/immigration-offense-review-guide)
 - [Tổng hợp đầy đủ hình phạt theo Luật Quản lý xuất nhập cảnh](/blog/immigration-law-penalties-guide)
 - [Xử phạt làm việc trái phép, hoạt động ngoài tư cách](/blog/illegal-employment-penalty)
 
