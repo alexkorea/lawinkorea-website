@@ -78,7 +78,7 @@ Even after the fine is paid and the case is closed, the violation record remains
 3. If you dispute the facts or have a legitimate reason, contact the issuing office and prepare supporting materials before paying.
 4. If you're concerned about how the record could affect future status reviews, have your full stay history reviewed with an administrative agent office.
 
-Matters likely to move into criminal procedure fall within an attorney's criminal defense practice, while immigration review and status response fall within an administrative agent's practice. We coordinate with partner attorneys when needed.
+Matters likely to move into criminal procedure belong to a separate legal process, while immigration offense review and status response fall within an administrative agent's practice.
 
 ## 7. Check your situation now
 

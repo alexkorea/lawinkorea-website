@@ -78,7 +78,7 @@ Dù đã nộp phạt đúng hạn và vụ việc kết thúc, lịch sử vi p
 3. Nếu có tranh chấp hoặc có lý do chính đáng, hãy liên hệ cơ quan phát hành và chuẩn bị tài liệu giải trình trước khi nộp phạt.
 4. Nếu lo lắng lịch sử vi phạm ảnh hưởng đến việc xét tư cách lưu trú sau này, hãy cùng văn phòng hành chính sĩ kiểm tra toàn bộ lịch sử lưu trú.
 
-Những vụ việc có khả năng chuyển sang thủ tục hình sự thuộc lĩnh vực bào chữa hình sự của luật sư, còn việc ứng phó với 사범심사 và tư cách lưu trú xuất nhập cảnh thuộc lĩnh vực của hành chính sĩ. Khi cần thiết, chúng tôi sẽ phối hợp cùng luật sư đối tác.
+Những vụ việc có khả năng chuyển sang thủ tục hình sự thuộc về một thủ tục pháp lý riêng biệt, còn việc ứng phó với 사범심사 và tư cách lưu trú xuất nhập cảnh thuộc lĩnh vực của hành chính sĩ.
 
 ## 7. Hãy kiểm tra ngay bây giờ
 
