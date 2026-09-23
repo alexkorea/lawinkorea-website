@@ -133,21 +133,20 @@ export default function RootLayout({
       </head>
       <body className="min-h-full font-sans">
         {children}
+        {/* gtag 번들은 176KB 로 이 페이지 전체 전송량의 23% 다. async 로 두면 문서 파싱
+            직후부터 받기 시작해 LCP 와 대역폭을 다툰다(홈 LCP 요소는 본문 <p> 텍스트이고
+            Render Delay 가 93% 였다). window load 이후에 주입해도 페이지뷰 집계는 같다. */}
         {SITE.gaId && (
-          <>
-            <script
-              async
-              src={`https://www.googletagmanager.com/gtag/js?id=${SITE.gaId}`}
-            />
-            <script
-              dangerouslySetInnerHTML={{
-                __html: `window.dataLayer = window.dataLayer || [];
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', '${SITE.gaId}');`,
-              }}
-            />
-          </>
+gtag('config', '${SITE.gaId}');
+(function(){var load=function(){var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=${SITE.gaId}';document.head.appendChild(s);};
+if(document.readyState==='complete'){setTimeout(load,0);}else{window.addEventListener('load',function(){setTimeout(load,0);});}})();`,
+            }}
+          />
         )}
       </body>
     </html>
