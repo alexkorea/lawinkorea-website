@@ -97,6 +97,7 @@ fs.writeFileSync(
       exclude: [
         // robots.txt / sitemap.xml 은 Next 라우트가 생성하므로 제외하면 안 된다
         "/_next/static/*",
+        "/fonts/*",
         "/blog-images/*",
         "/team/*",
         "/qr/*",
@@ -125,6 +126,10 @@ fs.writeFileSync(
   Permissions-Policy: geolocation=(), microphone=(), camera=()
 
 /_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# 자체호스팅 폰트 — 파일명에 날짜가 박혀 있어 내용이 바뀌면 URL 이 바뀐다.
+/fonts/*
   Cache-Control: public, max-age=31536000, immutable
 
 /blog-images/*

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { COMPANY, SITE } from "./lib/constants";
+import Webfonts from '@/components/Webfonts';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
@@ -77,24 +78,7 @@ export default function RootLayout({
   return (
     <html lang="ko" className="h-full antialiased">
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
-        {/*
-          2026-09-22 정정: 위 static/pretendard.css 는 "woff2 를 안 받는다"고 적혀
-          있었으나 실측(iPhone 13, 2026-09-22)은 반대였다 — Regular/Medium/SemiBold/Bold
-          4개 전체 한글 woff2 를 받아 합계 3.12 MB 였고 Pretendard 는 정상 적용 중이었다.
-          variable dynamic-subset 으로 바꾸면 같은 서체를 유지하면서 보이는 글자에
-          해당하는 서브셋만 받는다(실측 3.12 MB → 약 0.3 MB).
-        */}
-        <link
-          href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
-          rel="stylesheet"
-        />
+        <Webfonts />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
