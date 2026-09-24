@@ -2,7 +2,7 @@
 title: "DUI and Visa Extension for Foreigners in Korea (2026)"
 description: "What foreigners caught for DUI in Korea must know: penalties by blood-alcohol level, how the offence review runs, and the evidence that decides it."
 date: "2026-05-01"
-category: "DUI · 음주운전"
+category: "DUI"
 cluster: "cluster"
 keywords:
   - "Korea DUI foreigner"

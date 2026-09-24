@@ -2,7 +2,7 @@
 title: "Criminal Cases & Visa Defense for Foreigners in Korea"
 description: "How foreigners punished for assault, theft or fraud keep their visa and avoid deportation: outcomes by charge, mitigation evidence, and a 5-step plan."
 date: "2026-05-01"
-category: "Criminal · 형사사건"
+category: "Criminal"
 cluster: "cluster"
 keywords:
   - "Korea criminal case foreigner"

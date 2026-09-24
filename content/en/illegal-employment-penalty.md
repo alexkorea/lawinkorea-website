@@ -2,7 +2,7 @@
 title: "Unauthorized Work in Korea — Avoiding Deportation"
 description: "Student hour limits, E-9 workplace departure and out-of-status work: penalties for you and your employer, and how to keep your visa."
 date: "2026-05-01"
-category: "Employment · 불법취업"
+category: "Employment"
 cluster: "cluster"
 keywords:
   - "Korea illegal employment foreigner"

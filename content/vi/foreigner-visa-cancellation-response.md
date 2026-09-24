@@ -28,7 +28,7 @@ related:
 ---
 
 Khi nhận thông báo hủy tư cách lưu trú, nếu không khiếu nại ngay, vụ việc có thể chuyển sang thủ tục trục xuất.
-Theo Điều 89 [Luật Quản lý xuất nhập cảnh](https://www.law.go.kr/법령/출입국관리법), bạn có thể khiếu nại quyết định hủy, và cũng có thể khởi kiện hành chính để tranh chấp chính quyết định đó.
+Theo Điều 89 [Luật Quản lý xuất nhập cảnh](https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%B6%9C%EC%9E%85%EA%B5%AD%EA%B4%80%EB%A6%AC%EB%B2%95), bạn có thể khiếu nại quyết định hủy, và cũng có thể khởi kiện hành chính để tranh chấp chính quyết định đó.
 Bài viết này tổng hợp các lý do hủy phổ biến, quy trình ứng phó, cách khiếu nại và những điểm quan trọng trong thực tiễn.
 
 ## Các lý do hủy tư cách lưu trú phổ biến
@@ -144,4 +144,4 @@ Có hỗ trợ tư vấn bằng tiếng nước ngoài (Anh, Trung, Nhật, Vi�
 
 ---
 
-*Tham khảo pháp luật: [Luật Quản lý xuất nhập cảnh Điều 89 (hủy tư cách lưu trú)](https://www.law.go.kr/법령/출입국관리법) · [Luật Xét xử hành chính](https://www.law.go.kr/법령/행정심판법)*
+*Tham khảo pháp luật: [Luật Quản lý xuất nhập cảnh Điều 89 (hủy tư cách lưu trú)](https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%B6%9C%EC%9E%85%EA%B5%AD%EA%B4%80%EB%A6%AC%EB%B2%95) · [Luật Xét xử hành chính](https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%ED%96%89%EC%A0%95%EC%8B%AC%ED%8C%90%EB%B2%95)*

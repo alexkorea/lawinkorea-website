@@ -2,7 +2,7 @@
 title: "What to Do When You Receive an Immigration Fine Notice in Korea (2026)"
 description: "Responding to a Korean immigration fine notice: how to pay, grounds for objection, the effect on visa status, and when it leads to an offence review."
 date: "2026-09-23"
-category: "Penalties · 벌칙·벌금"
+category: "Penalties"
 cluster: "cluster"
 keywords:
   - "immigration fine Korea"
