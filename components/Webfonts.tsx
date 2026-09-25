@@ -6,33 +6,23 @@
  * '구간' 단위라 홈이 쓰는 음절이 몇백 자여도 구간 파일을 통째로 받는다 —
  * 2026-09-24 실측에서 폰트만 13요청 321KB 로 전송량 1위였다(총 724KB).
  *
- * 지금은 app/globals.css 의 자체호스팅 @font-face 가 첫 화면을 책임진다.
- * jsdelivr 시트는 '아직 서브셋에 없는 글자'용 안전망이라 media=print 로 받아
- * 렌더를 막지 않고, load 후 스크립트가 media 를 all 로 바꾼다.
+ * 지금은 app/globals.css 의 자체호스팅 @font-face 가 전부를 책임진다.
+ * 안전망으로 두던 jsdelivr 비동기 시트는 2026-09-26 에 없앴다 — media=print 를
+ * load 후 all 로 뒤집는 순간 문서 전체 스타일 재계산이 돌고, 이미 받아 둔
+ * font-display:optional 서체가 '첫 사용' 으로 다시 잡혀 본문이 재배치된다.
+ * 그래서 비동기 시트도, 플립 스크립트도, 폰트 스택의 CDN 패밀리도 남기지 않는다.
+ *
+ * 남는 건 임계 서브셋 preload 한 줄뿐이고, 그것도 필수다 —
+ * 스타일시트 파싱 뒤에 발견되면 optional 은 블록 구간을 놓쳐 한 번도 적용되지 않는다.
  */
 export default function Webfonts() {
   return (
-    <>
-      <link
-        rel="preload"
-        as="font"
-        type="font/woff2"
-        crossOrigin="anonymous"
-        href="/fonts/pretendard-critical-20260924.woff2"
-      />
-      <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="" />
-      <link
-        rel="stylesheet"
-        media="print"
-        data-async-font=""
-        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
-      />
-      <script
-        dangerouslySetInnerHTML={{
-          __html:
-            "addEventListener('load',function(){document.querySelectorAll('link[data-async-font]').forEach(function(l){l.media='all'})})",
-        }}
-      />
-    </>
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      crossOrigin="anonymous"
+      href="/fonts/pretendard-critical-20260924.woff2"
+    />
   )
 }
