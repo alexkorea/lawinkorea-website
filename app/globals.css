@@ -3,27 +3,7 @@
    렌더블로킹 <link> 로 받았다. dynamic-subset 은 유니코드 '구간' 단위라
    실측에서 폰트만 13요청 321KB 로 전송량 1위였고(총 724KB), 홈의 LCP 요소가
    이미지가 아니라 본문 텍스트라 폰트 도착이 곧 LCP 였다.
-   여기 없는 글자는 뒤의 시스템 서체로 그냥 넘어간다.
-
-   font-display 는 swap 을 유지한다(2026-09-26).
-   다른 사이트에서 CLS 때문에 optional 로 바꾼 전례가 있어 여기도 시도했지만,
-   이 사이트는 swap 에서 이미 CLS 0.000 이라 얻을 것이 없었다. 대신 첫 방문자가
-   느린 회선에서 시스템 서체를 보게 되는 대가만 남는다. 그래서 swap 이다.
-   (CLS 가 실제로 나는 사이트 — inhega·apokorea·investkorea·f6visa·f4visa — 는 optional 이 맞다.)
-
-   측정 함정 하나를 여기 적어 둔다. 갓 올린 배포를 Lighthouse 로 재면 시뮬레이션
-   LCP 가 0.7s 가량 부풀려진다. Lantern 은 관측된 origin 서버응답시간을 그 오리진의
-   '모든' 요청에 곱해 쓰는데, 새 배포는 엣지가 차가워 그 값이 8ms -> 14ms 로 뛴다
-   (요청 25개니 그대로 곱해진다). 2026-09-26 실측 — 옛배포 n=11 중앙 2.24s vs
-   새배포 n=7 중앙 3.10s 였는데, 같은 새배포를 optional/swap 두 벌로 각각 재 보니
-   3.10s / 3.11s 로 똑같았다. 즉 font-display 탓이 아니라 캐시 온도 탓이다.
-   관측값(obsLCP)은 양쪽 다 obsFCP 와 같은 시각(98~602ms)이었다.
-   갓 배포한 것과 오래된 것을 나란히 재서 회귀를 판정하지 말 것.
-
-   jsdelivr 안전망 시트 제거는 그대로 둔다. media=print 를 load 후 all 로 뒤집으면
-   문서 전체 스타일 재계산이 돌고, 실측으로도 매 요청 구간 파일 2개(24+27KB)와
-   시트 13KB 를 더 받고 있었다(553KB/28요청 -> 489KB/25요청).
-   스택의 'Pretendard Variable' 도 같은 이유로 뺐다. preload 는 남겨 둔다.
+   여기 없는 글자는 뒤의 'Pretendard Variable'(load 후 비동기)로 넘어간다.
    재생성: python3 ~/tools/font-subset/build.py --home https://lawinkorea.com/ko \
            --sitemap https://lawinkorea.com/sitemap.xml --out-dir public/fonts \
            --url-prefix /fonts --stamp <날짜> --extra-file app/globals.css */
@@ -47,7 +27,7 @@
   --color-border: #e9ecef;
   --color-border-soft: #c4c6cf;
 
-  --font-sans: "Pretendard Critical", "Public Sans", "Noto Sans KR", system-ui, sans-serif;
+  --font-sans: "Pretendard Critical", "Pretendard Variable", "Pretendard", "Public Sans", "Noto Sans KR", system-ui, sans-serif;
   --font-mono: ui-monospace, "SF Mono", Menlo, monospace;
 }
 
