@@ -152,22 +152,45 @@ export async function POST(req: Request) {
     const honeypot = plain(data.website) !== "";
 
     // 검증이 없으면 빈 본문 POST 한 번에 관리자 알림 메일이 나가고 200 이 돌아간다
-    // (2026-09-22 실측). 연락 수단이 하나도 없는 접수는 받아도 회신할 수 없다.
-    const hasContact = plain(data.email) || plain(data.contact) || plain(data.phone);
-    if (!plain(data.name) || !hasContact) {
+    // (2026-09-22 실측: 11:01 KST 에 본문이 표 0행인 알림 메일 1통이 실제로 나갔고,
+    // Gmail 이 빈 본문을 스팸으로 분류했다). 연락 수단이 하나도 없는 접수는
+    // 받아도 회신할 수 없다.
+    //
+    // 이메일은 "필수" 가 아니라 "있으면 형식 검증" 이다. 예전에 email 을 필수로 걸었다가
+    // 전화번호만 남긴 문의를 400 으로 되돌려 보내 통째로 버린 사고가 있었다
+    // (게이트웨이 /api/intake). 연락 수단은 이메일 '또는' 전화번호로 유지한다.
+    const nameV = plain(data.name);
+    const emailV = plain(data.email);
+    const contactV = plain(data.contact) || plain(data.phone);
+    const messageV = plain(data.message).trim();
+
+    if (!nameV || !(emailV || contactV)) {
       return NextResponse.json(
         { ok: false, error: "이름과 연락처(이메일 또는 전화번호)를 입력해 주세요." },
+        { status: 400 },
+      );
+    }
+    if (emailV && !/^[^\s@]+@[^\s@.]+\.[^\s@]{2,}$/.test(emailV)) {
+      return NextResponse.json(
+        { ok: false, error: "이메일 형식이 올바르지 않습니다." },
+        { status: 400 },
+      );
+    }
+    // 문의내용 최소 길이. 봇의 빈/한두 글자 POST 를 메일 발송 전에 끊는다.
+    if (messageV.length < 10) {
+      return NextResponse.json(
+        { ok: false, error: "문의내용을 10자 이상 입력해 주세요." },
         { status: 400 },
       );
     }
 
     const NOTION_API_KEY = process.env.NOTION_API_KEY;
     const NOTION_DB_ID = process.env.NOTION_DB_ID;
-    const customerEmail = plain(data.email);
+    const customerEmail = emailV;
     const mailLocale = toMailLocale(data.locale);
     const receivedAt = kstStamp();
 
-    const name = plain(data.name) || "Anonymous";
+    const name = nameV;
     const submittedAt = new Date().toISOString();
 
     const properties: Record<string, unknown> = {

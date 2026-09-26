@@ -16,12 +16,14 @@ type Copy = {
   phone: string;
   caseType: string;
   caseTypes: string[];
+  nationality: string;
   message: string;
   submit: string;
   sending: string;
   ok: string;
   fail: string;
   required: string;
+  requiredMessage: string;
   privacy: string;
 };
 
@@ -32,12 +34,14 @@ const COPY: Record<L, Copy> = {
     phone: "연락처",
     caseType: "사건 유형",
     caseTypes: ["선택해 주세요", "음주운전 (DUI)", "마약 사건", "보이스피싱", "불법취업", "성범죄", "비자 거절", "강제퇴거", "입국금지 해제", "영주권/국적", "형사사건", "기타"],
+    nationality: "국적",
     message: "상황 설명",
     submit: "상담 신청",
     sending: "접수 중…",
     ok: "접수되었습니다. 영업일 기준 1일 이내에 회신드립니다.",
     fail: `접수에 실패했습니다. ${COMPANY.phone} 로 연락해 주세요.`,
     required: "성함과 연락처(이메일 또는 전화번호)를 입력해 주세요.",
+    requiredMessage: "문의내용을 10자 이상 입력해 주세요.",
     privacy: "입력하신 정보는 상담 회신 목적으로만 사용됩니다.",
   },
   en: {
@@ -46,12 +50,14 @@ const COPY: Record<L, Copy> = {
     phone: "Phone",
     caseType: "Case type",
     caseTypes: ["Please select", "DUI", "Drug case", "Voice phishing", "Illegal employment", "Sex offense", "Visa denied", "Deportation", "Entry ban relief", "Permanent residency / Nationality", "Criminal case", "Other"],
+    nationality: "Nationality",
     message: "Describe your situation",
     submit: "Request consultation",
     sending: "Sending…",
     ok: "Received. We will reply within one business day.",
     fail: `Submission failed. Please call ${COMPANY.phoneIntl}.`,
     required: "Please enter your name and either an email or a phone number.",
+    requiredMessage: "Please describe your situation in at least 10 characters.",
     privacy: "Your information is used only to reply to this inquiry.",
   },
   ja: {
@@ -60,12 +66,14 @@ const COPY: Record<L, Copy> = {
     phone: "連絡先",
     caseType: "案件の種類",
     caseTypes: ["選択してください", "飲酒運転 (DUI)", "麻薬事件", "ボイスフィッシング", "不法就労", "性犯罪", "ビザ却下", "強制退去", "入国禁止解除", "永住権・国籍", "刑事事件", "その他"],
+    nationality: "国籍",
     message: "状況のご説明",
     submit: "相談を申し込む",
     sending: "送信中…",
     ok: "受け付けました。1営業日以内にご返信いたします。",
     fail: `送信に失敗しました。${COMPANY.phoneIntl} までご連絡ください。`,
     required: "お名前と連絡先（メールまたは電話番号）をご入力ください。",
+    requiredMessage: "お問い合わせ内容を10文字以上ご入力ください。",
     privacy: "ご入力いただいた情報はご返信の目的にのみ使用します。",
   },
   zh: {
@@ -74,12 +82,14 @@ const COPY: Record<L, Copy> = {
     phone: "联系方式",
     caseType: "案件类型",
     caseTypes: ["请选择", "酒驾 (DUI)", "毒品案件", "电信诈骗", "非法就业", "性犯罪", "签证拒签", "强制出境", "解除入境禁止", "永居/国籍", "刑事案件", "其他"],
+    nationality: "国籍",
     message: "情况说明",
     submit: "申请咨询",
     sending: "提交中…",
     ok: "已收到。我们将在一个工作日内回复。",
     fail: `提交失败，请拨打 ${COMPANY.phoneIntl}。`,
     required: "请填写姓名和联系方式（邮箱或电话）。",
+    requiredMessage: "请填写至少 10 个字的咨询内容。",
     privacy: "您填写的信息仅用于回复本次咨询。",
   },
   vi: {
@@ -88,12 +98,14 @@ const COPY: Record<L, Copy> = {
     phone: "Số điện thoại",
     caseType: "Loại vụ việc",
     caseTypes: ["Vui lòng chọn", "Lái xe khi say rượu (DUI)", "Vụ việc ma túy", "Lừa đảo qua điện thoại", "Làm việc bất hợp pháp", "Tội phạm tình dục", "Từ chối visa", "Trục xuất", "Gỡ lệnh cấm nhập cảnh", "Thường trú / Quốc tịch", "Vụ án hình sự", "Khác"],
+    nationality: "Quốc tịch",
     message: "Mô tả tình huống",
     submit: "Gửi yêu cầu tư vấn",
     sending: "Đang gửi…",
     ok: "Đã tiếp nhận. Chúng tôi sẽ phản hồi trong vòng 1 ngày làm việc.",
     fail: `Gửi không thành công. Vui lòng gọi ${COMPANY.phoneIntl}.`,
     required: "Vui lòng nhập họ tên và email hoặc số điện thoại.",
+    requiredMessage: "Vui lòng mô tả tình huống với ít nhất 10 ký tự.",
     privacy: "Thông tin của bạn chỉ được dùng để phản hồi yêu cầu này.",
   },
 };
@@ -123,8 +135,16 @@ export default function ContactForm({ locale }: { locale: string }) {
     const name = String(fd.get("name") ?? "").trim();
     const email = String(fd.get("email") ?? "").trim();
     const contact = String(fd.get("contact") ?? "").trim();
+    const message = String(fd.get("message") ?? "").trim();
     if (!name || (!email && !contact)) {
       setError(c.required);
+      setState("fail");
+      return;
+    }
+    // 서버도 10자 미만을 400 으로 막는다. 여기서 먼저 걸러야 사용자가
+    // 제출 실패 대신 어느 칸이 문제인지 바로 안다.
+    if (message.length < 10) {
+      setError(c.requiredMessage);
       setState("fail");
       return;
     }
@@ -139,7 +159,8 @@ export default function ContactForm({ locale }: { locale: string }) {
           email,
           contact,
           caseType: String(fd.get("caseType") ?? ""),
-          message: String(fd.get("message") ?? ""),
+          nationality: String(fd.get("nationality") ?? "").trim(),
+          message,
           // 허니팟. input 이름을 "website" 로 두면 브라우저 자동완성이 숨은 칸을
           // 채워버려 사람이 낸 문의가 스팸으로 분류된다(2026-09-22). 이름은
           // 자동완성 휴리스틱에 걸리지 않는 것으로 쓰고, 서버 계약(website)만 유지한다.
@@ -194,11 +215,15 @@ export default function ContactForm({ locale }: { locale: string }) {
             ))}
           </select>
         </div>
+        <div>
+          <label style={labelStyle} htmlFor="cf-nationality">{c.nationality}</label>
+          <input id="cf-nationality" name="nationality" style={fieldStyle} autoComplete="country-name" />
+        </div>
       </div>
 
       <div style={{ marginBottom: 16 }}>
-        <label style={labelStyle} htmlFor="cf-message">{c.message}</label>
-        <textarea id="cf-message" name="message" rows={6} style={{ ...fieldStyle, resize: "vertical" }} />
+        <label style={labelStyle} htmlFor="cf-message">{c.message} *</label>
+        <textarea id="cf-message" name="message" rows={6} required minLength={10} style={{ ...fieldStyle, resize: "vertical" }} />
       </div>
 
       {/* 허니팟 — 사람에게는 보이지 않는다. 채워져 오면 서버가 [스팸의심] 을 달아

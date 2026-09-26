@@ -296,5 +296,10 @@ export function adminNotifyMail(
       `<p style="margin:16px 0 0;color:#74777f;font-size:12px">CRM: ${esc(crmNote)}</p>` +
       `<p style="margin:4px 0 0;color:#74777f;font-size:12px">이 메일에 '회신' 하면 고객에게 직접 갑니다(고객 이메일이 있을 때).</p>`,
   );
-  return { subject: `${flag ? `${flag} ` : ""}[${SITE.domain} 문의] ${name}`, html };
+  // 제목에 사안(서비스)까지 넣는다 — visaskorea.com 알림과 동일한 형식이라
+  // 받은편지함에서 제목만 보고 분류·우선순위 판단이 된다.
+  const service = String(data.caseType ?? "").trim();
+  const subject =
+    `${flag ? `${flag} ` : ""}[${SITE.domain} 문의] ${name}` + (service ? ` — ${service}` : "");
+  return { subject, html };
 }
