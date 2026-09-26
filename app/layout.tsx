@@ -119,7 +119,10 @@ export default function RootLayout({
         {children}
         {/* gtag 번들은 176KB 로 이 페이지 전체 전송량의 23% 다. async 로 두면 문서 파싱
             직후부터 받기 시작해 LCP 와 대역폭을 다툰다(홈 LCP 요소는 본문 <p> 텍스트이고
-            Render Delay 가 93% 였다). window load 이후에 주입해도 페이지뷰 집계는 같다. */}
+            Render Delay 가 93% 였다). window load 이후에 주입해도 페이지뷰 집계는 같다.
+            2026-09-27: load+0ms 는 load 가 0.5s 에 떨어지는 이 페이지에서는 여전히
+            LCP 구간 안이었다(실측 557ms 시작). '첫 상호작용 또는 load+2500ms 중
+            먼저 오는 쪽' 으로 더 내린다 — visaskorea 홈과 같은 방식이다. */}
         {SITE.gaId && (
           <script
             dangerouslySetInnerHTML={{
@@ -127,8 +130,10 @@ export default function RootLayout({
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', '${SITE.gaId}');
-(function(){var load=function(){var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=${SITE.gaId}';document.head.appendChild(s);};
-if(document.readyState==='complete'){setTimeout(load,0);}else{window.addEventListener('load',function(){setTimeout(load,0);});}})();`,
+(function(){var fired=false;var load=function(){if(fired)return;fired=true;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=${SITE.gaId}';document.head.appendChild(s);};
+var evts=['pointerdown','keydown','scroll','touchstart'];for(var i=0;i<evts.length;i++){window.addEventListener(evts[i],load,{once:true,passive:true});}
+var arm=function(){setTimeout(load,2500);};
+if(document.readyState==='complete'){arm();}else{window.addEventListener('load',arm,{once:true});}})();`,
             }}
           />
         )}

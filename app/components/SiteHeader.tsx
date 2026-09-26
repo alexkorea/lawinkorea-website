@@ -115,7 +115,9 @@ export default function SiteHeader() {
       <header className="site-header">
         <div className="site-header-inner">
           <Link href={base} className="site-brand" aria-label={brand}>
-            <img src="/logo-sunshine.png" alt="" width={40} height={40} aria-hidden="true" />
+            {/* 40px 로 그리는데 원본 PNG 는 200x200 16.4KB 였다. 2x WebP 로 0.8KB.
+                JSON-LD 의 logo: 는 크롤러 호환 때문에 PNG 원본 그대로 둔다. */}
+            <img src="/logo-sunshine-20260927-80.webp" alt="" width={40} height={40} aria-hidden="true" />
             <span className="site-brand-name">{brand}</span>
           </Link>
 
