@@ -34,7 +34,7 @@ related:
 
 For foreigners violating the Korean Immigration Control Act, the **fine itself is rarely the primary impact**; it's the **post-fine consequences**. Visa renewal denial → deportation can follow even after a 1M KRW fine. Hundreds of cases each year fall into this trap.
 
-This guide presents Articles 93-3 and 94 to 100 of the **current Immigration Control Act (effective January 23, 2026)**, organized by case type. Vision Administrative Law Office adds field experience from 1,000+ offense reviews per year.
+This guide presents Articles 93-3 and 94 to 100 of the **current Immigration Control Act (effective January 23, 2026)**, organized by case type.
 
 > **All citations verified through the National Law Information Center API (open.law.go.kr).** Actual case-level fines depend on prosecution and court sentencing standards; this guide provides general information.
 
@@ -115,7 +115,7 @@ So an illegal-foreign-hire company faces:
 
 Exception: due-diligence and supervision can exempt the corporation.
 
-## 8. Practical Application (Vision's 1,000+ cases)
+## 8. Practical Application
 
 ### Case A: D-2 student hour overrun
 - Applied: Article 20 → **Article 94 #12** (3 yr / 30M)
@@ -177,7 +177,7 @@ Even with light fine appearance:
 
 If notified for an Immigration Control Act violation, **paying the fine is not the end.** Manage criminal and administrative tracks together to preserve your visa.
 
-Vision Administrative Law Office — immigration practice since 2018, 1,000+ offense review handling, Korean / English / Chinese / Japanese.
+Vision Administrative Law Office — immigration practice since 2018, Korean / English / Chinese / Japanese.
 
 [Free initial diagnosis →](/en)
 

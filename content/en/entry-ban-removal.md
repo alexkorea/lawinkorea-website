@@ -32,7 +32,7 @@ related:
 
 For deported foreigners seeking re-entry to Korea, the first thing to know is: **entry bans can be shortened or removed.**
 
-Vision Administrative Law Office handles around 100 entry-ban removal applications per year — about 60% achieve shortening or removal. **Time alone doesn't open the door**; **systematic documentation + justified purpose** does. This guide covers the full procedure.
+**Time alone doesn't open the door**; **systematic documentation + justified purpose** does. This guide covers the full procedure.
 
 ## 1. Korean Entry-Ban System
 

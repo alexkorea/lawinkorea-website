@@ -33,7 +33,7 @@ related:
 
 For foreigners involved in criminal cases in Korea — assault, theft, fraud, defamation — the most distressing question is rarely **the punishment itself**; it's **what happens to my visa**.
 
-Vision Administrative Law Office handles 200+ criminal-case offense reviews each year. This guide covers the five most common offense categories, the outcome patterns, and the visa-defense strategies that actually work.
+This guide covers the five most common offense categories, the outcome patterns, and the visa-defense strategies that actually work.
 
 ## 1. Top 5 Criminal Cases Foreign Nationals Face
 

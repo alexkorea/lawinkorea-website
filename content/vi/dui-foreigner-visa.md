@@ -36,7 +36,7 @@ Người nước ngoài bị bắt vì lái xe say rượu ở Hàn Quốc thư�
 
 Vế thứ hai chính là thủ tục xem xét vi phạm xuất nhập cảnh. Ngay cả khi thủ tục hình sự khép lại bằng án phạt tiền, Cục Xuất nhập cảnh vẫn có thể theo một thủ tục hành chính riêng để từ chối gia hạn visa, ra lệnh xuất cảnh hoặc quyết định trục xuất.
 
-Trong các vụ xem xét vi phạm liên quan đến DUI mà Văn phòng Hành chính VISION xử lý từ năm 2018, khoảng 70% là những trường hợp "tự xoay xở sai ngay từ đầu nên kết quả xấu đi". Bài viết này tổng hợp toàn bộ những gì bạn cần biết ngay sau khi bị bắt vì lái xe say rượu.
+Bài viết này tổng hợp toàn bộ những gì bạn cần biết ngay sau khi bị bắt vì lái xe say rượu.
 
 ## 1. Bị bắt vì say rượu → Xử lý hình sự → Xem xét vi phạm
 

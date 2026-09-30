@@ -32,7 +32,7 @@ related:
 
 Foreigners from countries where marijuana is legal — the United States, Canada, Netherlands, Thailand — most often ask: **"It's legal at home. Why am I punished in Korea?"** The answer: **territorial principle. Korean law applies to anyone using or possessing drugs within Korean territory, regardless of nationality.**
 
-About **85% of foreign drug-case offense reviews handled by Vision Administrative Law Office began as single-use or one-time possession**. Yet over 70% result in deportation. This guide covers what foreigners must know to avoid removal.
+This guide covers what foreigners must know to avoid removal.
 
 ## 1. Korean Drug Law for Foreigners
 

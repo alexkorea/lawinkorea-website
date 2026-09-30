@@ -33,7 +33,7 @@ related:
 
 Quy định xuất nhập cảnh mà người nước ngoài tại Hàn Quốc vi phạm nhiều nhất là **hoạt động ngoài tư cách lưu trú**. Du học sinh (D-2) làm thêm quá 25 giờ/tuần, người có visa E-9 chuyển sang nơi làm việc chưa được cấp phép, hay nhập cảnh bằng visa du lịch (C-3) rồi đi làm — tất cả đều thuộc nhóm này.
 
-Mỗi năm VISION xử lý khoảng 300 vụ xem xét vi phạm liên quan hoạt động ngoài tư cách. Trong đó khoảng 60% là **du học sinh làm thêm quá giờ**, 25% là **E-9 bỏ nơi làm việc**, và 15% là **làm việc bằng visa C-3**.
+
 
 ## 1. Thế nào là hoạt động ngoài tư cách
 

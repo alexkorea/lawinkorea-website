@@ -31,7 +31,7 @@ related:
 
 "500,000 KRW per day, simple errands" — Korean-resident foreigners often see such ads on SNS, KakaoTalk, Telegram. Hundreds of foreigners each year are unwittingly pulled into voice-phishing operations as **couriers**, **withdrawal agents**, or **account lenders**.
 
-Vision Administrative Law Office handles 50+ foreign voice-phishing offense reviews each year — about 80% of involvees did not initially realize they were committing crime. Yet outcomes are typically deportation + 5–10 year entry ban. This guide explains how to avoid removal.
+Outcomes are typically deportation + 5–10 year entry ban. This guide explains how to avoid removal.
 
 ## 1. Common Involvement Patterns
 

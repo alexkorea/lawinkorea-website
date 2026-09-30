@@ -21,8 +21,6 @@ export const COMPANY = {
   kakaoTalk: "alexkorea",
   estYear: 2018,
   experienceSince: 2018,
-  successCases: "1,000+",
-  successRate: "98%",
 } as const;
 
 export const SITE = {

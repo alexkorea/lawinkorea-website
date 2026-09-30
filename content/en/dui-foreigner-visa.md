@@ -35,7 +35,7 @@ A DUI in Korea brings two devastating sentences for foreigners. **"Your criminal
 
 The latter is the **Immigration Offense Review (사범심사)**. Even after the criminal track concludes with a fine, the Immigration Office runs a separate administrative procedure that can deny your visa renewal, issue a departure order, or order deportation.
 
-Vision Administrative Law Office's data since 2018 shows that **about 70% of foreign DUI deportation cases involve the foreigner mishandling the early response**. This guide covers everything every foreigner must understand after a DUI in Korea.
+This guide covers everything every foreigner must understand after a DUI in Korea.
 
 ## 1. DUI to Offense Review — The Four Stages
 

@@ -33,7 +33,7 @@ related:
 
 Hành hung, trộm cắp, lừa đảo, phỉ báng — điều người nước ngoài dính án hình sự tại Hàn Quốc sợ nhất thường không phải bản thân hình phạt, mà là **"visa của tôi sẽ ra sao"**.
 
-Mỗi năm Văn phòng Hành chính VISION xử lý hơn 200 vụ xem xét vi phạm xuất nhập cảnh gắn với án hình sự. Dưới đây là năm nhóm tội danh thường gặp nhất, quy luật kết quả, và chiến lược giữ visa.
+Dưới đây là năm nhóm tội danh thường gặp nhất, quy luật kết quả, và chiến lược giữ visa.
 
 ## 1. Năm nhóm án hình sự người nước ngoài hay vướng nhất
 

@@ -31,7 +31,7 @@ related:
 
 The most fearsome notice after a Korean visa renewal application is **"Renewal Denied"** or **"Supplementary Order"**. Without proper response within 30 days, this leads to **deportation + 5+ year entry ban**.
 
-Vision Administrative Law Office handles 200+ post-denial cases annually — about 70% achieve visa preservation or status change. The other 30% lose to time pressure or document weakness. This guide covers the 30-day action plan.
+This guide covers the 30-day action plan.
 
 ## 1. Three Forms of Visa Denial
 

@@ -33,7 +33,7 @@ related:
 
 Người nước ngoài đến từ Mỹ, Canada, Hà Lan, Thái Lan — nơi cần sa hợp pháp — thường hỏi một câu ở Hàn Quốc: **"Ở nước tôi là hợp pháp, sao ở Hàn Quốc lại bị phạt?"** Câu trả lời rất rõ: **Luật Quản lý chất ma túy của Hàn Quốc theo nguyên tắc lãnh thổ, xử phạt việc sử dụng và tàng trữ ma túy trong lãnh thổ Hàn Quốc bất kể người đó là ai.**
 
-Trong các vụ xem xét vi phạm liên quan ma túy mà VISION đã xử lý, khoảng 85% khởi đầu từ **sử dụng đơn thuần hoặc tàng trữ một lần**. Nhưng trên 70% kết quả là trục xuất. Bài viết này tổng hợp những gì bạn cần biết để tránh điều đó.
+Bài viết này tổng hợp những gì bạn cần biết để tránh điều đó.
 
 ## 1. Luật ma túy Hàn Quốc áp dụng với người nước ngoài
 

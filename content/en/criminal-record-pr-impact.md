@@ -32,7 +32,7 @@ related:
 
 For foreigners pursuing Korean F-5 permanent residency or citizenship, **past criminal records** are a top concern. A single DUI, minor assault, or out-of-status incident — does it permanently disqualify you?
 
-About **40% of Vision Administrative Law Office's PR consulting clients carry criminal records**. This guide details the impact, by case.
+This guide details the impact, by case.
 
 ## 1. F-5 Disqualification (Immigration Control Act)
 

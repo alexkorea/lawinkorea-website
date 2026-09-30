@@ -33,7 +33,7 @@ related:
 
 Điều đầu tiên người nước ngoài đã bị trục xuất cần biết khi muốn quay lại Hàn Quốc là: **"Thời hạn cấm nhập cảnh có thể được rút ngắn."**
 
-Mỗi năm VISION xử lý khoảng 100 hồ sơ xin dỡ bỏ lệnh cấm nhập cảnh, trong đó khoảng 60% thành công rút ngắn hoặc được dỡ bỏ. Chỉ chờ thời gian trôi qua thì lệnh cấm không tự hết. **Hồ sơ có hệ thống + lý do nộp đơn chính đáng** mới là mấu chốt.
+Chỉ chờ thời gian trôi qua thì lệnh cấm không tự hết. **Hồ sơ có hệ thống + lý do nộp đơn chính đáng** mới là mấu chốt.
 
 ## 1. Tổng quan chế độ cấm nhập cảnh
 

@@ -35,7 +35,7 @@ related:
 
 Điều khiến người nước ngoài vi phạm Luật Quản lý xuất nhập cảnh choáng váng nhất thường không phải **số tiền phạt**, mà là **chuỗi thủ tục theo sau**. Mỗi năm có hàng trăm trường hợp yên tâm vì "chỉ bị phạt 1 triệu won", rồi bị từ chối gia hạn visa tại buổi xem xét vi phạm và dẫn tới trục xuất.
 
-Bài viết này trích dẫn nguyên văn các điều khoản chế tài tại Điều 93-3 và Điều 94~100 của Luật Quản lý xuất nhập cảnh theo **văn bản hiện hành (hiệu lực từ 23/01/2026)**, đồng thời sắp xếp theo tình huống thực tế, kết hợp kinh nghiệm từ hơn 1.000 vụ xem xét vi phạm và thủ tục hành chính mà VISION xử lý mỗi năm.
+Bài viết này trích dẫn nguyên văn các điều khoản chế tài tại Điều 93-3 và Điều 94~100 của Luật Quản lý xuất nhập cảnh theo **văn bản hiện hành (hiệu lực từ 23/01/2026)**, đồng thời sắp xếp theo tình huống thực tế.
 
 > **Các trích dẫn pháp luật trong bài đã được đối chiếu qua API Hệ thống thông tin pháp luật quốc gia (open.law.go.kr).** Tuy nhiên mức phạt thực tế của từng vụ có thể khác nhau theo khung lượng hình của viện kiểm sát và tòa án; bài viết chỉ mang tính thông tin chung.
 
@@ -130,7 +130,7 @@ Nghĩa là công ty tuyển dụng người nước ngoài không đủ tư các
 
 Tuy nhiên, pháp nhân có thể được miễn trách nếu đã thực hiện đầy đủ sự chú ý và giám sát cần thiết để ngăn ngừa vi phạm.
 
-## 8. Áp dụng thực tế theo từng tình huống (từ 1.000 vụ của VISION)
+## 8. Áp dụng thực tế theo từng tình huống
 
 ### Tình huống A: Du học sinh (D-2) làm thêm quá giờ
 - Điều khoản áp dụng: vi phạm Điều 20 → **Điều 94 khoản 12** (đến 3 năm / 30 triệu won)
@@ -194,7 +194,7 @@ Nhìn vào số tiền phạt thì có vẻ không đáng kể, nhưng:
 
 Người nước ngoài nhận thông báo vi phạm Luật Quản lý xuất nhập cảnh **không kết thúc ở việc nộp phạt.** Chỉ khi quản lý song song thủ tục hình sự và thủ tục hành chính, bạn mới giữ được visa.
 
-Văn phòng Hành chính VISION — Since 2018, đã xử lý hơn 1.000 vụ xem xét vi phạm, hỗ trợ tiếng Hàn/Anh/Trung/Nhật.
+Văn phòng Hành chính VISION — Since 2018, hỗ trợ tiếng Hàn/Anh/Trung/Nhật.
 
 [Đăng ký chẩn đoán ban đầu miễn phí →](/vi/contact)
 

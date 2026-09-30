@@ -45,7 +45,7 @@ related:
 
 For foreigners living or working in Korea, one of the most distressing notices is the **"Immigration Offense Review Summons" (출입국사범심사 출석요구서)**. DUI, assault, drug investigations, out-of-status work, voice-phishing involvement — the form differs but the consequences are similar: visa renewal denial, permanent residency rejection, or deportation.
 
-Vision Administrative Law Office has handled over 1,000 immigration offense reviews since 2018. The single most common question we hear is: **"I paid the fine — why is Immigration calling me again?"** The answer is straightforward: **criminal punishment and administrative immigration disposition are two independent processes.** This guide walks you through what every foreigner must understand after receiving a review summons.
+The single most common question we hear is: **"I paid the fine — why is Immigration calling me again?"** The answer is straightforward: **criminal punishment and administrative immigration disposition are two independent processes.** This guide walks you through what every foreigner must understand after receiving a review summons.
 
 ## 1. What Is an Immigration Offense Review?
 
@@ -89,7 +89,7 @@ If you were deported and try to re-enter, an entry-ban removal is required first
 
 ## 3. Five Things to Do Immediately After the Notice
 
-> **Time decides outcomes.** Vision's consistent statistics show: **the first 7 days determine 80% of the result.**
+> **Time decides outcomes.**
 
 ### (1) Read the Summons Carefully
 Date, location, reasons, required documents. Photograph and store every page. If language is a barrier, immediately retain a multilingual administrative scrivener.
@@ -138,7 +138,6 @@ The biggest distinction is between **departure order** and **deportation**. A de
 
 ## 6. Vision's Five-Step Response Protocol
 
-Standardized over 1,000 reviews:
 
 ### Step 1. Intake and Free Initial Diagnosis (within 1 day)
 Accurate situation assessment and case-risk evaluation. Multilingual; KakaoTalk, WeChat, LINE, WhatsApp all available.

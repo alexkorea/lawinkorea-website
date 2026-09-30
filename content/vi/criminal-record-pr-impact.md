@@ -33,7 +33,7 @@ related:
 
 Một trong những điều người nước ngoài muốn xin thường trú (F-5) hoặc quốc tịch Hàn Quốc lo lắng nhất là **tiền án trong quá khứ**. Một lần lái xe say rượu, một vụ hành hung nhỏ, một lần làm việc ngoài tư cách — cần biết rõ liệu những ghi nhận đó có trở thành căn cứ loại hồ sơ hay không.
 
-Trong số các ca tư vấn hồ sơ thường trú mà VISION xử lý mỗi năm, khoảng 40% là người có tiền án. Bài viết này tổng hợp ảnh hưởng của tiền án lên thường trú và nhập tịch theo từng tình huống.
+Bài viết này tổng hợp ảnh hưởng của tiền án lên thường trú và nhập tịch theo từng tình huống.
 
 ## 1. Căn cứ loại hồ sơ thường trú F-5 (Luật Quản lý xuất nhập cảnh)
 

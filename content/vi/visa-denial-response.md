@@ -32,7 +32,7 @@ related:
 
 Thông báo đáng sợ nhất sau khi nộp hồ sơ gia hạn visa là **"không cho phép gia hạn"** hoặc **"lệnh bổ sung hồ sơ"**. Nếu không ứng phó đúng trong 30 ngày, hậu quả có thể là **trục xuất + cấm nhập cảnh từ 5 năm**.
 
-Mỗi năm VISION xử lý khoảng 200 vụ ứng phó sau khi bị từ chối gia hạn visa. Khoảng 70% giữ được visa hoặc đổi được tư cách nhờ ứng phó đúng; 30% còn lại bị trục xuất vì thiếu thời gian hoặc hồ sơ sơ sài. Bài viết này liệt kê theo từng bước những việc phải làm trong 30 ngày.
+Bài viết này liệt kê theo từng bước những việc phải làm trong 30 ngày.
 
 ## 1. Các dạng từ chối gia hạn
 

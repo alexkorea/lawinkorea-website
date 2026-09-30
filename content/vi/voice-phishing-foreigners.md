@@ -32,7 +32,7 @@ related:
 
 "Ngày công 500.000 won, chỉ chạy việc vặt" — đây là mẩu quảng cáo người nước ngoài sống tại Hàn Quốc thường thấy trên mạng xã hội, KakaoTalk, Telegram. Hậu quả là mỗi năm hàng trăm người nước ngoài trở thành **người chuyển tiền**, **người rút tiền** cho các tổ chức lừa đảo mà không hề hay biết.
 
-Mỗi năm VISION xử lý hơn 50 vụ xem xét vi phạm liên quan lừa đảo qua điện thoại. Trong đó 80% bắt đầu khi đương sự **không biết mình đang tham gia tội phạm**. Nhưng kết quả phổ biến vẫn là trục xuất + cấm nhập cảnh 5~10 năm.
+Kết quả phổ biến là trục xuất + cấm nhập cảnh 5~10 năm.
 
 ## 1. Các hình thức tham gia
 

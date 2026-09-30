@@ -46,7 +46,7 @@ related:
 
 Một trong những thông báo đáng sợ nhất với người nước ngoài đang sống và làm việc tại Hàn Quốc chính là **"giấy triệu tập tham dự buổi xem xét vi phạm xuất nhập cảnh"**. Lái xe say rượu, vụ hành hung, điều tra ma túy, hoạt động ngoài tư cách, tham gia lừa đảo qua điện thoại — hình thức khác nhau nhưng hậu quả thì tương tự: bị từ chối gia hạn visa, trượt hồ sơ thường trú, hoặc nhận lệnh trục xuất.
 
-Từ năm 2018 đến nay, khi xử lý hơn 1.000 vụ, câu chúng tôi nghe nhiều nhất là: **"Tôi nộp phạt đủ rồi mà, sao lại gọi tiếp?"** Câu trả lời rất đơn giản: **xử lý hình sự và chế tài hành chính của cơ quan xuất nhập cảnh là hai thủ tục riêng biệt.** Bài viết này giải thích từng bước những gì bạn cần hiểu đầu tiên khi nhận được thông báo.
+Câu chúng tôi nghe nhiều nhất là: **"Tôi nộp phạt đủ rồi mà, sao lại gọi tiếp?"** Câu trả lời rất đơn giản: **xử lý hình sự và chế tài hành chính của cơ quan xuất nhập cảnh là hai thủ tục riêng biệt.** Bài viết này giải thích từng bước những gì bạn cần hiểu đầu tiên khi nhận được thông báo.
 
 ## 1. Xem xét vi phạm xuất nhập cảnh là gì
 
@@ -98,7 +98,7 @@ Nếu trước đây đã bị trục xuất hoặc bị xử lý và đang tron
 
 ## 3. Năm việc phải làm ngay khi nhận thông báo
 
-> **Thời gian quyết định kết quả.** Theo thống kê nhất quán của VISION, những gì bạn làm trong 7 ngày đầu quyết định 80% kết quả.
+> **Thời gian quyết định kết quả.**
 
 ### (1) Đọc kỹ giấy triệu tập
 
@@ -152,7 +152,6 @@ Khác biệt lớn nhất nằm giữa **"lệnh xuất cảnh" và "trục xu�
 
 ## 6. Quy trình ứng phó 5 bước của VISION
 
-Đây là quy trình chuẩn được đúc kết từ 1.000 vụ việc.
 
 ### Bước 1. Tiếp nhận và chẩn đoán ban đầu miễn phí (trong 1 ngày)
 

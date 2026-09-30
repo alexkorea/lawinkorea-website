@@ -32,7 +32,7 @@ related:
 
 The most frequent immigration-law violation by foreigners in Korea is **out-of-status activity (자격외 활동)**: D-2 students exceeding 25 weekly hours, E-9 visa holders moving to non-approved workplaces, C-3 tourists taking up jobs.
 
-Vision Administrative Law Office handles roughly 300 out-of-status reviews per year — about 60% are D-2 hour overruns, 25% are E-9 employer ditches, 15% are C-3 unauthorized work. This guide covers each.
+This guide covers each.
 
 ## 1. Definition of Out-of-Status Activity
 
