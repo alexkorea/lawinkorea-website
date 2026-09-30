@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     template: "%s · Law in Korea",
   },
   description:
-    "출입국사범심사·음주운전·형사사건·체류 연장 행정 대응. 선샤인행정사사무소 (서울 중구), Since 2018, 5개 국어(KR·EN·中文·日本語·Tiếng Việt) 지원. 1,000+ 성공 사례, 98% 승인율.",
+    "출입국사범심사·음주운전·형사사건·체류 연장 행정 대응. 선샤인행정사사무소 (서울 중구), Since 2018, 4개 국어(KR·EN·中文·日本語) 지원. 1,000+ 성공 사례, 98% 승인율.",
   keywords: [
     "출입국사범심사",
     "사범심사",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     siteName: "Law in Korea",
     title: "대한민국 출입국사범심사 · Law in Korea",
     description:
-      "출입국사범심사·음주운전·형사사건·비자 위기 시 차분하게 함께하는 전문 행정사. 5개 국어 지원, 서울 중구.",
+      "출입국사범심사·음주운전·형사사건·비자 위기 시 차분하게 함께하는 전문 행정사. 4개 국어 지원, 서울 중구.",
     url: SITE.url,
     locale: "ko_KR",
     alternateLocale: ["en_US", "zh_CN", "ja_JP", "vi_VN"],
@@ -103,7 +103,7 @@ export default function RootLayout({
                 addressCountry: "KR",
               },
               areaServed: { "@type": "Country", name: "South Korea" },
-              availableLanguage: ["Korean", "English", "Chinese", "Japanese", "Vietnamese"],
+              availableLanguage: ["Korean", "English", "Chinese", "Japanese"],
               priceRange: "$$",
               openingHoursSpecification: {
                 "@type": "OpeningHoursSpecification",

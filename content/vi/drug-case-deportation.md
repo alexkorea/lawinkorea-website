@@ -160,7 +160,7 @@ Ngay cả khi đáp ứng đủ, khả năng bị từ chối vẫn cao.
 
 Với án ma túy, **thời gian là yếu tố quyết định nhất.** Ngay sau khi bị phát hiện, cần đồng thời quyết định việc tự thú, bắt đầu chương trình điều trị và chuẩn bị cho buổi xem xét. Đợi thủ tục hình sự kết thúc mới bắt đầu thì tài liệu giảm nhẹ sẽ không đủ.
 
-**Chẩn đoán ban đầu miễn phí** — hỗ trợ tiếng Hàn, Anh, Trung, Nhật, Việt. Bảo mật tuyệt đối.
+**Chẩn đoán ban đầu miễn phí** — hỗ trợ tiếng Hàn, Anh, Trung, Nhật. Bảo mật tuyệt đối.
 
 [Đăng ký chẩn đoán ngay →](/vi/contact)
 

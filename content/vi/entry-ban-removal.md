@@ -209,7 +209,7 @@ Nếu lần đầu bị từ chối, bạn vẫn có thể nộp lại sau 6 th�
 
 Với việc dỡ bỏ lệnh cấm nhập cảnh, **thời điểm nộp quyết định kết quả.** Nộp quá sớm sẽ bị từ chối; quá muộn thì hoàn cảnh gia đình có thể đã thay đổi. Hãy được chẩn đoán thời điểm tối ưu theo lý do của bạn.
 
-**Chẩn đoán ban đầu miễn phí** — hỗ trợ tiếng Hàn, Anh, Trung, Nhật, Việt. Có thể nộp từ bất kỳ đâu trên thế giới.
+**Chẩn đoán ban đầu miễn phí** — hỗ trợ tiếng Hàn, Anh, Trung, Nhật. Có thể nộp từ bất kỳ đâu trên thế giới.
 
 [Đăng ký chẩn đoán ngay →](/vi/contact)
 

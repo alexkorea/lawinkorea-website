@@ -88,7 +88,7 @@ const KoHomePage = () => (
             내 사건 유형부터 확인하기
           </a>
         </div>
-        <p style={{ fontSize: 13, color: "#475569", marginTop: 24 }}>한국어·English·日本語·中文·Tiếng Việt 상담 지원</p>
+        <p style={{ fontSize: 13, color: "#475569", marginTop: 24 }}>한국어·English·日本語·中文 상담 지원</p>
       </div>
     </section>
 
@@ -198,7 +198,7 @@ const KoHomePage = () => (
           <li>출입국 출석 전 서류를 검토하고 체류 관련 행정절차를 안내합니다.</li>
           <li>필요한 경우 형사절차는 협력 변호사와 연계하여 안내합니다.</li>
           <li>제출 자료와 상담 내용은 보안에 유의하여 관리합니다.</li>
-          <li>한국어·영어·일본어·중국어·베트남어 상담을 지원합니다.</li>
+          <li>한국어·영어·일본어·중국어 상담을 지원합니다.</li>
         </ul>
         <p style={{ fontSize: 13, color: "#64748b", marginTop: 16 }}>
           (형사재판 변론과 소송대리 등 변호사만 수행할 수 있는 업무는 협력 변호사와 연계하여 진행합니다.)
@@ -305,7 +305,7 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
       sub1: "Even after criminal proceedings end, immigration issues may be reviewed separately.",
       sub2: "Whether you received a fine, a suspended sentence, or a non-prosecution decision, immigration authorities may still review your residency status independently. What you prepare — and when — can make a significant difference.",
       cta1: "Urgent Consultation", cta2: "Check My Offense Type",
-      langs: "Available in Korean · English · Japanese · Chinese · Vietnamese",
+      langs: "Available in Korean · English · Japanese · Chinese",
     },
     situations: {
       title: "You may need to act if you are in one of these situations",
@@ -365,7 +365,7 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
         "We review your documents before your immigration appointment and guide you through residency procedures.",
         "Where criminal defense work is needed, we coordinate with affiliated attorneys.",
         "All consultation content and submitted materials are handled with strict confidentiality.",
-        "Consultations available in Korean, English, Japanese, Chinese, and Vietnamese.",
+        "Consultations available in Korean, English, Japanese, and Chinese.",
       ],
       note: "(Criminal defense and litigation representation are performed by affiliated attorneys as required.)",
     },
@@ -403,7 +403,7 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
       sub1: "刑事手続きが終わっても、出入国上の判断は別途行われることがあります。",
       sub2: "罰金刑・起訴猶予・執行猶予を受けた場合でも、出入国当局が在留資格を独自に審査することがあります。何を、いつ、どのように準備するかによって、説明できる事情が変わります。",
       cta1: "緊急相談", cta2: "事件の種類を確認する",
-      langs: "韓国語・英語・日本語・中国語・ベトナム語対応",
+      langs: "韓国語・英語・日本語・中国語対応",
     },
     situations: {
       title: "このような状況なら確認が必要です",
@@ -462,7 +462,7 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
         "出入国出頭前に書類を確認し、在留関連の行政手続きをご案内します。",
         "必要な場合、刑事手続きは協力弁護士と連携してご案内します。",
         "提出資料と相談内容はセキュリティに配慮して管理します。",
-        "韓国語・英語・日本語・中国語・ベトナム語での相談に対応しています。",
+        "韓国語・英語・日本語・中国語での相談に対応しています。",
       ],
       note: "（刑事裁判の弁護と訴訟代理等、弁護士のみ行える業務は協力弁護士と連携して進めます。）",
     },
@@ -498,7 +498,7 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
       sub1: "刑事程序结束后，出入境问题仍可能被单独审查。",
       sub2: "即使您收到了罚款、缓刑或不起诉处分，出入境当局也可能独立审查您的居留资格。您准备什么、何时准备、如何准备，都可能影响最终结果。",
       cta1: "紧急咨询", cta2: "查看我的违规类型",
-      langs: "支持韩语·英语·日语·中文·越南语咨询",
+      langs: "支持韩语·英语·日语·中文咨询",
     },
     situations: {
       title: "如果您处于以下情况，请立即确认",
@@ -557,7 +557,7 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
         "在出席出入境机构前审查文件，并指导相关行政手续。",
         "如需刑事辩护，可与合作律师协同提供建议。",
         "提交材料和咨询内容均严格保密管理。",
-        "提供韩语、英语、日语、中文、越南语咨询服务。",
+        "提供韩语、英语、日语、中文咨询服务。",
       ],
       note: "（刑事审判辩护及诉讼代理等仅律师方可执行的业务，将与合作律师协同进行。）",
     },
@@ -593,7 +593,7 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
       sub1: "Dù thủ tục hình sự đã kết thúc, vấn đề xuất nhập cảnh vẫn có thể được xem xét riêng.",
       sub2: "Dù bạn nhận được phán quyết phạt tiền, án treo hay không khởi tố, cơ quan xuất nhập cảnh vẫn có thể xem xét tư cách lưu trú của bạn một cách độc lập. Bạn chuẩn bị gì, vào lúc nào và như thế nào đều có thể tạo ra sự khác biệt đáng kể.",
       cta1: "Tư vấn khẩn cấp", cta2: "Kiểm tra loại vi phạm của tôi",
-      langs: "Hỗ trợ tư vấn bằng tiếng Hàn · Anh · Nhật · Trung · Việt",
+      langs: "Hỗ trợ tư vấn bằng tiếng Hàn · Anh · Nhật · Trung",
     },
     situations: {
       title: "Bạn cần kiểm tra ngay nếu đang trong các tình huống sau",
@@ -652,7 +652,7 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
         "Xem xét tài liệu trước buổi gặp tại cơ quan xuất nhập cảnh và hướng dẫn thủ tục hành chính liên quan đến lưu trú.",
         "Khi cần biện hộ hình sự, chúng tôi phối hợp với các luật sư liên kết.",
         "Nội dung tư vấn và tài liệu nộp đều được quản lý với tính bảo mật nghiêm ngặt.",
-        "Tư vấn bằng tiếng Hàn, Anh, Nhật, Trung và Việt.",
+        "Tư vấn bằng tiếng Hàn, Anh, Nhật và Trung.",
       ],
       note: "(Biện hộ trong phiên tòa hình sự và đại diện tố tụng — những công việc chỉ luật sư được thực hiện — sẽ được phối hợp với các luật sư liên kết.)",
     },

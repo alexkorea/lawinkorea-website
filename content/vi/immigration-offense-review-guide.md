@@ -193,4 +193,4 @@ Mục FAQ phía trên đã tổng hợp 10 câu hỏi cốt lõi. Các câu hỏ
 
 Trong số những người nhận thông báo xem xét vi phạm, điều họ tiếc nuối nhất thường là **"giá như tôi tìm chuyên gia sớm hơn"**. Một quyết định có thể lật ngược kế hoạch 5 năm, 10 năm sinh sống tại Hàn Quốc của bạn.
 
-Văn phòng Hành chính VISION cung cấp chẩn đoán ban đầu miễn phí. **Hãy liên hệ mà không cần đắn đo.** Ngay cả khi tiếng Hàn còn hạn chế, chúng tôi hỗ trợ tiếng Anh, Trung, Nhật và Việt.
+Văn phòng Hành chính VISION cung cấp chẩn đoán ban đầu miễn phí. **Hãy liên hệ mà không cần đắn đo.** Ngay cả khi tiếng Hàn còn hạn chế, chúng tôi hỗ trợ tiếng Anh, Trung và Nhật.

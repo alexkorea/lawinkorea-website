@@ -194,7 +194,7 @@ Nhìn vào số tiền phạt thì có vẻ không đáng kể, nhưng:
 
 Người nước ngoài nhận thông báo vi phạm Luật Quản lý xuất nhập cảnh **không kết thúc ở việc nộp phạt.** Chỉ khi quản lý song song thủ tục hình sự và thủ tục hành chính, bạn mới giữ được visa.
 
-Văn phòng Hành chính VISION — Since 2018, đã xử lý hơn 1.000 vụ xem xét vi phạm, hỗ trợ tiếng Hàn/Anh/Trung/Nhật/Việt.
+Văn phòng Hành chính VISION — Since 2018, đã xử lý hơn 1.000 vụ xem xét vi phạm, hỗ trợ tiếng Hàn/Anh/Trung/Nhật.
 
 [Đăng ký chẩn đoán ban đầu miễn phí →](/vi/contact)
 

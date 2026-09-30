@@ -16,7 +16,7 @@ const CONTENT: Record<L, { title: string; intro: string; points: { label: string
     intro: "선샤인행정사사무소는 외국인 출입국 사범심사 대응을 전문으로 하는 행정사 사무소입니다. 음주운전, 형사사건, 불법취업, 출국명령 등 체류 위기 상황에서 외국인의 권익 보호를 위해 활동합니다.",
     points: [
       { label: "전문 분야", desc: "외국인 출입국사범심사 소명 대응, 체류자격 유지 지원, 출국명령·강제퇴거 이의신청 보조" },
-      { label: "서비스 언어", desc: "한국어, 영어, 중국어, 일본어, 베트남어 상담 가능" },
+      { label: "서비스 언어", desc: "한국어, 영어, 중국어, 일본어 상담 가능" },
       { label: "위치", desc: "서울 소재 (방문 상담 및 비대면 상담 모두 가능)" },
       { label: "운영 원칙", desc: "사실 기반의 정확한 소명, 기한 엄수, 의뢰인 상황에 맞는 맞춤 대응" },
     ],
@@ -27,7 +27,7 @@ const CONTENT: Record<L, { title: string; intro: string; points: { label: string
     intro: "Vision Administrative Scrivener Office specializes in immigration offense review support for foreign nationals in Korea. We assist with DUI, criminal charges, unauthorized employment, departure orders, and other visa crisis situations.",
     points: [
       { label: "Specialization", desc: "Immigration offense review response, visa status preservation, departure order and deportation appeal support" },
-      { label: "Languages", desc: "Korean, English, Chinese, Japanese, Vietnamese" },
+      { label: "Languages", desc: "Korean, English, Chinese, Japanese" },
       { label: "Location", desc: "Seoul, Korea (in-person and remote consultations available)" },
       { label: "Core Principles", desc: "Fact-based written explanations, strict deadline adherence, case-specific strategies" },
     ],
@@ -38,7 +38,7 @@ const CONTENT: Record<L, { title: string; intro: string; points: { label: string
     intro: "VISION行政士事务所专注于外国人出入境事犯审查应对。我们在酒驾、刑事案件、非法就业、出境命令等居留危机情况下，致力于维护外国人的合法权益。",
     points: [
       { label: "专业领域", desc: "外国人出入境事犯审查说明应对、居留资格维持支持、出境命令·强制驱逐异议申请协助" },
-      { label: "服务语言", desc: "韩语、英语、中文、日语、越南语" },
+      { label: "服务语言", desc: "韩语、英语、中文、日语" },
       { label: "位置", desc: "首尔（可到访咨询及远程咨询）" },
       { label: "运营原则", desc: "基于事实的准确说明、严格遵守期限、量身定制应对方案" },
     ],
@@ -49,7 +49,7 @@ const CONTENT: Record<L, { title: string; intro: string; points: { label: string
     intro: "VISION行政書士事務所は、外国人の出入国事犯審査対応を専門とする行政書士事務所です。飲酒運転、刑事事件、不法就労、出国命令など在留危機の状況で、外国人の権益保護のために活動しています。",
     points: [
       { label: "専門分野", desc: "外国人出入国事犯審査疎明対応、在留資格維持支援、出国命令・強制退去異議申し立て補助" },
-      { label: "対応言語", desc: "韓国語、英語、中国語、日本語、ベトナム語" },
+      { label: "対応言語", desc: "韓国語、英語、中国語、日本語" },
       { label: "所在地", desc: "ソウル（対面相談・非対面相談いずれも対応可能）" },
       { label: "運営方針", desc: "事実に基づく正確な疎明、期限厳守、依頼者の状況に合わせたカスタム対応" },
     ],
@@ -60,7 +60,7 @@ const CONTENT: Record<L, { title: string; intro: string; points: { label: string
     intro: "Văn phòng Hành chính VISION chuyên hỗ trợ xem xét vi phạm xuất nhập cảnh cho người nước ngoài tại Hàn Quốc. Chúng tôi hỗ trợ trong các trường hợp DUI, tội danh hình sự, lao động trái phép, lệnh xuất cảnh và các tình huống khủng hoảng visa khác.",
     points: [
       { label: "Chuyên môn", desc: "Hỗ trợ xem xét vi phạm xuất nhập cảnh, bảo vệ tư cách lưu trú, hỗ trợ kháng cáo lệnh xuất cảnh và trục xuất" },
-      { label: "Ngôn ngữ phục vụ", desc: "Tiếng Hàn, tiếng Anh, tiếng Trung, tiếng Nhật, tiếng Việt" },
+      { label: "Ngôn ngữ phục vụ", desc: "Tiếng Hàn, tiếng Anh, tiếng Trung, tiếng Nhật" },
       { label: "Địa điểm", desc: "Seoul, Hàn Quốc (tư vấn trực tiếp và trực tuyến)" },
       { label: "Nguyên tắc cốt lõi", desc: "Giải trình dựa trên thực tế, tuân thủ đúng hạn, chiến lược theo từng trường hợp" },
     ],

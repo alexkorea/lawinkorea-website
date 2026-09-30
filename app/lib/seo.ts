@@ -39,27 +39,27 @@ export const PAGE_SEO: Record<string, Record<Locale, Seo>> = {
     ko: {
       title: "사무소 소개 — 출입국사범심사 전문 선샤인행정사사무소",
       description:
-        "선샤인행정사사무소는 외국인 출입국사범심사 대응을 전문으로 하는 서울 중구 소재 행정사 사무소입니다. 음주운전·형사사건·불법취업·출국명령 등 체류 위기 대응 전문 분야와 5개 국어 상담 체계를 안내합니다.",
+        "선샤인행정사사무소는 외국인 출입국사범심사 대응을 전문으로 하는 서울 중구 소재 행정사 사무소입니다. 음주운전·형사사건·불법취업·출국명령 등 체류 위기 대응 전문 분야와 4개 국어 상담 체계를 안내합니다.",
     },
     en: {
       title: "About VISION — Korea Immigration Offense Review Specialists",
       description:
-        "VISION Administrative Scrivener Office in Seoul specializes in immigration offense review for foreign nationals in Korea. Learn about our practice areas — DUI, criminal charges, unauthorized employment, departure orders — and five-language support.",
+        "VISION Administrative Scrivener Office in Seoul specializes in immigration offense review for foreign nationals in Korea. Learn about our practice areas — DUI, criminal charges, unauthorized employment, departure orders — and four-language support.",
     },
     zh: {
       title: "事务所介绍 — 韩国出入境事犯审查专业行政士",
       description:
-        "VISION行政士事务所位于首尔中区，专注于外国人出入境事犯审查应对。介绍我们的专业领域——酒驾、刑事案件、非法就业、出境命令等居留危机应对，以及五种语言的咨询体系。",
+        "VISION行政士事务所位于首尔中区，专注于外国人出入境事犯审查应对。介绍我们的专业领域——酒驾、刑事案件、非法就业、出境命令等居留危机应对，以及四种语言的咨询体系。",
     },
     ja: {
       title: "事務所紹介 — 韓国出入国事犯審査の専門行政書士",
       description:
-        "VISION行政書士事務所はソウル中区に所在し、外国人の出入国事犯審査対応を専門としています。飲酒運転・刑事事件・不法就労・出国命令など在留危機への対応分野と、5か国語対応体制をご案内します。",
+        "VISION行政書士事務所はソウル中区に所在し、外国人の出入国事犯審査対応を専門としています。飲酒運転・刑事事件・不法就労・出国命令など在留危機への対応分野と、4か国語対応体制をご案内します。",
     },
     vi: {
       title: "Giới thiệu VISION — Chuyên gia xem xét vi phạm XNC Hàn Quốc",
       description:
-        "Văn phòng Hành chính VISION tại Jung-gu, Seoul chuyên hỗ trợ xem xét vi phạm xuất nhập cảnh cho người nước ngoài. Tìm hiểu lĩnh vực chuyên môn — DUI, án hình sự, lao động trái phép, lệnh xuất cảnh — và hỗ trợ 5 ngôn ngữ.",
+        "Văn phòng Hành chính VISION tại Jung-gu, Seoul chuyên hỗ trợ xem xét vi phạm xuất nhập cảnh cho người nước ngoài. Tìm hiểu lĩnh vực chuyên môn — DUI, án hình sự, lao động trái phép, lệnh xuất cảnh — và hỗ trợ 4 ngôn ngữ.",
     },
   },
   cases: {

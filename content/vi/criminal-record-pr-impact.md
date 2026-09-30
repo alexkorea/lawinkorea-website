@@ -245,7 +245,7 @@ Khi xin thường trú hoặc quốc tịch Hàn Quốc, **tiền án ở nướ
 
 Thời điểm nộp hồ sơ thường trú **không nên quá sớm, cũng không nên quá muộn.** Điều then chốt là chẩn đoán trước xem thời gian bị loại kết thúc chính xác khi nào, và cần chuẩn bị hồ sơ gì trước thời điểm đó.
 
-**Chẩn đoán ban đầu miễn phí** — hỗ trợ tiếng Hàn, Anh, Trung, Nhật, Việt
+**Chẩn đoán ban đầu miễn phí** — hỗ trợ tiếng Hàn, Anh, Trung, Nhật
 
 [Đăng ký chẩn đoán ngay →](/vi/contact)
 

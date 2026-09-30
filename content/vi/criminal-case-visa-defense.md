@@ -182,7 +182,7 @@ Gói hỗ trợ xem xét vi phạm cho án hình sự của [Văn phòng Hành c
 
 Thời điểm tốt nhất là ngay sau khi vụ việc hình sự phát sinh. Nếu đợi thủ tục hình sự khép lại mới bắt đầu, thường sẽ không kịp trước ngày phải có mặt.
 
-**Chẩn đoán ban đầu miễn phí** — hỗ trợ tiếng Hàn, Anh, Trung, Nhật, Việt
+**Chẩn đoán ban đầu miễn phí** — hỗ trợ tiếng Hàn, Anh, Trung, Nhật
 
 [Đăng ký chẩn đoán ngay →](/vi/contact)
 

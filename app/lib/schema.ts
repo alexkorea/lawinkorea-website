@@ -125,7 +125,7 @@ export function serviceSchema(locale: string) {
     serviceType: SERVICE_NAME[locale] ?? SERVICE_NAME.ko,
     provider: { "@id": ORG_ID },
     areaServed: { "@type": "Country", name: "South Korea" },
-    availableLanguage: ["Korean", "English", "Chinese", "Japanese", "Vietnamese"],
+    availableLanguage: ["Korean", "English", "Chinese", "Japanese"],
     url: `${SITE.url}/${locale}/immigration-offense-review`,
   };
 }
@@ -167,7 +167,7 @@ export function siteGraph(locale: Locale | string) {
           addressCountry: "KR",
         },
         areaServed: { "@type": "Country", name: "South Korea" },
-        availableLanguage: ["Korean", "English", "Chinese", "Japanese", "Vietnamese"],
+        availableLanguage: ["Korean", "English", "Chinese", "Japanese"],
         priceRange: "$$",
         openingHoursSpecification: {
           "@type": "OpeningHoursSpecification",

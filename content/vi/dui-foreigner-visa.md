@@ -154,7 +154,7 @@ Ngay khi có kết quả, bắt đầu ngay việc khiếu nại trong 30 ngày,
 
 Nếu bạn bị bắt vì lái xe say rượu, hãy **bắt đầu chuẩn bị cho buổi xem xét vi phạm ngay cả khi thủ tục hình sự còn đang tiếp diễn.** Đợi xử lý hình sự xong mới bắt đầu thì thường không kịp trước ngày phải có mặt.
 
-Văn phòng Hành chính VISION cung cấp chẩn đoán ban đầu miễn phí, hỗ trợ tiếng Hàn, Anh, Trung, Nhật và Việt.
+Văn phòng Hành chính VISION cung cấp chẩn đoán ban đầu miễn phí, hỗ trợ tiếng Hàn, Anh, Trung và Nhật.
 
 [Đăng ký chẩn đoán miễn phí ngay →](/vi/contact)
 
