@@ -764,6 +764,8 @@ const GenericHomePage = ({ l }: { l: Exclude<L, "ko"> }) => {
 
       {/* FAQ */}
       <section style={{ maxWidth: 800, margin: "0 auto", padding: "64px 24px" }}>
+        {/* FAQPage — 화면에 그리는 같은 c.faq.items 배열에서 생성(1:1, I3b 2026-10-03) */}
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(c.faq.items)) }} />
         <h2 style={{ fontSize: 24, fontWeight: 700, color: "#0a1628", marginBottom: 28 }}>{c.faq.title}</h2>
         {c.faq.items.map((item, i) => (
           <div key={i} style={{ borderBottom: "1px solid #e2e8f0", paddingBottom: 22, marginBottom: 22 }}>

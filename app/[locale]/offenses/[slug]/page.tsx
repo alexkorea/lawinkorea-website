@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import HubBlogLinks, { HUB_POSTS, appendToMain } from "../../../components/HubBlogLinks";
 import { fineLabels, finesFor, FINE_TIER_COUNT } from "../../../lib/fines";
 import { alternatesFor, brandTitle } from "../../../lib/seo";
+import { faqSchema } from "../../../lib/schema";
 import type { Metadata } from "next";
 
 const VALID_LOCALES = ["ko", "en", "ja", "zh", "vi"] as const;
@@ -257,6 +258,8 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
               <a href={`/${locale}#contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
             </div>
 
+            {/* FAQPage — 화면에 그리는 같은 c.faqs 배열에서 생성(1:1, I3b 2026-10-03) */}
+            {c.faqs.length > 0 && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(c.faqs)) }} />}
             <h2 style={{ fontSize: 20, fontWeight: 700, color: ACCENT.navy, marginBottom: 18 }}>{c.faqTitle}</h2>
             {c.faqs.map((faq, i) => (
               <div key={i} style={{ borderTop: `1px solid ${ACCENT.border}`, padding: "18px 0" }}>
@@ -433,6 +436,8 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
               <p style={{ fontSize: 14, color: "#7f1d1d", lineHeight: 1.65, margin: 0 }}>{c.tip2body}</p>
             </div>
 
+            {/* FAQPage — 화면에 그리는 같은 c.faqs 배열에서 생성(1:1, I3b 2026-10-03) */}
+            {c.faqs.length > 0 && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(c.faqs)) }} />}
             <h2 style={{ fontSize: 20, fontWeight: 700, color: A.navy, marginBottom: 16 }}>{c.faqTitle}</h2>
             {c.faqs.map((faq, i) => (
               <div key={i} style={{ marginBottom: 16, padding: "16px 20px", background: "#fff", border: `1px solid ${A.border}`, borderRadius: 8 }}>
@@ -493,6 +498,8 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
               <div><div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div><div style={{ opacity: 0.9, fontSize: 15 }}>서울 중구 퇴계로 324, 3층 · +82-2-363-2251</div></div>
               <a href={`/${locale}#contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
             </div>
+            {/* FAQPage — 화면에 그리는 같은 c.faqs 배열에서 생성(1:1, I3b 2026-10-03) */}
+            {c.faqs.length > 0 && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(c.faqs)) }} />}
             <h2 style={{ fontSize: 20, fontWeight: 700, color: ACCENT.navy, marginBottom: 18 }}>{c.faqTitle}</h2>
             {c.faqs.map((faq, i) => (<div key={i} style={{ borderTop: `1px solid ${ACCENT.border}`, padding: "18px 0" }}><div style={{ fontWeight: 600, color: ACCENT.navy, marginBottom: 8, fontSize: 15 }}>{faq.q}</div><div style={{ color: ACCENT.muted, lineHeight: 1.7, fontSize: 14 }}>{faq.a}</div></div>))}
             <div style={{ marginTop: 40, background: ACCENT.warn, border: `1px solid ${ACCENT.warnBorder}`, borderRadius: 8, padding: "14px 18px", fontSize: 13, color: "#78350f", lineHeight: 1.6 }}>{c.notice}</div>
@@ -539,6 +546,8 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
               <div><div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div><div style={{ opacity: 0.9, fontSize: 15 }}>서울 중구 퇴계로 324, 3층 · +82-2-363-2251</div></div>
               <a href={`/${locale}#contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
             </div>
+            {/* FAQPage — 화면에 그리는 같은 c.faqs 배열에서 생성(1:1, I3b 2026-10-03) */}
+            {c.faqs.length > 0 && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(c.faqs)) }} />}
             <h2 style={{ fontSize: 20, fontWeight: 700, color: ACCENT.navy, marginBottom: 18 }}>{c.faqTitle}</h2>
             {c.faqs.map((faq, i) => (<div key={i} style={{ borderTop: `1px solid ${ACCENT.border}`, padding: "18px 0" }}><div style={{ fontWeight: 600, color: ACCENT.navy, marginBottom: 8, fontSize: 15 }}>{faq.q}</div><div style={{ color: ACCENT.muted, lineHeight: 1.7, fontSize: 14 }}>{faq.a}</div></div>))}
             <div style={{ marginTop: 40, background: ACCENT.warn, border: `1px solid ${ACCENT.warnBorder}`, borderRadius: 8, padding: "14px 18px", fontSize: 13, color: "#78350f", lineHeight: 1.6 }}>{c.notice}</div>
@@ -585,6 +594,8 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
               <div><div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div><div style={{ opacity: 0.9, fontSize: 15 }}>서울 중구 퇴계로 324, 3층 · +82-2-363-2251</div></div>
               <a href={`/${locale}#contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
             </div>
+            {/* FAQPage — 화면에 그리는 같은 c.faqs 배열에서 생성(1:1, I3b 2026-10-03) */}
+            {c.faqs.length > 0 && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(c.faqs)) }} />}
             <h2 style={{ fontSize: 20, fontWeight: 700, color: ACCENT.navy, marginBottom: 18 }}>{c.faqTitle}</h2>
             {c.faqs.map((faq, i) => (<div key={i} style={{ borderTop: `1px solid ${ACCENT.border}`, padding: "18px 0" }}><div style={{ fontWeight: 600, color: ACCENT.navy, marginBottom: 8, fontSize: 15 }}>{faq.q}</div><div style={{ color: ACCENT.muted, lineHeight: 1.7, fontSize: 14 }}>{faq.a}</div></div>))}
             <div style={{ marginTop: 40, background: ACCENT.warn, border: `1px solid ${ACCENT.warnBorder}`, borderRadius: 8, padding: "14px 18px", fontSize: 13, color: "#78350f", lineHeight: 1.6 }}>{c.notice}</div>
@@ -631,6 +642,8 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
               <div><div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div><div style={{ opacity: 0.9, fontSize: 15 }}>서울 중구 퇴계로 324, 3층 · +82-2-363-2251</div></div>
               <a href={`/${locale}#contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
             </div>
+            {/* FAQPage — 화면에 그리는 같은 c.faqs 배열에서 생성(1:1, I3b 2026-10-03) */}
+            {c.faqs.length > 0 && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(c.faqs)) }} />}
             <h2 style={{ fontSize: 20, fontWeight: 700, color: ACCENT.navy, marginBottom: 18 }}>{c.faqTitle}</h2>
             {c.faqs.map((faq, i) => (<div key={i} style={{ borderTop: `1px solid ${ACCENT.border}`, padding: "18px 0" }}><div style={{ fontWeight: 600, color: ACCENT.navy, marginBottom: 8, fontSize: 15 }}>{faq.q}</div><div style={{ color: ACCENT.muted, lineHeight: 1.7, fontSize: 14 }}>{faq.a}</div></div>))}
             <div style={{ marginTop: 40, background: ACCENT.warn, border: `1px solid ${ACCENT.warnBorder}`, borderRadius: 8, padding: "14px 18px", fontSize: 13, color: "#78350f", lineHeight: 1.6 }}>{c.notice}</div>
@@ -677,6 +690,8 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
               <div><div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div><div style={{ opacity: 0.9, fontSize: 15 }}>서울 중구 퇴계로 324, 3층 · +82-2-363-2251</div></div>
               <a href={`/${locale}#contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
             </div>
+            {/* FAQPage — 화면에 그리는 같은 c.faqs 배열에서 생성(1:1, I3b 2026-10-03) */}
+            {c.faqs.length > 0 && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(c.faqs)) }} />}
             <h2 style={{ fontSize: 20, fontWeight: 700, color: ACCENT.navy, marginBottom: 18 }}>{c.faqTitle}</h2>
             {c.faqs.map((faq, i) => (<div key={i} style={{ borderTop: `1px solid ${ACCENT.border}`, padding: "18px 0" }}><div style={{ fontWeight: 600, color: ACCENT.navy, marginBottom: 8, fontSize: 15 }}>{faq.q}</div><div style={{ color: ACCENT.muted, lineHeight: 1.7, fontSize: 14 }}>{faq.a}</div></div>))}
             <div style={{ marginTop: 40, background: ACCENT.warn, border: `1px solid ${ACCENT.warnBorder}`, borderRadius: 8, padding: "14px 18px", fontSize: 13, color: "#78350f", lineHeight: 1.6 }}>{c.notice}</div>
@@ -723,6 +738,8 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
               <div><div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div><div style={{ opacity: 0.9, fontSize: 15 }}>서울 중구 퇴계로 324, 3층 · +82-2-363-2251</div></div>
               <a href={`/${locale}#contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
             </div>
+            {/* FAQPage — 화면에 그리는 같은 c.faqs 배열에서 생성(1:1, I3b 2026-10-03) */}
+            {c.faqs.length > 0 && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(c.faqs)) }} />}
             <h2 style={{ fontSize: 20, fontWeight: 700, color: ACCENT.navy, marginBottom: 18 }}>{c.faqTitle}</h2>
             {c.faqs.map((faq, i) => (<div key={i} style={{ borderTop: `1px solid ${ACCENT.border}`, padding: "18px 0" }}><div style={{ fontWeight: 600, color: ACCENT.navy, marginBottom: 8, fontSize: 15 }}>{faq.q}</div><div style={{ color: ACCENT.muted, lineHeight: 1.7, fontSize: 14 }}>{faq.a}</div></div>))}
             <div style={{ marginTop: 40, background: ACCENT.warn, border: `1px solid ${ACCENT.warnBorder}`, borderRadius: 8, padding: "14px 18px", fontSize: 13, color: "#78350f", lineHeight: 1.6 }}>{c.notice}</div>
@@ -769,6 +786,8 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
               <div><div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div><div style={{ opacity: 0.9, fontSize: 15 }}>서울 중구 퇴계로 324, 3층 · +82-2-363-2251</div></div>
               <a href={`/${locale}#contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
             </div>
+            {/* FAQPage — 화면에 그리는 같은 c.faqs 배열에서 생성(1:1, I3b 2026-10-03) */}
+            {c.faqs.length > 0 && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(c.faqs)) }} />}
             <h2 style={{ fontSize: 20, fontWeight: 700, color: ACCENT.navy, marginBottom: 18 }}>{c.faqTitle}</h2>
             {c.faqs.map((faq, i) => (<div key={i} style={{ borderTop: `1px solid ${ACCENT.border}`, padding: "18px 0" }}><div style={{ fontWeight: 600, color: ACCENT.navy, marginBottom: 8, fontSize: 15 }}>{faq.q}</div><div style={{ color: ACCENT.muted, lineHeight: 1.7, fontSize: 14 }}>{faq.a}</div></div>))}
             <div style={{ marginTop: 40, background: ACCENT.warn, border: `1px solid ${ACCENT.warnBorder}`, borderRadius: 8, padding: "14px 18px", fontSize: 13, color: "#78350f", lineHeight: 1.6 }}>{c.notice}</div>
@@ -815,6 +834,8 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
               <div><div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div><div style={{ opacity: 0.9, fontSize: 15 }}>서울 중구 퇴계로 324, 3층 · +82-2-363-2251</div></div>
               <a href={`/${locale}#contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
             </div>
+            {/* FAQPage — 화면에 그리는 같은 c.faqs 배열에서 생성(1:1, I3b 2026-10-03) */}
+            {c.faqs.length > 0 && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(c.faqs)) }} />}
             <h2 style={{ fontSize: 20, fontWeight: 700, color: ACCENT.navy, marginBottom: 18 }}>{c.faqTitle}</h2>
             {c.faqs.map((faq, i) => (<div key={i} style={{ borderTop: `1px solid ${ACCENT.border}`, padding: "18px 0" }}><div style={{ fontWeight: 600, color: ACCENT.navy, marginBottom: 8, fontSize: 15 }}>{faq.q}</div><div style={{ color: ACCENT.muted, lineHeight: 1.7, fontSize: 14 }}>{faq.a}</div></div>))}
             <div style={{ marginTop: 40, background: ACCENT.warn, border: `1px solid ${ACCENT.warnBorder}`, borderRadius: 8, padding: "14px 18px", fontSize: 13, color: "#78350f", lineHeight: 1.6 }}>{c.notice}</div>

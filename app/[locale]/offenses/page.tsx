@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { alternatesFor, brandTitle } from "../../lib/seo";
 import type { Metadata } from "next";
 import { SITE } from "../../lib/constants";
+import { faqSchema } from "../../lib/schema";
 
 const VALID_LOCALES = ["ko", "en", "ja", "zh", "vi"] as const;
 type L = (typeof VALID_LOCALES)[number];
@@ -16,6 +17,15 @@ const metaData: Record<L, { title: string; description: string }> = {
   zh: { title: "违规类型及应对 · Law in Korea", description: "了解不同违规类型对签证的影响及应对方法。" },
   vi: { title: "Các loại vi phạm xuất nhập cảnh · Law in Korea", description: "Tìm hiểu loại vi phạm của bạn và cách ứng phó." },
 };
+
+// ko 사건유형 허브 FAQ — 화면과 FAQPage 의 단일 원천(I3b 2026-10-03)
+const KO_OFFENSES_FAQ: { q: string; a: string }[] = [
+  { q: "형사사건과 출입국 위반이 같이 있으면 어떻게 되나요?", a: "두 사안이 서로 영향을 줄 수 있어 함께 검토하는 것이 좋습니다. 각각의 처분과 체류 영향을 정리해 대응합니다." },
+  { q: "죄명을 모르면 상담이 어렵나요?", a: "받은 서류를 가지고 오시면 함께 확인할 수 있습니다. 정확한 유형 파악이 대응의 출발점입니다." },
+  { q: "초범이면 문제가 없나요?", a: "초범 여부는 검토 요소 중 하나입니다. 사건 유형에 따라 초범이라도 신중한 대응이 필요할 수 있습니다." },
+  { q: "행정 위반은 형사사건보다 가볍게 처리되나요?", a: "반드시 그렇지는 않습니다. 위반 내용과 반복 여부에 따라 출국명령 등으로 이어질 수 있습니다." },
+  { q: "사건이 여러 개면 각각 상담해야 하나요?", a: "한 번에 전체 상황을 정리해 함께 검토하는 것이 효율적입니다." },
+];
 
 export async function generateStaticParams() {
   return VALID_LOCALES.map((locale) => ({ locale }));
@@ -158,13 +168,8 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
         <section style={{ marginBottom: 48 }}>
           <h2 style={{ fontSize: 22, fontWeight: 700, color: "#0a1628", marginBottom: 32 }}>자주 묻는 질문</h2>
-          {[
-            { q: "형사사건과 출입국 위반이 같이 있으면 어떻게 되나요?", a: "두 사안이 서로 영향을 줄 수 있어 함께 검토하는 것이 좋습니다. 각각의 처분과 체류 영향을 정리해 대응합니다." },
-            { q: "죄명을 모르면 상담이 어렵나요?", a: "받은 서류를 가지고 오시면 함께 확인할 수 있습니다. 정확한 유형 파악이 대응의 출발점입니다." },
-            { q: "초범이면 문제가 없나요?", a: "초범 여부는 검토 요소 중 하나입니다. 사건 유형에 따라 초범이라도 신중한 대응이 필요할 수 있습니다." },
-            { q: "행정 위반은 형사사건보다 가볍게 처리되나요?", a: "반드시 그렇지는 않습니다. 위반 내용과 반복 여부에 따라 출국명령 등으로 이어질 수 있습니다." },
-            { q: "사건이 여러 개면 각각 상담해야 하나요?", a: "한 번에 전체 상황을 정리해 함께 검토하는 것이 효율적입니다." },
-          ].map((item, i) => (
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(KO_OFFENSES_FAQ)) }} />
+          {KO_OFFENSES_FAQ.map((item, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e2e8f0", paddingBottom: 24, marginBottom: 24 }}>
               <p style={{ fontWeight: 600, color: "#0a1628", marginBottom: 8 }}>Q. {item.q}</p>
               <p style={{ color: "#374151", lineHeight: 1.8, margin: 0 }}>{item.a}</p>

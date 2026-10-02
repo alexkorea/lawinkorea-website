@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { ACCENT, COMPANY, SITE } from "../../../lib/constants";
 import { getBlogPostData, getBlogPostsByLocale, getLocalesForSlug } from "../../../data/blog-posts-data";
 import { alternatesFor } from "../../../lib/seo";
-import { breadcrumbSchema, faqSchema, inLanguage, ORG_ID, PERSON_ID, personSchema } from "../../../lib/schema";
+import { breadcrumbSchema, faqSchema, inLanguage, ORG_ID, PERSON_ID } from "../../../lib/schema";
 
 export const dynamicParams = false;
 
@@ -179,8 +179,7 @@ export default async function LocaleBlogPost({ params }: { params: Promise<Param
                 mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE.url}/${locale}/blog/${slug}` },
               },
               // Organization 노드는 [locale]/layout 의 siteGraph 가 이미 선언한다(같은 @id 재선언 금지, I3b).
-              // publisher 는 위에서 @id 참조만 한다.
-              personSchema(locale),
+              // publisher 는 위에서 @id 참조만 한다. Person(#representative) 도 siteGraph 가 선언하므로 author 는 @id 참조만(재선언 금지).
             ],
           }),
         }}

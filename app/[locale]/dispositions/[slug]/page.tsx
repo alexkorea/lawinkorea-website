@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import HubBlogLinks, { HUB_POSTS, appendToMain } from "../../../components/HubBlogLinks";
 import { alternatesFor, brandTitle } from "../../../lib/seo";
+import { faqSchema } from "../../../lib/schema";
 import type { Metadata } from "next";
 import React from "react";
 
@@ -262,6 +263,8 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
               <a href={`/${locale}#contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
             </div>
 
+            {/* FAQPage — 화면에 그리는 같은 c.faqs 배열에서 생성(1:1, I3b 2026-10-03) */}
+            {c.faqs.length > 0 && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(c.faqs)) }} />}
             <h2 style={{ fontSize: 20, fontWeight: 700, color: ACCENT.navy, marginBottom: 18 }}>{c.faqTitle}</h2>
             {c.faqs.map((faq, i) => (
               <div key={i} style={{ borderTop: `1px solid ${ACCENT.border}`, padding: "18px 0" }}>
@@ -532,6 +535,8 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
               <a href={`/${locale}#contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
             </div>
 
+            {/* FAQPage — 화면에 그리는 같은 c.faqs 배열에서 생성(1:1, I3b 2026-10-03) */}
+            {c.faqs.length > 0 && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(c.faqs)) }} />}
             <h2 style={{ fontSize: 20, fontWeight: 700, color: ACCENT.navy, marginBottom: 18 }}>{c.faqTitle}</h2>
             {c.faqs.map((faq, i) => (
               <div key={i} style={{ borderTop: `1px solid ${ACCENT.border}`, padding: "18px 0" }}>
@@ -797,6 +802,8 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
               <a href={`/${locale}#contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
             </div>
 
+            {/* FAQPage — 화면에 그리는 같은 c.faqs 배열에서 생성(1:1, I3b 2026-10-03) */}
+            {c.faqs.length > 0 && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(c.faqs)) }} />}
             <h2 style={{ fontSize: 20, fontWeight: 700, color: ACCENT.navy, marginBottom: 18 }}>{c.faqTitle}</h2>
             {c.faqs.map((faq, i) => (
               <div key={i} style={{ borderTop: `1px solid ${ACCENT.border}`, padding: "18px 0" }}>
@@ -1067,6 +1074,8 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
               <a href={`/${locale}#contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
             </div>
 
+            {/* FAQPage — 화면에 그리는 같은 c.faqs 배열에서 생성(1:1, I3b 2026-10-03) */}
+            {c.faqs.length > 0 && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(c.faqs)) }} />}
             <h2 style={{ fontSize: 20, fontWeight: 700, color: ACCENT.navy, marginBottom: 18 }}>{c.faqTitle}</h2>
             {c.faqs.map((faq, i) => (
               <div key={i} style={{ borderTop: `1px solid ${ACCENT.border}`, padding: "18px 0" }}>
