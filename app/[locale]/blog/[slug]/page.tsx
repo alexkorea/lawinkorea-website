@@ -178,18 +178,8 @@ export default async function LocaleBlogPost({ params }: { params: Promise<Param
                 isPartOf: { "@id": `${SITE.url}/#website` },
                 mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE.url}/${locale}/blog/${slug}` },
               },
-              {
-                // 행정사사무소는 LegalService(법률사무소) 가 아니다 — 변호사법 오해 소지 차단(맥7 20260922-1455)
-                "@type": ["Organization", "ProfessionalService"],
-                "@id": ORG_ID,
-                name: COMPANY.brandKo,
-                alternateName: ["Law in Korea"],
-                url: SITE.url,
-                logo: `${SITE.url}/logo-sunshine.png`,
-                telephone: COMPANY.phoneIntl,
-                legalName: COMPANY.nameKo,
-                taxID: COMPANY.bizRegNo,
-              },
+              // Organization 노드는 [locale]/layout 의 siteGraph 가 이미 선언한다(같은 @id 재선언 금지, I3b).
+              // publisher 는 위에서 @id 참조만 한다.
               personSchema(locale),
             ],
           }),

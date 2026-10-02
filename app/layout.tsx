@@ -79,42 +79,8 @@ export default function RootLayout({
     <html lang="ko" className="h-full antialiased">
       <head>
         <Webfonts />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "ProfessionalService",
-              // siteGraph 의 Organization 과 같은 엔티티임을 명시(엔티티 중복 방지)
-              "@id": `${SITE.url}/#organization`,
-              name: COMPANY.brandKo,
-              alternateName: ["Law in Korea"],
-              description:
-                "출입국사범심사 · DUI · 형사사건 · 비자 연장 전문 행정사 사무소.",
-              url: SITE.url,
-              telephone: COMPANY.phoneIntl,
-              email: COMPANY.consultEmail,
-              legalName: COMPANY.nameKo,
-              taxID: COMPANY.bizRegNo,
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "퇴계로 324, 3층 (성우빌딩)",
-                addressLocality: "중구",
-                addressRegion: "서울특별시",
-                postalCode: "04614",
-                addressCountry: "KR",
-              },
-              areaServed: { "@type": "Country", name: "South Korea" },
-              availableLanguage: ["Korean", "English", "Chinese", "Japanese"],
-              openingHoursSpecification: {
-                "@type": "OpeningHoursSpecification",
-                dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-                opens: "09:30",
-                closes: "17:30",
-              },
-            }),
-          }}
-        />
+        {/* Organization JSON-LD 는 [locale]/layout 의 siteGraph(@id #organization) 한 곳에서만 선언한다.
+            여기서 같은 @id 로 ProfessionalService 를 또 내면 엔티티가 2번 선언된다(I3b, 맥7 2026-10-03). */}
       </head>
       <body className="min-h-full font-sans">
         {children}

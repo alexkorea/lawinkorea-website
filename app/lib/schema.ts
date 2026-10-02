@@ -145,7 +145,7 @@ export function siteGraph(locale: Locale | string) {
       },
       {
         // 행정사사무소는 LegalService(법률사무소) 가 아니다 — 변호사법 오해 소지 차단(맥7 20260922-1455)
-                "@type": ["Organization", "ProfessionalService"],
+        "@type": ["Organization", "ProfessionalService"],
         "@id": ORG_ID,
         name: COMPANY.brandKo,
         // 영문 사무소명 확정 전까지 사이트 브랜드명만 둔다(옛 브랜드 VISION 표기 제거).
@@ -156,9 +156,12 @@ export function siteGraph(locale: Locale | string) {
         email: COMPANY.consultEmail,
         legalName: COMPANY.nameKo,
         taxID: COMPANY.bizRegNo,
-        // 브랜드 이관(비전→선샤인) 후 창업자 관계가 미확인이라 founder 대신 소속 관계로 둔다.
+        // 옛 루트 레이아웃 ProfessionalService 블록에만 있던 description 을 여기로 병합(I3b 명세 문안).
+        description: "출입국사범심사·비자 연장·출국명령·입국금지 해제 상담 행정사사무소.",
         // foundingDate(2018)·"Since 2018" 표기는 Boss 확인 대기 항목.
+        // founder = 대표 행정사 한경택(I3b 명세 최종 노드, 맥7 2026-10-03). Person 노드와 같은 @id.
         employee: { "@id": PERSON_ID },
+        founder: { "@type": "Person", "@id": PERSON_ID, name: REP_NAME.ko },
         foundingDate: String(COMPANY.estYear),
         address: {
           "@type": "PostalAddress",
@@ -168,8 +171,26 @@ export function siteGraph(locale: Locale | string) {
           postalCode: "04614",
           addressCountry: "KR",
         },
+        contactPoint: [
+          {
+            "@type": "ContactPoint",
+            contactType: "customer service",
+            telephone: COMPANY.phoneIntl,
+            email: COMPANY.consultEmail,
+            areaServed: "KR",
+            availableLanguage: ["Korean", "English", "Chinese", "Japanese"],
+          },
+        ],
         areaServed: { "@type": "Country", name: "South Korea" },
         availableLanguage: ["Korean", "English", "Chinese", "Japanese"],
+        knowsAbout: [
+          "출입국사범심사",
+          "출국명령",
+          "강제퇴거",
+          "입국금지 해제",
+          "과태료·범칙금",
+          "비자 연장",
+        ],
         openingHoursSpecification: {
           "@type": "OpeningHoursSpecification",
           dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
