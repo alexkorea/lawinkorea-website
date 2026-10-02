@@ -1,7 +1,9 @@
 import { notFound } from "next/navigation";
-import { alternatesFor } from "../../lib/seo";
+import { alternatesFor, brandTitle } from "../../lib/seo";
 import type { Metadata } from "next";
 import { SITE } from "../../lib/constants";
+import ScopeBlock from "../../components/ScopeBlock";
+import HubBlogLinks from "../../components/HubBlogLinks";
 
 const VALID_LOCALES = ["ko", "en", "ja", "zh", "vi"] as const;
 type L = (typeof VALID_LOCALES)[number];
@@ -17,6 +19,16 @@ const metaData: Record<L, { title: string; description: string }> = {
   vi: { title: "Xem xét vi phạm xuất nhập cảnh là gì · Hướng dẫn", description: "Tìm hiểu về quy trình xem xét vi phạm xuất nhập cảnh." },
 };
 
+const KO_FAQ = [
+  { q: "사범심사는 형사재판과 같은 건가요?", a: "아닙니다. 형사재판은 형벌을 정하는 절차이고, 사범심사와 관련한 출입국의 판단은 체류에 관한 처분과 연결됩니다. 서로 다른 기준에서 진행될 수 있습니다." },
+  { q: "형사사건에서 무혐의를 받으면 체류 문제도 끝나나요?", a: "반드시 그렇지는 않습니다. 처분 결과는 중요한 요소이지만, 출입국은 체류 관련 사정을 별도로 검토할 수 있습니다." },
+  { q: "통지서를 받으면 반드시 출석해야 하나요?", a: "통지서에 기재된 내용을 먼저 확인해야 합니다. 일정과 제출물, 대응 방향을 사전에 정리하는 것이 좋습니다." },
+  { q: "통역이나 대리 출석이 가능한가요?", a: "언어 지원과 출석 준비를 도와드립니다. 대리 가능 여부는 사안에 따라 다르므로 상담 시 확인이 필요합니다." },
+  { q: "벌금을 이미 냈는데도 체류가 문제될 수 있나요?", a: "벌금 납부와 별개로 체류 관련 검토가 이루어질 수 있습니다. 사건 내용과 체류 상황이 함께 고려됩니다." },
+  { q: "가족이 대신 상담할 수 있나요?", a: "네. 본인이 어려운 경우 배우자·가족·고용주가 상황을 정리해 상담할 수 있습니다. 사건·체류 관련 문서가 있으면 도움이 됩니다." },
+  { q: "외국에 있는데 상담이 되나요?", a: "가능합니다. 재입국·입국금지 관련 문제도 상담 대상입니다." },
+];
+
 export async function generateStaticParams() {
   return VALID_LOCALES.map((locale) => ({ locale }));
 }
@@ -26,7 +38,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   if (!VALID_LOCALES.includes(locale as L)) return {};
   const l = locale as L;
   return {
-    title: metaData[l].title,
+    title: brandTitle(metaData[l].title),
     description: metaData[l].description,
     openGraph: {
       title: l === "ko" ? "출입국 사범심사, 형사절차와 무엇이 다른가" : metaData[l].title,
@@ -48,7 +60,9 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           <a href={`/${l}`} style={{ color: "#2563eb", textDecoration: "none" }}>Home</a> &gt; Immigration Offense Review
         </nav>
         <h1 style={{ fontSize: 36, fontWeight: 700, color: "#0a1628" }}>{metaData[l].title}</h1>
-        <p style={{ color: "#64748b", marginTop: 16 }}>Content coming soon.</p>
+        <p style={{ color: "#64748b", marginTop: 16, marginBottom: 40 }}>Content coming soon.</p>
+        <ScopeBlock locale={l} />
+        <HubBlogLinks hub="immigration-offense-review" locale={l} />
       </main>
     );
   }
@@ -177,6 +191,8 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           </p>
         </section>
 
+        <ScopeBlock locale="ko" />
+
         {/* 중간 CTA */}
         <div style={{ background: "#eff6ff", borderRadius: 8, padding: "32px 28px", textAlign: "center", marginBottom: 48 }}>
           <p style={{ fontSize: 16, color: "#1e40af", fontWeight: 600, margin: "0 0 16px" }}>
@@ -198,21 +214,17 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         {/* FAQ */}
         <section style={{ marginBottom: 48 }}>
           <h2 style={{ fontSize: 22, fontWeight: 700, color: "#0a1628", marginBottom: 32 }}>자주 묻는 질문</h2>
-          {[
-            { q: "사범심사는 형사재판과 같은 건가요?", a: "아닙니다. 형사재판은 형벌을 정하는 절차이고, 사범심사와 관련한 출입국의 판단은 체류에 관한 처분과 연결됩니다. 서로 다른 기준에서 진행될 수 있습니다." },
-            { q: "형사사건에서 무혐의를 받으면 체류 문제도 끝나나요?", a: "반드시 그렇지는 않습니다. 처분 결과는 중요한 요소이지만, 출입국은 체류 관련 사정을 별도로 검토할 수 있습니다." },
-            { q: "통지서를 받으면 반드시 출석해야 하나요?", a: "통지서에 기재된 내용을 먼저 확인해야 합니다. 일정과 제출물, 대응 방향을 사전에 정리하는 것이 좋습니다." },
-            { q: "통역이나 대리 출석이 가능한가요?", a: "언어 지원과 출석 준비를 도와드립니다. 대리 가능 여부는 사안에 따라 다르므로 상담 시 확인이 필요합니다." },
-            { q: "벌금을 이미 냈는데도 체류가 문제될 수 있나요?", a: "벌금 납부와 별개로 체류 관련 검토가 이루어질 수 있습니다. 사건 내용과 체류 상황이 함께 고려됩니다." },
-            { q: "가족이 대신 상담할 수 있나요?", a: "네. 본인이 어려운 경우 배우자·가족·고용주가 상황을 정리해 상담할 수 있습니다. 사건·체류 관련 문서가 있으면 도움이 됩니다." },
-            { q: "외국에 있는데 상담이 되나요?", a: "가능합니다. 재입국·입국금지 관련 문제도 상담 대상입니다." },
-          ].map((item, i) => (
+          {KO_FAQ.map((item, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e2e8f0", paddingBottom: 24, marginBottom: 24 }}>
               <p style={{ fontWeight: 600, color: "#0a1628", marginBottom: 8 }}>Q. {item.q}</p>
               <p style={{ color: "#374151", lineHeight: 1.8, margin: 0 }}>{item.a}</p>
             </div>
           ))}
         </section>
+
+        <div style={{ marginBottom: 48 }}>
+          <HubBlogLinks hub="immigration-offense-review" locale="ko" />
+        </div>
 
         {/* 내부 링크 */}
         <section style={{ marginBottom: 48 }}>
@@ -246,11 +258,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "FAQPage",
-        "mainEntity": [
-          { "@type": "Question", "name": "사범심사는 형사재판과 같은 건가요?", "acceptedAnswer": { "@type": "Answer", "text": "아닙니다. 형사재판은 형벌을 정하는 절차이고, 사범심사와 관련한 출입국의 판단은 체류에 관한 처분과 연결됩니다." } },
-          { "@type": "Question", "name": "형사사건에서 무혐의를 받으면 체류 문제도 끝나나요?", "acceptedAnswer": { "@type": "Answer", "text": "반드시 그렇지는 않습니다. 출입국은 체류 관련 사정을 별도로 검토할 수 있습니다." } },
-          { "@type": "Question", "name": "벌금을 이미 냈는데도 체류가 문제될 수 있나요?", "acceptedAnswer": { "@type": "Answer", "text": "벌금 납부와 별개로 체류 관련 검토가 이루어질 수 있습니다." } },
-        ],
+        "mainEntity": KO_FAQ.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",

@@ -170,7 +170,6 @@ export function siteGraph(locale: Locale | string) {
         },
         areaServed: { "@type": "Country", name: "South Korea" },
         availableLanguage: ["Korean", "English", "Chinese", "Japanese"],
-        priceRange: "$$",
         openingHoursSpecification: {
           "@type": "OpeningHoursSpecification",
           dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],

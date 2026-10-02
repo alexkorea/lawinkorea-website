@@ -1,7 +1,8 @@
 import { notFound } from "next/navigation";
-import { alternatesFor } from "../../lib/seo";
+import { alternatesFor, brandTitle } from "../../lib/seo";
 import type { Metadata } from "next";
 import { SITE } from "../../lib/constants";
+import HubBlogLinks from "../../components/HubBlogLinks";
 
 const VALID_LOCALES = ["ko", "en", "ja", "zh", "vi"] as const;
 type L = (typeof VALID_LOCALES)[number];
@@ -17,6 +18,15 @@ const metaData: Record<L, { title: string; description: string }> = {
   vi: { title: "Các loại xử lý xuất nhập cảnh · Law in Korea", description: "Tìm hiểu về các loại xử lý xuất nhập cảnh và cách ứng phó." },
 };
 
+const KO_FAQ = [
+  { q: "출국권고와 출국명령은 같은 건가요?", a: "다를 수 있습니다. 자발적 출국을 권고하는 것과 명령의 성격은 구분되며, 이후 영향도 다를 수 있어 처분서 확인이 필요합니다." },
+  { q: "출국명령과 강제퇴거의 차이는 무엇인가요?", a: "강제성과 재입국에 미치는 영향 등에서 차이가 있을 수 있습니다. 각 상세 페이지에서 확인하실 수 있습니다." },
+  { q: "범칙금과 벌금은 다른가요?", a: "근거와 성격이 다를 수 있습니다. 벌금은 형사처분, 범칙금·과태료는 행정상 처분의 성격을 가질 수 있습니다." },
+  { q: "처분에 이의를 제기할 수 있나요?", a: "사안에 따라 이의신청·행정심판 등을 검토할 수 있습니다. 기한이 있으므로 빠른 확인이 필요합니다." },
+  { q: "처분서를 잃어버렸는데 어떻게 하나요?", a: "받은 시점과 내용을 최대한 정리하고, 관련 통지·서류를 함께 확인해 대응 방향을 잡습니다." },
+  { q: "비자 취소와 연장 불허는 같은 건가요?", a: "다릅니다. 이미 부여된 자격의 취소와 연장 신청의 불허는 성격이 다르며, 대응도 달라질 수 있습니다." },
+];
+
 export async function generateStaticParams() {
   return VALID_LOCALES.map((locale) => ({ locale }));
 }
@@ -26,7 +36,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   if (!VALID_LOCALES.includes(locale as L)) return {};
   const l = locale as L;
   return {
-    title: metaData[l].title,
+    title: brandTitle(metaData[l].title),
     description: metaData[l].description,
     openGraph: {
       title: l === "ko" ? "출국명령·강제퇴거·입국금지, 무엇이 다른가" : metaData[l].title,
@@ -46,6 +56,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       <main style={{ maxWidth: 800, margin: "0 auto", padding: "64px 24px" }}>
         <h1 style={{ fontSize: 36, fontWeight: 700, color: "#0a1628" }}>{metaData[l].title}</h1>
         <p style={{ color: "#64748b", marginTop: 16 }}>Content coming soon.</p>
+        <HubBlogLinks hub="dispositions" locale={l} />
       </main>
     );
   }
@@ -146,20 +157,17 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
         <section style={{ marginBottom: 48 }}>
           <h2 style={{ fontSize: 22, fontWeight: 700, color: "#0a1628", marginBottom: 32 }}>자주 묻는 질문</h2>
-          {[
-            { q: "출국권고와 출국명령은 같은 건가요?", a: "다를 수 있습니다. 자발적 출국을 권고하는 것과 명령의 성격은 구분되며, 이후 영향도 다를 수 있어 처분서 확인이 필요합니다." },
-            { q: "출국명령과 강제퇴거의 차이는 무엇인가요?", a: "강제성과 재입국에 미치는 영향 등에서 차이가 있을 수 있습니다. 각 상세 페이지에서 확인하실 수 있습니다." },
-            { q: "범칙금과 벌금은 다른가요?", a: "근거와 성격이 다를 수 있습니다. 벌금은 형사처분, 범칙금·과태료는 행정상 처분의 성격을 가질 수 있습니다." },
-            { q: "처분에 이의를 제기할 수 있나요?", a: "사안에 따라 이의신청·행정심판 등을 검토할 수 있습니다. 기한이 있으므로 빠른 확인이 필요합니다." },
-            { q: "처분서를 잃어버렸는데 어떻게 하나요?", a: "받은 시점과 내용을 최대한 정리하고, 관련 통지·서류를 함께 확인해 대응 방향을 잡습니다." },
-            { q: "비자 취소와 연장 불허는 같은 건가요?", a: "다릅니다. 이미 부여된 자격의 취소와 연장 신청의 불허는 성격이 다르며, 대응도 달라질 수 있습니다." },
-          ].map((item, i) => (
+          {KO_FAQ.map((item, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e2e8f0", paddingBottom: 24, marginBottom: 24 }}>
               <p style={{ fontWeight: 600, color: "#0a1628", marginBottom: 8 }}>Q. {item.q}</p>
               <p style={{ color: "#374151", lineHeight: 1.8, margin: 0 }}>{item.a}</p>
             </div>
           ))}
         </section>
+
+        <div style={{ marginBottom: 48 }}>
+          <HubBlogLinks hub="dispositions" locale="ko" />
+        </div>
 
         <section>
           <h2 style={{ fontSize: 18, fontWeight: 700, color: "#0a1628", marginBottom: 20 }}>더 알아보기</h2>
@@ -187,10 +195,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "FAQPage",
-        "mainEntity": [
-          { "@type": "Question", "name": "출국권고와 출국명령은 같은 건가요?", "acceptedAnswer": { "@type": "Answer", "text": "다를 수 있습니다. 자발적 출국을 권고하는 것과 명령의 성격은 구분되며, 이후 영향도 다를 수 있어 처분서 확인이 필요합니다." } },
-          { "@type": "Question", "name": "출국명령과 강제퇴거의 차이는 무엇인가요?", "acceptedAnswer": { "@type": "Answer", "text": "강제성과 재입국에 미치는 영향 등에서 차이가 있을 수 있습니다." } },
-        ],
+        "mainEntity": KO_FAQ.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",

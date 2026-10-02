@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
-import { alternatesFor } from "../../../lib/seo";
+import HubBlogLinks, { HUB_POSTS, appendToMain } from "../../../components/HubBlogLinks";
+import { alternatesFor, brandTitle } from "../../../lib/seo";
 import type { Metadata } from "next";
 import React from "react";
 
@@ -1097,9 +1098,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const content = SLUG_CONTENT[slug];
   if (content) {
     const m = content.meta[l];
-    return { title: m.title, description: m.description, alternates: alternatesFor(l, `/dispositions/${slug}`) };
+    return { title: brandTitle(m.title), description: m.description, alternates: alternatesFor(l, `/dispositions/${slug}`) };
   }
-  return { title: LABELS[l].title + " · 선샤인행정사사무소" };
+  return { title: brandTitle(LABELS[l].title + " · 선샤인행정사사무소") };
 }
 
 export default async function Page({ params }: { params: Promise<{ locale: string; slug: string }> }) {
@@ -1109,7 +1110,18 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
   const content = SLUG_CONTENT[slug];
   if (content) {
-    return <>{content.render(l, locale)}</>;
+    const rendered = content.render(l, locale);
+    if (!HUB_POSTS[slug]) return <>{rendered}</>;
+    return (
+      <>
+        {appendToMain(
+          rendered,
+          <div style={{ maxWidth: 800, margin: "0 auto", padding: "0 24px 64px" }}>
+            <HubBlogLinks hub={slug} locale={l} />
+          </div>
+        )}
+      </>
+    );
   }
 
   const c = LABELS[l];

@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
+import HubBlogLinks, { HUB_POSTS, appendToMain } from "../../../components/HubBlogLinks";
 import { fineLabels, finesFor, FINE_TIER_COUNT } from "../../../lib/fines";
-import { alternatesFor } from "../../../lib/seo";
+import { alternatesFor, brandTitle } from "../../../lib/seo";
 import type { Metadata } from "next";
 
 const VALID_LOCALES = ["ko", "en", "ja", "zh", "vi"] as const;
@@ -836,9 +837,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const content = SLUG_CONTENT[slug];
   if (content) {
     const m = content.meta[l];
-    return { title: m.title, description: m.description, alternates: alternatesFor(l, `/offenses/${slug}`) };
+    return { title: brandTitle(m.title), description: m.description, alternates: alternatesFor(l, `/offenses/${slug}`) };
   }
-  return { title: COMING_SOON[l].title + " · 선샤인행정사사무소" };
+  return { title: brandTitle(COMING_SOON[l].title + " · 선샤인행정사사무소") };
 }
 
 import React from "react";
@@ -850,7 +851,18 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
   const content = SLUG_CONTENT[slug];
   if (content) {
-    return <>{content.render(l, locale)}</>;
+    const rendered = content.render(l, locale);
+    if (!HUB_POSTS[slug]) return <>{rendered}</>;
+    return (
+      <>
+        {appendToMain(
+          rendered,
+          <div style={{ maxWidth: 800, margin: "0 auto", padding: "0 24px 64px" }}>
+            <HubBlogLinks hub={slug} locale={l} />
+          </div>
+        )}
+      </>
+    );
   }
 
   const c = COMING_SOON[l];

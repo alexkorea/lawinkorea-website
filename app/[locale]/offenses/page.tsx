@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { alternatesFor } from "../../lib/seo";
+import { alternatesFor, brandTitle } from "../../lib/seo";
 import type { Metadata } from "next";
 import { SITE } from "../../lib/constants";
 
@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   if (!VALID_LOCALES.includes(locale as L)) return {};
   const l = locale as L;
   return {
-    title: metaData[l].title,
+    title: brandTitle(metaData[l].title),
     description: metaData[l].description,
     openGraph: {
       title: l === "ko" ? "사건 유형에 따라 달라지는 체류 영향" : metaData[l].title,

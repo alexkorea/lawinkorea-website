@@ -13,7 +13,7 @@ keywords:
   - "out-of-status work Korea"
 faq:
   - q: "Du học sinh (D-2) làm thêm quá giờ bị xử lý thế nào?"
-    a: "Vượt quá 25 giờ/tuần (cuối tuần không giới hạn) là hoạt động ngoài tư cách. Lần đầu bị phát hiện sẽ nhận cảnh cáo hoặc phạt 1~5 triệu won; từ lần thứ hai có thể bị hủy visa. Chủ sử dụng bị phạt tối đa 10 triệu won cho mỗi lao động."
+    a: "Vượt quá 25 giờ/tuần (cuối tuần không giới hạn) là hoạt động ngoài tư cách. Lần đầu bị phát hiện sẽ nhận cảnh cáo hoặc phạt 1~5 triệu won; từ lần thứ hai có thể bị hủy visa. Chủ sử dụng có thể bị tù đến 3 năm hoặc phạt đến 30 triệu won theo Điều 94 khoản 9 Luật Quản lý Xuất nhập cảnh."
   - q: "Có visa E-9 mà làm ở nơi khác thì sao?"
     a: "Chuyển nơi làm việc bắt buộc phải được Trung tâm việc làm chấp thuận. Tự ý chuyển là hoạt động ngoài tư cách + vi phạm Luật Quản lý xuất nhập cảnh, có thể bị trục xuất + cấm nhập cảnh. Chủ sử dụng bị xử lý theo Luật về tuyển dụng lao động nước ngoài."
   - q: "Đã bị phát hiện rồi, khai báo muộn có sao không?"
@@ -25,6 +25,7 @@ faq:
   - q: "Sau khi bị xử lý về hoạt động ngoài tư cách, có xin được thường trú không?"
     a: "Nếu chỉ bị phạt tiền hoặc xử lý nhẹ thì sau 5 năm là được. Nếu bị trục xuất thì cần từ 10 năm. Ngoài ra, việc vi phạm lặp lại nhiều lần tự nó là căn cứ loại khi xét thường trú."
 related:
+  - "illegal-employer-penalty"
   - "immigration-offense-review-guide"
   - "criminal-case-visa-defense"
   - "criminal-record-pr-impact"
@@ -61,8 +62,8 @@ Nghĩa là, **làm công việc nằm ngoài phạm vi ghi trong tư cách visa 
 
 ### Giai đoạn 2: Xử lý hình sự hoặc hành chính
 **Xử lý hình sự:**
-- Người nước ngoài: tù đến 1 năm hoặc phạt đến 10 triệu won
-- Chủ sử dụng: phạt đến 10 triệu won cho mỗi lao động (tái phạm bị tăng nặng)
+- Người nước ngoài: tù đến 3 năm hoặc phạt đến 30 triệu won (Luật Quản lý Xuất nhập cảnh Điều 94 khoản 8 làm việc không có tư cách, khoản 12 hoạt động ngoài tư cách)
+- Chủ sử dụng: tù đến 3 năm hoặc phạt đến 30 triệu won (Điều 94 khoản 9) — [chi tiết chế tài với chủ sử dụng](/vi/blog/illegal-employer-penalty)
 
 **Xử lý hành chính (riêng biệt):**
 - Lần đầu: lệnh xuất cảnh hoặc thay đổi tư cách
@@ -166,8 +167,8 @@ Nghĩa là, **làm công việc nằm ngoài phạm vi ghi trong tư cách visa 
 Khi có vi phạm hoạt động ngoài tư cách, không chỉ người lao động mà **chủ sử dụng cũng bị xử phạt**.
 
 ### Chế tài với chủ sử dụng
-- Phạt đến 10 triệu won cho mỗi lao động nước ngoài
-- Tái phạm bị tăng nặng
+- Tù đến 3 năm hoặc phạt đến 30 triệu won (Luật Quản lý Xuất nhập cảnh Điều 94 khoản 9); mức chuẩn tiền phạt 3–30 triệu won theo số người và thời gian vi phạm (Thông tư thi hành, Bảng 8)
+- Pháp nhân hoặc chủ doanh nghiệp cá nhân cũng bị phạt tiền (Điều 99-3)
 - Bị hạn chế tuyển dụng lao động nước ngoài (tối đa 3 năm)
 - Trường hợp nghiêm trọng có thể bị thu hồi đăng ký kinh doanh
 

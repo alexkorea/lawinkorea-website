@@ -12,7 +12,7 @@ keywords:
   - "Korea C-3 tourist work"
 faq:
   - q: "What's the penalty for D-2 students exceeding work hours?"
-    a: "Above 25 weekly hours (no weekend cap) — first detection: warning + fine 1~5M KRW. Second detection onward: status revocation possible. Employer faces fine up to 10M KRW per worker."
+    a: "Above 25 weekly hours (no weekend cap) — first detection: warning + fine 1~5M KRW. Second detection onward: status revocation possible. The employer faces up to 3 years in prison or a KRW 30 million fine under Immigration Act Art. 94(9)."
   - q: "What if E-9 holders work for a different employer?"
     a: "Employer changes require government approval. Unauthorized change = out-of-status activity + immigration law violation = deportation + entry ban likely."
   - q: "If I'm caught, will late reporting still help?"
@@ -24,6 +24,7 @@ faq:
   - q: "Can I apply for permanent residency after an illegal-employment finding?"
     a: "Fine or minor disposition: possible after 5 years. Deportation: 10+ years. Repeated violations create permanent disqualification grounds."
 related:
+  - "illegal-employer-penalty"
   - "immigration-offense-review-guide"
   - "criminal-case-visa-defense"
   - "criminal-record-pr-impact"
@@ -59,8 +60,8 @@ In short: **anything outside your visa's permitted activity = violation.**
 - Anyone can report (former colleagues, competitors)
 
 ### Stage 2: Criminal / administrative penalty
-- Foreigner: up to 1 year imprisonment or 10M KRW fine
-- Employer: up to 10M KRW per worker, aggravated for repeats
+- Foreigner: up to 3 years in prison or KRW 30 million (Immigration Act Art. 94(8) working without work status, Art. 94(12) out-of-status activity)
+- Employer: up to 3 years in prison or KRW 30 million (Art. 94(9)) — [employer penalties in detail](/en/blog/illegal-employer-penalty)
 
 ### Stage 3: Offense Review
 - Outcome by case: status maintained → status change → departure order → deportation
@@ -144,8 +145,8 @@ Difficult cases:
 ## 7. Employer Impact
 
 Employer faces:
-- Up to 10M KRW per worker
-- Aggravated for repeats
+- Up to 3 years in prison or KRW 30 million (Immigration Act Art. 94(9)); base fine KRW 3–30 million by headcount and period (Enforcement Rule, Table 8)
+- The company is fined as well (Art. 99-3)
 - Foreign-hire restriction (up to 3 years)
 - Business registration cancellation possible
 

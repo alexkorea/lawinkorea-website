@@ -21,6 +21,16 @@ const pages = [
   "/blog",
 ] as const;
 
+// 상세 허브 — 5로캘 모두 200·index 인데 사이트맵에서 빠져 있던 쪽(맥7 K-exec 2026-10-03, 13장 6번).
+// '준비 중' 껍데기 슬러그는 넣지 않는다 — 실제 본문(SLUG_CONTENT)이 있는 것만.
+const detailHubs = [
+  "/offenses/dui",
+  "/offenses/drugs",
+  "/offenses/immigration-fines",
+  "/dispositions/entry-ban",
+  "/dispositions/deportation-order",
+] as const;
+
 const baseUrl = "https://lawinkorea.com";
 
 function languagesFor(path: string, onlyLocales: readonly string[] = locales) {
@@ -41,6 +51,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: now,
         changeFrequency: "weekly",
         priority: page === "" ? 1.0 : 0.8,
+        alternates: { languages: languagesFor(page) },
+      });
+    }
+  }
+
+  for (const locale of locales) {
+    for (const page of detailHubs) {
+      entries.push({
+        url: `${baseUrl}/${locale}${page}`,
+        lastModified: now,
+        changeFrequency: "weekly",
+        priority: 0.8,
         alternates: { languages: languagesFor(page) },
       });
     }

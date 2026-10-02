@@ -270,3 +270,13 @@ export function pageMetadata(rawLocale: string, key: keyof typeof PAGE_SEO, path
     },
   };
 }
+
+/**
+ * 루트 레이아웃 템플릿("%s · Law in Korea")을 거치는 title 의 단일 관문.
+ * 원천 문자열에 이미 브랜드(Law in Korea·선샤인행정사사무소)가 들어 있으면 템플릿을 건너뛰고
+ * (absolute) 그대로 쓴다 — 'X · Law in Korea · Law in Korea' 이중 접미사의 생성 원천 차단
+ * (맥7 K-exec 2026-10-03). 브랜드가 없으면 기존처럼 템플릿이 한 번 붙는다.
+ */
+export function brandTitle(title: string): Metadata["title"] {
+  return /Law in Korea|선샤인행정사사무소/.test(title) ? { absolute: title } : title;
+}
