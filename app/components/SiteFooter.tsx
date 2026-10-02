@@ -2,12 +2,13 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { ACCENT } from "../lib/constants";
+import { ACCENT, COMPANY } from "../lib/constants";
 
 const NAV: Record<string, {
   about: string; cases: string; process: string; blog: string; offenses: string; dispositions: string; contact: string;
   address: string; addressDetail: string; tel: string; hours: string; hoursVal: string;
   copy: string;
+  bizName: string; bizRep: string; bizNo: string;
 }> = {
   ko: {
     about: "소개", cases: "사례", process: "절차", blog: "블로그", offenses: "위반 유형", dispositions: "처분 유형", contact: "상담 문의",
@@ -17,6 +18,7 @@ const NAV: Record<string, {
     hours: "운영시간",
     hoursVal: "평일 09:30 – 17:30",
     copy: "선샤인행정사사무소 · Law in Korea. All rights reserved.",
+    bizName: "상호", bizRep: "대표", bizNo: "사업자등록번호",
   },
   en: {
     about: "About", cases: "Cases", process: "Process", blog: "Blog", offenses: "Offense Types", dispositions: "Disposition Types", contact: "Contact",
@@ -26,6 +28,7 @@ const NAV: Record<string, {
     hours: "Hours",
     hoursVal: "Mon–Fri 09:30 – 17:30 KST",
     copy: "선샤인행정사사무소 · Law in Korea. All rights reserved.",
+    bizName: "Business name", bizRep: "Representative", bizNo: "Business Registration No.",
   },
   ja: {
     about: "紹介", cases: "事例", process: "手続き", blog: "ブログ", offenses: "違反の種類", dispositions: "処分の種類", contact: "お問い合わせ",
@@ -35,6 +38,7 @@ const NAV: Record<string, {
     hours: "営業時間",
     hoursVal: "平日 09:30 – 17:30 KST",
     copy: "선샤인행정사사무소 · Law in Korea. All rights reserved.",
+    bizName: "商号", bizRep: "代表", bizNo: "事業者登録番号",
   },
   zh: {
     about: "简介", cases: "案例", process: "流程", blog: "博客", offenses: "违规类型", dispositions: "处分类型", contact: "联系咨询",
@@ -44,6 +48,7 @@ const NAV: Record<string, {
     hours: "营业时间",
     hoursVal: "周一至周五 09:30 – 17:30 KST",
     copy: "선샤인행정사사무소 · Law in Korea. All rights reserved.",
+    bizName: "商号", bizRep: "代表", bizNo: "营业执照号码",
   },
   vi: {
     about: "Giới thiệu", cases: "Trường hợp", process: "Quy trình", blog: "Blog", offenses: "Loại vi phạm", dispositions: "Loại xử lý", contact: "Tư vấn",
@@ -53,6 +58,7 @@ const NAV: Record<string, {
     hours: "Giờ làm việc",
     hoursVal: "Thứ 2–6: 09:30 – 17:30 KST",
     copy: "선샤인행정사사무소 · Law in Korea. All rights reserved.",
+    bizName: "Tên doanh nghiệp", bizRep: "Người đại diện", bizNo: "Số đăng ký kinh doanh",
   },
 };
 
@@ -117,7 +123,11 @@ export default function SiteFooter() {
         </div>
       </div>
 
-      <div style={{ borderTop: "1px solid #1e2d47", padding: "16px 24px", textAlign: "center" as const, fontSize: 12, color: "#475569" }}>
+      {/* 사업자 표시 — 전 페이지·전 언어 공통, 값은 lib/constants.ts COMPANY 단일 원천(배포 게이트가 존재를 검사, 맥7 2026-10-03) */}
+      <div style={{ borderTop: "1px solid #1e2d47", padding: "16px 24px 0", textAlign: "center" as const, fontSize: 12, color: "#94a3b8", lineHeight: 1.7 }}>
+        {t.bizName} {COMPANY.nameKo} · {t.bizRep} {COMPANY.representative} · {t.bizNo} {COMPANY.bizRegNo}
+      </div>
+      <div style={{ padding: "8px 24px 16px", textAlign: "center" as const, fontSize: 12, color: "#475569" }}>
         © 2018 {t.copy}
         <span style={{ margin: "0 8px" }}>·</span>
         <Link href={`${base}/privacy`} style={{ color: "#475569", textDecoration: "none" }}>Privacy</Link>

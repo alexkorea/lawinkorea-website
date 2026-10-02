@@ -187,6 +187,8 @@ export default async function LocaleBlogPost({ params }: { params: Promise<Param
                 url: SITE.url,
                 logo: `${SITE.url}/logo-sunshine.png`,
                 telephone: COMPANY.phoneIntl,
+                legalName: COMPANY.nameKo,
+                taxID: COMPANY.bizRegNo,
               },
               personSchema(locale),
             ],

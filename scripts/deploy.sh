@@ -23,6 +23,11 @@ npx @opennextjs/cloudflare build
 echo "[3/4] Pages 번들 조립 (_worker.js / _routes.json / _headers)"
 node scripts/build-pages-preview.mjs
 
+echo "[3.5/4] 풋터 사업자번호 게이트 — 5언어 홈 + 사이트맵 표본 30쪽 <footer> 에 752-17-01689 (맥7 2026-10-03, 보스 msg 1677)"
+lsof -ti tcp:4392 | xargs kill 2>/dev/null || true
+node "$HOME/scripts/bizno-footer-gate.mjs" lawinkorea --start "npx next start -p 4392" --url http://127.0.0.1:4392 \
+  --paths /ko,/en,/zh,/ja,/vi --sample 30
+
 echo "[4/4] Pages direct upload → lawinkorea-pages (branch main)"
 cd .open-next/assets
 CLOUDFLARE_API_TOKEN="$(cat "$HOME/.local/secrets/cf_pages_token.txt")" \

@@ -94,6 +94,8 @@ export default function RootLayout({
               url: SITE.url,
               telephone: COMPANY.phoneIntl,
               email: COMPANY.consultEmail,
+              legalName: COMPANY.nameKo,
+              taxID: COMPANY.bizRegNo,
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "퇴계로 324, 3층 (성우빌딩)",

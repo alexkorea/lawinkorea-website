@@ -154,6 +154,8 @@ export function siteGraph(locale: Locale | string) {
         logo: `${SITE.url}/logo-sunshine.png`,
         telephone: COMPANY.phoneIntl,
         email: COMPANY.consultEmail,
+        legalName: COMPANY.nameKo,
+        taxID: COMPANY.bizRegNo,
         // 브랜드 이관(비전→선샤인) 후 창업자 관계가 미확인이라 founder 대신 소속 관계로 둔다.
         // foundingDate(2018)·"Since 2018" 표기는 Boss 확인 대기 항목.
         employee: { "@id": PERSON_ID },
