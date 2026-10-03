@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { pageMetadata } from "../../lib/seo";
-import { breadcrumbSchema } from "../../lib/schema";
+import { breadcrumbSchema, faqSchema } from "../../lib/schema";
 
 const VALID_LOCALES = ["ko", "en", "ja", "zh", "vi"] as const;
 type L = (typeof VALID_LOCALES)[number];
@@ -10,7 +10,7 @@ export async function generateStaticParams() {
   return VALID_LOCALES.map((locale) => ({ locale }));
 }
 
-const CONTENT: Record<L, { title: string; sub: string; situations: string[]; steps: { label: string; desc: string }[]; cta: string }> = {
+const CONTENT: Record<L, { title: string; sub: string; situations: string[]; steps: { label: string; desc: string }[]; cta: string; faqTitle?: string; faqs?: { q: string; a: string }[] }> = {
   ko: {
     title: "긴급 상담",
     sub: "출국명령을 받았거나 강제퇴거 통보를 받은 경우, 또는 형사 입건 직후라면 빠른 대응이 필요합니다.",
@@ -44,6 +44,13 @@ const CONTENT: Record<L, { title: string; sub: string; situations: string[]; ste
       { label: "Urgent response begins", desc: "We will prepare written explanations and appeals according to applicable deadlines and procedures." },
     ],
     cta: "Contact us now. Departure orders have strict deadlines.",
+    faqTitle: "Frequently Asked Questions",
+    faqs: [
+      {
+        q: "I received a departure order in Korea — what should I check and do first?",
+        a: "Under Article 68 of the Immigration Act, a departure order is issued as a written order that sets an exit deadline and may attach conditions such as restrictions on where you live. If you do not leave by the designated deadline or you breach those conditions, the immigration office must issue a deportation order without delay (Article 68(4)). Because the deadline and conditions are written on your own order, read it carefully, confirm the details with the issuing immigration office, and decide how to respond before the deadline passes.",
+      },
+    ],
   },
   zh: {
     title: "紧急咨询",
@@ -138,6 +145,20 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           </div>
         ))}
       </div>
+
+      {/* FAQ — 화면과 FAQPage 를 같은 c.faqs 배열에서 생성(1:1, Q3 2026-10-03). faqs 가 있는 로캘만 */}
+      {c.faqs && c.faqs.length > 0 && (
+        <section style={{ marginBottom: 40 }}>
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(c.faqs)) }} />
+          <h2 style={{ fontSize: 20, fontWeight: 700, color: "#0a1628", marginBottom: 18 }}>{c.faqTitle}</h2>
+          {c.faqs.map((faq, i) => (
+            <div key={i} style={{ borderTop: "1px solid #e2e8f0", padding: "16px 0" }}>
+              <div style={{ fontWeight: 600, color: "#0a1628", marginBottom: 8, fontSize: 15 }}>{faq.q}</div>
+              <div style={{ color: "#475569", lineHeight: 1.7, fontSize: 14 }}>{faq.a}</div>
+            </div>
+          ))}
+        </section>
+      )}
 
       <div style={{ background: "#c0392b", borderRadius: 10, padding: "20px 28px", color: "#fff", fontSize: 17, fontWeight: 700, textAlign: "center" }}>
         {c.cta}
