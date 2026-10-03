@@ -19,7 +19,7 @@ faq:
   - q: "Khả năng rút ngắn có khác nhau theo lý do trục xuất không?"
     a: "Có. Hoạt động ngoài tư cách (lao động trái phép) tương đối dễ rút ngắn. DUI và án hình sự thì tùy vụ việc. Ma túy, lừa đảo qua điện thoại và tội phạm tình dục thì rất khó."
   - q: "Nộp đơn xin dỡ bỏ lệnh cấm ở đâu?"
-    a: "Tại Lãnh sự quán Hàn Quốc ở nước sở tại, hoặc Cục Xuất nhập cảnh Hàn Quốc (nếu đang ở ngoài Hàn Quốc thì nộp tại lãnh sự quán). Sau khi nộp, Bộ trưởng Bộ Tư pháp sẽ thẩm định, thường mất 2~6 tháng."
+    a: "Tại Lãnh sự quán Hàn Quốc ở nước sở tại, hoặc Cục Xuất nhập cảnh Hàn Quốc (nếu đang ở ngoài Hàn Quốc thì nộp tại lãnh sự quán). Sau khi nộp, Bộ trưởng Bộ Tư pháp sẽ thẩm định; thời gian xử lý tùy cơ quan có thẩm quyền và thời điểm nộp, cần xác nhận riêng."
   - q: "Chi phí nộp đơn và phí dịch vụ hành chính sĩ là bao nhiêu?"
     a: "Lệ phí tem trên đơn khoảng 50.000 won. Phí dịch vụ tùy độ phức tạp của vụ việc; chúng tôi báo giá sau khi chẩn đoán sơ bộ."
   - q: "Bị từ chối rồi có nộp lại được không?"
@@ -104,7 +104,7 @@ Bộ trưởng Bộ Tư pháp có thể cấm nhập cảnh đối với:
 - Người thân tại Hàn Quốc có thể nộp thay (cần giấy ủy quyền)
 
 ### Bước 5. Thẩm định và thông báo kết quả
-- Thời gian thẩm định: **2~6 tháng** (tùy độ phức tạp)
+- Thời gian thẩm định: tùy cơ quan có thẩm quyền và từng vụ việc (cần xác nhận riêng)
 - Kết quả: dỡ bỏ / dỡ bỏ một phần (rút ngắn) / từ chối
 - Cách thông báo: gửi văn bản qua bưu điện hoặc thông qua lãnh sự quán
 

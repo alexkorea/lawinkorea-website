@@ -22,7 +22,7 @@ faq:
   - q: "If my driver's license is revoked, will my visa also be revoked?"
     a: "License and visa are separate. However, if driving is part of your job duty (D-7 sales, E-7 driving roles), out-of-status activity penalties may add."
   - q: "I had a DUI before my F-2-7 renewal. Can I keep working?"
-    a: "Until the review decision arrives, your existing visa stays valid. If a supplementary order arrives, you must respond within 30 days; if denied, prepare for departure."
+    a: "Until the review decision arrives, your existing visa stays valid. If a supplementary order arrives, you must respond by the deadline stated in the order; if denied, prepare for departure."
   - q: "Will a DUI affect my F-5 permanent residency application?"
     a: "Within 5 years of the DUI conviction, F-5 is generally a no-go. After 5 years, with strong mitigation (alcohol counseling, family, contribution), it becomes possible. Deportation extends the bar significantly."
 related:
@@ -130,7 +130,7 @@ Mitigation isn't just submitted — it's indexed and summarized so the officer g
 Where the foreigner's Korean may not capture nuance, the scrivener supplements from an administrative-law perspective.
 
 ### (4) Post-decision strategy
-Within 30 days of the result, we initiate objection, status change, or voluntary-departure timing.
+As soon as the result arrives, we initiate objection (within 7 days of receiving a deportation order, Immigration Act Article 60(1)), status change, or voluntary-departure timing.
 
 ## 6. Five Common Misconceptions
 

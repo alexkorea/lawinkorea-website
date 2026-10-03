@@ -22,7 +22,7 @@ faq:
   - q: "Hành chính sĩ có hỗ trợ buổi xem xét vi phạm được không?"
     a: "Có. Việc soạn và nộp hồ sơ trong thủ tục hành chính xuất nhập cảnh thuộc lĩnh vực chuyên môn của hành chính sĩ theo Luật Hành chính sĩ. Chúng tôi không đại diện tố tụng hoặc tại tòa, kể cả bào chữa hình sự (ngoài phạm vi nghiệp vụ của hành chính sĩ)."
   - q: "Nếu kết quả là trục xuất thì coi như hết à?"
-    a: "Bạn vẫn có thể khiếu nại, và tùy vụ việc có thể rút ngắn thời hạn cấm nhập cảnh hoặc chuyển sang xuất cảnh tự nguyện. Mấu chốt là phản ứng nhanh sau khi nhận kết quả (thường trong 30 ngày)."
+    a: "Bạn vẫn có thể khiếu nại, và tùy vụ việc có thể rút ngắn thời hạn cấm nhập cảnh hoặc chuyển sang xuất cảnh tự nguyện. Mấu chốt là phản ứng nhanh sau khi nhận kết quả (khiếu nại lệnh trục xuất phải nộp trong 7 ngày kể từ ngày nhận lệnh, Luật Quản lý Xuất nhập cảnh Điều 60 khoản 1)."
   - q: "Visa sắp hết hạn mà lại bị xem xét vi phạm thì sao?"
     a: "Hồ sơ gia hạn visa và thủ tục xem xét sẽ diễn ra song song. Trước khi có kết quả, lệnh xuất cảnh không được ban hành ngay, nhưng tùy kết quả mà khả năng bị từ chối gia hạn sẽ rất cao."
   - q: "Gia đình tôi ở Hàn Quốc, nếu tôi bị trục xuất thì họ có phải đi cùng không?"
@@ -90,7 +90,7 @@ Dù chỉ tham gia đơn thuần với vai trò chuyển tiền, bạn vẫn b�
 
 ### (7) Bị từ chối gia hạn visa hoặc đổi tư cách
 
-Nếu trong quá trình thẩm định phát hiện tiền sử vi phạm và bạn nhận lệnh bổ sung hoặc bị từ chối, việc khiếu nại hay nộp bổ sung trong 30 ngày là bắt buộc. Xem [Ứng phó khi bị từ chối gia hạn visa](/vi/blog/visa-denial-response).
+Nếu trong quá trình thẩm định phát hiện tiền sử vi phạm và bạn nhận lệnh bổ sung hoặc bị từ chối, cần nộp bổ sung trong thời hạn ghi trên thông báo, còn yêu cầu xét xử hành chính đối với quyết định từ chối phải nộp trong 90 ngày kể từ ngày biết quyết định (Luật Xét xử hành chính Điều 27 khoản 1). Xem [Ứng phó khi bị từ chối gia hạn visa](/vi/blog/visa-denial-response).
 
 ### (8) Tìm cách nhập cảnh lại khi đang bị cấm
 
@@ -168,9 +168,9 @@ Gửi danh sách giấy tờ cần thiết và cách thu thập, phân định r
 
 Hoàn thiện bản giải trình, đơn xin khoan hồng và tài liệu giảm nhẹ. Sau khi hành chính sĩ rà soát, chúng tôi đóng thành bộ hồ sơ cuối cùng.
 
-### Bước 5. Đồng hành và chiến lược tiếp theo (ngày làm việc + 30 ngày sau kết quả)
+### Bước 5. Đồng hành và chiến lược tiếp theo (ngày làm việc + sau khi có kết quả)
 
-Đi cùng đến cơ quan xuất nhập cảnh hoặc diễn tập trước. Sau khi có kết quả, đề xuất chiến lược visa tiếp theo trong 30 ngày (khiếu nại, xuất cảnh tự nguyện, đổi tư cách...).
+Đi cùng đến cơ quan xuất nhập cảnh hoặc diễn tập trước. Ngay sau khi có kết quả, đề xuất chiến lược visa tiếp theo (khiếu nại, xuất cảnh tự nguyện, đổi tư cách...). Khiếu nại lệnh trục xuất phải nộp trong 7 ngày kể từ ngày nhận lệnh (Luật Quản lý Xuất nhập cảnh Điều 60 khoản 1).
 
 > Văn phòng thực hiện **việc soạn thảo và nộp hồ sơ theo Luật Hành chính sĩ**. Chúng tôi không đại diện tố tụng hoặc tại tòa, kể cả bào chữa hình sự (ngoài phạm vi nghiệp vụ của hành chính sĩ).
 

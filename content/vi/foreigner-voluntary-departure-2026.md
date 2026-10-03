@@ -113,7 +113,7 @@ Ngay cả khi đã bị cấm, bạn vẫn có thể xin dỡ bỏ nếu đáp �
 1. Nộp đơn xin dỡ bỏ lệnh cấm tại Đại sứ quán hoặc Lãnh sự quán Hàn Quốc ở nước bạn
 2. Đính kèm lý do và giấy tờ bảo lãnh (cam kết của người bảo lãnh Hàn Quốc, xác nhận công tác, giấy chứng nhận hôn nhân...)
 3. Cục Chính sách xuất nhập cảnh, Bộ Tư pháp thẩm định
-4. Thông báo kết quả (thường 4~8 tuần)
+4. Thông báo kết quả (thời gian xử lý tùy cơ quan có thẩm quyền và thời điểm nộp, cần xác nhận riêng)
 
 **Giấy tờ cần chuẩn bị**
 

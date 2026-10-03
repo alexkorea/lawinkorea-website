@@ -75,7 +75,7 @@ Your appeal should include:
 ### Step 3 — Administrative Lawsuit
 
 If your objection is dismissed, you can file a lawsuit in the Administrative Court to annul the cancellation decision.
-The lawsuit must be filed within **90 days** of the cancellation notice, or within **90 days** of receiving the appeal decision.
+The lawsuit must be filed within **90 days** of the cancellation notice, or within **90 days** of receiving the appeal decision (Administrative Litigation Act Article 20(1)).
 
 ### Step 4 — Apply for a Stay of Execution
 

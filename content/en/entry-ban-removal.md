@@ -18,7 +18,7 @@ faq:
   - q: "Are different deportation reasons treated differently?"
     a: "Yes. Out-of-status (illegal employment): relatively easy to shorten. DUI, criminal cases: case-by-case. Drug, voice phishing, sex offense: very difficult."
   - q: "Where do I apply?"
-    a: "Korean consulate in your home country, or local Immigration Office (if applicant is in Korea). Reviewed by Minister of Justice. 2~6 months."
+    a: "Korean consulate in your home country, or local Immigration Office (if applicant is in Korea). Reviewed by Minister of Justice. Processing time varies by authority and filing date — confirm individually."
   - q: "Cost?"
     a: "Government fee approx 50,000 KRW. Scrivener fee varies by complexity. Free initial diagnosis."
   - q: "Can I reapply after a denial?"
@@ -104,7 +104,7 @@ Minister of Justice may bar entry of:
 - Korean family can submit on behalf (with power of attorney)
 
 ### Step 5. Review and notification
-- Review: 2~6 months
+- Review: varies by authority and case — confirm individually
 - Result: removal / partial removal / denial
 - Notification: written
 

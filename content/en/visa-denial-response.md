@@ -14,7 +14,7 @@ faq:
   - q: "What if I miss the supplementary order deadline?"
     a: "Failure to submit by the deadline auto-converts to denial; departure order or deportation follows. Justified reasons can request a one-time extension (7~14 days)."
   - q: "Can I appeal a denial?"
-    a: "Yes. Administrative appeal (within 60 days) or administrative litigation (within 90 days). If your renewal date is imminent, applying for a different status may be faster."
+    a: "Yes. Administrative appeal (within 90 days of learning of the disposition, Administrative Appeals Act Article 27(1)) or administrative litigation (within 90 days, Administrative Litigation Act Article 20(1)). If your renewal date is imminent, applying for a different status may be faster."
   - q: "Can I apply for a different status after denial?"
     a: "Yes. You can apply for an unrelated status (e.g., D-2 denied → E-7). But if denial reason is criminal, other statuses may also be difficult."
   - q: "What if I don't leave Korea after denial?"
@@ -109,8 +109,8 @@ Choose among 4:
 
 #### Option C: Objection (행정심판)
 - For unjust denials
-- Within 60 days
-- Typically 3–6 months processing
+- Within 90 days of learning of the disposition (Administrative Appeals Act Article 27(1))
+- The decision is due within 60 days of the appeal being received, extendable once by 30 days (Administrative Appeals Act Article 45(1))
 
 #### Option D: Voluntary departure
 - When all options difficult
@@ -143,7 +143,7 @@ Choose among 4:
 
 ### 🔴 Criminal-record denial
 Hardest case:
-- Within 30 days of offense review result, file objection
+- For a deportation order, file an objection within 7 days of receiving the order (Immigration Act Article 60(1))
 - Status change to other status (low probability)
 - Voluntary departure → future entry-ban shortening
 
@@ -175,7 +175,7 @@ Hardest case:
 ## 5. Administrative Appeal Procedure
 
 ### When
-Within **60 days** of notification.
+Within **90 days** of learning of the disposition (Administrative Appeals Act Article 27(1)).
 
 ### Where
 Central Administrative Appeal Commission (https://www.acrc.go.kr).
@@ -184,7 +184,7 @@ Central Administrative Appeal Commission (https://www.acrc.go.kr).
 1. File appeal claim
 2. Disposition agency (Immigration) submits answer
 3. Claimant supplementary opinion (optional)
-4. Decision (3–6 months)
+4. Decision (due within 60 days of the appeal being received, extendable by 30 days — Administrative Appeals Act Article 45(1))
 
 ### Cost
 Free claim filing; scrivener fee separate.

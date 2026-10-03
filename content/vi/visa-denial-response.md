@@ -15,7 +15,7 @@ faq:
   - q: "Quá hạn lệnh bổ sung hồ sơ thì sao?"
     a: "Không nộp tài liệu bổ sung sẽ tự động thành quyết định từ chối, sau đó chuyển sang thủ tục lệnh xuất cảnh hoặc trục xuất. Nếu có lý do chính đáng, bạn có thể xin gia hạn thời hạn (1 lần, 7~14 ngày)."
   - q: "Sau khi bị từ chối có khiếu nại được không?"
-    a: "Được. Có thể yêu cầu xét xử hành chính (trong 60 ngày) hoặc khởi kiện hành chính (trong 90 ngày). Tuy nhiên nếu thời điểm gia hạn visa đã cận kề, xin đổi sang tư cách mới thường nhanh hơn khiếu nại."
+    a: "Được. Có thể yêu cầu xét xử hành chính (trong 90 ngày kể từ ngày biết quyết định, Luật Xét xử hành chính Điều 27 khoản 1) hoặc khởi kiện hành chính (trong 90 ngày, Luật Tố tụng hành chính Điều 20 khoản 1). Tuy nhiên nếu thời điểm gia hạn visa đã cận kề, xin đổi sang tư cách mới thường nhanh hơn khiếu nại."
   - q: "Bị từ chối rồi có xin đổi tư cách lưu trú được không?"
     a: "Được. Bạn có thể xin một tư cách khác không liên quan đến lý do bị từ chối (ví dụ D-2 bị từ chối → xin E-7). Nhưng nếu lý do từ chối là án hình sự thì các tư cách khác cũng khó."
   - q: "Bị từ chối mà không rời Hàn Quốc thì sao?"
@@ -110,8 +110,8 @@ Chọn một trong bốn phương án:
 
 #### Phương án C) Khiếu nại (xét xử hành chính)
 - Khi cho rằng quyết định từ chối là không thỏa đáng
-- Nộp trong vòng 60 ngày
-- Thường mất 3~6 tháng
+- Nộp trong vòng 90 ngày kể từ ngày biết quyết định (Luật Xét xử hành chính Điều 27 khoản 1)
+- Phán quyết phải được đưa ra trong 60 ngày kể từ ngày nhận đơn, có thể gia hạn 30 ngày khi bất khả kháng (Luật Xét xử hành chính Điều 45 khoản 1)
 
 #### Phương án D) Xuất cảnh tự nguyện
 - Khi các phương án trên đều khó
@@ -150,7 +150,7 @@ Chọn một trong bốn phương án:
 ### 🔴 Bị từ chối do án hình sự
 
 Đây là nhóm khó nhất. Cách ứng phó:
-- Khiếu nại trong 30 ngày sau khi có kết quả xem xét vi phạm
+- Nếu là lệnh trục xuất, khiếu nại trong 7 ngày kể từ ngày nhận lệnh (Luật Quản lý Xuất nhập cảnh Điều 60 khoản 1)
 - Cân nhắc đổi sang tư cách khác (khả năng thấp)
 - Xuất cảnh tự nguyện → rút ngắn lệnh cấm khi muốn quay lại
 
@@ -186,7 +186,7 @@ Chọn một trong bốn phương án:
 ## 5. Thủ tục khiếu nại (xét xử hành chính)
 
 ### Thời điểm nộp
-- Trong vòng **60 ngày** kể từ khi nhận thông báo từ chối
+- Trong vòng **90 ngày** kể từ ngày biết quyết định (Luật Xét xử hành chính Điều 27 khoản 1)
 
 ### Nơi nộp
 - Ủy ban Xét xử hành chính Trung ương (https://www.acrc.go.kr)
@@ -195,7 +195,7 @@ Chọn một trong bốn phương án:
 1. Nộp đơn yêu cầu xét xử hành chính
 2. Cơ quan ra quyết định (Cục Xuất nhập cảnh) nộp bản giải trình
 3. Người yêu cầu nộp ý kiến bổ sung (tùy chọn)
-4. Ra phán quyết (mất 3~6 tháng)
+4. Ra phán quyết (trong 60 ngày kể từ ngày nhận đơn, có thể gia hạn 30 ngày — Luật Xét xử hành chính Điều 45 khoản 1)
 
 ### Chi phí
 - Phí nộp đơn: miễn phí

@@ -21,7 +21,7 @@ faq:
   - q: "Can an administrative scrivener (행정사) handle the offense review?"
     a: "Yes. Administrative scriveners are statutorily authorized to prepare and submit immigration documents. We do not handle litigation or court representation, including criminal defense (outside the scope of an administrative scrivener)."
   - q: "If deportation is decided, is everything over?"
-    a: "No. You can file an objection (행정심판) within 90 days, or convert to voluntary departure (which shortens the entry-ban period), or apply for status change. Speed (within 30 days) is critical."
+    a: "No. You can file an objection (행정심판) within 90 days, or convert to voluntary departure (which shortens the entry-ban period), or apply for status change. Speed is critical — an objection to a deportation order must be filed within 7 days of receiving the order (Immigration Act Article 60(1))."
   - q: "My visa expires soon and the review is pending — what happens?"
     a: "Your existing visa stays valid until the review decision. However, renewal is highly likely to be denied if the review concludes against you. Plan a parallel exit-or-stay strategy with a professional."
   - q: "Will my family also be deported?"
@@ -82,7 +82,7 @@ False educational records, forged employment certificates, fake marriage. A sing
 Even mere couriers face severe review. Immigration treats this as serious crime. See [voice phishing penalty](/en/blog/voice-phishing-foreigners).
 
 ### (7) Visa Renewal / Status Change Denial
-Past records surface during processing, leading to a supplementary order or denial. Response within 30 days is mandatory. See [visa denial response](/en/blog/visa-denial-response).
+Past records surface during processing, leading to a supplementary order or denial. Submit supplements by the deadline stated in the order; an administrative appeal against a denial must be filed within 90 days of learning of the disposition (Administrative Appeals Act Article 27(1)). See [visa denial response](/en/blog/visa-denial-response).
 
 ### (8) Re-entry Attempt After Entry Ban
 If you were deported and try to re-enter, an entry-ban removal is required first. See [entry-ban removal](/en/blog/entry-ban-removal).
@@ -150,8 +150,8 @@ Document list and collection methods specific to your case. We separate items th
 ### Step 4. Document Completion (7–10 days before appearance)
 Reason statements, petitions, mitigation materials. Reviewed by an administrative scrivener; final document pack assembled.
 
-### Step 5. Appearance Support and Strategy (day-of + 30 days post)
-Office attendance with you, or a thorough simulation. Within 30 days of disposition, we propose follow-up strategy (objection, voluntary departure, status change, etc.).
+### Step 5. Appearance Support and Strategy (day-of + post-decision)
+Office attendance with you, or a thorough simulation. Right after the decision, we propose follow-up strategy (objection, voluntary departure, status change, etc.). An objection to a deportation order must be filed within 7 days of receiving the order (Immigration Act Article 60(1)).
 
 > This office performs document preparation and submission under the Administrative Scrivener Act. We do not handle litigation or court representation, including criminal defense (outside the scope of an administrative scrivener).
 

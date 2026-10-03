@@ -103,7 +103,7 @@ Even after receiving an entry ban, you may be eligible to apply for its removal.
 1. Submit an entry ban removal application at the Korean embassy or consulate in your home country
 2. Attach supporting documents explaining the reason for removal (Korean sponsor's affidavit, employment certificate, marriage certificate, etc.)
 3. The Ministry of Justice's Immigration and Foreign Policy Headquarters reviews the application
-4. Receive the result (typically 4–8 weeks)
+4. Receive the result (processing time varies by authority and filing date — confirm individually)
 
 **Required Documents**
 

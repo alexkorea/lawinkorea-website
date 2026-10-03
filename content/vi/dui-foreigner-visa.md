@@ -23,7 +23,7 @@ faq:
   - q: "Bị thu hồi bằng lái vì say rượu thì visa có bị hủy theo không?"
     a: "Thu hồi bằng lái và visa là hai việc khác nhau. Nhưng nếu lái xe là nội dung công việc (ví dụ D-7 phụ trách kinh doanh, E-7 nhóm nghề lái xe) thì có thể bị xử lý thêm vì hoạt động ngoài tư cách."
   - q: "Tôi nhận thông báo xem xét đúng lúc gia hạn thẻ cư trú. Tôi có được tiếp tục làm việc không?"
-    a: "Trước khi có thông báo kết quả, visa hiện tại vẫn còn hiệu lực. Nhưng nếu nhận lệnh bổ sung hồ sơ thì phải phản hồi trong 30 ngày, và nếu bị từ chối thì phải chuẩn bị xuất cảnh."
+    a: "Trước khi có thông báo kết quả, visa hiện tại vẫn còn hiệu lực. Nhưng nếu nhận lệnh bổ sung hồ sơ thì phải phản hồi trong thời hạn ghi trên thông báo, và nếu bị từ chối thì phải chuẩn bị xuất cảnh."
   - q: "Tiền án lái xe say rượu có ảnh hưởng đến việc xin thường trú (F-5) không?"
     a: "Khi xin F-5, tiền án hình sự trong vòng 5 năm có thể là căn cứ loại. Cần qua 5 năm kể từ ngày bị xử phạt hình sự mới tương đối an toàn. Nếu đã bị trục xuất hoặc nhận lệnh xuất cảnh qua xem xét vi phạm thì cần thời gian dài hơn nữa."
 related:
@@ -131,7 +131,7 @@ Không chỉ nộp tài liệu giảm nhẹ, mà lập trang tóm tắt và mụ
 Hành chính sĩ bổ sung những phần thân chủ chưa diễn đạt đủ bằng tiếng Hàn, và những điểm cần giải thích thêm dưới góc độ thủ tục hành chính.
 
 ### (4) Chiến lược tiếp theo
-Ngay khi có kết quả, bắt đầu ngay việc khiếu nại trong 30 ngày, xin thay đổi tư cách, hoặc căn thời điểm xuất cảnh tự nguyện.
+Ngay khi có kết quả, bắt đầu ngay việc khiếu nại (đối với lệnh trục xuất: trong 7 ngày kể từ ngày nhận lệnh, Luật Quản lý Xuất nhập cảnh Điều 60 khoản 1), xin thay đổi tư cách, hoặc căn thời điểm xuất cảnh tự nguyện.
 
 ## 6. Năm hiểu lầm phổ biến
 

@@ -76,7 +76,7 @@ Nội dung cần có trong đơn khiếu nại:
 ### Bước 3 — Khởi kiện hành chính
 
 Nếu khiếu nại bị bác, bạn có thể khởi kiện tại tòa án hành chính để yêu cầu hủy quyết định.
-Vụ kiện phải được nộp trong **90 ngày** kể từ ngày nhận thông báo quyết định, hoặc **90 ngày** kể từ ngày nhận kết quả khiếu nại.
+Vụ kiện phải được nộp trong **90 ngày** kể từ ngày nhận thông báo quyết định, hoặc **90 ngày** kể từ ngày nhận kết quả khiếu nại (Luật Tố tụng hành chính Điều 20 khoản 1).
 
 ### Bước 4 — Xin đình chỉ thi hành
 
