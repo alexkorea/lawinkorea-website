@@ -1,5 +1,5 @@
 ---
-title: "DUI and Visa Extension for Foreigners in Korea (2026)"
+title: "Will a DUI Get You Deported from Korea? Visa Extension Guide (2026)"
 description: "What foreigners caught for DUI in Korea must know: penalties by blood-alcohol level, how the offence review runs, and the evidence that decides it."
 date: "2026-05-01"
 category: "DUI"
@@ -54,7 +54,9 @@ This guide covers everything every foreigner must understand after a DUI in Kore
 ### Stage 4: Review Outcome
 - Status maintained / status change / departure order / deportation / entry ban
 
-## 2. BAC Tier and Outcomes
+## 2. Will a DUI Get You Deported? BAC Tier and Outcomes
+
+Deportation can be ordered only on the grounds listed in Article 46(1) of the Immigration Control Act, and the actual outcome of the offense review depends on the individual case.
 
 | BAC | Criminal Penalty (Road Traffic Act) | Likely Immigration Outcome |
 |---|---|---|

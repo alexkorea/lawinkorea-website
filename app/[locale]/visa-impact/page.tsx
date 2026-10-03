@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { pageMetadata } from "../../lib/seo";
-import { breadcrumbSchema } from "../../lib/schema";
+import { breadcrumbSchema, faqSchema } from "../../lib/schema";
 
 const VALID_LOCALES = ["ko", "en", "ja", "zh", "vi"] as const;
 type L = (typeof VALID_LOCALES)[number];
@@ -10,7 +10,8 @@ export async function generateStaticParams() {
   return VALID_LOCALES.map((locale) => ({ locale }));
 }
 
-const CONTENT: Record<L, { title: string; sub: string; visas: { type: string; impact: string }[]; note: string }> = {
+// faq — 화면 FAQ 와 FAQPage JSON-LD 의 단일 원천(R2 2026-10-03). 없는 로캘은 FAQ 블록을 그리지 않는다.
+const CONTENT: Record<L, { title: string; sub: string; visas: { type: string; impact: string }[]; note: string; faqTitle?: string; faq?: { q: string; a: string }[] }> = {
   ko: {
     title: "비자별 영향",
     sub: "위반 행위가 발생했을 때 현재 체류 자격에 따라 영향과 대응 방식이 달라질 수 있습니다.",
@@ -23,6 +24,10 @@ const CONTENT: Record<L, { title: string; sub: string; visas: { type: string; im
       { type: "H-2 (방문취업)", impact: "취업 허가 위반 또는 범법행위 시 출국명령 등의 대상이 될 수 있습니다." },
     ],
     note: "각 체류 자격마다 적용 기준이 다릅니다. 본인 비자 유형에 맞는 정확한 영향과 대응 방향은 상담을 통해 확인하세요.",
+    faqTitle: "자주 묻는 질문",
+    faq: [
+      { q: "벌금형을 받으면 비자가 취소되나요?", a: "벌금형을 받았다고 해서 반드시 비자가 취소되는 것은 아닙니다. 다만 사건의 내용과 체류자격, 반복 여부 등에 따라 연장·변경 심사에서 함께 고려될 수 있습니다. 같은 사건이라도 E-7, E-9, D-2, F-2, F-6 등 체류자격에 따라 영향이 달라질 수 있으며, 실제 판단은 개별 사건에 따라 달라집니다." },
+    ],
   },
   en: {
     title: "Visa Impact by Type",
@@ -36,6 +41,10 @@ const CONTENT: Record<L, { title: string; sub: string; visas: { type: string; im
       { type: "H-2 (Working Visit)", impact: "Violations of work permits or criminal offenses may lead to departure orders." },
     ],
     note: "Standards differ by visa category. Consult us to understand the specific impact and options for your visa type.",
+    faqTitle: "Frequently Asked Questions",
+    faq: [
+      { q: "Can I extend my Korea visa after paying a criminal fine?", a: "Paying a criminal fine does not automatically cancel your visa, but the offense and your visa type can be weighed when immigration reviews an extension or change. Immigration reviews the case separately from the criminal proceedings, so the outcome depends on the individual case. The visa-type guidance above shows how E-7, E-9, D-2, F-2/F-4/F-5, F-6 and H-2 holders are affected differently." },
+    ],
   },
   zh: {
     title: "签证影响",
@@ -49,6 +58,10 @@ const CONTENT: Record<L, { title: string; sub: string; visas: { type: string; im
       { type: "H-2 (访问就业)", impact: "违反就业许可或违法行为时，可能成为出境命令等对象。" },
     ],
     note: "各居留资格适用标准不同。请通过咨询了解适合您签证类型的准确影响及应对方向。",
+    faqTitle: "常见问题",
+    faq: [
+      { q: "在韩国被罚款后签证还能延期吗？", a: "被处以罚款并不意味着签证必然被取消，也不等于不能延期。根据案件性质、居留资格及是否存在重复违规，可能在延期或变更审查中被一并考虑，E-7、E-9、D-2、F-2、F-6 等不同居留资格受到的影响也不同。实际判断因个案而异。" },
+    ],
   },
   ja: {
     title: "ビザへの影響",
@@ -62,6 +75,10 @@ const CONTENT: Record<L, { title: string; sub: string; visas: { type: string; im
       { type: "H-2 (訪問就労)", impact: "就労許可違反または犯法行為があった場合、出国命令等の対象となることがあります。" },
     ],
     note: "各在留資格ごとに適用基準が異なります。ご自身のビザの種類に合った正確な影響と対応方針はご相談でご確認ください。",
+    faqTitle: "よくある質問",
+    faq: [
+      { q: "韓国で罰金刑を受けた後ビザは延長できますか？", a: "罰金刑を受けたからといって、必ずしもビザが取り消されるわけではありません。ただし、事案の内容や在留資格、繰り返しの有無などにより、延長・変更の審査で考慮されることがあります。E-7、E-9、D-2、F-2、F-6など在留資格によっても影響は異なり、実際の判断は個別の事案によって変わります。" },
+    ],
   },
   vi: {
     title: "Tác động đến visa",
@@ -111,6 +128,19 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       <div style={{ background: "#f0f7ff", border: "1px solid #bdd7f7", borderRadius: 10, padding: "20px 24px", color: "#1e4a8a", fontSize: 15, lineHeight: 1.7 }}>
         {c.note}
       </div>
+
+      {c.faq && c.faq.length > 0 && (
+        <section style={{ marginTop: 48 }}>
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(c.faq)) }} />
+          <h2 style={{ fontSize: 24, fontWeight: 700, color: "#0a1628", marginBottom: 24 }}>{c.faqTitle}</h2>
+          {c.faq.map((item, i) => (
+            <div key={i} style={{ borderBottom: "1px solid #e2e8f0", paddingBottom: 20, marginBottom: 20 }}>
+              <p style={{ fontWeight: 600, color: "#0a1628", marginBottom: 8 }}>Q. {item.q}</p>
+              <p style={{ color: "#374151", lineHeight: 1.8, margin: 0 }}>{item.a}</p>
+            </div>
+          ))}
+        </section>
+      )}
     </main>
   );
 }

@@ -60,7 +60,17 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           <a href={`/${l}`} style={{ color: "#2563eb", textDecoration: "none" }}>Home</a> &gt; Immigration Offense Review
         </nav>
         <h1 style={{ fontSize: 36, fontWeight: 700, color: "#0a1628" }}>{metaData[l].title}</h1>
-        <p style={{ color: "#64748b", marginTop: 16, marginBottom: 40 }}>Content coming soon.</p>
+        {l === "zh" ? (
+          /* R2 2026-10-03 — 통지 후 준비(ko·zh 홈 단계·FAQ 의 라이브 사실만) */
+          <section style={{ marginTop: 32, marginBottom: 40 }}>
+            <h2 style={{ fontSize: 22, fontWeight: 700, color: "#0a1628", marginBottom: 16 }}>收到韩国出入境审查通知应该准备什么</h2>
+            <p style={{ lineHeight: 1.9, color: "#374151", margin: 0 }}>
+              收到出入境出席通知后，应先确认通知书上的出席日期，通知的日程优先。出席前建议整理：现居留资格、护照和外国人登记证；警察、检察院、法院的文件及处分内容；能够说明在韩生活基础的材料（家庭关系、职业、纳税及居留记录）；以及陈述书、理由书、悔过书等说明材料。具体清单可参阅<a href="/zh/documents" style={{ color: "#2563eb" }}>准备材料页面</a>，实际处理结果取决于相关出入境机构的审查。
+            </p>
+          </section>
+        ) : (
+          <p style={{ color: "#64748b", marginTop: 16, marginBottom: 40 }}>Content coming soon.</p>
+        )}
         <ScopeBlock locale={l} />
         <HubBlogLinks hub="immigration-offense-review" locale={l} />
       </main>

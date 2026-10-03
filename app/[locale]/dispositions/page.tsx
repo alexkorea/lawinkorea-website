@@ -18,6 +18,25 @@ const metaData: Record<L, { title: string; description: string }> = {
   vi: { title: "Các loại xử lý xuất nhập cảnh · Law in Korea", description: "Tìm hiểu về các loại xử lý xuất nhập cảnh và cách ứng phó." },
 };
 
+// 비-ko 허브 본문(R2 2026-10-03). 근거: 출입국관리법 제68조①1호·③·④, 제46조①, 제11조①6호(lawfetch 대조). 없는 로캘은 기존 자리표시 유지.
+const HUB_INTRO: Partial<Record<Exclude<L, "ko">, { lead: string; h2: string; body: string }>> = {
+  en: {
+    lead: "Immigration dispositions in Korea differ in their legal nature and consequences. This page explains the difference between a departure order and deportation, and links to the guides on voluntary departure, entry bans and status cancellation.",
+    h2: "What is the difference between a departure order and deportation in Korea?",
+    body: "A departure order (출국명령) is issued under Article 68 of the Immigration Control Act to a foreigner who is considered to fall under a deportation ground (Article 46(1)) but intends to leave voluntarily at their own expense, among other cases. It sets a departure deadline, and if the person does not leave by then, a deportation order is issued (Article 68(4)). Deportation (강제퇴거) is the measure by which the head of the immigration office forcibly removes a foreigner who falls under the grounds in Article 46. Under Article 11(1)(6), the Minister of Justice may ban entry of a person who left after receiving a deportation order and for whom five years have not yet passed. Actual re-entry restrictions depend on the written order and the visa type, so check the document you received before responding.",
+  },
+  zh: {
+    lead: "出入境处分的法律性质和后果各不相同。本页说明出境命令与强制驱逐有什么区别，并链接到自愿出境、禁止入境和居留资格取消的相关指南。",
+    h2: "韩国出国命令和强制驱逐有什么区别",
+    body: "出国命令（即出境命令）依据《出入境管理法》第68条，适用于被认为属于强制驱逐事由（第46条第1款各项）、但愿意自费自愿出境的人等，并会设定出境期限；如在期限内未出境，将被发出强制驱逐命令书（第68条第4款）。强制驱逐是指出入境机构负责人将属于第46条各项事由的外国人强制遣送出境的处分。依据第11条第1款第6项，接到强制驱逐命令后出境未满5年的人可能被禁止入境。具体的再入境限制取决于处分书内容和居留资格，请先确认您收到的文件。",
+  },
+  ja: {
+    lead: "出入国上の処分は、法的性質や結果がそれぞれ異なります。このページでは出国命令と強制退去の違いを説明し、自主出国・入国禁止・在留資格取消に関するガイドへご案内します。",
+    h2: "韓国の出国命令と強制退去の違い",
+    body: "出国命令は出入国管理法第68条に基づき、強制退去事由(第46条第1項各号)に該当すると認められるものの、自己負担で自主的に出国しようとする人などに対して出され、出国期限が定められます。期限までに出国しない場合は、強制退去命令書が発付されることがあります(第68条第4項)。強制退去は、第46条各号に該当する外国人を出入国・外国人官署の長が韓国国外へ強制的に退去させる処分です。第11条第1項第6号により、強制退去命令を受けて出国した後5年が経過していない人は入国禁止の対象となることがあります。具体的な再入国の制限は、処分書の内容と在留資格によって確認が必要です。",
+  },
+};
+
 const KO_FAQ = [
   { q: "출국권고와 출국명령은 같은 건가요?", a: "다를 수 있습니다. 자발적 출국을 권고하는 것과 명령의 성격은 구분되며, 이후 영향도 다를 수 있어 처분서 확인이 필요합니다." },
   { q: "출국명령과 강제퇴거의 차이는 무엇인가요?", a: "강제성과 재입국에 미치는 영향 등에서 차이가 있을 수 있습니다. 각 상세 페이지에서 확인하실 수 있습니다." },
@@ -55,7 +74,17 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
     return (
       <main style={{ maxWidth: 800, margin: "0 auto", padding: "64px 24px" }}>
         <h1 style={{ fontSize: 36, fontWeight: 700, color: "#0a1628" }}>{metaData[l].title}</h1>
-        <p style={{ color: "#64748b", marginTop: 16 }}>Content coming soon.</p>
+        {HUB_INTRO[l] ? (
+          <>
+            <p style={{ color: "#475569", fontSize: 17, lineHeight: 1.8, marginTop: 16 }}>{HUB_INTRO[l]!.lead}</p>
+            <section style={{ marginTop: 40, marginBottom: 40 }}>
+              <h2 style={{ fontSize: 22, fontWeight: 700, color: "#0a1628", marginBottom: 16 }}>{HUB_INTRO[l]!.h2}</h2>
+              <p style={{ lineHeight: 1.9, color: "#374151", margin: 0 }}>{HUB_INTRO[l]!.body}</p>
+            </section>
+          </>
+        ) : (
+          <p style={{ color: "#64748b", marginTop: 16 }}>Content coming soon.</p>
+        )}
         <HubBlogLinks hub="dispositions" locale={l} />
       </main>
     );
@@ -131,6 +160,11 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         <section style={{ marginBottom: 48 }}>
           <h2 style={{ fontSize: 22, fontWeight: 700, color: "#0a1628", marginBottom: 16 }}>각 처분의 성격과 결과를 구분하는 이유</h2>
           <p style={{ lineHeight: 1.9, color: "#374151" }}>형사 벌금, 범칙금, 과태료는 모두 금전적 부담이라는 점에서 혼동되기 쉽지만 근거와 성격이 다릅니다. 마찬가지로 출국권고·출국명령·강제퇴거는 자발성과 강제성, 재입국 제한 정도에서 차이가 있을 수 있습니다. 처분을 잘못 이해하면 대응 방향과 기한을 놓칠 수 있으므로, 받은 문서를 정확히 확인해야 합니다.</p>
+        </section>
+
+        <section style={{ marginBottom: 48 }}>
+          <h2 style={{ fontSize: 22, fontWeight: 700, color: "#0a1628", marginBottom: 16 }}>출국명령과 강제퇴거는 어떻게 다른가요?</h2>
+          <p style={{ lineHeight: 1.9, color: "#374151" }}>출국명령은 출입국관리법 제68조에 따라 강제퇴거 사유(제46조 제1항 각 호)에 해당한다고 인정되지만 자기비용으로 자진하여 출국하려는 사람 등에게 내려지며, 출국기한이 정해집니다. 기한까지 출국하지 않으면 강제퇴거명령서가 발급될 수 있습니다(제68조 제4항). 강제퇴거는 제46조 각 호에 해당하는 외국인을 지방출입국·외국인관서의 장이 대한민국 밖으로 강제로 내보내는 처분입니다. 강제퇴거명령을 받고 출국한 후 5년이 지나지 않은 사람은 입국금지 대상이 될 수 있습니다(제11조 제1항 제6호). 구체적인 재입국 제한은 처분서의 내용과 체류자격에 따라 확인이 필요합니다.</p>
         </section>
 
         <section style={{ marginBottom: 48, background: "#fef3c7", borderRadius: 8, padding: "28px 24px" }}>

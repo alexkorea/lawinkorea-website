@@ -23,6 +23,8 @@ faq:
     a: "Theft is generally lighter. But repeat theft, weapon use, or burglary raises deportation risk significantly. One-time petty theft from financial hardship may end with status change rather than deportation."
   - q: "What if my conviction was for a negligent (non-intentional) act?"
     a: "Negligence cases (e.g., negligent injury) trigger review but often result in lighter outcomes than intent cases. Mitigation evidence is more readily accepted."
+  - q: "I was investigated by Korean police — will it affect my visa?"
+    a: "A police investigation is part of the criminal track, and the immigration office reviews your residency status separately, so it is wise to check the potential immigration impact early. How your visa is affected depends on the eventual disposition (for example non-prosecution, a fine or a suspended sentence) and on your visa type; section 2 of this guide maps each disposition to its visa effect. Preparing mitigation materials while the criminal case is still open is recommended (Step 1)."
 related:
   - "immigration-offense-review-guide"
   - "dui-foreigner-visa"

@@ -219,6 +219,17 @@ const KoHomePage = () => (
       </div>
     </section>
 
+    {/* 업무 범위 — R2 2026-10-03. 근거: 행정사법 제2조 제1항(/ko/about 업무범위 블록과 같은 사실) */}
+    <section style={{ maxWidth: 800, margin: "0 auto", padding: "64px 24px 0" }}>
+      <h2 style={{ fontSize: 26, fontWeight: 700, color: "#0a1628", marginBottom: 24 }}>출입국사범심사 행정사 선택 전에 확인할 업무 범위</h2>
+      <p style={{ lineHeight: 1.9, color: "#374151", marginBottom: 16 }}>
+        행정사는 행정사법 제2조 제1항에 따라 출입국관서에 제출하는 서류의 작성·제출 대행과 사실관계를 증명하는 서류의 작성을 지원합니다. 사범심사와 관련한 소명자료, 의견서·반성문·탄원서 작성과 행정심판 청구서의 작성·제출 지원이 이 범위에 속합니다. 소송·재판 대리는 하지 않습니다. 사건 내용과 체류 상황을 확인한 뒤 가능한 업무 범위를 먼저 안내해 드립니다.
+      </p>
+      <p style={{ fontSize: 14, color: "#64748b", margin: 0 }}>
+        자세한 내용은 <a href="/ko/about" style={{ color: "#2563eb" }}>행정사가 할 수 있는 일과 할 수 없는 일</a>에서 확인하실 수 있습니다.
+      </p>
+    </section>
+
     {/* FAQ */}
     <section style={{ maxWidth: 800, margin: "0 auto", padding: "64px 24px" }}>
       <h2 style={{ fontSize: 26, fontWeight: 700, color: "#0a1628", marginBottom: 32 }}>자주 묻는 질문</h2>
@@ -286,6 +297,8 @@ type LangContent = {
   process: { title: string; sub: string; steps: string[] };
   why: { title: string; p1: string; p2: string; p3: string };
   how: { title: string; items: string[]; note: string };
+  // 업무 범위 설명 H2(R2 2026-10-03). 외국어 사무소명 미확정이라 사명을 쓰지 않는다.
+  scope?: { title: string; body: string };
   faq: { title: string; items: { q: string; a: string }[] };
   links: { title: string; items: { t: string; href: string }[] };
   bottomCta: { title: string; sub: string; btn: string };
@@ -361,6 +374,10 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
         "Consultations available in Korean, English, Japanese, and Chinese.",
       ],
       note: "(Criminal defense and litigation representation are performed by affiliated attorneys as required.)",
+    },
+    scope: {
+      title: "What an immigration consultant (administrative scrivener) can and cannot do for foreigners with a criminal record",
+      body: "In Korea, an administrative scrivener (행정사) prepares and submits documents to administrative agencies such as immigration, and prepares documents that establish facts (Administrative Scriveners Act, Article 2(1)). For foreigners with a criminal record, this covers mitigation materials, statements and reason letters, reflection letters and petitions, document review before the immigration appearance, and drafting administrative appeal petitions. We do not represent clients in litigation or trials; where such proceedings are needed, we say so and suggest consulting the appropriate professional. Consultations are available in Korean, English, Japanese and Chinese.",
     },
     faq: {
       title: "Frequently Asked Questions",
@@ -459,6 +476,10 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
       ],
       note: "（刑事裁判の弁護と訴訟代理等、弁護士のみ行える業務は協力弁護士と連携して進めます。）",
     },
+    scope: {
+      title: "行政書士にできること・できないこと(出入国事犯審査)",
+      body: "韓国の行政士法第2条第1項に基づき、出入国官署に提出する書類の作成・提出代行と、事実関係を証明する書類の作成を行います。事犯審査に関する説明資料、意見書・反省文・嘆願書の作成支援や、行政審判請求書の作成・提出支援がこの範囲です。訴訟・裁判の代理は行いません。相談は韓国語・英語・日本語・中国語に対応しています。",
+    },
     faq: {
       title: "よくある質問",
       items: [
@@ -553,6 +574,10 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
         "提供韩语、英语、日语、中文咨询服务。",
       ],
       note: "（刑事审判辩护及诉讼代理等仅律师方可执行的业务，将与合作律师协同进行。）",
+    },
+    scope: {
+      title: "行政士在出入境违法审查中能做什么、不能做什么",
+      body: "依据韩国《行政士法》第2条第1款，行政士可撰写并提交向出入境机构提交的文件，撰写证明事实的文件。出入境事犯审查相关的说明材料、意见书、悔过书和求情信，以及行政审判请求书的撰写和提交协助，都在此范围内。本事务所不承办刑事辩护和法院诉讼，不代理诉讼和审判。咨询支持韩语、英语、日语和中文。",
     },
     faq: {
       title: "常见问题",
@@ -761,6 +786,14 @@ const GenericHomePage = ({ l }: { l: Exclude<L, "ko"> }) => {
           <p style={{ fontSize: 13, color: "#64748b", marginTop: 14 }}>{c.how.note}</p>
         </div>
       </section>
+
+      {/* 업무 범위(R2 2026-10-03) */}
+      {c.scope && (
+        <section style={{ maxWidth: 800, margin: "0 auto", padding: "64px 24px 0" }}>
+          <h2 style={{ fontSize: 24, fontWeight: 700, color: "#0a1628", marginBottom: 22 }}>{c.scope.title}</h2>
+          <p style={{ lineHeight: 1.9, color: "#374151", margin: 0 }}>{c.scope.body}</p>
+        </section>
+      )}
 
       {/* FAQ */}
       <section style={{ maxWidth: 800, margin: "0 auto", padding: "64px 24px" }}>
