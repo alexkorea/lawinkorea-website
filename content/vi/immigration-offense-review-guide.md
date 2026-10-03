@@ -19,8 +19,8 @@ faq:
     a: "Đúng. Xử lý hình sự (kể cả án phạt tiền) và thủ tục hành chính xem xét vi phạm là hai việc riêng. Dù chỉ bị phạt dưới 1 triệu won, cơ quan xuất nhập cảnh vẫn thẩm định lại việc gia hạn visa và tư cách lưu trú theo tiêu chuẩn riêng."
   - q: "Nhận thông báo rồi thì phải có mặt trong bao nhiêu ngày?"
     a: "Hãy kiểm tra kỹ ngày có mặt ghi trong thông báo, thường được ấn định trong vòng 7~14 ngày. Vắng mặt không có lý do chính đáng có thể dẫn tới quyết định bất lợi."
-  - q: "Hành chính sĩ (không phải luật sư) có hỗ trợ được không?"
-    a: "Có. Việc soạn và nộp hồ sơ trong thủ tục hành chính xuất nhập cảnh thuộc lĩnh vực chuyên môn của hành chính sĩ theo Luật Hành chính sĩ. Nếu cần bào chữa hình sự riêng (đại diện tại tòa), chúng tôi kết nối luật sư đối tác."
+  - q: "Hành chính sĩ có hỗ trợ buổi xem xét vi phạm được không?"
+    a: "Có. Việc soạn và nộp hồ sơ trong thủ tục hành chính xuất nhập cảnh thuộc lĩnh vực chuyên môn của hành chính sĩ theo Luật Hành chính sĩ. Chúng tôi không đại diện tố tụng hoặc tại tòa, kể cả bào chữa hình sự (ngoài phạm vi nghiệp vụ của hành chính sĩ)."
   - q: "Nếu kết quả là trục xuất thì coi như hết à?"
     a: "Bạn vẫn có thể khiếu nại, và tùy vụ việc có thể rút ngắn thời hạn cấm nhập cảnh hoặc chuyển sang xuất cảnh tự nguyện. Mấu chốt là phản ứng nhanh sau khi nhận kết quả (thường trong 30 ngày)."
   - q: "Visa sắp hết hạn mà lại bị xem xét vi phạm thì sao?"
@@ -55,7 +55,7 @@ Câu chúng tôi nghe nhiều nhất là: **"Tôi nộp phạt đủ rồi mà, 
 Ba điểm cốt lõi:
 
 - **Đây là thủ tục tách biệt với xử lý hình sự.** Việc viện kiểm sát tạm đình chỉ truy tố hay tòa tuyên án phạt tiền không có nghĩa là thủ tục này cũng kết thúc.
-- **Cục Xuất nhập cảnh (hoặc chi nhánh) tự quyết định.** Bạn có thể tự tiến hành mà không cần luật sư, nhưng việc có hành chính sĩ hoặc luật sư đi cùng ảnh hưởng lớn tới kết quả.
+- **Cục Xuất nhập cảnh (hoặc chi nhánh) tự quyết định.** Bạn có thể tự tiến hành, nhưng việc có hành chính sĩ đi cùng ảnh hưởng lớn tới kết quả.
 - **Kết quả sẽ là một trong các quyết định**: từ chối gia hạn visa, từ chối đổi tư cách, lệnh xuất cảnh, trục xuất, hoặc cấm nhập cảnh.
 
 Nói cách khác, đây là thủ tục quyết định bạn có được tiếp tục sinh hoạt bình thường theo visa tại Hàn Quốc hay không.
@@ -120,7 +120,7 @@ Những tài liệu khiến cán bộ đánh giá rằng "người nước ngoà
 
 Đây là văn bản trình bày mạch lạc diễn biến vụ việc, sự hối lỗi và kế hoạch sắp tới, theo góc nhìn của cơ quan xuất nhập cảnh. Không phải là biện hộ, mà là tài liệu thuyết phục rằng **"vì sao việc này sẽ không tái diễn, và vì sao việc bạn tiếp tục lưu trú là có ích cho xã hội Hàn Quốc"**.
 
-### (5) Tư vấn hành chính sĩ hoặc luật sư chuyên môn
+### (5) Tư vấn hành chính sĩ chuyên môn
 
 Đi một mình, bạn khó biết nên nói gì và nên nhấn mạnh giấy tờ nào. Việc có chuyên gia am hiểu thực tiễn đi cùng và diễn tập trước tạo ra khác biệt quyết định.
 
@@ -138,17 +138,16 @@ Những tài liệu khiến cán bộ đánh giá rằng "người nước ngoà
 
 Khác biệt lớn nhất nằm giữa **"lệnh xuất cảnh" và "trục xuất"**. Lệnh xuất cảnh được xử lý như tự nguyện rời đi nên hạn chế nhập cảnh tương đối nhẹ; còn trục xuất trở thành căn cứ loại vĩnh viễn khi xin thường trú hoặc quốc tịch Hàn Quốc.
 
-## 5. Vai trò của hành chính sĩ và của luật sư
+## 5. Vai trò và phạm vi nghiệp vụ của hành chính sĩ
 
-| Lĩnh vực | Hành chính sĩ | Luật sư |
-|---|---|---|
-| Thủ tục hành chính XNC (dự buổi xem xét, soạn hồ sơ) | ⭐ Chuyên môn chính | Có thể |
-| Bào chữa hình sự tại tòa (sơ thẩm, phúc thẩm) | Không thể | ⭐ Chuyên môn chính |
-| Xin, gia hạn, đổi visa | ⭐ Chuyên môn chính | Có thể |
-| Xét xử hành chính, kiện hành chính | Xét xử hành chính | Cả hai |
-| Chi phí | Thường hợp lý hơn | Chênh lệch lớn theo vụ việc |
+| Lĩnh vực | Hành chính sĩ |
+|---|---|
+| Thủ tục hành chính XNC (dự buổi xem xét, soạn hồ sơ) | ⭐ Chuyên môn chính |
+| Bào chữa hình sự tại tòa (sơ thẩm, phúc thẩm) | Không nhận (ngoài phạm vi nghiệp vụ của hành chính sĩ) |
+| Xin, gia hạn, đổi visa | ⭐ Chuyên môn chính |
+| Xét xử hành chính, kiện hành chính | Xét xử hành chính (kiện hành chính nằm ngoài phạm vi) |
 
-**Phần lớn các vụ xem xét vi phạm là thủ tục hành chính diễn ra sau khi phần hình sự đã khép lại, nên có hành chính sĩ đi cùng là phương án hiệu quả về chi phí.** Khi cần bào chữa hình sự song song (ví dụ đang xét xử sơ thẩm), VISION phối hợp với luật sư đối tác để xử lý đồng thời cả hai.
+**Phần lớn các vụ xem xét vi phạm là thủ tục hành chính diễn ra sau khi phần hình sự đã khép lại, nên có hành chính sĩ đi cùng là phương án hiệu quả về chi phí.** Ngay cả khi thủ tục hình sự vẫn đang diễn ra (ví dụ đang xét xử sơ thẩm), VISION chỉ phụ trách phần hành chính và không đại diện tố tụng hoặc tại tòa (ngoài phạm vi nghiệp vụ của hành chính sĩ).
 
 ## 6. Quy trình ứng phó 5 bước của VISION
 
@@ -167,13 +166,13 @@ Gửi danh sách giấy tờ cần thiết và cách thu thập, phân định r
 
 ### Bước 4. Hoàn thiện hồ sơ (trước ngày có mặt 7~10 ngày)
 
-Hoàn thiện bản giải trình, đơn xin khoan hồng và tài liệu giảm nhẹ. Sau khi luật sư hoặc hành chính sĩ rà soát, chúng tôi đóng thành bộ hồ sơ cuối cùng.
+Hoàn thiện bản giải trình, đơn xin khoan hồng và tài liệu giảm nhẹ. Sau khi hành chính sĩ rà soát, chúng tôi đóng thành bộ hồ sơ cuối cùng.
 
 ### Bước 5. Đồng hành và chiến lược tiếp theo (ngày làm việc + 30 ngày sau kết quả)
 
 Đi cùng đến cơ quan xuất nhập cảnh hoặc diễn tập trước. Sau khi có kết quả, đề xuất chiến lược visa tiếp theo trong 30 ngày (khiếu nại, xuất cảnh tự nguyện, đổi tư cách...).
 
-> Văn phòng thực hiện **việc soạn thảo và nộp hồ sơ theo Luật Hành chính sĩ**. Khi cần đại diện tại tòa hoặc bào chữa hình sự, chúng tôi kết nối luật sư chuyên môn đối tác.
+> Văn phòng thực hiện **việc soạn thảo và nộp hồ sơ theo Luật Hành chính sĩ**. Chúng tôi không đại diện tố tụng hoặc tại tòa, kể cả bào chữa hình sự (ngoài phạm vi nghiệp vụ của hành chính sĩ).
 
 ## 7. Câu hỏi thường gặp (FAQ)
 

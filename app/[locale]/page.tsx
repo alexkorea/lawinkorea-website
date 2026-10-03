@@ -209,12 +209,11 @@ const KoHomePage = () => (
           <li>담당 행정사가 사건 개요와 체류 상황을 함께 확인합니다.</li>
           <li>출입국 제출용 소명자료와 진술서·사유서·탄원서 등 행정서류 작성을 지원합니다.</li>
           <li>출입국 출석 전 서류를 검토하고 체류 관련 행정절차를 안내합니다.</li>
-          <li>필요한 경우 형사절차는 협력 변호사와 연계하여 안내합니다.</li>
           <li>제출 자료와 상담 내용은 보안에 유의하여 관리합니다.</li>
           <li>한국어·영어·일본어·중국어 상담을 지원합니다.</li>
         </ul>
         <p style={{ fontSize: 13, color: "#64748b", marginTop: 16 }}>
-          (형사재판 변론과 소송대리 등 변호사만 수행할 수 있는 업무는 협력 변호사와 연계하여 진행합니다.)
+          형사재판 변론 등 소송·재판 대리는 하지 않습니다(행정사 업무 범위 밖).
         </p>
       </div>
     </section>
@@ -369,11 +368,10 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
         "Our administrative scrivener reviews your case and residency situation together.",
         "We assist with preparing explanatory statements, supporting documents, and administrative paperwork for immigration submissions.",
         "We review your documents before your immigration appointment and guide you through residency procedures.",
-        "Where criminal defense work is needed, we coordinate with affiliated attorneys.",
         "All consultation content and submitted materials are handled with strict confidentiality.",
         "Consultations available in Korean, English, Japanese, and Chinese.",
       ],
-      note: "(Criminal defense and litigation representation are performed by affiliated attorneys as required.)",
+      note: "We do not handle litigation or court representation, including criminal defense (outside the scope of an administrative scrivener).",
     },
     scope: {
       title: "What an immigration consultant (administrative scrivener) can and cannot do for foreigners with a criminal record",
@@ -470,11 +468,10 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
         "担当行政士が事件の概要と在留状況を一緒に確認します。",
         "出入国提出用の疎明資料・陳述書・理由書・嘆願書等の行政書類作成をサポートします。",
         "出入国出頭前に書類を確認し、在留関連の行政手続きをご案内します。",
-        "必要な場合、刑事手続きは協力弁護士と連携してご案内します。",
         "提出資料と相談内容はセキュリティに配慮して管理します。",
         "韓国語・英語・日本語・中国語での相談に対応しています。",
       ],
-      note: "（刑事裁判の弁護と訴訟代理等、弁護士のみ行える業務は協力弁護士と連携して進めます。）",
+      note: "刑事裁判の弁護を含む訴訟・裁判の代理は行いません(行政書士の業務範囲外)。",
     },
     scope: {
       title: "行政書士にできること・できないこと(出入国事犯審査)",
@@ -569,11 +566,10 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
         "由负责行政士与您共同确认案件概况和居留情况。",
         "协助准备向出入境机构提交的证明材料、陈述书、理由书及行政文件。",
         "在出席出入境机构前审查文件，并指导相关行政手续。",
-        "如需刑事辩护，可与合作律师协同提供建议。",
         "提交材料和咨询内容均严格保密管理。",
         "提供韩语、英语、日语、中文咨询服务。",
       ],
-      note: "（刑事审判辩护及诉讼代理等仅律师方可执行的业务，将与合作律师协同进行。）",
+      note: "本所不承办刑事审判辩护等诉讼、庭审代理（超出行政士业务范围）。",
     },
     scope: {
       title: "行政士在出入境违法审查中能做什么、不能做什么",
@@ -668,11 +664,10 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
         "Chuyên viên hành chính phụ trách xem xét vụ việc và tình trạng lưu trú của bạn cùng nhau.",
         "Hỗ trợ chuẩn bị tài liệu trình bày, thư giải thích và các văn bản hành chính để nộp cho cơ quan xuất nhập cảnh.",
         "Xem xét tài liệu trước buổi gặp tại cơ quan xuất nhập cảnh và hướng dẫn thủ tục hành chính liên quan đến lưu trú.",
-        "Khi cần biện hộ hình sự, chúng tôi phối hợp với các luật sư liên kết.",
         "Nội dung tư vấn và tài liệu nộp đều được quản lý với tính bảo mật nghiêm ngặt.",
         "Tư vấn bằng tiếng Hàn, Anh, Nhật và Trung.",
       ],
-      note: "(Biện hộ trong phiên tòa hình sự và đại diện tố tụng — những công việc chỉ luật sư được thực hiện — sẽ được phối hợp với các luật sư liên kết.)",
+      note: "Chúng tôi không đại diện tố tụng hoặc tại tòa, kể cả biện hộ trong phiên tòa hình sự (ngoài phạm vi nghiệp vụ của hành chính sĩ).",
     },
     faq: {
       title: "Câu hỏi thường gặp",

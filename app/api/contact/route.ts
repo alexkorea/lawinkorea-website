@@ -12,8 +12,8 @@ export const runtime = "nodejs";
 const NOTION_API = "https://api.notion.com/v1/pages";
 
 // 발신 표시명은 brand_registry.md 의 브랜드 E(선샤인행정사사무소) 고정이다.
-// 이 사이트 운영 주체는 행정사사무소이므로 "법무법인/변호사/law firm/attorney" 계열
-// 표현을 발신명·제목·본문에 쓰면 변호사법 위반이다(2026-09-22 보스 직접 지적).
+// 이 사이트 운영 주체는 행정사사무소이므로 법조 직역·법률사무소 계열 표현
+// (금지어 목록은 scripts/seo-gate.mjs BANNED_TERMS)을 발신명·제목·본문에 쓰면 법 위반이다(2026-09-22 보스 직접 지적).
 // 발신 주소는 Resend 에 검증된 도메인이어야 한다. lawinkorea.com 은 미검증이라
 // 그대로 쓰면 403 validation_error 로 전부 실패한다. 검증되면 주소만 바꾼다.
 const MAIL_FROM = "선샤인행정사사무소 <noreply@ko-visas.com>";

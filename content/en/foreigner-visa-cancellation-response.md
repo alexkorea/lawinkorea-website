@@ -132,7 +132,7 @@ Costs vary by case. We provide an accurate estimate during your free consultatio
 
 ---
 
-VISION Administrative Attorney Office specializes in visa status cancellation defense, deportation appeals, and administrative litigation.
+VISION Administrative Office specializes in visa status cancellation defense and deportation appeals. We do not handle litigation or court representation (outside the scope of an administrative scrivener).
 Multilingual consultations available in English, Korean, Chinese, and Japanese.
 
 **[Request a Free Consultation Now →](/en/contact)**

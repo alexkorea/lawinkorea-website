@@ -65,8 +65,8 @@ Cần sa y tế hay dầu CBD được kê đơn ở nước bạn cũng có th�
 
 ## 3. Việc phải làm ngay sau khi vụ việc xảy ra
 
-### Bước 1. Mời luật sư ngay lập tức (ưu tiên thủ tục hình sự)
-Với án ma túy, kết quả hình sự ảnh hưởng trực tiếp đến buổi xem xét, nên **luật sư hình sự là yếu tố quyết định**. Hành chính sĩ không thể thay thế vai trò bào chữa hình sự.
+### Bước 1. Ưu tiên xử lý thủ tục hình sự
+Với án ma túy, kết quả hình sự ảnh hưởng trực tiếp đến buổi xem xét, nên **bào chữa hình sự là yếu tố quyết định**. Hành chính sĩ không thể thay thế vai trò bào chữa hình sự.
 
 ### Bước 2. Cân nhắc tự thú + hợp tác điều tra
 Nếu chưa bị điều tra, việc trình báo dưới hình thức tự thú có thể được giảm nhẹ. Nếu đã bị phát hiện, hợp tác điều tra (cung cấp thông tin đồng phạm, bày tỏ thiện chí) là yếu tố giảm nhẹ.
@@ -147,14 +147,13 @@ Ngay cả khi đáp ứng đủ, khả năng bị từ chối vẫn cao.
 
 ## 8. Cách VISION hỗ trợ vụ việc ma túy
 
-### Gói 5 bước
+### Gói 4 bước
 1. **Chẩn đoán ban đầu miễn phí** (trong ngày) — phân tích rủi ro hình sự + xem xét vi phạm
-2. **Kết nối luật sư** (trong 24 giờ) — giới thiệu luật sư chuyên án ma túy
-3. **Thu thập hồ sơ cho buổi xem xét** (10~14 ngày) — chương trình điều trị, gia đình, công việc
-4. **Đồng hành tại buổi xem xét** (trong ngày) — phiên dịch, phát biểu bổ sung
-5. **Chiến lược sau kết quả** (30 ngày) — khiếu nại, thay đổi tư cách, quyết định xuất cảnh tự nguyện
+2. **Thu thập hồ sơ cho buổi xem xét** (10~14 ngày) — chương trình điều trị, gia đình, công việc
+3. **Đồng hành tại buổi xem xét** (trong ngày) — phiên dịch, phát biểu bổ sung
+4. **Chiến lược sau kết quả** (30 ngày) — khiếu nại, thay đổi tư cách, quyết định xuất cảnh tự nguyện
 
-> Văn phòng chúng tôi không thực hiện bào chữa hình sự. Phần hình sự của án ma túy do văn phòng luật sư đối tác đảm nhiệm; chúng tôi chỉ phụ trách thủ tục hành chính của buổi xem xét vi phạm.
+> Văn phòng chúng tôi chỉ phụ trách thủ tục hành chính của buổi xem xét vi phạm. Chúng tôi không đại diện tố tụng hoặc tại tòa, kể cả bào chữa hình sự (ngoài phạm vi nghiệp vụ của hành chính sĩ).
 
 ## 9. Phải bắt đầu ngay bây giờ
 

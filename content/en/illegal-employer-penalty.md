@@ -26,7 +26,7 @@ faq:
   - q: "Does this affect hiring under the Employment Permit System (E-9)?"
     a: "Under Article 20(1)(3) of the Act on the Employment of Foreign Workers, the employment security office may restrict an employer who was punished for violating that Act or the Immigration Act from hiring foreign workers for three years from the date of the event."
   - q: "What can an administrative scrivener handle for me?"
-    a: "Drafting and submitting written explanations and statements of opinion to the immigration office, and organizing and translating supporting documents. Defense in a criminal investigation or trial after a complaint is filed is the work of a lawyer."
+    a: "Drafting and submitting written explanations and statements of opinion to the immigration office, and organizing and translating supporting documents. Defense in a criminal investigation or trial after a complaint is filed is outside the scope of an administrative scrivener."
 related:
   - "illegal-employment-penalty"
   - "immigration-fine-notice-response-2026"
@@ -122,7 +122,7 @@ Statements that do not match the record of your interview can hurt you, so inclu
 - **Organizing supporting documents** such as contracts and payroll records, and **translating** foreign-language documents
 - **Preparing invitation documents** for foreign workers after any restriction period ends
 
-Defense in a criminal investigation or trial after a complaint is filed is **the work of a lawyer**, and acting for you in procedures under labor laws such as the employment permit system is the work of a certified labor consultant. In those cases we will suggest the right professional.
+Defense in a criminal investigation or trial after a complaint is filed is **outside the scope of an administrative scrivener**, so we do not handle it. Acting for you in procedures under labor laws such as the employment permit system is the work of a certified labor consultant, so we recommend consulting one.
 
 > **Official sources — statutory text**
 > - Immigration Act Art. 18(3): "No one shall employ a person who does not hold a status of stay under paragraph (1)."

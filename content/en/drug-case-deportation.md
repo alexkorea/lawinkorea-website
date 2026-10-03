@@ -64,7 +64,7 @@ Medical-prescribed cannabis, CBD oil from abroad — likely treated as narcotic 
 
 ## 3. Immediate Action Checklist
 
-### Step 1. Retain a criminal lawyer immediately
+### Step 1. Deal with the criminal proceedings first
 Drug cases require strong criminal defense; outcomes directly shape the offense review. Administrative scriveners cannot perform criminal defense.
 
 ### Step 2. Surrender + cooperate
@@ -147,14 +147,13 @@ Even with all factors satisfied, denial is common.
 
 ## 8. Vision's Drug-Case Protocol
 
-### 5-step package
+### 4-step package
 1. Free initial diagnosis (same day) — risk assessment
-2. Lawyer connection (24 hours) — drug defense specialist
-3. Offense-review document collection (10–14 days) — treatment, family, employment
-4. Office attendance support (day-of) — translation, supplemental statement
-5. Post-decision follow-up (30 days)
+2. Offense-review document collection (10–14 days) — treatment, family, employment
+3. Office attendance support (day-of) — translation, supplemental statement
+4. Post-decision follow-up (30 days)
 
-> The office does not perform criminal defense. Drug-case criminal defense is handled by partner lawyers; the office handles only the administrative review.
+> The office handles only the administrative offense review. We do not handle litigation or court representation, including criminal defense (outside the scope of an administrative scrivener).
 
 ## 9. Time Is Critical
 

@@ -144,7 +144,7 @@ export function siteGraph(locale: Locale | string) {
         inLanguage: ["ko", "en", "zh", "ja", "vi"],
       },
       {
-        // 행정사사무소는 LegalService(법률사무소) 가 아니다 — 변호사법 오해 소지 차단(맥7 20260922-1455)
+        // 행정사사무소는 LegalService(법률사무소) 가 아니다 — 법조 직역 오해 소지 차단(맥7 20260922-1455)
         "@type": ["Organization", "ProfessionalService"],
         "@id": ORG_ID,
         name: COMPANY.brandKo,

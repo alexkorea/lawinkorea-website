@@ -163,7 +163,7 @@ Bộ trưởng Bộ Tư pháp có thể cấm nhập cảnh đối với:
   - Chứng minh thường trú của cha mẹ + giấy chẩn đoán y tế (ung thư giai đoạn cuối)
   - Lý lịch tư pháp trong sạch + 4 năm sinh hoạt bình thường
   - Chứng minh khả năng chi trả viện phí tại Hàn Quốc
-  - Người bảo lãnh nhân thân có uy tín tại Hàn Quốc (luật sư)
+  - Người bảo lãnh nhân thân có uy tín tại Hàn Quốc
 - **Kết quả: Dỡ bỏ một phần — cho phép thăm ngắn hạn (C-3) 1 lần (lưu trú dài hạn nộp lại sau 7 năm)**
 
 ### Trường hợp C: Trục xuất vì ma túy → nộp sau 12 năm, bị từ chối

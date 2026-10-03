@@ -342,7 +342,7 @@ export const SECTION_LABELS: Record<
     processIntro:
       "첫 통화부터 출석 대비까지, 어떤 단계도 건너뛰지 않습니다. 모든 의뢰인은 본인의 진행 상황을 실시간으로 확인할 수 있는 전용 대시보드를 받습니다.",
     processDisclaimer:
-      "본 사무소는 행정사법에 의거한 서류 작성 및 제출 대행을 수행합니다. 법정 대리 및 형사 변호가 필요한 경우 제휴 전문 변호사를 연결해 드립니다.",
+      "본 사무소는 행정사법에 의거한 서류 작성 및 제출 대행을 수행합니다. 법정 대리·형사 변호 등 소송·재판 대리는 하지 않습니다(행정사 업무 범위 밖).",
     servicesEyebrow: "전문 행정 서비스 · Services",
     servicesTitle: "단순 대행이 아닌, 전략적 행정 대응",
     quietEyebrow: "A QUIET WORD ON THIS",
@@ -377,7 +377,7 @@ export const SECTION_LABELS: Record<
     processIntro:
       "From the first call to attendance prep, no step is skipped. Every client receives a private dashboard to track real-time progress.",
     processDisclaimer:
-      "This office performs document preparation and submission under the Administrative Scrivener Act. For court representation or criminal defense, we connect you with our partner attorneys.",
+      "This office performs document preparation and submission under the Administrative Scrivener Act. We do not handle litigation or court representation, including criminal defense (outside the scope of an administrative scrivener).",
     servicesEyebrow: "Professional Services",
     servicesTitle: "Not mere agency — strategic administrative response",
     quietEyebrow: "A QUIET WORD ON THIS",
@@ -412,7 +412,7 @@ export const SECTION_LABELS: Record<
     processIntro:
       "从首次通话到出席准备，任何环节都不会跳过。所有委托人都将获得可实时追踪进度的专属仪表板。",
     processDisclaimer:
-      "本事务所依据《行政士法》进行文件制作及代理提交。若需法庭代理或刑事辩护，将为您介绍合作律师。",
+      "本事务所依据《行政士法》进行文件制作及代理提交。本所不承办法庭代理、刑事辩护等诉讼、庭审代理（超出行政士业务范围）。",
     servicesEyebrow: "专业行政服务 · Services",
     servicesTitle: "不止于代理，更是战略性行政应对",
     quietEyebrow: "A QUIET WORD ON THIS",
@@ -447,7 +447,7 @@ export const SECTION_LABELS: Record<
     processIntro:
       "最初の通話から出席対応まで、どの段階も飛ばしません。全ての依頼人に進行状況をリアルタイムで確認できる専用ダッシュボードを提供します。",
     processDisclaimer:
-      "本事務所は行政書士法に基づき書類作成および提出代行を行います。法廷代理や刑事弁護が必要な場合は提携弁護士をご紹介します。",
+      "本事務所は行政書士法に基づき書類作成および提出代行を行います。法廷代理・刑事弁護などの訴訟・裁判の代理は行いません(行政書士の業務範囲外)。",
     servicesEyebrow: "専門行政サービス · Services",
     servicesTitle: "単なる代行ではなく、戦略的行政対応",
     quietEyebrow: "A QUIET WORD ON THIS",
@@ -482,7 +482,7 @@ export const SECTION_LABELS: Record<
     processIntro:
       "Từ cuộc gọi đầu tiên đến chuẩn bị ra hầu, không bỏ qua bước nào. Mỗi khách hàng sẽ nhận được bảng điều khiển riêng để theo dõi tiến trình theo thời gian thực.",
     processDisclaimer:
-      "Văn phòng thực hiện soạn thảo và nộp hồ sơ theo Luật Hành chính. Nếu cần đại diện tại tòa hoặc bào chữa hình sự, chúng tôi sẽ kết nối với luật sư đối tác.",
+      "Văn phòng thực hiện soạn thảo và nộp hồ sơ theo Luật Hành chính. Chúng tôi không đại diện tố tụng hoặc tại tòa, kể cả bào chữa hình sự (ngoài phạm vi nghiệp vụ của hành chính sĩ).",
     servicesEyebrow: "Dịch vụ hành chính chuyên nghiệp · Services",
     servicesTitle: "Không chỉ đại lý — đối phó hành chính chiến lược",
     quietEyebrow: "A QUIET WORD ON THIS",
@@ -544,7 +544,7 @@ export const FOOTER: Record<
 > = {
   ko: {
     disclaimer:
-      "본 사무소는 전문 행정사 사무소입니다. 법원의 소송 대리 및 형사 변호는 법령에 의거하여 변호사의 고유 업무이며, 본 사무소는 출입국 행정 절차 및 서류 대행을 전문으로 합니다.",
+      "본 사무소는 전문 행정사 사무소입니다. 법원의 소송 대리 및 형사 변호는 행정사 업무 범위 밖이며, 본 사무소는 출입국 행정 절차 및 서류 대행을 전문으로 합니다.",
     columns: [
       { h: "주요 서비스", items: ["음주운전 사범심사", "형사사건 비자방어", "입국금지 해제신청", "체류자격 변경·연장"] },
       { h: "기업 고객", items: ["E-7 / E-9 컨설팅", "외국인 채용 사범 대응", "기업 자문 계약", "Compliance 점검"] },
@@ -554,42 +554,42 @@ export const FOOTER: Record<
   },
   en: {
     disclaimer:
-      "This is a certified administrative scrivener office. Court representation and criminal defense are reserved for licensed attorneys; we focus on immigration administrative procedures and document preparation.",
+      "This is a certified administrative scrivener office. Court representation and criminal defense are outside the scope of an administrative scrivener; we focus on immigration administrative procedures and document preparation.",
     columns: [
       { h: "Services", items: ["DUI Review", "Criminal Visa Defense", "Entry Ban Removal", "Status Change/Extend"] },
       { h: "Corporate", items: ["E-7 / E-9 Consulting", "Foreign Hire Defense", "Retainer Advisory", "Compliance Audit"] },
       { h: "Support", items: ["Privacy Policy", "Terms of Service", "Office Map", "Company Info"] },
     ],
-    copyright: "© 2026 VISION Administrative Attorney Agent (Law in Korea). All rights reserved.",
+    copyright: "© 2026 VISION Administrative Office (Law in Korea). All rights reserved.",
   },
   zh: {
     disclaimer:
-      "本事务所为专业行政士事务所。法院诉讼代理及刑事辩护依法属律师专责，本所专注于出入境行政手续与文件代办。",
+      "本事务所为专业行政士事务所。法院诉讼代理及刑事辩护不属于行政士业务范围，本所专注于出入境行政手续与文件代办。",
     columns: [
       { h: "主要服务", items: ["酒驾事犯审查", "刑事案件签证防御", "入境禁令解除申请", "居留资格变更·延期"] },
       { h: "企业客户", items: ["E-7 / E-9 咨询", "外籍员工事犯应对", "企业顾问合约", "合规审查"] },
       { h: "客户支持", items: ["隐私政策", "服务条款", "办公位置", "企业信息"] },
     ],
-    copyright: "© 2026 VISION Administrative Attorney Agent (Law in Korea). 版权所有。",
+    copyright: "© 2026 VISION Administrative Office (Law in Korea). 版权所有。",
   },
   ja: {
     disclaimer:
-      "本事務所は専門行政書士事務所です。法廷代理および刑事弁護は法令により弁護士の専属業務であり、本所は出入国行政手続および書類代行を専門としています。",
+      "本事務所は専門行政書士事務所です。法廷代理および刑事弁護は行政書士の業務範囲外であり、本所は出入国行政手続および書類代行を専門としています。",
     columns: [
       { h: "主要サービス", items: ["飲酒運転事犯審査", "刑事事件ビザ防御", "入国禁止解除申請", "在留資格変更·延長"] },
       { h: "企業顧客", items: ["E-7 / E-9 コンサル", "外国人採用事犯対応", "企業顧問契約", "コンプライアンス点検"] },
       { h: "顧客サポート", items: ["プライバシーポリシー", "利用規約", "アクセス", "事業者情報"] },
     ],
-    copyright: "© 2026 VISION Administrative Attorney Agent (Law in Korea). All rights reserved.",
+    copyright: "© 2026 VISION Administrative Office (Law in Korea). All rights reserved.",
   },
   vi: {
     disclaimer:
-      "Đây là văn phòng hành chính chuyên nghiệp. Đại diện tại tòa và bào chữa hình sự thuộc thẩm quyền riêng của luật sư; chúng tôi chuyên về thủ tục hành chính xuất nhập cảnh và soạn thảo hồ sơ.",
+      "Đây là văn phòng hành chính chuyên nghiệp. Đại diện tại tòa và bào chữa hình sự nằm ngoài phạm vi nghiệp vụ của hành chính sĩ; chúng tôi chuyên về thủ tục hành chính xuất nhập cảnh và soạn thảo hồ sơ.",
     columns: [
       { h: "Dịch vụ chính", items: ["Xem xét vi phạm lái xe say rượu", "Bào chữa visa vụ án hình sự", "Xin hủy lệnh cấm nhập cảnh", "Thay đổi/gia hạn tư cách lưu trú"] },
       { h: "Doanh nghiệp", items: ["Tư vấn E-7 / E-9", "Đối phó vi phạm nhân viên nước ngoài", "Hợp đồng cố vấn", "Kiểm tra tuân thủ"] },
       { h: "Hỗ trợ", items: ["Chính sách bảo mật", "Điều khoản sử dụng", "Bản đồ văn phòng", "Thông tin công ty"] },
     ],
-    copyright: "© 2026 VISION Administrative Attorney Agent (Law in Korea). All rights reserved.",
+    copyright: "© 2026 VISION Administrative Office (Law in Korea). All rights reserved.",
   },
 };

@@ -159,7 +159,7 @@ Minister of Justice may bar entry of:
   - Parents' permanent residency + medical diagnosis (terminal cancer)
   - Home-country no-criminal-record + 4 years stable life
   - Korean medical-cost capability
-  - Strong Korean sponsor (lawyer)
+  - Strong Korean sponsor
 - **Result: Partial removal — single short-visit (C-3) allowed; long-term re-apply at 7 years**
 
 ### Case C: Drug deportation → 12 years later, denied

@@ -187,7 +187,7 @@ Central Administrative Appeal Commission (https://www.acrc.go.kr).
 4. Decision (3–6 months)
 
 ### Cost
-Free claim filing; scrivener / lawyer fee separate.
+Free claim filing; scrivener fee separate.
 
 ### Success rate
 - General: 20–40%

@@ -199,7 +199,7 @@ Chọn một trong bốn phương án:
 
 ### Chi phí
 - Phí nộp đơn: miễn phí
-- Phí dịch vụ nếu ủy quyền cho hành chính sĩ hoặc luật sư
+- Phí dịch vụ nếu ủy quyền cho hành chính sĩ
 
 ### Tỷ lệ thành công
 - Thông thường 20~40%

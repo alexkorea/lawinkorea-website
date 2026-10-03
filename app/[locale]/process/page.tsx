@@ -18,7 +18,7 @@ const CONTENT: Record<L, {
 }> = {
   ko: {
     title: "상담 진행 절차",
-    sub: "선샤인행정사사무소는 아래 5단계로 사범심사 대응 업무를 진행합니다. 행정사법에 따른 서류 작성·소명자료 준비·출석 동행 지원 범위 내에서 진행되며, 소송대리 등 변호사 업무는 포함되지 않습니다.",
+    sub: "선샤인행정사사무소는 아래 5단계로 사범심사 대응 업무를 진행합니다. 행정사법에 따른 서류 작성·소명자료 준비·출석 동행 지원 범위 내에서 진행되며, 소송 대리 등 행정사 업무 범위 밖의 업무는 포함되지 않습니다.",
     steps: [
       { num: "01", label: "신청", desc: "온라인 또는 전화로 상담을 접수합니다. 형사 입건, 출입국사범 통보, 출국명령 수령 등 현재 상황과 사건 개요를 간략히 파악합니다." },
       { num: "02", label: "간략한 정보 제공 및 기본 상담", desc: "접수된 사건 개요를 토대로 예상되는 처분 유형(통고처분·출국명령·강제퇴거 등)과 일반적인 진행 절차를 기본 상담을 통해 안내해 드립니다." },
@@ -30,7 +30,7 @@ const CONTENT: Record<L, {
   },
   en: {
     title: "Consultation Process",
-    sub: "Vision Administrative Law Office follows the 5 steps below when handling immigration offense review cases. Our work is limited to document preparation, evidentiary material support, and accompaniment to appearances under the Administrative Agent Act — it does not include courtroom litigation, which is a licensed attorney's role.",
+    sub: "Vision Administrative Office follows the 5 steps below when handling immigration offense review cases. Our work is limited to document preparation, evidentiary material support, and accompaniment to appearances under the Administrative Agent Act — it does not include courtroom litigation, which is outside the scope of an administrative scrivener.",
     steps: [
       { num: "01", label: "Application", desc: "You reach out online or by phone. We take an initial intake — criminal charges filed, an immigration offense notice, or a departure order — and get a brief overview of your case." },
       { num: "02", label: "Brief Information & Basic Consultation", desc: "Based on the intake, we walk you through the likely type of disposition (notice disposition, departure order, deportation, etc.) and the general procedure ahead." },
@@ -42,7 +42,7 @@ const CONTENT: Record<L, {
   },
   zh: {
     title: "咨询进行程序",
-    sub: "Vision行政士事务所按以下5个阶段处理事犯审查应对业务。业务范围限于行政士法规定的文件撰写、说明材料准备、陪同出席等，不包括律师的诉讼代理业务。",
+    sub: "Vision行政士事务所按以下5个阶段处理事犯审查应对业务。业务范围限于行政士法规定的文件撰写、说明材料准备、陪同出席等，不包括诉讼代理业务（超出行政士业务范围）。",
     steps: [
       { num: "01", label: "申请", desc: "通过线上或电话接受咨询。初步了解刑事立案、出入境事犯通知、出境命令等当前情况及案件概要。" },
       { num: "02", label: "简要信息提供及基本咨询", desc: "根据受理的案件概要，就预期的处分类型（通告处分、出境命令、强制驱逐等）及一般处理程序进行基本咨询说明。" },
@@ -54,7 +54,7 @@ const CONTENT: Record<L, {
   },
   ja: {
     title: "相談進行手続き",
-    sub: "ビジョン行政士事務所は以下の5段階で事犯審査対応業務を進めます。業務範囲は行政士法に定める書類作成・疎明資料準備・出席同行支援等に限られ、弁護士による訴訟代理業務は含まれません。",
+    sub: "ビジョン行政士事務所は以下の5段階で事犯審査対応業務を進めます。業務範囲は行政士法に定める書類作成・疎明資料準備・出席同行支援等に限られ、訴訟代理業務は含まれません(行政書士の業務範囲外)。",
     steps: [
       { num: "01", label: "申請", desc: "オンラインまたは電話で相談を受け付けます。刑事事件立件、出入国事犯通知、出国命令受領など現在の状況と事件概要を簡単に把握します。" },
       { num: "02", label: "簡単な情報提供及び基本相談", desc: "受け付けた事件概要をもとに、予想される処分類型（通告処分・出国命令・強制退去等）と一般的な進行手続きを基本相談を通じてご案内します。" },
@@ -66,7 +66,7 @@ const CONTENT: Record<L, {
   },
   vi: {
     title: "Quy trình tư vấn",
-    sub: "Văn phòng Hành chính Vision xử lý hồ sơ xem xét vi phạm xuất nhập cảnh theo 5 bước dưới đây. Phạm vi công việc giới hạn trong soạn thảo hồ sơ, chuẩn bị tài liệu giải trình, hỗ trợ đồng hành khi trình diện theo Luật Hành chính viên — không bao gồm việc đại diện tố tụng, vốn thuộc phạm vi của luật sư.",
+    sub: "Văn phòng Hành chính Vision xử lý hồ sơ xem xét vi phạm xuất nhập cảnh theo 5 bước dưới đây. Phạm vi công việc giới hạn trong soạn thảo hồ sơ, chuẩn bị tài liệu giải trình, hỗ trợ đồng hành khi trình diện theo Luật Hành chính viên — không bao gồm việc đại diện tố tụng, vốn nằm ngoài phạm vi nghiệp vụ của hành chính sĩ.",
     steps: [
       { num: "01", label: "Đăng ký", desc: "Bạn liên hệ qua trực tuyến hoặc điện thoại. Chúng tôi tiếp nhận sơ bộ tình huống hiện tại — bị khởi tố hình sự, nhận thông báo vi phạm xuất nhập cảnh hoặc lệnh xuất cảnh — và nắm khái quát vụ việc." },
       { num: "02", label: "Cung cấp thông tin sơ bộ & Tư vấn cơ bản", desc: "Dựa trên thông tin tiếp nhận, chúng tôi tư vấn cơ bản về loại xử lý dự kiến (xử phạt thông báo, lệnh xuất cảnh, trục xuất, v.v.) và quy trình chung tiếp theo." },

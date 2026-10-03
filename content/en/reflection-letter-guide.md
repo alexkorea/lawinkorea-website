@@ -24,7 +24,7 @@ faq:
   - q: "Can I write it in my own language?"
     a: "Write in the language you can express yourself in most accurately and attach a Korean translation so the officer can read it as written. Translating documents related to administrative work is within the scope of an administrative scrivener (Haengjeongsa Act Article 2(1)(3))."
   - q: "Can an administrative scrivener write the letter for me?"
-    a: "We help structure and word the letter based on facts you confirm, translate it and submit it. The content must be your actual situation. Defense in a criminal trial is the work of a lawyer."
+    a: "We help structure and word the letter based on facts you confirm, translate it and submit it. The content must be your actual situation. Defense in a criminal trial is outside the scope of an administrative scrivener."
 related:
   - "immigration-offense-review-guide"
   - "dui-foreigner-visa"
@@ -38,7 +38,7 @@ An apology letter or petition in a Korean immigration offense review is **not a 
 > - Petition: a letter from family, an employer or acquaintances describing your life and circumstances and asking for leniency
 > - Write to the statutory factors (age and circumstances, motive and consequences, ability to pay, number of violations) and attach evidence
 > - Anything that contradicts what you said in your interview record will hurt you
-> - An administrative scrivener can help draft, translate and submit; criminal defense is the work of a lawyer
+> - An administrative scrivener can help draft, translate and submit; criminal defense is outside the scope of an administrative scrivener
 
 ## 1. What role do apology letters and petitions play in an offense review?
 
@@ -110,7 +110,7 @@ Letters matter before the disposition is decided. If you have a summons, bring t
 - **Korean translation** of letters and supporting documents written in another language
 - **Submission** to the immigration office and preparation before your interview
 
-An administrative scrivener may draft documents submitted to administrative agencies, draft documents certifying facts, translate them and submit them (Haengjeongsa Act Article 2(1)). Defense in a criminal trial and representation in lawsuits are **the work of a lawyer**; if criminal proceedings are still under way, we will recommend that you also consult one.
+An administrative scrivener may draft documents submitted to administrative agencies, draft documents certifying facts, translate them and submit them (Haengjeongsa Act Article 2(1)). Defense in a criminal trial and representation in lawsuits are **outside the scope of an administrative scrivener**, so we do not handle them.
 
 > **Official sources — statutory text (English is our translation)**
 > - Immigration Act Art. 103(2): "The Minister of Justice may waive a notice under Article 102(1), taking into account the age and circumstances of the immigration offender, the motive for and consequences of the violation, the ability to pay the fine and other circumstances."

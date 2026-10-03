@@ -133,7 +133,7 @@ The difference is **not the offense or fine**. It's **document depth from the im
 
 ## 5. Five Common Mistakes
 
-**1. "My lawyer closed the criminal case."** → Lawyers handle court; offense review is administrative.
+**1. "The criminal case is closed, so I'm done."** → The criminal case and the offense review are separate; the offense review is administrative.
 **2. "I paid the fine, Immigration will be lenient."** → Fine payment alone is not mitigation.
 **3. "Non-prosecution means I'm safe."** → Still subject to review.
 **4. "I'm married to a Korean, so no deportation."** → F-6 still subject to review.
@@ -141,7 +141,7 @@ The difference is **not the offense or fine**. It's **document depth from the im
 
 ## 6. What Vision Adds
 
-[Vision Administrative Law Office](/en) protocol:
+[Vision Administrative Office](/en) protocol:
 1. Case analysis (free, same day)
 2. Document collection and packaging (5–7 days)
 3. Reason letter / petition drafting (3–5 days)

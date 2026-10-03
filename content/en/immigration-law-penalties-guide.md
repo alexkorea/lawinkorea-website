@@ -177,7 +177,7 @@ Even with light fine appearance:
 
 If notified for an Immigration Control Act violation, **paying the fine is not the end.** Manage criminal and administrative tracks together to preserve your visa.
 
-Vision Administrative Law Office — immigration practice since 2018, Korean / English / Chinese / Japanese.
+Vision Administrative Office — immigration practice since 2018, Korean / English / Chinese / Japanese.
 
 [Free initial diagnosis →](/en)
 

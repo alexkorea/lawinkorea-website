@@ -2,7 +2,7 @@
  * 업무범위 블록 — "행정사가 할 수 있는 일 / 할 수 없는 일" (맥7 K-exec 2026-10-03 지시 4·7장).
  * about(회사허브)·사범심사 허브가 같은 원천을 쓴다. 문구를 페이지에 다시 적지 말 것.
  *
- * 근거: 행정사법 제2조 제1항(서류 작성·사실증명 서류 작성·번역·제출 대행), 변호사법 제3조,
+ * 근거: 행정사법 제2조 제1항(서류 작성·사실증명 서류 작성·번역·제출 대행), 법조 직역 관계 법령,
  * 공인노무사법 제2조, 세무사법 제2조. 행정사법에 행정심판 '대리' 규정은 없다 → "청구서 작성·제출 지원"까지만.
  * 외국어 사무소명은 Boss 미확정이므로 ko 외 로캘에서는 사무소명을 쓰지 않는다.
  */
@@ -29,7 +29,7 @@ const T: Record<L, {
     canNote:
       "근거: 행정사법 제2조 제1항 — 행정기관에 제출하는 서류의 작성, 권리·의무나 사실증명에 관한 서류의 작성, 작성한 서류의 제출 대행.",
     cannotLabel: "행정사가 할 수 없는 일",
-    cannot: ["형사재판 변호·소송 대리는 변호사 업무입니다."],
+    cannot: ["형사재판 변호·소송 대리는 행정사 업무 범위 밖입니다."],
     cannotExtra: [
       "노동 관계 법령에 따른 신고·진정·청구 등의 대리는 공인노무사 업무입니다.",
       "조세 신고·불복 청구의 대리는 세무사 업무입니다.",
@@ -48,7 +48,7 @@ const T: Record<L, {
     canNote:
       "Basis: Article 2(1) of Korea's Haengjeongsa Act (the statute governing administrative agents) — drafting documents submitted to administrative agencies, drafting documents that certify facts, and submitting the documents so prepared.",
     cannotLabel: "What we cannot do",
-    cannot: ["Defending you in a criminal trial or representing you in a lawsuit is the work of a lawyer."],
+    cannot: ["Defending you in a criminal trial or representing you in a lawsuit is outside the scope of an administrative scrivener."],
     cannotExtra: [
       "Acting for you in filings and complaints under labor laws is the work of a certified labor consultant.",
       "Acting for you in tax returns and tax appeals is the work of a certified tax accountant.",
@@ -67,7 +67,7 @@ const T: Record<L, {
     canNote:
       "依据：韩国《行政士法》第2条第1款——撰写向行政机关提交的文件、撰写证明事实的文件、代为提交所撰写的文件。",
     cannotLabel: "行政士不能做的事",
-    cannot: ["刑事审判中的辩护和诉讼代理属于律师业务。"],
+    cannot: ["刑事审判中的辩护和诉讼代理不属于行政士业务范围。"],
     cannotExtra: [
       "依劳动关系法令进行的申报、申诉、请求等代理属于公认劳务士业务。",
       "税务申报及税务争议请求的代理属于税务士业务。",
@@ -86,7 +86,7 @@ const T: Record<L, {
     canNote:
       "根拠：韓国行政士法第2条第1項 — 行政機関に提出する書類の作成、事実証明に関する書類の作成、作成した書類の提出代行。",
     cannotLabel: "行政書士にできないこと",
-    cannot: ["刑事裁判の弁護・訴訟代理は弁護士の業務です。"],
+    cannot: ["刑事裁判の弁護・訴訟代理は行政書士の業務範囲外です。"],
     cannotExtra: [
       "労働関係法令に基づく申告・陳情・請求などの代理は公認労務士の業務です。",
       "租税の申告・不服申立ての代理は税務士の業務です。",
@@ -105,7 +105,7 @@ const T: Record<L, {
     canNote:
       "Căn cứ: Luật Hành chính sĩ Hàn Quốc, Điều 2 khoản 1 — soạn văn bản nộp cho cơ quan hành chính, soạn văn bản chứng minh sự việc và nộp thay các văn bản đã soạn.",
     cannotLabel: "Việc chúng tôi không thể làm",
-    cannot: ["Bào chữa trong phiên tòa hình sự và đại diện tố tụng là công việc của luật sư."],
+    cannot: ["Bào chữa trong phiên tòa hình sự và đại diện tố tụng nằm ngoài phạm vi nghiệp vụ của hành chính sĩ."],
     cannotExtra: [
       "Đại diện khai báo, khiếu nại theo pháp luật lao động là công việc của chuyên viên lao động được cấp phép.",
       "Đại diện kê khai thuế và khiếu nại về thuế là công việc của chuyên viên thuế được cấp phép.",

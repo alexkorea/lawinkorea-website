@@ -121,6 +121,39 @@ for (const page of pages) {
   }
 }
 
+// ── 금지어 게이트 (C6, 맥7 2026-10-03 · 보스 msg 1698) ─────────────────
+// 운영 주체가 행정사사무소이므로 법조 직역·법률사무소 표현이 화면·메타·JSON-LD·RSC 어디에도 있으면 안 된다.
+// 블로그만이 아니라 빌드 산출물 전체(.next/server/app 의 html·rsc·json·js 등)와 블로그 생성 데이터를 본다.
+// 예외는 'power of attorney'(복수·하이픈 포함) 하나뿐. 우회 플래그 없음.
+// 패턴 문자열은 \u 이스케이프로 적는다 — 소스 재스캔에서 게이트 자신이 금지어로 잡히지 않게.
+export const BANNED_TERMS = new RegExp('\ubcc0\ud638\uc0ac|\ubc95\ubb34\ubc95\uc778|\ub85c\ud38c|(?<![Oo]f )(?<![Oo]f-)\\b(?:\\u006cawyers?|\\u0061ttorneys?|\\u006caw firms?|\\u006caw office)\\b|lu\u1eadt s\u01b0|\u5f8b\u5e08|(?<!\u8abf)\u5f8b\u5e2b|\u5f01\u8b77\u58eb|\u0430\u0434\u0432\u043e\u043a\u0430\u0442\\p{L}*|\u044e\u0440\u0438\u0441\u0442\\p{L}*|\u0e17\u0e19\u0e32\u0e22|\u0645\u062d\u0627\u0645\\p{L}*', 'giu');
+{
+  const exts = ['.html', '.rsc', '.txt', '.json', '.meta', '.body', '.js', '.xml'];
+  const all = [];
+  const walkAll = (dir) => {
+    if (!existsSync(dir)) return;
+    for (const e of readdirSync(dir)) {
+      const p = join(dir, e);
+      const st = statSync(p);
+      if (st.isDirectory()) walkAll(p);
+      else if (exts.some((x) => e.endsWith(x))) all.push(p);
+    }
+  };
+  walkAll(join(ROOT, '.next/server/app'));
+  const extra = [join(ROOT, 'app/data/blog-posts-data.ts')].filter((p) => existsSync(p));
+  let scanned = 0;
+  for (const f of [...all, ...extra]) {
+    const txt = readFileSync(f, 'utf8');
+    scanned++;
+    for (const m of txt.matchAll(BANNED_TERMS)) {
+      const ctx = txt.slice(Math.max(0, m.index - 40), m.index + m[0].length + 40).replace(/\s+/g, ' ');
+      violations.push(`${f.slice(ROOT.length + 1)} :: 금지어 "${m[0]}" … ${ctx}`);
+    }
+  }
+  if (!all.length) violations.push('.next/server/app :: 금지어 검사 대상 0건 — 빌드 산출물 경로 확인 필요');
+  else console.log(`[SEO GATE] 금지어 검사 ${scanned}개 파일`);
+}
+
 if (violations.length) {
   console.error(`\n[SEO GATE] 실패 — ${pages.length}개 페이지 중 위반 ${violations.length}건\n`);
   for (const v of violations.slice(0, 60)) console.error('  · ' + v);
@@ -128,4 +161,4 @@ if (violations.length) {
   console.error('');
   process.exit(1);
 }
-console.log(`[SEO GATE] 통과 — 블로그 ${pages.length}개 페이지 전항목 이상 없음`);
+console.log(`[SEO GATE] 통과 — 블로그 ${pages.length}개 페이지 전항목 이상 없음 · 빌드 산출물 금지어 0건`);

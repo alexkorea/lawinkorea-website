@@ -17,7 +17,7 @@ faq:
   - q: "Does self-surrender lighten punishment?"
     a: "Yes. In voice-phishing cases, self-surrender + investigation cooperation (co-defendant info) substantially reduces sentence and is strong mitigation. Some cases result in non-prosecution + status change."
   - q: "I responded to a part-time job ad and got pulled in. What now?"
-    a: "Immediate lawyer + scrivener consultation. Save: ad screenshots, KakaoTalk/messenger logs, transfer history, your earnings. Objective proof of normal-job perception is critical."
+    a: "Immediate scrivener consultation. Save: ad screenshots, KakaoTalk/messenger logs, transfer history, your earnings. Objective proof of normal-job perception is critical."
   - q: "Entry ban after voice phishing?"
     a: "Deportation typically: 5~10 years. Cash withdrawal in large amount: permanent possible. Simple courier + self-surrender + cooperation: shortened possible."
   - q: "Voice phishing record impact on F-5?"
@@ -86,7 +86,7 @@ Outcomes are typically deportation + 5–10 year entry ban. This guide explains 
 
 ## 4. Immediate Action
 
-### Step 1. Retain a criminal lawyer
+### Step 1. Deal with the criminal proceedings first
 Voice-phishing cases require strong criminal defense. Most consequential after drug cases.
 
 ### Step 2. Surrender + cooperate
@@ -173,15 +173,14 @@ Voice-phishing cases require strong criminal defense. Most consequential after d
 
 ## 9. Vision's Voice-Phishing Protocol
 
-### 5-step package
+### 4-step package
 1. Free initial diagnosis (same day, confidential)
-2. Lawyer connection (24 hours) — fraud specialist
-3. Surrender / cooperation simulation (1–2 days)
-4. Offense-review documents (10–14 days)
-5. Office attendance + post-decision strategy
+2. Surrender / cooperation simulation (1–2 days)
+3. Offense-review documents (10–14 days)
+4. Office attendance + post-decision strategy
 
 ### Confidentiality
-Voice-phishing cases impact family and workplace heavily. Vision maintains attorney-equivalent confidentiality.
+Voice-phishing cases impact family and workplace heavily. Vision keeps your consultation strictly confidential.
 
 ## 10. Act Now
 

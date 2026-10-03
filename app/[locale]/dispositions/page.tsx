@@ -180,7 +180,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
         <section style={{ marginBottom: 48 }}>
           <h2 style={{ fontSize: 22, fontWeight: 700, color: "#0a1628", marginBottom: 16 }}>행정구제의 가능성</h2>
-          <p style={{ lineHeight: 1.9, color: "#374151" }}>처분에 대해 이의신청, 행정심판, 행정소송 등을 검토할 수 있는 경우가 있습니다. 다만 모든 처분에 동일한 구제수단이 적용되는 것은 아니며, 사안과 기한에 따라 가능 여부가 달라집니다. 행정심판·소송 대리 등 변호사 업무가 필요한 부분은 협력 변호사와 연계하여 안내합니다.</p>
+          <p style={{ lineHeight: 1.9, color: "#374151" }}>처분에 대해 이의신청, 행정심판, 행정소송 등을 검토할 수 있는 경우가 있습니다. 다만 모든 처분에 동일한 구제수단이 적용되는 것은 아니며, 사안과 기한에 따라 가능 여부가 달라집니다. 소송·재판 대리는 하지 않습니다(행정사 업무 범위 밖).</p>
         </section>
 
         <div style={{ background: "#eff6ff", borderRadius: 8, padding: "32px 28px", textAlign: "center", marginBottom: 48 }}>

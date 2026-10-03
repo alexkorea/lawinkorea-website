@@ -21,7 +21,7 @@ const HEADER_TEXT: Record<LocaleParam, { eyebrow: string; title: string; subtitl
     eyebrow: "BLOG · INSIGHTS",
     title: "Korea Immigration Offense Review — In-Depth Guides",
     subtitle:
-      "Practical strategies for foreigners facing DUI, criminal cases, drug investigations, illegal employment, and visa crisis in Korea. Authored by Vision Administrative Law Office.",
+      "Practical strategies for foreigners facing DUI, criminal cases, drug investigations, illegal employment, and visa crisis in Korea. Authored by Vision Administrative Office.",
     cta: "Request a free consultation →",
   },
   zh: {

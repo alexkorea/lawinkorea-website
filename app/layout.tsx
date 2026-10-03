@@ -29,7 +29,6 @@ export const metadata: Metadata = {
     "외국인 행정사",
     "Korea immigration offense review",
     "DUI Korea visa",
-    "Korean visa lawyer",
   ],
   alternates: {
     canonical: `${SITE.url}/ko`,

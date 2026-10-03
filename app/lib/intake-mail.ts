@@ -6,7 +6,7 @@
 // 이메일·사안·문의내용 원문·다음 단계·사무소명·연락처.
 //
 // 금지: 금액 표현, 성공 보장 표현("반드시", "100%", "보장"), 그리고 운영 주체가
-// 행정사사무소이므로 "법무법인/변호사/law firm/attorney/lawyer" 계열 표현.
+// 행정사사무소이므로 법조 직역·법률사무소 계열 표현(금지어 목록은 scripts/seo-gate.mjs BANNED_TERMS).
 
 import { COMPANY, SITE } from "./constants";
 

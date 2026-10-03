@@ -143,7 +143,7 @@ const FAQ: Record<L, { q: string; a: string }[]> = {
   ko: [
     { q: "선샤인행정사사무소는 어떤 곳인가요?", a: "서울 중구 퇴계로 324, 3층(성우빌딩)에 있는 행정사 사무소이며 대표 행정사는 한경택입니다. 외국인의 출입국 사범심사와 체류 관련 처분에 필요한 서류의 작성·제출을 지원합니다." },
     { q: "행정사는 사범심사에서 무엇을 도와줄 수 있나요?", a: "행정사법 제2조 제1항에 따라 출입국관서에 제출하는 서류의 작성과 제출 대행, 사실관계를 증명하는 서류의 작성, 행정기관 업무와 관련된 서류의 번역을 할 수 있습니다. 의견서·반성문·탄원서 작성도 이 범위에서 지원합니다." },
-    { q: "형사재판 변호도 맡아 주나요?", a: "아닙니다. 형사재판 변호와 소송 대리는 변호사 업무입니다. 형사절차가 진행 중이라면 변호사 상담을 함께 받으시도록 안내합니다." },
+    { q: "형사재판 변호도 맡아 주나요?", a: "아닙니다. 형사재판 변호와 소송 대리는 행정사 업무 범위 밖이라 맡지 않습니다." },
     { q: "출국명령이나 강제퇴거명령에 대한 행정심판도 대리하나요?", a: "행정심판은 대리하지 않고, 행정심판 청구서의 작성과 제출을 지원합니다. 행정심판은 처분이 있음을 알게 된 날부터 90일 이내에 서면으로 청구해야 합니다(행정심판법 제27조 제1항, 제28조 제1항)." },
     { q: "노동 문제나 세금 문제도 상담할 수 있나요?", a: "노동 관계 법령에 따른 신고·진정 등의 대리는 공인노무사, 조세 신고·불복의 대리는 세무사 업무입니다. 해당 절차가 필요하면 그 전문가를 찾으시도록 안내합니다." },
     { q: "어떤 언어로 상담할 수 있나요?", a: "한국어·영어·중국어·일본어로 상담합니다. 베트남어 상담은 제공하지 않습니다." },
@@ -154,7 +154,7 @@ const FAQ: Record<L, { q: string; a: string }[]> = {
   en: [
     { q: "Who runs this website?", a: "An administrative scrivener office located on the 3rd floor of the Sungwoo Building, 324 Toegye-ro, Jung-gu, Seoul. The office prepares and submits documents for foreign nationals facing an immigration offense review or a residence-related disposition." },
     { q: "What can an administrative scrivener do in an immigration offense review?", a: "Under Article 2(1) of Korea's Haengjeongsa Act, an administrative scrivener may draft documents submitted to administrative agencies, draft documents that certify facts, translate documents related to administrative work, and submit the documents so prepared. Help with statements of opinion, letters of apology and petitions falls within this scope." },
-    { q: "Can you defend me in a criminal trial?", a: "No. Criminal defense and representation in lawsuits are the work of a lawyer. If your criminal case is still open, we will recommend that you also consult a lawyer." },
+    { q: "Can you defend me in a criminal trial?", a: "No. Criminal defense and representation in lawsuits are outside the scope of an administrative scrivener, so we do not handle them." },
     { q: "Can you represent me in an administrative appeal against a departure or deportation order?", a: "We do not act as your representative in an administrative appeal, but we help you prepare and file the written petition. Under Korea's Administrative Appeals Act, the petition must be filed in writing within 90 days of the date you learned of the disposition (Article 27(1), Article 28(1))." },
     { q: "Can you help with labor or tax matters?", a: "Acting for you in filings and complaints under labor laws is the work of a certified labor consultant, and acting for you in tax returns and tax appeals is the work of a certified tax accountant. If you need those procedures, we will point you to the right professional." },
     { q: "Which languages can I consult in?", a: "Korean, English, Chinese and Japanese. Consultation in Vietnamese is not available." },
@@ -164,7 +164,7 @@ const FAQ: Record<L, { q: string; a: string }[]> = {
   zh: [
     { q: "这个网站由谁运营？", a: "由位于首尔中区退溪路324号Sungwoo大厦3层的行政士事务所运营。事务所为面临出入境违规审查或居留相关处分的外国人撰写并提交所需文件。" },
     { q: "在出入境违规审查中，行政士能提供哪些帮助？", a: "根据韩国《行政士法》第2条第1款，行政士可以撰写向行政机关提交的文件、撰写证明事实的文件、翻译与行政机关业务相关的文件，并代为提交所撰写的文件。协助撰写意见书、悔过书和求情信也在这一范围之内。" },
-    { q: "可以在刑事审判中为我辩护吗？", a: "不可以。刑事辩护和诉讼代理属于律师业务。如果您的刑事程序仍在进行，我们会建议您同时咨询律师。" },
+    { q: "可以在刑事审判中为我辩护吗？", a: "不可以。刑事辩护和诉讼代理不属于行政士业务范围，本所不予承办。" },
     { q: "针对出境命令或强制出境命令的行政审判，可以代理吗？", a: "我们不代理行政审判，但会协助您撰写并提交行政审判请求书。根据韩国《行政审判法》，须在知道处分之日起90日内以书面形式提出请求（第27条第1款、第28条第1款）。" },
     { q: "劳动或税务问题也可以咨询吗？", a: "依劳动关系法令进行的申报、申诉等代理属于公认劳务士业务，税务申报及税务争议的代理属于税务士业务。如需办理这些程序，我们会建议您寻找相应的专业人士。" },
     { q: "可以用哪些语言咨询？", a: "可以使用韩语、英语、中文和日语咨询。不提供越南语咨询。" },
@@ -174,7 +174,7 @@ const FAQ: Record<L, { q: string; a: string }[]> = {
   ja: [
     { q: "このサイトはどこが運営していますか？", a: "ソウル中区退渓路324、Sungwooビル3階にある行政書士事務所が運営しています。出入国事犯審査や在留に関する処分を受けた外国人のために、必要な書類の作成・提出を支援しています。" },
     { q: "出入国事犯審査で、行政書士は何を手伝えますか？", a: "韓国行政士法第2条第1項により、行政機関に提出する書類の作成、事実証明に関する書類の作成、行政機関の業務に関する書類の翻訳、作成した書類の提出代行ができます。意見書・反省文・嘆願書の作成支援もこの範囲で行います。" },
-    { q: "刑事裁判の弁護もお願いできますか？", a: "できません。刑事弁護と訴訟代理は弁護士の業務です。刑事手続きが続いている場合は、弁護士への相談もあわせてご案内します。" },
+    { q: "刑事裁判の弁護もお願いできますか？", a: "できません。刑事弁護と訴訟代理は行政書士の業務範囲外ですので、お引き受けしていません。" },
     { q: "出国命令や強制退去命令に対する行政審判の代理はできますか？", a: "行政審判の代理は行わず、行政審判請求書の作成・提出を支援します。韓国の行政審判法では、処分があったことを知った日から90日以内に書面で請求しなければなりません（第27条第1項、第28条第1項）。" },
     { q: "労働問題や税金の問題も相談できますか？", a: "労働関係法令に基づく申告・陳情などの代理は公認労務士、租税の申告・不服申立ての代理は税務士の業務です。こうした手続きが必要な場合は、該当する専門家をご案内します。" },
     { q: "どの言語で相談できますか？", a: "韓国語・英語・中国語・日本語で相談できます。ベトナム語での相談には対応していません。" },
@@ -184,7 +184,7 @@ const FAQ: Record<L, { q: string; a: string }[]> = {
   vi: [
     { q: "Ai vận hành trang web này?", a: "Một văn phòng hành chính sĩ tại tầng 3 tòa Sungwoo, 324 Toegye-ro, Jung-gu, Seoul. Văn phòng soạn và nộp hồ sơ cho người nước ngoài đang phải thẩm tra vi phạm xuất nhập cảnh hoặc nhận quyết định liên quan đến lưu trú." },
     { q: "Trong thẩm tra vi phạm xuất nhập cảnh, hành chính sĩ có thể giúp gì?", a: "Theo Điều 2 khoản 1 Luật Hành chính sĩ Hàn Quốc, hành chính sĩ được soạn văn bản nộp cho cơ quan hành chính, soạn văn bản chứng minh sự việc, dịch văn bản liên quan đến công việc của cơ quan hành chính và nộp thay các văn bản đã soạn. Việc hỗ trợ soạn bản ý kiến, thư hối lỗi và đơn xin giảm nhẹ nằm trong phạm vi này." },
-    { q: "Văn phòng có bào chữa cho tôi trong phiên tòa hình sự không?", a: "Không. Bào chữa hình sự và đại diện tố tụng là công việc của luật sư. Nếu vụ án hình sự của bạn vẫn đang diễn ra, chúng tôi sẽ khuyên bạn tham khảo thêm ý kiến luật sư." },
+    { q: "Văn phòng có bào chữa cho tôi trong phiên tòa hình sự không?", a: "Không. Bào chữa hình sự và đại diện tố tụng nằm ngoài phạm vi nghiệp vụ của hành chính sĩ, nên chúng tôi không nhận." },
     { q: "Văn phòng có đại diện cho tôi khi yêu cầu xét lại lệnh xuất cảnh hoặc lệnh trục xuất không?", a: "Chúng tôi không làm người đại diện, nhưng hỗ trợ bạn soạn và nộp đơn yêu cầu xét lại quyết định hành chính. Theo Luật Xét xử hành chính Hàn Quốc, đơn phải được nộp bằng văn bản trong vòng 90 ngày kể từ ngày bạn biết có quyết định (Điều 27 khoản 1, Điều 28 khoản 1)." },
     { q: "Tôi có thể hỏi về vấn đề lao động hoặc thuế không?", a: "Đại diện khai báo, khiếu nại theo pháp luật lao động là công việc của chuyên viên lao động được cấp phép; đại diện kê khai và khiếu nại về thuế là công việc của chuyên viên thuế được cấp phép. Nếu cần các thủ tục đó, chúng tôi sẽ hướng dẫn bạn tìm đúng chuyên gia." },
     { q: "Tôi có thể được tư vấn bằng ngôn ngữ nào?", a: "Tiếng Hàn, tiếng Anh, tiếng Trung và tiếng Nhật. Văn phòng không tư vấn bằng tiếng Việt." },

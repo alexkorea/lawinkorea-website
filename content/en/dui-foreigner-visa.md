@@ -118,7 +118,7 @@ The difference is **not BAC**. It's **document depth and preparation**.
 
 ## 5. What an Administrative Scrivener Adds
 
-[Vision Administrative Law Office](/en) brings:
+[Vision Administrative Office](/en) brings:
 
 ### (1) Pre-attendance simulation
 30 typical questions practiced. Saying "I only had one drink" creates greater risk.
@@ -137,14 +137,14 @@ Within 30 days of the result, we initiate objection, status change, or voluntary
 **1. "I paid the fine, so I'm safe."** → Criminal and administrative are separate.
 **2. "First offense, they'll be lenient."** → BAC ≥ 0.20% or accident: deportation possible even on first offense.
 **3. "I'm married to a Korean, so no deportation."** → F-6 still subjects you to review. Family matters but is not a shield.
-**4. "My lawyer closed the criminal case."** → Lawyers handle criminal court; the offense review is administrative.
+**4. "The criminal case is closed, so it's over."** → The criminal case and the offense review are separate; the offense review is an administrative procedure.
 **5. "I'll just attend solo and tell the truth."** → 30~50% of outcomes hinge on document quality. Solo preparation rarely matches scrivener-quality work.
 
 ## 7. Start Now
 
 If you've been caught for DUI, **start preparing for the review even before the criminal track ends.** Starting after criminal closure usually leaves too little time before the appearance.
 
-Vision Administrative Law Office offers a **free initial diagnosis** — Korean, English, Chinese, Japanese all supported.
+Vision Administrative Office offers a **free initial diagnosis** — Korean, English, Chinese, Japanese all supported.
 
 [Request your free diagnosis →](/en)
 

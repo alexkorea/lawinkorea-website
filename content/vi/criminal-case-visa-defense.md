@@ -152,8 +152,8 @@ Khác biệt không nằm ở tội danh hay số tiền phạt, mà ở **độ
 
 ## 5. Năm sai lầm phổ biến nhất
 
-**Sai lầm 1: "Luật sư lo xong phần hình sự là xong"**
-→ Luật sư chuyên bào chữa hình sự. Thủ tục hành chính xuất nhập cảnh là việc khác.
+**Sai lầm 1: "Phần hình sự đã xong là xong"**
+→ Thủ tục hình sự và thủ tục hành chính xuất nhập cảnh là hai việc khác nhau.
 
 **Sai lầm 2: "Nộp phạt đủ rồi thì bên xuất nhập cảnh sẽ thông cảm"**
 → Xuất nhập cảnh xét lại theo tiêu chuẩn riêng. Việc nộp phạt tự nó không phải tình tiết giảm nhẹ.

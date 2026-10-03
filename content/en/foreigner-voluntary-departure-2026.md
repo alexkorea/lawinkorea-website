@@ -114,7 +114,7 @@ Even after receiving an entry ban, you may be eligible to apply for its removal.
 - Documents related to dependents (if applicable)
 - Other materials proving the necessity of removal
 
-Entry ban removal is not a guaranteed right — persuasive documentation is key. Working with a licensed administrative attorney significantly increases your chances.
+Entry ban removal is not a guaranteed right — persuasive documentation is key. Working with a licensed administrative scrivener significantly increases your chances.
 
 ## Important Warnings About Overstaying
 
@@ -156,7 +156,7 @@ Yes. Unauthorized employment is a separate violation under the Immigration Act, 
 ---
 
 Acting quickly on overstay matters significantly reduces your exposure to penalties.
-VISION Administrative Attorney Office guides you through voluntary departure, entry ban removal, and re-entry visa applications — step by step.
+VISION Administrative Office guides you through voluntary departure, entry ban removal, and re-entry visa applications — step by step.
 
 **Book your free consultation now.**
 

@@ -18,7 +18,7 @@ faq:
   - q: "Tự thú có được giảm nhẹ không?"
     a: "Có. Trong các vụ lừa đảo qua điện thoại, tự thú + hợp tác điều tra (cung cấp thông tin đồng phạm) có tác dụng rất mạnh cả về giảm án lẫn giảm nhẹ tại buổi xem xét. Một số vụ đã kết thúc bằng tạm đình chỉ truy tố + thay đổi tư cách."
   - q: "Tôi bị lừa qua tin tuyển việc làm thêm dành cho người nước ngoài. Tôi phải làm gì?"
-    a: "Hãy tư vấn luật sư và hành chính sĩ ngay. Lưu lại toàn bộ ảnh chụp tin tuyển dụng, lịch sử trò chuyện KakaoTalk/tin nhắn, lịch sử chuyển khoản và số tiền thù lao đã nhận. Tài liệu chứng minh khách quan rằng bạn nhận thức đó là việc làm thêm bình thường là mấu chốt."
+    a: "Hãy tư vấn hành chính sĩ ngay. Lưu lại toàn bộ ảnh chụp tin tuyển dụng, lịch sử trò chuyện KakaoTalk/tin nhắn, lịch sử chuyển khoản và số tiền thù lao đã nhận. Tài liệu chứng minh khách quan rằng bạn nhận thức đó là việc làm thêm bình thường là mấu chốt."
   - q: "Sau khi tham gia thì bị cấm nhập cảnh bao lâu?"
     a: "Khi bị trục xuất, thường là 5~10 năm. Người rút tiền với số tiền lớn có thể bị cấm vĩnh viễn. Người chỉ chuyển tiền + tự thú + hợp tác thì có thể được rút ngắn."
   - q: "Hồ sơ vụ lừa đảo qua điện thoại ảnh hưởng thế nào đến thường trú?"
@@ -90,8 +90,8 @@ Kết quả phổ biến là trục xuất + cấm nhập cảnh 5~10 năm.
 
 ## 4. Việc phải làm ngay sau khi sự việc xảy ra
 
-### Bước 1. Mời luật sư ngay
-Thủ tục hình sự với loại án này rất nặng. **Vai trò của luật sư hình sự chỉ đứng sau án ma túy về mức độ quyết định.**
+### Bước 1. Ưu tiên xử lý thủ tục hình sự
+Thủ tục hình sự với loại án này rất nặng. **Vai trò của bào chữa hình sự chỉ đứng sau án ma túy về mức độ quyết định.**
 
 ### Bước 2. Quyết định tự thú + hợp tác
 - Nếu chưa bị phát hiện: tự thú ngay → cung cấp thông tin đồng phạm → có thể được giảm án
@@ -178,15 +178,14 @@ Khi người nước ngoài cho mượn tài khoản ngân hàng Hàn Quốc c�
 
 ## 9. Cách VISION hỗ trợ
 
-### Gói 5 bước
+### Gói 4 bước
 1. **Chẩn đoán ban đầu miễn phí** (trong ngày, bảo mật) — phân tích rủi ro hình sự + xem xét vi phạm
-2. **Kết nối luật sư** (trong 24 giờ) — luật sư chuyên án lừa đảo
-3. **Diễn tập tự thú hoặc hợp tác** (1~2 ngày) — sắp xếp thời điểm và nội dung khai báo
-4. **Thu thập hồ sơ cho buổi xem xét** (10~14 ngày)
-5. **Đồng hành tại buổi xem xét + chiến lược tiếp theo**
+2. **Diễn tập tự thú hoặc hợp tác** (1~2 ngày) — sắp xếp thời điểm và nội dung khai báo
+3. **Thu thập hồ sơ cho buổi xem xét** (10~14 ngày)
+4. **Đồng hành tại buổi xem xét + chiến lược tiếp theo**
 
 ### Cam kết bảo mật
-Loại vụ việc này nếu bị gia đình hay nơi làm việc biết sẽ gây ảnh hưởng lớn. Văn phòng chúng tôi chịu nghĩa vụ bảo mật tương đương luật sư.
+Loại vụ việc này nếu bị gia đình hay nơi làm việc biết sẽ gây ảnh hưởng lớn. Văn phòng chúng tôi giữ bí mật tuyệt đối nội dung tư vấn.
 
 ## 10. Hãy hành động ngay
 

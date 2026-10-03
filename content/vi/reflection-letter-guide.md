@@ -24,7 +24,7 @@ faq:
   - q: "Tôi có thể viết bằng tiếng mẹ đẻ không?"
     a: "Hãy viết bằng ngôn ngữ bạn diễn đạt chính xác nhất và kèm bản dịch tiếng Hàn để cán bộ phụ trách đọc được đúng nội dung. Dịch văn bản liên quan đến công việc của cơ quan hành chính thuộc phạm vi công việc của hành chính sĩ (Luật Hành chính sĩ Hàn Quốc, Điều 2 khoản 1 điểm 3)."
   - q: "Hành chính sĩ có viết thay thư hối lỗi không?"
-    a: "Chúng tôi hỗ trợ sắp xếp bố cục và câu chữ dựa trên những sự việc bạn xác nhận, dịch và nộp thư. Nội dung phải là hoàn cảnh thật của bạn. Bào chữa trong phiên tòa hình sự là công việc của luật sư."
+    a: "Chúng tôi hỗ trợ sắp xếp bố cục và câu chữ dựa trên những sự việc bạn xác nhận, dịch và nộp thư. Nội dung phải là hoàn cảnh thật của bạn. Bào chữa trong phiên tòa hình sự nằm ngoài phạm vi nghiệp vụ của hành chính sĩ."
 related:
   - "immigration-offense-review-guide"
   - "dui-foreigner-visa"
@@ -38,7 +38,7 @@ Thư hối lỗi và đơn xin giảm nhẹ nộp khi thẩm tra vi phạm xuấ
 > - Đơn xin giảm nhẹ: gia đình, chủ sử dụng hoặc người quen làm chứng về cuộc sống, hoàn cảnh của bạn và xin xem xét khoan hồng
 > - Viết theo các yếu tố luật quy định (tuổi và hoàn cảnh, động cơ và hậu quả, khả năng chi trả, số lần vi phạm) và kèm chứng cứ
 > - Nội dung mâu thuẫn với lời khai trong biên bản điều tra sẽ gây bất lợi
-> - Hành chính sĩ hỗ trợ soạn, dịch và nộp; bào chữa hình sự là công việc của luật sư
+> - Hành chính sĩ hỗ trợ soạn, dịch và nộp; bào chữa hình sự nằm ngoài phạm vi nghiệp vụ của hành chính sĩ
 
 ## 1. Thư hối lỗi và đơn xin giảm nhẹ có vai trò gì khi thẩm tra vi phạm?
 
@@ -110,7 +110,7 @@ Thư hối lỗi và đơn xin giảm nhẹ chỉ có ý nghĩa khi được n�
 - **Dịch sang tiếng Hàn** thư hối lỗi và chứng cứ viết bằng ngôn ngữ khác
 - **Nộp thay** tại cơ quan xuất nhập cảnh và chuẩn bị trước buổi làm việc
 
-Hành chính sĩ được soạn văn bản nộp cho cơ quan hành chính, soạn văn bản chứng minh sự việc, dịch và nộp thay các văn bản đó (Luật Hành chính sĩ Hàn Quốc, Điều 2 khoản 1). Bào chữa trong phiên tòa hình sự và đại diện tố tụng là **công việc của luật sư**; nếu thủ tục hình sự vẫn đang diễn ra, chúng tôi sẽ khuyên bạn tham khảo thêm luật sư.
+Hành chính sĩ được soạn văn bản nộp cho cơ quan hành chính, soạn văn bản chứng minh sự việc, dịch và nộp thay các văn bản đó (Luật Hành chính sĩ Hàn Quốc, Điều 2 khoản 1). Bào chữa trong phiên tòa hình sự và đại diện tố tụng **nằm ngoài phạm vi nghiệp vụ của hành chính sĩ**, nên chúng tôi không nhận.
 
 > **Căn cứ chính thức — nội dung điều luật (bản dịch tiếng Việt của chúng tôi)**
 > - Luật Quản lý Xuất nhập cảnh Điều 103 khoản 2: "Bộ trưởng Tư pháp có thể miễn thông báo xử lý theo Điều 102 khoản 1, có xem xét tuổi và hoàn cảnh của người vi phạm, động cơ và hậu quả của vi phạm, khả năng chi trả tiền phạt và các tình tiết khác."

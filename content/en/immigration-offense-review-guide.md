@@ -7,10 +7,10 @@ cluster: "pillar"
 keywords:
   - "Korea immigration offense review"
   - "사범심사 foreigner Korea"
-  - "Korean visa lawyer DUI"
+  - "Korea DUI visa review"
   - "Korea deportation defense"
   - "Korea visa denial appeal"
-  - "Vision Administrative Law Office"
+  - "Vision Administrative Office"
 faq:
   - q: "What is an Immigration Offense Review (사범심사)?"
     a: "A separate administrative procedure conducted by the Korea Immigration Office to re-examine a foreigner's residence status after a violation of immigration law or a criminal case. It runs independently from criminal proceedings, and outcomes include visa renewal denial, departure order, deportation, or entry ban."
@@ -18,8 +18,8 @@ faq:
     a: "Yes. Criminal punishment (including fines) and administrative offense reviews are separate procedures. Even a fine under 1 million KRW does not exempt you. Immigration evaluates your status under its own standards."
   - q: "How many days do I have to appear after receiving a notice?"
     a: "Read the notice carefully — typically 7–14 days. Failure to appear without justification may result in unfavorable decisions. If language is a barrier, request a certified administrative scrivener with multilingual support immediately."
-  - q: "Can an administrative scrivener (행정사) handle this, or do I need a lawyer?"
-    a: "Administrative scriveners are statutorily authorized to prepare and submit immigration documents. For criminal court representation, an attorney is required. Vision Administrative Law Office provides scrivener services and partners with attorneys for combined criminal-administrative response."
+  - q: "Can an administrative scrivener (행정사) handle the offense review?"
+    a: "Yes. Administrative scriveners are statutorily authorized to prepare and submit immigration documents. We do not handle litigation or court representation, including criminal defense (outside the scope of an administrative scrivener)."
   - q: "If deportation is decided, is everything over?"
     a: "No. You can file an objection (행정심판) within 90 days, or convert to voluntary departure (which shortens the entry-ban period), or apply for status change. Speed (within 30 days) is critical."
   - q: "My visa expires soon and the review is pending — what happens?"
@@ -54,7 +54,7 @@ An Immigration Offense Review is an administrative procedure under **Articles 46
 Three core points:
 
 - **It is independent from criminal proceedings.** A finalized criminal fine or even an acquittal does not end the review.
-- **The Immigration Office decides unilaterally.** A lawyer is not legally required, but representation by a certified administrative scrivener or attorney materially improves outcomes.
+- **The Immigration Office decides unilaterally.** Professional representation is not legally required, but support from a certified administrative scrivener materially improves outcomes.
 - **Possible outcomes include:** continued status, visa change, departure order, deportation, and entry ban.
 
 In short, this single procedure can determine whether you can continue your life in Korea.
@@ -107,7 +107,7 @@ Materials that allow an Immigration officer to conclude "this foreigner contribu
 ### (4) Draft a Reason Statement (사유서) and Petition (탄원서)
 Not a generic apology — a logically structured argument from Immigration's perspective: **why this incident will not recur, and why this foreigner's continued residence benefits Korean society.**
 
-### (5) Consult an Administrative Scrivener or Attorney Immediately
+### (5) Consult an Administrative Scrivener Immediately
 A solo appearance often misses what to emphasize. Pre-appearance simulation with someone who knows Immigration practice creates a decisive difference.
 
 [Request a free initial diagnosis →](/en)
@@ -124,17 +124,16 @@ A solo appearance often misses what to emphasize. Pre-appearance simulation with
 
 The biggest distinction is between **departure order** and **deportation**. A departure order treats your exit as voluntary with relatively light entry restrictions; deportation creates **permanent disqualifying grounds** for Korean permanent residency / nationality.
 
-## 5. Administrative Scrivener vs Attorney
+## 5. What an Administrative Scrivener Does — and Does Not Do
 
-| Domain | Administrative Scrivener (행정사) | Attorney (변호사) |
-|---|---|---|
-| Immigration administrative procedures (review attendance, documents) | ⭐ Specialized | Possible |
-| Criminal court representation | Not allowed | ⭐ Specialized |
-| Visa applications/extensions/changes | ⭐ Specialized | Possible |
-| Administrative appeals/litigation | Administrative appeals possible | All possible |
-| Cost | Generally more affordable | Varies widely |
+| Domain | Administrative Scrivener (행정사) |
+|---|---|
+| Immigration administrative procedures (review attendance, documents) | ⭐ Specialized |
+| Criminal court representation | Not handled (outside the scope of an administrative scrivener) |
+| Visa applications/extensions/changes | ⭐ Specialized |
+| Administrative appeals/litigation | Administrative appeals possible (litigation is outside the scope) |
 
-**Most foreign Immigration Offense Reviews are administrative procedures following the conclusion of criminal cases**, making administrative scriveners the cost-effective primary partner. When concurrent criminal defense is needed (e.g., trial in progress), Vision Administrative Law Office collaborates with partner attorneys to handle both administrative and criminal tracks.
+**Most foreign Immigration Offense Reviews are administrative procedures following the conclusion of criminal cases**, making administrative scriveners the cost-effective primary partner. Even when criminal proceedings are still under way (e.g., trial in progress), Vision Administrative Office handles only the administrative track; we do not handle litigation or court representation (outside the scope of an administrative scrivener).
 
 ## 6. Vision's Five-Step Response Protocol
 
@@ -149,12 +148,12 @@ Detailed analysis of criminal record, immigration history, visa lineage. We iden
 Document list and collection methods specific to your case. We separate items the client can collect from items we will gather on your behalf.
 
 ### Step 4. Document Completion (7–10 days before appearance)
-Reason statements, petitions, mitigation materials. Reviewed by attorney or scrivener; final document pack assembled.
+Reason statements, petitions, mitigation materials. Reviewed by an administrative scrivener; final document pack assembled.
 
 ### Step 5. Appearance Support and Strategy (day-of + 30 days post)
 Office attendance with you, or a thorough simulation. Within 30 days of disposition, we propose follow-up strategy (objection, voluntary departure, status change, etc.).
 
-> This office performs document preparation and submission under the Administrative Scrivener Act. For court representation and criminal defense, we connect you with our partner attorneys.
+> This office performs document preparation and submission under the Administrative Scrivener Act. We do not handle litigation or court representation, including criminal defense (outside the scope of an administrative scrivener).
 
 ## 7. Frequently Asked Questions
 
@@ -173,4 +172,4 @@ The 10 essential Q&A above (FAQ section) cover the core questions. Case-specific
 
 Among foreigners who have received an Immigration Offense Review, the most common regret is, **"I should have called a professional sooner."** A single disposition can reverse 5 to 10 years of life plans in Korea.
 
-Vision Administrative Law Office offers a free initial diagnosis. **Reach out without commitment.** Korean, English, Chinese, Japanese — all supported.
+Vision Administrative Office offers a free initial diagnosis. **Reach out without commitment.** Korean, English, Chinese, Japanese — all supported.

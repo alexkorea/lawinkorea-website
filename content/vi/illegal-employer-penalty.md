@@ -26,7 +26,7 @@ faq:
   - q: "Việc tuyển lao động theo chế độ cấp phép việc làm (E-9) có bị ảnh hưởng không?"
     a: "Theo Điều 20 khoản 1 điểm 3 Luật về việc làm của lao động nước ngoài, chủ sử dụng đã bị xử phạt do vi phạm luật này hoặc Luật Quản lý Xuất nhập cảnh có thể bị cơ quan ổn định việc làm hạn chế tuyển lao động nước ngoài trong 3 năm kể từ ngày phát sinh sự việc."
   - q: "Tôi có thể giao cho hành chính sĩ những việc gì?"
-    a: "Soạn và nộp thay bản giải trình, bản ý kiến gửi cơ quan xuất nhập cảnh; sắp xếp và dịch tài liệu liên quan. Bào chữa trong giai đoạn điều tra, xét xử hình sự sau khi bị tố giác là công việc của luật sư."
+    a: "Soạn và nộp thay bản giải trình, bản ý kiến gửi cơ quan xuất nhập cảnh; sắp xếp và dịch tài liệu liên quan. Bào chữa trong giai đoạn điều tra, xét xử hình sự sau khi bị tố giác nằm ngoài phạm vi nghiệp vụ của hành chính sĩ."
 related:
   - "illegal-employment-penalty"
   - "immigration-fine-notice-response-2026"
@@ -122,7 +122,7 @@ Nội dung không khớp với biên bản lời khai có thể gây bất lợi
 - **Sắp xếp tài liệu** như hợp đồng, bảng lương và **dịch** tài liệu tiếng nước ngoài
 - **Soạn hồ sơ mời** người nước ngoài sau khi hết thời hạn hạn chế
 
-Bào chữa trong giai đoạn điều tra, xét xử hình sự sau khi bị tố giác là **công việc của luật sư**; đại diện trong các thủ tục theo pháp luật lao động như chế độ cấp phép việc làm là công việc của chuyên viên lao động được cấp phép. Trong những trường hợp đó, chúng tôi sẽ gợi ý chuyên gia phù hợp.
+Bào chữa trong giai đoạn điều tra, xét xử hình sự sau khi bị tố giác **nằm ngoài phạm vi nghiệp vụ của hành chính sĩ** nên chúng tôi không nhận; đại diện trong các thủ tục theo pháp luật lao động như chế độ cấp phép việc làm là công việc của chuyên viên lao động được cấp phép, vì vậy bạn nên tham khảo chuyên viên này.
 
 > **Căn cứ chính thức — nội dung điều luật (bản dịch tiếng Việt của chúng tôi)**
 > - Luật Quản lý Xuất nhập cảnh Điều 18 khoản 3: "Không ai được thuê người không có tư cách lưu trú theo khoản 1."

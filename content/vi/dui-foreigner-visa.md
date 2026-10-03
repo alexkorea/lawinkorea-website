@@ -144,8 +144,8 @@ Ngay khi có kết quả, bắt đầu ngay việc khiếu nại trong 30 ngày,
 **Hiểu lầm 3: "Tôi kết hôn với người Hàn nên không bị trục xuất."**
 → Ngay cả visa kết hôn F-6, khi bị xử phạt vì DUI vẫn thuộc diện xem xét. Việc có gia đình chỉ là yếu tố giảm nhẹ.
 
-**Hiểu lầm 4: "Luật sư xong phần hình sự là hết."**
-→ Luật sư chuyên bào chữa hình sự. Xem xét vi phạm xuất nhập cảnh là thủ tục hành chính, thuộc lĩnh vực của hành chính sĩ.
+**Hiểu lầm 4: "Xong phần hình sự là hết."**
+→ Dù phần hình sự đã xong, xem xét vi phạm xuất nhập cảnh vẫn là thủ tục hành chính riêng, thuộc lĩnh vực của hành chính sĩ.
 
 **Hiểu lầm 5: "Tự đi cũng như nhau."**
 → 30~50% kết quả phụ thuộc chất lượng tài liệu giảm nhẹ. Hồ sơ tự chuẩn bị và hồ sơ do hành chính sĩ sắp xếp có sức thuyết phục rất khác nhau.

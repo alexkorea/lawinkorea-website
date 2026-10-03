@@ -16,7 +16,7 @@ faq:
   - q: "Khai báo xuất cảnh tự nguyện ở đâu?"
     a: "Đến trực tiếp văn phòng xuất nhập cảnh quản lý nơi cư trú, một số trường hợp có thể khai báo qua điện thoại. Tại Seoul là Văn phòng Xuất nhập cảnh Seoul (02-2650-6300); các khu vực khác liên hệ văn phòng địa phương. Hi Korea (www.hikorea.go.kr) cũng có kênh khai báo trực tuyến cho một số trường hợp."
   - q: "Đơn xin dỡ bỏ lệnh cấm bị từ chối thì làm gì?"
-    a: "Sau khi nhận thông báo từ chối, hãy xác nhận lý do, bổ sung tài liệu và nộp lại. Ngoài ra có thể yêu cầu xét xử hành chính hoặc khiếu nại ra tòa. Nên cùng hành chính sĩ hoặc luật sư xây dựng chiến lược."
+    a: "Sau khi nhận thông báo từ chối, hãy xác nhận lý do, bổ sung tài liệu và nộp lại. Ngoài ra có thể yêu cầu xét xử hành chính hoặc khiếu nại ra tòa. Nên cùng hành chính sĩ xây dựng chiến lược."
   - q: "Có vợ/chồng người Hàn thì dễ được dỡ lệnh cấm hơn không?"
     a: "Việc có vợ/chồng người Hàn là yếu tố quan trọng khi thẩm định. Đặc biệt nếu có con phụ thuộc hoặc người phối ngẫu đứng ra bảo lãnh thì khả năng cao hơn. Nhưng không phải tự động được dỡ, vẫn phải chuẩn bị hồ sơ đầy đủ."
   - q: "Có đi làm trong thời gian cư trú bất hợp pháp thì bị xử nặng hơn không?"
@@ -156,7 +156,7 @@ Hi Korea ([www.hikorea.go.kr](https://www.hikorea.go.kr)) cũng có kênh khai b
 
 A. Sau khi nhận thông báo từ chối, hãy xác nhận lý do, bổ sung tài liệu và nộp lại.
 Ngoài ra có thể yêu cầu xét xử hành chính hoặc khiếu nại ra tòa.
-Nên cùng hành chính sĩ hoặc luật sư xây dựng chiến lược ứng phó.
+Nên cùng hành chính sĩ xây dựng chiến lược ứng phó.
 
 **Q. Có vợ/chồng người Hàn thì dễ được dỡ lệnh cấm hơn không?**
 
