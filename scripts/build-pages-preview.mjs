@@ -103,6 +103,8 @@ fs.writeFileSync(
         "/qr/*",
         "/favicon.ico",
         "/llms.txt",
+        // IndexNow 키 파일(맥7 0939t) — 워커는 정적파일을 모르므로 정적 제외해야 200
+        "/b6fc3cca43c035b047b0b3122f3748c7.txt",
         "/*.png",
         "/*.svg",
         "/*.jpg",
