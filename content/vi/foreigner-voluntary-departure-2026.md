@@ -14,7 +14,7 @@ faq:
   - q: "Tôi quá hạn chưa tới 1 tháng, xuất cảnh tự nguyện có tránh được lệnh cấm không?"
     a: "Với thời gian quá hạn dưới 1 tháng, xuất cảnh tự nguyện thường được miễn lệnh cấm hoặc chỉ bị cấm ngắn hạn dưới 1 năm. Tuy nhiên kết quả phụ thuộc đánh giá của cơ quan xuất nhập cảnh, nên hãy tư vấn chuyên gia trước khi rời đi."
   - q: "Khai báo xuất cảnh tự nguyện ở đâu?"
-    a: "Đến trực tiếp văn phòng xuất nhập cảnh quản lý nơi cư trú, một số trường hợp có thể khai báo qua điện thoại. Tại Seoul là Văn phòng Xuất nhập cảnh Seoul (02-2650-6300); các khu vực khác liên hệ văn phòng địa phương. Hi Korea (www.hikorea.go.kr) cũng có kênh khai báo trực tuyến cho một số trường hợp."
+    a: "Đến trực tiếp văn phòng xuất nhập cảnh quản lý nơi cư trú, một số trường hợp có thể khai báo qua điện thoại. Tại Seoul là Văn phòng Xuất nhập cảnh Seoul (từ ngày 19/10/2026 chuyển sang trụ sở mới tại Munjeong-dong, Songpa-gu); các khu vực khác liên hệ văn phòng địa phương. Hỏi đáp qua điện thoại: Trung tâm thông tin tổng hợp cho người nước ngoài 1345. Hi Korea (www.hikorea.go.kr) cũng có kênh khai báo trực tuyến cho một số trường hợp."
   - q: "Đơn xin dỡ bỏ lệnh cấm bị từ chối thì làm gì?"
     a: "Sau khi nhận thông báo từ chối, hãy xác nhận lý do, bổ sung tài liệu và nộp lại. Ngoài ra có thể yêu cầu xét xử hành chính hoặc khiếu nại ra tòa. Nên cùng hành chính sĩ xây dựng chiến lược."
   - q: "Có vợ/chồng người Hàn thì dễ được dỡ lệnh cấm hơn không?"
@@ -149,7 +149,7 @@ Tuy nhiên kết quả phụ thuộc đánh giá của cơ quan xuất nhập c�
 **Q. Khai báo xuất cảnh tự nguyện ở đâu?**
 
 A. Đến trực tiếp văn phòng xuất nhập cảnh quản lý nơi cư trú; một số trường hợp có thể khai báo qua điện thoại.
-Tại Seoul là Văn phòng Xuất nhập cảnh Seoul (02-2650-6300); các khu vực khác liên hệ văn phòng địa phương.
+Tại Seoul là Văn phòng Xuất nhập cảnh Seoul (từ ngày 19/10/2026 chuyển sang trụ sở mới tại Munjeong-dong, Songpa-gu); các khu vực khác liên hệ văn phòng địa phương. Hỏi đáp qua điện thoại: Trung tâm thông tin tổng hợp cho người nước ngoài 1345.
 Hi Korea ([www.hikorea.go.kr](https://www.hikorea.go.kr)) cũng có kênh khai báo trực tuyến cho một số trường hợp.
 
 **Q. Đơn xin dỡ bỏ lệnh cấm bị từ chối thì làm gì?**

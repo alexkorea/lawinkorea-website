@@ -13,7 +13,7 @@ faq:
   - q: "If I overstayed less than 1 month and leave voluntarily, can I avoid an entry ban?"
     a: "In many cases, yes. Overstays under 1 month often result in no entry ban or a ban of 1 year or less when departing voluntarily. However, the final decision rests with immigration authorities, so consulting an expert before departure is advisable."
   - q: "Where do I report for voluntary departure?"
-    a: "Visit the immigration office in your region. In Seoul, contact Seoul Immigration & Foreign Office (02-2650-6300). Online self-reporting is available in some cases through HiKorea (www.hikorea.go.kr)."
+    a: "Visit the immigration office in your region. In Seoul, contact the Seoul Immigration & Foreign Office (at its new building in Munjeong-dong, Songpa-gu from October 19, 2026). For phone inquiries, call the Immigration Contact Center at 1345. Online self-reporting is available in some cases through HiKorea (www.hikorea.go.kr)."
   - q: "What if my entry ban removal application is rejected?"
     a: "Review the stated reason, gather additional supporting documents, and reapply. You may also file an administrative appeal or a court objection. Consulting a specialist significantly improves your chances."
   - q: "Does having a Korean spouse help with entry ban removal?"
@@ -135,7 +135,7 @@ In many cases, an overstay under 1 month results in no entry ban or a ban of 1 y
 
 **Q. Where do I self-report for voluntary departure?**
 
-Visit your regional immigration office in person. In Seoul, contact Seoul Immigration & Foreign Office (02-2650-6300). HiKorea ([www.hikorea.go.kr](https://www.hikorea.go.kr)) also offers online self-reporting in some cases.
+Visit your regional immigration office in person. In Seoul, contact the Seoul Immigration & Foreign Office (at its new building in Munjeong-dong, Songpa-gu from October 19, 2026). For phone inquiries, call the Immigration Contact Center at 1345. HiKorea ([www.hikorea.go.kr](https://www.hikorea.go.kr)) also offers online self-reporting in some cases.
 
 **Q. What if my entry ban removal application is rejected?**
 
