@@ -79,7 +79,7 @@ const BLOG_POSTS_DATA: BlogPostData[] = [
   {
     slug: "foreigner-voluntary-departure-2026",
     locale: "ko",
-    title: "외국인 불법체류 자진출국 제도와 입국금지 해제 방법 2026년",
+    title: "불법체류 자진출국 2026 — 입국금지 기간·해제 방법",
     description: "불법체류 외국인을 위한 자진출국 제도의 혜택, 체류 초과 기간별 입국금지 기간, 입국금지 해제 신청 절차와 준비 서류까지 단계별로 안내합니다.",
     date: "2026-05-13",
     updated: "2026-05-13",
@@ -154,7 +154,7 @@ const BLOG_POSTS_DATA: BlogPostData[] = [
   {
     slug: "immigration-law-penalties-guide",
     locale: "ko",
-    title: "외국인 출입국관리법 벌칙·벌금 완전정리 — 사례별 형량과 실무 대응 (2026 개정)",
+    title: "외국인 불법취업 벌금·처벌 — 출입국관리법 벌칙 조항별 정리 (2026)",
     description: "「출입국관리법」 제93조의3, 제94조~제100조 벌칙 조항을 사례별로 정리. 자격외 활동, 불법체류, 불법고용, 자격변경 미신청 등 외국인 위반행위별 형량과 사범심사 영향.",
     date: "2026-05-01",
     updated: "2026-05-01",
@@ -395,7 +395,7 @@ const BLOG_POSTS_DATA: BlogPostData[] = [
     slug: "immigration-law-penalties-guide",
     locale: "en",
     title: "Korea Immigration Act Penalties & Fines Explained (2026)",
-    description: "Articles 93-3 and 94 to 100 of the Immigration Control Act, case by case: out-of-status work, overstay and illegal hiring sentencing ranges.",
+    description: "Penalties under Articles 93-3 and 94 to 100 of the Immigration Control Act: unauthorized employment, overstay and illegal hiring, sentencing ranges and fines.",
     date: "2026-05-01",
     updated: "2026-05-01",
     category: "Penalties",

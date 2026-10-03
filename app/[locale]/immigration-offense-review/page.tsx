@@ -10,7 +10,7 @@ type L = (typeof VALID_LOCALES)[number];
 
 const metaData: Record<L, { title: string; description: string }> = {
   ko: {
-    title: "외국인 출입국 사범심사란 무엇인가 · 대응 안내",
+    title: "외국인 사범심사란? 대상·준비사항·가능한 결과",
     description: "사범심사는 형사재판과 별도로 진행되는 출입국의 검토 절차일 수 있습니다. 대상, 검토 요소, 출석 전 준비사항과 가능한 결과를 단정 없이 안내합니다.",
   },
   en: { title: "Immigration Offense Review Guide · Law in Korea", description: "Learn what an immigration offense review is and how to prepare." },

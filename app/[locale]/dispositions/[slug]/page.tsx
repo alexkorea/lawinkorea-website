@@ -74,7 +74,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
         en: {
           tag: "Departure Order",
           h1: "Departure Order (출국권고) — What It Means and How to Respond",
-          lead: "A departure order (출국권고) is a recommendation issued by Korean immigration authorities for a foreign national to voluntarily leave the country. It is the least severe immigration disposition in Korea, but failing to comply will escalate to forced deportation.",
+          lead: "A departure order (출국권고) — more precisely a departure recommendation under Article 67 of the Immigration Control Act — is a written recommendation from immigration authorities to leave Korea voluntarily. It differs from a formal departure order (출국명령, Article 68) and from a forced deportation order (강제퇴거명령), and how you comply affects re-entry.",
           s1: "What Is a Departure Order?",
           p1: "Under the Immigration Control Act, a departure order is an administrative disposition issued following an offense review or enforcement action. While not immediately forced, failure to depart within the specified window results in detention (보호) and a forced deportation order.",
           items1: [
@@ -561,7 +561,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
       ko: { title: "입국금지 — 기간·사유·해제 신청 · Law in Korea", description: "한국 입국금지(입국금지) 처분의 기간 유형, 발부 사유, 해제 신청 방법, 가족에 대한 영향을 선샤인행정사사무소가 안내합니다." },
       en: { title: "Entry Ban (입국금지) in Korea — Duration, Grounds & How to Lift It · Law in Korea", description: "Understand Korea's entry ban system: ban duration categories, grounds for entry ban, how to apply to lift an entry ban, and whether family members are affected." },
       ja: { title: "入国禁止（입국금지）— 期間・事由・解除申請 · Law in Korea", description: "韓国の入国禁止処分の期間、発付事由、解除申請の方法、家族への影響について解説します。" },
-      zh: { title: "入境禁止（입국금지）— 期限·事由·解除申请 · Law in Korea", description: "了解韩国入境禁止处分的期限类型、发出事由、申请解除方法及对家属的影响。" },
+      zh: { title: "韩国入境禁止期限与解除申请 — 无限期禁止入境怎么办 · Law in Korea", description: "了解韩国入境禁止处分的期限类型、发出事由、申请解除方法及对家属的影响。" },
       vi: { title: "Lệnh cấm nhập cảnh (입국금지) tại Hàn Quốc · Law in Korea", description: "Tìm hiểu hệ thống cấm nhập cảnh của Hàn Quốc: thời hạn, căn cứ cấm, cách xin dỡ bỏ lệnh cấm và liệu thành viên gia đình có bị ảnh hưởng không." },
     },
     render: (l, locale) => {
