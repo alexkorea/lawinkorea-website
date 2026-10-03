@@ -27,7 +27,7 @@ const CONTENT: Record<L, { title: string; sub: string; methods: { label: string;
     title: "Contact Us",
     sub: "Facing an immigration offense review or visa crisis? Reach out through the options below. We will respond promptly.",
     methods: [
-      { label: "KakaoTalk", value: "Vision Office", note: "Search our KakaoTalk channel and send a message" },
+      { label: "KakaoTalk", value: "Sunshine Administrative Agency Office", note: "Search our KakaoTalk channel and send a message" },
       { label: "Email", value: "Use contact form", note: "Briefly describe your situation using the form below" },
       { label: "In-Person", value: "Seoul office", note: "Appointment required before visiting" },
     ],
@@ -38,7 +38,7 @@ const CONTENT: Record<L, { title: string; sub: string; methods: { label: string;
     title: "联系我们",
     sub: "遭遇出入境事犯审查或居留危机？请通过以下方式联系我们，我们将尽快回复。",
     methods: [
-      { label: "KakaoTalk", value: "VISION行政士事务所", note: "搜索KakaoTalk频道并发送消息" },
+      { label: "KakaoTalk", value: "Sunshine行政士事务所", note: "搜索KakaoTalk频道并发送消息" },
       { label: "电子邮件", value: "使用联系表格", note: "请通过以下表格简述您的情况" },
       { label: "到访咨询", value: "首尔事务所", note: "到访前需提前预约" },
     ],
@@ -49,7 +49,7 @@ const CONTENT: Record<L, { title: string; sub: string; methods: { label: string;
     title: "お問い合わせ",
     sub: "出入国事犯審査や在留危機に直面していますか？下記の方法でご連絡ください。迅速にご対応いたします。",
     methods: [
-      { label: "カカオトーク", value: "VISION行政書士事務所", note: "カカオトークチャンネルを検索してメッセージをお送りください" },
+      { label: "カカオトーク", value: "サンシャイン行政書士事務所", note: "カカオトークチャンネルを検索してメッセージをお送りください" },
       { label: "メール", value: "お問い合わせフォームを利用", note: "以下のフォームで状況を簡単にご説明ください" },
       { label: "来所相談", value: "ソウル事務所", note: "来所前に予約必須" },
     ],
@@ -60,7 +60,7 @@ const CONTENT: Record<L, { title: string; sub: string; methods: { label: string;
     title: "Liên hệ",
     sub: "Đang đối mặt với xem xét vi phạm xuất nhập cảnh hoặc khủng hoảng visa? Liên hệ qua các kênh dưới đây. Chúng tôi sẽ phản hồi nhanh chóng.",
     methods: [
-      { label: "KakaoTalk", value: "Văn phòng VISION", note: "Tìm kênh KakaoTalk và gửi tin nhắn" },
+      { label: "KakaoTalk", value: "Văn phòng Sunshine", note: "Tìm kênh KakaoTalk và gửi tin nhắn" },
       { label: "Email", value: "Dùng biểu mẫu liên hệ", note: "Mô tả ngắn gọn tình huống của bạn qua biểu mẫu bên dưới" },
       { label: "Gặp trực tiếp", value: "Văn phòng Seoul", note: "Cần đặt hẹn trước khi đến" },
     ],

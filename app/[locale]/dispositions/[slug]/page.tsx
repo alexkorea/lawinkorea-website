@@ -92,7 +92,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             "Voluntary departure within specified period",
             "Re-entry ban period applied after departure",
           ],
-          s3: "How Vision Can Help",
+          s3: "How Sunshine Can Help",
           p3: "Our office provides the following assistance for those who receive a departure order:",
           services: [
             "Assessing whether an administrative appeal is viable",
@@ -131,7 +131,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             "指定期間内の自進出国の履行",
             "出国後の再入国禁止期間の適用",
           ],
-          s3: "Visionにできること",
+          s3: "サンシャインにできること",
           p3: "当事務所は出国勧告処分を受けた外国人を以下のように支援します：",
           services: [
             "出国勧告処分に対する行政審判の可否検討",
@@ -170,7 +170,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             "在规定期限内自愿出境",
             "出境后适用再入境禁止期限",
           ],
-          s3: "Vision能提供的帮助",
+          s3: "Sunshine能提供的帮助",
           p3: "本事务所为收到出境建议的外国人提供以下支持：",
           services: [
             "评估行政申诉（行政审判）的可行性",
@@ -209,7 +209,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             "Tự nguyện xuất cảnh trong thời hạn quy định",
             "Áp dụng thời gian cấm tái nhập cảnh sau khi xuất cảnh",
           ],
-          s3: "Vision có thể hỗ trợ gì?",
+          s3: "Sunshine có thể hỗ trợ gì?",
           p3: "Văn phòng chúng tôi cung cấp hỗ trợ sau cho những người nhận lệnh khuyến nghị xuất cảnh:",
           services: [
             "Đánh giá khả năng kháng cáo hành chính",
@@ -358,7 +358,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             "Execution of deportation (boarding aircraft and departure)",
             "Re-entry ban of 1 year to permanent applied after departure",
           ],
-          s3: "How Vision Can Help",
+          s3: "How Sunshine Can Help",
           p3: "Our office provides the following support for those facing a forced deportation order:",
           services: [
             "Review of grounds for administrative appeal or litigation",
@@ -399,7 +399,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             "強制退去の執行（航空便搭乗後出国）",
             "出国後の再入国禁止期間適用（1年〜永久）",
           ],
-          s3: "Visionにできること",
+          s3: "サンシャインにできること",
           p3: "当事務所は強制退去命令を受けた外国人を以下のように支援します：",
           services: [
             "強制退去命令に対する異議申立・行政訴訟の検討",
@@ -440,7 +440,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             "强制出境执行（登机后出境）",
             "出境后适用再入境禁止期（1年至永久）",
           ],
-          s3: "Vision能提供的帮助",
+          s3: "Sunshine能提供的帮助",
           p3: "本事务所为收到强制出境命令的外国人提供以下支持：",
           services: [
             "评估提起行政申诉或诉讼的可行性",
@@ -481,7 +481,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             "Thực thi trục xuất (lên máy bay và rời đi)",
             "Cấm tái nhập cảnh từ 1 năm đến vĩnh viễn sau khi xuất cảnh",
           ],
-          s3: "Vision có thể hỗ trợ gì?",
+          s3: "Sunshine có thể hỗ trợ gì?",
           p3: "Văn phòng chúng tôi cung cấp hỗ trợ sau cho những người đối mặt với lệnh trục xuất cưỡng bức:",
           services: [
             "Xem xét căn cứ kháng cáo hành chính hoặc khởi kiện",
@@ -628,7 +628,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             "Ministry of Justice review (typically several weeks to months)",
             "Notification of approval or rejection",
           ],
-          s3: "How Vision Can Help",
+          s3: "How Sunshine Can Help",
           p3: "Our office provides the following support for those seeking to lift an entry ban:",
           services: [
             "Checking entry ban status and ban duration",
@@ -668,7 +668,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             "法務部審査（通常数週間〜数か月）",
             "解除決定または棄却通知",
           ],
-          s3: "Visionにできること",
+          s3: "サンシャインにできること",
           p3: "当事務所は入国禁止の解除を希望する外国人を以下のように支援します：",
           services: [
             "入国禁止の有無・期間の確認支援",
@@ -708,7 +708,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             "法务部审查（通常需数周至数月）",
             "通知解除决定或驳回结果",
           ],
-          s3: "Vision能提供的帮助",
+          s3: "Sunshine能提供的帮助",
           p3: "本事务所为寻求解除入境禁止的外国人提供以下支持：",
           services: [
             "确认入境禁止状态及禁止期限",
@@ -748,7 +748,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             "Bộ Tư pháp xem xét (thường mất vài tuần đến vài tháng)",
             "Thông báo chấp thuận hoặc từ chối",
           ],
-          s3: "Vision có thể hỗ trợ gì?",
+          s3: "Sunshine có thể hỗ trợ gì?",
           p3: "Văn phòng chúng tôi cung cấp hỗ trợ sau cho những người muốn dỡ bỏ lệnh cấm nhập cảnh:",
           services: [
             "Kiểm tra tình trạng và thời hạn cấm nhập cảnh",
@@ -826,7 +826,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
   "visa-denial": {
     meta: {
       ko: { title: "사증발급거부 — 사유·이의신청·재신청 전략 · Law in Korea", description: "한국 비자 거부(사증발급거부) 사유, 이의신청 방법, 재신청 전략, 향후 비자 심사에 미치는 영향을 선샤인행정사사무소가 안내합니다." },
-      en: { title: "Visa Denial (사증발급거부) in Korea — Grounds, Appeals & Reapplication · Law in Korea", description: "Understand why Korean visas get denied, how to appeal or reapply, and how denial history affects future applications — Vision Administrative Office explains." },
+      en: { title: "Visa Denial (사증발급거부) in Korea — Grounds, Appeals & Reapplication · Law in Korea", description: "Understand why Korean visas get denied, how to appeal or reapply, and how denial history affects future applications — Sunshine Administrative Agency Office explains." },
       ja: { title: "査証発給拒否（사증발급거부）— 事由・異議申立て・再申請 · Law in Korea", description: "韓国ビザの拒否事由、異議申立て方法、再申請戦略、将来の審査への影響について解説します。" },
       zh: { title: "签证发放拒绝（사증발급거부）— 事由·申诉·再申请 · Law in Korea", description: "了解韩国签证被拒的常见原因、申诉方法、再申请策略及对未来申请的影响。" },
       vi: { title: "Từ chối cấp thị thực (사증발급거부) tại Hàn Quốc · Law in Korea", description: "Tìm hiểu lý do visa Hàn Quốc bị từ chối, cách kháng cáo hoặc tái nộp đơn, và lịch sử bị từ chối ảnh hưởng như thế nào đến đơn tương lai." },
@@ -897,7 +897,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             "File an appeal or reapplication with the embassy or Ministry of Justice",
             "Await decision (typically several weeks to months)",
           ],
-          s3: "How Vision Can Help",
+          s3: "How Sunshine Can Help",
           p3: "Our office provides the following support for those dealing with a visa denial:",
           services: [
             "Analysis of denial grounds and strategy development",
@@ -938,7 +938,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             "在外公館または法務部への異議申立てまたは再申請",
             "審査結果を待つ（通常数週間〜数か月）",
           ],
-          s3: "Visionにできること",
+          s3: "サンシャインにできること",
           p3: "当事務所はビザ拒否に対応する外国人を以下のように支援します：",
           services: [
             "ビザ拒否事由の分析と対応戦略の立案",
@@ -979,7 +979,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             "向大使馆/领事馆或法务部提起申诉或再申请",
             "等待审查结果（通常需数周至数月）",
           ],
-          s3: "Vision能提供的帮助",
+          s3: "Sunshine能提供的帮助",
           p3: "本事务所为应对签证拒绝的外国人提供以下服务：",
           services: [
             "分析拒绝原因并制定应对策略",
@@ -1020,7 +1020,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             "Nộp kháng cáo hoặc tái nộp đơn tại đại sứ quán hoặc Bộ Tư pháp",
             "Chờ quyết định (thường mất vài tuần đến vài tháng)",
           ],
-          s3: "Vision có thể hỗ trợ gì?",
+          s3: "Sunshine có thể hỗ trợ gì?",
           p3: "Văn phòng chúng tôi cung cấp hỗ trợ sau cho những người đang đối phó với từ chối visa:",
           services: [
             "Phân tích căn cứ từ chối và xây dựng chiến lược",

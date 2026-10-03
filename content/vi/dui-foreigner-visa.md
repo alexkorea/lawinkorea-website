@@ -94,7 +94,7 @@ Bài viết này tổng hợp toàn bộ những gì bạn cần biết ngay sau
 
 ## 4. Tài liệu giảm nhẹ thay đổi kết quả ra sao
 
-Dưới đây là hai vụ việc thực tế do VISION xử lý.
+Dưới đây là hai vụ việc thực tế do Sunshine xử lý.
 
 ### Trường hợp A: Hồ sơ sơ sài → Trục xuất
 - Nam, ngoài 30 tuổi, thường trú F-5-1
@@ -119,7 +119,7 @@ Khác biệt không nằm ở chỉ số BAC, mà ở **chất lượng hồ sơ
 
 ## 5. Có hành chính sĩ đi cùng thì khác gì
 
-Những điểm khác biệt khi [Văn phòng Hành chính VISION](/vi) thực sự đồng hành tại buổi xem xét:
+Những điểm khác biệt khi [Văn phòng Hành chính sĩ Sunshine](/vi) thực sự đồng hành tại buổi xem xét:
 
 ### (1) Diễn tập trước
 Chuẩn bị 30 câu hỏi mà cán bộ xuất nhập cảnh thường hỏi và tinh chỉnh câu trả lời của thân chủ. Với câu "Tại sao anh lái xe khi đã uống rượu?", trả lời "Tôi chỉ uống một ly" lại càng nguy hiểm.
@@ -154,7 +154,7 @@ Ngay khi có kết quả, bắt đầu ngay việc khiếu nại trong 30 ngày,
 
 Nếu bạn bị bắt vì lái xe say rượu, hãy **bắt đầu chuẩn bị cho buổi xem xét vi phạm ngay cả khi thủ tục hình sự còn đang tiếp diễn.** Đợi xử lý hình sự xong mới bắt đầu thì thường không kịp trước ngày phải có mặt.
 
-Văn phòng Hành chính VISION cung cấp chẩn đoán ban đầu miễn phí, hỗ trợ tiếng Hàn, Anh, Trung và Nhật.
+Văn phòng Hành chính sĩ Sunshine cung cấp chẩn đoán ban đầu miễn phí, hỗ trợ tiếng Hàn, Anh, Trung và Nhật.
 
 [Đăng ký chẩn đoán miễn phí ngay →](/vi/contact)
 

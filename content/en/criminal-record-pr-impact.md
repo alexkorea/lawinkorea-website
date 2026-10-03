@@ -211,7 +211,7 @@ Korean F-5 / citizenship application: **disclose foreign criminal records too.**
 - F-5 / citizenship cancellation
 - Deportation + permanent entry ban
 
-## 9. Vision's PR Consulting
+## 9. Sunshine's PR Consulting
 
 ### 5-step package
 1. Free initial diagnosis — criminal record + status + family review

@@ -10,7 +10,7 @@ keywords:
   - "Korea DUI visa review"
   - "Korea deportation defense"
   - "Korea visa denial appeal"
-  - "Vision Administrative Office"
+  - "Sunshine Administrative Agency Office"
 faq:
   - q: "What is an Immigration Offense Review (사범심사)?"
     a: "A separate administrative procedure conducted by the Korea Immigration Office to re-examine a foreigner's residence status after a violation of immigration law or a criminal case. It runs independently from criminal proceedings, and outcomes include visa renewal denial, departure order, deportation, or entry ban."
@@ -133,9 +133,9 @@ The biggest distinction is between **departure order** and **deportation**. A de
 | Visa applications/extensions/changes | ⭐ Specialized |
 | Administrative appeals/litigation | Administrative appeals possible (litigation is outside the scope) |
 
-**Most foreign Immigration Offense Reviews are administrative procedures following the conclusion of criminal cases**, making administrative scriveners the cost-effective primary partner. Even when criminal proceedings are still under way (e.g., trial in progress), Vision Administrative Office handles only the administrative track; we do not handle litigation or court representation (outside the scope of an administrative scrivener).
+**Most foreign Immigration Offense Reviews are administrative procedures following the conclusion of criminal cases**, making administrative scriveners the cost-effective primary partner. Even when criminal proceedings are still under way (e.g., trial in progress), Sunshine Administrative Agency Office handles only the administrative track; we do not handle litigation or court representation (outside the scope of an administrative scrivener).
 
-## 6. Vision's Five-Step Response Protocol
+## 6. Sunshine's Five-Step Response Protocol
 
 
 ### Step 1. Intake and Free Initial Diagnosis (within 1 day)
@@ -172,4 +172,4 @@ The 10 essential Q&A above (FAQ section) cover the core questions. Case-specific
 
 Among foreigners who have received an Immigration Offense Review, the most common regret is, **"I should have called a professional sooner."** A single disposition can reverse 5 to 10 years of life plans in Korea.
 
-Vision Administrative Office offers a free initial diagnosis. **Reach out without commitment.** Korean, English, Chinese, Japanese — all supported.
+Sunshine Administrative Agency Office offers a free initial diagnosis. **Reach out without commitment.** Korean, English, Chinese, Japanese — all supported.

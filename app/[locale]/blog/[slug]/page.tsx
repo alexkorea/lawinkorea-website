@@ -92,10 +92,10 @@ const CTA_TEXT: Record<
 
 const BRAND_BY_LOCALE: Record<LocaleParam, string> = {
   ko: COMPANY.brandKo,
-  en: "VISION · Law in Korea",
-  zh: "VISION 行政士事务所",
-  ja: "VISION 行政書士事務所",
-  vi: "VISION · Law in Korea",
+  en: "Sunshine · Law in Korea",
+  zh: "Sunshine行政士事务所",
+  ja: "サンシャイン行政書士事務所",
+  vi: "Sunshine · Law in Korea",
 };
 
 export function generateStaticParams() {

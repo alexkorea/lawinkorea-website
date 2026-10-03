@@ -511,8 +511,8 @@ export const SECTION_LABELS: Record<
 
 export const TEAM = [
   {
-    name: "이 원 중",
-    nameEn: "Lee Won-joong",
+    name: "한경택",
+    nameEn: "한경택",
     role: { ko: "대표 행정사", en: "Principal Scrivener", zh: "代表行政士", ja: "代表行政書士" },
     note: {
       ko: "Since 2018 · 대한민국 행정사 자격",
@@ -560,7 +560,7 @@ export const FOOTER: Record<
       { h: "Corporate", items: ["E-7 / E-9 Consulting", "Foreign Hire Defense", "Retainer Advisory", "Compliance Audit"] },
       { h: "Support", items: ["Privacy Policy", "Terms of Service", "Office Map", "Company Info"] },
     ],
-    copyright: "© 2026 VISION Administrative Office (Law in Korea). All rights reserved.",
+    copyright: "© 2026 Sunshine Administrative Agency Office (Law in Korea). All rights reserved.",
   },
   zh: {
     disclaimer:
@@ -570,7 +570,7 @@ export const FOOTER: Record<
       { h: "企业客户", items: ["E-7 / E-9 咨询", "外籍员工事犯应对", "企业顾问合约", "合规审查"] },
       { h: "客户支持", items: ["隐私政策", "服务条款", "办公位置", "企业信息"] },
     ],
-    copyright: "© 2026 VISION Administrative Office (Law in Korea). 版权所有。",
+    copyright: "© 2026 Sunshine Administrative Agency Office (Law in Korea). 版权所有。",
   },
   ja: {
     disclaimer:
@@ -580,7 +580,7 @@ export const FOOTER: Record<
       { h: "企業顧客", items: ["E-7 / E-9 コンサル", "外国人採用事犯対応", "企業顧問契約", "コンプライアンス点検"] },
       { h: "顧客サポート", items: ["プライバシーポリシー", "利用規約", "アクセス", "事業者情報"] },
     ],
-    copyright: "© 2026 VISION Administrative Office (Law in Korea). All rights reserved.",
+    copyright: "© 2026 Sunshine Administrative Agency Office (Law in Korea). All rights reserved.",
   },
   vi: {
     disclaimer:
@@ -590,6 +590,6 @@ export const FOOTER: Record<
       { h: "Doanh nghiệp", items: ["Tư vấn E-7 / E-9", "Đối phó vi phạm nhân viên nước ngoài", "Hợp đồng cố vấn", "Kiểm tra tuân thủ"] },
       { h: "Hỗ trợ", items: ["Chính sách bảo mật", "Điều khoản sử dụng", "Bản đồ văn phòng", "Thông tin công ty"] },
     ],
-    copyright: "© 2026 VISION Administrative Office (Law in Korea). All rights reserved.",
+    copyright: "© 2026 Sunshine Administrative Agency Office (Law in Korea). All rights reserved.",
   },
 };

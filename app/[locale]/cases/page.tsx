@@ -104,7 +104,7 @@ const CONTENT: Record<L, {
   },
   zh: {
     title: "主要应对案例",
-    sub: "以下为Vision行政士事务所支援过的事犯审查应对案例，按类型重新整理介绍。所有案例均为保护个人信息而匿名、重新编排，结果因案而异。",
+    sub: "以下为Sunshine行政士事务所支援过的事犯审查应对案例，按类型重新整理介绍。所有案例均为保护个人信息而匿名、重新编排，结果因案而异。",
     cases: [
       {
         label: "酒驾（DUI）相关事犯审查",
@@ -182,7 +182,7 @@ const CONTENT: Record<L, {
   },
   vi: {
     title: "Các trường hợp tiêu biểu",
-    sub: "Giới thiệu các trường hợp xem xét vi phạm xuất nhập cảnh mà Văn phòng Hành chính Vision đã hỗ trợ, được sắp xếp lại theo loại hình. Tất cả trường hợp đã được ẩn danh và tái cấu trúc để bảo vệ thông tin cá nhân; kết quả khác nhau tùy từng trường hợp.",
+    sub: "Giới thiệu các trường hợp xem xét vi phạm xuất nhập cảnh mà Văn phòng Hành chính sĩ Sunshine đã hỗ trợ, được sắp xếp lại theo loại hình. Tất cả trường hợp đã được ẩn danh và tái cấu trúc để bảo vệ thông tin cá nhân; kết quả khác nhau tùy từng trường hợp.",
     cases: [
       {
         label: "Xem xét vi phạm liên quan đến lái xe say rượu (DUI)",

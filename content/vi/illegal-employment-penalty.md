@@ -177,7 +177,7 @@ Khi có vi phạm hoạt động ngoài tư cách, không chỉ người lao đ�
 - Chủ sử dụng hợp tác: thanh toán lương, đóng bảo hiểm → được xem là tình tiết giảm nhẹ
 - Chủ sử dụng bỏ trốn: rất bất lợi cho người lao động
 
-## 8. Cách VISION hỗ trợ
+## 8. Cách Sunshine hỗ trợ
 
 ### Gói 5 bước
 1. **Chẩn đoán ban đầu miễn phí** (trong ngày)

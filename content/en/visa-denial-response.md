@@ -216,7 +216,7 @@ Voluntary departure **before** receiving departure order:
 
 ⚠️ Must be **before** departure order. Post-order departure = same as forced.
 
-## 8. Vision's Denial-Response Package
+## 8. Sunshine's Denial-Response Package
 
 ### 30-day package
 1. **Day 1–2: Free diagnosis** — denial reason analysis, response decision

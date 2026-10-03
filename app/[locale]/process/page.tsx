@@ -30,7 +30,7 @@ const CONTENT: Record<L, {
   },
   en: {
     title: "Consultation Process",
-    sub: "Vision Administrative Office follows the 5 steps below when handling immigration offense review cases. Our work is limited to document preparation, evidentiary material support, and accompaniment to appearances under the Administrative Agent Act — it does not include courtroom litigation, which is outside the scope of an administrative scrivener.",
+    sub: "Sunshine Administrative Agency Office follows the 5 steps below when handling immigration offense review cases. Our work is limited to document preparation, evidentiary material support, and accompaniment to appearances under the Administrative Agent Act — it does not include courtroom litigation, which is outside the scope of an administrative scrivener.",
     steps: [
       { num: "01", label: "Application", desc: "You reach out online or by phone. We take an initial intake — criminal charges filed, an immigration offense notice, or a departure order — and get a brief overview of your case." },
       { num: "02", label: "Brief Information & Basic Consultation", desc: "Based on the intake, we walk you through the likely type of disposition (notice disposition, departure order, deportation, etc.) and the general procedure ahead." },
@@ -42,7 +42,7 @@ const CONTENT: Record<L, {
   },
   zh: {
     title: "咨询进行程序",
-    sub: "Vision行政士事务所按以下5个阶段处理事犯审查应对业务。业务范围限于行政士法规定的文件撰写、说明材料准备、陪同出席等，不包括诉讼代理业务（超出行政士业务范围）。",
+    sub: "Sunshine行政士事务所按以下5个阶段处理事犯审查应对业务。业务范围限于行政士法规定的文件撰写、说明材料准备、陪同出席等，不包括诉讼代理业务（超出行政士业务范围）。",
     steps: [
       { num: "01", label: "申请", desc: "通过线上或电话接受咨询。初步了解刑事立案、出入境事犯通知、出境命令等当前情况及案件概要。" },
       { num: "02", label: "简要信息提供及基本咨询", desc: "根据受理的案件概要，就预期的处分类型（通告处分、出境命令、强制驱逐等）及一般处理程序进行基本咨询说明。" },
@@ -66,7 +66,7 @@ const CONTENT: Record<L, {
   },
   vi: {
     title: "Quy trình tư vấn",
-    sub: "Văn phòng Hành chính Vision xử lý hồ sơ xem xét vi phạm xuất nhập cảnh theo 5 bước dưới đây. Phạm vi công việc giới hạn trong soạn thảo hồ sơ, chuẩn bị tài liệu giải trình, hỗ trợ đồng hành khi trình diện theo Luật Hành chính viên — không bao gồm việc đại diện tố tụng, vốn nằm ngoài phạm vi nghiệp vụ của hành chính sĩ.",
+    sub: "Văn phòng Hành chính sĩ Sunshine xử lý hồ sơ xem xét vi phạm xuất nhập cảnh theo 5 bước dưới đây. Phạm vi công việc giới hạn trong soạn thảo hồ sơ, chuẩn bị tài liệu giải trình, hỗ trợ đồng hành khi trình diện theo Luật Hành chính viên — không bao gồm việc đại diện tố tụng, vốn nằm ngoài phạm vi nghiệp vụ của hành chính sĩ.",
     steps: [
       { num: "01", label: "Đăng ký", desc: "Bạn liên hệ qua trực tuyến hoặc điện thoại. Chúng tôi tiếp nhận sơ bộ tình huống hiện tại — bị khởi tố hình sự, nhận thông báo vi phạm xuất nhập cảnh hoặc lệnh xuất cảnh — và nắm khái quát vụ việc." },
       { num: "02", label: "Cung cấp thông tin sơ bộ & Tư vấn cơ bản", desc: "Dựa trên thông tin tiếp nhận, chúng tôi tư vấn cơ bản về loại xử lý dự kiến (xử phạt thông báo, lệnh xuất cảnh, trục xuất, v.v.) và quy trình chung tiếp theo." },

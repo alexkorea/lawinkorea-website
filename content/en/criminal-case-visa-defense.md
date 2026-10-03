@@ -139,9 +139,9 @@ The difference is **not the offense or fine**. It's **document depth from the im
 **4. "I'm married to a Korean, so no deportation."** → F-6 still subject to review.
 **5. "Solo attendance + honest answers will be enough."** → Honesty matters; structure matters more.
 
-## 6. What Vision Adds
+## 6. What Sunshine Adds
 
-[Vision Administrative Office](/en) protocol:
+[Sunshine Administrative Agency Office](/en) protocol:
 1. Case analysis (free, same day)
 2. Document collection and packaging (5–7 days)
 3. Reason letter / petition drafting (3–5 days)

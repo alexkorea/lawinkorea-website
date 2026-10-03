@@ -127,6 +127,10 @@ for (const page of pages) {
 // 예외는 'power of attorney'(복수·하이픈 포함) 하나뿐. 우회 플래그 없음.
 // 패턴 문자열은 \u 이스케이프로 적는다 — 소스 재스캔에서 게이트 자신이 금지어로 잡히지 않게.
 export const BANNED_TERMS = new RegExp('\ubcc0\ud638\uc0ac|\ubc95\ubb34\ubc95\uc778|\ub85c\ud38c|(?<![Oo]f )(?<![Oo]f-)\\b(?:\\u006cawyers?|\\u0061ttorneys?|\\u006caw firms?|\\u006caw office)\\b|lu\u1eadt s\u01b0|\u5f8b\u5e08|(?<!\u8abf)\u5f8b\u5e2b|\u5f01\u8b77\u58eb|\u0430\u0434\u0432\u043e\u043a\u0430\u0442\\p{L}*|\u044e\u0440\u0438\u0441\u0442\\p{L}*|\u0e17\u0e19\u0e32\u0e22|\u0645\u062d\u0627\u0645\\p{L}*', 'giu');
+// ── 브랜드 게이트 (맥7 2026-10-03 · 보스 msg 1688) ─────────────────────
+// lawinkorea 운영 주체는 선샤인행정사사무소(등록부 E). 옛 브랜드 A(비전) 표기가 어느 로캘에도 나오면 안 된다.
+// 일반명사 '비전문(취업)'은 제외. 대소문자 구분 — 소문자 vision(일반 영단어)은 대상 아님.
+export const BRAND_BANNED = new RegExp('\\bVISION\\b|\\bVision\\b|비전(?!문)|飞展', 'gu');
 {
   const exts = ['.html', '.rsc', '.txt', '.json', '.meta', '.body', '.js', '.xml'];
   const all = [];
@@ -148,6 +152,10 @@ export const BANNED_TERMS = new RegExp('\ubcc0\ud638\uc0ac|\ubc95\ubb34\ubc95\uc
     for (const m of txt.matchAll(BANNED_TERMS)) {
       const ctx = txt.slice(Math.max(0, m.index - 40), m.index + m[0].length + 40).replace(/\s+/g, ' ');
       violations.push(`${f.slice(ROOT.length + 1)} :: 금지어 "${m[0]}" … ${ctx}`);
+    }
+    for (const m of txt.matchAll(BRAND_BANNED)) {
+      const ctx = txt.slice(Math.max(0, m.index - 40), m.index + m[0].length + 40).replace(/\s+/g, ' ');
+      violations.push(`${f.slice(ROOT.length + 1)} :: 타 브랜드 "${m[0]}" … ${ctx}`);
     }
   }
   if (!all.length) violations.push('.next/server/app :: 금지어 검사 대상 0건 — 빌드 산출물 경로 확인 필요');

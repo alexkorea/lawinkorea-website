@@ -227,7 +227,7 @@ Khi xin thường trú hoặc quốc tịch Hàn Quốc, **tiền án ở nướ
 - Hủy thường trú / quốc tịch
 - Trục xuất + cấm nhập cảnh vĩnh viễn
 
-## 9. Dịch vụ tư vấn thường trú của VISION
+## 9. Dịch vụ tư vấn thường trú của Sunshine
 
 ### Gói 5 bước
 1. **Chẩn đoán ban đầu miễn phí** — rà soát tổng hợp tiền án + tư cách + quan hệ gia đình

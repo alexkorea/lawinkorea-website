@@ -228,7 +228,7 @@ Tùy tư cách bị từ chối mà có thể chuyển sang:
 
 ⚠️ Xuất cảnh tự nguyện chỉ có hiệu lực khi thực hiện **trước khi nhận lệnh xuất cảnh**. Xuất cảnh sau khi đã nhận lệnh thì bị coi như xuất cảnh cưỡng chế.
 
-## 8. Cách VISION hỗ trợ khi bị từ chối
+## 8. Cách Sunshine hỗ trợ khi bị từ chối
 
 ### Gói 30 ngày
 1. **Ngày 1~2: Chẩn đoán ban đầu miễn phí** — phân tích lý do, xác định hướng ứng phó

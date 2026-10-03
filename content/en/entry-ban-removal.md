@@ -178,7 +178,7 @@ Minister of Justice may bar entry of:
 4. ❌ Insufficient home-country stability proof
 5. ❌ Weak sponsor
 
-## 7. Vision's Removal Application Package
+## 7. Sunshine's Removal Application Package
 
 ### 6-step procedure
 1. Free initial diagnosis (deportation reason analysis)

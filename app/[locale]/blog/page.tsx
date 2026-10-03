@@ -21,28 +21,28 @@ const HEADER_TEXT: Record<LocaleParam, { eyebrow: string; title: string; subtitl
     eyebrow: "BLOG · INSIGHTS",
     title: "Korea Immigration Offense Review — In-Depth Guides",
     subtitle:
-      "Practical strategies for foreigners facing DUI, criminal cases, drug investigations, illegal employment, and visa crisis in Korea. Authored by Vision Administrative Office.",
+      "Practical strategies for foreigners facing DUI, criminal cases, drug investigations, illegal employment, and visa crisis in Korea. Authored by Sunshine Administrative Agency Office.",
     cta: "Request a free consultation →",
   },
   zh: {
     eyebrow: "博客 · 深度解析",
     title: "韩国出入境事犯审查 — 实战指南",
     subtitle:
-      "面向在韩外国人的酒驾、刑事案件、毒品调查、非法就业及签证危机应对实务。由首尔 V VISION 行政士事务所撰写。",
+      "面向在韩外国人的酒驾、刑事案件、毒品调查、非法就业及签证危机应对实务。由首尔Sunshine行政士事务所撰写。",
     cta: "立即免费咨询 →",
   },
   ja: {
     eyebrow: "ブログ · 実務ガイド",
     title: "韓国出入国事犯審査 — 実務ガイド",
     subtitle:
-      "韓国在住外国人向け、飲酒運転・刑事事件・麻薬調査・不法就労・ビザ危機への対応実務。VISION行政書士事務所が直接執筆。",
+      "韓国在住外国人向け、飲酒運転・刑事事件・麻薬調査・不法就労・ビザ危機への対応実務。サンシャイン行政書士事務所が直接執筆。",
     cta: "無料相談を申し込む →",
   },
   vi: {
     eyebrow: "BLOG · HƯỚNG DẪN THỰC TẾ",
     title: "Xem xét vi phạm xuất nhập cảnh Hàn Quốc — Hướng dẫn",
     subtitle:
-      "Chiến lược thực tế cho người nước ngoài đối mặt với DUI, án hình sự, điều tra ma túy, lao động trái phép và khủng hoảng visa tại Hàn Quốc, do VISION biên soạn.",
+      "Chiến lược thực tế cho người nước ngoài đối mặt với DUI, án hình sự, điều tra ma túy, lao động trái phép và khủng hoảng visa tại Hàn Quốc, do Sunshine biên soạn.",
     cta: "Yêu cầu tư vấn miễn phí →",
   },
 };

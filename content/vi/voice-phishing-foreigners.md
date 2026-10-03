@@ -176,7 +176,7 @@ Khi người nước ngoài cho mượn tài khoản ngân hàng Hàn Quốc c�
 
 ⚠️ **Tuyệt đối không cho mượn tài khoản của bạn. Dù được trả 1 triệu won một ngày, đó vẫn là thiệt hại cả đời.**
 
-## 9. Cách VISION hỗ trợ
+## 9. Cách Sunshine hỗ trợ
 
 ### Gói 4 bước
 1. **Chẩn đoán ban đầu miễn phí** (trong ngày, bảo mật) — phân tích rủi ro hình sự + xem xét vi phạm

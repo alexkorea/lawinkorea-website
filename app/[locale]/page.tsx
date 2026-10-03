@@ -29,10 +29,10 @@ const titles: Record<L, string> = {
 
 const descriptions: Record<L, string> = {
   ko: "형사사건이나 출입국법 위반 이후의 체류 문제는 형사처분과 별도로 검토될 수 있습니다. 음주운전·폭행·마약·불법취업·출국명령·강제퇴거 등 상황별 사범심사 대응과 소명자료 준비를 안내합니다.",
-  en: "Certified administrative scrivener specializing in immigration offense review — DUI, criminal cases, visa crisis. Vision Office, Seoul. Since 2018.",
-  ja: "飲酒運転・刑事事件・出入国法違反の事犯審査専門行政書士。VISION行政書士事務所、ソウル。Since 2018.",
-  zh: "专业行政士，专注出入境违规审查——酒驾、刑事案件、签证危机。VISION行政士事务所，首尔。Since 2018.",
-  vi: "Chuyên viên hành chính chuyên xem xét vi phạm xuất nhập cảnh — lái xe say rượu, vụ án hình sự, khủng hoảng visa. Văn phòng VISION, Seoul. Since 2018.",
+  en: "Certified administrative scrivener specializing in immigration offense review — DUI, criminal cases, visa crisis. Sunshine Administrative Agency Office, Seoul. Since 2018.",
+  ja: "飲酒運転・刑事事件・出入国法違反の事犯審査専門行政書士。サンシャイン行政書士事務所、ソウル。Since 2018.",
+  zh: "专业行政士，专注出入境违规审查——酒驾、刑事案件、签证危机。Sunshine行政士事务所，首尔。Since 2018.",
+  vi: "Chuyên viên hành chính chuyên xem xét vi phạm xuất nhập cảnh — lái xe say rượu, vụ án hình sự, khủng hoảng visa. Văn phòng Sunshine, Seoul. Since 2018.",
 };
 
 const ogTitles: Record<L, string> = {
@@ -363,7 +363,7 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
       p3: "The right approach is to review your case record and residency history first, then determine what to explain and how. Actual outcomes depend on the discretion of the relevant immigration authority.",
     },
     how: {
-      title: "How Vision Administrative Office can help",
+      title: "How Sunshine Administrative Agency Office can help",
       items: [
         "Our administrative scrivener reviews your case and residency situation together.",
         "We assist with preparing explanatory statements, supporting documents, and administrative paperwork for immigration submissions.",
@@ -463,7 +463,7 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
       p3: "正確な判断のためには、事件記録と在留記録をまず確認し、どのような事情をどのように説明するかを事前に整理することが重要です。実際の適用は管轄出入国管署の審査によって異なります。",
     },
     how: {
-      title: "VISION行政士事務所のサポート内容",
+      title: "サンシャイン行政書士事務所のサポート内容",
       items: [
         "担当行政士が事件の概要と在留状況を一緒に確認します。",
         "出入国提出用の疎明資料・陳述書・理由書・嘆願書等の行政書類作成をサポートします。",
@@ -561,7 +561,7 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
       p3: "正确的做法是先确认案件记录和居留记录，再确定需要说明什么、如何说明。实际处理结果取决于相关出入境机构的裁量。",
     },
     how: {
-      title: "VISION行政士事务所的服务方式",
+      title: "Sunshine行政士事务所的服务方式",
       items: [
         "由负责行政士与您共同确认案件概况和居留情况。",
         "协助准备向出入境机构提交的证明材料、陈述书、理由书及行政文件。",
@@ -659,7 +659,7 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
       p3: "Cách tiếp cận đúng đắn là trước tiên xem xét hồ sơ vụ án và hồ sơ lưu trú, sau đó xác định cần giải thích gì và như thế nào. Kết quả thực tế phụ thuộc vào quyết định của cơ quan xuất nhập cảnh có thẩm quyền.",
     },
     how: {
-      title: "Văn phòng Hành chính VISION hỗ trợ bạn như thế nào",
+      title: "Văn phòng Hành chính sĩ Sunshine hỗ trợ bạn như thế nào",
       items: [
         "Chuyên viên hành chính phụ trách xem xét vụ việc và tình trạng lưu trú của bạn cùng nhau.",
         "Hỗ trợ chuẩn bị tài liệu trình bày, thư giải thích và các văn bản hành chính để nộp cho cơ quan xuất nhập cảnh.",

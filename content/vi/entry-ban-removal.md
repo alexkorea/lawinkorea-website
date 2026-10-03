@@ -182,7 +182,7 @@ Bộ trưởng Bộ Tư pháp có thể cấm nhập cảnh đối với:
 4. ❌ **Không chứng minh được cuộc sống ổn định tại nước nhà** — không việc làm, không kinh doanh
 5. ❌ **Người bảo lãnh yếu** — không có người cư trú tại Hàn Quốc đứng ra bảo lãnh
 
-## 7. Gói dịch vụ dỡ bỏ lệnh cấm của VISION
+## 7. Gói dịch vụ dỡ bỏ lệnh cấm của Sunshine
 
 ### Quy trình 6 bước
 1. **Chẩn đoán ban đầu miễn phí** (phân tích lý do bị trục xuất)

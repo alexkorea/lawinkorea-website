@@ -1,6 +1,6 @@
 ---
 title: "Xem xét vi phạm xuất nhập cảnh — hướng dẫn đầy đủ 2026"
-description: "Hướng dẫn từng bước cho người nước ngoài bị triệu tập xem xét vi phạm vì DUI, án hình sự, ma túy hay lao động trái phép, từ thực tiễn của VISION."
+description: "Hướng dẫn từng bước cho người nước ngoài bị triệu tập xem xét vi phạm vì DUI, án hình sự, ma túy hay lao động trái phép, từ thực tiễn của Sunshine."
 date: "2026-05-01"
 category: "PILLAR · Hướng dẫn xem xét vi phạm"
 cluster: "pillar"
@@ -147,9 +147,9 @@ Khác biệt lớn nhất nằm giữa **"lệnh xuất cảnh" và "trục xu�
 | Xin, gia hạn, đổi visa | ⭐ Chuyên môn chính |
 | Xét xử hành chính, kiện hành chính | Xét xử hành chính (kiện hành chính nằm ngoài phạm vi) |
 
-**Phần lớn các vụ xem xét vi phạm là thủ tục hành chính diễn ra sau khi phần hình sự đã khép lại, nên có hành chính sĩ đi cùng là phương án hiệu quả về chi phí.** Ngay cả khi thủ tục hình sự vẫn đang diễn ra (ví dụ đang xét xử sơ thẩm), VISION chỉ phụ trách phần hành chính và không đại diện tố tụng hoặc tại tòa (ngoài phạm vi nghiệp vụ của hành chính sĩ).
+**Phần lớn các vụ xem xét vi phạm là thủ tục hành chính diễn ra sau khi phần hình sự đã khép lại, nên có hành chính sĩ đi cùng là phương án hiệu quả về chi phí.** Ngay cả khi thủ tục hình sự vẫn đang diễn ra (ví dụ đang xét xử sơ thẩm), Sunshine chỉ phụ trách phần hành chính và không đại diện tố tụng hoặc tại tòa (ngoài phạm vi nghiệp vụ của hành chính sĩ).
 
-## 6. Quy trình ứng phó 5 bước của VISION
+## 6. Quy trình ứng phó 5 bước của Sunshine
 
 
 ### Bước 1. Tiếp nhận và chẩn đoán ban đầu miễn phí (trong 1 ngày)
@@ -191,4 +191,4 @@ Mục FAQ phía trên đã tổng hợp 10 câu hỏi cốt lõi. Các câu hỏ
 
 Trong số những người nhận thông báo xem xét vi phạm, điều họ tiếc nuối nhất thường là **"giá như tôi tìm chuyên gia sớm hơn"**. Một quyết định có thể lật ngược kế hoạch 5 năm, 10 năm sinh sống tại Hàn Quốc của bạn.
 
-Văn phòng Hành chính VISION cung cấp chẩn đoán ban đầu miễn phí. **Hãy liên hệ mà không cần đắn đo.** Ngay cả khi tiếng Hàn còn hạn chế, chúng tôi hỗ trợ tiếng Anh, Trung và Nhật.
+Văn phòng Hành chính sĩ Sunshine cung cấp chẩn đoán ban đầu miễn phí. **Hãy liên hệ mà không cần đắn đo.** Ngay cả khi tiếng Hàn còn hạn chế, chúng tôi hỗ trợ tiếng Anh, Trung và Nhật.

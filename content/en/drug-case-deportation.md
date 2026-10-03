@@ -145,7 +145,7 @@ Removal-of-ban applications possible but **drug cases are among the hardest**. G
 
 Even with all factors satisfied, denial is common.
 
-## 8. Vision's Drug-Case Protocol
+## 8. Sunshine's Drug-Case Protocol
 
 ### 4-step package
 1. Free initial diagnosis (same day) — risk assessment

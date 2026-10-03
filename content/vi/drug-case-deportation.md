@@ -145,7 +145,7 @@ Có thể nộp đơn xin dỡ bỏ lệnh cấm, nhưng **án ma túy là một
 
 Ngay cả khi đáp ứng đủ, khả năng bị từ chối vẫn cao.
 
-## 8. Cách VISION hỗ trợ vụ việc ma túy
+## 8. Cách Sunshine hỗ trợ vụ việc ma túy
 
 ### Gói 4 bước
 1. **Chẩn đoán ban đầu miễn phí** (trong ngày) — phân tích rủi ro hình sự + xem xét vi phạm

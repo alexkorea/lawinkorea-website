@@ -42,24 +42,24 @@ export const PAGE_SEO: Record<string, Record<Locale, Seo>> = {
         "선샤인행정사사무소는 외국인 출입국사범심사 대응을 전문으로 하는 서울 중구 소재 행정사 사무소입니다. 음주운전·형사사건·불법취업·출국명령 등 체류 위기 대응 전문 분야와 4개 국어 상담 체계를 안내합니다.",
     },
     en: {
-      title: "About VISION — Korea Immigration Offense Review Specialists",
+      title: "About Sunshine — Korea Immigration Offense Review Specialists",
       description:
-        "VISION Administrative Scrivener Office in Seoul specializes in immigration offense review for foreign nationals in Korea. Learn about our practice areas — DUI, criminal charges, unauthorized employment, departure orders — and four-language support.",
+        "Sunshine Administrative Agency Office in Seoul specializes in immigration offense review for foreign nationals in Korea. Learn about our practice areas — DUI, criminal charges, unauthorized employment, departure orders — and four-language support.",
     },
     zh: {
       title: "事务所介绍 — 韩国出入境事犯审查专业行政士",
       description:
-        "VISION行政士事务所位于首尔中区，专注于外国人出入境事犯审查应对。介绍我们的专业领域——酒驾、刑事案件、非法就业、出境命令等居留危机应对，以及四种语言的咨询体系。",
+        "Sunshine行政士事务所位于首尔中区，专注于外国人出入境事犯审查应对。介绍我们的专业领域——酒驾、刑事案件、非法就业、出境命令等居留危机应对，以及四种语言的咨询体系。",
     },
     ja: {
       title: "事務所紹介 — 韓国出入国事犯審査の専門行政書士",
       description:
-        "VISION行政書士事務所はソウル中区に所在し、外国人の出入国事犯審査対応を専門としています。飲酒運転・刑事事件・不法就労・出国命令など在留危機への対応分野と、4か国語対応体制をご案内します。",
+        "サンシャイン行政書士事務所はソウル中区に所在し、外国人の出入国事犯審査対応を専門としています。飲酒運転・刑事事件・不法就労・出国命令など在留危機への対応分野と、4か国語対応体制をご案内します。",
     },
     vi: {
-      title: "Giới thiệu VISION — Chuyên gia xem xét vi phạm XNC Hàn Quốc",
+      title: "Giới thiệu Sunshine — Chuyên gia xem xét vi phạm XNC Hàn Quốc",
       description:
-        "Văn phòng Hành chính VISION tại Jung-gu, Seoul chuyên hỗ trợ xem xét vi phạm xuất nhập cảnh cho người nước ngoài. Tìm hiểu lĩnh vực chuyên môn — DUI, án hình sự, lao động trái phép, lệnh xuất cảnh — và hỗ trợ 4 ngôn ngữ.",
+        "Văn phòng Hành chính sĩ Sunshine tại Jung-gu, Seoul chuyên hỗ trợ xem xét vi phạm xuất nhập cảnh cho người nước ngoài. Tìm hiểu lĩnh vực chuyên môn — DUI, án hình sự, lao động trái phép, lệnh xuất cảnh — và hỗ trợ 4 ngôn ngữ.",
     },
   },
   cases: {
@@ -71,22 +71,22 @@ export const PAGE_SEO: Record<string, Record<Locale, Seo>> = {
     en: {
       title: "Case Highlights — Immigration Offense Review Outcomes",
       description:
-        "Anonymised, reconstructed case summaries from VISION's immigration offense review practice in Korea: DUI, criminal charges, unauthorized employment, and overstay voluntary departure — the issues raised and how each submission was prepared.",
+        "Anonymised, reconstructed case summaries from Sunshine's immigration offense review practice in Korea: DUI, criminal charges, unauthorized employment, and overstay voluntary departure — the issues raised and how each submission was prepared.",
     },
     zh: {
       title: "主要应对案例 — 事犯审查·出境命令处理实例",
       description:
-        "整理VISION行政士事务所支援的出入境事犯审查应对案例。涵盖酒驾、刑事案件立案、许可外就业、超期滞留自愿出境等实际处理流程与争议点，均已匿名化重构。",
+        "整理Sunshine行政士事务所支援的出入境事犯审查应对案例。涵盖酒驾、刑事案件立案、许可外就业、超期滞留自愿出境等实际处理流程与争议点，均已匿名化重构。",
     },
     ja: {
       title: "主な対応事例 — 事犯審査・出国命令の処理実例",
       description:
-        "VISION行政書士事務所が支援した出入国事犯審査対応の事例を類型別に整理しました。飲酒運転、刑事事件立件、許可外就労、在留期間超過の自主出国など、実際の流れと争点を匿名・再構成してご紹介します。",
+        "サンシャイン行政書士事務所が支援した出入国事犯審査対応の事例を類型別に整理しました。飲酒運転、刑事事件立件、許可外就労、在留期間超過の自主出国など、実際の流れと争点を匿名・再構成してご紹介します。",
     },
     vi: {
       title: "Các trường hợp tiêu biểu — Kết quả xem xét vi phạm XNC",
       description:
-        "Tóm tắt các vụ việc đã ẩn danh và tái dựng từ thực tiễn xem xét vi phạm xuất nhập cảnh của VISION: DUI, án hình sự, lao động ngoài phạm vi cho phép, xuất cảnh tự nguyện do quá hạn — vấn đề và cách chuẩn bị hồ sơ.",
+        "Tóm tắt các vụ việc đã ẩn danh và tái dựng từ thực tiễn xem xét vi phạm xuất nhập cảnh của Sunshine: DUI, án hình sự, lao động ngoài phạm vi cho phép, xuất cảnh tự nguyện do quá hạn — vấn đề và cách chuẩn bị hồ sơ.",
     },
   },
   contact: {
@@ -96,7 +96,7 @@ export const PAGE_SEO: Record<string, Record<Locale, Seo>> = {
         "출입국사범심사 통보를 받았다면 기한 내 대응이 결과를 좌우합니다. 전화·이메일·카카오톡으로 상황을 알려주시면 평일 기준 1시간 이내에 초기 진단 결과와 필요한 준비 서류를 회신드립니다.",
     },
     en: {
-      title: "Contact VISION — Free Initial Immigration Case Review",
+      title: "Contact Sunshine — Free Initial Immigration Case Review",
       description:
         "If you have received an immigration offense review notice, responding within the deadline decides the outcome. Send us your situation by phone, email or KakaoTalk and we reply with an initial assessment within one hour on weekdays.",
     },
@@ -111,7 +111,7 @@ export const PAGE_SEO: Record<string, Record<Locale, Seo>> = {
         "出入国事犯審査の通知を受け取ったら、期限内の対応が結果を左右します。電話・メール・カカオトークで状況をお知らせいただければ、平日1時間以内に初期診断結果と必要書類をご返信します。",
     },
     vi: {
-      title: "Liên hệ VISION — Chẩn đoán ban đầu miễn phí về hồ sơ XNC",
+      title: "Liên hệ Sunshine — Chẩn đoán ban đầu miễn phí về hồ sơ XNC",
       description:
         "Nếu bạn nhận được thông báo xem xét vi phạm xuất nhập cảnh, phản hồi đúng hạn sẽ quyết định kết quả. Hãy gửi tình huống qua điện thoại, email hoặc KakaoTalk — chúng tôi trả lời trong 1 giờ vào ngày làm việc.",
     },
@@ -179,22 +179,22 @@ export const PAGE_SEO: Record<string, Record<Locale, Seo>> = {
     en: {
       title: "Our Process — From Intake to Immigration Review Attendance",
       description:
-        "VISION's engagement runs through initial assessment, document assembly, drafting the written explanation, interview rehearsal, attendance at the immigration review, and follow-up after the decision. See what each stage requires and how long it takes.",
+        "Sunshine's engagement runs through initial assessment, document assembly, drafting the written explanation, interview rehearsal, attendance at the immigration review, and follow-up after the decision. See what each stage requires and how long it takes.",
     },
     zh: {
       title: "咨询进行程序 — 从受理到事犯审查陪同",
       description:
-        "VISION行政士事务所的咨询按初步诊断、资料整理、说明书撰写、出席模拟、事犯审查陪同、结果通知后续应对的顺序进行。为您介绍各阶段需准备的内容与所需时间。",
+        "Sunshine行政士事务所的咨询按初步诊断、资料整理、说明书撰写、出席模拟、事犯审查陪同、结果通知后续应对的顺序进行。为您介绍各阶段需准备的内容与所需时间。",
     },
     ja: {
       title: "相談進行手続き — 受付から事犯審査の同行まで",
       description:
-        "VISION行政書士事務所の相談は、初期診断、資料整理、疎明書作成、出席シミュレーション、事犯審査同行、結果通知後のフォローの順に進みます。各段階で何を準備し、どれくらいかかるかをご案内します。",
+        "サンシャイン行政書士事務所の相談は、初期診断、資料整理、疎明書作成、出席シミュレーション、事犯審査同行、結果通知後のフォローの順に進みます。各段階で何を準備し、どれくらいかかるかをご案内します。",
     },
     vi: {
       title: "Quy trình tư vấn — Từ tiếp nhận đến đồng hành buổi xem xét",
       description:
-        "Quy trình của VISION gồm chẩn đoán ban đầu, tập hợp tài liệu, soạn bản giải trình, diễn tập phỏng vấn, đồng hành tại buổi xem xét vi phạm và xử lý tiếp sau khi có kết quả. Xem mỗi bước cần gì và mất bao lâu.",
+        "Quy trình của Sunshine gồm chẩn đoán ban đầu, tập hợp tài liệu, soạn bản giải trình, diễn tập phỏng vấn, đồng hành tại buổi xem xét vi phạm và xử lý tiếp sau khi có kết quả. Xem mỗi bước cần gì và mất bao lâu.",
     },
   },
   "urgent-consultation": {

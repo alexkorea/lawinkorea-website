@@ -169,7 +169,7 @@ Khác biệt không nằm ở tội danh hay số tiền phạt, mà ở **độ
 
 ## 6. Có hành chính sĩ đồng hành thì khác gì
 
-Gói hỗ trợ xem xét vi phạm cho án hình sự của [Văn phòng Hành chính VISION](/vi):
+Gói hỗ trợ xem xét vi phạm cho án hình sự của [Văn phòng Hành chính sĩ Sunshine](/vi):
 
 1. **Phân tích vụ việc** (miễn phí trong ngày) — chẩn đoán mức xử lý hình sự và ảnh hưởng visa
 2. **Thu thập và sắp xếp tài liệu** (5~7 ngày) — hệ thống hóa hồ sơ gia đình/công việc/đóng góp

@@ -34,10 +34,10 @@ const MENU_LABEL: Record<string, { open: string; close: string; lang: string }> 
 
 const BRAND_BY_LOCALE: Record<string, string> = {
   ko: COMPANY.brandKo,
-  en: "VISION · Law in Korea",
-  zh: "VISION 行政士事务所",
-  ja: "VISION 行政士事務所",
-  vi: "VISION · Law in Korea",
+  en: "Sunshine · Law in Korea",
+  zh: "Sunshine行政士事务所",
+  ja: "サンシャイン行政書士事務所",
+  vi: "Sunshine · Law in Korea",
 };
 
 export default function SiteHeader() {

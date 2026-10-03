@@ -171,7 +171,7 @@ Voice-phishing cases require strong criminal defense. Most consequential after d
 
 ⚠️ **Never lend your account. 1M KRW/day = lifetime loss.**
 
-## 9. Vision's Voice-Phishing Protocol
+## 9. Sunshine's Voice-Phishing Protocol
 
 ### 4-step package
 1. Free initial diagnosis (same day, confidential)
@@ -180,7 +180,7 @@ Voice-phishing cases require strong criminal defense. Most consequential after d
 4. Office attendance + post-decision strategy
 
 ### Confidentiality
-Voice-phishing cases impact family and workplace heavily. Vision keeps your consultation strictly confidential.
+Voice-phishing cases impact family and workplace heavily. Sunshine keeps your consultation strictly confidential.
 
 ## 10. Act Now
 

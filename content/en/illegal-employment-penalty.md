@@ -155,7 +155,7 @@ Employer-foreigner cooperation:
 - Cooperation: wage settlement + insurance enrollment → mitigation
 - Employer flight: very harmful to foreigner
 
-## 8. Vision's Out-of-Status Protocol
+## 8. Sunshine's Out-of-Status Protocol
 
 ### 5-step package
 1. Free initial diagnosis
