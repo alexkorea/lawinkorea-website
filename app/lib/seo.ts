@@ -199,7 +199,7 @@ export const PAGE_SEO: Record<string, Record<Locale, Seo>> = {
   },
   "urgent-consultation": {
     ko: {
-      title: "긴급 상담 — 출국명령·강제퇴거 통보 즉시 대응",
+      title: "긴급 상담 — 출국명령·강제퇴거(강제추방) 통보 즉시 대응",
       description:
         "출국명령이나 강제퇴거 통보를 받았다면 대응 기한이 짧습니다. 전화 02-363-2251 또는 카카오톡으로 즉시 연락 주시면 남은 기한과 가능한 대응 방법을 우선 확인해 드립니다.",
     },
@@ -209,12 +209,12 @@ export const PAGE_SEO: Record<string, Record<Locale, Seo>> = {
         "Departure orders and deportation notices come with short deadlines. Call +82-2-363-2251 or reach us on KakaoTalk and we will first confirm how much time remains and which response options are still open to you.",
     },
     zh: {
-      title: "紧急咨询 — 出境命令·强制驱逐通知即时应对",
+      title: "紧急咨询 — 出境命令·强制驱逐（强制遣返）通知即时应对",
       description:
         "收到出境命令或强制驱逐通知后，应对期限非常短。请立即拨打02-363-2251或通过KakaoTalk联系我们，我们将优先确认剩余期限与可行的应对方案。",
     },
     ja: {
-      title: "緊急相談 — 出国命令・強制退去通知への即時対応",
+      title: "緊急相談 — 出国命令・強制退去（強制送還）通知への即時対応",
       description:
         "出国命令や強制退去の通知には短い対応期限があります。電話 02-363-2251 またはカカオトークですぐにご連絡いただければ、残りの期限と取りうる対応方法を優先的に確認いたします。",
     },

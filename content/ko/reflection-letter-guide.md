@@ -124,7 +124,7 @@ related:
 **관련 안내**
 - [출입국 사범심사란 무엇이며, 무엇을 준비해야 하는가](/ko/immigration-offense-review)
 - [사범심사 준비서류 체크리스트](/ko/documents)
-- [출입국사범심사 완전 가이드](/ko/blog/immigration-offense-review-guide)
+- [출입국사범심사 가이드](/ko/blog/immigration-offense-review-guide)
 - [외국인 음주운전 사범심사 — 비자 연장 대응](/ko/blog/dui-foreigner-visa)
 - [출입국 범칙금 통지를 받았을 때 대응 순서](/ko/blog/immigration-fine-notice-response-2026)
 

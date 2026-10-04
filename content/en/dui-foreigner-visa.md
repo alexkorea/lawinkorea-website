@@ -1,5 +1,5 @@
 ---
-title: "Will a DUI Get You Deported from Korea? Visa Extension Guide (2026)"
+title: "DUI in Korea and Your Visa — Offense Review and Visa Extension"
 description: "What foreigners caught for DUI in Korea must know: penalties by blood-alcohol level, how the offence review runs, and the evidence that decides it."
 date: "2026-05-01"
 category: "DUI"
@@ -14,9 +14,9 @@ faq:
   - q: "I paid the DUI fine — can I still extend my visa?"
     a: "The fine ends only the criminal track; the Immigration Office runs a separate offense review. With low BAC, no accident, and strong mitigation evidence, extension is sometimes granted — but it is never automatic."
   - q: "What's the difference between BAC 0.03% and 0.08%?"
-    a: "0.03~0.08% — up to 1 year imprisonment or 5M KRW fine + 100-day license suspension. 0.08~0.20% — 1~2 years imprisonment, 5~10M KRW fine, license revocation. ≥0.20% — 2~5 years imprisonment. Immigration considers deportation increasingly likely from 0.08%+."
+    a: "0.03% is the legal threshold for drunk driving (Road Traffic Act Article 44(4)). Under Article 148-2(3): 0.03% to under 0.08% — up to 1 year imprisonment or a fine up to KRW 5 million; 0.08% to under 0.2% — 1 to 2 years imprisonment or a KRW 5–10 million fine; 0.2% or more — 2 to 5 years imprisonment or a KRW 10–20 million fine. The immigration outcome depends on the individual case."
   - q: "Can a first-time DUI lead to deportation?"
-    a: "Yes — if BAC ≥ 0.20%, an accident occurs, or you refuse breath testing, even a first offense can result in deportation. First offense + BAC < 0.08% + no accident usually ends in departure order or status change."
+    a: "It can be reviewed. BAC level, whether there was an accident, and whether you refused a breath test are all weighed, even for a first offense. Whether the result is status maintained, a departure order or deportation depends on the individual case."
   - q: "I had a DUI accident but settled with the victim. Will I still face the review?"
     a: "Settlement does not end the review, but the settlement letter and victim's no-prosecution wish are very strong mitigation evidence. Always obtain them in writing, with payment receipts."
   - q: "If my driver's license is revoked, will my visa also be revoked?"
@@ -24,23 +24,23 @@ faq:
   - q: "I had a DUI before my F-2-7 renewal. Can I keep working?"
     a: "Until the review decision arrives, your existing visa stays valid. If a supplementary order arrives, you must respond by the deadline stated in the order; if denied, prepare for departure."
   - q: "Will a DUI affect my F-5 permanent residency application?"
-    a: "Within 5 years of the DUI conviction, F-5 is generally a no-go. After 5 years, with strong mitigation (alcohol counseling, family, contribution), it becomes possible. Deportation extends the bar significantly."
+    a: "A DUI record is reviewed in an F-5 application, and the waiting period depends on the disposition and the Ministry of Justice criteria in force. Mitigation such as alcohol counseling, family ties and contribution in Korea is considered case by case."
 related:
   - "immigration-offense-review-guide"
   - "criminal-case-visa-defense"
   - "criminal-record-pr-impact"
 ---
 
-A DUI in Korea brings two devastating sentences for foreigners. **"Your criminal case is closed."** And then: **"Immigration is calling you back in."**
+For foreigners, a DUI in Korea can involve two separate procedures. **"Your criminal case is closed."** And then: **"Immigration is calling you back in."**
 
 The latter is the **Immigration Offense Review (사범심사)**. Even after the criminal track concludes with a fine, the Immigration Office runs a separate administrative procedure that can deny your visa renewal, issue a departure order, or order deportation.
 
-This guide covers everything every foreigner must understand after a DUI in Korea.
+This guide explains the procedure and the points to check after a DUI in Korea.
 
 ## 1. DUI to Offense Review — The Four Stages
 
 ### Stage 1: At the Scene
-- Blood-alcohol concentration (BAC) measurement → refusal triggers automatic punishment escalation
+- Blood-alcohol concentration (BAC) measurement → refusing the test is a separate offense (Road Traffic Act Article 148-2(2))
 - License suspension or revocation notice issued
 
 ### Stage 2: Criminal Process
@@ -54,19 +54,19 @@ This guide covers everything every foreigner must understand after a DUI in Kore
 ### Stage 4: Review Outcome
 - Status maintained / status change / departure order / deportation / entry ban
 
-## 2. Will a DUI Get You Deported? BAC Tier and Outcomes
+## 2. BAC Levels, Criminal Penalties and the Offense Review
 
 Deportation can be ordered only on the grounds listed in Article 46(1) of the Immigration Control Act, and the actual outcome of the offense review depends on the individual case.
 
-| BAC | Criminal Penalty (Road Traffic Act) | Likely Immigration Outcome |
-|---|---|---|
-| 0.03 ~ 0.08% | Fine up to 5M KRW, 100-day license suspension | Conditional renewal possible (mitigation needed) |
-| 0.08 ~ 0.20% | 1~2 yr imprisonment or 5~10M KRW fine, license revocation | High departure-order risk; deportation considered |
-| ≥ 0.20% | 2~5 yr imprisonment, license revocation | Deportation highly likely |
-| Refused testing | 1~5 yr imprisonment or 5~20M KRW fine | Deportation virtually certain |
-| With accident | Above + aggravated penalties | Deportation + permanent entry ban possible |
+| BAC | Criminal Penalty (Road Traffic Act Article 148-2) |
+|---|---|
+| 0.03% to under 0.08% | Up to 1 yr imprisonment or fine up to KRW 5M |
+| 0.08% to under 0.2% | 1–2 yr imprisonment or KRW 5–10M fine |
+| 0.2% or more | 2–5 yr imprisonment or KRW 10–20M fine |
+| Refused testing | 1–5 yr imprisonment or KRW 5–20M fine (Article 148-2(2)) |
+| With accident | Additional charges may apply |
 
-⚠️ Above is the typical pattern; mitigation evidence (family, employer, Korean contribution) can dramatically alter results.
+Source: [Road Traffic Act Article 148-2](https://www.law.go.kr/법령/도로교통법/제148조의2), checked on law.go.kr on 4 October 2026. The immigration outcome is not set by BAC alone. Mitigation evidence (family, employer, contribution in Korea) is considered, and the disposition depends on the individual case.
 
 ## 3. Document Checklist Before the Review
 
@@ -76,16 +76,16 @@ Deportation can be ordered only on the grounds listed in Article 46(1) of the Im
 - Alien Registration Card, passport
 - Current visa copy
 
-### Mitigation (★ outcome-changing)
-- ★ Reason letter / petition (in Korean, written from Immigration's perspective)
-- ★ Employment certificate + four-major-insurance enrollment record
-- ★ Tax record (proof of contribution)
-- ★ Family certificate + child's birth certificate
-- ★ Volunteer activity certificate
-- ★ TOPIK score
-- ★ Settlement letter + victim's no-prosecution wish (if accident)
-- ★ Statement from supervisor or coworker (in Korean)
-- ★ Alcohol counseling / treatment certificate
+### Mitigation
+- Reason letter / petition (in Korean, written from Immigration's perspective)
+- Employment certificate + four-major-insurance enrollment record
+- Tax record (proof of contribution)
+- Family certificate + child's birth certificate
+- Volunteer activity certificate
+- TOPIK score
+- Settlement letter + victim's no-prosecution wish (if accident)
+- Statement from supervisor or coworker (in Korean)
+- Alcohol counseling / treatment certificate
 
 ### At the Review
 - Formal attire
@@ -121,10 +121,10 @@ The difference is **not BAC**. It's **document depth and preparation**.
 [Sunshine Administrative Agency Office](/en) brings:
 
 ### (1) Pre-attendance simulation
-30 typical questions practiced. Saying "I only had one drink" creates greater risk.
+Typical questions are practiced. Saying "I only had one drink" creates greater risk.
 
 ### (2) Document packing and emphasis
-Mitigation isn't just submitted — it's indexed and summarized so the officer grasps the core in 5 minutes.
+Mitigation isn't just submitted — it's indexed and summarized so the officer can grasp the key points quickly.
 
 ### (3) Verbal support during attendance
 Where the foreigner's Korean may not capture nuance, the scrivener supplements from an administrative-law perspective.
@@ -135,14 +135,14 @@ As soon as the result arrives, we initiate objection (within 7 days of receiving
 ## 6. Five Common Misconceptions
 
 **1. "I paid the fine, so I'm safe."** → Criminal and administrative are separate.
-**2. "First offense, they'll be lenient."** → BAC ≥ 0.20% or accident: deportation possible even on first offense.
+**2. "First offense, they'll be lenient."** → Even a first offense is reviewed; the disposition depends on the case.
 **3. "I'm married to a Korean, so no deportation."** → F-6 still subjects you to review. Family matters but is not a shield.
 **4. "The criminal case is closed, so it's over."** → The criminal case and the offense review are separate; the offense review is an administrative procedure.
-**5. "I'll just attend solo and tell the truth."** → 30~50% of outcomes hinge on document quality. Solo preparation rarely matches scrivener-quality work.
+**5. "I'll just attend solo and tell the truth."** → How clearly the facts and mitigation are documented is reviewed together with the other circumstances.
 
 ## 7. Start Now
 
-If you've been caught for DUI, **start preparing for the review even before the criminal track ends.** Starting after criminal closure usually leaves too little time before the appearance.
+If you've been caught for DUI, **start preparing for the review even before the criminal track ends.** Starting after the criminal case closes can leave little time before the appearance.
 
 Sunshine Administrative Agency Office offers a **free initial diagnosis** — Korean, English, Chinese, Japanese all supported.
 
@@ -151,6 +151,6 @@ Sunshine Administrative Agency Office offers a **free initial diagnosis** — Ko
 ---
 
 **Related articles:**
-- [Korea Immigration Offense Review — Complete Guide](/en/blog/immigration-offense-review-guide)
+- [Korea Immigration Offense Review Guide](/en/blog/immigration-offense-review-guide)
 - [Criminal Cases and Visa Defense](/en/blog/criminal-case-visa-defense)
 - [Impact on Permanent Residency / Naturalization](/en/blog/criminal-record-pr-impact)

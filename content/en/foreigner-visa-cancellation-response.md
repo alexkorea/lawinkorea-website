@@ -13,10 +13,10 @@ faq:
   - q: "Do I have to leave Korea immediately after receiving a cancellation notice?"
     a: "No. If you file an objection or administrative lawsuit, you can legally remain in Korea until the process concludes. Filing for a stay of execution is strongly recommended alongside the main appeal."
   - q: "How long do I have to file an objection?"
-    a: "You must file an objection or administrative lawsuit within 90 days of the notice date. Missing this deadline eliminates your right to appeal."
+    a: "You must file an administrative appeal within 90 days of learning of the disposition (Administrative Appeals Act Article 27(1)) or an administrative lawsuit within 90 days (Administrative Litigation Act Article 20(1)). Missing this deadline eliminates your right to appeal."
   - q: "Will I be immediately deported after visa cancellation?"
     a: "Deportation procedures may begin after cancellation, but they are paused during active appeals or litigation. A court-granted stay of execution allows you to remain until a verdict is issued."
-  - q: "Can I avoid deportation if my family is in Korea?"
+  - q: "Does having family in Korea matter if I may be deported?"
     a: "Having Korean-national children or a spouse can be cited as humanitarian grounds to reduce the severity of the ruling. Always include your family circumstances in the appeal."
   - q: "How much does the process cost?"
     a: "Costs vary by case. Please contact us for a free consultation where we can provide an accurate estimate."
@@ -24,7 +24,7 @@ faq:
 
 Receiving a visa status cancellation notice can be alarming, but acting quickly gives you real options.
 Under Article 89 of the [Immigration Act](https://www.law.go.kr), you have the right to file an objection against the cancellation decision — and you can pursue administrative litigation to challenge the ruling itself.
-This guide covers the main grounds for cancellation, the step-by-step response process, and what to focus on to maximize your chances.
+This guide covers the main grounds for cancellation, the step-by-step response process, and the points to check when you respond.
 
 ## Common Grounds for Visa Status Cancellation
 
@@ -39,7 +39,6 @@ The Immigration Act (Article 89) and its enforcement regulations specify the fol
 | Tax non-compliance | Persistent failure to pay taxes |
 | Out-of-purpose stay | Activities inconsistent with the visa category |
 
-Cancellations based on document fraud and unauthorized employment have been increasing in recent years.
 The best approach is prevention — but if you have already received a notice, immediate action is critical.
 
 ---
@@ -61,7 +60,7 @@ Read the cancellation notice carefully to identify:
 - The date of the ruling
 - The deadline for filing an objection
 
-You have **90 days from the date of notice** to file an objection.
+You have **90 days from learning of the disposition** to file an administrative appeal (Administrative Appeals Act Article 27(1)).
 
 ### Step 2 — File an Objection (Administrative Appeal)
 
@@ -82,7 +81,7 @@ The lawsuit must be filed within **90 days** of the cancellation notice, or with
 To prevent deportation while your appeal or lawsuit is ongoing, apply to the court for a stay of execution.
 This is one of the most important tools to legally remain in Korea until the case is resolved.
 
-## Key Points for a Successful Appeal
+## Key Points for an Appeal
 
 **Point 1 — Prove the Stated Reason Is Factually Wrong**
 
@@ -100,7 +99,7 @@ Even if a violation occurred, the cancellation ruling may be disproportionately 
 
 If the cancellation was issued without proper prior notification or a required hearing, you can challenge it on procedural grounds.
 
-Cases have been won based on procedural defects and proportionality arguments. Results vary by case, so developing a strategy with a specialist is essential.
+Procedural defects and proportionality are among the grounds that can be argued. Results vary by case, so developing a strategy with a specialist is essential.
 
 ## FAQ
 
@@ -110,7 +109,7 @@ No. If you file an objection or administrative lawsuit, there is a legal basis t
 
 **Q2. How long is the objection period?**
 
-You must file an objection or administrative lawsuit within 90 days of the cancellation notice. Missing this deadline forfeits your right to appeal.
+You must file an administrative appeal or administrative lawsuit within 90 days (Administrative Appeals Act Article 27(1), Administrative Litigation Act Article 20(1)). Missing this deadline forfeits your right to appeal.
 
 **Q3. Will I be immediately deported after my visa is cancelled?**
 

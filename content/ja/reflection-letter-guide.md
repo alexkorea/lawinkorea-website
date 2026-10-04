@@ -123,7 +123,7 @@ related:
 **関連ページ**
 - [出入国事犯審査とは何か、何を準備すべきか](/ja/immigration-offense-review)
 - [事犯審査の必要書類チェックリスト](/ja/documents)
-- [出入国事犯審査 完全ガイド](/ja/blog/immigration-offense-review-guide)
+- [出入国事犯審査ガイド](/ja/blog/immigration-offense-review-guide)
 - [外国人の飲酒運転とビザ延長](/ja/blog/dui-foreigner-visa)
 - [出入国の犯則金通知を受けたときの対応手順](/ja/blog/immigration-fine-notice-response-2026)
 

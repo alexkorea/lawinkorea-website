@@ -1,5 +1,5 @@
 ---
-title: "Korea Immigration Act Penalties & Fines Explained (2026)"
+title: "Korea Immigration Act Penalties & Fines Explained"
 description: "Penalties under Articles 93-3 and 94 to 100 of the Immigration Control Act: unauthorized employment, overstay and illegal hiring, sentencing ranges and fines."
 date: "2026-05-01"
 category: "Penalties"
@@ -12,19 +12,19 @@ keywords:
   - "Korea visa violation penalty"
 faq:
   - q: "What's the fine range for Immigration Control Act violations?"
-    a: "Seven tiers: from up to 1M KRW (Article 98) to up to 50M KRW or 5 years imprisonment (Article 93-3). Different tiers apply to different offense types."
+    a: "Penalties range from a fine of up to KRW 1 million (Article 98) to imprisonment of up to 7 years (Article 93-2). Different tiers apply to different offense types."
   - q: "What's the penalty for a single out-of-status activity violation?"
-    a: "Article 20 violation = Article 94 application — up to 3 years imprisonment or 30M KRW fine. First detection typically 1~5M KRW. The offense review outcome (status maintained vs deportation) matters more than the fine."
-  - q: "What's the overstay fine?"
-    a: "Article 25 violation (Article 94 #17) — up to 3 years imprisonment or 30M KRW fine. Typically 1~5M KRW + departure order or deportation + entry ban."
+    a: "Article 20 violation = Article 94 application — up to 3 years imprisonment or 30M KRW fine. The offense review outcome (status maintained vs deportation) matters more than the fine."
+  - q: "What's the fine for overstaying your visa (illegal stay)?"
+    a: "Article 25 violation (Article 94 #17) — up to 3 years imprisonment or 30M KRW fine. The fine and any departure order, deportation or entry ban depend on the case."
   - q: "How much does an illegal employer pay?"
-    a: "Article 18(3) violation (Article 94 #9) — up to 3 years imprisonment or 30M KRW fine. Joint Penalty Provision (Article 99-3) also penalizes the corporation. Per-foreigner aggregated; aggravated for repeats."
+    a: "Article 18(3) violation (Article 94 #9) — up to 3 years imprisonment or 30M KRW fine. Joint Penalty Provision (Article 99-3) also penalizes the corporation. Base fine amounts are set by headcount and violation period (Enforcement Rule Table 8)."
   - q: "Can I be punished for not carrying my passport?"
     a: "Article 27 violation = Article 98 application — up to 1M KRW fine. Lightest penalty, but cumulative violations hurt at offense review."
   - q: "Failure to report residence change?"
-    a: "Article 36(1) violation = Article 98 application — up to 1M KRW fine. 14-day reporting requirement. Applies to all non-tourist visas."
+    a: "Article 36(1) violation = Article 98 application — up to 1M KRW fine. The report is due within 15 days of moving in (Article 36(1)) and applies to registered foreigners."
   - q: "Are fines a separate offense review?"
-    a: "Yes. Criminal punishment and immigration offense review are separate procedures. Even a 1M KRW fine triggers Immigration's own assessment for visa renewal, status change, or deportation."
+    a: "Yes. Criminal punishment and immigration offense review are separate procedures. Even a small fine can be considered in Immigration's own assessment for visa renewal, status change, or deportation."
 related:
   - "immigration-offense-review-guide"
   - "illegal-employment-penalty"
@@ -32,7 +32,7 @@ related:
   - "criminal-record-pr-impact"
 ---
 
-For foreigners violating the Korean Immigration Control Act, the **fine itself is rarely the primary impact**; it's the **post-fine consequences**. Visa renewal denial → deportation can follow even after a 1M KRW fine. Hundreds of cases each year fall into this trap.
+For foreigners violating the Korean Immigration Control Act, the **fine itself is rarely the primary impact**; it's the **post-fine consequences**. Visa renewal denial or deportation can follow even after a small fine.
 
 This guide presents Articles 93-3 and 94 to 100 of the **current Immigration Control Act (effective January 23, 2026)**, organized by case type.
 
@@ -42,15 +42,15 @@ This guide presents Articles 93-3 and 94 to 100 of the **current Immigration Con
 
 | Article | Penalty | Common Violations |
 |---|---|---|
-| Art. 93-3 | **Up to 5 yrs imprisonment / 50M KRW fine** | Detention center violence, escape (most severe) |
-| Art. 94 | **Up to 3 yrs imprisonment / 30M KRW fine** | Out-of-status, overstay, illegal hire (most common) |
+| Art. 93-3 | **Up to 5 yrs imprisonment / 50M KRW fine** | Entry without inspection (Art. 12), etc. |
+| Art. 94 | **Up to 3 yrs imprisonment / 30M KRW fine** | Out-of-status, overstay, illegal hire |
 | Art. 95 | **Up to 1 yr imprisonment / 10M KRW fine** | Entry inspection violation, registration failure, escape |
 | Art. 96 | **Up to 10M KRW fine** | Vessel non-compliance, document refusal |
 | Art. 97 | **Up to 5M KRW fine** | Non-business hire arrangement, duty failures |
 | Art. 98 | **Up to 1M KRW fine** | Passport non-carrying, residence-change non-report |
 | Art. 100 | **Administrative fine** (non-criminal) | Various administrative items |
 
-## 2. Article 94 — 22 Common Foreign-National Violations
+## 2. Article 94 — Common Foreign-National Violations
 
 > *Persons subject to one of the following are punished with up to 3 years imprisonment or 30M KRW fine:*
 
@@ -60,7 +60,7 @@ This guide presents Articles 93-3 and 94 to 100 of the **current Immigration Con
 - **#3** — Article 7-2 violation
 - **#18** — Article 28 violation: exit without inspection
 
-### Status / residence (most frequent)
+### Status / residence
 - **#7** — Article 17(1) violation: **residing beyond status / period** (overstay)
 - **#12** — Article 20 violation: **out-of-status activity** (D-2 hour overrun etc.)
 - **#15** — Article 23 violation: residing without status
@@ -76,9 +76,9 @@ This guide presents Articles 93-3 and 94 to 100 of the **current Immigration Con
 ### Other
 - Boarding/landing violations, Article 22 restriction violations
 
-⚠️ **Article 94 violations = deportation review nearly certain.** Criminal fine alone does not end consequences.
+**Article 94 violations can lead to a deportation review.** Criminal fine alone does not end consequences.
 
-## 3. Article 95 — Up to 1 Yr Imprisonment / 10M KRW Fine (10 cases)
+## 3. Article 95 — Up to 1 Yr Imprisonment / 10M KRW Fine
 
 - **#1** — Entry without inspection
 - **#2** — Conditional entry condition violation
@@ -101,9 +101,9 @@ Mainly transport-related violations (airlines, shipping). Less foreigner-targete
 ## 6. Article 98 — Up to 1M KRW Fine (lightest)
 
 - **#1** — **Article 27 violation**: passport carrying / presentation failure
-- **#2** — **Article 36(1) violation**: residence change reporting failure (within 14 days)
+- **#2** — **Article 36(1) violation**: residence change reporting failure (within 15 days)
 
-⚠️ Lightest, but **cumulative** violations are detrimental at offense review.
+Lightest, but **cumulative** violations are detrimental at offense review.
 
 ## 7. Joint Penalty Provision (Article 99-3) — Corporation Liable Too
 
@@ -119,42 +119,35 @@ Exception: due-diligence and supervision can exempt the corporation.
 
 ### Case A: D-2 student hour overrun
 - Applied: Article 20 → **Article 94 #12** (3 yr / 30M)
-- Actual first detection: typically 1~3M KRW fine
-- Offense review: status maintained or change (D-10 etc.)
-- First detection + self-report + academic excellence: 1M fine + status maintained possible
+- Offense review: status maintained or change (D-10 etc.), depending on the case
+- Self-reporting and academic record can be considered as mitigation
 
 ### Case B: E-9 unauthorized workplace exit
 - Applied: Article 18(2) → **Article 95 #5** (1 yr / 10M)
-- Actual fine: typically 3~7M KRW
-- Offense review: deportation + 5-year ban (most cases)
+- Offense review: can lead to deportation and an entry ban; decided case by case
 
 ### Case C: C-3 tourist work
 - Applied: Article 18(1) → **Article 94 #8** (3 yr / 30M)
-- Actual fine: 5~15M KRW
-- Offense review: deportation + 5–10 year ban (virtually certain)
+- Offense review: can lead to deportation and an entry ban; decided case by case
 
 ### Case D: Overstay
 - Applied: Article 25 → **Article 94 #17** (3 yr / 30M)
-- Actual fine: by overstay duration
-  - ≤ 90 days: 2~5M KRW
-  - 1+ year: 10M KRW+
-- Offense review: departure order → deportation (voluntary departure recommended)
+- Fine: depends on the overstay period and circumstances
+- Offense review: departure order or deportation, depending on the case (voluntary departure can be considered favorably)
 
 ### Case E: Out-of-status (E-7 → other duty)
 - Applied: Article 20 → **Article 94 #12**
-- Actual fine: typically 3~8M KRW
-- Offense review: status change or departure order
+- Offense review: status change or departure order, depending on the case
 
 ### Case F: Illegal foreign hire (employer)
 - Applied: Article 18(3) → **Article 94 #9**
-- Actual fine: **per foreigner 10~20M KRW** (aggravated for repeats)
-- Joint penalty: corporation same amount separately
-- Foreign hire restriction: up to 3 years
+- Base fine: set by headcount and violation period (Enforcement Rule Table 8)
+- Joint penalty: the corporation is also fined (Art. 99-3)
+- Foreign hire restriction: up to 3 years (Act on the Employment of Foreign Workers Art. 20)
 
 ### Case G: ARC non-carrying (at inspection)
 - Applied: Article 27 → **Article 98 #1**
-- Actual fine: typically 0.3~0.5M KRW
-- Offense review: minimal solo impact
+- Offense review: limited impact on its own, but cumulative violations are considered
 
 ## 9. Criminal Fine vs Immigration Disposition — Always Distinct
 
@@ -163,15 +156,15 @@ Exception: due-diligence and supervision can exempt the corporation.
 | **Criminal punishment** | Prosecutor / court | Fine, imprisonment, suspended sentence |
 | **Immigration offense review** | Immigration / Foreigner Office | Status maintain, status change, departure order, deportation, entry ban |
 
-**Key:** Criminal fine alone ≠ safety. **"Just paying the fine"** is the most common mistake leading to deportation. See [Korea Immigration Offense Review — Complete Guide](/en/blog/immigration-offense-review-guide).
+**Key:** Criminal fine alone ≠ safety. Assuming that **"just paying the fine"** ends the matter is a common misunderstanding. See [Korea Immigration Offense Review Guide](/en/blog/immigration-offense-review-guide).
 
 ## 10. Why a Scrivener Matters
 
 Even with light fine appearance:
-- ✅ **Offense review is separate** — scrivener accompanies and communicates with Immigration
-- ✅ **Mitigation organization** — Korean residence, family, employment, language ability
-- ✅ **Multilingual interpretation**
-- ✅ **Post-decision visa strategy**
+- **Offense review is separate** — scrivener accompanies and communicates with Immigration
+- **Mitigation organization** — Korean residence, family, employment, language ability
+- **Multilingual interpretation**
+- **Post-decision visa strategy**
 
 ## 11. Get Diagnosed Now
 
@@ -184,7 +177,7 @@ Sunshine Administrative Agency Office — immigration practice since 2018, Korea
 ---
 
 **Related articles:**
-- [Korea Immigration Offense Review — Complete Guide](/en/blog/immigration-offense-review-guide)
+- [Korea Immigration Offense Review Guide](/en/blog/immigration-offense-review-guide)
 - [Illegal Employment Penalty](/en/blog/illegal-employment-penalty)
 - [Visa Renewal Denial Response](/en/blog/visa-denial-response)
 - [Impact on Permanent Residency](/en/blog/criminal-record-pr-impact)

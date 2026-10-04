@@ -121,13 +121,21 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               { t: "성범죄", d: "처분 유형에 따라 검토 사항이 크게 달라질 수 있습니다.", href: "/ko/offenses/sexual-offense" },
               { t: "사기·절도·재산범죄", d: "피해 회복·합의·반복 여부가 함께 검토됩니다.", href: "/ko/offenses/property-crime" },
               { t: "보이스피싱 관련 사건", d: "연루 경위와 전자금융거래법 위반 여부를 확인합니다.", href: "/ko/offenses/voice-phishing" },
-              { t: "교통사고·무면허운전", d: "피해자 합의 여부와 면허 상태에 따라 대응이 달라집니다.", href: "/ko/offenses/traffic" },
-            ].map((item) => (
-              <a key={item.href} href={item.href} style={{ display: "block", background: "#fff", border: "1px solid #e2e8f0", borderRadius: 8, padding: "20px", textDecoration: "none" }}>
-                <p style={{ fontWeight: 600, color: "#0a1628", margin: "0 0 8px" }}>{item.t}</p>
-                <p style={{ fontSize: 13, color: "#64748b", margin: "0 0 12px", lineHeight: 1.6 }}>{item.d}</p>
-                <span style={{ fontSize: 13, color: "#2563eb" }}>자세히 보기 →</span>
-              </a>
+              { t: "교통사고·무면허운전", d: "피해자 합의 여부와 면허 상태에 따라 대응이 달라집니다.", href: null },
+            ].map((item: { t: string; d: string; href: string | null }) => (
+              // href: null — 상세 페이지가 '준비 중'(noindex)이라 링크를 걸지 않는다(LAW-V1 P0-4).
+              item.href ? (
+                <a key={item.href} href={item.href} style={{ display: "block", background: "#fff", border: "1px solid #e2e8f0", borderRadius: 8, padding: "20px", textDecoration: "none" }}>
+                  <p style={{ fontWeight: 600, color: "#0a1628", margin: "0 0 8px" }}>{item.t}</p>
+                  <p style={{ fontSize: 13, color: "#64748b", margin: "0 0 12px", lineHeight: 1.6 }}>{item.d}</p>
+                  <span style={{ fontSize: 13, color: "#2563eb" }}>자세히 보기 →</span>
+                </a>
+              ) : (
+                <div key={item.t} style={{ background: "#fff", border: "1px solid #e2e8f0", borderRadius: 8, padding: "20px" }}>
+                  <p style={{ fontWeight: 600, color: "#0a1628", margin: "0 0 8px" }}>{item.t}</p>
+                  <p style={{ fontSize: 13, color: "#64748b", margin: 0, lineHeight: 1.6 }}>{item.d}</p>
+                </div>
+              )
             ))}
           </div>
         </section>
@@ -139,13 +147,21 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               { t: "불법취업(자격 외 활동·근무처 변경)", d: "체류자격 범위를 벗어난 취업 활동의 경위와 대응을 안내합니다.", href: "/ko/offenses/unauthorized-employment" },
               { t: "불법체류(체류기간 초과)", d: "초과 기간과 자진출국 여부에 따른 대응을 안내합니다.", href: "/ko/offenses/overstay" },
               { t: "허위서류·허위신고", d: "위·변조서류, 허위초청 등 문제를 다룹니다.", href: "/ko/offenses/false-documents" },
-              { t: "외국인등록·체류지·신고의무 위반", d: "신고 의무 이행 여부와 위반 경위를 확인합니다.", href: "/ko/offenses/reporting-violations" },
-            ].map((item) => (
-              <a key={item.href} href={item.href} style={{ display: "block", background: "#fff", border: "1px solid #e2e8f0", borderRadius: 8, padding: "20px", textDecoration: "none" }}>
-                <p style={{ fontWeight: 600, color: "#0a1628", margin: "0 0 8px" }}>{item.t}</p>
-                <p style={{ fontSize: 13, color: "#64748b", margin: "0 0 12px", lineHeight: 1.6 }}>{item.d}</p>
-                <span style={{ fontSize: 13, color: "#2563eb" }}>자세히 보기 →</span>
-              </a>
+              { t: "외국인등록·체류지·신고의무 위반", d: "신고 의무 이행 여부와 위반 경위를 확인합니다.", href: null },
+            ].map((item: { t: string; d: string; href: string | null }) => (
+              // href: null — 상세 페이지가 '준비 중'(noindex)이라 링크를 걸지 않는다(LAW-V1 P0-4).
+              item.href ? (
+                <a key={item.href} href={item.href} style={{ display: "block", background: "#fff", border: "1px solid #e2e8f0", borderRadius: 8, padding: "20px", textDecoration: "none" }}>
+                  <p style={{ fontWeight: 600, color: "#0a1628", margin: "0 0 8px" }}>{item.t}</p>
+                  <p style={{ fontSize: 13, color: "#64748b", margin: "0 0 12px", lineHeight: 1.6 }}>{item.d}</p>
+                  <span style={{ fontSize: 13, color: "#2563eb" }}>자세히 보기 →</span>
+                </a>
+              ) : (
+                <div key={item.t} style={{ background: "#fff", border: "1px solid #e2e8f0", borderRadius: 8, padding: "20px" }}>
+                  <p style={{ fontWeight: 600, color: "#0a1628", margin: "0 0 8px" }}>{item.t}</p>
+                  <p style={{ fontSize: 13, color: "#64748b", margin: 0, lineHeight: 1.6 }}>{item.d}</p>
+                </div>
+              )
             ))}
           </div>
         </section>

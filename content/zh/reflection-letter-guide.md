@@ -123,7 +123,7 @@ related:
 **相关页面**
 - [什么是出入境违规审查，需要准备什么](/zh/immigration-offense-review)
 - [违规审查所需文件清单](/zh/documents)
-- [出入境违规审查完整指南](/zh/blog/immigration-offense-review-guide)
+- [出入境违规审查指南](/zh/blog/immigration-offense-review-guide)
 - [外国人酒驾与签证延期](/zh/blog/dui-foreigner-visa)
 - [收到出入境罚款通知后的应对顺序](/zh/blog/immigration-fine-notice-response-2026)
 

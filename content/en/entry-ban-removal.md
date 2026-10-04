@@ -1,6 +1,6 @@
 ---
-title: "Korea Entry Ban Removal — How to Shorten 5 or 10 Years"
-description: "How deported foreigners apply to lift a Korean entry ban: grounds that shorten a 5 or 10-year ban, where to file, and the documents required."
+title: "Korea Entry Ban Removal — Application Procedure and Documents"
+description: "How deported foreigners apply to lift a Korean entry ban: the grounds the review considers, where to file, and the documents required."
 date: "2026-05-01"
 category: "Entry Ban"
 cluster: "cluster"
@@ -11,18 +11,18 @@ keywords:
   - "deported Korea re-entry"
   - "Korea visa after deportation"
 faq:
-  - q: "Can I shorten a 5-year entry ban?"
-    a: "Yes, especially if home-country social life is normalized and Korean re-entry purpose is justified (family, business). Typically achievable 2~3 years after deportation. Drug and voice-phishing cases are very difficult."
+  - q: "Can an entry ban be lifted or shortened?"
+    a: "An application can be filed. A stable life in your home country and a justified purpose for re-entry (family, business) are considered. Drug and voice-phishing cases are reviewed strictly, and the result depends on the individual case."
   - q: "Will marriage to a Korean shorten the ban?"
-    a: "Korean spouse is strong mitigation. F-6 visa application can lead to ban removal in 1~2 years. But violent or drug-based deportations remain difficult."
+    a: "A Korean spouse is an important factor in the review. Violent or drug-based deportations are reviewed strictly, and the result depends on the individual case."
   - q: "Are different deportation reasons treated differently?"
-    a: "Yes. Out-of-status (illegal employment): relatively easy to shorten. DUI, criminal cases: case-by-case. Drug, voice phishing, sex offense: very difficult."
+    a: "Yes. The reason for deportation is weighed; drug, voice phishing and sex offenses are reviewed most strictly, and other cases are decided case by case."
   - q: "Where do I apply?"
     a: "Korean consulate in your home country, or local Immigration Office (if applicant is in Korea). Reviewed by Minister of Justice. Processing time varies by authority and filing date — confirm individually."
   - q: "Cost?"
-    a: "Government fee approx 50,000 KRW. Scrivener fee varies by complexity. Free initial diagnosis."
+    a: "Check the government fee with the consulate or immigration office when you apply. Scrivener fee varies by complexity. Free initial diagnosis."
   - q: "Can I reapply after a denial?"
-    a: "Yes, typically 6 months to 1 year later with new evidence. Analyzing the denial reason is critical."
+    a: "Yes, with new evidence. Analyzing the denial reason is critical."
 related:
   - "immigration-offense-review-guide"
   - "criminal-record-pr-impact"
@@ -30,9 +30,9 @@ related:
   - "drug-case-deportation"
 ---
 
-For deported foreigners seeking re-entry to Korea, the first thing to know is: **entry bans can be shortened or removed.**
+For deported foreigners seeking re-entry to Korea, the first thing to know is: **you can apply to have an entry ban lifted or shortened.**
 
-**Time alone doesn't open the door**; **systematic documentation + justified purpose** does. This guide covers the full procedure.
+**Time alone doesn't open the door**; **systematic documentation + justified purpose** does. This guide explains the procedure.
 
 ## 1. Korean Entry-Ban System
 
@@ -44,37 +44,29 @@ Minister of Justice may bar entry of:
 - Foreigners assessed as risk (drugs, violence, fraud)
 - Foreigners who entered with false statements
 
-### Typical Ban Periods by Reason
+### Ban Periods
 
-| Reason | Typical Ban | Shortening Feasibility |
-|---|---|---|
-| Out-of-status / illegal work | 1~5 years | High (1~2 years) |
-| Overstay | 5 years | Moderate (2~3 years) |
-| DUI | 5 years | Moderate |
-| Assault / theft / fraud | 5~10 years | Moderate |
-| Voice phishing | 10 years | Difficult |
-| Drug case | 10 years to permanent | Very difficult |
-| Sexual offense | Permanent | Almost impossible |
+The period of an entry ban is decided by the Ministry of Justice for each case, and the period stated in your notice applies. When an application to lift the ban is reviewed, the reason for deportation, the circumstances and the time elapsed are considered.
 
-## 2. Justifiable Reasons for Shortening
+## 2. Reasons Considered in the Review
 
-### Strong reasons
-- ✅ Korean spouse / children — F-6 or F-2 application
-- ✅ Korean permanent-resident family (parents, siblings)
-- ✅ Stable home-country social life (employment, business, marriage)
-- ✅ Korean business / investment — D-8 or F-2-12
-- ✅ Korean medical needs (rare disease treatment)
-- ✅ Korean family emergency (humanitarian)
+### Stronger reasons
+- Korean spouse / children — F-6 or F-2 application
+- Korean permanent-resident family (parents, siblings)
+- Stable home-country social life (employment, business, marriage)
+- Korean business / investment — D-8 or F-2-12
+- Korean medical needs (rare disease treatment)
+- Korean family emergency (humanitarian)
 
-### Weak reasons
-- ⚠️ "I love Korea" → not recognized
-- ⚠️ "I want to visit friends" → denied
-- ⚠️ "Travel desire" → denied
+### Weaker reasons
+- "I love Korea" → generally not accepted on its own
+- "I want to visit friends" → generally not accepted on its own
+- "Travel desire" → generally not accepted on its own
 
 ## 3. Application Procedure
 
 ### Step 1. Decide timing
-- After half the ban period (e.g., 5-year → 2~2.5 years)
+- Depends on the ban period, the reason and your circumstances
 - Earlier with justified emergency (family critical etc.)
 
 ### Step 2. Application form
@@ -110,33 +102,29 @@ Minister of Justice may bar entry of:
 
 ## 4. Strategy by Deportation Reason
 
-### 🔴 Drug case removal
-**Hardest case.** Generally:
-- 10+ years elapsed
+### Drug cases
+**Reviewed most strictly.** Factors considered:
+- Substantial time elapsed
 - Home-country treatment program completion
-- Stable home-country social life 5+ years
+- Stable home-country social life
 - Strong Korean family backing
 - Strong sponsor (Korean resident)
 
-→ 30~50% success at best.
-
-### 🟡 Voice phishing removal
-- 5~7 years elapsed
+### Voice phishing cases
+- Time elapsed
 - Self-surrender + cooperation history helps
 - Stable home-country life
 - Victim restitution proof (if applicable)
 
-### 🟢 Out-of-status removal
-- 1~2 years elapsed
+### Out-of-status cases
+- Time elapsed
 - Korean family or business reason
 - Home-country stability
-- Relatively easy
 
-### 🟢 DUI removal
-- 2~3 years elapsed
+### DUI cases
+- Time elapsed
 - Alcohol-treatment completion
 - Korean family or business
-- Generally feasible
 
 ## 5. Real Cases
 
@@ -172,11 +160,11 @@ Minister of Justice may bar entry of:
 
 ## 6. Common Denial Reasons
 
-1. ❌ Weak reason — "love Korea, want to travel"
-2. ❌ Insufficient home-country no-record proof
-3. ❌ Sparse documents
-4. ❌ Insufficient home-country stability proof
-5. ❌ Weak sponsor
+1. Weak reason — "love Korea, want to travel"
+2. Insufficient home-country no-record proof
+3. Sparse documents
+4. Insufficient home-country stability proof
+5. Weak sponsor
 
 ## 7. Sunshine's Removal Application Package
 
@@ -193,17 +181,17 @@ Applicants abroad can engage entirely via online + mail. KakaoTalk, WeChat, LINE
 
 ## 8. Reapply Strategy
 
-Even after denial, reapplication is possible 6 months to 1 year later.
+Even after denial, you can reapply with new evidence.
 
-### Success strategy
+### Reapplication approach
 1. Analyze denial reason
 2. Add evidence to address weakness
-3. Time elapsed (6+ months stable life)
+3. Time elapsed with a stable life
 4. Add new reasons (family change, business plan)
 
 ## 9. Get Diagnosed Now
 
-Entry-ban removal **outcomes hinge on timing**. Too early = denial. Too late = family situation changes. Diagnose your optimal timing.
+**Timing is one of the factors considered** in an entry-ban removal application. We can review the timing for your case.
 
 **Free initial diagnosis — applicable from anywhere worldwide — multilingual**
 
@@ -212,7 +200,7 @@ Entry-ban removal **outcomes hinge on timing**. Too early = denial. Too late = f
 ---
 
 **Related articles:**
-- [Korea Immigration Offense Review — Complete Guide](/en/blog/immigration-offense-review-guide)
+- [Korea Immigration Offense Review Guide](/en/blog/immigration-offense-review-guide)
 - [Impact on Permanent Residency](/en/blog/criminal-record-pr-impact)
 - [Criminal Cases and Visa Defense](/en/blog/criminal-case-visa-defense)
 - [Drug Case Deportation](/en/blog/drug-case-deportation)

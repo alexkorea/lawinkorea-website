@@ -1,6 +1,6 @@
 ---
-title: "Unauthorized Work in Korea — Avoiding Deportation"
-description: "Student hour limits, E-9 workplace departure and out-of-status work: penalties for you and your employer, and how to keep your visa."
+title: "Unauthorized Work in Korea — Penalties and the Immigration Review"
+description: "Student hour limits, E-9 workplace departure and out-of-status work in Korea: penalties for you and your employer, and the immigration review."
 date: "2026-05-01"
 category: "Employment"
 cluster: "cluster"
@@ -12,17 +12,17 @@ keywords:
   - "Korea C-3 tourist work"
 faq:
   - q: "What's the penalty for D-2 students exceeding work hours?"
-    a: "Above 25 weekly hours (no weekend cap) — first detection: warning + fine 1~5M KRW. Second detection onward: status revocation possible. The employer faces up to 3 years in prison or a KRW 30 million fine under Immigration Act Art. 94(9)."
+    a: "Working beyond the hours allowed by your part-time work permission is a violation. The disposition (warning, fine notice, departure order and so on) depends on the case and on whether it is repeated. The employer faces up to 3 years in prison or a KRW 30 million fine under Immigration Act Art. 94(9)."
   - q: "What if E-9 holders work for a different employer?"
-    a: "Employer changes require government approval. Unauthorized change = out-of-status activity + immigration law violation = deportation + entry ban likely."
+    a: "Employer changes require government approval. An unauthorized change is an immigration law violation and can lead to a deportation review and an entry ban; the disposition depends on the case."
   - q: "If I'm caught, will late reporting still help?"
-    a: "Self-reporting is the strongest mitigation. Even after detection, voluntary appearance and cooperation lighten outcomes. Flight attempts likely lead to deportation + permanent ban."
+    a: "Self-reporting is the strongest mitigation. Even after detection, voluntary appearance and cooperation lighten outcomes. Flight attempts weigh heavily against you."
   - q: "Does the employer's punishment affect the foreigner's outcome?"
     a: "They are separate. But employer statements supporting the foreigner are mitigation; employer blame-shifting hurts the foreigner."
   - q: "I worked on a C-3 (tourist) visa and was caught. What now?"
-    a: "Tourist-visa work = deportation virtually certain + 5+ year entry ban. However, Korean family or children's school attendance can convert deportation to voluntary departure with shorter ban."
+    a: "Working on a C-3 visa is treated seriously and can lead to deportation and an entry ban. Korean family or children's school attendance may be considered; the disposition depends on the case."
   - q: "Can I apply for permanent residency after an illegal-employment finding?"
-    a: "Fine or minor disposition: possible after 5 years. Deportation: 10+ years. Repeated violations create permanent disqualification grounds."
+    a: "The waiting period depends on the disposition and the Ministry of Justice criteria in force; repeated violations are weighed heavily."
 related:
   - "illegal-employer-penalty"
   - "immigration-offense-review-guide"
@@ -31,7 +31,7 @@ related:
   - "entry-ban-removal"
 ---
 
-The most frequent immigration-law violation by foreigners in Korea is **out-of-status activity (자격외 활동)**: D-2 students exceeding 25 weekly hours, E-9 visa holders moving to non-approved workplaces, C-3 tourists taking up jobs.
+A common immigration-law violation by foreigners in Korea is **out-of-status activity (자격외 활동)**: D-2 students exceeding their permitted part-time hours, E-9 visa holders moving to non-approved workplaces, C-3 tourists taking up jobs.
 
 This guide covers each.
 
@@ -42,15 +42,15 @@ Article 20 of the Immigration Control Act: *"A foreign national in the Republic 
 In short: **anything outside your visa's permitted activity = violation.**
 
 ### Common cases by visa
-- 🎓 **D-2 (study)**: > 25 hr/week part-time, post-graduation work without status change
-- 🌐 **D-4 (training)**: work during first 6 months
-- 💼 **E-7 (specific activity)**: changing job duties without notification
-- 🏭 **E-9 (non-professional)**: workplace change or departure
-- ✈️ **C-3 (short visit)**: any form of paid work
-- 👨‍👩‍👧 **F-1 (visit)**: profit activity
-- 🤝 **F-3 (dependent)**: profit activity
+- **D-2 (study)**: part-time work beyond permitted hours, post-graduation work without status change
+- **D-4 (training)**: part-time work without permission
+- **E-7 (specific activity)**: changing job duties without notification
+- **E-9 (non-professional)**: workplace change or departure
+- **C-3 (short visit)**: any form of paid work
+- **F-1 (visit)**: profit activity
+- **F-3 (dependent)**: profit activity
 
-⚠️ F-2, F-5, F-6, F-4 = unrestricted work permitted.
+F-2, F-5, F-6, F-4 = unrestricted work permitted.
 
 ## 2. Detection Procedure
 
@@ -68,53 +68,49 @@ In short: **anything outside your visa's permitted activity = violation.**
 
 ## 3. Visa-Specific Patterns
 
-### 🎓 D-2 hour overrun
-Allowed hours: 25/week (term) / unlimited (vacation).
-- TOPIK ≤4: 20 hr/week
-- TOPIK ≥4: 25 hr/week
-- Weekends: unlimited
-- Common detection: weekday 5×5 + weekend → over-limit
+### D-2 hour overrun
+Permitted hours depend on your part-time work permission, Korean-language level and the Ministry of Justice criteria in force; check the hours stated on your permission.
+- Common detection: weekday and weekend work together exceeding the limit
 
-First detection: warning + 1~3M KRW fine.
-Second: status revocation or status change order.
+The disposition depends on the case; repeated violations are treated more seriously.
 
-### 🏭 E-9 unauthorized workplace change
+### E-9 unauthorized workplace change
 Principle: E-9 is bound to one workplace. Move requires labor permit.
 - Common pattern: moving to higher-paying factory, employer abuse driven exit, workplace bankruptcy
-- Outcome: deportation + 5-year entry ban (most cases)
+- Outcome: can lead to deportation and an entry ban; decided case by case
 
-⚠️ E-9 + 3 months unreported = automatic overstay + deportation.
+If an E-9 worker leaves a workplace and does not obtain a workplace change within the period set by the Act on the Employment of Foreign Workers, the stay can become unlawful.
 
-### ✈️ C-3 unauthorized work
-**Most dangerous.** Tourist entry → restaurant, factory, domestic work, then detected.
-Outcome: deportation + 5–10 year entry ban (virtually certain).
+### C-3 unauthorized work
+Tourist entry → restaurant, factory, domestic work, then detected.
+Outcome: can lead to deportation and an entry ban; decided case by case.
 
 ## 4. Mitigation Evidence
 
 ### Strong factors
-- ✅ Voluntary self-reporting (before detection)
-- ✅ Employer coercion or fraud proof
-- ✅ Home-country danger (political persecution, family obligation)
-- ✅ Korean family
-- ✅ First violation + short period (≤ 3 months)
-- ✅ Tax records (voluntary income reporting)
+- Voluntary self-reporting (before detection)
+- Employer coercion or fraud proof
+- Home-country danger (political persecution, family obligation)
+- Korean family
+- First violation + short period
+- Tax records (voluntary income reporting)
 
 ### Decisive risk factors
-- ❌ Repeated violations
-- ❌ Flight attempts
-- ❌ Lying
-- ❌ Out-of-status activity + criminal incident combined
-- ❌ Employer-collusion / disguised employment
+- Repeated violations
+- Flight attempts
+- Lying
+- Out-of-status activity + criminal incident combined
+- Employer-collusion / disguised employment
 
 ## 5. Power of Voluntary Self-Reporting
 
-Self-reporting **before** detection radically reduces sanctions.
+Self-reporting **before** detection is considered as mitigation.
 
 ### Procedure
 1. Foreigner Comprehensive Support Center (1345) or local Immigration Office
 2. Acknowledge facts + describe circumstances
 3. Apply for status change or voluntary departure
-4. Outcome: typically warning or departure order (deportation avoided)
+4. The disposition is decided case by case
 
 Difficult cases:
 - Korean family (cannot leave)
@@ -147,8 +143,7 @@ Difficult cases:
 Employer faces:
 - Up to 3 years in prison or KRW 30 million (Immigration Act Art. 94(9)); base fine KRW 3–30 million by headcount and period (Enforcement Rule, Table 8)
 - The company is fined as well (Art. 99-3)
-- Foreign-hire restriction (up to 3 years)
-- Business registration cancellation possible
+- Foreign-hire restriction (up to 3 years, Act on the Employment of Foreign Workers Article 20)
 
 Employer-foreigner cooperation:
 - Statement: "Foreigner not at fault" → favorable
@@ -172,7 +167,7 @@ Employer-foreigner cooperation:
 
 ## 9. Act Now
 
-Out-of-status activity is **time-critical**. Self-reporting before detection vs. detection-then-review produces dramatically different outcomes.
+Out-of-status activity is **time-critical**. Whether you self-reported before detection is considered in the review.
 
 **Free initial diagnosis — confidential — multilingual**
 
@@ -181,7 +176,7 @@ Out-of-status activity is **time-critical**. Self-reporting before detection vs.
 ---
 
 **Related articles:**
-- [Korea Immigration Offense Review — Complete Guide](/en/blog/immigration-offense-review-guide)
+- [Korea Immigration Offense Review Guide](/en/blog/immigration-offense-review-guide)
 - [Criminal Cases and Visa Defense](/en/blog/criminal-case-visa-defense)
 - [Impact on Permanent Residency](/en/blog/criminal-record-pr-impact)
 - [Entry-Ban Removal](/en/blog/entry-ban-removal)

@@ -1,9 +1,9 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { getAllPosts } from "../lib/blog";
-import { ACCENT } from "../lib/constants";
-import SiteHeader from "../components/SiteHeader";
-import SiteFooter from "../components/SiteFooter";
+import { getAllPosts } from "../../lib/blog";
+import { ACCENT } from "../../lib/constants";
+import SiteHeader from "../../components/SiteHeader";
+import SiteFooter from "../../components/SiteFooter";
 
 export const metadata: Metadata = {
   title: "블로그 · 출입국사범심사 가이드",
@@ -178,7 +178,7 @@ export default async function BlogIndex() {
             긴급 상황이라면 지금 바로 무료 진단을 받으세요.
           </p>
           <Link
-            href="/#contact"
+            href="/ko/contact"
             style={{
               background: ACCENT.primary,
               color: "#fff",

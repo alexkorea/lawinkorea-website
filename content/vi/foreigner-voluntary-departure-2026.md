@@ -1,6 +1,6 @@
 ---
-title: "Xuất cảnh tự nguyện và dỡ lệnh cấm nhập cảnh (2026)"
-description: "Hướng dẫn 2026 cho người cư trú quá hạn tại Hàn Quốc: lợi ích của xuất cảnh tự nguyện, thời hạn cấm theo thời gian quá hạn và cách xin dỡ bỏ lệnh cấm."
+title: "Xuất cảnh tự nguyện và dỡ lệnh cấm nhập cảnh (hạn chế nhập cảnh)"
+description: "Hướng dẫn cho người cư trú quá hạn tại Hàn Quốc: chế độ xuất cảnh tự nguyện, trình tự thủ tục, các điểm về cấm nhập cảnh và cách xin dỡ bỏ lệnh cấm."
 date: "2026-05-13"
 category: "Cư trú bất hợp pháp"
 cluster: "cluster"
@@ -11,14 +11,14 @@ keywords:
   - "xin dỡ bỏ lệnh cấm nhập cảnh"
   - "tự khai báo xuất nhập cảnh"
 faq:
-  - q: "Tôi quá hạn chưa tới 1 tháng, xuất cảnh tự nguyện có tránh được lệnh cấm không?"
-    a: "Với thời gian quá hạn dưới 1 tháng, xuất cảnh tự nguyện thường được miễn lệnh cấm hoặc chỉ bị cấm ngắn hạn dưới 1 năm. Tuy nhiên kết quả phụ thuộc đánh giá của cơ quan xuất nhập cảnh, nên hãy tư vấn chuyên gia trước khi rời đi."
+  - q: "Tôi quá hạn lưu trú (cư trú bất hợp pháp) chưa tới 1 tháng, xuất cảnh tự nguyện thì có bị cấm nhập cảnh (hạn chế nhập cảnh) không?"
+    a: "Việc có bị cấm nhập cảnh hay không và thời hạn bao lâu phụ thuộc vào đánh giá của cơ quan xuất nhập cảnh đối với từng trường hợp, nên hãy kiểm tra trước khi rời đi."
   - q: "Khai báo xuất cảnh tự nguyện ở đâu?"
     a: "Đến trực tiếp văn phòng xuất nhập cảnh quản lý nơi cư trú, một số trường hợp có thể khai báo qua điện thoại. Tại Seoul là Văn phòng Xuất nhập cảnh Seoul (02-2650-6300); các khu vực khác liên hệ văn phòng địa phương. Hi Korea (www.hikorea.go.kr) cũng có kênh khai báo trực tuyến cho một số trường hợp."
   - q: "Đơn xin dỡ bỏ lệnh cấm bị từ chối thì làm gì?"
     a: "Sau khi nhận thông báo từ chối, hãy xác nhận lý do, bổ sung tài liệu và nộp lại. Ngoài ra có thể yêu cầu xét xử hành chính hoặc khiếu nại ra tòa. Nên cùng hành chính sĩ xây dựng chiến lược."
   - q: "Có vợ/chồng người Hàn thì dễ được dỡ lệnh cấm hơn không?"
-    a: "Việc có vợ/chồng người Hàn là yếu tố quan trọng khi thẩm định. Đặc biệt nếu có con phụ thuộc hoặc người phối ngẫu đứng ra bảo lãnh thì khả năng cao hơn. Nhưng không phải tự động được dỡ, vẫn phải chuẩn bị hồ sơ đầy đủ."
+    a: "Việc có vợ/chồng người Hàn là yếu tố quan trọng khi thẩm định. Việc có con phụ thuộc hoặc người phối ngẫu đứng ra bảo lãnh cũng có thể được xem xét. Nhưng không phải tự động được dỡ, vẫn phải chuẩn bị hồ sơ đầy đủ."
   - q: "Có đi làm trong thời gian cư trú bất hợp pháp thì bị xử nặng hơn không?"
     a: "Lao động trái phép là vi phạm Luật Quản lý xuất nhập cảnh, tách biệt với việc vi phạm tư cách lưu trú. Khi đó ngoài tiền phạt, thời hạn cấm nhập cảnh có thể bị tăng nặng. Chủ sử dụng cũng có thể bị xử phạt vì tuyển dụng người không khai báo."
   - q: "Sau khi xuất cảnh tự nguyện, khi nào xin lại visa Hàn Quốc được?"
@@ -29,9 +29,9 @@ related:
   - "immigration-offense-review-guide"
 ---
 
-Người nước ngoài đang ở Hàn Quốc mà không rời đi sau khi visa hết hạn sẽ bị xếp vào diện "cư trú bất hợp pháp".
-Nếu bị phát hiện trong đợt kiểm tra, bạn sẽ bị buộc xuất cảnh kèm lệnh cấm nhập cảnh; nhưng nếu chủ động xuất cảnh tự nguyện, thiệt hại sẽ giảm đáng kể.
-Bài viết này trình bày chi tiết theo tiêu chuẩn mới nhất năm 2026 về lợi ích của chế độ xuất cảnh tự nguyện, thời hạn cấm nhập cảnh và cách xin dỡ bỏ lệnh cấm.
+Người nước ngoài đang ở Hàn Quốc mà không rời đi sau khi visa hết hạn sẽ bị xếp vào diện "quá hạn lưu trú (cư trú bất hợp pháp)".
+Nếu bị phát hiện, bạn có thể bị trục xuất (cưỡng chế xuất cảnh) và cấm nhập cảnh (hạn chế nhập cảnh); việc chủ động xuất cảnh tự nguyện có thể được xem xét khác. Mức xử lý phụ thuộc vào từng trường hợp.
+Bài viết này trình bày về lợi ích của chế độ xuất cảnh tự nguyện, thời hạn cấm nhập cảnh và cách xin dỡ bỏ lệnh cấm.
 
 ## Cư trú bất hợp pháp là gì
 
@@ -46,34 +46,24 @@ Khi rơi vào tình trạng này, bạn đối mặt các rủi ro sau:
 - Bất cứ lúc nào cũng có thể bị kiểm tra và buộc xuất cảnh
 - Bị lệnh trục xuất kèm quyết định cấm nhập cảnh
 - Bị hạn chế sử dụng dịch vụ việc làm, tài chính, y tế
-- Mất tư cách xin nhập tịch và thường trú
+- Có thể bất lợi khi xin nhập tịch và thường trú
 
 ## Chế độ xuất cảnh tự nguyện là gì
 
-Đây là chế độ theo đó người cư trú bất hợp pháp tự rời Hàn Quốc trước khi bị phát hiện sẽ được rút ngắn hoặc miễn thời hạn cấm nhập cảnh.
+Đây là chế độ theo đó người cư trú bất hợp pháp tự rời Hàn Quốc trước khi bị phát hiện có thể được xem xét giảm hoặc miễn cấm nhập cảnh.
 Cục Chính sách xuất nhập cảnh và người nước ngoài ([immigration.go.kr](https://www.immigration.go.kr)) vận hành chế độ này để khuyến khích tự khai báo và tự xuất cảnh.
 
 **Những lợi ích chính**
 
 - Không lưu lại lịch sử bị trục xuất, giảm bất lợi khi xét visa về sau
-- Thời hạn cấm nhập cảnh ngắn hơn nhiều so với khi bị phát hiện
-- Xuất cảnh trong thời hạn nhất định sau khi tự khai báo được giảm hoặc miễn tiền phạt
-- Tăng khả năng nhập cảnh hợp pháp trở lại
+- Thời hạn cấm nhập cảnh có thể được xem xét khác so với khi bị phát hiện
+- Xuất cảnh trong thời hạn nhất định sau khi tự khai báo có thể được giảm hoặc miễn tiền phạt
+- Có thể thuận lợi hơn khi xin nhập cảnh hợp pháp trở lại
 
-## Thời hạn cấm nhập cảnh theo thời gian cư trú quá hạn
+## Thời hạn cấm nhập cảnh
 
-Thời hạn cấm phụ thuộc vào thời gian cư trú bất hợp pháp. Dưới đây là tiêu chuẩn hiện hành năm 2026.
-
-| Thời gian quá hạn | Cấm nhập cảnh khi tự nguyện xuất cảnh | Cấm nhập cảnh khi bị trục xuất |
-|---|---|---|
-| Dưới 1 tháng | Không có (hoặc dưới 1 năm) | 1 năm |
-| 1 tháng ~ dưới 3 tháng | 1 năm | 2 năm |
-| 3 tháng ~ dưới 1 năm | 2 năm | 3~5 năm |
-| 1 năm ~ dưới 3 năm | 3 năm | 5 năm |
-| Từ 3 năm | 5 năm | Từ 10 năm hoặc vĩnh viễn |
-
-Chọn xuất cảnh tự nguyện thường giúp giảm thời hạn cấm xuống một nửa hoặc hơn so với bị trục xuất.
-Thời gian quá hạn càng ngắn thì lợi ích càng lớn.
+Thời hạn cấm nhập cảnh đối với người quá hạn lưu trú không được ghi trực tiếp trong Luật Quản lý xuất nhập cảnh; việc có bị cấm hay không và thời hạn bao lâu phụ thuộc vào thời gian quá hạn, việc tự nguyện xuất cảnh hay bị phát hiện, và hoàn cảnh của từng trường hợp.
+Riêng người bị trục xuất thì không được nhập cảnh trong 5 năm kể từ khi xuất cảnh (Luật Quản lý xuất nhập cảnh Điều 11 khoản 1 điểm 6). Hãy kiểm tra với cơ quan xuất nhập cảnh trước khi rời đi.
 
 ## Trình tự xuất cảnh tự nguyện
 
@@ -101,9 +91,9 @@ Thời hạn cấm nhập cảnh được tính từ ngày xuất cảnh.
 
 Ngay cả khi đã bị cấm, bạn vẫn có thể xin dỡ bỏ nếu đáp ứng một số điều kiện.
 
-**Điều kiện nộp đơn**
+**Những điểm thường được xem xét**
 
-- Đã qua từ một nửa thời hạn cấm trở lên
+- Thời gian đã trôi qua kể từ khi bị cấm
 - Có vợ/chồng hoặc người thân trực hệ là người Hàn Quốc
 - Có lý do nhân đạo (bệnh nặng, tang lễ, mang thai...)
 - Chứng minh được nhu cầu về kinh tế, kinh doanh
@@ -125,26 +115,26 @@ Ngay cả khi đã bị cấm, bạn vẫn có thể xin dỡ bỏ nếu đáp �
 - Các tài liệu khác chứng minh sự cần thiết của việc dỡ bỏ
 
 Dỡ bỏ lệnh cấm không phải là quyền đương nhiên, nên việc chuẩn bị tài liệu giải trình thuyết phục là mấu chốt.
-Có hành chính sĩ chuyên môn hỗ trợ sẽ giúp tăng tỷ lệ thành công.
+Có thể nhờ hành chính sĩ hỗ trợ soạn hồ sơ; kết quả phụ thuộc vào từng vụ việc.
 
 ## Những lưu ý về cư trú bất hợp pháp
 
 Tiếp tục ở lại Hàn Quốc trong tình trạng bất hợp pháp là rất rủi ro.
 
-- Khi bị phát hiện sẽ bị đưa ngay vào cơ sở bảo hộ (trại tạm giữ người nước ngoài) rồi trục xuất
+- Khi bị phát hiện có thể bị đưa vào cơ sở bảo hộ (trại tạm giữ người nước ngoài) và bị trục xuất
 - Nếu có con chưa thành niên, con có thể phải qua thủ tục riêng
 - Vợ/chồng người Hàn hoặc chủ sử dụng lao động cũng có thể phải chịu trách nhiệm pháp lý
 - Với một số quốc tịch, thủ tục thông báo về nước sở tại có thể được tiến hành
 
-Ngoài ra, việc xin đổi tư cách lưu trú trong khi đang cư trú bất hợp pháp hầu như không được chấp nhận.
+Ngoài ra, việc xin đổi tư cách lưu trú trong khi đang cư trú bất hợp pháp bị hạn chế.
 Về nguyên tắc, bạn phải xuất cảnh rồi làm lại thủ tục hợp pháp.
 
 ## Câu hỏi thường gặp (FAQ)
 
-**Q. Tôi quá hạn chưa tới 1 tháng, xuất cảnh tự nguyện có tránh được lệnh cấm không?**
+**Q. Tôi quá hạn lưu trú chưa tới 1 tháng, xuất cảnh tự nguyện thì có bị cấm nhập cảnh không?**
 
-A. Với thời gian quá hạn dưới 1 tháng, xuất cảnh tự nguyện thường được miễn lệnh cấm hoặc chỉ bị cấm ngắn hạn dưới 1 năm.
-Tuy nhiên kết quả phụ thuộc đánh giá của cơ quan xuất nhập cảnh, nên hãy tư vấn chuyên gia trước khi rời đi.
+A. Việc có bị cấm nhập cảnh hay không và thời hạn bao lâu phụ thuộc vào đánh giá của cơ quan xuất nhập cảnh đối với từng trường hợp.
+Vì vậy hãy kiểm tra trước khi rời đi.
 
 **Q. Khai báo xuất cảnh tự nguyện ở đâu?**
 
@@ -161,7 +151,7 @@ Nên cùng hành chính sĩ xây dựng chiến lược ứng phó.
 **Q. Có vợ/chồng người Hàn thì dễ được dỡ lệnh cấm hơn không?**
 
 A. Việc có vợ/chồng người Hàn là yếu tố quan trọng khi thẩm định.
-Đặc biệt nếu có con phụ thuộc hoặc người phối ngẫu đứng ra bảo lãnh thì khả năng cao hơn.
+Việc có con phụ thuộc hoặc người phối ngẫu đứng ra bảo lãnh cũng có thể được xem xét.
 Nhưng không phải tự động được dỡ, vẫn phải chuẩn bị hồ sơ đầy đủ.
 
 **Q. Có đi làm trong thời gian cư trú bất hợp pháp thì bị xử nặng hơn không?**
@@ -178,7 +168,7 @@ Vì vậy cần giải trình hợp lý và chuẩn bị hồ sơ đầy đủ k
 
 ---
 
-Vấn đề cư trú bất hợp pháp càng xử lý sớm thì thiệt hại càng nhỏ.
+Với vấn đề cư trú bất hợp pháp, nên kiểm tra sớm tình trạng và các lựa chọn của mình.
 Từ xuất cảnh tự nguyện, dỡ bỏ lệnh cấm đến xin visa nhập cảnh lại, Văn phòng Hành chính sĩ Sunshine sẽ đồng hành cùng bạn từng bước.
 
 **Hãy đăng ký tư vấn miễn phí ngay bây giờ.**

@@ -1,10 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { ACCENT, COMPANY, SITE } from "../../lib/constants";
-import BLOG_POSTS_DATA, { getBlogPostData, getBlogPostsByLocale } from "../../data/blog-posts-data";
-import SiteHeader from "../../components/SiteHeader";
-import SiteFooter from "../../components/SiteFooter";
+import { ACCENT, COMPANY, SITE } from "../../../lib/constants";
+import BLOG_POSTS_DATA, { getBlogPostData, getBlogPostsByLocale } from "../../../data/blog-posts-data";
+import SiteHeader from "../../../components/SiteHeader";
+import SiteFooter from "../../../components/SiteFooter";
 
 export const dynamicParams = false;
 
@@ -291,7 +291,7 @@ export default async function BlogPost({ params }: { params: Promise<Params> }) 
           </p>
           <div style={{ display: "flex", gap: 12, justifyContent: "center", flexWrap: "wrap" }}>
             <Link
-              href="/#contact"
+              href="/ko/contact"
               style={{
                 background: "#fff",
                 color: ACCENT.navy,

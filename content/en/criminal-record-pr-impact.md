@@ -12,13 +12,13 @@ keywords:
   - "Korea citizenship DUI"
 faq:
   - q: "Is a 1M KRW fine grounds for F-5 disqualification?"
-    a: "What matters is the offense type and timing, not just the amount. 5M KRW+ fines are generally disqualifying; under 1M KRW typically minor. DUI / violent offenses can disqualify regardless of amount. Recovery typically after 5 years."
+    a: "What matters is the offense type, the disposition and timing, not just the amount. The waiting period is applied under the Ministry of Justice criteria in force and reviewed case by case; DUI and violent offenses are examined closely regardless of the amount."
   - q: "Can I apply for F-5 after suspended sentence ends?"
-    a: "Add 5 years after suspension period ends. So a 2-year suspension means 7 years total before safe application. Applying during suspension period not allowed."
+    a: "Applying during the suspension period is generally not possible, and a further waiting period applies after it ends. Its length depends on the Ministry of Justice criteria in force, so confirm it for your case before applying."
   - q: "Do 10-year-old records still affect F-5?"
-    a: "Generally records after 5–10 years are no longer disqualifying. But drug, sex, and homicide records are permanent. Korean immigration officers retain significant discretion."
+    a: "Older records generally weigh less over time, but drug, sex and violent offenses can continue to affect the review. Immigration officers have discretion, so the effect depends on the individual case."
   - q: "Are the F-5 and citizenship standards different?"
-    a: "Citizenship is stricter than F-5. After F-5 acquisition + 5 more years no-record + Korean society contribution. Criminal records matter more for citizenship."
+    a: "Citizenship is stricter than F-5. General naturalization requires holding permanent residence status (Nationality Act Article 5, item 1-2), and conduct, including criminal records, is reviewed again (item 3)."
   - q: "Do foreign-country criminal records affect F-5?"
     a: "Yes. Korean Immigration regulations require disclosure of foreign criminal records. False reporting → F-5 cancellation + deportation possible. Foreign no-criminal-record certificate required."
   - q: "If a new criminal case arises during F-5 application?"
@@ -36,125 +36,86 @@ This guide details the impact, by case.
 
 ## 1. F-5 Disqualification (Immigration Control Act)
 
-### Enforcement Decree Article 12-2 (PR Eligibility)
-Disqualifying conditions:
+### Legal basis
+Permanent residence (F-5) requirements are set by Immigration Act Article 10-3 and Enforcement Decree Article 12-2 with Table 1-3. Detailed criminal-record standards, such as how long after a fine, a sentence or a deportation you must wait, are applied under the Ministry of Justice's residence guidance and reviewed case by case. Check the criteria in force for your own record before applying.
 
-1. ❌ **3+ years imprisonment** (during sentence or within 5 years post)
-2. ❌ **3+ years suspended sentence** (suspension + 5 years)
-3. ❌ **Cumulative immigration violations** (3+ times)
-4. ❌ **Deportation order** (within 5 years)
-5. ❌ **Other public-safety / order disturbance**
-
-### General Interpretation Standards
-
-| Disposition | Disqualification Period |
-|---|---|
-| Fine ≤ 1M KRW | About 1–2 years |
-| Fine 1–5M KRW | About 2–5 years |
-| Fine 5M+ KRW | 5+ years |
-| Non-prosecution | About 1–2 years |
-| Suspended pronouncement | About 2–3 years |
-| Suspended 1 yr | Suspension + 3 yr ≈ 4 years |
-| Suspended 2 yr | Suspension + 5 yr ≈ 7 years |
-| Imprisonment 1 yr | Post-release 5–7 yr |
-| Imprisonment 2+ yr | Post-release 7–10 yr |
-
-⚠️ Above is general; offense type and officer discretion change outcomes.
+The offense type, the disposition, the time elapsed and your circumstances in Korea are all considered, and immigration officers have discretion.
 
 ## 2. Impact by Offense
 
-### 🔴 Very heavy (near-permanent disqualification)
+Waiting periods depend on the disposition and the Ministry of Justice criteria in force; the groups below show relative seriousness only.
+
+### Treated as very serious
 - **Drug cases** (even simple use)
 - **Sexual offenses**
 - **Homicide, robbery**
 - **National security crimes**
 - **Foreign exchange (large-scale)**
 
-→ F-5 essentially impossible even after 10+ years.
+→ An F-5 application can be very difficult; check the criteria in force for your case.
 
-### 🟡 Heavy (5–10 year bar)
+### Treated as serious
 - Fraud (large amount or repeated)
 - Voice phishing
 - Habitual violence
 - Drug single use (1×)
 - Habitual theft
 
-### 🟢 Moderate (3–5 year bar)
+### Moderate effect
 - DUI (1×, no accident)
 - Single assault
 - Defamation
 - Out-of-status (repeated)
 - Single small theft
 
-### 🟢 Light (1–3 year bar)
-- Fine < 1M KRW
+### Lighter records
+- Small fines
 - Non-prosecution
 - Single immigration violation
 
 ## 3. Recovery Timing Calculation
 
-### Formula
-**Punishment end date + waiting period = recovery date**
+### How timing is counted
+The waiting period is generally counted from the date the punishment ends — for example, payment of a fine, the end of a suspension period, or release. The length that applies depends on the disposition and the Ministry of Justice criteria in force, so confirm it for your own record before applying. Residence history, family and contribution in Korea are also considered.
 
-### Examples
+## 4. Factors Considered in the Review
 
-**Example A: 3M KRW fine (DUI)**
-- Punishment: 2024-06-01
-- Bar: ~5 years
-- F-5 application: **after 2029-06-01**
+### Favorable factors
+- Korean spouse / children (F-6 or F-2)
+- Korean PR family
+- Long-term Korean residence + stable employment
+- Korean language proficiency (e.g., TOPIK)
+- Korean contribution (volunteer, education, medical)
+- Self-surrender + cooperation (at the time)
+- Treatment / education program completion
 
-**Example B: 1-year suspended sentence (assault)**
-- Punishment: 2023-03-15
-- Suspension end: 2024-03-14
-- Add: 5 years
-- F-5 application: **after 2029-03-15**
-
-**Example C: 1-year imprisonment (fraud)**
-- Punishment: 2023-01-10
-- Release: 2024-01-09
-- Add: 7 years
-- F-5 application: **after 2031-01-10**
-
-⚠️ General benchmarks; Korean residency, family, contribution adjust.
-
-## 4. Reasons for Bar Shortening
-
-### Strong shortening factors
-- ✅ Korean spouse / children (F-6 or F-2)
-- ✅ Korean PR family
-- ✅ 5+ years Korean residence + stable employment
-- ✅ Korean language proficiency (TOPIK 5+)
-- ✅ Korean contribution (volunteer, education, medical)
-- ✅ Self-surrender + cooperation (at the time)
-- ✅ Treatment / education program completion
-
-### Bar-extending factors
-- ❌ Same-reason recidivism
-- ❌ Flight or evasion attempts
-- ❌ False statements
-- ❌ Additional foreign criminal incidents
+### Unfavorable factors
+- Same-reason recidivism
+- Flight or evasion attempts
+- False statements
+- Additional foreign criminal incidents
 
 ## 5. F-5 Self-Diagnosis Checklist
 
 **1. Status requirement**
-- [ ] 5+ years Korean residence (varies by status)
+- [ ] Residence period required for your F-5 category
 - [ ] Stable status (E-7, F-2, F-4 etc.)
 
 **2. Criminal record check**
-- [ ] Any 5M KRW+ criminal punishment within 5 years?
-- [ ] Any suspended/imprisonment within 7–10 years?
-- [ ] Any immigration violation (offense review) within 5 years?
+- [ ] Any criminal punishment, and when did it end?
+- [ ] Any suspended sentence or imprisonment, and when did it end?
+- [ ] Any immigration violation (offense review), and when?
 
 **3. Korean integration**
 - [ ] Korean language ability (TOPIK or KIIP)
-- [ ] Stable income (≥ ₩60M/yr recommended)
+- [ ] Stable income
 - [ ] Regular tax records
 
 **4. Family**
 - [ ] Korean family (spouse, children)?
 - [ ] Family stable in Korea?
 
-→ If any ❌, wait for bar to expire or supplement.
+→ If any item is unclear, check the applicable waiting period or supplement your documents.
 
 ## 6. Real Cases
 
@@ -182,20 +143,20 @@ Disqualifying conditions:
 ## 7. Korean Citizenship and Records
 
 ### Nationality Act Article 5
-- 5+ years residence (additional 5 years post-F-5)
-- 19+ years old
+- 5+ years of continuous domicile in Korea (item 1)
+- Permanent residence (F-5) status (item 1-2)
+- Adult under the Korean Civil Act (item 2)
 - Conduct integrity (criminal record evaluation)
 - Income or family-support capability
 - Korean language + Korean society understanding
 - Foreign nationality renunciation (exceptions exist)
 
 ### Stricter than F-5
-- F-5: 5-year bar
-- Citizenship: 7~10 year bar
-- Post-F-5 additional 5 years no-record required
+- General naturalization requires holding F-5 status first (Nationality Act Article 5, item 1-2)
+- Good conduct is reviewed again under Ministry of Justice standards (item 3), so criminal records are examined once more
 
 ### Practical advice
-**F-5 first → 5 more years no-record → citizenship.** Most efficient path.
+**For general naturalization, F-5 comes first; when to apply for citizenship depends on your record and circumstances.**
 
 ## 8. Foreign Criminal Records
 
@@ -205,7 +166,7 @@ Korean F-5 / citizenship application: **disclose foreign criminal records too.**
 ### Foreign no-criminal-record certificate
 - Issued by home country police or government
 - Korean notarization or apostille
-- Generally within 6 months of issuance
+- Check the validity period accepted by the immigration office
 
 ### False reporting penalty
 - F-5 / citizenship cancellation
@@ -215,7 +176,7 @@ Korean F-5 / citizenship application: **disclose foreign criminal records too.**
 
 ### 5-step package
 1. Free initial diagnosis — criminal record + status + family review
-2. Application timing decision — exact bar calculation
+2. Application timing review — waiting-period check
 3. Document collection — Korean residence, income, language, family, mitigation
 4. Application + reason letter drafting
 5. Post-decision management — additional response
@@ -236,7 +197,7 @@ F-5 application timing must be **neither too early nor too late.** Pre-diagnosis
 ---
 
 **Related articles:**
-- [Korea Immigration Offense Review — Complete Guide](/en/blog/immigration-offense-review-guide)
+- [Korea Immigration Offense Review Guide](/en/blog/immigration-offense-review-guide)
 - [Criminal Cases and Visa Defense](/en/blog/criminal-case-visa-defense)
 - [DUI Offense Review](/en/blog/dui-foreigner-visa)
 - [Drug Case Deportation](/en/blog/drug-case-deportation)

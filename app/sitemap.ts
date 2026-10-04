@@ -29,6 +29,20 @@ const detailHubs = [
   "/offenses/immigration-fines",
   "/dispositions/entry-ban",
   "/dispositions/deportation-order",
+  // LAW-V1 P0-5 — 5로캘 모두 본문이 있고 index 인 서비스 페이지 9종
+  "/offenses/assault",
+  "/offenses/sexual-offense",
+  "/offenses/property-crime",
+  "/offenses/voice-phishing",
+  "/offenses/unauthorized-employment",
+  "/offenses/overstay",
+  "/offenses/false-documents",
+  "/dispositions/departure-order",
+  "/dispositions/visa-denial",
+  // LAW-V1 P1-6 — 상황별 진입 페이지 3종(5로캘)
+  "/situations/immigration-summons",
+  "/situations/family-in-detention",
+  "/situations/departure-order-received",
 ] as const;
 
 const baseUrl = "https://lawinkorea.com";

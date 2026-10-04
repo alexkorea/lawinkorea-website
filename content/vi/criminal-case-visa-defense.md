@@ -1,6 +1,6 @@
 ---
-title: "Án hình sự và cách bảo vệ visa tại Hàn Quốc"
-description: "Cách người nước ngoài bị phạt vì hành hung, trộm cắp hay lừa đảo giữ visa và tránh trục xuất: kết quả theo tội danh, tài liệu giảm nhẹ và chiến lược 5 bước."
+title: "Án hình sự và visa tại Hàn Quốc — thủ tục xem xét và chuẩn bị"
+description: "Người nước ngoài bị phạt vì hành hung, trộm cắp hay lừa đảo tại Hàn Quốc: ảnh hưởng tới visa, thủ tục xem xét vi phạm, tài liệu giảm nhẹ và 5 bước chuẩn bị."
 date: "2026-05-01"
 category: "Án hình sự · Criminal"
 cluster: "cluster"
@@ -12,17 +12,17 @@ keywords:
   - "hòa giải visa Hàn Quốc"
 faq:
   - q: "Được tạm đình chỉ truy tố thì có phải qua xem xét vi phạm không?"
-    a: "Tạm đình chỉ truy tố vẫn có thể thuộc diện xem xét vi phạm. Tuy nhiên vì đây không phải hình phạt chính thức nên kết quả thường nhẹ hơn so với án phạt tiền hay án tù chính thức — nhưng không có nghĩa là mặc nhiên an toàn."
-  - q: "Án phạt tiền dưới 1 triệu won cũng có thể dẫn đến trục xuất sao?"
-    a: "Tội danh và số lần tái phạm quan trọng hơn số tiền phạt. Tội có tính bạo lực (hành hung, đe dọa) dù dưới 1 triệu won vẫn có thể bị xem xét trục xuất. Ngược lại, tội phỉ báng đơn thuần bị phạt 2 triệu won đôi khi vẫn được gia hạn visa."
+    a: "Tạm đình chỉ truy tố vẫn có thể thuộc diện xem xét vi phạm. Việc đây không phải hình phạt chính thức có thể được xem xét, nhưng không có nghĩa là mặc nhiên an toàn; kết quả phụ thuộc vào từng vụ việc."
+  - q: "Án phạt tiền dưới 1 triệu won cũng có thể dẫn đến trục xuất (cưỡng chế xuất cảnh) sao?"
+    a: "Không chỉ số tiền phạt mà tội danh, tính bạo lực và số lần tái phạm cũng có thể được xem xét. Tội có tính bạo lực (hành hung, đe dọa) dù mức phạt thấp vẫn có thể bị xem xét trục xuất. Mức xử lý phụ thuộc vào từng vụ việc."
   - q: "Đã hòa giải với nạn nhân rồi vẫn phải qua xem xét vi phạm à?"
-    a: "Hòa giải làm nhẹ hình phạt hình sự, nhưng xem xét vi phạm là thủ tục riêng. Dù vậy, biên bản hòa giải và đơn không yêu cầu xử phạt là tài liệu giảm nhẹ rất mạnh. Khi hòa giải hãy nhận bằng văn bản."
+    a: "Hòa giải có thể được xem xét trong xử lý hình sự, nhưng xem xét vi phạm là thủ tục riêng. Dù vậy, biên bản hòa giải và đơn không yêu cầu xử phạt có thể được xem xét như tài liệu giảm nhẹ. Khi hòa giải hãy nhận bằng văn bản."
   - q: "Bị xử phạt hành hung dù là phòng vệ chính đáng thì có bị trục xuất không?"
-    a: "Nếu phòng vệ chính đáng được công nhận thì thường là vô tội hoặc tạm đình chỉ truy tố. Nhưng buổi xem xét vi phạm nhìn toàn bộ diễn biến vụ việc, nên cần nộp lại chứng cứ (camera, lời khai nhân chứng) tại buổi xem xét."
+    a: "Nếu phòng vệ chính đáng được công nhận thì có thể không bị xử phạt. Nhưng buổi xem xét vi phạm nhìn toàn bộ diễn biến vụ việc, nên cần nộp lại chứng cứ (camera, lời khai nhân chứng) tại buổi xem xét."
   - q: "Vụ trộm cắp có bị xử lý tương tự tội lừa đảo không?"
-    a: "Trộm cắp thường bị xử nhẹ hơn lừa đảo. Nhưng trộm cắp có tính chuyên nghiệp, dùng hung khí hoặc đột nhập sẽ làm tăng mạnh nguy cơ trục xuất. Trộm một lần do khó khăn và giá trị nhỏ đôi khi chỉ kết thúc bằng thay đổi tư cách lưu trú."
+    a: "Mức xử lý phụ thuộc vào tính chất vụ việc. Trộm cắp có tính chuyên nghiệp, dùng hung khí hoặc đột nhập có thể bị xem xét nghiêm khắc hơn; hoàn cảnh và giá trị thiệt hại cũng có thể được xem xét. Kết quả phụ thuộc vào từng vụ việc."
   - q: "Bị xử phạt hình sự do tai nạn ngoài ý muốn có ảnh hưởng visa không?"
-    a: "Tội do vô ý (vô ý gây thương tích, vô ý làm chết người...) vẫn là đối tượng xử phạt hình sự và thuộc phạm vi xem xét. Tuy nhiên mức xử lý thường nhẹ hơn tội cố ý và tài liệu giảm nhẹ dễ được chấp nhận hơn."
+    a: "Tội do vô ý (vô ý gây thương tích, vô ý làm chết người...) vẫn là đối tượng xử phạt hình sự và thuộc phạm vi xem xét. Việc là lỗi vô ý có thể được xem xét như một tình tiết; mức xử lý phụ thuộc vào từng vụ việc."
 related:
   - "immigration-offense-review-guide"
   - "dui-foreigner-visa"
@@ -33,32 +33,33 @@ related:
 
 Hành hung, trộm cắp, lừa đảo, phỉ báng — điều người nước ngoài dính án hình sự tại Hàn Quốc sợ nhất thường không phải bản thân hình phạt, mà là **"visa của tôi sẽ ra sao"**.
 
-Dưới đây là năm nhóm tội danh thường gặp nhất, quy luật kết quả, và chiến lược giữ visa.
+Dưới đây là năm nhóm tội danh thường gặp, các điểm được xem xét và những việc cần chuẩn bị.
 
-## 1. Năm nhóm án hình sự người nước ngoài hay vướng nhất
+## 1. Năm nhóm án hình sự thường gặp
 
 ### (1) Hành hung · gây thương tích
-Mâu thuẫn nơi làm việc, ẩu đả trên bàn nhậu, bạo lực gia đình, va chạm bột phát. Đây là nhóm án người nước ngoài dễ vướng nhất.
+Mâu thuẫn nơi làm việc, ẩu đả trên bàn nhậu, bạo lực gia đình, va chạm bột phát.
 
-- Hành hung đơn thuần (thiệt hại nhẹ): phạt 300.000~2 triệu won → vẫn có thể gia hạn visa
-- Gây thương tích (có giấy chẩn đoán): phạt 2~5 triệu won hoặc án treo → có thể bị xem xét trục xuất
-- Hành hung đặc biệt (hung khí, nhiều người): tù từ 1 năm → nguy cơ trục xuất cao
+- Hành hung đơn thuần (thiệt hại nhẹ)
+- Gây thương tích (có giấy chẩn đoán)
+- Hành hung đặc biệt (hung khí, nhiều người)
+
+Mức xử lý hình sự và ảnh hưởng tới visa phụ thuộc vào từng vụ việc.
 
 ### (2) Trộm cắp · lừa đảo
-- Trộm cắp đơn thuần (giá trị nhỏ): phạt 500.000~3 triệu won → thay đổi tư cách hoặc lệnh xuất cảnh
-- Trộm cắp chuyên nghiệp/đặc biệt: tù 6 tháng~3 năm → trục xuất
+- Trộm cắp đơn thuần (giá trị nhỏ)
+- Trộm cắp chuyên nghiệp/đặc biệt
+- Mức xử lý hình sự và ảnh hưởng tới visa phụ thuộc vào từng vụ việc
 - Lừa đảo (kể cả tham gia lừa đảo qua điện thoại): [xem hướng dẫn riêng](/vi/blog/voice-phishing-foreigners)
 
 ### (3) Phỉ báng · lăng mạ
 - Bình luận trên mạng, bài đăng mạng xã hội cũng có thể bị xử lý
-- Thông thường phạt 300.000~2 triệu won
-- Theo tâm lý xã hội Hàn Quốc, người nước ngoài lăng mạ người Hàn thường bị xử nặng
 - Có thể được miễn xử phạt nếu hòa giải (tội chỉ xử lý khi có yêu cầu)
 
 ### (4) Tội phạm tình dục
 - Cưỡng ép dâm ô, quấy rối tình dục, tội phạm tình dục kỹ thuật số
-- Chỉ cần một lần cũng gần như chắc chắn bị cấm nhập cảnh vĩnh viễn hoặc trục xuất
-- Phải đăng ký thông tin cá nhân + hạn chế nghề nghiệp
+- Có thể bị xem xét trục xuất hoặc cấm nhập cảnh; mức xử lý phụ thuộc vào từng vụ việc
+- Có thể kèm theo đăng ký thông tin cá nhân, hạn chế nghề nghiệp
 - Có thể hòa giải nhưng không được miễn xử phạt hình sự
 
 ### (5) Lái xe say rượu
@@ -69,19 +70,19 @@ Mâu thuẫn nơi làm việc, ẩu đả trên bàn nhậu, bạo lực gia đ�
 | Mức xử lý hình sự | Ý nghĩa | Ảnh hưởng tới visa |
 |---|---|---|
 | **Không đủ căn cứ · vô tội** | Không có tội | Không ảnh hưởng visa (nhưng xem xét vi phạm vẫn có thể tiến hành) |
-| **Tạm đình chỉ truy tố** | Có tội nhưng không xử phạt | Thuộc diện xem xét nhưng khả năng được xử nhẹ |
+| **Tạm đình chỉ truy tố** | Có tội nhưng không xử phạt | Thuộc diện xem xét; kết quả phụ thuộc vào từng vụ việc |
 | **Án phạt tiền** (lệnh rút gọn) | Hình phạt chính thức | Thuộc diện xem xét; khác nhau theo số tiền và tội danh |
-| **Hoãn tuyên án** | Hoãn tuyên hình phạt (2 năm) | Thuộc diện xem xét, có lợi hơn án phạt tiền đôi chút |
-| **Án treo** | Tuyên án nhưng hoãn thi hành | Khả năng bị xem xét trục xuất rất cao |
-| **Tù giam thực tế** | Thực sự thi hành án | Trục xuất gần như chắc chắn |
+| **Hoãn tuyên án** | Hoãn tuyên hình phạt (2 năm, Bộ luật Hình sự Điều 60) | Thuộc diện xem xét; kết quả phụ thuộc vào từng vụ việc |
+| **Án treo** | Tuyên án nhưng hoãn thi hành | Có thể bị xem xét trục xuất; kết quả phụ thuộc vào từng vụ việc |
+| **Tù giam thực tế** | Thực sự thi hành án | Thuộc diện trục xuất khi được thả (Luật Quản lý xuất nhập cảnh Điều 46 khoản 1 điểm 13); quyết định cụ thể phụ thuộc vào từng vụ việc |
 
-⚠️ **Lưu ý:** Xử lý hình sự nhẹ không có nghĩa xem xét vi phạm cũng nhẹ — hai thủ tục độc lập. Ngược lại, dù hình phạt nặng, nếu tình tiết giảm nhẹ được chấp nhận thì vẫn có thể giữ tư cách lưu trú.
+**Lưu ý:** Xử lý hình sự nhẹ không có nghĩa xem xét vi phạm cũng nhẹ — hai thủ tục độc lập. Ngược lại, dù hình phạt nặng, nếu tình tiết giảm nhẹ được chấp nhận thì vẫn có thể giữ tư cách lưu trú.
 
-## 3. Chiến lược 5 bước để bảo vệ visa
+## 3. 5 bước chuẩn bị cho thủ tục xem xét
 
 ### Bước 1. Chuẩn bị cho buổi xem xét ngay trong giai đoạn hình sự
 
-Phần lớn người nước ngoài chỉ bắt đầu chuẩn bị **sau khi thủ tục hình sự kết thúc**. Như vậy là muộn. Ngay trong quá trình hình sự cần thu thập trước:
+Nhiều người chỉ bắt đầu chuẩn bị **sau khi thủ tục hình sự kết thúc**, khi đó thời gian chuẩn bị có thể bị hạn chế. Ngay trong quá trình hình sự cần thu thập trước:
 
 - Biên bản hòa giải, đơn không yêu cầu xử phạt
 - Tài liệu giảm nhẹ (gia đình, công việc, đóng góp cho Hàn Quốc)
@@ -118,11 +119,11 @@ Bạn cần trả lời được những câu sau:
 
 Câu trả lời cần ngắn, rõ, và không né tránh trách nhiệm.
 
-### Bước 5. Xử lý tiếp trong 30 ngày sau khi có kết quả
+### Bước 5. Xử lý tiếp sau khi có kết quả
 
 Nếu kết quả bất lợi:
-- **Khiếu nại** (xét xử hành chính) — trong vòng 90 ngày kể từ khi nhận quyết định
-- **Chuyển sang xuất cảnh tự nguyện** — dù đã có quyết định trục xuất, chuyển sang tự nguyện có thể rút ngắn thời hạn cấm nhập cảnh
+- **Khiếu nại** (xét xử hành chính) — trong vòng 90 ngày kể từ ngày biết có quyết định (Luật Xét xử hành chính Điều 27 khoản 1); với lệnh trục xuất, đơn phản đối nộp trong 7 ngày kể từ ngày nhận lệnh (Luật Quản lý xuất nhập cảnh Điều 60 khoản 1)
+- **Xem xét xuất cảnh tự nguyện** — ảnh hưởng đến thời hạn cấm nhập cảnh phụ thuộc vào từng trường hợp
 - **Xin thay đổi tư cách lưu trú** — visa hiện tại bị từ chối vẫn có thể nộp theo tư cách khác
 
 ## 4. Ví dụ thực tế: hồ sơ khác nhau, kết quả khác nhau
@@ -148,7 +149,7 @@ Nếu kết quả bất lợi:
 - Trả lời tại buổi xem xét: nhận trách nhiệm + cam kết không tái phạm + ý chí đóng góp
 - **Kết quả: Giữ tư cách + xử lý quản chế**
 
-Khác biệt không nằm ở tội danh hay số tiền phạt, mà ở **độ dày của hồ sơ nhìn từ góc độ xuất nhập cảnh**.
+Kết quả của mỗi vụ việc phụ thuộc vào nhiều yếu tố; hồ sơ được chuẩn bị theo góc độ xuất nhập cảnh là một trong các yếu tố có thể được xem xét.
 
 ## 5. Năm sai lầm phổ biến nhất
 
@@ -180,7 +181,7 @@ Gói hỗ trợ xem xét vi phạm cho án hình sự của [Văn phòng Hành c
 
 ## 7. Hãy bắt đầu ngay bây giờ
 
-Thời điểm tốt nhất là ngay sau khi vụ việc hình sự phát sinh. Nếu đợi thủ tục hình sự khép lại mới bắt đầu, thường sẽ không kịp trước ngày phải có mặt.
+Có thể bắt đầu chuẩn bị ngay sau khi vụ việc hình sự phát sinh. Nếu đợi thủ tục hình sự khép lại mới bắt đầu, thời gian chuẩn bị có thể bị hạn chế.
 
 **Chẩn đoán ban đầu miễn phí** — hỗ trợ tiếng Hàn, Anh, Trung, Nhật
 
@@ -189,6 +190,6 @@ Thời điểm tốt nhất là ngay sau khi vụ việc hình sự phát sinh. 
 ---
 
 **Bài viết liên quan:**
-- [Hướng dẫn toàn diện về xem xét vi phạm xuất nhập cảnh](/vi/blog/immigration-offense-review-guide)
+- [Hướng dẫn về thủ tục xem xét vi phạm xuất nhập cảnh](/vi/blog/immigration-offense-review-guide)
 - [Cách ứng phó khi bị xem xét vì lái xe say rượu](/vi/blog/dui-foreigner-visa)
 - [Ảnh hưởng của tiền án đến thường trú](/vi/blog/criminal-record-pr-impact)

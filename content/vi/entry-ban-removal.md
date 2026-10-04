@@ -1,6 +1,6 @@
 ---
-title: "Dỡ bỏ lệnh cấm nhập cảnh — rút ngắn 5 hoặc 10 năm"
-description: "Cách người bị trục xuất xin dỡ bỏ lệnh cấm nhập cảnh Hàn Quốc: lý do giúp rút ngắn thời hạn, nơi nộp, hồ sơ cần thiết và cách nâng tỷ lệ thành công."
+title: "Xin dỡ bỏ lệnh cấm nhập cảnh (hạn chế nhập cảnh) — thủ tục và hồ sơ"
+description: "Cách người bị trục xuất xin dỡ bỏ lệnh cấm nhập cảnh Hàn Quốc: căn cứ pháp lý, các lý do được xem xét, nơi nộp đơn, hồ sơ cần thiết và lưu ý khi nộp lại."
 date: "2026-05-01"
 category: "Cấm nhập cảnh · Entry Ban"
 cluster: "cluster"
@@ -13,17 +13,17 @@ keywords:
   - "entry ban Korea removal"
 faq:
   - q: "Lệnh cấm 5 năm có thể được dỡ bỏ sớm không?"
-    a: "Có thể. Nếu chứng minh được lý do bị trục xuất, cuộc sống xã hội bình thường tại nước nhà và tính chính đáng của lý do nhập cảnh (gia đình...), thường có thể nộp đơn sau 2~3 năm. Án ma túy và lừa đảo qua điện thoại thì rất khó."
+    a: "Có thể nộp đơn xin dỡ bỏ. Lý do bị trục xuất, cuộc sống xã hội bình thường tại nước nhà và tính chính đáng của lý do nhập cảnh (gia đình...) có thể được xem xét. Thời điểm và kết quả phụ thuộc vào từng vụ việc."
   - q: "Có vợ/chồng là người Hàn thì được dỡ bỏ nhanh hơn không?"
-    a: "Vợ/chồng người Hàn là yếu tố giảm nhẹ rất mạnh. Việc dỡ bỏ lệnh cấm để xin visa kết hôn F-6 thường khả thi sau 1~2 năm. Tuy nhiên nếu lý do trục xuất liên quan bạo lực hoặc ma túy thì khó."
-  - q: "Khả năng rút ngắn có khác nhau theo lý do trục xuất không?"
-    a: "Có. Hoạt động ngoài tư cách (lao động trái phép) tương đối dễ rút ngắn. DUI và án hình sự thì tùy vụ việc. Ma túy, lừa đảo qua điện thoại và tội phạm tình dục thì rất khó."
+    a: "Có vợ/chồng là người Hàn là một yếu tố có thể được xem xét. Tuy nhiên tính chất lý do trục xuất (ví dụ bạo lực, ma túy) cũng được xem xét, và kết quả phụ thuộc vào từng vụ việc."
+  - q: "Kết quả xem xét có khác nhau theo lý do trục xuất (cưỡng chế xuất cảnh) không?"
+    a: "Có thể khác. Tính chất lý do trục xuất là một trong các yếu tố được xem xét; các vụ việc liên quan đến ma túy, lừa đảo qua điện thoại, tội phạm tình dục có thể được xem xét nghiêm khắc hơn. Kết quả phụ thuộc vào từng vụ việc."
   - q: "Nộp đơn xin dỡ bỏ lệnh cấm ở đâu?"
     a: "Tại Lãnh sự quán Hàn Quốc ở nước sở tại, hoặc Cục Xuất nhập cảnh Hàn Quốc (nếu đang ở ngoài Hàn Quốc thì nộp tại lãnh sự quán). Sau khi nộp, Bộ trưởng Bộ Tư pháp sẽ thẩm định; thời gian xử lý tùy cơ quan có thẩm quyền và thời điểm nộp, cần xác nhận riêng."
   - q: "Chi phí nộp đơn và phí dịch vụ hành chính sĩ là bao nhiêu?"
-    a: "Lệ phí tem trên đơn khoảng 50.000 won. Phí dịch vụ tùy độ phức tạp của vụ việc; chúng tôi báo giá sau khi chẩn đoán sơ bộ."
+    a: "Lệ phí (nếu có) theo quy định hiện hành của cơ quan tiếp nhận. Phí dịch vụ tùy độ phức tạp của vụ việc; chúng tôi báo giá sau khi chẩn đoán sơ bộ."
   - q: "Bị từ chối rồi có nộp lại được không?"
-    a: "Được. Thông thường nộp lại sau 6 tháng~1 năm kể từ lần đầu, kèm tài liệu mới. Điều then chốt là phân tích lý do bị từ chối và bổ sung đúng chỗ."
+    a: "Được. Có thể nộp lại kèm tài liệu mới; thời điểm nên được cân nhắc theo việc đã có tài liệu hoặc hoàn cảnh mới hay chưa. Điều then chốt là phân tích lý do bị từ chối và bổ sung đúng chỗ."
 related:
   - "immigration-offense-review-guide"
   - "criminal-record-pr-impact"
@@ -31,51 +31,42 @@ related:
   - "drug-case-deportation"
 ---
 
-Điều đầu tiên người nước ngoài đã bị trục xuất cần biết khi muốn quay lại Hàn Quốc là: **"Thời hạn cấm nhập cảnh có thể được rút ngắn."**
+Điều đầu tiên người nước ngoài đã bị trục xuất cần biết khi muốn quay lại Hàn Quốc là: **"Có thể nộp đơn xin dỡ bỏ lệnh cấm nhập cảnh (hạn chế nhập cảnh)."**
 
-Chỉ chờ thời gian trôi qua thì lệnh cấm không tự hết. **Hồ sơ có hệ thống + lý do nộp đơn chính đáng** mới là mấu chốt.
+**Hồ sơ có hệ thống + lý do nộp đơn chính đáng** là những điểm được xem xét; kết quả phụ thuộc vào từng vụ việc.
 
 ## 1. Tổng quan chế độ cấm nhập cảnh
 
 ### Luật Quản lý xuất nhập cảnh, Điều 11 (cấm nhập cảnh)
-Bộ trưởng Bộ Tư pháp có thể cấm nhập cảnh đối với:
-- Người nước ngoài đã bị trục xuất và hồi hương
-- Người nước ngoài đã nhận lệnh xuất cảnh
-- Người nước ngoài vi phạm quy định xuất nhập cảnh sau khi bị xử lý hình sự
-- Người nước ngoài có nguy cơ gây hại cho xã hội Hàn Quốc do ma túy, bạo lực, lừa đảo...
-- Người nước ngoài nhập cảnh bằng thông tin gian dối
+Bộ trưởng Bộ Tư pháp có thể cấm nhập cảnh đối với (tóm tắt khoản 1):
+- Người nghiện chất ma túy, người có nguy cơ gây hại cho sức khỏe cộng đồng (điểm 1)
+- Người có lý do đáng kể cho thấy có thể gây hại cho lợi ích quốc gia, an toàn công cộng, trật tự kinh tế, xã hội (điểm 3, 4)
+- Người bị trục xuất mà chưa qua 5 năm kể từ khi xuất cảnh (điểm 6)
+- Các trường hợp tương tự khác mà Bộ trưởng Bộ Tư pháp thấy không phù hợp cho nhập cảnh (điểm 8)
 
-### Thời hạn cấm nhập cảnh (theo lý do trục xuất)
+### Thời hạn cấm nhập cảnh
 
-| Lý do | Thời hạn thông thường | Khả năng rút ngắn |
-|---|---|---|
-| Hoạt động ngoài tư cách (lao động trái phép) | 1~5 năm | Cao (khả thi sau 1~2 năm) |
-| Vi phạm xuất nhập cảnh (cư trú bất hợp pháp) | 5 năm | Trung bình (sau 2~3 năm) |
-| Lái xe say rượu | 5 năm | Trung bình |
-| Án hình sự (hành hung, trộm cắp) | 5~10 năm | Trung bình |
-| Lừa đảo, lừa đảo qua điện thoại | 10 năm | Khó |
-| Án ma túy | 10 năm ~ vĩnh viễn | Rất khó |
-| Tội phạm tình dục | Vĩnh viễn | Gần như không thể |
+Luật chỉ quy định trực tiếp rằng người bị trục xuất không được nhập cảnh trong 5 năm kể từ khi xuất cảnh (Điều 11 khoản 1 điểm 6). Thời hạn cấm theo các lý do khác không được ghi trực tiếp trong Luật và phụ thuộc vào từng trường hợp; hãy kiểm tra thông báo của cơ quan có thẩm quyền.
 
-## 2. Những lý do giúp rút ngắn
+## 2. Những lý do có thể được xem xét
 
-### Lý do rút ngắn mạnh
-- ✅ **Vợ/chồng hoặc con là người Hàn Quốc** — xin F-6 kết hôn hoặc F-2 cư trú
-- ✅ **Người thân có thường trú Hàn Quốc** (cha mẹ, anh chị em) — F-1 thăm thân
-- ✅ **Chứng minh sinh hoạt xã hội bình thường tại nước nhà** (đi làm, kinh doanh, kết hôn...)
-- ✅ **Kinh doanh hoặc đầu tư tại Hàn Quốc** — xin D-8 hoặc F-2-12
-- ✅ **Cần điều trị y tế tại Hàn Quốc do điều kiện nước nhà** (bệnh hiếm...)
-- ✅ **Tình huống khẩn cấp của gia đình tại Hàn Quốc** (cha mẹ qua đời — lý do nhân đạo)
+### Lý do có thể được xem xét thuận lợi
+- **Vợ/chồng hoặc con là người Hàn Quốc** — xin F-6 kết hôn hoặc F-2 cư trú
+- **Người thân có thường trú Hàn Quốc** (cha mẹ, anh chị em) — F-1 thăm thân
+- **Chứng minh sinh hoạt xã hội bình thường tại nước nhà** (đi làm, kinh doanh, kết hôn...)
+- **Kinh doanh hoặc đầu tư tại Hàn Quốc** — xin D-8 hoặc F-2-12
+- **Cần điều trị y tế tại Hàn Quốc do điều kiện nước nhà** (bệnh hiếm...)
+- **Tình huống khẩn cấp của gia đình tại Hàn Quốc** (cha mẹ qua đời — lý do nhân đạo)
 
-### Lý do yếu
-- ⚠️ "Vì tôi thích Hàn Quốc" → hầu như không được chấp nhận
-- ⚠️ "Tôi muốn gặp bạn bè" → bị từ chối
-- ⚠️ "Tôi muốn đi du lịch" → bị từ chối
+### Lý do khó được xem là chính đáng
+- "Vì tôi thích Hàn Quốc"
+- "Tôi muốn gặp bạn bè"
+- "Tôi muốn đi du lịch"
 
 ## 3. Quy trình nộp đơn
 
 ### Bước 1. Xác định thời điểm nộp
-- Nên nộp sau khi đã qua khoảng một nửa thời hạn (ví dụ 5 năm thì sau 2~2,5 năm)
+- Thời điểm nộp phụ thuộc vào lý do và hoàn cảnh của từng người
 - Nếu có lý do chính đáng (gia đình khẩn cấp...) thì có thể nộp sớm hơn
 
 ### Bước 2. Soạn hồ sơ
@@ -91,7 +82,7 @@ Bộ trưởng Bộ Tư pháp có thể cấm nhập cảnh đối với:
 - Bản sao hộ chiếu
 - Giấy chứng nhận cư trú tại nước nhà
 
-**Tài liệu giảm nhẹ (có sức nặng):**
+**Tài liệu giảm nhẹ (có thể được xem xét):**
 - Giấy chứng nhận quan hệ gia đình tại Hàn Quốc
 - Đơn xin khoan hồng của người thân tại Hàn Quốc
 - Chứng minh cuộc sống ổn định tại nước nhà (xác nhận công tác, đăng ký kinh doanh, xác nhận học tập)
@@ -105,42 +96,37 @@ Bộ trưởng Bộ Tư pháp có thể cấm nhập cảnh đối với:
 
 ### Bước 5. Thẩm định và thông báo kết quả
 - Thời gian thẩm định: tùy cơ quan có thẩm quyền và từng vụ việc (cần xác nhận riêng)
-- Kết quả: dỡ bỏ / dỡ bỏ một phần (rút ngắn) / từ chối
+- Kết quả: dỡ bỏ / dỡ bỏ một phần / từ chối
 - Cách thông báo: gửi văn bản qua bưu điện hoặc thông qua lãnh sự quán
 
 ## 4. Chiến lược theo từng lý do
 
-### 🔴 Dỡ bỏ lệnh cấm sau án ma túy
+### Dỡ bỏ lệnh cấm sau án ma túy
 
-**Đây là nhóm khó nhất.** Thông thường cần:
-- Đã qua 10 năm
+Các điểm thường được xem xét:
+- Thời gian đã trôi qua
 - Chứng nhận hoàn thành chương trình điều trị tại nước nhà
-- Sinh hoạt xã hội bình thường tại nước nhà từ 5 năm
-- Bảo lãnh mạnh từ gia đình tại Hàn Quốc
+- Sinh hoạt xã hội bình thường tại nước nhà
+- Bảo lãnh từ gia đình tại Hàn Quốc
 - Người bảo lãnh nhân thân có uy tín (đang cư trú tại Hàn Quốc)
 
-→ Ngay cả vậy, khả năng thành công chỉ khoảng 30~50%
+### Dỡ bỏ sau án lừa đảo qua điện thoại
 
-### 🟡 Dỡ bỏ sau án lừa đảo qua điện thoại
-
-- Nên chờ 5~7 năm
-- Có hồ sơ tự thú + hợp tác điều tra thì thuận lợi hơn
+- Hồ sơ tự thú + hợp tác điều tra có thể được xem xét
 - Cuộc sống bình thường tại nước nhà
 - Chứng minh đã bồi thường cho nạn nhân (nếu có thể)
 
-### 🟢 Dỡ bỏ sau hoạt động ngoài tư cách
+### Dỡ bỏ sau hoạt động ngoài tư cách
 
-- Khả thi sau 1~2 năm
 - Có lý do gia đình hoặc kinh doanh tại Hàn Quốc
 - Cuộc sống ổn định tại nước nhà
-- Tương đối dễ
 
-### 🟢 Dỡ bỏ sau án DUI
+### Dỡ bỏ sau án DUI
 
-- Sau 2~3 năm
 - Hoàn thành chương trình điều trị rượu
 - Có gia đình hoặc công việc kinh doanh tại Hàn Quốc
-- Thường khả thi
+
+Kết quả của mỗi trường hợp phụ thuộc vào từng vụ việc.
 
 ## 5. Ví dụ thực tế
 
@@ -172,15 +158,15 @@ Bộ trưởng Bộ Tư pháp có thể cấm nhập cảnh đối với:
 - Hồ sơ nộp: lý lịch tư pháp trong sạch, hỗ trợ bạn bè Hàn Quốc mở rộng kinh doanh
 - **Kết quả: Bị từ chối (lý do: thiếu lý do nhập cảnh chính đáng)**
 
-→ Với án ma túy, cần có lý do mạnh như gia đình tại Hàn Quốc hoặc nhu cầu y tế.
+→ Tính chính đáng của lý do nhập cảnh là một trong các yếu tố được xem xét.
 
-## 6. Những lý do bị từ chối phổ biến nhất
+## 6. Một số lý do có thể dẫn tới bị từ chối
 
-1. ❌ **Lý do nộp đơn yếu** — "vì thích Hàn Quốc, muốn đi du lịch"
-2. ❌ **Thiếu lý lịch tư pháp nước nhà** — có án mới sau khi bị trục xuất
-3. ❌ **Hồ sơ sơ sài** — bản giải trình quá ngắn, không có tài liệu chứng minh
-4. ❌ **Không chứng minh được cuộc sống ổn định tại nước nhà** — không việc làm, không kinh doanh
-5. ❌ **Người bảo lãnh yếu** — không có người cư trú tại Hàn Quốc đứng ra bảo lãnh
+1. **Lý do nộp đơn yếu** — "vì thích Hàn Quốc, muốn đi du lịch"
+2. **Thiếu lý lịch tư pháp nước nhà** — có án mới sau khi bị trục xuất
+3. **Hồ sơ sơ sài** — bản giải trình quá ngắn, không có tài liệu chứng minh
+4. **Không chứng minh được cuộc sống ổn định tại nước nhà** — không việc làm, không kinh doanh
+5. **Người bảo lãnh yếu** — không có người cư trú tại Hàn Quốc đứng ra bảo lãnh
 
 ## 7. Gói dịch vụ dỡ bỏ lệnh cấm của Sunshine
 
@@ -197,17 +183,17 @@ Ngay cả khi thân chủ đang ở nước ngoài, toàn bộ thủ tục vẫn
 
 ## 8. Chiến lược nộp lại sau khi bị từ chối
 
-Nếu lần đầu bị từ chối, bạn vẫn có thể nộp lại sau 6 tháng~1 năm.
+Nếu lần đầu bị từ chối, bạn vẫn có thể nộp lại.
 
-### Chiến lược nộp lại thành công
+### Những điểm cần chuẩn bị khi nộp lại
 1. **Phân tích lý do từ chối** — đọc kỹ lý do ghi trong thông báo
 2. **Bổ sung phần còn thiếu** — tài liệu bám sát lý do bị từ chối
-3. **Tích lũy thời gian** — thêm 6 tháng~1 năm sinh hoạt bình thường có chứng minh
+3. **Tích lũy thời gian** — thêm thời gian sinh hoạt bình thường có chứng minh
 4. **Bổ sung lý do mới** — thay đổi hoàn cảnh gia đình, kế hoạch kinh doanh...
 
 ## 9. Hãy nhận chẩn đoán ngay
 
-Với việc dỡ bỏ lệnh cấm nhập cảnh, **thời điểm nộp quyết định kết quả.** Nộp quá sớm sẽ bị từ chối; quá muộn thì hoàn cảnh gia đình có thể đã thay đổi. Hãy được chẩn đoán thời điểm tối ưu theo lý do của bạn.
+Với việc dỡ bỏ lệnh cấm nhập cảnh, **thời điểm nộp là một trong các điểm cần cân nhắc.** Hoàn cảnh của mỗi người khác nhau, nên hãy kiểm tra thời điểm phù hợp với lý do của bạn.
 
 **Chẩn đoán ban đầu miễn phí** — hỗ trợ tiếng Hàn, Anh, Trung, Nhật. Có thể nộp từ bất kỳ đâu trên thế giới.
 
@@ -216,7 +202,7 @@ Với việc dỡ bỏ lệnh cấm nhập cảnh, **thời điểm nộp quyế
 ---
 
 **Bài viết liên quan:**
-- [Hướng dẫn toàn diện về xem xét vi phạm xuất nhập cảnh](/vi/blog/immigration-offense-review-guide)
+- [Hướng dẫn về thủ tục xem xét vi phạm xuất nhập cảnh](/vi/blog/immigration-offense-review-guide)
 - [Ảnh hưởng của tiền án đến thường trú](/vi/blog/criminal-record-pr-impact)
-- [Án hình sự của người nước ngoài và cách bảo vệ visa](/vi/blog/criminal-case-visa-defense)
+- [Án hình sự của người nước ngoài và visa](/vi/blog/criminal-case-visa-defense)
 - [Trục xuất sau án ma túy](/vi/blog/drug-case-deportation)

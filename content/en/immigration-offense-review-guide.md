@@ -1,5 +1,5 @@
 ---
-title: "Korea Immigration Offense Review — Complete Guide 2026"
+title: "Korea Immigration Offense Review — Procedure and What to Prepare"
 description: "A step-by-step guide for foreigners summoned to an immigration offence review after a DUI, criminal case, drug charge or unauthorised work."
 date: "2026-05-01"
 category: "PILLAR · Offense Review Guide"
@@ -17,21 +17,21 @@ faq:
   - q: "I already paid the criminal fine — do I still face an offense review?"
     a: "Yes. Criminal punishment (including fines) and administrative offense reviews are separate procedures. Even a fine under 1 million KRW does not exempt you. Immigration evaluates your status under its own standards."
   - q: "How many days do I have to appear after receiving a notice?"
-    a: "Read the notice carefully — typically 7–14 days. Failure to appear without justification may result in unfavorable decisions. If language is a barrier, request a certified administrative scrivener with multilingual support immediately."
+    a: "The appearance date is stated on the notice — read it carefully and check it first. Failure to appear without justification may result in unfavorable decisions. If language is a barrier, request a certified administrative scrivener with multilingual support immediately."
   - q: "Can an administrative scrivener (행정사) handle the offense review?"
     a: "Yes. Administrative scriveners are statutorily authorized to prepare and submit immigration documents. We do not handle litigation or court representation, including criminal defense (outside the scope of an administrative scrivener)."
   - q: "If deportation is decided, is everything over?"
-    a: "No. You can file an objection (행정심판) within 90 days, or convert to voluntary departure (which shortens the entry-ban period), or apply for status change. Speed is critical — an objection to a deportation order must be filed within 7 days of receiving the order (Immigration Act Article 60(1))."
+    a: "No. You can file an objection (행정심판) within 90 days, or convert to voluntary departure (which can be considered when the entry-ban period is set), or apply for status change. Speed is critical — an objection to a deportation order must be filed within 7 days of receiving the order (Immigration Act Article 60(1))."
   - q: "My visa expires soon and the review is pending — what happens?"
-    a: "Your existing visa stays valid until the review decision. However, renewal is highly likely to be denied if the review concludes against you. Plan a parallel exit-or-stay strategy with a professional."
+    a: "Your existing visa stays valid until the review decision. However, renewal may be denied if the review concludes against you. Plan a parallel exit-or-stay strategy with a professional."
   - q: "Will my family also be deported?"
-    a: "Only the principal subject is deported. Family members on dependent visas (F-1, F-3) face separate processing — but their status often depends on yours, so secondary effects are likely."
+    a: "Only the principal subject is deported. Family members on dependent visas (F-1, F-3) face separate processing — but their status often depends on yours, so it can also be affected."
   - q: "Can I still apply for permanent residency (F-5) after a review?"
-    a: "Depends on the disposition. Minor violations may allow F-5 application after a waiting period; deportation or criminal conviction creates 5+ year bars to F-5. Case-by-case assessment is mandatory."
+    a: "Depends on the disposition. Minor violations may allow F-5 application after a waiting period; deportation or a criminal conviction is weighed heavily, and a waiting period applies under the Ministry of Justice criteria in force. Case-by-case assessment is mandatory."
   - q: "How much does an administrative scrivener charge?"
-    a: "Fees vary by case complexity and required documentation. We offer a free initial diagnosis and provide a clear quote afterward. Government fees (e.g., 200,000 KRW for permanent residency) are separate."
+    a: "Fees vary by case complexity and required documentation. We offer a free initial diagnosis and provide a clear quote afterward. Government fees (e.g., KRW 200,000 for a change to permanent residency, Enforcement Rule Article 72) are separate."
   - q: "Can I get a pre-emptive consultation if I haven't received a notice yet?"
-    a: "Yes, and we recommend it. Foreigners with prior DUI or criminal records should be evaluated before their visa-renewal date. Early preparation greatly improves outcomes."
+    a: "Yes, and we recommend it. Foreigners with prior DUI or criminal records should be evaluated before their visa-renewal date. Early preparation gives you more time to gather evidence."
 related:
   - "dui-foreigner-visa"
   - "criminal-case-visa-defense"
@@ -45,7 +45,7 @@ related:
 
 For foreigners living or working in Korea, one of the most distressing notices is the **"Immigration Offense Review Summons" (출입국사범심사 출석요구서)**. DUI, assault, drug investigations, out-of-status work, voice-phishing involvement — the form differs but the consequences are similar: visa renewal denial, permanent residency rejection, or deportation.
 
-The single most common question we hear is: **"I paid the fine — why is Immigration calling me again?"** The answer is straightforward: **criminal punishment and administrative immigration disposition are two independent processes.** This guide walks you through what every foreigner must understand after receiving a review summons.
+A question we often hear is: **"I paid the fine — why is Immigration calling me again?"** The answer is straightforward: **criminal punishment and administrative immigration disposition are two independent processes.** This guide walks you through what every foreigner must understand after receiving a review summons.
 
 ## 1. What Is an Immigration Offense Review?
 
@@ -54,29 +54,29 @@ An Immigration Offense Review is an administrative procedure under **Articles 46
 Three core points:
 
 - **It is independent from criminal proceedings.** A finalized criminal fine or even an acquittal does not end the review.
-- **The Immigration Office decides unilaterally.** Professional representation is not legally required, but support from a certified administrative scrivener materially improves outcomes.
+- **The Immigration Office decides unilaterally.** Professional representation is not legally required; an administrative scrivener can help organize documents and mitigation.
 - **Possible outcomes include:** continued status, visa change, departure order, deportation, and entry ban.
 
 In short, this single procedure can determine whether you can continue your life in Korea.
 
 ## 2. Who Becomes a Subject of Review?
 
-The eight most common situations:
+Eight common situations:
 
 ### (1) DUI Detection
-Regardless of blood-alcohol level, a single DUI triggers review at next visa renewal. BAC ≥ 0.03% means criminal liability; BAC ≥ 0.08% greatly increases deportation risk. See [DUI defense guide](/en/blog/dui-foreigner-visa).
+A DUI record is reviewed at the next visa renewal. A BAC of 0.03% or more is drunk driving (Road Traffic Act Article 44(4)), penalties rise by BAC level (Article 148-2), and the immigration disposition depends on the case. See [DUI defense guide](/en/blog/dui-foreigner-visa).
 
 ### (2) Criminal Cases
 Assault, theft, fraud, defamation — any criminal record reaches Immigration. Even a fine, especially for violent offenses, can trigger deportation. See [criminal-case visa defense](/en/blog/criminal-case-visa-defense).
 
 ### (3) Drug Investigations / Charges
-Marijuana, cocaine, methamphetamine — Korea applies territorial jurisdiction (속지주의). **Marijuana legal in your home country is still illegal here.** Immediate status revocation risk. See [drug-case deportation](/en/blog/drug-case-deportation).
+Marijuana, cocaine, methamphetamine — Korea applies territorial jurisdiction (속지주의). **Marijuana legal in your home country is still illegal here.** Status revocation or a deportation review can follow. See [drug-case deportation](/en/blog/drug-case-deportation).
 
 ### (4) Illegal Employment / Out-of-Status Activity
-D-2 students exceeding 25 weekly hours, E-9 holders changing employers without permission. Both worker and employer face penalties. See [illegal employment penalty](/en/blog/illegal-employment-penalty).
+D-2 students exceeding their permitted part-time hours, E-9 holders changing employers without permission. Both worker and employer face penalties. See [illegal employment penalty](/en/blog/illegal-employment-penalty).
 
 ### (5) False Statements / Document Fraud
-False educational records, forged employment certificates, fake marriage. A single discovered lie can result in permanent entry ban.
+False educational records, forged employment certificates, fake marriage. Discovered false documents can lead to deportation and an entry ban.
 
 ### (6) Voice Phishing / Fraud Involvement
 Even mere couriers face severe review. Immigration treats this as serious crime. See [voice phishing penalty](/en/blog/voice-phishing-foreigners).
@@ -89,7 +89,7 @@ If you were deported and try to re-enter, an entry-ban removal is required first
 
 ## 3. Five Things to Do Immediately After the Notice
 
-> **Time decides outcomes.**
+> **Check the dates first.**
 
 ### (1) Read the Summons Carefully
 Date, location, reasons, required documents. Photograph and store every page. If language is a barrier, immediately retain a multilingual administrative scrivener.
@@ -102,13 +102,13 @@ Date, location, reasons, required documents. Photograph and store every page. If
 - Korean contribution proof (tax returns, volunteer activities, TOPIK results)
 
 ### (3) Compile Mitigation Evidence
-Materials that allow an Immigration officer to conclude "this foreigner contributes to Korea." Volunteer activity, TOPIK results, employer statements, family-support proof — these reshape outcomes.
+Materials that allow an Immigration officer to conclude "this foreigner contributes to Korea." Volunteer activity, TOPIK results, employer statements, family-support proof — these are considered in the review.
 
 ### (4) Draft a Reason Statement (사유서) and Petition (탄원서)
 Not a generic apology — a logically structured argument from Immigration's perspective: **why this incident will not recur, and why this foreigner's continued residence benefits Korean society.**
 
 ### (5) Consult an Administrative Scrivener Immediately
-A solo appearance often misses what to emphasize. Pre-appearance simulation with someone who knows Immigration practice creates a decisive difference.
+A solo appearance often misses what to emphasize. Pre-appearance simulation with someone who knows Immigration practice helps you prepare.
 
 [Request a free initial diagnosis →](/en)
 
@@ -118,22 +118,22 @@ A solo appearance often misses what to emphasize. Pre-appearance simulation with
 |---|---|---|
 | Status maintained | Existing status preserved or conditional renewal | Continued residence |
 | Status change/shortened | Visa type change, period reduction | Career, business, family impact |
-| Departure order | Voluntary exit, typically within 30 days | Re-entry possible but with future visa effects |
-| Deportation | Compulsory removal | 5+ years entry ban |
-| Entry ban | Period of ineligibility for entry | 1 year to permanent |
+| Departure order (exit order) | Leave by the deadline set in the order (Immigration Act Art. 68) | Re-entry possible but with future visa effects |
+| Deportation | Compulsory removal | Entry ban may follow; period decided case by case |
+| Entry ban | Period of ineligibility for entry | Period decided case by case |
 
-The biggest distinction is between **departure order** and **deportation**. A departure order treats your exit as voluntary with relatively light entry restrictions; deportation creates **permanent disqualifying grounds** for Korean permanent residency / nationality.
+The biggest distinction is between **departure order** and **deportation**. A departure order treats your exit as voluntary with relatively light entry restrictions; deportation is **weighed heavily** in later permanent residency / nationality applications.
 
 ## 5. What an Administrative Scrivener Does — and Does Not Do
 
 | Domain | Administrative Scrivener (행정사) |
 |---|---|
-| Immigration administrative procedures (review attendance, documents) | ⭐ Specialized |
+| Immigration administrative procedures (review attendance, documents) | Handled |
 | Criminal court representation | Not handled (outside the scope of an administrative scrivener) |
-| Visa applications/extensions/changes | ⭐ Specialized |
+| Visa applications/extensions/changes | Handled |
 | Administrative appeals/litigation | Administrative appeals possible (litigation is outside the scope) |
 
-**Most foreign Immigration Offense Reviews are administrative procedures following the conclusion of criminal cases**, making administrative scriveners the cost-effective primary partner. Even when criminal proceedings are still under way (e.g., trial in progress), Sunshine Administrative Agency Office handles only the administrative track; we do not handle litigation or court representation (outside the scope of an administrative scrivener).
+**Many Immigration Offense Reviews are administrative procedures that follow the conclusion of criminal cases**, making administrative scriveners the cost-effective primary partner. Even when criminal proceedings are still under way (e.g., trial in progress), Sunshine Administrative Agency Office handles only the administrative track; we do not handle litigation or court representation (outside the scope of an administrative scrivener).
 
 ## 6. Sunshine's Five-Step Response Protocol
 
@@ -168,8 +168,8 @@ The 10 essential Q&A above (FAQ section) cover the core questions. Case-specific
 - [Visa renewal denial response →](/en/blog/visa-denial-response)
 - [Impact on F-5 / nationality →](/en/blog/criminal-record-pr-impact)
 
-## Closing: Time Decides Outcomes
+## Closing: Check Your Dates Early
 
-Among foreigners who have received an Immigration Offense Review, the most common regret is, **"I should have called a professional sooner."** A single disposition can reverse 5 to 10 years of life plans in Korea.
+Among foreigners who have received an Immigration Offense Review, a regret we often hear is, **"I should have called a professional sooner."**
 
 Sunshine Administrative Agency Office offers a free initial diagnosis. **Reach out without commitment.** Korean, English, Chinese, Japanese — all supported.

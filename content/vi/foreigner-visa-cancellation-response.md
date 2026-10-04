@@ -12,12 +12,12 @@ keywords:
   - "Luật Quản lý xuất nhập cảnh Điều 89"
 faq:
   - q: "Nhận thông báo hủy tư cách lưu trú thì phải rời Hàn Quốc ngay sao?"
-    a: "Không. Nếu bạn đã nộp đơn khiếu nại hoặc khởi kiện hành chính, có căn cứ pháp lý để tạm hoãn xuất cảnh cho đến khi thủ tục kết thúc. Việc nộp kèm đơn xin đình chỉ thi hành là rất quan trọng."
+    a: "Không nhất thiết. Việc có phải xuất cảnh trong thời gian khiếu nại hoặc khởi kiện hành chính hay không phụ thuộc vào thời hạn ghi trên thông báo và việc có được quyết định đình chỉ thi hành hay không. Việc nộp kèm đơn xin đình chỉ thi hành là rất quan trọng."
   - q: "Thời hạn khiếu nại là bao lâu?"
-    a: "Phải nộp đơn khiếu nại hoặc khởi kiện hành chính trong vòng 90 ngày kể từ ngày nhận thông báo quyết định. Quá hạn có thể mất quyền khiếu nại, vì vậy hãy tư vấn chuyên gia ngay."
-  - q: "Bị hủy tư cách là bị trục xuất khỏi Hàn Quốc ngay lập tức à?"
-    a: "Thủ tục trục xuất có thể khởi động sau khi hủy, nhưng sẽ bị trì hoãn trong thời gian khiếu nại hoặc kiện tụng. Nếu được quyết định đình chỉ thi hành, bạn có thể lưu trú cho đến khi có kết quả vụ kiện."
-  - q: "Có gia đình ở Hàn Quốc vẫn bị trục xuất sao?"
+    a: "Phải nộp đơn khiếu nại hoặc khởi kiện hành chính trong vòng 90 ngày kể từ ngày biết có quyết định (Luật Xét xử hành chính Điều 27 khoản 1, Luật Tố tụng hành chính Điều 20 khoản 1). Quá hạn có thể mất quyền khiếu nại, vì vậy hãy tư vấn chuyên gia ngay."
+  - q: "Bị hủy tư cách là bị trục xuất (cưỡng chế xuất cảnh) khỏi Hàn Quốc ngay lập tức à?"
+    a: "Thủ tục trục xuất có thể khởi động sau khi hủy; việc thi hành có được tạm hoãn trong thời gian khiếu nại hoặc kiện tụng hay không phụ thuộc vào từng vụ việc. Nếu được quyết định đình chỉ thi hành, bạn có thể lưu trú cho đến khi có kết quả vụ kiện."
+  - q: "Có gia đình ở Hàn Quốc vẫn bị trục xuất (cưỡng chế xuất cảnh) sao?"
     a: "Nếu có con hoặc vợ/chồng mang quốc tịch Hàn Quốc, quyết định có thể được giảm nhẹ vì lý do nhân đạo. Nhất định phải nêu hoàn cảnh gia đình trong đơn khiếu nại."
   - q: "Chi phí khoảng bao nhiêu?"
     a: "Chi phí khác nhau theo từng vụ việc, chúng tôi sẽ báo chính xác trong buổi tư vấn miễn phí."
@@ -27,7 +27,7 @@ related:
   - "entry-ban-removal"
 ---
 
-Khi nhận thông báo hủy tư cách lưu trú, nếu không khiếu nại ngay, vụ việc có thể chuyển sang thủ tục trục xuất.
+Khi nhận thông báo hủy tư cách lưu trú, nếu không khiếu nại ngay, vụ việc có thể chuyển sang thủ tục trục xuất (cưỡng chế xuất cảnh).
 Theo Điều 89 [Luật Quản lý xuất nhập cảnh](https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%B6%9C%EC%9E%85%EA%B5%AD%EA%B4%80%EB%A6%AC%EB%B2%95), bạn có thể khiếu nại quyết định hủy, và cũng có thể khởi kiện hành chính để tranh chấp chính quyết định đó.
 Bài viết này tổng hợp các lý do hủy phổ biến, quy trình ứng phó, cách khiếu nại và những điểm quan trọng trong thực tiễn.
 
@@ -44,7 +44,6 @@ Theo Điều 89 Luật Quản lý xuất nhập cảnh và nghị định thi h�
 | Không thực hiện nghĩa vụ thuế | Nợ thuế trong thời gian dài |
 | Lưu trú ngoài mục đích | Hoạt động khác với mục đích của visa |
 
-Gần đây, các vụ hủy vì nộp giấy tờ giả và lao động trái phép đang gia tăng.
 Tốt nhất là phòng ngừa trước khi nhận thông báo; nhưng nếu đã nhận rồi thì phải ứng phó tức thì.
 
 ---
@@ -62,7 +61,7 @@ Thời hạn khiếu nại rất ngắn. Hãy tư vấn chuyên gia ngay bây gi
 ### Bước 1 — Nắm chính xác nội dung thông báo
 
 Trước hết hãy xác nhận lý do hủy, ngày ra quyết định và thời hạn khiếu nại ghi trong thông báo.
-Khiếu nại phải được nộp trong vòng **90 ngày** kể từ ngày nhận thông báo.
+Khiếu nại phải được nộp trong vòng **90 ngày** kể từ ngày biết có quyết định (Luật Xét xử hành chính Điều 27 khoản 1).
 
 ### Bước 2 — Khiếu nại (xét xử hành chính)
 
@@ -83,7 +82,7 @@ Vụ kiện phải được nộp trong **90 ngày** kể từ ngày nhận thô
 Để ngăn việc thi hành quyết định hủy (trục xuất), bạn có thể xin tòa án đình chỉ thi hành.
 Đây là biện pháp quan trọng giúp duy trì lưu trú cho đến khi có kết quả vụ kiện chính.
 
-## Những điểm mấu chốt để khiếu nại thành công
+## Những điểm cần xem xét khi khiếu nại
 
 **Điểm 1 — Chứng minh sai sót về sự thật trong lý do hủy**
 
@@ -106,18 +105,18 @@ Tuy nhiên kết quả khác nhau theo từng vụ, nên nhất định phải x
 
 **Q1. Nhận thông báo hủy tư cách thì phải rời Hàn Quốc ngay sao?**
 
-Không.
-Nếu đã nộp đơn khiếu nại hoặc khởi kiện hành chính, có căn cứ pháp lý để tạm hoãn xuất cảnh cho đến khi thủ tục kết thúc.
+Không nhất thiết.
+Việc có phải xuất cảnh trong thời gian khiếu nại hoặc khởi kiện hành chính hay không phụ thuộc vào thời hạn ghi trên thông báo và việc có được quyết định đình chỉ thi hành hay không.
 Việc nộp kèm đơn xin đình chỉ thi hành là rất quan trọng.
 
 **Q2. Thời hạn khiếu nại là bao lâu?**
 
-Phải nộp trong vòng 90 ngày kể từ ngày nhận thông báo quyết định.
+Phải nộp trong vòng 90 ngày kể từ ngày biết có quyết định (Luật Xét xử hành chính Điều 27 khoản 1, Luật Tố tụng hành chính Điều 20 khoản 1).
 Quá hạn có thể mất quyền khiếu nại, hãy tư vấn chuyên gia ngay.
 
 **Q3. Bị hủy tư cách là bị trục xuất ngay lập tức à?**
 
-Thủ tục trục xuất có thể khởi động sau khi hủy, nhưng sẽ bị trì hoãn trong thời gian khiếu nại hoặc kiện tụng.
+Thủ tục trục xuất có thể khởi động sau khi hủy; việc thi hành có được tạm hoãn trong thời gian khiếu nại hoặc kiện tụng hay không phụ thuộc vào từng vụ việc.
 Nếu được quyết định đình chỉ thi hành, bạn có thể lưu trú đến khi có kết quả.
 
 **Q4. Có gia đình ở Hàn Quốc vẫn bị trục xuất sao?**
@@ -131,7 +130,7 @@ Chi phí khác nhau theo từng vụ việc, chúng tôi sẽ báo chính xác t
 
 ## Bài viết liên quan
 
-- [Hướng dẫn toàn diện về xem xét vi phạm xuất nhập cảnh — từ thông báo đến kết quả](/vi/blog/immigration-offense-review-guide)
+- [Hướng dẫn về thủ tục xem xét vi phạm xuất nhập cảnh — từ thông báo đến kết quả](/vi/blog/immigration-offense-review-guide)
 - [Ứng phó khi bị hủy tư cách vì lao động trái phép](/vi/blog/illegal-employment-penalty)
 - [Thủ tục dỡ bỏ lệnh cấm nhập cảnh](/vi/blog/entry-ban-removal)
 

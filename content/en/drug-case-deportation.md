@@ -1,6 +1,6 @@
 ---
 title: "Drug Cases and Deportation of Foreigners in Korea"
-description: "Legal at home but punished in Korea: how possession, use and distribution are treated, deportation odds, and how to build your immigration review file."
+description: "Legal at home but punished in Korea: how possession, use and distribution are treated, the immigration review that follows, and how to build your review file."
 date: "2026-05-01"
 category: "Drug"
 cluster: "cluster"
@@ -16,13 +16,13 @@ faq:
   - q: "If I'm cleared (no suspicion), will it still affect my visa?"
     a: "Clearance leaves no criminal record, but Immigration may retain internal records. Visa renewals may include extra questions, but cleared status is solid mitigation."
   - q: "How do simple use, possession, and distribution differ?"
-    a: "Simple use (small amount, first time): 5~15M KRW fine or suspended sentence. Possession (not smuggling): 1+ year imprisonment. Distribution (sale): 5+ years to life imprisonment. Foreigners face high deportation risk even for simple use."
+    a: "Simple use, possession and distribution are punished at different levels under the Narcotics Control Act, with distribution and smuggling punished most heavily. Even simple use can lead to a deportation review; the disposition depends on the individual case."
   - q: "I tried it once with a friend — can I still extend my Alien Registration Card?"
     a: "Depends on the review. Single use + voluntary surrender + treatment willingness + Korean family may end with status change or departure order. But deportation is a real possibility. Immediate professional consultation is essential."
   - q: "What's the entry ban after a drug case?"
-    a: "Deportation typically: 5~10 years entry ban. Distribution / serving sentence: permanent ban possible. Removal-of-ban application is feasible but extremely difficult for drug cases."
+    a: "The entry-ban period is decided by the Ministry of Justice for each case (Immigration Act Article 11). An application to lift the ban can be filed, but drug cases are reviewed strictly."
   - q: "Is permanent residency (F-5) possible after a drug case?"
-    a: "Fine or non-prosecution: 5+ year disqualification. Suspended sentence or imprisonment: 10+ year disqualification. F-5 is essentially out of reach; focus on visa preservation."
+    a: "A drug record is reviewed strictly in an F-5 application, and the waiting period depends on the disposition and the Ministry of Justice criteria in force. Maintaining your current status may be the more realistic focus."
 related:
   - "immigration-offense-review-guide"
   - "criminal-case-visa-defense"
@@ -30,9 +30,9 @@ related:
   - "entry-ban-removal"
 ---
 
-Foreigners from countries where marijuana is legal — the United States, Canada, Netherlands, Thailand — most often ask: **"It's legal at home. Why am I punished in Korea?"** The answer: **territorial principle. Korean law applies to anyone using or possessing drugs within Korean territory, regardless of nationality.**
+Foreigners from countries where marijuana is legal — the United States, Canada, Netherlands, Thailand — often ask: **"It's legal at home. Why am I punished in Korea?"** The answer: **territorial principle. Korean law applies to anyone using or possessing drugs within Korean territory, regardless of nationality.**
 
-This guide covers what foreigners must know to avoid removal.
+This guide explains the criminal and immigration procedures foreigners face in a drug case.
 
 ## 1. Korean Drug Law for Foreigners
 
@@ -48,19 +48,14 @@ So **smoking marijuana in Korea is punishable regardless of home-country legalit
 - **Psychotropics**: methamphetamine, MDMA, LSD, ketamine
 - **Marijuana**: marijuana, hashish, cannabis oil
 
-Medical-prescribed cannabis, CBD oil from abroad — likely treated as narcotic upon Korean entry.
+Medical-prescribed cannabis, CBD oil from abroad — can be treated as a narcotic upon entry to Korea.
 
-## 2. Penalty Tier by Conduct
+## 2. How Conduct Is Treated
 
-| Conduct | Sentence | Immigration Outcome |
-|---|---|---|
-| Simple use (1-time, small) | Fine 5~15M KRW or suspended 6m~1y | Deportation 70~85% |
-| Simple possession (not smuggling) | 1+ year imprisonment or 10M+ KRW fine | Deportation 80~95% |
-| Habitual use | 1~10 years imprisonment | Deportation virtually certain |
-| Distribution / sale | 5+ years to life | Deportation + permanent entry ban |
-| Smuggling | 10+ years to capital punishment | Deportation + permanent ban |
+- Simple use, possession, habitual use, distribution/sale and smuggling are punished at different levels under the Narcotics Control Act, with distribution and smuggling punished most heavily. The actual sentence depends on the case.
+- Each can lead to a deportation review and an entry ban (Immigration Act Articles 11 and 46). The disposition depends on the individual case.
 
-⚠️ Foreigners face high deportation risk even for **single simple use**, while Koreans often receive non-prosecution or probation for first-time offenses.
+A deportation review can follow even a **single simple use**, separately from the criminal outcome.
 
 ## 3. Immediate Action Checklist
 
@@ -81,21 +76,21 @@ Run criminal track and review preparation in parallel.
 ## 4. Mitigation Evidence
 
 ### Strong factors
-- ✅ First detection + isolated incident
-- ✅ Voluntary surrender / cooperation
-- ✅ Voluntary treatment completion
-- ✅ Low addiction (specialist diagnosis)
-- ✅ Korean family (spouse, children)
-- ✅ 5+ years of Korean residence + stable employment
-- ✅ Risk in home country (political persecution etc.)
-- ✅ Korean language proficiency + integration
+- First detection + isolated incident
+- Voluntary surrender / cooperation
+- Voluntary treatment completion
+- Low addiction (specialist diagnosis)
+- Korean family (spouse, children)
+- Long-term Korean residence + stable employment
+- Risk in home country (political persecution etc.)
+- Korean language proficiency + integration
 
 ### Decisive risk factors
-- ❌ Habitual use
-- ❌ Distribution or recommendation to others
-- ❌ Unregistered status (overstay)
-- ❌ Other criminal record accumulation
-- ❌ Drug-driven crime (theft, fraud combined)
+- Habitual use
+- Distribution or recommendation to others
+- Unregistered status (overstay)
+- Other criminal record accumulation
+- Drug-driven crime (theft, fraud combined)
 
 ## 5. Real Cases
 
@@ -128,22 +123,19 @@ Even with home-country prescriptions:
 - CBD with any THC = treated as narcotic
 - THC-0% CBD without Korean food/drug safety approval = also confiscated
 
-⚠️ Discontinue cannabis use during Korean stay; consult a Korean physician for alternatives.
+Discontinue cannabis use during Korean stay; consult a Korean physician for alternatives.
 
 ## 7. Re-entry After a Drug Deportation
 
-Entry ban duration:
-- **Simple use**: 5 years
-- **Simple possession**: 5~10 years
-- **Distribution / sale**: permanent
+The entry-ban period is decided by the Ministry of Justice for each case (Immigration Act Article 11); distribution and smuggling cases are treated most strictly.
 
-Removal-of-ban applications possible but **drug cases are among the hardest**. Generally:
-- 5+ years elapsed
+Applications to lift a ban can be filed, but **drug cases are reviewed strictly**. Factors considered include:
+- Time elapsed since departure
 - Stable home-country social life
 - Justified re-entry purpose (Korean family etc.)
 - Strong sponsorship
 
-Even with all factors satisfied, denial is common.
+Even with these factors, the result depends on the individual review.
 
 ## 8. Sunshine's Drug-Case Protocol
 
@@ -157,7 +149,7 @@ Even with all factors satisfied, denial is common.
 
 ## 9. Time Is Critical
 
-Drug cases are **most decisively shaped by time**. Voluntary surrender, treatment enrollment, and review preparation must start simultaneously. Beginning after criminal closure leaves insufficient mitigation.
+In drug cases, **timing matters**. Voluntary surrender, treatment enrollment, and review preparation must start simultaneously. Beginning after the criminal case closes can leave less time to prepare mitigation.
 
 **Free initial diagnosis — Korean, English, Chinese, Japanese — confidential.**
 
@@ -166,7 +158,7 @@ Drug cases are **most decisively shaped by time**. Voluntary surrender, treatmen
 ---
 
 **Related articles:**
-- [Korea Immigration Offense Review — Complete Guide](/en/blog/immigration-offense-review-guide)
+- [Korea Immigration Offense Review Guide](/en/blog/immigration-offense-review-guide)
 - [Criminal Cases and Visa Defense](/en/blog/criminal-case-visa-defense)
 - [Impact on Permanent Residency](/en/blog/criminal-record-pr-impact)
 - [Entry-Ban Removal Application Guide](/en/blog/entry-ban-removal)

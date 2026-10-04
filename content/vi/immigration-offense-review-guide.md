@@ -1,5 +1,5 @@
 ---
-title: "Xem xét vi phạm xuất nhập cảnh — hướng dẫn đầy đủ 2026"
+title: "Xem xét vi phạm xuất nhập cảnh — thủ tục và các điểm cần kiểm tra"
 description: "Hướng dẫn từng bước cho người nước ngoài bị triệu tập xem xét vi phạm vì DUI, án hình sự, ma túy hay lao động trái phép, từ thực tiễn của Sunshine."
 date: "2026-05-01"
 category: "PILLAR · Hướng dẫn xem xét vi phạm"
@@ -18,21 +18,21 @@ faq:
   - q: "Tôi chỉ nộp phạt thôi mà vẫn phải qua xem xét vi phạm sao?"
     a: "Đúng. Xử lý hình sự (kể cả án phạt tiền) và thủ tục hành chính xem xét vi phạm là hai việc riêng. Dù chỉ bị phạt dưới 1 triệu won, cơ quan xuất nhập cảnh vẫn thẩm định lại việc gia hạn visa và tư cách lưu trú theo tiêu chuẩn riêng."
   - q: "Nhận thông báo rồi thì phải có mặt trong bao nhiêu ngày?"
-    a: "Hãy kiểm tra kỹ ngày có mặt ghi trong thông báo, thường được ấn định trong vòng 7~14 ngày. Vắng mặt không có lý do chính đáng có thể dẫn tới quyết định bất lợi."
+    a: "Hãy kiểm tra kỹ ngày có mặt ghi trong thông báo. Vắng mặt không có lý do chính đáng có thể dẫn tới quyết định bất lợi."
   - q: "Hành chính sĩ có hỗ trợ buổi xem xét vi phạm được không?"
     a: "Có. Việc soạn và nộp hồ sơ trong thủ tục hành chính xuất nhập cảnh thuộc lĩnh vực chuyên môn của hành chính sĩ theo Luật Hành chính sĩ. Chúng tôi không đại diện tố tụng hoặc tại tòa, kể cả bào chữa hình sự (ngoài phạm vi nghiệp vụ của hành chính sĩ)."
-  - q: "Nếu kết quả là trục xuất thì coi như hết à?"
-    a: "Bạn vẫn có thể khiếu nại, và tùy vụ việc có thể rút ngắn thời hạn cấm nhập cảnh hoặc chuyển sang xuất cảnh tự nguyện. Mấu chốt là phản ứng nhanh sau khi nhận kết quả (khiếu nại lệnh trục xuất phải nộp trong 7 ngày kể từ ngày nhận lệnh, Luật Quản lý Xuất nhập cảnh Điều 60 khoản 1)."
+  - q: "Nếu kết quả là trục xuất (cưỡng chế xuất cảnh) thì coi như hết à?"
+    a: "Bạn vẫn có thể khiếu nại, và tùy vụ việc có thể xin xem xét lại thời hạn cấm nhập cảnh hoặc xem xét xuất cảnh tự nguyện; kết quả phụ thuộc vào từng vụ việc. Mấu chốt là phản ứng nhanh sau khi nhận kết quả (khiếu nại lệnh trục xuất phải nộp trong 7 ngày kể từ ngày nhận lệnh, Luật Quản lý Xuất nhập cảnh Điều 60 khoản 1)."
   - q: "Visa sắp hết hạn mà lại bị xem xét vi phạm thì sao?"
-    a: "Hồ sơ gia hạn visa và thủ tục xem xét sẽ diễn ra song song. Trước khi có kết quả, lệnh xuất cảnh không được ban hành ngay, nhưng tùy kết quả mà khả năng bị từ chối gia hạn sẽ rất cao."
+    a: "Hồ sơ gia hạn visa và thủ tục xem xét sẽ diễn ra song song. Trước khi có kết quả, lệnh xuất cảnh không được ban hành ngay, nhưng tùy kết quả, việc gia hạn có thể bị từ chối."
   - q: "Gia đình tôi ở Hàn Quốc, nếu tôi bị trục xuất thì họ có phải đi cùng không?"
     a: "Chỉ bản thân bạn là đối tượng bị trục xuất; người thân (giữ visa đi kèm như F-1, F-3) sẽ được xử lý riêng. Tuy nhiên nếu visa của họ phụ thuộc vào visa của bạn thì sẽ có ảnh hưởng kéo theo."
   - q: "Đã một lần bị xem xét vi phạm thì không xin được thường trú (F-5) nữa à?"
-    a: "Điều đó tùy loại quyết định và thời điểm. Vi phạm nhẹ thì sau một thời gian vẫn có thể nộp hồ sơ, nhưng bị trục xuất hay có tiền án là căn cứ loại từ 5 năm trở lên. Cần chẩn đoán theo từng trường hợp."
+    a: "Điều đó tùy loại quyết định và thời điểm. Bị trục xuất hay có tiền án có thể là yếu tố bất lợi trong một thời gian nhất định; thời gian cụ thể phụ thuộc vào tiêu chuẩn hiện hành và từng trường hợp. Cần chẩn đoán theo từng trường hợp."
   - q: "Chi phí (phí dịch vụ hành chính sĩ) là bao nhiêu?"
-    a: "Tùy độ phức tạp của vụ việc và giấy tờ cần thiết. Chúng tôi báo giá chính xác sau buổi chẩn đoán ban đầu miễn phí. Khoản này tách biệt với lệ phí nhà nước (200.000 won)."
+    a: "Tùy độ phức tạp của vụ việc và giấy tờ cần thiết. Chúng tôi báo giá chính xác sau buổi chẩn đoán ban đầu miễn phí. Khoản này tách biệt với lệ phí nhà nước theo quy định."
   - q: "Tôi chưa nhận thông báo, có thể chẩn đoán trước không?"
-    a: "Hoàn toàn được. Với người từng dính DUI hay án hình sự, việc chẩn đoán trước khi đến kỳ gia hạn visa chính là yếu tố quyết định kết quả. Hãy đăng ký tư vấn miễn phí."
+    a: "Được. Với người từng dính DUI hay án hình sự, việc kiểm tra trước khi đến kỳ gia hạn visa có thể giúp chuẩn bị hồ sơ kịp thời. Hãy đăng ký tư vấn miễn phí."
 related:
   - "dui-foreigner-visa"
   - "criminal-case-visa-defense"
@@ -44,7 +44,7 @@ related:
   - "criminal-record-pr-impact"
 ---
 
-Một trong những thông báo đáng sợ nhất với người nước ngoài đang sống và làm việc tại Hàn Quốc chính là **"giấy triệu tập tham dự buổi xem xét vi phạm xuất nhập cảnh"**. Lái xe say rượu, vụ hành hung, điều tra ma túy, hoạt động ngoài tư cách, tham gia lừa đảo qua điện thoại — hình thức khác nhau nhưng hậu quả thì tương tự: bị từ chối gia hạn visa, trượt hồ sơ thường trú, hoặc nhận lệnh trục xuất.
+Một thông báo quan trọng với người nước ngoài đang sống và làm việc tại Hàn Quốc chính là **"giấy triệu tập tham dự buổi xem xét vi phạm xuất nhập cảnh"**. Lái xe say rượu, vụ hành hung, điều tra ma túy, hoạt động ngoài tư cách, tham gia lừa đảo qua điện thoại — hình thức khác nhau nhưng hậu quả thì tương tự: bị từ chối gia hạn visa, trượt hồ sơ thường trú, hoặc nhận lệnh trục xuất (cưỡng chế xuất cảnh).
 
 Câu chúng tôi nghe nhiều nhất là: **"Tôi nộp phạt đủ rồi mà, sao lại gọi tiếp?"** Câu trả lời rất đơn giản: **xử lý hình sự và chế tài hành chính của cơ quan xuất nhập cảnh là hai thủ tục riêng biệt.** Bài viết này giải thích từng bước những gì bạn cần hiểu đầu tiên khi nhận được thông báo.
 
@@ -55,7 +55,7 @@ Câu chúng tôi nghe nhiều nhất là: **"Tôi nộp phạt đủ rồi mà, 
 Ba điểm cốt lõi:
 
 - **Đây là thủ tục tách biệt với xử lý hình sự.** Việc viện kiểm sát tạm đình chỉ truy tố hay tòa tuyên án phạt tiền không có nghĩa là thủ tục này cũng kết thúc.
-- **Cục Xuất nhập cảnh (hoặc chi nhánh) tự quyết định.** Bạn có thể tự tiến hành, nhưng việc có hành chính sĩ đi cùng ảnh hưởng lớn tới kết quả.
+- **Cục Xuất nhập cảnh (hoặc chi nhánh) tự quyết định.** Bạn có thể tự tiến hành hoặc nhờ hành chính sĩ hỗ trợ; kết quả phụ thuộc vào từng vụ việc.
 - **Kết quả sẽ là một trong các quyết định**: từ chối gia hạn visa, từ chối đổi tư cách, lệnh xuất cảnh, trục xuất, hoặc cấm nhập cảnh.
 
 Nói cách khác, đây là thủ tục quyết định bạn có được tiếp tục sinh hoạt bình thường theo visa tại Hàn Quốc hay không.
@@ -66,15 +66,15 @@ Chỉ cần rơi vào một trong tám tình huống sau là bạn thuộc diệ
 
 ### (1) Bị phát hiện lái xe say rượu
 
-Bất kể nồng độ cồn, chỉ một lần bị phát hiện cũng đủ khởi động thủ tục xem xét khi bạn gia hạn visa. Từ 0,03% trở lên là bị lập hồ sơ hình sự và dẫn tới xem xét vi phạm; từ 0,08% trở lên thì nguy cơ trục xuất tăng rất mạnh. Xem chi tiết tại [Người nước ngoài lái xe say rượu và xem xét vi phạm](/vi/blog/dui-foreigner-visa).
+Chỉ một lần bị phát hiện cũng có thể dẫn tới thủ tục xem xét khi bạn gia hạn visa. Từ 0,03% trở lên là đối tượng xử phạt hình sự (Luật Giao thông đường bộ Điều 44 khoản 4, Điều 148-2) và có thể dẫn tới xem xét vi phạm; mức xử lý phụ thuộc vào từng vụ việc. Xem chi tiết tại [Người nước ngoài lái xe say rượu và xem xét vi phạm](/vi/blog/dui-foreigner-visa).
 
 ### (2) Dính án hình sự
 
-Mọi hình phạt hình sự — hành hung, trộm cắp, lừa đảo, phỉ báng — đều được báo về cơ quan xuất nhập cảnh. Ngay cả án phạt tiền, nếu lặp lại hoặc mang tính bạo lực, cũng trở thành căn cứ trục xuất. Xem [Án hình sự và cách bảo vệ visa](/vi/blog/criminal-case-visa-defense).
+Các vụ án hình sự như hành hung, trộm cắp, lừa đảo, phỉ báng có thể được thông báo cho cơ quan xuất nhập cảnh (Luật Quản lý xuất nhập cảnh Điều 84). Ngay cả án phạt tiền, nếu lặp lại hoặc mang tính bạo lực, cũng có thể được xem xét khi quyết định xử lý. Xem [Án hình sự và visa](/vi/blog/criminal-case-visa-defense).
 
 ### (3) Bị điều tra, truy tố về ma túy
 
-Cần sa, cocaine, ma túy đá... đều bị xếp vào nhóm tội nghiêm trọng. **Cần sa hợp pháp ở nước bạn vẫn bị xử phạt tại Hàn Quốc**, và dẫn thẳng tới nguy cơ hủy tư cách lưu trú. Xem [Án ma túy và trục xuất](/vi/blog/drug-case-deportation).
+Cần sa, cocaine, ma túy đá... đều bị xếp vào nhóm tội nghiêm trọng. **Cần sa hợp pháp ở nước bạn vẫn bị xử phạt tại Hàn Quốc**, và có thể dẫn tới việc hủy tư cách lưu trú. Xem [Án ma túy và trục xuất](/vi/blog/drug-case-deportation).
 
 ### (4) Lao động trái phép hoặc hoạt động ngoài tư cách
 
@@ -82,11 +82,11 @@ Ví dụ du học sinh D-2 làm thêm quá số giờ cho phép, hay người c�
 
 ### (5) Khai gian hoặc làm giả giấy tờ
 
-Khai gian học vấn, làm giả xác nhận công tác, kết hôn giả khi xin visa — nếu bị phát hiện có thể bị cấm nhập cảnh vĩnh viễn. Đây là nhóm lý do nguy hiểm nhất, khi một lời khai gian dẫn tới bị loại vĩnh viễn.
+Khai gian học vấn, làm giả xác nhận công tác, kết hôn giả khi xin visa — nếu bị phát hiện có thể bị trục xuất hoặc cấm nhập cảnh; mức xử lý phụ thuộc vào từng vụ việc.
 
 ### (6) Tham gia lừa đảo qua điện thoại hoặc lừa đảo khác
 
-Dù chỉ tham gia đơn thuần với vai trò chuyển tiền, bạn vẫn bị xử lý như đồng phạm theo luật hình sự, và cơ quan xuất nhập cảnh nhìn nhận rất nghiêm khắc. Ngay cả khi không nhận thức được, trách nhiệm vẫn phát sinh. Xem [Người nước ngoài tham gia lừa đảo qua điện thoại](/vi/blog/voice-phishing-foreigners).
+Dù chỉ tham gia đơn thuần với vai trò chuyển tiền, bạn vẫn bị xử lý như đồng phạm theo luật hình sự, và cơ quan xuất nhập cảnh nhìn nhận rất nghiêm khắc. Việc có nhận thức được hay không là một trong các yếu tố được xem xét. Xem [Người nước ngoài tham gia lừa đảo qua điện thoại](/vi/blog/voice-phishing-foreigners).
 
 ### (7) Bị từ chối gia hạn visa hoặc đổi tư cách
 
@@ -98,7 +98,7 @@ Nếu trước đây đã bị trục xuất hoặc bị xử lý và đang tron
 
 ## 3. Năm việc phải làm ngay khi nhận thông báo
 
-> **Thời gian quyết định kết quả.**
+> **Hãy kiểm tra thời hạn ngay khi nhận thông báo.**
 
 ### (1) Đọc kỹ giấy triệu tập
 
@@ -114,7 +114,7 @@ Xác nhận chính xác ngày, địa điểm, lý do và giấy tờ cần chu�
 
 ### (3) Thu thập tài liệu giảm nhẹ
 
-Những tài liệu khiến cán bộ đánh giá rằng "người nước ngoài này có ích cho Hàn Quốc" sẽ làm thay đổi kết quả. Hoạt động tình nguyện, chứng chỉ TOPIK, đơn xin khoan hồng của cấp trên người Hàn, bằng chứng đang nuôi dưỡng gia đình... đều rất hiệu quả.
+Những tài liệu cho thấy sự gắn bó và đóng góp của bạn tại Hàn Quốc có thể được xem xét. Hoạt động tình nguyện, chứng chỉ TOPIK, đơn xin khoan hồng của cấp trên người Hàn, bằng chứng đang nuôi dưỡng gia đình... là những ví dụ.
 
 ### (4) Soạn bản giải trình hoặc đơn xin khoan hồng
 
@@ -122,7 +122,7 @@ Những tài liệu khiến cán bộ đánh giá rằng "người nước ngoà
 
 ### (5) Tư vấn hành chính sĩ chuyên môn
 
-Đi một mình, bạn khó biết nên nói gì và nên nhấn mạnh giấy tờ nào. Việc có chuyên gia am hiểu thực tiễn đi cùng và diễn tập trước tạo ra khác biệt quyết định.
+Đi một mình, bạn khó biết nên nói gì và nên nhấn mạnh giấy tờ nào. Có thể cân nhắc nhờ chuyên gia am hiểu thực tiễn đi cùng và diễn tập trước.
 
 [Nhận chẩn đoán miễn phí ngay →](/vi/contact)
 
@@ -132,22 +132,22 @@ Những tài liệu khiến cán bộ đánh giá rằng "người nước ngoà
 |---|---|---|
 | **Cho phép lưu trú** | Giữ nguyên tư cách hoặc gia hạn có điều kiện | Tiếp tục cư trú bình thường |
 | **Đổi hoặc rút ngắn tư cách** | Đổi loại visa, rút ngắn thời hạn lưu trú | Ảnh hưởng tới kinh doanh, việc làm, gia đình |
-| **Lệnh xuất cảnh** | Yêu cầu tự xuất cảnh, thường trong 30 ngày | Vẫn có thể nhập cảnh lại nhưng ảnh hưởng visa sau này |
-| **Trục xuất** | Cưỡng chế hồi hương | Có thể bị cấm nhập cảnh từ 5 năm |
-| **Cấm nhập cảnh** | Không được vào Hàn Quốc trong thời hạn nhất định | 1 năm ~ vĩnh viễn |
+| **Lệnh xuất cảnh** | Yêu cầu tự xuất cảnh trong thời hạn ghi trên lệnh (Luật Quản lý xuất nhập cảnh Điều 68) | Vẫn có thể nhập cảnh lại nhưng ảnh hưởng visa sau này |
+| **Trục xuất** | Cưỡng chế hồi hương | Không được nhập cảnh trong 5 năm kể từ khi xuất cảnh (Luật Quản lý xuất nhập cảnh Điều 11 khoản 1 điểm 6) |
+| **Cấm nhập cảnh** | Không được vào Hàn Quốc trong thời hạn nhất định | Thời hạn phụ thuộc vào từng trường hợp |
 
-Khác biệt lớn nhất nằm giữa **"lệnh xuất cảnh" và "trục xuất"**. Lệnh xuất cảnh được xử lý như tự nguyện rời đi nên hạn chế nhập cảnh tương đối nhẹ; còn trục xuất trở thành căn cứ loại vĩnh viễn khi xin thường trú hoặc quốc tịch Hàn Quốc.
+Khác biệt lớn nhất nằm giữa **"lệnh xuất cảnh" và "trục xuất"**. Người bị trục xuất không được nhập cảnh trong 5 năm kể từ khi xuất cảnh (Luật Quản lý xuất nhập cảnh Điều 11 khoản 1 điểm 6), và việc này cũng có thể ảnh hưởng đến hồ sơ thường trú hoặc quốc tịch sau này. Hạn chế nhập cảnh sau lệnh xuất cảnh phụ thuộc vào từng trường hợp.
 
 ## 5. Vai trò và phạm vi nghiệp vụ của hành chính sĩ
 
 | Lĩnh vực | Hành chính sĩ |
 |---|---|
-| Thủ tục hành chính XNC (dự buổi xem xét, soạn hồ sơ) | ⭐ Chuyên môn chính |
+| Thủ tục hành chính XNC (dự buổi xem xét, soạn hồ sơ) | Chuyên môn chính |
 | Bào chữa hình sự tại tòa (sơ thẩm, phúc thẩm) | Không nhận (ngoài phạm vi nghiệp vụ của hành chính sĩ) |
-| Xin, gia hạn, đổi visa | ⭐ Chuyên môn chính |
+| Xin, gia hạn, đổi visa | Chuyên môn chính |
 | Xét xử hành chính, kiện hành chính | Xét xử hành chính (kiện hành chính nằm ngoài phạm vi) |
 
-**Phần lớn các vụ xem xét vi phạm là thủ tục hành chính diễn ra sau khi phần hình sự đã khép lại, nên có hành chính sĩ đi cùng là phương án hiệu quả về chi phí.** Ngay cả khi thủ tục hình sự vẫn đang diễn ra (ví dụ đang xét xử sơ thẩm), Sunshine chỉ phụ trách phần hành chính và không đại diện tố tụng hoặc tại tòa (ngoài phạm vi nghiệp vụ của hành chính sĩ).
+**Xem xét vi phạm là thủ tục hành chính, có thể diễn ra sau khi phần hình sự đã khép lại.** Ngay cả khi thủ tục hình sự vẫn đang diễn ra (ví dụ đang xét xử sơ thẩm), Sunshine chỉ phụ trách phần hành chính và không đại diện tố tụng hoặc tại tòa (ngoài phạm vi nghiệp vụ của hành chính sĩ).
 
 ## 6. Quy trình ứng phó 5 bước của Sunshine
 
@@ -158,7 +158,7 @@ Nắm chính xác tình huống và đánh giá mức độ rủi ro. Hỗ trợ
 
 ### Bước 2. Chẩn đoán chuyên sâu (2~3 ngày)
 
-Phân tích chi tiết hồ sơ hình sự, hồ sơ xuất nhập cảnh và lịch sử visa. Làm rõ khả năng nhận quyết định nào và tài liệu nào có tính quyết định.
+Phân tích chi tiết hồ sơ hình sự, hồ sơ xuất nhập cảnh và lịch sử visa. Rà soát các quyết định có thể được đưa ra và tài liệu cần chuẩn bị.
 
 ### Bước 3. Gửi danh mục hồ sơ riêng cho từng vụ (trong 3 ngày)
 
@@ -179,7 +179,7 @@ Hoàn thiện bản giải trình, đơn xin khoan hồng và tài liệu giảm
 Mục FAQ phía trên đã tổng hợp 10 câu hỏi cốt lõi. Các câu hỏi theo từng tình huống cụ thể, mời xem các bài chuyên đề sau.
 
 - [Người nước ngoài lái xe say rượu và xem xét vi phạm →](/vi/blog/dui-foreigner-visa)
-- [Án hình sự và cách bảo vệ visa →](/vi/blog/criminal-case-visa-defense)
+- [Án hình sự và visa →](/vi/blog/criminal-case-visa-defense)
 - [Điều tra ma túy và trục xuất →](/vi/blog/drug-case-deportation)
 - [Lao động trái phép và chế tài với chủ sử dụng →](/vi/blog/illegal-employment-penalty)
 - [Người nước ngoài tham gia lừa đảo qua điện thoại →](/vi/blog/voice-phishing-foreigners)
@@ -187,8 +187,8 @@ Mục FAQ phía trên đã tổng hợp 10 câu hỏi cốt lõi. Các câu hỏ
 - [Ứng phó sau khi bị từ chối gia hạn visa →](/vi/blog/visa-denial-response)
 - [Ảnh hưởng tới thường trú và nhập tịch →](/vi/blog/criminal-record-pr-impact)
 
-## Kết: thời gian quyết định kết quả
+## Kết: hãy kiểm tra thời hạn sớm
 
-Trong số những người nhận thông báo xem xét vi phạm, điều họ tiếc nuối nhất thường là **"giá như tôi tìm chuyên gia sớm hơn"**. Một quyết định có thể lật ngược kế hoạch 5 năm, 10 năm sinh sống tại Hàn Quốc của bạn.
+Khi nhận thông báo xem xét vi phạm, việc kiểm tra thời hạn và chuẩn bị hồ sơ sớm giúp bạn có thời gian trình bày đầy đủ tình tiết. Kết quả phụ thuộc vào từng vụ việc.
 
 Văn phòng Hành chính sĩ Sunshine cung cấp chẩn đoán ban đầu miễn phí. **Hãy liên hệ mà không cần đắn đo.** Ngay cả khi tiếng Hàn còn hạn chế, chúng tôi hỗ trợ tiếng Anh, Trung và Nhật.

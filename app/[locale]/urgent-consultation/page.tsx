@@ -2,6 +2,8 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { pageMetadata } from "../../lib/seo";
 import { breadcrumbSchema, faqSchema } from "../../lib/schema";
+import ConfidentialityNote from "../../components/ConfidentialityNote";
+import { SITUATIONS, SITUATION_SLUGS } from "../../lib/situations";
 
 const VALID_LOCALES = ["ko", "en", "ja", "zh", "vi"] as const;
 type L = (typeof VALID_LOCALES)[number];
@@ -30,7 +32,7 @@ const CONTENT: Record<L, { title: string; sub: string; situations: string[]; ste
   },
   en: {
     title: "Urgent Consultation",
-    sub: "If you received a departure order, deportation notice, or were just charged with a criminal offense — act fast.",
+    sub: "If you received a departure order (exit order), deportation notice, or were just charged with a criminal offense — act fast.",
     situations: [
       "Received a departure order document",
       "Notified that deportation will be enforced",
@@ -47,7 +49,7 @@ const CONTENT: Record<L, { title: string; sub: string; situations: string[]; ste
     faqTitle: "Frequently Asked Questions",
     faqs: [
       {
-        q: "I received a departure order in Korea — what should I check and do first?",
+        q: "I received a departure order (exit order) in Korea — what should I check and do first?",
         a: "Under Article 68 of the Immigration Act, a departure order is issued as a written order that sets an exit deadline and may attach conditions such as restrictions on where you live. If you do not leave by the designated deadline or you breach those conditions, the immigration office must issue a deportation order without delay (Article 68(4)). Because the deadline and conditions are written on your own order, read it carefully, confirm the details with the issuing immigration office, and decide how to respond before the deadline passes.",
       },
     ],
@@ -88,7 +90,7 @@ const CONTENT: Record<L, { title: string; sub: string; situations: string[]; ste
   },
   vi: {
     title: "Tư vấn khẩn cấp",
-    sub: "Nếu bạn nhận được lệnh xuất cảnh, thông báo trục xuất, hoặc vừa bị khởi tố hình sự — hãy hành động ngay.",
+    sub: "Nếu bạn nhận được lệnh xuất cảnh, thông báo trục xuất (cưỡng chế xuất cảnh), hoặc vừa bị khởi tố hình sự — hãy hành động ngay.",
     situations: [
       "Nhận được văn bản lệnh xuất cảnh",
       "Được thông báo sẽ thi hành trục xuất",
@@ -109,6 +111,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   return pageMetadata(locale, "urgent-consultation", "/urgent-consultation");
 }
+
+const SITUATION_HEADING: Record<L, string> = {
+  ko: "상황별 안내",
+  en: "Guides by situation",
+  ja: "状況別のご案内",
+  zh: "按情况查看指南",
+  vi: "Hướng dẫn theo tình huống",
+};
 
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -159,6 +169,20 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           ))}
         </section>
       )}
+
+      {/* 상황별 안내(LAW-V1 P1-6) — 지금 상황·기한·할 일·공식 근거를 한 페이지씩 정리 */}
+      <section style={{ marginBottom: 32 }}>
+        <h2 style={{ fontSize: 18, fontWeight: 700, color: "#0a1628", marginBottom: 14 }}>{SITUATION_HEADING[l]}</h2>
+        <div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
+          {SITUATION_SLUGS.map((slug) => (
+            <a key={slug} href={`/${l}/situations/${slug}`} style={{ background: "#f1f5f9", border: "1px solid #e2e8f0", borderRadius: 6, padding: "10px 16px", fontSize: 14, color: "#1e40af", textDecoration: "none" }}>
+              {SITUATIONS[slug][l].h1} →
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <ConfidentialityNote locale={l} />
 
       <div style={{ background: "#c0392b", borderRadius: 10, padding: "20px 28px", color: "#fff", fontSize: 17, fontWeight: 700, textAlign: "center" }}>
         {c.cta}

@@ -1,5 +1,5 @@
 ---
-title: "Working Outside Your Visa Status in Korea: Dispositions (2026)"
+title: "Working Outside Your Visa Status in Korea: Dispositions"
 description: "What happens when activity outside your visa status is caught in Korea: notification disposition, departure order or deportation under the Immigration Act."
 date: "2026-09-24"
 category: "Penalties"
@@ -17,7 +17,7 @@ faq:
     a: "It means engaging in an activity that belongs to another status of sojourn in addition to the activity your current status allows. Article 20 of the Immigration Act requires you to obtain permission for activities outside your status from the Minister of Justice in advance."
   - q: "Will I be deported immediately if I am caught?"
     a: "No. A violation of Article 20 is listed among the grounds for deportation, but which disposition is actually issued (notification disposition, departure order, or deportation) is decided by the competent office based on the circumstances, the degree of violation, and whether it is a repeat."
-  - q: "How does a notification disposition differ from a departure order?"
+  - q: "How does a notification disposition differ from a departure order (exit order)?"
     a: "A notification disposition (Article 102) notifies you to pay a fine, while a departure order (Article 68) directs you to leave by a set deadline. The law also allows a departure order for a person for whom leaving the country after a notification disposition is deemed appropriate, so the two can be combined."
   - q: "What documents should I prepare for an offense review?"
     a: "The documents requested and the procedure depend on the case and the competent office, so we cannot give a fixed list. Prepare what the office instructs, and confirm with the office before submitting if the instructions are unclear."
@@ -30,7 +30,7 @@ related:
   - "immigration-law-penalties-guide"
 ---
 
-International students sometimes take a part-time job without part-time work permission, start work at a new employer without a workplace change permit, or join outside research unrelated to their studies, and then face an inquiry from the immigration office. Most of these situations come down to **activity outside your status of sojourn**.
+International students sometimes take a part-time job without part-time work permission, start work at a new employer without a workplace change permit, or join outside research unrelated to their studies, and then face an inquiry from the immigration office. Many of these situations come down to **activity outside your status of sojourn**.
 
 This article explains which dispositions are possible when such activity is detected and what to keep in mind during the offense review, based on the text of the Immigration Act and what the Ministry of Justice "Foreigner Stay Guidance Manual" (March 2026) actually says.
 
@@ -107,15 +107,15 @@ Matters likely to move into criminal procedure belong to a separate legal proces
 
 If you have received an inquiry notice or a fine notice and want to also check how it could affect your future status, Sunshine Administrative Agency Office can guide you from reviewing the documents you received through preparing supporting materials.
 
-[→ Request a Free Consultation](/#contact)
+[→ Request a Free Consultation](/en/contact)
 
 ---
 
 **Related posts:**
-- [What to Do When You Receive an Immigration Fine Notice (2026)](/blog/immigration-fine-notice-response-2026)
+- [What to Do When You Receive an Immigration Fine Notice](/blog/immigration-fine-notice-response-2026)
 - [Immigration Offense Review Guide](/blog/immigration-offense-review-guide)
 - [Illegal Employment & Unauthorized Activity Dispositions](/blog/illegal-employment-penalty)
-- [Immigration Act Penalties — Full Guide](/blog/immigration-law-penalties-guide)
+- [Immigration Act Penalties Guide](/blog/immigration-law-penalties-guide)
 
 ---
 

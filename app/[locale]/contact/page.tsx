@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { pageMetadata } from "../../lib/seo";
 import { breadcrumbSchema } from "../../lib/schema";
 import ContactForm from "../../components/ContactForm";
+import ConfidentialityNote from "../../components/ConfidentialityNote";
 
 const VALID_LOCALES = ["ko", "en", "ja", "zh", "vi"] as const;
 type L = (typeof VALID_LOCALES)[number];
@@ -105,6 +106,8 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       <div style={{ marginBottom: 32 }}>
         <ContactForm locale={l} />
       </div>
+
+      <ConfidentialityNote locale={l} />
 
       <div style={{ background: "#fff3cd", border: "1px solid #ffc107", borderRadius: 10, padding: "16px 24px", color: "#856404", fontSize: 15, lineHeight: 1.7 }}>
         {c.note}

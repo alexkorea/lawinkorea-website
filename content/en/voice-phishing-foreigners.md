@@ -1,6 +1,6 @@
 ---
 title: "Voice Phishing Charges for Foreigners — Review Response"
-description: "Even a simple courier faces deportation: how couriers and withdrawers are treated, unknowing participation, and the weight of self-surrender."
+description: "Even a simple courier can face a deportation review: how couriers and withdrawers are treated, unknowing participation, and the weight of self-surrender."
 date: "2026-05-01"
 category: "Phishing"
 cluster: "cluster"
@@ -11,17 +11,17 @@ keywords:
   - "voice phishing Korea visa"
 faq:
   - q: "Even simple couriers face deportation?"
-    a: "Yes. Korean prosecutors and Immigration treat voice phishing as 'criminal organization participation.' Even cash transport is prosecuted as fraud accomplice or co-perpetrator; foreigners face very high deportation risk."
+    a: "Yes. Korean prosecutors and Immigration treat voice phishing as 'criminal organization participation.' Even cash transport is prosecuted as fraud accomplice or co-perpetrator, and a deportation review can follow; the disposition depends on the case."
   - q: "What if I didn't know it was a crime?"
     a: "If intent or willful blindness is found, punishment applies. 'I didn't know' alone is not a shield. But objective evidence of normal-job perception can reduce sentence."
   - q: "Does self-surrender lighten punishment?"
-    a: "Yes. In voice-phishing cases, self-surrender + investigation cooperation (co-defendant info) substantially reduces sentence and is strong mitigation. Some cases result in non-prosecution + status change."
+    a: "Self-surrender and investigation cooperation (co-defendant info) can be considered in sentencing and are mitigation in the immigration review. The outcome depends on the individual case."
   - q: "I responded to a part-time job ad and got pulled in. What now?"
     a: "Immediate scrivener consultation. Save: ad screenshots, KakaoTalk/messenger logs, transfer history, your earnings. Objective proof of normal-job perception is critical."
   - q: "Entry ban after voice phishing?"
-    a: "Deportation typically: 5~10 years. Cash withdrawal in large amount: permanent possible. Simple courier + self-surrender + cooperation: shortened possible."
+    a: "The entry-ban period is decided by the Ministry of Justice for each case (Immigration Act Article 11). The role, the amount, self-surrender and cooperation are considered."
   - q: "Voice phishing record impact on F-5?"
-    a: "Fine or non-prosecution: 5+ year disqualification. Imprisonment: 10+ years. F-5 essentially impossible."
+    a: "A voice-phishing record is reviewed strictly in an F-5 application; the waiting period depends on the disposition and the Ministry of Justice criteria in force."
 related:
   - "immigration-offense-review-guide"
   - "criminal-case-visa-defense"
@@ -29,65 +29,49 @@ related:
   - "entry-ban-removal"
 ---
 
-"500,000 KRW per day, simple errands" — Korean-resident foreigners often see such ads on SNS, KakaoTalk, Telegram. Hundreds of foreigners each year are unwittingly pulled into voice-phishing operations as **couriers**, **withdrawal agents**, or **account lenders**.
+"500,000 KRW per day, simple errands" — Korean-resident foreigners often see such ads on SNS, KakaoTalk, Telegram. Some foreigners are unwittingly pulled into voice-phishing operations as **couriers**, **withdrawal agents**, or **account lenders**.
 
-Outcomes are typically deportation + 5–10 year entry ban. This guide explains how to avoid removal.
+This guide explains how these roles are treated and what to prepare for the immigration review.
 
 ## 1. Common Involvement Patterns
 
-### 🔴 Cash withdrawal agent (인출책)
+### Cash withdrawal agent (인출책)
 - Extracts victim-sent funds at ATMs or banks
-- 300,000~1,000,000 KRW/day (5–10% of withdrawn amount)
-- Most heavily punished
+- Punished heavily
 
-### 🟡 Cash courier (전달책)
+### Cash courier (전달책)
 - Transports cash from withdrawal agent to next location
-- 200,000~500,000 KRW/day
-- Mid-tier penalty
 
-### 🟢 Disguised call center
+### Disguised call center
 - Korean-speaking foreigners call victims
 - Impersonate prosecutors, police, banks
 - Very heavy penalty
 
-### 🔵 Account lender (대포통장)
+### Account lender (대포통장)
 - Lends own bank account
-- Foreigner registration card opens accounts easily
-- 100,000~2,000,000 KRW/month
-- Severe punishment
-
-⚠️ Most common foreign involvement: **courier (50%) + account lender (30%) + withdrawal agent (20%)**.
+- Severe punishment (see section 8)
 
 ## 2. Penalty Tier (Korean Criminal Code)
 
 ### Penal Code
-- **Fraud (Art. 347)**: up to 10 years imprisonment or 20M KRW fine
+- **Fraud (Art. 347)**: up to 20 years imprisonment or KRW 50M fine
 - **Computer-aided fraud (Art. 347-2)**: same
 - **Habitual fraud**: aggravated
 
 ### Voice Phishing Special Act
 - "Special Act on Prevention of Telecommunications Financial Fraud" — additional sanctions per role.
 
-### Foreigner-specific severity
-- Single courier + small amount (< 1M KRW): 5~15M KRW fine or suspended
-- Repeated or large-amount courier: 1~3 years imprisonment
-- Call center participation: 3~7 years
-- Organization operation: 5~15 years
+### Actual sentences
+Actual sentences depend on the role, the amount, the number of incidents and whether there was a settlement.
 
-## 3. Outcome Forecast
+## 3. How the Immigration Review Treats These Cases
 
-| Pattern | Criminal | Immigration |
-|---|---|---|
-| Account lending (1×) | 5M KRW fine | Status change or departure order |
-| Courier (1×) | 5~15M KRW fine | Deportation 70% |
-| Withdrawal (1×) | 10M KRW fine or suspended | Deportation 80% |
-| Courier (2+) | 1+ year imprisonment | Deportation virtually certain |
-| Call center | 3+ years | Deportation + permanent ban |
+The immigration disposition — status change, departure order, or deportation and an entry ban — is decided case by case, considering the role, the number of incidents, the amount, self-surrender, cooperation and restitution.
 
 ## 4. Immediate Action
 
 ### Step 1. Deal with the criminal proceedings first
-Voice-phishing cases require strong criminal defense. Most consequential after drug cases.
+Voice-phishing cases require strong criminal defense.
 
 ### Step 2. Surrender + cooperate
 - Pre-detection: surrender → co-defendant info → mitigation
@@ -107,21 +91,21 @@ Voice-phishing cases require strong criminal defense. Most consequential after d
 ## 5. Mitigation Evidence
 
 ### Strong factors
-- ✅ Self-surrender (pre-detection)
-- ✅ Investigation cooperation
-- ✅ Objective "didn't know" proof
-- ✅ Settlement with victim (if possible)
-- ✅ One-time involvement
-- ✅ Korean family
-- ✅ Day job (student, employee)
-- ✅ Small amount (≤ 1M KRW received)
+- Self-surrender (pre-detection)
+- Investigation cooperation
+- Objective "didn't know" proof
+- Settlement with victim (if possible)
+- One-time involvement
+- Korean family
+- Day job (student, employee)
+- Small amount received
 
 ### Decisive risk
-- ❌ Repeated involvement (2+)
-- ❌ Large amount (≥ 100M KRW withdrawn)
-- ❌ Flight attempts
-- ❌ Hiding accomplices
-- ❌ Provably false "victim" claim
+- Repeated involvement
+- Large amounts withdrawn
+- Flight attempts
+- Hiding accomplices
+- Provably false "victim" claim
 
 ## 6. Real Cases
 
@@ -149,27 +133,26 @@ Voice-phishing cases require strong criminal defense. Most consequential after d
 ## 7. Identifying Suspicious Ads
 
 ### Voice phishing ad signatures
-- ⚠️ "300,000 KRW+ per day"
-- ⚠️ "Foreigners welcome"
-- ⚠️ KakaoTalk/Telegram-only contact
-- ⚠️ No identity verification
-- ⚠️ "Simple errand" "cash transport" wording
-- ⚠️ "Confidential" / "secret company"
+- "300,000 KRW+ per day"
+- "Foreigners welcome"
+- KakaoTalk/Telegram-only contact
+- No identity verification
+- "Simple errand" "cash transport" wording
+- "Confidential" / "secret company"
 
 ### Safe job signatures
-- ✅ Business registration disclosed
-- ✅ Four-major-insurance enrollment
-- ✅ Written contract
-- ✅ Hourly wage 10–20K KRW (normal)
-- ✅ Workplace visit possible
+- Business registration disclosed
+- Four-major-insurance enrollment
+- Written contract
+- Normal hourly wage
+- Workplace visit possible
 
 ## 8. Account Lending Risks
 
-- Penal Code: Electronic Financial Transactions Act violation (3 years imprisonment, 20M KRW fine)
-- Immigration: very high deportation risk
-- Credit score: lifelong Korean financial restriction
+- Criminal: Electronic Financial Transactions Act violation (up to 5 years imprisonment or KRW 30M fine, Article 49(4))
+- Immigration: can lead to a deportation review
 
-⚠️ **Never lend your account. 1M KRW/day = lifetime loss.**
+**Do not lend your bank account to anyone.**
 
 ## 9. Sunshine's Voice-Phishing Protocol
 
@@ -184,7 +167,7 @@ Voice-phishing cases impact family and workplace heavily. Sunshine keeps your co
 
 ## 10. Act Now
 
-Voice-phishing outcomes are **80% determined by time**. Self-surrender shortly after detection makes the difference between deportation and status maintenance.
+**Timing matters.** Self-surrender and cooperation are considered in the review.
 
 **Free initial diagnosis — confidential — multilingual**
 
@@ -193,7 +176,7 @@ Voice-phishing outcomes are **80% determined by time**. Self-surrender shortly a
 ---
 
 **Related articles:**
-- [Korea Immigration Offense Review — Complete Guide](/en/blog/immigration-offense-review-guide)
+- [Korea Immigration Offense Review Guide](/en/blog/immigration-offense-review-guide)
 - [Criminal Cases and Visa Defense](/en/blog/criminal-case-visa-defense)
 - [Entry-Ban Removal Application Guide](/en/blog/entry-ban-removal)
 - [Impact on Permanent Residency](/en/blog/criminal-record-pr-impact)

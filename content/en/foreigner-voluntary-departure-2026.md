@@ -1,6 +1,6 @@
 ---
-title: "Voluntary Departure & Entry Ban Removal in Korea (2026)"
-description: "A guide for foreigners overstaying in Korea: the benefits of voluntary departure, entry ban periods by overstay length, and how to lift the ban."
+title: "Voluntary Departure and Entry Ban Removal for Overstayers in Korea"
+description: "A guide for foreigners overstaying in Korea: voluntary departure, how entry bans are decided, and how to apply to lift a ban."
 date: "2026-05-13"
 category: "Overstay"
 keywords:
@@ -10,12 +10,12 @@ keywords:
   - "Korea immigration overstay penalty"
   - "Korea self-deportation benefits"
 faq:
-  - q: "If I overstayed less than 1 month and leave voluntarily, can I avoid an entry ban?"
-    a: "In many cases, yes. Overstays under 1 month often result in no entry ban or a ban of 1 year or less when departing voluntarily. However, the final decision rests with immigration authorities, so consulting an expert before departure is advisable."
+  - q: "If I overstayed my visa (illegal stay) by less than 1 month and leave voluntarily, will I get an entry ban?"
+    a: "It depends on the case. Whether a ban is imposed, and for how long, is decided by the immigration authorities considering the length of the overstay and whether you left voluntarily, so check with the immigration office or an expert before departure."
   - q: "Where do I report for voluntary departure?"
     a: "Visit the immigration office in your region. In Seoul, contact Seoul Immigration & Foreign Office (02-2650-6300). Online self-reporting is available in some cases through HiKorea (www.hikorea.go.kr)."
   - q: "What if my entry ban removal application is rejected?"
-    a: "Review the stated reason, gather additional supporting documents, and reapply. You may also file an administrative appeal or a court objection. Consulting a specialist significantly improves your chances."
+    a: "Review the stated reason, gather additional supporting documents, and reapply. You may also file an administrative appeal or a court objection."
   - q: "Does having a Korean spouse help with entry ban removal?"
     a: "Yes — a Korean-national spouse is a major favorable factor in entry ban removal reviews, especially when there are dependent children. It is not automatic, however, so thorough documentation is essential."
   - q: "Can I reapply for a Korea visa after voluntary departure?"
@@ -23,8 +23,8 @@ faq:
 ---
 
 If you remain in Korea after your visa expires, you become classified as an overstayer (illegal resident).
-Getting caught in an enforcement raid leads to forced deportation and an entry ban — but choosing to leave voluntarily can significantly reduce the consequences.
-This guide covers the 2026 rules on voluntary departure benefits, entry ban periods by overstay duration, and the process to apply for entry ban removal.
+Being caught in an enforcement raid can lead to deportation and an entry ban; leaving voluntarily can be considered favorably.
+This guide covers voluntary departure, how entry bans are decided, and the process to apply for entry ban removal.
 
 ## What Is Overstaying?
 
@@ -33,7 +33,7 @@ Entering without a visa or engaging in activities outside your visa category can
 
 Under Article 17 of the [Immigration Act](https://www.law.go.kr), all foreigners must remain within the scope of their visa status and permitted stay period.
 
-Being in overstay status exposes you to serious risks:
+Overstaying can lead to the following:
 
 - You can be detained and deported at any time
 - A deportation order is accompanied by an entry ban
@@ -48,24 +48,13 @@ The Immigration and Foreign Policy Headquarters ([immigration.go.kr](https://www
 **Key benefits of voluntary departure:**
 
 - No forced deportation record — reduces visa application disadvantages in the future
-- Entry ban period is significantly shorter than when caught and deported
+- Can be considered favorably when the entry-ban period is decided
 - Fines may be reduced or waived when you self-report before your scheduled departure
-- Better chances of obtaining a legal visa for re-entry in the future
+- Can be considered favorably in later visa applications
 
-## Entry Ban Periods by Overstay Duration (2026)
+## How Entry-Ban Periods Are Decided
 
-The length of your entry ban depends on how long you overstayed.
-
-| Overstay Duration | Voluntary Departure Entry Ban | Forced Deportation Entry Ban |
-|---|---|---|
-| Under 1 month | None or up to 1 year | 1 year |
-| 1 month – under 3 months | 1 year | 2 years |
-| 3 months – under 1 year | 2 years | 3–5 years |
-| 1 year – under 3 years | 3 years | 5 years |
-| 3 years or more | 5 years | 10+ years or permanent |
-
-Choosing voluntary departure often cuts the entry ban period by half or more compared to being caught.
-The shorter your overstay, the greater the benefit.
+The Immigration Act (Article 11) sets the grounds for an entry ban. The period for your case is decided by the Ministry of Justice, considering the length of the overstay and whether you left voluntarily or were deported, so check it with the immigration office.
 
 ## Voluntary Departure Procedure
 
@@ -93,7 +82,7 @@ Even after receiving an entry ban, you may be eligible to apply for its removal.
 
 **Eligibility for Entry Ban Removal**
 
-- At least half of the entry ban period has elapsed
+- Time has elapsed since departure
 - You have a Korean-national spouse or immediate family member in Korea
 - Humanitarian grounds apply (serious illness, funeral, pregnancy, etc.)
 - You can demonstrate a significant economic or business need
@@ -114,13 +103,13 @@ Even after receiving an entry ban, you may be eligible to apply for its removal.
 - Documents related to dependents (if applicable)
 - Other materials proving the necessity of removal
 
-Entry ban removal is not a guaranteed right — persuasive documentation is key. Working with a licensed administrative scrivener significantly increases your chances.
+Entry ban removal is not a guaranteed right — persuasive documentation is key.
 
 ## Important Warnings About Overstaying
 
-Remaining in Korea while overstaying is extremely risky.
+Remaining in Korea while overstaying has legal consequences.
 
-- If caught in an enforcement raid, you will be immediately detained at a foreign national protection center and then forcibly deported
+- If caught in an enforcement raid, you can be placed in a foreign national protection center and deported (Immigration Act Articles 46 and 51)
 - If you have minor children, they may require a separate process
 - Your Korean spouse or employer may also face legal liability
 - Some nationalities may be subject to notification procedures to their home country
@@ -129,9 +118,9 @@ Additionally, attempting to change your visa status while in overstay is general
 
 ## FAQ
 
-**Q. Can I avoid an entry ban if my overstay is under 1 month?**
+**Q. Will I get an entry ban if my overstay is under 1 month?**
 
-In many cases, an overstay under 1 month results in no entry ban or a ban of 1 year or less when departing voluntarily. The final decision is at immigration's discretion, so consult an expert before leaving.
+It depends on the case. Whether a ban is imposed, and for how long, is decided by the immigration authorities, so check with the immigration office or an expert before leaving.
 
 **Q. Where do I self-report for voluntary departure?**
 
@@ -139,7 +128,7 @@ Visit your regional immigration office in person. In Seoul, contact Seoul Immigr
 
 **Q. What if my entry ban removal application is rejected?**
 
-Review the reason for rejection, add supporting materials, and reapply. You may also challenge the decision through administrative appeals or court proceedings. Working with a professional significantly improves outcomes.
+Review the reason for rejection, add supporting materials, and reapply. You may also challenge the decision through administrative appeals or court proceedings.
 
 **Q. Does having a Korean spouse make entry ban removal easier?**
 
@@ -155,7 +144,7 @@ Yes. Unauthorized employment is a separate violation under the Immigration Act, 
 
 ---
 
-Acting quickly on overstay matters significantly reduces your exposure to penalties.
+Acting early on overstay matters gives you more options.
 Sunshine Administrative Agency Office guides you through voluntary departure, entry ban removal, and re-entry visa applications — step by step.
 
 **Book your free consultation now.**

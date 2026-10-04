@@ -1,5 +1,5 @@
 ---
-title: "Hoạt động ngoài tư cách lưu trú ở Hàn Quốc: các hình thức xử lý (2026)"
+title: "Hoạt động ngoài tư cách lưu trú ở Hàn Quốc: các hình thức xử lý"
 description: "Khi bị phát hiện hoạt động ngoài tư cách lưu trú tại Hàn Quốc: thông báo xử phạt, lệnh xuất cảnh hay cưỡng chế xuất cảnh theo Luật Quản lý xuất nhập cảnh."
 date: "2026-09-24"
 category: "Hình phạt · Penalties"
@@ -15,9 +15,9 @@ keywords:
 faq:
   - q: "Hoạt động ngoài tư cách lưu trú là gì?"
     a: "Là việc thực hiện hoạt động thuộc một tư cách lưu trú khác, song song với hoạt động thuộc tư cách lưu trú hiện tại. Điều 20 Luật Quản lý xuất nhập cảnh quy định muốn làm vậy phải được Bộ trưởng Tư pháp cấp phép hoạt động ngoài tư cách lưu trú trước."
-  - q: "Bị phát hiện có bị cưỡng chế xuất cảnh ngay không?"
+  - q: "Bị phát hiện có bị cưỡng chế xuất cảnh (trục xuất) ngay không?"
     a: "Không. Vi phạm Điều 20 được liệt kê trong các lý do bị cưỡng chế xuất cảnh, nhưng việc thực tế áp dụng thông báo xử phạt, lệnh xuất cảnh hay cưỡng chế xuất cảnh do cơ quan có thẩm quyền quyết định dựa trên diễn biến, mức độ vi phạm và việc có tái phạm hay không."
-  - q: "Thông báo xử phạt khác lệnh xuất cảnh thế nào?"
+  - q: "Thông báo xử phạt (giấy báo tiền phạt) khác lệnh xuất cảnh thế nào?"
     a: "Thông báo xử phạt (Điều 102) là việc thông báo nộp tiền phạt, còn lệnh xuất cảnh (Điều 68) là yêu cầu rời khỏi Hàn Quốc trong thời hạn nhất định. Luật cũng cho phép ra lệnh xuất cảnh đối với người được cho là phù hợp để xuất cảnh sau thông báo xử phạt, nên hai biện pháp có thể đi cùng nhau."
   - q: "Khi bị thẩm tra vi phạm xuất nhập cảnh thì cần chuẩn bị những giấy tờ nào?"
     a: "Giấy tờ được yêu cầu và thủ tục khác nhau tùy vụ việc và cơ quan phụ trách nên chúng tôi không thể đưa ra một danh sách cố định. Hãy chuẩn bị theo hướng dẫn của cơ quan phụ trách, và nếu hướng dẫn chưa rõ, hãy hỏi lại cơ quan trước khi nộp."
@@ -30,7 +30,7 @@ related:
   - "immigration-law-penalties-guide"
 ---
 
-Có du học sinh làm thêm mà chưa có giấy phép làm việc theo giờ, đi làm ở nơi mới mà chưa được phép thay đổi nơi làm việc, hoặc tham gia hoạt động nghiên cứu bên ngoài không liên quan đến việc học, rồi bị cơ quan xuất nhập cảnh · người nước ngoài điều tra. Phần lớn các tình huống này đều liên quan đến **hoạt động ngoài tư cách lưu trú**.
+Có du học sinh làm thêm mà chưa có giấy phép làm việc theo giờ, đi làm ở nơi mới mà chưa được phép thay đổi nơi làm việc, hoặc tham gia hoạt động nghiên cứu bên ngoài không liên quan đến việc học, rồi bị cơ quan xuất nhập cảnh · người nước ngoài điều tra. Những tình huống này có thể liên quan đến **hoạt động ngoài tư cách lưu trú**.
 
 Bài viết này tổng hợp những hình thức xử lý có thể áp dụng khi hoạt động ngoài tư cách lưu trú bị phát hiện, và những điều cần lưu ý ở giai đoạn thẩm tra vi phạm xuất nhập cảnh, dựa trên điều luật của Luật Quản lý xuất nhập cảnh và nội dung thực tế trong "Sổ tay hướng dẫn lưu trú cho người nước ngoài" (tháng 3/2026) của Bộ Tư pháp.
 
@@ -107,15 +107,15 @@ Những vụ việc có khả năng chuyển sang thủ tục hình sự thuộc
 
 Nếu bạn đã nhận thông báo điều tra hoặc thông báo xử phạt và muốn kiểm tra luôn ảnh hưởng đến tư cách lưu trú trong tương lai, Văn phòng Hành chính sĩ Sunshine sẽ hướng dẫn bạn từ việc xem xét giấy tờ đã nhận đến chuẩn bị tài liệu giải trình.
 
-[→ Đăng ký tư vấn miễn phí](/#contact)
+[→ Đăng ký tư vấn miễn phí](/vi/contact)
 
 ---
 
 **Bài viết liên quan:**
-- [Nhận được thông báo phạt vi phạm xuất nhập cảnh: cách xử lý 2026](/blog/immigration-fine-notice-response-2026)
-- [Hướng dẫn đầy đủ về thẩm tra vi phạm xuất nhập cảnh xuất nhập cảnh](/blog/immigration-offense-review-guide)
+- [Nhận được thông báo phạt vi phạm xuất nhập cảnh: cách xử lý](/blog/immigration-fine-notice-response-2026)
+- [Hướng dẫn về thủ tục thẩm tra vi phạm xuất nhập cảnh](/blog/immigration-offense-review-guide)
 - [Xử phạt làm việc trái phép, hoạt động ngoài tư cách](/blog/illegal-employment-penalty)
-- [Tổng hợp đầy đủ hình phạt theo Luật Quản lý xuất nhập cảnh](/blog/immigration-law-penalties-guide)
+- [Tổng hợp hình phạt theo Luật Quản lý xuất nhập cảnh](/blog/immigration-law-penalties-guide)
 
 ---
 

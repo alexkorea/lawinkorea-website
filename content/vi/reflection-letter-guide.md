@@ -31,7 +31,7 @@ related:
   - "immigration-fine-notice-response-2026"
 ---
 
-Thư hối lỗi và đơn xin giảm nhẹ nộp khi thẩm tra vi phạm xuất nhập cảnh tại Hàn Quốc **không phải là văn bản có mẫu cố định, mà là văn bản do chính bạn và những người xung quanh trình bày đúng sự thật các hoàn cảnh được xem xét khi quyết định xử lý**. Luật Quản lý Xuất nhập cảnh quy định khi miễn thông báo nộp phạt hoặc định mức tiền phạt phải xem xét **tuổi và hoàn cảnh, động cơ và hậu quả của vi phạm, khả năng chi trả tiền phạt và số lần vi phạm** (Luật Điều 103 khoản 2, Thông tư thi hành Điều 86 khoản 2). Điều cốt lõi là viết theo đúng các yếu tố này, với sự việc và chứng cứ cụ thể.
+Thư hối lỗi và đơn xin giảm nhẹ nộp khi thẩm tra vi phạm xuất nhập cảnh tại Hàn Quốc **không phải là văn bản có mẫu cố định, mà là văn bản do chính bạn và những người xung quanh trình bày đúng sự thật các hoàn cảnh được xem xét khi quyết định xử lý**. Luật Quản lý Xuất nhập cảnh quy định khi miễn thông báo nộp phạt (thông báo xử phạt — giấy báo tiền phạt) hoặc định mức tiền phạt phải xem xét **tuổi và hoàn cảnh, động cơ và hậu quả của vi phạm, khả năng chi trả tiền phạt và số lần vi phạm** (Luật Điều 103 khoản 2, Thông tư thi hành Điều 86 khoản 2). Điều cốt lõi là viết theo đúng các yếu tố này, với sự việc và chứng cứ cụ thể.
 
 > **Tóm tắt**
 > - Thư hối lỗi: bạn tự trình bày đúng sự thật diễn biến, việc nhận lỗi, động cơ, nền tảng cuộc sống và kế hoạch ngăn tái phạm
@@ -123,7 +123,7 @@ Hành chính sĩ được soạn văn bản nộp cho cơ quan hành chính, so�
 **Trang liên quan**
 - [Thẩm tra vi phạm xuất nhập cảnh là gì và cần chuẩn bị gì](/vi/immigration-offense-review)
 - [Hồ sơ cần chuẩn bị khi thẩm tra vi phạm](/vi/documents)
-- [Hướng dẫn đầy đủ về thẩm tra vi phạm xuất nhập cảnh](/vi/blog/immigration-offense-review-guide)
+- [Hướng dẫn về thủ tục thẩm tra vi phạm xuất nhập cảnh](/vi/blog/immigration-offense-review-guide)
 - [Lái xe say rượu và gia hạn visa của người nước ngoài](/vi/blog/dui-foreigner-visa)
 - [Cần làm gì khi nhận thông báo phạt xuất nhập cảnh](/vi/blog/immigration-fine-notice-response-2026)
 

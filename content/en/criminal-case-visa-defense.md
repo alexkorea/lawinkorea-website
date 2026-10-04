@@ -1,6 +1,6 @@
 ---
 title: "Criminal Cases & Visa Defense for Foreigners in Korea"
-description: "How foreigners punished for assault, theft or fraud keep their visa and avoid deportation: outcomes by charge, mitigation evidence, and a 5-step plan."
+description: "How the immigration review treats foreigners punished for assault, theft or fraud in Korea: dispositions by charge, mitigation evidence and a 5-step plan."
 date: "2026-05-01"
 category: "Criminal"
 cluster: "cluster"
@@ -12,9 +12,9 @@ keywords:
   - "foreigner deportation Korea"
 faq:
   - q: "If I receive a non-prosecution disposition (기소유예), do I still face the offense review?"
-    a: "Yes, even non-prosecution may trigger review — but outcomes are typically lighter than full conviction. It is never automatic safety; mitigation evidence still matters."
+    a: "Yes, even non-prosecution may trigger review — but the outcome may be lighter than after a conviction, depending on the case. It is never automatic safety; mitigation evidence still matters."
   - q: "Is a fine under 1 million KRW grounds for deportation?"
-    a: "What matters is the offense type and pattern, not just the amount. Violence (assault, threat) under 1M KRW can still trigger deportation review. Conversely, simple defamation at 2M KRW may permit visa renewal."
+    a: "What matters is the offense type and pattern, not just the amount. Even a small fine for violence (assault, threats) can lead to a deportation review, while some other offenses with a higher fine may still allow renewal; it depends on the individual case."
   - q: "I settled with the victim — am I safe?"
     a: "Settlement softens the criminal track but the offense review remains separate. However, settlement letters and the victim's no-prosecution wish are very strong mitigation evidence. Always obtain them in writing."
   - q: "I was convicted of self-defense assault. Can I still face deportation?"
@@ -22,7 +22,7 @@ faq:
   - q: "Are theft and fraud treated similarly?"
     a: "Theft is generally lighter. But repeat theft, weapon use, or burglary raises deportation risk significantly. One-time petty theft from financial hardship may end with status change rather than deportation."
   - q: "What if my conviction was for a negligent (non-intentional) act?"
-    a: "Negligence cases (e.g., negligent injury) trigger review but often result in lighter outcomes than intent cases. Mitigation evidence is more readily accepted."
+    a: "Negligence cases (e.g., negligent injury) are also reviewed and may be treated more lightly than intentional offenses, depending on the case."
   - q: "I was investigated by Korean police — will it affect my visa?"
     a: "A police investigation is part of the criminal track, and the immigration office reviews your residency status separately, so it is wise to check the potential immigration impact early. How your visa is affected depends on the eventual disposition (for example non-prosecution, a fine or a suspended sentence) and on your visa type; section 2 of this guide maps each disposition to its visa effect. Preparing mitigation materials while the criminal case is still open is recommended (Step 1)."
 related:
@@ -35,31 +35,28 @@ related:
 
 For foreigners involved in criminal cases in Korea — assault, theft, fraud, defamation — the most distressing question is rarely **the punishment itself**; it's **what happens to my visa**.
 
-This guide covers the five most common offense categories, the outcome patterns, and the visa-defense strategies that actually work.
+This guide covers five common offense categories, how the immigration review treats them, and what to prepare.
 
 ## 1. Top 5 Criminal Cases Foreign Nationals Face
 
 ### (1) Assault / Bodily Injury
-Workplace disputes, drunken bar fights, domestic violence, sudden conflicts. The most common foreign-national criminal exposure.
+Workplace disputes, drunken bar fights, domestic violence, sudden conflicts.
 
-- Simple assault (minor injury): 0.3~2M KRW fine → visa renewal possible
-- Bodily injury (with medical evidence): 2~5M KRW fine or suspended sentence → deportation review possible
-- Aggravated assault (weapon, multiple): 1+ years imprisonment → high deportation risk
+- Simple assault, bodily injury and aggravated assault (weapon, group) are punished at different levels under the Criminal Act.
+- The heavier the disposition, the more closely the immigration review examines it; the outcome depends on the individual case.
 
 ### (2) Theft / Fraud
-- Simple theft (small amount): 0.5~3M KRW fine → status change or departure order
-- Habitual / aggravated theft: 6 months ~ 3 years imprisonment → deportation
+- Simple theft and habitual or aggravated theft are punished at different levels; the immigration disposition (status change, departure order or deportation) depends on the case.
 - Fraud (incl. voice-phishing involvement): see [voice phishing guide](/en/blog/voice-phishing-foreigners)
 
 ### (3) Defamation / Insult
 - Online comments and social media posts can be punishable.
-- Typical fine: 0.3~2M KRW.
 - Korean cultural sensitivity: insult against a Korean is punished severely.
 - Settlement can extinguish prosecution (반의사불벌죄).
 
 ### (4) Sexual Offenses
 - Sexual assault, harassment, digital sex crime.
-- Single offense: permanent entry ban or deportation virtually certain.
+- Even a single offense can lead to deportation and an entry ban; the disposition depends on the case.
 - Sex offender registration, employment restrictions follow.
 - Settlement possible but criminal sanction not waived.
 
@@ -73,14 +70,14 @@ See [DUI offense review for foreigners](/en/blog/dui-foreigner-visa).
 | **No suspicion / Acquittal** | No crime | No effect (review may still proceed) |
 | **Non-prosecution (기소유예)** | Crime found but not punished | Review subject; lighter outcomes possible |
 | **Fine (vol. summary)** | Formal punishment | Review subject; severity by offense and amount |
-| **Suspended pronouncement** | Pronouncement deferred (2 yrs) | Review subject; slightly favorable |
-| **Suspended sentence** | Sentence deferred | High deportation review risk |
-| **Imprisonment served** | Actual incarceration | Deportation virtually certain |
+| **Suspended pronouncement** | Pronouncement deferred (2 yrs, Criminal Act Art. 60) | Review subject |
+| **Suspended sentence** | Sentence deferred | Review subject; disposition depends on the case |
+| **Imprisonment served** | Actual incarceration | Deportation ground after release (Immigration Act Art. 46(1)(13)); decided case by case |
 
 ## 3. Five-Step Visa-Defense Strategy
 
 ### Step 1. Prepare for the offense review during the criminal phase
-Most foreigners begin offense-review preparation **after** the criminal track closes. That's too late. Secure these in parallel:
+Starting offense-review preparation only **after** the criminal track closes can leave little time. Secure these in parallel:
 - Settlement letter, victim's no-prosecution wish
 - Mitigation materials (family, work, contribution)
 - Reason letter (in Korean)
@@ -105,8 +102,8 @@ Short, clear, accountable.
 
 ### Step 5. Post-decision follow-through
 If the result is unfavorable:
-- **Objection** (행정심판) — within 90 days of notification
-- **Convert to voluntary departure** — to shorten entry ban
+- **Objection** (행정심판) — within 90 days of learning of the disposition (Administrative Appeals Act Article 27(1))
+- **Convert to voluntary departure** — can be considered when the entry-ban period is set
 - **Status change** — apply for a different visa
 
 ## 4. Real Cases — Documents Decide Outcomes
@@ -151,7 +148,7 @@ The difference is **not the offense or fine**. It's **document depth from the im
 
 ## 7. Start Now
 
-The criminal-incident moment is the best starting point. Starting after criminal closure usually leaves too little time before the review appearance.
+The criminal-incident moment is a good starting point. Starting after criminal closure can leave little time before the review appearance.
 
 **Free initial diagnosis** — Korean, English, Chinese, Japanese.
 
@@ -160,6 +157,6 @@ The criminal-incident moment is the best starting point. Starting after criminal
 ---
 
 **Related articles:**
-- [Korea Immigration Offense Review — Complete Guide](/en/blog/immigration-offense-review-guide)
+- [Korea Immigration Offense Review Guide](/en/blog/immigration-offense-review-guide)
 - [DUI offense review](/en/blog/dui-foreigner-visa)
 - [Impact on Permanent Residency](/en/blog/criminal-record-pr-impact)

@@ -35,7 +35,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
         ko: {
           tag: "출국권고",
           h1: "출국권고 — 의미, 대응 방법, 재입국 금지",
-          lead: "출국권고(자진 출국 권고)는 출입국 당국이 외국인에게 자진 출국을 권고하는 처분으로, 강제퇴거명령보다 가벼운 수준의 처분입니다. 그러나 권고를 무시하면 강제퇴거로 이어질 수 있습니다.",
+          lead: "출국권고(자진 출국 권고)는 출입국 당국이 외국인에게 자진 출국을 권고하는 처분으로, 강제퇴거명령(강제추방)보다 가벼운 수준의 처분입니다. 그러나 권고를 무시하면 강제퇴거로 이어질 수 있습니다.",
           s1: "출국권고란 무엇인가?",
           p1: "출입국관리법상 출국권고는 법무부 출입국·외국인정책본부가 체류 자격 위반 또는 사범심사 결과에 따라 발부하는 행정 처분입니다. 강제적인 집행은 없으나, 기간 내 출국하지 않으면 보호(구금) 및 강제퇴거 절차로 전환됩니다.",
           items1: [
@@ -67,7 +67,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
           faqs: [
             { q: "이의신청을 하면 출국을 유예받을 수 있나요?", a: "이의신청(행정심판) 제기 자체가 자동으로 출국 유예를 보장하지 않습니다. 다만 집행 정지 신청을 병행하면 일시적으로 출국 이행을 유예받을 수 있는 경우가 있습니다." },
             { q: "출국권고는 항상 재입국 금지로 이어지나요?", a: "반드시 그렇지는 않습니다. 위반 경중, 체류 기간, 자진 출국 이행 여부 등에 따라 재입국 금지 없이 출국권고만 받는 경우도 있습니다." },
-            { q: "출국권고를 강제퇴거보다 낮은 처분으로 조정받을 수 있나요?", a: "이미 출국권고가 발부된 경우, 추가적인 처분 하향보다는 재입국 금지 기간 단축이나 면제를 협의하는 방향이 현실적입니다." },
+            { q: "출국권고를 강제퇴거(강제추방)보다 낮은 처분으로 조정받을 수 있나요?", a: "이미 출국권고가 발부된 경우, 추가적인 처분 하향보다는 재입국 금지 기간 단축이나 면제를 협의하는 방향이 현실적입니다." },
           ],
           notice: "※ 이 페이지는 일반적인 법령 정보 제공 목적이며 개별 사건에 대한 법률 조언이 아닙니다. 구체적인 상담은 선샤인행정사사무소에 문의하십시오.",
         },
@@ -113,7 +113,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
         ja: {
           tag: "出国勧告",
           h1: "出国勧告 — 意味・対応・再入国禁止",
-          lead: "出国勧告は、韓国の出入国当局が外国人に対して自進出国を勧告する行政処分であり、強制退去命令より軽い処分です。しかし指定期間内に出国しない場合、保護（拘禁）・強制退去手続きに移行します。",
+          lead: "出国勧告は、韓国の出入国当局が外国人に対して自進出国を勧告する行政処分であり、強制退去命令（強制送還）より軽い処分です。しかし指定期間内に出国しない場合、保護（拘禁）・強制退去手続きに移行します。",
           s1: "出国勧告とは何か？",
           p1: "出入国管理法に基づく出国勧告は、法務部が犯則審査または摘発の結果として発付する行政処分です。強制的な執行はありませんが、期間内に出国しない場合は保護および強制退去命令に切り替わります。",
           items1: [
@@ -152,7 +152,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
         zh: {
           tag: "出境建议",
           h1: "出境建议（출국권고）— 含义、应对、再入境禁止",
-          lead: "出境建议（출국권고）是韩国出入境当局向外国人发出的自愿出境建议，是韩国最轻的出入境处分。但若在规定期限内未出境，将升级为强制出境程序。",
+          lead: "出境建议（출국권고）是韩国出入境当局向外国人发出的自愿出境建议，是韩国最轻的出入境处分。但若在规定期限内未出境，将升级为强制出境（强制遣返）程序。",
           s1: "出境建议是什么？",
           p1: "根据《出入境管理法》，出境建议是法务部在犯罪审查或执法行动后发出的行政处分。虽无强制执行力，但期限内未出境将转入保护（拘留）及强制出境命令程序。",
           items1: [
@@ -260,7 +260,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
                 <div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div>
                 <div style={{ opacity: 0.9, fontSize: 15 }}>서울 중구 퇴계로 324, 3층 · +82-2-363-2251</div>
               </div>
-              <a href={`/${locale}#contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
+              <a href={`/${locale}/contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
             </div>
 
             {/* FAQPage — 화면에 그리는 같은 c.faqs 배열에서 생성(1:1, I3b 2026-10-03) */}
@@ -296,7 +296,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
       const t = {
         ko: {
           tag: "강제퇴거명령",
-          h1: "강제퇴거명령 — 절차, 이의신청, 재입국 금지",
+          h1: "강제퇴거명령(강제추방) — 절차, 이의신청, 재입국 금지",
           lead: "강제퇴거명령은 출입국관리법상 가장 무거운 행정 처분 중 하나입니다. 명령 발부 이후 보호(구금) 조치가 취해지며, 집행 완료 후에는 수년에서 영구적인 재입국 금지가 부과될 수 있습니다.",
           s1: "강제퇴거명령이 발부되는 이유",
           p1: "출입국관리법 제46조는 강제퇴거 대상을 규정합니다. 법무부 출입국 당국이 심사 결과 강제퇴거 사유에 해당한다고 판단하면 명령서를 발부합니다.",
@@ -329,7 +329,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
           back: "처분 유형 목록으로",
           faqTitle: "자주 묻는 질문",
           faqs: [
-            { q: "강제퇴거명령에 이의신청을 할 수 있나요?", a: "네. 이의신청위원회에 이의신청을 제기하거나 행정 법원에 취소 소송을 제기할 수 있습니다. 소송 기간 중 집행 정지를 신청하면 퇴거를 일시 유예받을 수 있습니다." },
+            { q: "강제퇴거명령(강제추방)에 이의신청을 할 수 있나요?", a: "네. 이의신청위원회에 이의신청을 제기하거나 행정 법원에 취소 소송을 제기할 수 있습니다. 소송 기간 중 집행 정지를 신청하면 퇴거를 일시 유예받을 수 있습니다." },
             { q: "보호(구금) 절차란 무엇인가요?", a: "강제퇴거명령 발부 후 당사자를 외국인보호소에 수용하는 절차입니다. 보호 기간은 원칙적으로 3개월이며 연장될 수 있습니다. 보호 해제 신청 또는 보증금 납부로 일시 해제를 받을 수 있는 경우도 있습니다." },
             { q: "강제퇴거 집행을 유예받을 수 있나요?", a: "인도주의적 사유(중병, 영아 양육 등) 또는 행정 소송 진행 중인 경우 집행 유예가 인정되는 사례가 있습니다. 전문가 조력이 필수적입니다." },
             { q: "출국명령과 강제퇴거는 어떻게 다른가요? 재입국에도 영향이 있나요?", a: "출국명령은 강제퇴거 사유에 해당한다고 인정되지만 자기비용으로 자진 출국하려는 사람 등에게 출국기한을 정해 내리는 처분이고, 강제퇴거명령은 심사 결과 강제퇴거 사유에 해당한다고 인정될 때 내리는 처분입니다. 출국명령을 받고도 지정된 기한까지 출국하지 않으면 강제퇴거명령서가 발급되며, 강제퇴거명령에 대한 이의신청은 명령서를 받은 날부터 7일 이내에 해야 합니다. 강제퇴거명령을 받고 출국한 후 5년이 지나지 않은 사람은 법무부장관이 입국을 금지할 수 있는 대상으로 법에 규정되어 있고, 영주(F-5) 심사에서는 강제퇴거 후 출국 7년, 출국명령 후 출국 5년이 지나지 않으면 결격사유로 안내됩니다. 어떤 처분인지는 받으신 서류로 먼저 확인하고, 기한은 관할 출입국·외국인관서 안내를 따르세요." },
@@ -374,13 +374,13 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             { q: "Can I appeal a forced deportation order?", a: "Yes. You may file an objection with the Immigration Review Committee or file an administrative lawsuit for cancellation. Applying for suspension of execution during litigation can temporarily halt the deportation." },
             { q: "What is the detention (보호) process?", a: "After a deportation order is issued, the person is placed in an immigration detention facility (보호소). The standard detention period is 3 months and may be extended. Release on bail or temporary release can sometimes be obtained." },
             { q: "Can deportation be suspended?", a: "In limited cases involving humanitarian grounds (serious illness, care of an infant, etc.) or pending administrative litigation, suspension of execution may be granted. Expert assistance is essential." },
-            { q: "What is the difference between a departure order and a deportation order in Korea?", a: "A departure order is issued, with an exit deadline, to a person who appears to fall under a deportation ground but wants to leave voluntarily at their own expense (among other cases), while a deportation order is issued when the immigration review finds that a deportation ground applies. If you do not leave by the deadline set in a departure order, a deportation order must be issued, and an objection to a deportation order must be filed within 7 days of receiving the order. A person who left after receiving a deportation order and has not yet passed 5 years is listed in the Immigration Act as someone the Minister of Justice may bar from entry, and in permanent-residence (F-5) screening the Ministry manual lists leaving under a deportation order within 7 years, or under a departure order within 5 years, as a disqualification. Check your own document to see which disposition you received, and confirm deadlines with the competent immigration office." },
+            { q: "What is the difference between a departure order (exit order) and a deportation order in Korea?", a: "A departure order is issued, with an exit deadline, to a person who appears to fall under a deportation ground but wants to leave voluntarily at their own expense (among other cases), while a deportation order is issued when the immigration review finds that a deportation ground applies. If you do not leave by the deadline set in a departure order, a deportation order must be issued, and an objection to a deportation order must be filed within 7 days of receiving the order. A person who left after receiving a deportation order and has not yet passed 5 years is listed in the Immigration Act as someone the Minister of Justice may bar from entry, and in permanent-residence (F-5) screening the Ministry manual lists leaving under a deportation order within 7 years, or under a departure order within 5 years, as a disqualification. Check your own document to see which disposition you received, and confirm deadlines with the competent immigration office." },
           ],
           notice: "This page provides general legal information only and does not constitute legal advice. Contact our office for a specific consultation.",
         },
         ja: {
           tag: "強制退去命令",
-          h1: "強制退去命令 — 手続き・異議申立て・再入国禁止",
+          h1: "強制退去命令（強制送還） — 手続き・異議申立て・再入国禁止",
           lead: "強制退去命令は韓国の出入国管理法上、最も重い行政処分の一つです。命令発付後は保護（拘禁）措置が取られ、執行後は1年から永久の再入国禁止が課されます。",
           s1: "強制退去命令が発付される理由",
           p1: "出入国管理法第46条は強制退去対象者を規定しています。法務部が審査の結果、強制退去事由に該当すると判断した場合に命令書が発付されます。",
@@ -413,7 +413,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
           back: "処分の種類一覧へ",
           faqTitle: "よくある質問",
           faqs: [
-            { q: "強制退去命令に異議申立てはできますか？", a: "はい。異議申立委員会への異議申立または行政裁判所への取消訴訟を提起できます。訴訟中に執行停止を申請すれば退去を一時猶予できる場合があります。" },
+            { q: "強制退去命令（強制送還）に異議申立てはできますか？", a: "はい。異議申立委員会への異議申立または行政裁判所への取消訴訟を提起できます。訴訟中に執行停止を申請すれば退去を一時猶予できる場合があります。" },
             { q: "保護（拘禁）手続きとはどういうものですか？", a: "強制退去命令後、外国人保護所に収容される手続きです。保護期間は原則3か月で延長される場合があります。保釈金納付または一時解除を求めることも可能です。" },
             { q: "強制退去の執行を猶予してもらえますか？", a: "重病・乳幼児養育等の人道的事由や行政訴訟継続中の場合、執行猶予が認められる事例があります。専門家のサポートが不可欠です。" },
             { q: "韓国の出国命令と強制退去の違いは何ですか？", a: "出国命令は、強制退去事由に該当すると認められるものの自己負担で自主的に出国しようとする人などに対し、出国期限を定めて行う処分で、強制退去命令は審査の結果、強制退去事由に該当すると認められた場合に行う処分です。出国命令を受けても指定の期限までに出国しない場合は強制退去命令書が発給され、強制退去命令への異議申立ては命令書を受け取った日から7日以内に行う必要があります。強制退去命令を受けて出国した後5年が経過していない人は、法務部長官が入国を禁止できる対象として法に定められており、永住(F-5)の審査では、強制退去後の出国から7年、出国命令後の出国から5年が経過していない場合が欠格事由として案内されています。どの処分かは受け取った書類で確認し、期限は管轄の出入国在留管理官署の案内に従ってください。" },
@@ -422,7 +422,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
         },
         zh: {
           tag: "强制出境命令",
-          h1: "强制出境命令 — 程序、申诉与再入境禁止",
+          h1: "强制出境命令（强制遣返） — 程序、申诉与再入境禁止",
           lead: "强制出境命令是韩国《出入境管理法》下最严厉的行政处分之一。命令发出后通常伴随保护（拘留）措施，执行后将适用1年至永久的再入境禁止。",
           s1: "强制出境命令的触发条件",
           p1: "《出入境管理法》第46条规定了强制出境对象。法务部经审查认定符合强制出境事由时，将发出命令书。",
@@ -455,7 +455,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
           back: "返回处分类型",
           faqTitle: "常见问题",
           faqs: [
-            { q: "可以对强制出境命令提出申诉吗？", a: "是的。可向异议申诉委员会提出异议，或向行政法院提起撤销诉讼。诉讼期间申请执行停止可暂时阻止被驱逐出境。" },
+            { q: "可以对强制出境命令（强制遣返）提出申诉吗？", a: "是的。可向异议申诉委员会提出异议，或向行政法院提起撤销诉讼。诉讼期间申请执行停止可暂时阻止被驱逐出境。" },
             { q: "保护（拘留）程序是什么？", a: "强制出境命令发出后当事人被送入外国人保护所。保护期原则上为3个月，可能延长。有时可通过缴纳保证金或申请临时解除获得释放。" },
             { q: "强制出境可以被暂停吗？", a: "在人道主义事由（重病·哺育婴儿等）或行政诉讼进行中等有限情形下，执行暂停可能获批。专业人士协助至关重要。" },
             { q: "韩国的出境命令和强制驱逐有什么区别？", a: "出境命令是对被认为属于强制驱逐事由、但愿意自费自行出境的人等，规定出境期限后作出的处分；强制驱逐命令则是审查后认定属于强制驱逐事由时作出的处分。收到出境命令后若未在指定期限内出境，将被发给强制驱逐命令书；对强制驱逐命令提出异议，须自收到命令书之日起7日内提出。被强制驱逐并出境后未满5年的人，属于法律规定法务部长官可以禁止入境的对象；在永住(F-5)审查中，被强制驱逐后出境未满7年、被出境命令后出境未满5年，也被列为欠格事由。具体属于哪种处分，请以所收文件为准，期限请向主管出入境·外国人机关确认。" },
@@ -499,7 +499,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
           faqs: [
             { q: "Tôi có thể kháng cáo lệnh trục xuất cưỡng bức không?", a: "Có. Bạn có thể nộp đơn phản đối lên Ủy ban Xem xét Xuất nhập cảnh hoặc khởi kiện hành chính để hủy bỏ. Nộp đơn đình chỉ thực thi trong quá trình kiện tụng có thể tạm dừng việc trục xuất." },
             { q: "Quy trình giam giữ (보호) là gì?", a: "Sau khi lệnh trục xuất được ban hành, người liên quan bị đưa vào cơ sở giam giữ người nước ngoài (보호소). Thời gian giam giữ tiêu chuẩn là 3 tháng và có thể được gia hạn. Đôi khi có thể được tại ngoại bảo lãnh hoặc tạm thời thả ra." },
-            { q: "Có thể đình chỉ trục xuất không?", a: "Trong một số trường hợp có lý do nhân đạo (bệnh nặng, chăm sóc trẻ sơ sinh, v.v.) hoặc đang chờ kiện tụng hành chính, đình chỉ thực thi có thể được chấp thuận. Hỗ trợ từ chuyên gia là thiết yếu." },
+            { q: "Có thể đình chỉ trục xuất (cưỡng chế xuất cảnh) không?", a: "Trong một số trường hợp có lý do nhân đạo (bệnh nặng, chăm sóc trẻ sơ sinh, v.v.) hoặc đang chờ kiện tụng hành chính, đình chỉ thực thi có thể được chấp thuận. Hỗ trợ từ chuyên gia là thiết yếu." },
           ],
           notice: "Trang này chỉ cung cấp thông tin pháp luật chung và không phải lời khuyên pháp lý. Liên hệ văn phòng chúng tôi để được tư vấn cụ thể.",
         },
@@ -536,7 +536,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
                 <div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div>
                 <div style={{ opacity: 0.9, fontSize: 15 }}>서울 중구 퇴계로 324, 3층 · +82-2-363-2251</div>
               </div>
-              <a href={`/${locale}#contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
+              <a href={`/${locale}/contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
             </div>
 
             {/* FAQPage — 화면에 그리는 같은 c.faqs 배열에서 생성(1:1, I3b 2026-10-03) */}
@@ -562,7 +562,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
 
   "entry-ban": {
     meta: {
-      ko: { title: "입국금지 — 기간·사유·해제 신청 · Law in Korea", description: "한국 입국금지(입국금지) 처분의 기간 유형, 발부 사유, 해제 신청 방법, 가족에 대한 영향을 선샤인행정사사무소가 안내합니다." },
+      ko: { title: "입국금지(입국규제) — 기간·사유·해제 신청 · Law in Korea", description: "한국 입국금지(입국금지) 처분의 기간 유형, 발부 사유, 해제 신청 방법, 가족에 대한 영향을 선샤인행정사사무소가 안내합니다." },
       en: { title: "Entry Ban (입국금지) in Korea — Duration, Grounds & How to Lift It · Law in Korea", description: "Understand Korea's entry ban system: ban duration categories, grounds for entry ban, how to apply to lift an entry ban, and whether family members are affected." },
       ja: { title: "入国禁止（입국금지）— 期間・事由・解除申請 · Law in Korea", description: "韓国の入国禁止処分の期間、発付事由、解除申請の方法、家族への影響について解説します。" },
       zh: { title: "韩国入境禁止期限与解除申请 — 无限期禁止入境怎么办 · Law in Korea", description: "了解韩国入境禁止处分的期限类型、发出事由、申请解除方法及对家属的影响。" },
@@ -573,7 +573,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
         ko: {
           tag: "입국금지",
           h1: "입국금지 — 기간 유형, 발부 사유, 해제 신청",
-          lead: "입국금지(입국금지)는 법무부가 외국인의 대한민국 입국을 금지하는 행정 처분입니다. 강제퇴거 집행 후 자동 부과되는 경우와, 비자 심사 단계에서 독립적으로 적용되는 경우 모두 있습니다.",
+          lead: "입국금지(입국규제)는 법무부가 외국인의 대한민국 입국을 금지하는 행정 처분입니다. 강제퇴거 집행 후 자동 부과되는 경우와, 비자 심사 단계에서 독립적으로 적용되는 경우 모두 있습니다.",
           s1: "입국금지의 기간 및 사유",
           p1: "출입국관리법 제11조는 입국금지 대상을 열거합니다. 금지 기간은 위반 유형 및 심각성에 따라 달라집니다.",
           items1: [
@@ -604,7 +604,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
           back: "처분 유형 목록으로",
           faqTitle: "자주 묻는 질문",
           faqs: [
-            { q: "입국금지를 조기에 해제받을 수 있나요?", a: "가능합니다. 인도주의적 사유(가족 방문, 치료 등), 장기간 금지 이후 사유 소멸, 소명 자료 충분 등의 경우 해제 신청이 인용될 수 있습니다. 다만 사안별 심사이므로 전문가 조력이 중요합니다." },
+            { q: "입국금지(입국규제)를 조기에 해제받을 수 있나요?", a: "가능합니다. 인도주의적 사유(가족 방문, 치료 등), 장기간 금지 이후 사유 소멸, 소명 자료 충분 등의 경우 해제 신청이 인용될 수 있습니다. 다만 사안별 심사이므로 전문가 조력이 중요합니다." },
             { q: "내가 입국금지 명단에 있는지 어떻게 알 수 있나요?", a: "본인 확인은 재외공관(대사관·영사관)에 비자 신청을 시도하는 방법이 가장 일반적입니다. 국내에서는 출입국·외국인청에 문의할 수 있습니다." },
             { q: "입국금지가 가족 비자에도 영향을 주나요?", a: "입국금지는 원칙적으로 해당 개인에게만 적용됩니다. 다만 입국금지된 배우자의 가족 초청 자격이 제한될 수 있으며, 동반 가족의 체류 자격에 간접적 영향이 있을 수 있습니다." },
           ],
@@ -644,7 +644,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
           back: "Back to Dispositions",
           faqTitle: "Frequently Asked Questions",
           faqs: [
-            { q: "Can an entry ban be lifted early?", a: "Yes. Applications may succeed on humanitarian grounds (family visit, medical treatment), after significant time has passed, or when supporting evidence is strong. Each case is individually reviewed — expert assistance is important." },
+            { q: "Can an entry ban (entry restriction) be lifted early?", a: "Yes. Applications may succeed on humanitarian grounds (family visit, medical treatment), after significant time has passed, or when supporting evidence is strong. Each case is individually reviewed — expert assistance is important." },
             { q: "How do I know if I am on the entry ban list?", a: "The most common way is to apply for a visa at a Korean embassy or consulate. Within Korea, you may contact your local Immigration Office to inquire." },
             { q: "Does an entry ban affect my family members' visas?", a: "An entry ban applies to the individual. However, a banned person may lose the ability to sponsor family visas, and this may indirectly affect accompanying family members' residency status." },
           ],
@@ -652,7 +652,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
         },
         ja: {
           tag: "入国禁止",
-          h1: "入国禁止 — 期間・事由・解除申請",
+          h1: "入国禁止（入国規制） — 期間・事由・解除申請",
           lead: "入国禁止（입국금지）は、法務部が外国人の韓国入国を禁止する行政処分です。強制退去執行後に自動的に付される場合と、ビザ審査段階で独立して適用される場合の両方があります。",
           s1: "入国禁止の期間と事由",
           p1: "出入国管理法第11条は入国禁止対象を列挙しています。禁止期間は違反の種類と深刻さによって異なります。",
@@ -684,7 +684,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
           back: "処分の種類一覧へ",
           faqTitle: "よくある質問",
           faqs: [
-            { q: "入国禁止を早期に解除してもらえますか？", a: "可能です。人道的事由（家族訪問・治療等）、長期禁止後の事由消滅、十分な疎明資料がある場合に解除申請が認容されることがあります。事案ごとの審査となるため専門家の助けが重要です。" },
+            { q: "入国禁止（入国規制）を早期に解除してもらえますか？", a: "可能です。人道的事由（家族訪問・治療等）、長期禁止後の事由消滅、十分な疎明資料がある場合に解除申請が認容されることがあります。事案ごとの審査となるため専門家の助けが重要です。" },
             { q: "自分が入国禁止リストにあるかどうか確認する方法は？", a: "在外公館（大使館・領事館）へのビザ申請が最も一般的な確認方法です。国内では出入国・外国人庁に照会することができます。" },
             { q: "入国禁止は家族のビザにも影響しますか？", a: "入国禁止は原則として本人にのみ適用されます。ただし入国禁止者が家族の初請資格を失う可能性があり、同伴家族の在留資格に間接的な影響が出る場合もあります。" },
           ],
@@ -692,7 +692,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
         },
         zh: {
           tag: "入境禁止",
-          h1: "入境禁止 — 期限、事由与解除申请",
+          h1: "入境禁止（入境限制） — 期限、事由与解除申请",
           lead: "入境禁止（입국금지）是法务部禁止外国人入境韩国的行政处分。可能在强制出境执行后自动附加，也可能在签证审查阶段基于《出入境管理法》独立适用。",
           s1: "入境禁止的期限及事由",
           p1: "《出入境管理法》第11条列举了入境禁止对象。禁止期限因违规类型及严重程度而异。",
@@ -724,7 +724,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
           back: "返回处分类型",
           faqTitle: "常见问题",
           faqs: [
-            { q: "可以提前解除入境禁止吗？", a: "可以。在人道主义理由（探亲·就医等）、经过较长时间后事由消灭或证明材料充分的情况下，解除申请可能获批。每案单独审查，专业人士协助十分重要。" },
+            { q: "可以提前解除入境禁止（入境限制）吗？", a: "可以。在人道主义理由（探亲·就医等）、经过较长时间后事由消灭或证明材料充分的情况下，解除申请可能获批。每案单独审查，专业人士协助十分重要。" },
             { q: "如何知道自己是否在入境禁止名单上？", a: "最常见的方式是向韩国大使馆/领事馆申请签证时确认。在韩境内可向出入境·外国人厅查询。" },
             { q: "入境禁止会影响家属签证吗？", a: "入境禁止原则上仅适用于本人。但被禁止者可能失去家庭邀请资格，这可能对随行家属的居留资格产生间接影响。" },
           ],
@@ -764,7 +764,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
           back: "Quay lại các loại xử lý",
           faqTitle: "Câu hỏi thường gặp",
           faqs: [
-            { q: "Lệnh cấm nhập cảnh có thể được dỡ bỏ sớm không?", a: "Có. Đơn có thể thành công vì lý do nhân đạo (thăm gia đình, điều trị y tế), sau khi đã trải qua thời gian đáng kể, hoặc khi bằng chứng hỗ trợ đủ mạnh. Mỗi trường hợp được xem xét riêng — hỗ trợ từ chuyên gia rất quan trọng." },
+            { q: "Lệnh cấm nhập cảnh (hạn chế nhập cảnh) có thể được dỡ bỏ sớm không?", a: "Có. Đơn có thể thành công vì lý do nhân đạo (thăm gia đình, điều trị y tế), sau khi đã trải qua thời gian đáng kể, hoặc khi bằng chứng hỗ trợ đủ mạnh. Mỗi trường hợp được xem xét riêng — hỗ trợ từ chuyên gia rất quan trọng." },
             { q: "Làm thế nào để biết tôi có trong danh sách cấm nhập cảnh không?", a: "Cách phổ biến nhất là nộp đơn xin visa tại đại sứ quán hoặc lãnh sự quán Hàn Quốc. Trong Hàn Quốc, bạn có thể liên hệ Cơ quan Xuất nhập cảnh địa phương để hỏi." },
             { q: "Lệnh cấm nhập cảnh có ảnh hưởng đến visa của thành viên gia đình không?", a: "Lệnh cấm nhập cảnh áp dụng cho cá nhân. Tuy nhiên, người bị cấm có thể mất khả năng bảo lãnh visa gia đình, điều này có thể ảnh hưởng gián tiếp đến tư cách lưu trú của thành viên gia đình đi kèm." },
           ],
@@ -803,7 +803,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
                 <div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div>
                 <div style={{ opacity: 0.9, fontSize: 15 }}>서울 중구 퇴계로 324, 3층 · +82-2-363-2251</div>
               </div>
-              <a href={`/${locale}#contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
+              <a href={`/${locale}/contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
             </div>
 
             {/* FAQPage — 화면에 그리는 같은 c.faqs 배열에서 생성(1:1, I3b 2026-10-03) */}
@@ -1075,7 +1075,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
                 <div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div>
                 <div style={{ opacity: 0.9, fontSize: 15 }}>서울 중구 퇴계로 324, 3층 · +82-2-363-2251</div>
               </div>
-              <a href={`/${locale}#contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
+              <a href={`/${locale}/contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
             </div>
 
             {/* FAQPage — 화면에 그리는 같은 c.faqs 배열에서 생성(1:1, I3b 2026-10-03) */}
@@ -1100,8 +1100,14 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
   },
 };
 
+// '준비 중' 안내만 있는 슬러그 — 200 으로 두되 noindex, 메뉴·본문 링크에서는 내린다(LAW-V1 P0-4).
+// 이 목록과 SLUG_CONTENT 에 없는 /dispositions/* 는 전부 404 다(예전에는 '준비 중' 소프트 404 였다).
+const COMING_SOON_SLUGS: readonly string[] = ["detention"];
+
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
-  const slugs = ["deportation", "departure-order", "warning", "fine", "visa-cancellation", "detention", "suspended-sentence", "conditional-stay", "entry-ban", "voluntary-departure", "other", "deportation-order", "visa-denial"];
+  const slugs = [...Object.keys(SLUG_CONTENT), ...COMING_SOON_SLUGS];
   return VALID_LOCALES.flatMap((locale) => slugs.map((slug) => ({ locale, slug })));
 }
 
@@ -1113,7 +1119,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     const m = content.meta[l];
     return { title: brandTitle(m.title), description: m.description, alternates: alternatesFor(l, `/dispositions/${slug}`) };
   }
-  return { title: brandTitle(LABELS[l].title + " · 선샤인행정사사무소") };
+  if (!COMING_SOON_SLUGS.includes(slug)) return {};
+  return {
+    title: brandTitle(LABELS[l].title + " · 선샤인행정사사무소"),
+    robots: { index: false, follow: true, googleBot: { index: false, follow: true } },
+  };
 }
 
 export default async function Page({ params }: { params: Promise<{ locale: string; slug: string }> }) {
@@ -1137,6 +1147,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
     );
   }
 
+  if (!COMING_SOON_SLUGS.includes(slug)) notFound();
   const c = LABELS[l];
   return (
     <main style={{ maxWidth: 800, margin: "0 auto", padding: "80px 24px", textAlign: "center" }}>

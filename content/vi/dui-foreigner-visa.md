@@ -1,6 +1,6 @@
 ---
-title: "Lái xe say rượu và gia hạn visa tại Hàn Quốc (2026)"
-description: "Điều người nước ngoài bị bắt vì DUI cần biết: mức xử lý theo nồng độ cồn, quy trình xem xét vi phạm và những tài liệu giảm nhẹ quyết định kết quả."
+title: "Lái xe say rượu và gia hạn visa tại Hàn Quốc"
+description: "Điều người nước ngoài bị bắt vì DUI cần biết: mức xử lý theo nồng độ cồn, quy trình xem xét vi phạm và những tài liệu giảm nhẹ có thể được xem xét."
 date: "2026-05-01"
 category: "Lái xe say rượu · DUI"
 cluster: "cluster"
@@ -13,19 +13,19 @@ keywords:
   - "gia hạn visa sau DUI"
 faq:
   - q: "Tôi đã nộp phạt vì lái xe say rượu, vậy có gia hạn visa được không?"
-    a: "Dù án phạt tiền đã kết thúc, thủ tục xem xét vi phạm của Cục Xuất nhập cảnh vẫn tiến hành riêng. Nếu nồng độ cồn thấp và không gây tai nạn thì vẫn có khả năng được gia hạn, nhưng không phải mặc nhiên. Tài liệu giảm nhẹ quyết định kết quả."
+    a: "Dù án phạt tiền đã kết thúc, thủ tục xem xét vi phạm của Cục Xuất nhập cảnh vẫn tiến hành riêng. Việc có được gia hạn hay không không phải mặc nhiên và phụ thuộc vào từng vụ việc; tài liệu giảm nhẹ có thể được xem xét."
   - q: "Nồng độ cồn 0,03% và 0,08% khác nhau thế nào?"
-    a: "0,03~0,08%: tù đến 1 năm hoặc phạt đến 5 triệu won, đình chỉ bằng lái 100 ngày. 0,08~0,2%: tù 1~2 năm, phạt 5~10 triệu won, thu hồi bằng lái. Trên 0,2%: tù 2~5 năm. Về phía Xuất nhập cảnh, từ 0,08% trở lên khả năng bị xem xét trục xuất tăng rất mạnh."
-  - q: "Phạm lần đầu có bị trục xuất không?"
-    a: "Nếu nồng độ cồn trên 0,2%, có tai nạn, hoặc từ chối kiểm tra, thì ngay cả lần đầu vẫn có thể bị trục xuất. Thông thường lần đầu + dưới 0,08% + không tai nạn thì phần lớn kết thúc bằng lệnh xuất cảnh hoặc thay đổi tư cách lưu trú."
+    a: "Theo Luật Giao thông đường bộ Điều 148-2 khoản 3: 0,03~0,08%: tù đến 1 năm hoặc phạt đến 5 triệu won; 0,08~0,2%: tù 1~2 năm hoặc phạt 5~10 triệu won; từ 0,2% trở lên: tù 2~5 năm hoặc phạt 10~20 triệu won. Về bằng lái, theo Phụ lục 28 Quy tắc thi hành Luật Giao thông đường bộ: 0,03~0,08% bị 100 điểm phạt (đình chỉ), từ 0,08% trở lên bị thu hồi. Về phía Xuất nhập cảnh, mức xử lý phụ thuộc vào từng vụ việc."
+  - q: "Phạm lần đầu có bị trục xuất (cưỡng chế xuất cảnh) không?"
+    a: "Nếu nồng độ cồn trên 0,2%, có tai nạn, hoặc từ chối kiểm tra, thì ngay cả lần đầu vẫn có thể bị trục xuất. Với vụ việc lần đầu, mức xử lý cũng phụ thuộc vào từng vụ việc."
   - q: "Tôi gây tai nạn khi say rượu nhưng đã hòa giải với nạn nhân. Vẫn phải qua xem xét vi phạm sao?"
-    a: "Có hòa giải hay không thì vẫn thuộc diện xem xét. Tuy nhiên biên bản hòa giải và đơn xin khoan hồng của nạn nhân là tài liệu giảm nhẹ rất mạnh. Khi hòa giải, hãy giữ biên lai bồi thường và đơn không yêu cầu xử phạt của nạn nhân."
+    a: "Có hòa giải hay không thì vẫn thuộc diện xem xét. Tuy nhiên biên bản hòa giải và đơn xin khoan hồng của nạn nhân là tài liệu giảm nhẹ có thể được xem xét. Khi hòa giải, hãy giữ biên lai bồi thường và đơn không yêu cầu xử phạt của nạn nhân."
   - q: "Bị thu hồi bằng lái vì say rượu thì visa có bị hủy theo không?"
     a: "Thu hồi bằng lái và visa là hai việc khác nhau. Nhưng nếu lái xe là nội dung công việc (ví dụ D-7 phụ trách kinh doanh, E-7 nhóm nghề lái xe) thì có thể bị xử lý thêm vì hoạt động ngoài tư cách."
   - q: "Tôi nhận thông báo xem xét đúng lúc gia hạn thẻ cư trú. Tôi có được tiếp tục làm việc không?"
     a: "Trước khi có thông báo kết quả, visa hiện tại vẫn còn hiệu lực. Nhưng nếu nhận lệnh bổ sung hồ sơ thì phải phản hồi trong thời hạn ghi trên thông báo, và nếu bị từ chối thì phải chuẩn bị xuất cảnh."
   - q: "Tiền án lái xe say rượu có ảnh hưởng đến việc xin thường trú (F-5) không?"
-    a: "Khi xin F-5, tiền án hình sự trong vòng 5 năm có thể là căn cứ loại. Cần qua 5 năm kể từ ngày bị xử phạt hình sự mới tương đối an toàn. Nếu đã bị trục xuất hoặc nhận lệnh xuất cảnh qua xem xét vi phạm thì cần thời gian dài hơn nữa."
+    a: "Khi xin F-5, tiền án hình sự có thể được xem xét trong yêu cầu về phẩm hạnh. Thời gian và mức độ ảnh hưởng phụ thuộc vào từng vụ việc và tiêu chuẩn hiện hành của Bộ Tư pháp; nếu đã bị trục xuất hoặc nhận lệnh xuất cảnh thì cũng cần kiểm tra riêng."
 related:
   - "immigration-offense-review-guide"
   - "criminal-case-visa-defense"
@@ -34,14 +34,14 @@ related:
 
 Người nước ngoài bị bắt vì lái xe say rượu ở Hàn Quốc thường nghe hai câu đầu tiên: **"Phần xử lý hình sự đã xong"**, và **"Bên Xuất nhập cảnh gọi lên lần nữa"**.
 
-Vế thứ hai chính là thủ tục xem xét vi phạm xuất nhập cảnh. Ngay cả khi thủ tục hình sự khép lại bằng án phạt tiền, Cục Xuất nhập cảnh vẫn có thể theo một thủ tục hành chính riêng để từ chối gia hạn visa, ra lệnh xuất cảnh hoặc quyết định trục xuất.
+Vế thứ hai chính là thủ tục xem xét vi phạm xuất nhập cảnh. Ngay cả khi thủ tục hình sự khép lại bằng án phạt tiền, Cục Xuất nhập cảnh vẫn có thể theo một thủ tục hành chính riêng để từ chối gia hạn visa, ra lệnh xuất cảnh hoặc quyết định trục xuất (cưỡng chế xuất cảnh).
 
-Bài viết này tổng hợp toàn bộ những gì bạn cần biết ngay sau khi bị bắt vì lái xe say rượu.
+Bài viết này tổng hợp những điểm cần kiểm tra ngay sau khi bị bắt vì lái xe say rượu.
 
 ## 1. Bị bắt vì say rượu → Xử lý hình sự → Xem xét vi phạm
 
 ### Bước 1: Tại hiện trường kiểm tra
-- Đo nồng độ cồn trong máu (BAC) → từ chối thổi sẽ bị tăng nặng ngay lập tức
+- Đo nồng độ cồn trong máu (BAC) → từ chối đo có thể bị xử phạt riêng (Luật Giao thông đường bộ Điều 148-2 khoản 2)
 - Nhận thông báo đình chỉ hoặc thu hồi bằng lái
 
 ### Bước 2: Xử lý hình sự
@@ -55,17 +55,17 @@ Bài viết này tổng hợp toàn bộ những gì bạn cần biết ngay sau
 ### Bước 4: Kết quả xem xét
 - Cho phép lưu trú / Thay đổi tư cách / Lệnh xuất cảnh / Trục xuất / Cấm nhập cảnh
 
-## 2. Dự đoán mức xử lý theo nồng độ cồn (BAC)
+## 2. Mức xử phạt hình sự theo nồng độ cồn (BAC)
 
-| Mức BAC | Xử lý hình sự (Luật Giao thông đường bộ) | Dự đoán tại xem xét vi phạm XNC |
+| Mức BAC | Xử lý hình sự (Luật Giao thông đường bộ Điều 148-2) | Bằng lái (Quy tắc thi hành, Phụ lục 28) |
 |---|---|---|
-| 0,03 ~ 0,08% | Phạt đến 5 triệu won, đình chỉ bằng lái 100 ngày | Có thể gia hạn visa có điều kiện (bắt buộc có tài liệu giảm nhẹ) |
-| 0,08 ~ 0,2% | Tù 1~2 năm hoặc phạt 5~10 triệu won, thu hồi bằng lái | Khả năng nhận lệnh xuất cảnh cao, có xem xét cả trục xuất |
-| Trên 0,2% | Tù 2~5 năm, thu hồi bằng lái | Khả năng bị trục xuất rất cao |
-| Từ chối kiểm tra | Tù 1~5 năm hoặc phạt 5~20 triệu won | Trục xuất gần như chắc chắn |
-| Có tai nạn kèm theo | Mức trên + tăng nặng (Luật xử phạt tăng nặng tội phạm đặc định...) | Trục xuất + có thể cấm nhập cảnh vĩnh viễn |
+| 0,03 ~ 0,08% | Tù đến 1 năm hoặc phạt đến 5 triệu won (khoản 3 điểm 3) | 100 điểm phạt (đình chỉ) |
+| 0,08 ~ 0,2% | Tù 1~2 năm hoặc phạt 5~10 triệu won (khoản 3 điểm 2) | Thu hồi |
+| Từ 0,2% trở lên | Tù 2~5 năm hoặc phạt 10~20 triệu won (khoản 3 điểm 1) | Thu hồi |
+| Từ chối kiểm tra | Tù 1~5 năm hoặc phạt 5~20 triệu won (khoản 2) | Thu hồi |
+| Có tai nạn kèm theo | Có thể áp dụng thêm Luật xử phạt tăng nặng tội phạm đặc định... | — |
 
-⚠️ Bảng trên chỉ là xu hướng chung; kết quả có thể thay đổi đáng kể tùy vào tài liệu giảm nhẹ (gia đình, công việc, đóng góp cho Hàn Quốc).
+Bảng trên là mức xử phạt hình sự và bằng lái theo luật. Mức xử lý tại thủ tục xem xét vi phạm xuất nhập cảnh không được quy định theo nồng độ cồn và phụ thuộc vào từng vụ việc; các yếu tố như gia đình, công việc, đóng góp cho Hàn Quốc có thể được xem xét.
 
 ## 3. Danh mục chuẩn bị trước buổi xem xét
 
@@ -75,7 +75,7 @@ Bài viết này tổng hợp toàn bộ những gì bạn cần biết ngay sau
 - [ ] Thẻ đăng ký người nước ngoài, bản sao hộ chiếu
 - [ ] Bản sao visa hiện tại và giấy chứng nhận tư cách
 
-### Tài liệu giảm nhẹ (★ tạo ra khác biệt quyết định)
+### Tài liệu giảm nhẹ (có thể được xem xét)
 - [ ] **Bản kiểm điểm / bản giải trình** (viết bằng tiếng Hàn, lập luận theo góc nhìn của Xuất nhập cảnh)
 - [ ] **Giấy xác nhận công tác + lịch sử tham gia 4 loại bảo hiểm** (chứng minh đóng góp)
 - [ ] **Lịch sử nộp thuế** (chứng minh đóng góp cho xã hội Hàn Quốc)
@@ -92,7 +92,7 @@ Bài viết này tổng hợp toàn bộ những gì bạn cần biết ngay sau
 - Trả lời ngắn gọn, rõ ràng, không biện hộ vòng vo
 - Thể hiện rõ sự hối lỗi và quyết tâm không tái phạm
 
-## 4. Tài liệu giảm nhẹ thay đổi kết quả ra sao
+## 4. Ví dụ về vai trò của tài liệu giảm nhẹ
 
 Dưới đây là hai vụ việc thực tế do Sunshine xử lý.
 
@@ -115,17 +115,17 @@ Dưới đây là hai vụ việc thực tế do Sunshine xử lý.
   - Đơn xin khoan hồng của đại diện công ty + của người vợ Hàn Quốc
 - **Kết quả: Giữ thường trú + lệnh xuất cảnh → giảm xuống thành xử lý quản chế**
 
-Khác biệt không nằm ở chỉ số BAC, mà ở **chất lượng hồ sơ đã chuẩn bị**.
+Kết quả của mỗi vụ việc phụ thuộc vào nhiều yếu tố; chất lượng hồ sơ đã chuẩn bị là một trong các yếu tố có thể được xem xét.
 
 ## 5. Có hành chính sĩ đi cùng thì khác gì
 
 Những điểm khác biệt khi [Văn phòng Hành chính sĩ Sunshine](/vi) thực sự đồng hành tại buổi xem xét:
 
 ### (1) Diễn tập trước
-Chuẩn bị 30 câu hỏi mà cán bộ xuất nhập cảnh thường hỏi và tinh chỉnh câu trả lời của thân chủ. Với câu "Tại sao anh lái xe khi đã uống rượu?", trả lời "Tôi chỉ uống một ly" lại càng nguy hiểm.
+Chuẩn bị các câu hỏi mà cán bộ xuất nhập cảnh thường hỏi và tinh chỉnh câu trả lời của thân chủ. Với câu "Tại sao anh lái xe khi đã uống rượu?", trả lời "Tôi chỉ uống một ly" lại càng nguy hiểm.
 
 ### (2) Sắp xếp hồ sơ và làm nổi bật trọng tâm
-Không chỉ nộp tài liệu giảm nhẹ, mà lập trang tóm tắt và mục lục để cán bộ nắm được trọng tâm trong vòng 5 phút.
+Không chỉ nộp tài liệu giảm nhẹ, mà lập trang tóm tắt và mục lục để cán bộ dễ nắm được trọng tâm.
 
 ### (3) Phát biểu bổ sung tại chỗ
 Hành chính sĩ bổ sung những phần thân chủ chưa diễn đạt đủ bằng tiếng Hàn, và những điểm cần giải thích thêm dưới góc độ thủ tục hành chính.
@@ -148,11 +148,11 @@ Ngay khi có kết quả, bắt đầu ngay việc khiếu nại (đối với l
 → Dù phần hình sự đã xong, xem xét vi phạm xuất nhập cảnh vẫn là thủ tục hành chính riêng, thuộc lĩnh vực của hành chính sĩ.
 
 **Hiểu lầm 5: "Tự đi cũng như nhau."**
-→ 30~50% kết quả phụ thuộc chất lượng tài liệu giảm nhẹ. Hồ sơ tự chuẩn bị và hồ sơ do hành chính sĩ sắp xếp có sức thuyết phục rất khác nhau.
+→ Chất lượng tài liệu giảm nhẹ là một trong các yếu tố có thể được xem xét. Cách sắp xếp hồ sơ có thể ảnh hưởng đến việc các tình tiết được trình bày rõ ràng đến đâu.
 
 ## 7. Việc cần làm ngay bây giờ
 
-Nếu bạn bị bắt vì lái xe say rượu, hãy **bắt đầu chuẩn bị cho buổi xem xét vi phạm ngay cả khi thủ tục hình sự còn đang tiếp diễn.** Đợi xử lý hình sự xong mới bắt đầu thì thường không kịp trước ngày phải có mặt.
+Nếu bạn bị bắt vì lái xe say rượu, hãy **bắt đầu chuẩn bị cho buổi xem xét vi phạm ngay cả khi thủ tục hình sự còn đang tiếp diễn.** Nếu đợi xử lý hình sự xong mới bắt đầu, thời gian chuẩn bị có thể bị hạn chế.
 
 Văn phòng Hành chính sĩ Sunshine cung cấp chẩn đoán ban đầu miễn phí, hỗ trợ tiếng Hàn, Anh, Trung và Nhật.
 
@@ -161,6 +161,6 @@ Văn phòng Hành chính sĩ Sunshine cung cấp chẩn đoán ban đầu miễn
 ---
 
 **Bài viết liên quan:**
-- [Hướng dẫn toàn diện về xem xét vi phạm xuất nhập cảnh](/vi/blog/immigration-offense-review-guide)
-- [Án hình sự và cách bảo vệ visa](/vi/blog/criminal-case-visa-defense)
+- [Hướng dẫn về thủ tục xem xét vi phạm xuất nhập cảnh](/vi/blog/immigration-offense-review-guide)
+- [Án hình sự và visa](/vi/blog/criminal-case-visa-defense)
 - [Ảnh hưởng của DUI đến hồ sơ xin thường trú](/vi/blog/criminal-record-pr-impact)

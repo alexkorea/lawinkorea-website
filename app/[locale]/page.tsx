@@ -3,13 +3,14 @@ import { alternatesFor } from "../lib/seo";
 import type { Metadata } from "next";
 import { SITE } from "../lib/constants";
 import { faqSchema } from "../lib/schema";
+import ConfidentialityNote from "../components/ConfidentialityNote";
 
 // ko 홈 FAQ — 화면과 FAQPage 의 단일 원천(I3b 2026-10-03)
 const KO_HOME_FAQ: { q: string; a: string }[] = [
   { q: "벌금형을 받으면 비자가 취소되나요?", a: "벌금형을 받았다고 해서 반드시 비자가 취소되는 것은 아닙니다. 다만 사건의 내용과 체류자격, 반복 여부 등에 따라 연장·변경 심사에서 함께 고려될 수 있습니다. 실제 판단은 개별 사건에 따라 달라집니다." },
   { q: "초범도 사범심사를 받나요?", a: "초범인지 여부는 검토 요소 중 하나이며, 초범이라도 사건 유형에 따라 출입국에서 검토가 이루어질 수 있습니다. 마약 등 일부 사건은 초범이라도 신중한 대응이 필요할 수 있습니다." },
   { q: "경찰 사건이 끝나기 전에 출입국에 가야 하나요?", a: "상황에 따라 다릅니다. 출입국 통지서를 받은 경우 통지된 일정이 우선이며, 형사절차 진행 단계에 따라 준비 방향이 달라질 수 있어 먼저 확인이 필요합니다." },
-  { q: "출국명령과 강제퇴거는 어떻게 다른가요?", a: "두 처분은 법적 성격과 이후 재입국에 미치는 영향이 다를 수 있습니다. 처분서의 내용을 확인해 어떤 처분인지 먼저 파악하는 것이 중요합니다." },
+  { q: "출국명령과 강제퇴거(강제추방)는 어떻게 다른가요?", a: "두 처분은 법적 성격과 이후 재입국에 미치는 영향이 다를 수 있습니다. 처분서의 내용을 확인해 어떤 처분인지 먼저 파악하는 것이 중요합니다." },
   { q: "비자 연장 전에 무엇을 준비해야 하나요?", a: "현재 체류자격, 사건 기록, 한국 내 생활기반을 설명할 수 있는 자료를 미리 정리하는 것이 좋습니다. 준비서류 페이지에서 항목별로 안내하고 있습니다." },
   { q: "가족이 있으면 체류에 유리한가요?", a: "한국인 배우자·자녀 등 가족관계는 검토 요소가 될 수 있으나, 가족이 있다고 해서 체류가 반드시 허가되는 것은 아닙니다. 사건 내용과 함께 종합적으로 검토됩니다." },
   { q: "출입국 출석 시 통역이 가능한가요?", a: "사용 언어에 맞춰 상담을 지원하며, 출석 관련 준비도 언어별로 도와드립니다. 구체적인 통역 지원 범위는 상담 시 안내합니다." },
@@ -229,6 +230,11 @@ const KoHomePage = () => (
       </p>
     </section>
 
+    {/* 상담 내용 비밀 유지(LAW-V1 P1-3) */}
+    <div style={{ maxWidth: 800, margin: "0 auto", padding: "48px 24px 0" }}>
+      <ConfidentialityNote locale="ko" />
+    </div>
+
     {/* FAQ */}
     <section style={{ maxWidth: 800, margin: "0 auto", padding: "64px 24px" }}>
       <h2 style={{ fontSize: 26, fontWeight: 700, color: "#0a1628", marginBottom: 32 }}>자주 묻는 질문</h2>
@@ -383,7 +389,7 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
         { q: "Will my visa be cancelled if I receive a fine?", a: "A fine does not automatically result in visa cancellation. However, depending on the nature of the offense, prior record, and visa category, it may be considered during extension or change applications. Actual outcomes vary by individual case." },
         { q: "Can a first-time offender be subject to an offense review?", a: "Being a first-time offender is one factor in the review, but it does not guarantee exemption. Depending on the type of offense — particularly drug-related cases — careful handling may be necessary even for first offenses." },
         { q: "Do I need to go to immigration before my criminal case ends?", a: "It depends on your situation. If you have received an immigration summons, that date takes priority. The preparation approach also differs depending on the stage of criminal proceedings." },
-        { q: "What is the difference between a departure order and deportation?", a: "The two dispositions differ in legal nature and their effect on future re-entry. It is important to first confirm which type of disposition has been issued by reviewing the actual document." },
+        { q: "What is the difference between a departure order (exit order) and deportation?", a: "The two dispositions differ in legal nature and their effect on future re-entry. It is important to first confirm which type of disposition has been issued by reviewing the actual document." },
         { q: "What should I prepare before a visa extension?", a: "It is advisable to prepare documents that explain your current visa status, case record, and ties to Korea in advance. Our documents page provides a checklist of items to prepare." },
         { q: "Does having family in Korea help with my residency?", a: "Family ties — such as a Korean spouse or children — may be a factor in the review, but they do not guarantee continued residency. The case details are considered together with family circumstances." },
       ],
@@ -482,7 +488,7 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
       items: [
         { q: "罰金刑を受けるとビザはキャンセルされますか？", a: "罰金刑を受けたからといって、必ずしもビザがキャンセルされるわけではありません。ただし、事件の内容や在留資格、繰り返しの有無によっては、延長・変更審査で考慮される場合があります。実際の判断は個別事案によって異なります。" },
         { q: "初犯でも事犯審査を受けますか？", a: "初犯かどうかは検討要素の一つですが、初犯でも事件の種類によっては出入国での検討が行われることがあります。特に薬物等の事件は、初犯でも慎重な対応が必要な場合があります。" },
-        { q: "出国命令と強制退去はどう違いますか？", a: "二つの処分は法的性格とその後の再入国への影響が異なる場合があります。処分書の内容を確認し、どの処分なのかをまず把握することが重要です。" },
+        { q: "出国命令と強制退去（強制送還）はどう違いますか？", a: "二つの処分は法的性格とその後の再入国への影響が異なる場合があります。処分書の内容を確認し、どの処分なのかをまず把握することが重要です。" },
         { q: "ビザ延長前に何を準備すべきですか？", a: "現在の在留資格、事件記録、韓国国内の生活基盤を説明できる資料を事前に整理しておくことをお勧めします。準備書類ページで項目別にご案内しています。" },
       ],
     },
@@ -580,7 +586,7 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
       items: [
         { q: "收到罚款处分会取消签证吗？", a: "收到罚款并不意味着签证必然被取消。但根据案件性质、居留资格及是否存在重复违规，可能在延期或变更审查中被纳入考量。实际判断因个案而异。" },
         { q: "初犯也会接受事犯审查吗？", a: "是否为初犯是审查因素之一，但即使是初犯，根据案件类型，出入境机构也可能进行审查。尤其是毒品类案件，初犯也需谨慎处理。" },
-        { q: "出境命令与强制驱逐有何区别？", a: "两种处分在法律性质及对未来再次入境的影响方面可能有所不同。需先查阅处分书，确认具体处分类型，这一点非常重要。" },
+        { q: "出境命令与强制驱逐（强制遣返）有何区别？", a: "两种处分在法律性质及对未来再次入境的影响方面可能有所不同。需先查阅处分书，确认具体处分类型，这一点非常重要。" },
         { q: "签证延期前需要准备哪些材料？", a: "建议提前准备能够说明当前居留资格、案件记录及在韩生活基础的材料。可参阅准备材料页面了解具体清单。" },
       ],
     },
@@ -674,7 +680,7 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
       items: [
         { q: "Nhận phán quyết phạt tiền có bị hủy visa không?", a: "Nhận phạt tiền không tự động dẫn đến hủy visa. Tuy nhiên, tùy thuộc vào tính chất vụ việc, tư cách lưu trú và tiền án, nó có thể được xem xét trong các đơn gia hạn hoặc thay đổi. Kết quả thực tế khác nhau theo từng trường hợp cụ thể." },
         { q: "Người vi phạm lần đầu có phải trải qua xem xét vi phạm không?", a: "Việc là người vi phạm lần đầu là một yếu tố trong quá trình xem xét, nhưng không đảm bảo được miễn xét. Tùy thuộc vào loại vi phạm — đặc biệt là các vụ liên quan đến ma túy — việc xử lý cẩn thận vẫn cần thiết ngay cả với người vi phạm lần đầu." },
-        { q: "Sự khác biệt giữa lệnh xuất cảnh và trục xuất là gì?", a: "Hai hình thức xử phạt khác nhau về bản chất pháp lý và tác động đến tái nhập cảnh trong tương lai. Điều quan trọng là phải xác nhận trước loại quyết định nào đã được ban hành bằng cách xem xét tài liệu thực tế." },
+        { q: "Sự khác biệt giữa lệnh xuất cảnh và trục xuất (cưỡng chế xuất cảnh) là gì?", a: "Hai hình thức xử phạt khác nhau về bản chất pháp lý và tác động đến tái nhập cảnh trong tương lai. Điều quan trọng là phải xác nhận trước loại quyết định nào đã được ban hành bằng cách xem xét tài liệu thực tế." },
         { q: "Trước khi gia hạn visa tôi cần chuẩn bị gì?", a: "Nên chuẩn bị trước các tài liệu có thể giải thích tư cách lưu trú hiện tại, hồ sơ vụ việc và mối liên kết của bạn với Hàn Quốc. Trang tài liệu của chúng tôi cung cấp danh sách kiểm tra các mục cần chuẩn bị." },
       ],
     },
@@ -789,6 +795,11 @@ const GenericHomePage = ({ l }: { l: Exclude<L, "ko"> }) => {
           <p style={{ lineHeight: 1.9, color: "#374151", margin: 0 }}>{c.scope.body}</p>
         </section>
       )}
+
+      {/* 상담 내용 비밀 유지(LAW-V1 P1-3) */}
+      <div style={{ maxWidth: 800, margin: "0 auto", padding: "48px 24px 0" }}>
+        <ConfidentialityNote locale={l} />
+      </div>
 
       {/* FAQ */}
       <section style={{ maxWidth: 800, margin: "0 auto", padding: "64px 24px" }}>

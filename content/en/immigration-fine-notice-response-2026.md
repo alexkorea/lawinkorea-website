@@ -1,5 +1,5 @@
 ---
-title: "What to Do When You Receive an Immigration Fine Notice in Korea (2026)"
+title: "What to Do When You Receive an Immigration Fine Notice in Korea"
 description: "Responding to a Korean immigration fine notice: how to pay, grounds for objection, the effect on visa status, and when it leads to an offence review."
 date: "2026-09-23"
 category: "Penalties"
@@ -11,7 +11,7 @@ keywords:
   - "alien registration change fine"
   - "address change report fine Korea"
 faq:
-  - q: "What should I check first when I receive a fine notice?"
+  - q: "What should I check first when I receive a fine notice (notice of administrative fine, 통고처분)?"
     a: "Check the legal basis, the violation period, the standard fine amount, and the payment deadline printed on the notice. The deadline matters most, since missing it can lead to a criminal complaint."
   - q: "What if I disagree with the fine?"
     a: "A notification disposition is designed to close minor cases quickly, so it doesn't generally go through an administrative appeal first. If you dispute the facts, it's safer to contact the issuing office and submit supporting materials before paying."
@@ -20,14 +20,14 @@ faq:
   - q: "Does missing the deadline mean automatic deportation?"
     a: "Missing the deadline generally triggers a complaint, which can lead to a criminal-style review (sabeom simsa). Whether deportation follows depends on the type and severity of the violation and individual circumstances."
   - q: "If I have several violations at once, are the fines combined?"
-    a: "Each violation type has its own legal basis and standard amount, so multiple violations found together are typically notified as separate fines per item. Check your own notice and the issuing office for the exact calculation."
+    a: "Each violation type has its own legal basis and standard amount, so multiple violations found together may be notified as separate fines per item. Check your own notice and the issuing office for the exact calculation."
 related:
   - "immigration-offense-review-guide"
   - "immigration-law-penalties-guide"
   - "illegal-employment-penalty"
 ---
 
-If you miss the legal deadline to report a change in your alien registration details, a change of address, or a change/addition of workplace, you may receive a **fine notice** from the Immigration Office. Treating it as "just a fine, no big deal" can backfire later — the violation record can resurface when your stay extension or status change is reviewed.
+If you miss the legal deadline to report a change in your alien registration details, a change of address, or a change/addition of workplace, you may receive a **fine notice** (notice of administrative fine, 통고처분) from the Immigration Office. Treating it as "just a fine, no big deal" can backfire later — the violation record can resurface when your stay extension or status change is reviewed.
 
 This article explains what to check when you receive a notice and how to respond, based on the Immigration Act and the official fine schedule.
 
@@ -47,10 +47,10 @@ A beomchikgeum is an amount under the Immigration Act's **notification dispositi
 
 | Violation | Violation period | Standard amount |
 |---|---|---|
-| Late report of alien registration detail change (passport number, affiliated organization, etc. — due within 14 days) | Under 3 months | KRW 100,000 |
+| Late report of alien registration detail change (passport number, affiliated organization, etc. — due within 15 days, Immigration Act Article 35) | Under 3 months | KRW 100,000 |
 | " | 6 months – under 1 year | KRW 500,000 |
 | " | 1 year or more | KRW 1,000,000 |
-| Late report of address change (due within 14 days) | Under 3 months | KRW 100,000 |
+| Late report of address change (due within 15 days, Immigration Act Article 36(1)) | Under 3 months | KRW 100,000 |
 | " | 1 year – under 2 years | KRW 700,000 |
 | " | 2 years or more | KRW 1,000,000 |
 | Late report of workplace change/addition (professionals, due within 15 days) | 1 year – under 2 years | KRW 1,000,000 |
@@ -84,13 +84,13 @@ Matters likely to move into criminal procedure belong to a separate legal proces
 
 If you've received a fine notice and want to also check how it could affect your future status, Sunshine Administrative Agency Office can guide you from reviewing the notice through preparing supporting materials.
 
-[→ Request a Free Consultation](/#contact)
+[→ Request a Free Consultation](/en/contact)
 
 ---
 
 **Related posts:**
 - [Immigration Offense Review Guide](/blog/immigration-offense-review-guide)
-- [Immigration Act Penalties — Full Guide](/blog/immigration-law-penalties-guide)
+- [Immigration Act Penalties Guide](/blog/immigration-law-penalties-guide)
 - [Illegal Employment & Unauthorized Activity Dispositions](/blog/illegal-employment-penalty)
 
 ---

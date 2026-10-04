@@ -1,6 +1,6 @@
 ---
-title: "Visa Extension Denied in Korea — Your 30-Day Action Plan"
-description: "What to do within 30 days of a visa extension denial or supplementary order: evidence, objections, status change and departure timing."
+title: "Visa Extension Denied in Korea — What to Do Next"
+description: "What to do after a visa extension denial or supplementary order in Korea: evidence, objections, status change and departure timing."
 date: "2026-05-01"
 category: "Visa Denial"
 cluster: "cluster"
@@ -12,37 +12,37 @@ keywords:
   - "Korea visa extension denied"
 faq:
   - q: "What if I miss the supplementary order deadline?"
-    a: "Failure to submit by the deadline auto-converts to denial; departure order or deportation follows. Justified reasons can request a one-time extension (7~14 days)."
+    a: "Failure to submit by the deadline can lead to a denial. If you have a justified reason, ask the office before the deadline whether an extension is possible."
   - q: "Can I appeal a denial?"
     a: "Yes. Administrative appeal (within 90 days of learning of the disposition, Administrative Appeals Act Article 27(1)) or administrative litigation (within 90 days, Administrative Litigation Act Article 20(1)). If your renewal date is imminent, applying for a different status may be faster."
   - q: "Can I apply for a different status after denial?"
     a: "Yes. You can apply for an unrelated status (e.g., D-2 denied → E-7). But if denial reason is criminal, other statuses may also be difficult."
   - q: "What if I don't leave Korea after denial?"
-    a: "Within 30 days, you must depart or initiate alternative procedures. Otherwise = illegal stay → deportation + 5+ year entry ban. Voluntary departure shortens future bans."
+    a: "You must leave by the departure deadline stated in the denial notice or start another procedure. Staying beyond it is an overstay (illegal stay) and can lead to deportation and an entry ban. Voluntary departure can be considered favorably later."
   - q: "Why doesn't the notice explain the denial reason in detail?"
     a: "Use Information Disclosure Request (정보공개청구) at the Immigration Office for detailed reason. Scrivener accompaniment enables direct officer interview."
   - q: "Supplementary order received — what documents to add?"
-    a: "Submit exactly the items listed. Typically: financial capacity, activity proof, family relationship, Korean residence justification. Scrivener review prevents missing items."
+    a: "Submit exactly the items listed. Typically: financial capacity, activity proof, family relationship, Korean residence justification. Scrivener review helps check for missing items."
 related:
   - "immigration-offense-review-guide"
   - "criminal-case-visa-defense"
   - "criminal-record-pr-impact"
 ---
 
-The most fearsome notice after a Korean visa renewal application is **"Renewal Denied"** or **"Supplementary Order"**. Without proper response within 30 days, this leads to **deportation + 5+ year entry ban**.
+After a Korean visa renewal application, you may receive a **"Renewal Denied"** notice or a **"Supplementary Order"**. If you do not respond or leave by the deadline stated in the notice, you become an overstayer (illegal stay), which can lead to deportation and an entry ban.
 
-This guide covers the 30-day action plan.
+This guide sets out an action plan by stage.
 
 ## 1. Three Forms of Visa Denial
 
 ### A. Supplementary Order
 - "Cannot decide with current materials, additional documents required"
-- Typically 7–14 days
+- Deadline stated in the order
 - Re-evaluation upon supplementation
 
 ### B. Denial
 - Clear refusal disposition
-- 30 days for departure or alternative
+- Departure or alternative procedure by the deadline in the notice
 
 ### C. Status-Change Recommendation
 - "Current status denied, recommend other status"
@@ -68,7 +68,7 @@ This guide covers the 30-day action plan.
 - Immigration violation history
 
 ### (5) Academic Underperformance (D-2)
-- Attendance < 80%
+- Low attendance
 - Grade insufficient
 - Repeated leaves
 
@@ -80,7 +80,7 @@ This guide covers the 30-day action plan.
 - Missing required documents
 - Forged documents
 
-## 3. 30-Day Action Plan
+## 3. Action Plan by Stage
 
 ### Day 1–3: Pinpoint denial reason
 
@@ -93,7 +93,7 @@ This guide covers the 30-day action plan.
 **Channels:**
 - Foreigner Comprehensive Support Center 1345
 - Local Immigration Office direct visit
-- Scrivener-accompanied interview (most effective)
+- Scrivener-accompanied interview
 
 ### Day 3–7: Decide response option
 
@@ -101,7 +101,7 @@ Choose among 4:
 
 #### Option A: Supplementary documents
 - For supplementary orders
-- Submit precise documents within 14 days
+- Submit precise documents by the deadline in the order
 
 #### Option B: Status change
 - Abandon denied status, apply for different status
@@ -115,7 +115,7 @@ Choose among 4:
 #### Option D: Voluntary departure
 - When all options difficult
 - Before departure order
-- Favorable for future entry-ban shortening
+- Can be considered favorably in later entry decisions
 
 ### Day 7–21: Document preparation
 
@@ -131,7 +131,7 @@ Choose among 4:
 
 ### Day 21–28: Additional supplements / interview
 
-- Immigration may request more (respond within 3–5 days)
+- Immigration may request more (respond by the deadline given)
 - Direct visit possible — scrivener accompaniment recommended
 
 ### Day 29–30: Final decision or departure prep
@@ -141,32 +141,32 @@ Choose among 4:
 
 ## 4. Strategy by Denial Reason
 
-### 🔴 Criminal-record denial
+### Criminal-record denial
 Hardest case:
 - For a deportation order, file an objection within 7 days of receiving the order (Immigration Act Article 60(1))
-- Status change to other status (low probability)
-- Voluntary departure → future entry-ban shortening
+- Status change to other status
+- Voluntary departure → considered in later entry decisions
 
-### 🟡 Insufficient financial capacity
+### Insufficient financial capacity
 - Additional bank balance proof
 - Parental remittance contract (notarized)
 - Korean sponsor registration (asset-rich)
 - Four-major-insurance enrollment record (work visa)
 
-### 🟢 Activity not recognized
+### Activity not recognized
 - Real employment / business proof
 - Photos, video, colleague statements
 - Transaction history, contracts
 - Workplace inspection guide
 
-### 🟡 F-6 marriage authenticity doubted
+### F-6 marriage authenticity doubted
 - Wedding photos, cohabitation photos
 - Spouse testimony
 - Both families meeting records
 - Joint property / residence proof
 - Daily KakaoTalk, video-call records
 
-### 🟡 D-2 academic underperformance
+### D-2 academic underperformance
 - School statement (academic intent)
 - Additional semester registration proof
 - Korean-language study proof
@@ -189,11 +189,6 @@ Central Administrative Appeal Commission (https://www.acrc.go.kr).
 ### Cost
 Free claim filing; scrivener fee separate.
 
-### Success rate
-- General: 20–40%
-- Clear officer error: high
-- Criminal-related: very low
-
 ## 6. Status-Change Options
 
 By denied status:
@@ -210,11 +205,10 @@ By denied status:
 ## 7. Strategic Value of Voluntary Departure
 
 Voluntary departure **before** receiving departure order:
-- Shorten entry ban (5 yr → 2~3 yr)
+- Can be considered when the entry-ban period is set
 - Favorable for future re-entry
-- Shorter PR-application bar
 
-⚠️ Must be **before** departure order. Post-order departure = same as forced.
+Timing matters: check your options with the immigration office before an order is issued.
 
 ## 8. Sunshine's Denial-Response Package
 
@@ -230,15 +224,15 @@ Applicants in Korea or abroad can engage; Korean family can attend on behalf.
 
 ## 9. Five Common Mistakes
 
-1. ❌ Confusing supplementary with denial → not submitting documents
-2. ❌ Missing 30-day deadline → automatic deportation
-3. ❌ Submitting inappropriate self-judgment documents → more suspicion
-4. ❌ Resubmitting same documents that caused denial
-5. ❌ Wrong choice among objection / status change / voluntary departure
+1. Confusing supplementary with denial → not submitting documents
+2. Missing the deadline in the notice → overstay and possible deportation
+3. Submitting inappropriate self-judgment documents → more suspicion
+4. Resubmitting same documents that caused denial
+5. Wrong choice among objection / status change / voluntary departure
 
 ## 10. Get Diagnosed Now
 
-**30 days is very short.** The first 7 days determine 80% of results. Engage a professional immediately.
+**Deadlines are short.** Check the dates on your notice first and start early.
 
 **Free initial diagnosis — multilingual**
 
@@ -247,6 +241,6 @@ Applicants in Korea or abroad can engage; Korean family can attend on behalf.
 ---
 
 **Related articles:**
-- [Korea Immigration Offense Review — Complete Guide](/en/blog/immigration-offense-review-guide)
+- [Korea Immigration Offense Review Guide](/en/blog/immigration-offense-review-guide)
 - [Criminal Cases and Visa Defense](/en/blog/criminal-case-visa-defense)
 - [Impact on Permanent Residency](/en/blog/criminal-record-pr-impact)

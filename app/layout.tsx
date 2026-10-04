@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { COMPANY, SITE } from "./lib/constants";
-import Webfonts from '@/components/Webfonts';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
@@ -69,41 +68,13 @@ export const metadata: Metadata = {
   },
 };
 
+// <html> 은 각 최상위 레이아웃([locale]/layout · (legacy)/layout · not-found)이 HtmlShell 로 그린다.
+// 그래야 서버 HTML 의 <html lang> 이 언어별(ko·en·ja·zh-Hans·vi)로 나간다(LAW-V1 P0-3).
+// metadata 는 여기서 그대로 모든 하위 라우트에 상속된다.
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-    <html lang="ko" className="h-full antialiased">
-      <head>
-        <Webfonts />
-        {/* Organization JSON-LD 는 [locale]/layout 의 siteGraph(@id #organization) 한 곳에서만 선언한다.
-            여기서 같은 @id 로 ProfessionalService 를 또 내면 엔티티가 2번 선언된다(I3b, 맥7 2026-10-03). */}
-      </head>
-      <body className="min-h-full font-sans">
-        {children}
-        {/* gtag 번들은 176KB 로 이 페이지 전체 전송량의 23% 다. async 로 두면 문서 파싱
-            직후부터 받기 시작해 LCP 와 대역폭을 다툰다(홈 LCP 요소는 본문 <p> 텍스트이고
-            Render Delay 가 93% 였다). window load 이후에 주입해도 페이지뷰 집계는 같다.
-            2026-09-27: load+0ms 는 load 가 0.5s 에 떨어지는 이 페이지에서는 여전히
-            LCP 구간 안이었다(실측 557ms 시작). '첫 상호작용 또는 load+2500ms 중
-            먼저 오는 쪽' 으로 더 내린다 — visaskorea 홈과 같은 방식이다. */}
-        {SITE.gaId && (
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', '${SITE.gaId}');
-(function(){var fired=false;var load=function(){if(fired)return;fired=true;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=${SITE.gaId}';document.head.appendChild(s);};
-var evts=['pointerdown','keydown','scroll','touchstart'];for(var i=0;i<evts.length;i++){window.addEventListener(evts[i],load,{once:true,passive:true});}
-var arm=function(){setTimeout(load,2500);};
-if(document.readyState==='complete'){arm();}else{window.addEventListener('load',arm,{once:true});}})();`,
-            }}
-          />
-        )}
-      </body>
-    </html>
-  );
+  return children;
 }

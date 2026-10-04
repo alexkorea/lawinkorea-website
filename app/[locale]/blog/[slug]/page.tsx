@@ -345,7 +345,7 @@ export default async function LocaleBlogPost({ params }: { params: Promise<Param
           </p>
           <div style={{ display: "flex", gap: 12, justifyContent: "center", flexWrap: "wrap" }}>
             <Link
-              href="/#contact"
+              href={`/${locale}/contact`}
               style={{
                 background: "#fff",
                 color: ACCENT.navy,

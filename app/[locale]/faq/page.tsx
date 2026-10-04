@@ -27,7 +27,7 @@ const CONTENT: Record<L, { title: string; items: { q: string; a: string }[] }> =
     title: "Frequently Asked Questions",
     items: [
       { q: "Is immigration offense review different from criminal punishment?", a: "Yes. Criminal punishment is handled by the prosecution and courts, while immigration offense review is conducted separately by the Immigration Office. Even if you received a not-guilty verdict or suspended indictment, an immigration review may still proceed." },
-      { q: "If I receive a departure order, must I leave immediately?", a: "You can appeal a departure order, and in some cases you may receive permission to stay if certain conditions are met. Timely response is critical." },
+      { q: "If I receive a departure order (exit order), must I leave immediately?", a: "You can appeal a departure order, and in some cases you may receive permission to stay if certain conditions are met. Timely response is critical." },
       { q: "Can I write the written explanation myself?", a: "Yes, but it requires clear fact organization and understanding of the legal context. Having an administrative scrivener assist typically leads to a more thorough submission." },
       { q: "Can I consult if I don't speak Korean?", a: "Yes. Consultations are available in English, Chinese, and Japanese." },
       { q: "Can a foreign national keep their visa status after a DUI?", a: "It depends on whether it's a first offense, the BAC level, attitude, length of stay, and other factors. We review the possibilities during consultation." },

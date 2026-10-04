@@ -234,7 +234,7 @@ export default async function LocaleBlogIndex({ params }: { params: Promise<{ lo
           }}
         >
           <Link
-            href="/#contact"
+            href={`/${locale}/contact`}
             style={{
               background: ACCENT.primary,
               color: "#fff",

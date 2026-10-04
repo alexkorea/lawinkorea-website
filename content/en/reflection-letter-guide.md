@@ -123,7 +123,7 @@ An administrative scrivener may draft documents submitted to administrative agen
 **Related pages**
 - [What is an immigration offense review, and what should you prepare?](/en/immigration-offense-review)
 - [Documents to prepare for an immigration offense review](/en/documents)
-- [Korea immigration offense review — complete guide](/en/blog/immigration-offense-review-guide)
+- [Korea immigration offense review guide](/en/blog/immigration-offense-review-guide)
 - [DUI and visa extension for foreigners in Korea](/en/blog/dui-foreigner-visa)
 - [What to do after an immigration fine notice](/en/blog/immigration-fine-notice-response-2026)
 

@@ -33,7 +33,7 @@ related:
   - "unauthorized-activity-disposition-2026"
 ---
 
-Chủ sử dụng thuê người nước ngoài không có tư cách lưu trú được phép làm việc là vi phạm Điều 18 khoản 3 Luật Quản lý Xuất nhập cảnh Hàn Quốc và có thể bị **phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won** (Điều 94 khoản 9). Khi đã xác định được vi phạm qua điều tra, cơ quan xuất nhập cảnh có thể thông báo bằng văn bản yêu cầu nộp tiền phạt (Điều 102 khoản 1). Mức chuẩn tùy theo số người được thuê và thời gian vi phạm, **từ 3 triệu won cho 1 người dưới 3 tháng, tối đa 30 triệu won**. Ngoài ra, chủ sử dụng có thể bị hạn chế mời người nước ngoài và tuyển lao động nước ngoài trong một thời gian.
+Chủ sử dụng thuê người nước ngoài không có tư cách lưu trú được phép làm việc là vi phạm Điều 18 khoản 3 Luật Quản lý Xuất nhập cảnh Hàn Quốc và có thể bị **phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won** (Điều 94 khoản 9). Khi đã xác định được vi phạm qua điều tra, cơ quan xuất nhập cảnh có thể thông báo bằng văn bản yêu cầu nộp tiền phạt (thông báo xử phạt — giấy báo tiền phạt, Điều 102 khoản 1). Mức chuẩn tùy theo số người được thuê và thời gian vi phạm, **từ 3 triệu won cho 1 người dưới 3 tháng, tối đa 30 triệu won**. Ngoài ra, chủ sử dụng có thể bị hạn chế mời người nước ngoài và tuyển lao động nước ngoài trong một thời gian.
 
 > **Tóm tắt**
 > - Căn cứ: Luật Quản lý Xuất nhập cảnh Điều 18 khoản 3 (cấm thuê) → Điều 94 khoản 9 (tù đến 3 năm hoặc phạt đến 30 triệu won)

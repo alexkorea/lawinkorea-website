@@ -21,17 +21,17 @@ const metaData: Record<L, { title: string; description: string }> = {
 // 비-ko 허브 본문(R2 2026-10-03). 근거: 출입국관리법 제68조①1호·③·④, 제46조①, 제11조①6호(lawfetch 대조). 없는 로캘은 기존 자리표시 유지.
 const HUB_INTRO: Partial<Record<Exclude<L, "ko">, { lead: string; h2: string; body: string }>> = {
   en: {
-    lead: "Immigration dispositions in Korea differ in their legal nature and consequences. This page explains the difference between a departure order and deportation, and links to the guides on voluntary departure, entry bans and status cancellation.",
+    lead: "Immigration dispositions in Korea differ in their legal nature and consequences. This page explains the difference between a departure order (exit order) and deportation, and links to the guides on voluntary departure, entry bans and status cancellation.",
     h2: "What is the difference between a departure order and deportation in Korea?",
     body: "A departure order (출국명령) is issued under Article 68 of the Immigration Control Act to a foreigner who is considered to fall under a deportation ground (Article 46(1)) but intends to leave voluntarily at their own expense, among other cases. It sets a departure deadline, and if the person does not leave by then, a deportation order is issued (Article 68(4)). Deportation (강제퇴거) is the measure by which the head of the immigration office forcibly removes a foreigner who falls under the grounds in Article 46. Under Article 11(1)(6), the Minister of Justice may ban entry of a person who left after receiving a deportation order and for whom five years have not yet passed. Actual re-entry restrictions depend on the written order and the visa type, so check the document you received before responding.",
   },
   zh: {
-    lead: "出入境处分的法律性质和后果各不相同。本页说明出境命令与强制驱逐有什么区别，并链接到自愿出境、禁止入境和居留资格取消的相关指南。",
+    lead: "出入境处分的法律性质和后果各不相同。本页说明出境命令与强制驱逐（强制遣返）有什么区别，并链接到自愿出境、禁止入境和居留资格取消的相关指南。",
     h2: "韩国出国命令和强制驱逐有什么区别",
     body: "出国命令（即出境命令）依据《出入境管理法》第68条，适用于被认为属于强制驱逐事由（第46条第1款各项）、但愿意自费自愿出境的人等，并会设定出境期限；如在期限内未出境，将被发出强制驱逐命令书（第68条第4款）。强制驱逐是指出入境机构负责人将属于第46条各项事由的外国人强制遣送出境的处分。依据第11条第1款第6项，接到强制驱逐命令后出境未满5年的人可能被禁止入境。具体的再入境限制取决于处分书内容和居留资格，请先确认您收到的文件。",
   },
   ja: {
-    lead: "出入国上の処分は、法的性質や結果がそれぞれ異なります。このページでは出国命令と強制退去の違いを説明し、自主出国・入国禁止・在留資格取消に関するガイドへご案内します。",
+    lead: "出入国上の処分は、法的性質や結果がそれぞれ異なります。このページでは出国命令と強制退去（強制送還）の違いを説明し、自主出国・入国禁止・在留資格取消に関するガイドへご案内します。",
     h2: "韓国の出国命令と強制退去の違い",
     body: "出国命令は出入国管理法第68条に基づき、強制退去事由(第46条第1項各号)に該当すると認められるものの、自己負担で自主的に出国しようとする人などに対して出され、出国期限が定められます。期限までに出国しない場合は、強制退去命令書が発付されることがあります(第68条第4項)。強制退去は、第46条各号に該当する外国人を出入国・外国人官署の長が韓国国外へ強制的に退去させる処分です。第11条第1項第6号により、強制退去命令を受けて出国した後5年が経過していない人は入国禁止の対象となることがあります。具体的な再入国の制限は、処分書の内容と在留資格によって確認が必要です。",
   },
@@ -39,7 +39,7 @@ const HUB_INTRO: Partial<Record<Exclude<L, "ko">, { lead: string; h2: string; bo
 
 const KO_FAQ = [
   { q: "출국권고와 출국명령은 같은 건가요?", a: "다를 수 있습니다. 자발적 출국을 권고하는 것과 명령의 성격은 구분되며, 이후 영향도 다를 수 있어 처분서 확인이 필요합니다." },
-  { q: "출국명령과 강제퇴거의 차이는 무엇인가요?", a: "강제성과 재입국에 미치는 영향 등에서 차이가 있을 수 있습니다. 각 상세 페이지에서 확인하실 수 있습니다." },
+  { q: "출국명령과 강제퇴거(강제추방)의 차이는 무엇인가요?", a: "강제성과 재입국에 미치는 영향 등에서 차이가 있을 수 있습니다. 각 상세 페이지에서 확인하실 수 있습니다." },
   { q: "범칙금과 벌금은 다른가요?", a: "근거와 성격이 다를 수 있습니다. 벌금은 형사처분, 범칙금·과태료는 행정상 처분의 성격을 가질 수 있습니다." },
   { q: "처분에 이의를 제기할 수 있나요?", a: "사안에 따라 이의신청·행정심판 등을 검토할 수 있습니다. 기한이 있으므로 빠른 확인이 필요합니다." },
   { q: "처분서를 잃어버렸는데 어떻게 하나요?", a: "받은 시점과 내용을 최대한 정리하고, 관련 통지·서류를 함께 확인해 대응 방향을 잡습니다." },
@@ -136,7 +136,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               { t: "출국권고", d: "자진 출국을 권고하는 처분일 수 있습니다.", href: null },
               { t: "출국명령", d: "출국을 명하는 처분으로, 기한과 재입국 영향을 확인해야 합니다.", href: "/ko/dispositions/departure-order" },
               { t: "강제퇴거명령", d: "강제로 출국시키는 처분. 보호와 함께 이루어질 수 있습니다.", href: "/ko/dispositions/deportation-order" },
-              { t: "보호 및 보호의 일시해제", d: "강제퇴거 절차 중 신병 확보를 위한 처분입니다.", href: "/ko/dispositions/detention" },
+              { t: "보호 및 보호의 일시해제", d: "강제퇴거 절차 중 신병 확보를 위한 처분입니다.", href: null },
               { t: "체류기간 연장 불허 / 변경 불허", d: "신청에 대한 거부 처분. 재신청·구제 가능 여부를 확인합니다.", href: "/ko/dispositions/visa-denial" },
               { t: "체류허가(자격) 취소", d: "이미 부여된 체류자격이 취소될 수 있는 처분입니다.", href: null },
               { t: "입국금지 및 사증발급 거절", d: "재입국과 비자 신청에 영향을 줍니다.", href: "/ko/dispositions/entry-ban" },
