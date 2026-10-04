@@ -17,12 +17,72 @@ import path from "node:path";
 // 워커 출구에서 직접 덮어쓴다. 정적자산은 `_routes.json` exclude 로 워커를 아예
 // 거치지 않으므로 장기 immutable 캐시는 그대로 유지된다.
 // ISR 의 짧은 s-maxage(예: s-maxage=2)는 의도된 값이라 건드리지 않는다.
+//
+// ── 0951: <head> 의 폰트·이미지 preload 를 Link 헤더로도 낸다(103 Early Hints) ──────
+// Pages 는 HTML 응답의 Link: rel=preload 를 캐시해 다음 요청부터 103 으로 먼저 보낸다.
+// 임계 서브셋 폰트가 HTML 도착 전에 출발해 첫 페인트가 JS 실행보다 앞선다(모바일 LCP).
+// 값은 응답 HTML 의 <head> 에서 그대로 뽑으므로 폰트 파일명이 바뀌어도 낡지 않는다.
+// script preload 는 넣지 않는다 — JS 가 페인트 전에 끝나면 LCP 가 오히려 늦어진다.
 const WORKER_WRAPPER = `import opennextWorker from "./_worker-opennext.js";
 export { DOQueueHandler, DOShardedTagCache, BucketCachePurge } from "./_worker-opennext.js";
 
 const HTML_CACHE_CONTROL = "public, max-age=0, must-revalidate";
 const LONG_S_MAXAGE_SECONDS = 60;
 const BODYLESS_STATUS = new Set([101, 204, 205, 304]);
+const HEAD_PEEK_LIMIT = 65536;
+
+function preloadLinks(head) {
+  const out = [];
+  const attr = (tag, name) => {
+    const m = new RegExp("\\\\b" + name + '="([^"]*)"', "i").exec(tag);
+    return m ? m[1].replace(/&amp;/g, "&") : "";
+  };
+  for (const tag of head.match(/<link\\b[^>]*>/gi) || []) {
+    if (attr(tag, "rel") !== "preload") continue;
+    const as = attr(tag, "as");
+    if (as !== "font" && as !== "image") continue;
+    const srcset = attr(tag, "imagesrcset");
+    const href = attr(tag, "href") || srcset.trim().split(/\\s+/)[0] || "";
+    if (!href.startsWith("/") || href.startsWith("//") || /[<>"\\s]/.test(href)) continue;
+    if (/[<>"]/.test(srcset)) continue;
+    let v = "<" + href + ">; rel=preload; as=" + as;
+    if (as === "font") v += "; type=font/woff2; crossorigin";
+    if (srcset) v += '; imagesrcset="' + srcset + '"; imagesizes="' + (attr(tag, "imagesizes") || "100vw") + '"';
+    const fp = attr(tag, "fetchpriority");
+    if (fp) v += "; fetchpriority=" + fp;
+    if (!out.some((x) => x.startsWith("<" + href + ">"))) out.push(v);
+  }
+  return out;
+}
+
+async function withEarlyHints(response) {
+  if (response.status !== 200 || !response.body) return response;
+  const reader = response.body.getReader();
+  const decoder = new TextDecoder();
+  const chunks = [];
+  let text = "";
+  while (text.length < HEAD_PEEK_LIMIT) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    chunks.push(value);
+    text += decoder.decode(value, { stream: true });
+    if (text.includes("</head>")) break;
+  }
+  const body = new ReadableStream({
+    start(controller) { for (const c of chunks) controller.enqueue(c); },
+    async pull(controller) {
+      const { done, value } = await reader.read();
+      if (done) controller.close(); else controller.enqueue(value);
+    },
+    cancel(reason) { return reader.cancel(reason); },
+  });
+  const patched = new Response(body, response);
+  const existing = patched.headers.get("link") || "";
+  const add = preloadLinks(text.split("</head>")[0]).filter((v) => !existing.includes(v.slice(0, v.indexOf(">") + 1)));
+  if (add.length) patched.headers.set("link", (existing ? existing + ", " : "") + add.join(", "));
+  return patched;
+}
+
 
 export default {
   async fetch(request, env, ctx) {
@@ -43,9 +103,10 @@ export default {
       url.pathname = normalized;
       return Response.redirect(url.toString(), 308);
     }
-    const response = await opennextWorker.fetch(request, env, ctx);
+    let response = await opennextWorker.fetch(request, env, ctx);
     if (!(response.headers.get("content-type") || "").includes("text/html")) return response;
     if (BODYLESS_STATUS.has(response.status)) return response;
+    if (request.method === "GET") response = await withEarlyHints(response);
     const match = /s-maxage=(\\d+)/i.exec(response.headers.get("cache-control") || "");
     if (!match || Number(match[1]) <= LONG_S_MAXAGE_SECONDS) return response;
     const patched = new Response(response.body, response);

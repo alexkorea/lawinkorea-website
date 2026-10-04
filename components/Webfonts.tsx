@@ -18,7 +18,7 @@ export default function Webfonts() {
         as="font"
         type="font/woff2"
         crossOrigin="anonymous"
-        href="/fonts/pretendard-critical-20260924.woff2"
+        href="/fonts/pretendard-critical-20261005.woff2"
       />
       <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="" />
       <link
