@@ -276,7 +276,7 @@ export default async function BlogPost({ params }: { params: Promise<Params> }) 
               marginBottom: 12,
             }}
           >
-            지금 바로 무료 진단을 받으세요
+            지금 바로 상담을 요청하세요
           </h3>
           <p
             style={{

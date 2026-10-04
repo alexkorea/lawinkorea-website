@@ -175,7 +175,7 @@ export default async function BlogIndex() {
           }}
         >
           <p style={{ fontSize: 14, color: ACCENT.textMute, margin: 0, marginBottom: 16 }}>
-            긴급 상황이라면 지금 바로 무료 진단을 받으세요.
+            긴급 상황이라면 지금 바로 상담을 요청하세요.
           </p>
           <Link
             href="/ko/contact"
@@ -189,7 +189,7 @@ export default async function BlogIndex() {
               display: "inline-block",
             }}
           >
-            무료 상담 신청 →
+            상담 요청하기 →
           </Link>
         </div>
       </section>

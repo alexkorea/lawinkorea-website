@@ -144,9 +144,9 @@ As soon as the result arrives, we initiate objection (within 7 days of receiving
 
 If you've been caught for DUI, **start preparing for the review even before the criminal track ends.** Starting after the criminal case closes can leave little time before the appearance.
 
-Sunshine Administrative Agency Office offers a **free initial diagnosis** — Korean, English, Chinese, Japanese all supported.
+Sunshine Administrative Agency Office offers an **initial consultation** — Korean, English, Chinese, Japanese, Vietnamese all supported.
 
-[Request your free diagnosis →](/en)
+[Request a consultation →](/en)
 
 ---
 

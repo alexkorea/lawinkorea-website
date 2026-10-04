@@ -171,6 +171,6 @@ Vì vậy cần giải trình hợp lý và chuẩn bị hồ sơ đầy đủ k
 Với vấn đề cư trú bất hợp pháp, nên kiểm tra sớm tình trạng và các lựa chọn của mình.
 Từ xuất cảnh tự nguyện, dỡ bỏ lệnh cấm đến xin visa nhập cảnh lại, Văn phòng Hành chính sĩ Sunshine sẽ đồng hành cùng bạn từng bước.
 
-**Hãy đăng ký tư vấn miễn phí ngay bây giờ.**
+**Hãy yêu cầu tư vấn ngay bây giờ.**
 
-[Đăng ký tư vấn miễn phí](/vi/contact)
+[Yêu cầu tư vấn](/vi/contact)

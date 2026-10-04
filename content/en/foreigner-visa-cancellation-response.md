@@ -19,7 +19,7 @@ faq:
   - q: "Does having family in Korea matter if I may be deported?"
     a: "Having Korean-national children or a spouse can be cited as humanitarian grounds to reduce the severity of the ruling. Always include your family circumstances in the appeal."
   - q: "How much does the process cost?"
-    a: "Costs vary by case. Please contact us for a free consultation where we can provide an accurate estimate."
+    a: "Costs vary by case. Please contact us for a consultation where we can provide an accurate estimate."
 ---
 
 Receiving a visa status cancellation notice can be alarming, but acting quickly gives you real options.
@@ -47,7 +47,7 @@ The best approach is prevention — but if you have already received a notice, i
 
 The window to file an objection is limited. Contact an expert now.
 
-**[Request an Emergency Free Consultation →](/en/contact)**
+**[Request an Emergency Consultation →](/en/contact)**
 
 ---
 
@@ -121,7 +121,7 @@ Having Korean-national children or a spouse can be cited as a humanitarian facto
 
 **Q5. How much does the process cost?**
 
-Costs vary by case. We provide an accurate estimate during your free consultation.
+Costs vary by case. We provide an accurate estimate during your consultation.
 
 ## Related Articles
 
@@ -132,9 +132,9 @@ Costs vary by case. We provide an accurate estimate during your free consultatio
 ---
 
 Sunshine Administrative Agency Office specializes in visa status cancellation defense and deportation appeals. We do not handle litigation or court representation (outside the scope of an administrative scrivener).
-Multilingual consultations available in English, Korean, Chinese, and Japanese.
+Multilingual consultations available in English, Korean, Chinese, Japanese, and Vietnamese.
 
-**[Request a Free Consultation Now →](/en/contact)**
+**[Request a Consultation Now →](/en/contact)**
 
 ---
 

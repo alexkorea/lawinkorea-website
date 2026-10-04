@@ -600,3 +600,56 @@ main > section > div:first-child:not([class*="hero"]):not([class*="full"]) {
     font-size: 14px;
   }
 }
+
+/* 모바일 하단 고정 연락 바(LAW-V1b) — 전화 · WhatsApp · 문의 폼 + 운영시간 안내 */
+.mobile-contact-bar,
+.mobile-contact-spacer {
+  display: none;
+}
+@media (max-width: 900px) {
+  .mobile-contact-spacer {
+    display: block;
+    height: 112px;
+    background: #0a1628;
+  }
+  .mobile-contact-bar {
+    display: block;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 50;
+    background: #fff;
+    border-top: 1px solid #cbd5e1;
+    box-shadow: 0 -4px 16px rgba(10, 22, 40, 0.12);
+    padding: 6px 10px calc(8px + env(safe-area-inset-bottom));
+  }
+  .mcb-note {
+    margin: 0 0 6px;
+    font-size: 11px;
+    line-height: 1.4;
+    color: #334155;
+    text-align: center;
+  }
+  .mcb-actions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+  }
+  .mcb-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    line-height: 1.2;
+  }
+  .mcb-phone { background: #0a1628; }
+  .mcb-wa { background: #128c4a; }
+  .mcb-form { background: #2563eb; }
+}

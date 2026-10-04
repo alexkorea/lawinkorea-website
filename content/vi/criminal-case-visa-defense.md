@@ -172,7 +172,7 @@ Kết quả của mỗi vụ việc phụ thuộc vào nhiều yếu tố; hồ 
 
 Gói hỗ trợ xem xét vi phạm cho án hình sự của [Văn phòng Hành chính sĩ Sunshine](/vi):
 
-1. **Phân tích vụ việc** (miễn phí trong ngày) — chẩn đoán mức xử lý hình sự và ảnh hưởng visa
+1. **Phân tích vụ việc** (trong ngày) — chẩn đoán mức xử lý hình sự và ảnh hưởng visa
 2. **Thu thập và sắp xếp tài liệu** (5~7 ngày) — hệ thống hóa hồ sơ gia đình/công việc/đóng góp
 3. **Soạn bản kiểm điểm, bản giải trình** (3~5 ngày) — tiếng Hàn + góc nhìn xuất nhập cảnh
 4. **Diễn tập buổi xem xét** (1~2 lần) — chuẩn bị câu hỏi và câu trả lời
@@ -183,7 +183,7 @@ Gói hỗ trợ xem xét vi phạm cho án hình sự của [Văn phòng Hành c
 
 Có thể bắt đầu chuẩn bị ngay sau khi vụ việc hình sự phát sinh. Nếu đợi thủ tục hình sự khép lại mới bắt đầu, thời gian chuẩn bị có thể bị hạn chế.
 
-**Chẩn đoán ban đầu miễn phí** — hỗ trợ tiếng Hàn, Anh, Trung, Nhật
+**Tư vấn ban đầu** — hỗ trợ tiếng Hàn, Anh, Trung, Nhật, Việt
 
 [Đăng ký chẩn đoán ngay →](/vi/contact)
 

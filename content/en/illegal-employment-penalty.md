@@ -153,7 +153,7 @@ Employer-foreigner cooperation:
 ## 8. Sunshine's Out-of-Status Protocol
 
 ### 5-step package
-1. Free initial diagnosis
+1. Initial consultation
 2. Self-report simulation (1–3 days)
 3. Offense-review preparation (5–10 days)
 4. Office attendance with translation (day-of)
@@ -169,7 +169,7 @@ Employer-foreigner cooperation:
 
 Out-of-status activity is **time-critical**. Whether you self-reported before detection is considered in the review.
 
-**Free initial diagnosis — confidential — multilingual**
+**Initial consultation — confidential — multilingual**
 
 [Request your diagnosis →](/en)
 

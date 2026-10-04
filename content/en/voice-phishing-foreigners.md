@@ -157,7 +157,7 @@ Voice-phishing cases require strong criminal defense.
 ## 9. Sunshine's Voice-Phishing Protocol
 
 ### 4-step package
-1. Free initial diagnosis (same day, confidential)
+1. Initial consultation (same day, confidential)
 2. Surrender / cooperation simulation (1–2 days)
 3. Offense-review documents (10–14 days)
 4. Office attendance + post-decision strategy
@@ -169,7 +169,7 @@ Voice-phishing cases impact family and workplace heavily. Sunshine keeps your co
 
 **Timing matters.** Self-surrender and cooperation are considered in the review.
 
-**Free initial diagnosis — confidential — multilingual**
+**Initial consultation — confidential — multilingual**
 
 [Request your diagnosis →](/en)
 

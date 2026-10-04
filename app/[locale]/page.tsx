@@ -4,6 +4,16 @@ import type { Metadata } from "next";
 import { SITE } from "../lib/constants";
 import { faqSchema } from "../lib/schema";
 import ConfidentialityNote from "../components/ConfidentialityNote";
+import ContactChannels, { HoursNotice } from "../components/ContactChannels";
+import RepresentativeCard from "../components/RepresentativeCard";
+
+// 홈 연락 영역(LAW-V1b 2·4) — 담당 행정사 사진·등록정보 + 메신저·전화·이메일. ko 와 외국어 홈 공통.
+const HomeContactArea = ({ l }: { l: L }) => (
+  <section style={{ maxWidth: 800, margin: "0 auto", padding: "64px 24px 32px" }}>
+    <RepresentativeCard locale={l} />
+    <ContactChannels locale={l} />
+  </section>
+);
 
 // ko 홈 FAQ — 화면과 FAQPage 의 단일 원천(I3b 2026-10-03)
 const KO_HOME_FAQ: { q: string; a: string }[] = [
@@ -102,7 +112,11 @@ const KoHomePage = () => (
             내 사건 유형부터 확인하기
           </a>
         </div>
-        <p style={{ fontSize: 13, color: "#475569", marginTop: 24 }}>한국어·English·日本語·中文 상담 지원</p>
+        <p style={{ fontSize: 13, color: "#475569", marginTop: 24 }}>한국어·English·日本語·中文·Tiếng Việt 상담 지원</p>
+        {/* 첫 화면 운영시간 안내(LAW-V1b 6) */}
+        <div style={{ maxWidth: 560, margin: "20px auto 0" }}>
+          <HoursNotice locale="ko" tone="dark" />
+        </div>
       </div>
     </section>
 
@@ -211,7 +225,7 @@ const KoHomePage = () => (
           <li>출입국 제출용 소명자료와 진술서·사유서·탄원서 등 행정서류 작성을 지원합니다.</li>
           <li>출입국 출석 전 서류를 검토하고 체류 관련 행정절차를 안내합니다.</li>
           <li>제출 자료와 상담 내용은 보안에 유의하여 관리합니다.</li>
-          <li>한국어·영어·일본어·중국어 상담을 지원합니다.</li>
+          <li>한국어·영어·일본어·중국어·베트남어 상담을 지원합니다.</li>
         </ul>
         <p style={{ fontSize: 13, color: "#64748b", marginTop: 16 }}>
           형사재판 변론 등 소송·재판 대리는 하지 않습니다(행정사 업무 범위 밖).
@@ -267,6 +281,8 @@ const KoHomePage = () => (
       </div>
     </section>
 
+    <HomeContactArea l="ko" />
+
     {/* 하단 CTA */}
     <section style={{ background: "#0a1628", color: "#fff", padding: "64px 24px", textAlign: "center" }}>
       <p style={{ fontSize: 18, fontWeight: 600, marginBottom: 8 }}>출입국 출석일이나 비자 만료일이 임박했다면 서두르는 것이 좋습니다.</p>
@@ -316,7 +332,7 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
       sub1: "Even after criminal proceedings end, immigration issues may be reviewed separately.",
       sub2: "Whether you received a fine, a suspended sentence, or a non-prosecution decision, immigration authorities may still review your residency status independently. What you prepare — and when — can make a significant difference.",
       cta1: "Urgent Consultation", cta2: "Check My Offense Type",
-      langs: "Available in Korean · English · Japanese · Chinese",
+      langs: "Available in Korean · English · Japanese · Chinese · Vietnamese",
     },
     situations: {
       title: "You may need to act if you are in one of these situations",
@@ -375,7 +391,7 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
         "We assist with preparing explanatory statements, supporting documents, and administrative paperwork for immigration submissions.",
         "We review your documents before your immigration appointment and guide you through residency procedures.",
         "All consultation content and submitted materials are handled with strict confidentiality.",
-        "Consultations available in Korean, English, Japanese, and Chinese.",
+        "Consultations available in Korean, English, Japanese, Chinese, and Vietnamese.",
       ],
       note: "We do not handle litigation or court representation, including criminal defense (outside the scope of an administrative scrivener).",
     },
@@ -417,7 +433,7 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
       sub1: "刑事手続きが終わっても、出入国上の判断は別途行われることがあります。",
       sub2: "罰金刑・起訴猶予・執行猶予を受けた場合でも、出入国当局が在留資格を独自に審査することがあります。何を、いつ、どのように準備するかによって、説明できる事情が変わります。",
       cta1: "緊急相談", cta2: "事件の種類を確認する",
-      langs: "韓国語・英語・日本語・中国語対応",
+      langs: "韓国語・英語・日本語・中国語・ベトナム語対応",
     },
     situations: {
       title: "このような状況なら確認が必要です",
@@ -475,7 +491,7 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
         "出入国提出用の疎明資料・陳述書・理由書・嘆願書等の行政書類作成をサポートします。",
         "出入国出頭前に書類を確認し、在留関連の行政手続きをご案内します。",
         "提出資料と相談内容はセキュリティに配慮して管理します。",
-        "韓国語・英語・日本語・中国語での相談に対応しています。",
+        "韓国語・英語・日本語・中国語・ベトナム語での相談に対応しています。",
       ],
       note: "刑事裁判の弁護を含む訴訟・裁判の代理は行いません(行政書士の業務範囲外)。",
     },
@@ -515,7 +531,7 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
       sub1: "刑事程序结束后，出入境问题仍可能被单独审查。",
       sub2: "即使您收到了罚款、缓刑或不起诉处分，出入境当局也可能独立审查您的居留资格。您准备什么、何时准备、如何准备，都可能影响最终结果。",
       cta1: "紧急咨询", cta2: "查看我的违规类型",
-      langs: "支持韩语·英语·日语·中文咨询",
+      langs: "支持韩语·英语·日语·中文·越南语咨询",
     },
     situations: {
       title: "如果您处于以下情况，请立即确认",
@@ -573,7 +589,7 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
         "协助准备向出入境机构提交的证明材料、陈述书、理由书及行政文件。",
         "在出席出入境机构前审查文件，并指导相关行政手续。",
         "提交材料和咨询内容均严格保密管理。",
-        "提供韩语、英语、日语、中文咨询服务。",
+        "提供韩语、英语、日语、中文、越南语咨询服务。",
       ],
       note: "本所不承办刑事审判辩护等诉讼、庭审代理（超出行政士业务范围）。",
     },
@@ -613,7 +629,7 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
       sub1: "Dù thủ tục hình sự đã kết thúc, vấn đề xuất nhập cảnh vẫn có thể được xem xét riêng.",
       sub2: "Dù bạn nhận được phán quyết phạt tiền, án treo hay không khởi tố, cơ quan xuất nhập cảnh vẫn có thể xem xét tư cách lưu trú của bạn một cách độc lập. Bạn chuẩn bị gì, vào lúc nào và như thế nào đều có thể tạo ra sự khác biệt đáng kể.",
       cta1: "Tư vấn khẩn cấp", cta2: "Kiểm tra loại vi phạm của tôi",
-      langs: "Hỗ trợ tư vấn bằng tiếng Hàn · Anh · Nhật · Trung",
+      langs: "Hỗ trợ tư vấn bằng tiếng Hàn · Anh · Nhật · Trung · Việt",
     },
     situations: {
       title: "Bạn cần kiểm tra ngay nếu đang trong các tình huống sau",
@@ -671,7 +687,7 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
         "Hỗ trợ chuẩn bị tài liệu trình bày, thư giải thích và các văn bản hành chính để nộp cho cơ quan xuất nhập cảnh.",
         "Xem xét tài liệu trước buổi gặp tại cơ quan xuất nhập cảnh và hướng dẫn thủ tục hành chính liên quan đến lưu trú.",
         "Nội dung tư vấn và tài liệu nộp đều được quản lý với tính bảo mật nghiêm ngặt.",
-        "Tư vấn bằng tiếng Hàn, Anh, Nhật và Trung.",
+        "Tư vấn bằng tiếng Hàn, Anh, Nhật, Trung và Việt.",
       ],
       note: "Chúng tôi không đại diện tố tụng hoặc tại tòa, kể cả biện hộ trong phiên tòa hình sự (ngoài phạm vi nghiệp vụ của hành chính sĩ).",
     },
@@ -718,6 +734,10 @@ const GenericHomePage = ({ l }: { l: Exclude<L, "ko"> }) => {
             <a href={`/${l}/offenses`} style={{ display: "inline-block", background: "#1e40af", color: "#fff", padding: "14px 28px", borderRadius: 6, fontSize: 15, fontWeight: 600, textDecoration: "none" }}>{c.hero.cta2}</a>
           </div>
           <p style={{ fontSize: 13, color: "#475569", marginTop: 20 }}>{c.hero.langs}</p>
+          {/* 첫 화면 운영시간 안내(LAW-V1b 6) */}
+          <div style={{ maxWidth: 560, margin: "20px auto 0" }}>
+            <HoursNotice locale={l} tone="dark" />
+          </div>
         </div>
       </section>
 
@@ -827,6 +847,8 @@ const GenericHomePage = ({ l }: { l: Exclude<L, "ko"> }) => {
           </div>
         </div>
       </section>
+
+      <HomeContactArea l={l} />
 
       {/* 하단 CTA */}
       <section style={{ background: "#0a1628", color: "#fff", padding: "64px 24px", textAlign: "center" }}>

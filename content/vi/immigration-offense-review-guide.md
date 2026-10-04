@@ -30,9 +30,9 @@ faq:
   - q: "Đã một lần bị xem xét vi phạm thì không xin được thường trú (F-5) nữa à?"
     a: "Điều đó tùy loại quyết định và thời điểm. Bị trục xuất hay có tiền án có thể là yếu tố bất lợi trong một thời gian nhất định; thời gian cụ thể phụ thuộc vào tiêu chuẩn hiện hành và từng trường hợp. Cần chẩn đoán theo từng trường hợp."
   - q: "Chi phí (phí dịch vụ hành chính sĩ) là bao nhiêu?"
-    a: "Tùy độ phức tạp của vụ việc và giấy tờ cần thiết. Chúng tôi báo giá chính xác sau buổi chẩn đoán ban đầu miễn phí. Khoản này tách biệt với lệ phí nhà nước theo quy định."
+    a: "Tùy độ phức tạp của vụ việc và giấy tờ cần thiết. Chúng tôi báo giá chính xác sau buổi tư vấn ban đầu. Khoản này tách biệt với lệ phí nhà nước theo quy định."
   - q: "Tôi chưa nhận thông báo, có thể chẩn đoán trước không?"
-    a: "Được. Với người từng dính DUI hay án hình sự, việc kiểm tra trước khi đến kỳ gia hạn visa có thể giúp chuẩn bị hồ sơ kịp thời. Hãy đăng ký tư vấn miễn phí."
+    a: "Được. Với người từng dính DUI hay án hình sự, việc kiểm tra trước khi đến kỳ gia hạn visa có thể giúp chuẩn bị hồ sơ kịp thời. Hãy yêu cầu tư vấn."
 related:
   - "dui-foreigner-visa"
   - "criminal-case-visa-defense"
@@ -124,7 +124,7 @@ Những tài liệu cho thấy sự gắn bó và đóng góp của bạn tại 
 
 Đi một mình, bạn khó biết nên nói gì và nên nhấn mạnh giấy tờ nào. Có thể cân nhắc nhờ chuyên gia am hiểu thực tiễn đi cùng và diễn tập trước.
 
-[Nhận chẩn đoán miễn phí ngay →](/vi/contact)
+[Yêu cầu tư vấn ngay →](/vi/contact)
 
 ## 4. Kết quả: những quyết định có thể được đưa ra
 
@@ -152,7 +152,7 @@ Khác biệt lớn nhất nằm giữa **"lệnh xuất cảnh" và "trục xu�
 ## 6. Quy trình ứng phó 5 bước của Sunshine
 
 
-### Bước 1. Tiếp nhận và chẩn đoán ban đầu miễn phí (trong 1 ngày)
+### Bước 1. Tiếp nhận và tư vấn ban đầu (trong 1 ngày)
 
 Nắm chính xác tình huống và đánh giá mức độ rủi ro. Hỗ trợ đa ngôn ngữ, qua KakaoTalk, WeChat, LINE hay WhatsApp đều được.
 
@@ -191,4 +191,4 @@ Mục FAQ phía trên đã tổng hợp 10 câu hỏi cốt lõi. Các câu hỏ
 
 Khi nhận thông báo xem xét vi phạm, việc kiểm tra thời hạn và chuẩn bị hồ sơ sớm giúp bạn có thời gian trình bày đầy đủ tình tiết. Kết quả phụ thuộc vào từng vụ việc.
 
-Văn phòng Hành chính sĩ Sunshine cung cấp chẩn đoán ban đầu miễn phí. **Hãy liên hệ mà không cần đắn đo.** Ngay cả khi tiếng Hàn còn hạn chế, chúng tôi hỗ trợ tiếng Anh, Trung và Nhật.
+Văn phòng Hành chính sĩ Sunshine cung cấp tư vấn ban đầu. **Hãy liên hệ mà không cần đắn đo.** Ngay cả khi tiếng Hàn còn hạn chế, chúng tôi hỗ trợ tiếng Anh, Trung, Nhật và Việt.

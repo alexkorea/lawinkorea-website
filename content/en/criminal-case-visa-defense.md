@@ -139,7 +139,7 @@ The difference is **not the offense or fine**. It's **document depth from the im
 ## 6. What Sunshine Adds
 
 [Sunshine Administrative Agency Office](/en) protocol:
-1. Case analysis (free, same day)
+1. Case analysis (same day)
 2. Document collection and packaging (5–7 days)
 3. Reason letter / petition drafting (3–5 days)
 4. Attendance simulation (1–2 sessions)
@@ -150,7 +150,7 @@ The difference is **not the offense or fine**. It's **document depth from the im
 
 The criminal-incident moment is a good starting point. Starting after criminal closure can leave little time before the review appearance.
 
-**Free initial diagnosis** — Korean, English, Chinese, Japanese.
+**Initial consultation** — Korean, English, Chinese, Japanese, Vietnamese.
 
 [Book your diagnosis →](/en)
 

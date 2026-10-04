@@ -6,6 +6,7 @@ import {
   toMailLocale,
   type MailLocale,
 } from "@/app/lib/intake-mail";
+import { COMPANY } from "@/app/lib/constants";
 
 export const runtime = "nodejs";
 
@@ -87,7 +88,8 @@ async function sendCustomerEmail(
 ): Promise<boolean> {
   if (!customerEmail) return false;
   const { subject, html } = customerConfirmMail(data, locale, receivedAt);
-  return sendMail({ to: customerEmail, subject, html, replyTo: NOTIFY_EMAIL });
+  // 고객에게 보이는 회신 주소는 대외 표기 이메일(help@lawinkorea.com)로 — 개인 Gmail 주소 노출 금지(LAW-V1b 7).
+  return sendMail({ to: customerEmail, subject, html, replyTo: COMPANY.email });
 }
 
 function rt(text: unknown) {

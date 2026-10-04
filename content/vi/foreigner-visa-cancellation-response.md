@@ -20,7 +20,7 @@ faq:
   - q: "Có gia đình ở Hàn Quốc vẫn bị trục xuất (cưỡng chế xuất cảnh) sao?"
     a: "Nếu có con hoặc vợ/chồng mang quốc tịch Hàn Quốc, quyết định có thể được giảm nhẹ vì lý do nhân đạo. Nhất định phải nêu hoàn cảnh gia đình trong đơn khiếu nại."
   - q: "Chi phí khoảng bao nhiêu?"
-    a: "Chi phí khác nhau theo từng vụ việc, chúng tôi sẽ báo chính xác trong buổi tư vấn miễn phí."
+    a: "Chi phí khác nhau theo từng vụ việc, chúng tôi sẽ báo chính xác trong buổi tư vấn."
 related:
   - "immigration-offense-review-guide"
   - "illegal-employment-penalty"
@@ -52,7 +52,7 @@ Tốt nhất là phòng ngừa trước khi nhận thông báo; nhưng nếu đ�
 
 Thời hạn khiếu nại rất ngắn. Hãy tư vấn chuyên gia ngay bây giờ.
 
-**[Đăng ký tư vấn khẩn cấp miễn phí →](/vi/contact)**
+**[Yêu cầu tư vấn khẩn cấp →](/vi/contact)**
 
 ---
 
@@ -126,7 +126,7 @@ Nhất định phải nêu hoàn cảnh gia đình trong đơn khiếu nại.
 
 **Q5. Chi phí khoảng bao nhiêu?**
 
-Chi phí khác nhau theo từng vụ việc, chúng tôi sẽ báo chính xác trong buổi tư vấn miễn phí.
+Chi phí khác nhau theo từng vụ việc, chúng tôi sẽ báo chính xác trong buổi tư vấn.
 
 ## Bài viết liên quan
 
@@ -137,9 +137,9 @@ Chi phí khác nhau theo từng vụ việc, chúng tôi sẽ báo chính xác t
 ---
 
 Văn phòng Hành chính sĩ Sunshine chuyên xử lý hủy tư cách lưu trú, khiếu nại quyết định trục xuất và khởi kiện hành chính.
-Có hỗ trợ tư vấn bằng tiếng nước ngoài (Anh, Trung, Nhật).
+Có hỗ trợ tư vấn bằng tiếng nước ngoài (Anh, Trung, Nhật, Việt).
 
-**[Đăng ký tư vấn miễn phí ngay →](/vi/contact)**
+**[Yêu cầu tư vấn ngay →](/vi/contact)**
 
 ---
 

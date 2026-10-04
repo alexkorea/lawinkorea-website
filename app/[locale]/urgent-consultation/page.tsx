@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { pageMetadata } from "../../lib/seo";
 import { breadcrumbSchema, faqSchema } from "../../lib/schema";
 import ConfidentialityNote from "../../components/ConfidentialityNote";
+import ContactChannels, { HoursNotice } from "../../components/ContactChannels";
 import { SITUATIONS, SITUATION_SLUGS } from "../../lib/situations";
 
 const VALID_LOCALES = ["ko", "en", "ja", "zh", "vi"] as const;
@@ -143,6 +144,12 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           ))}
         </ul>
       </div>
+
+      {/* 운영시간 외 안내 + 메신저·전화·이메일(LAW-V1b 2·6·7) */}
+      <div style={{ marginBottom: 24 }}>
+        <HoursNotice locale={l} />
+      </div>
+      <ContactChannels locale={l} />
 
       <div style={{ display: "grid", gap: 16, marginBottom: 40 }}>
         {c.steps.map((step, i) => (

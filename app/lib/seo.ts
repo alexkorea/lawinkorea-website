@@ -91,27 +91,27 @@ export const PAGE_SEO: Record<string, Record<Locale, Seo>> = {
   },
   contact: {
     ko: {
-      title: "상담 신청 — 출입국사범심사 무료 초기 진단",
+      title: "상담 신청 — 출입국사범심사 상담 요청",
       description:
         "출입국사범심사 통보를 받았다면 기한 내 대응이 결과를 좌우합니다. 전화·이메일·카카오톡으로 상황을 알려주시면 평일 기준 1시간 이내에 초기 진단 결과와 필요한 준비 서류를 회신드립니다.",
     },
     en: {
-      title: "Contact Sunshine — Free Initial Immigration Case Review",
+      title: "Contact Sunshine — Request an Immigration Case Consultation",
       description:
         "If you have received an immigration offense review notice, responding within the deadline decides the outcome. Send us your situation by phone, email or KakaoTalk and we reply with an initial assessment within one hour on weekdays.",
     },
     zh: {
-      title: "联系我们 — 出入境事犯审查免费初步诊断",
+      title: "联系我们 — 申请出入境事犯审查咨询",
       description:
         "收到出入境事犯审查通知后，在期限内应对将左右结果。通过电话、电子邮件或KakaoTalk告知您的情况，我们将在工作日1小时内回复初步诊断结果与所需准备文件。",
     },
     ja: {
-      title: "お問い合わせ — 出入国事犯審査の無料初期診断",
+      title: "お問い合わせ — 出入国事犯審査の相談申込",
       description:
         "出入国事犯審査の通知を受け取ったら、期限内の対応が結果を左右します。電話・メール・カカオトークで状況をお知らせいただければ、平日1時間以内に初期診断結果と必要書類をご返信します。",
     },
     vi: {
-      title: "Liên hệ Sunshine — Chẩn đoán ban đầu miễn phí về hồ sơ XNC",
+      title: "Liên hệ Sunshine — Yêu cầu tư vấn hồ sơ XNC",
       description:
         "Nếu bạn nhận được thông báo xem xét vi phạm xuất nhập cảnh, phản hồi đúng hạn sẽ quyết định kết quả. Hãy gửi tình huống qua điện thoại, email hoặc KakaoTalk — chúng tôi trả lời trong 1 giờ vào ngày làm việc.",
     },

@@ -175,7 +175,7 @@ Korean F-5 / citizenship application: **disclose foreign criminal records too.**
 ## 9. Sunshine's PR Consulting
 
 ### 5-step package
-1. Free initial diagnosis — criminal record + status + family review
+1. Initial consultation — criminal record + status + family review
 2. Application timing review — waiting-period check
 3. Document collection — Korean residence, income, language, family, mitigation
 4. Application + reason letter drafting
@@ -190,7 +190,7 @@ Korean F-5 / citizenship application: **disclose foreign criminal records too.**
 
 F-5 application timing must be **neither too early nor too late.** Pre-diagnosis of exact bar expiry and document preparation is critical.
 
-**Free initial diagnosis — multilingual**
+**Initial consultation — multilingual**
 
 [Request your diagnosis →](/en)
 

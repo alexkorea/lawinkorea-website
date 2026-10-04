@@ -89,6 +89,8 @@ export function personSchema(locale: string) {
     jobTitle: REP_JOB_TITLE[locale] ?? REP_JOB_TITLE.ko,
     worksFor: { "@id": ORG_ID },
     url: `${SITE.url}/${locale}/about`,
+    // 대표 사진 — visaskorea.com 공식 사진(보스 msg 1808). 자격번호·경력(hasCredential)은 넣지 않는다.
+    image: `${SITE.url}/team/hankt.jpg`,
     knowsLanguage: ["ko", "en", "zh", "ja", "vi"],
     knowsAbout: [
       "출입국사범심사",
@@ -125,7 +127,7 @@ export function serviceSchema(locale: string) {
     serviceType: SERVICE_NAME[locale] ?? SERVICE_NAME.ko,
     provider: { "@id": ORG_ID },
     areaServed: { "@type": "Country", name: "South Korea" },
-    availableLanguage: ["Korean", "English", "Chinese", "Japanese"],
+    availableLanguage: [...COMPANY.availableLanguage],
     url: `${SITE.url}/${locale}/immigration-offense-review`,
   };
 }
@@ -179,11 +181,11 @@ export function siteGraph(locale: Locale | string) {
             telephone: COMPANY.phoneIntl,
             email: COMPANY.consultEmail,
             areaServed: "KR",
-            availableLanguage: ["Korean", "English", "Chinese", "Japanese"],
+            availableLanguage: [...COMPANY.availableLanguage],
           },
         ],
         areaServed: { "@type": "Country", name: "South Korea" },
-        availableLanguage: ["Korean", "English", "Chinese", "Japanese"],
+        availableLanguage: [...COMPANY.availableLanguage],
         knowsAbout: [
           "출입국사범심사",
           "출국명령",

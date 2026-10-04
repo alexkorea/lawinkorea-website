@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     template: "%s · Law in Korea",
   },
   description:
-    "출입국사범심사·음주운전·형사사건·체류 연장 행정 대응. 선샤인행정사사무소 (서울 중구), Since 2018, 4개 국어(KR·EN·中文·日本語) 지원.",
+    "출입국사범심사·음주운전·형사사건·체류 연장 행정 대응. 선샤인행정사사무소 (서울 중구), Since 2018, 5개 국어(KR·EN·日本語·中文·Tiếng Việt) 상담.",
   keywords: [
     "출입국사범심사",
     "사범심사",

@@ -20,7 +20,7 @@ faq:
   - q: "Where do I apply?"
     a: "Korean consulate in your home country, or local Immigration Office (if applicant is in Korea). Reviewed by Minister of Justice. Processing time varies by authority and filing date — confirm individually."
   - q: "Cost?"
-    a: "Check the government fee with the consulate or immigration office when you apply. Scrivener fee varies by complexity. Free initial diagnosis."
+    a: "Check the government fee with the consulate or immigration office when you apply. Scrivener fee varies by complexity. Initial consultation available."
   - q: "Can I reapply after a denial?"
     a: "Yes, with new evidence. Analyzing the denial reason is critical."
 related:
@@ -169,7 +169,7 @@ The period of an entry ban is decided by the Ministry of Justice for each case, 
 ## 7. Sunshine's Removal Application Package
 
 ### 6-step procedure
-1. Free initial diagnosis (deportation reason analysis)
+1. Initial consultation (deportation reason analysis)
 2. Timing decision (per-reason optimal)
 3. Reason letter + apology drafting
 4. Document collection (Korean family, home-country proof, sponsor)
@@ -193,7 +193,7 @@ Even after denial, you can reapply with new evidence.
 
 **Timing is one of the factors considered** in an entry-ban removal application. We can review the timing for your case.
 
-**Free initial diagnosis — applicable from anywhere worldwide — multilingual**
+**Initial consultation — applicable from anywhere worldwide — multilingual**
 
 [Request your diagnosis →](/en)
 

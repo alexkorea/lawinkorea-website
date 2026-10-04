@@ -29,7 +29,7 @@ faq:
   - q: "Can I still apply for permanent residency (F-5) after a review?"
     a: "Depends on the disposition. Minor violations may allow F-5 application after a waiting period; deportation or a criminal conviction is weighed heavily, and a waiting period applies under the Ministry of Justice criteria in force. Case-by-case assessment is mandatory."
   - q: "How much does an administrative scrivener charge?"
-    a: "Fees vary by case complexity and required documentation. We offer a free initial diagnosis and provide a clear quote afterward. Government fees (e.g., KRW 200,000 for a change to permanent residency, Enforcement Rule Article 72) are separate."
+    a: "Fees vary by case complexity and required documentation. We offer an initial consultation and provide a clear quote afterward. Government fees (e.g., KRW 200,000 for a change to permanent residency, Enforcement Rule Article 72) are separate."
   - q: "Can I get a pre-emptive consultation if I haven't received a notice yet?"
     a: "Yes, and we recommend it. Foreigners with prior DUI or criminal records should be evaluated before their visa-renewal date. Early preparation gives you more time to gather evidence."
 related:
@@ -110,7 +110,7 @@ Not a generic apology — a logically structured argument from Immigration's per
 ### (5) Consult an Administrative Scrivener Immediately
 A solo appearance often misses what to emphasize. Pre-appearance simulation with someone who knows Immigration practice helps you prepare.
 
-[Request a free initial diagnosis →](/en)
+[Request an initial consultation →](/en)
 
 ## 4. Possible Outcomes of the Review
 
@@ -138,7 +138,7 @@ The biggest distinction is between **departure order** and **deportation**. A de
 ## 6. Sunshine's Five-Step Response Protocol
 
 
-### Step 1. Intake and Free Initial Diagnosis (within 1 day)
+### Step 1. Intake and Initial Consultation (within 1 day)
 Accurate situation assessment and case-risk evaluation. Multilingual; KakaoTalk, WeChat, LINE, WhatsApp all available.
 
 ### Step 2. Deep Diagnosis (2–3 days)
@@ -172,4 +172,4 @@ The 10 essential Q&A above (FAQ section) cover the core questions. Case-specific
 
 Among foreigners who have received an Immigration Offense Review, a regret we often hear is, **"I should have called a professional sooner."**
 
-Sunshine Administrative Agency Office offers a free initial diagnosis. **Reach out without commitment.** Korean, English, Chinese, Japanese — all supported.
+Sunshine Administrative Agency Office offers an initial consultation. **Reach out without commitment.** Korean, English, Chinese, Japanese, Vietnamese — all supported.

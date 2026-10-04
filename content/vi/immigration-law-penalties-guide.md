@@ -181,13 +181,13 @@ Nhìn vào số tiền phạt thì có vẻ không đáng kể, nhưng:
 - **Phiên dịch đa ngôn ngữ** — truyền đạt chính xác ý của người chưa thạo tiếng Hàn
 - **Chiến lược visa tiếp theo** — cân nhắc đổi tư cách, khiếu nại hay xuất cảnh tự nguyện sau khi có kết quả
 
-## 11. Hãy nhận chẩn đoán miễn phí ngay
+## 11. Hãy yêu cầu tư vấn ngay
 
 Người nước ngoài nhận thông báo vi phạm Luật Quản lý xuất nhập cảnh **không kết thúc ở việc nộp phạt.** Nên kiểm tra song song cả thủ tục hình sự và thủ tục hành chính; kết quả phụ thuộc vào từng vụ việc.
 
-Văn phòng Hành chính sĩ Sunshine — Since 2018, hỗ trợ tiếng Hàn/Anh/Trung/Nhật.
+Văn phòng Hành chính sĩ Sunshine — Since 2018, hỗ trợ tiếng Hàn/Anh/Trung/Nhật/Việt.
 
-[Đăng ký chẩn đoán ban đầu miễn phí →](/vi/contact)
+[Yêu cầu tư vấn →](/vi/contact)
 
 ---
 

@@ -363,7 +363,7 @@ export const SECTION_LABELS: Record<
     statsLabel: [
       "사범심사 대응 실적",
       "출입국 실무 경력",
-      "KR · EN · 中文 · 日本語",
+      "KR · EN · 日本語 · 中文 · VI",
       "초기 회신 약속",
     ],
   },
@@ -398,7 +398,7 @@ export const SECTION_LABELS: Record<
     statsLabel: [
       "Reviews handled",
       "Years of practice",
-      "KR · EN · 中文 · 日本語",
+      "KR · EN · 日本語 · 中文 · VI",
       "Initial response",
     ],
   },
@@ -433,7 +433,7 @@ export const SECTION_LABELS: Record<
     statsLabel: [
       "事犯审查应对业绩",
       "出入境实务经验",
-      "KR · EN · 中文 · 日本語",
+      "KR · EN · 日本語 · 中文 · VI",
       "初次回复承诺",
     ],
   },
@@ -468,7 +468,7 @@ export const SECTION_LABELS: Record<
     statsLabel: [
       "事犯審査対応実績",
       "出入国実務経験",
-      "KR · EN · 中文 · 日本語",
+      "KR · EN · 日本語 · 中文 · VI",
       "初動返信",
     ],
   },
@@ -503,7 +503,7 @@ export const SECTION_LABELS: Record<
     statsLabel: [
       "Vụ xem xét vi phạm đã xử lý",
       "Kinh nghiệm thực tế xuất nhập cảnh",
-      "KR · EN · 中文 · 日本語",
+      "KR · EN · 日本語 · 中文 · VI",
       "Cam kết phản hồi ban đầu",
     ],
   },

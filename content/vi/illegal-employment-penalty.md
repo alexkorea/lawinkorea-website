@@ -173,7 +173,7 @@ Khi có vi phạm hoạt động ngoài tư cách, không chỉ người lao đ�
 ## 8. Cách Sunshine hỗ trợ
 
 ### Gói 5 bước
-1. **Chẩn đoán ban đầu miễn phí** (trong ngày)
+1. **Tư vấn ban đầu** (trong ngày)
 2. **Diễn tập tự khai báo** (1~3 ngày)
 3. **Chuẩn bị hồ sơ cho buổi xem xét** (5~10 ngày)
 4. **Đồng hành tại buổi xem xét** (trong ngày)
@@ -189,7 +189,7 @@ Khi có vi phạm hoạt động ngoài tư cách, không chỉ người lao đ�
 
 Với hoạt động ngoài tư cách, **nên kiểm tra sớm.** Việc tự khai báo trước khi bị phát hiện có thể được xem xét khác so với khi đã bị phát hiện.
 
-**Chẩn đoán ban đầu miễn phí — thông tin được xử lý bảo mật — hỗ trợ đa ngôn ngữ**
+**Tư vấn ban đầu — thông tin được xử lý bảo mật — hỗ trợ đa ngôn ngữ**
 
 [Đăng ký chẩn đoán ngay →](/vi/contact)
 

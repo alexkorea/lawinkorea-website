@@ -219,7 +219,7 @@ Khi xin thường trú hoặc quốc tịch Hàn Quốc, **tiền án ở nướ
 ## 9. Dịch vụ tư vấn thường trú của Sunshine
 
 ### Gói 5 bước
-1. **Chẩn đoán ban đầu miễn phí** — rà soát tổng hợp tiền án + tư cách + quan hệ gia đình
+1. **Tư vấn ban đầu** — rà soát tổng hợp tiền án + tư cách + quan hệ gia đình
 2. **Xác định thời điểm nộp** — tính chính xác thời gian bị loại
 3. **Thu thập hồ sơ** — cư trú, thu nhập, tiếng Hàn, gia đình, tình tiết giảm nhẹ
 4. **Soạn đơn + bản giải trình**
@@ -234,7 +234,7 @@ Khi xin thường trú hoặc quốc tịch Hàn Quốc, **tiền án ở nướ
 
 Thời điểm nộp hồ sơ thường trú **không nên quá sớm, cũng không nên quá muộn.** Điều then chốt là chẩn đoán trước xem thời gian bị loại kết thúc chính xác khi nào, và cần chuẩn bị hồ sơ gì trước thời điểm đó.
 
-**Chẩn đoán ban đầu miễn phí** — hỗ trợ tiếng Hàn, Anh, Trung, Nhật
+**Tư vấn ban đầu** — hỗ trợ tiếng Hàn, Anh, Trung, Nhật, Việt
 
 [Đăng ký chẩn đoán ngay →](/vi/contact)
 

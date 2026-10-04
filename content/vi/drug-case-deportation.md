@@ -143,7 +143,7 @@ Kết quả phụ thuộc vào từng vụ việc.
 ## 8. Cách Sunshine hỗ trợ vụ việc ma túy
 
 ### Gói 4 bước
-1. **Chẩn đoán ban đầu miễn phí** (trong ngày) — phân tích rủi ro hình sự + xem xét vi phạm
+1. **Tư vấn ban đầu** (trong ngày) — phân tích rủi ro hình sự + xem xét vi phạm
 2. **Thu thập hồ sơ cho buổi xem xét** (10~14 ngày) — chương trình điều trị, gia đình, công việc
 3. **Đồng hành tại buổi xem xét** (trong ngày) — phiên dịch, phát biểu bổ sung
 4. **Chiến lược sau kết quả** (30 ngày) — khiếu nại, thay đổi tư cách, quyết định xuất cảnh tự nguyện
@@ -154,7 +154,7 @@ Kết quả phụ thuộc vào từng vụ việc.
 
 Với án ma túy, **nên bắt đầu chuẩn bị sớm.** Ngay sau khi bị phát hiện, cần đồng thời quyết định việc tự thú, bắt đầu chương trình điều trị và chuẩn bị cho buổi xem xét. Nếu đợi thủ tục hình sự kết thúc mới bắt đầu, thời gian chuẩn bị tài liệu giảm nhẹ có thể bị hạn chế.
 
-**Chẩn đoán ban đầu miễn phí** — hỗ trợ tiếng Hàn, Anh, Trung, Nhật. Thông tin tư vấn được xử lý bảo mật.
+**Tư vấn ban đầu** — hỗ trợ tiếng Hàn, Anh, Trung, Nhật, Việt. Thông tin tư vấn được xử lý bảo mật.
 
 [Đăng ký chẩn đoán ngay →](/vi/contact)
 

@@ -200,7 +200,7 @@ Cách ứng phó:
 4. Ra phán quyết (trong 60 ngày kể từ ngày nhận đơn, có thể gia hạn 30 ngày — Luật Xét xử hành chính Điều 45 khoản 1)
 
 ### Chi phí
-- Phí nộp đơn: miễn phí
+- Phí nộp đơn: không có
 - Phí dịch vụ nếu ủy quyền cho hành chính sĩ
 
 ### Kết quả
@@ -231,7 +231,7 @@ Xuất cảnh tự nguyện khác với việc xuất cảnh theo lệnh xuất 
 ## 8. Cách Sunshine hỗ trợ khi bị từ chối
 
 ### Gói hỗ trợ theo từng bước
-1. **Chẩn đoán ban đầu miễn phí** — phân tích lý do, xác định hướng ứng phó
+1. **Tư vấn ban đầu** — phân tích lý do, xác định hướng ứng phó
 2. **Quyết định bổ sung hồ sơ hay đổi tư cách**
 3. **Thu thập và soạn hồ sơ**
 4. **Nộp hồ sơ + xử lý tiếp**
@@ -249,11 +249,11 @@ Xuất cảnh tự nguyện khác với việc xuất cảnh theo lệnh xuất 
 4. **Bỏ qua lý do từ chối và nộp lại đúng bộ hồ sơ cũ**
 5. **Chọn sai giữa khiếu nại / đổi tư cách / xuất cảnh tự nguyện**
 
-## 10. Hãy nhận chẩn đoán miễn phí ngay
+## 10. Hãy yêu cầu tư vấn ngay
 
 **Thời hạn sau khi bị từ chối thường ngắn.** Hãy kiểm tra thời hạn ghi trên thông báo trước tiên.
 
-**Chẩn đoán ban đầu miễn phí — hỗ trợ đa ngôn ngữ**
+**Tư vấn ban đầu — hỗ trợ đa ngôn ngữ**
 
 [Đăng ký chẩn đoán ngay →](/vi/contact)
 

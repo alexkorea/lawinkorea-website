@@ -140,7 +140,7 @@ Even with these factors, the result depends on the individual review.
 ## 8. Sunshine's Drug-Case Protocol
 
 ### 4-step package
-1. Free initial diagnosis (same day) — risk assessment
+1. Initial consultation (same day) — risk assessment
 2. Offense-review document collection (10–14 days) — treatment, family, employment
 3. Office attendance support (day-of) — translation, supplemental statement
 4. Post-decision follow-up (30 days)
@@ -151,7 +151,7 @@ Even with these factors, the result depends on the individual review.
 
 In drug cases, **timing matters**. Voluntary surrender, treatment enrollment, and review preparation must start simultaneously. Beginning after the criminal case closes can leave less time to prepare mitigation.
 
-**Free initial diagnosis — Korean, English, Chinese, Japanese — confidential.**
+**Initial consultation — Korean, English, Chinese, Japanese, Vietnamese — confidential.**
 
 [Request your diagnosis →](/en)
 

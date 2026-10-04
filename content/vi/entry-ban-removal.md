@@ -171,7 +171,7 @@ Kết quả của mỗi trường hợp phụ thuộc vào từng vụ việc.
 ## 7. Gói dịch vụ dỡ bỏ lệnh cấm của Sunshine
 
 ### Quy trình 6 bước
-1. **Chẩn đoán ban đầu miễn phí** (phân tích lý do bị trục xuất)
+1. **Tư vấn ban đầu** (phân tích lý do bị trục xuất)
 2. **Xác định thời điểm nộp** (thời điểm tối ưu theo từng lý do)
 3. **Soạn bản giải trình + bản kiểm điểm** (tiếng Hàn, góc nhìn xuất nhập cảnh)
 4. **Thu thập giấy tờ đính kèm** (gia đình tại Hàn Quốc, giấy tờ nước nhà, bảo lãnh nhân thân)
@@ -195,7 +195,7 @@ Nếu lần đầu bị từ chối, bạn vẫn có thể nộp lại.
 
 Với việc dỡ bỏ lệnh cấm nhập cảnh, **thời điểm nộp là một trong các điểm cần cân nhắc.** Hoàn cảnh của mỗi người khác nhau, nên hãy kiểm tra thời điểm phù hợp với lý do của bạn.
 
-**Chẩn đoán ban đầu miễn phí** — hỗ trợ tiếng Hàn, Anh, Trung, Nhật. Có thể nộp từ bất kỳ đâu trên thế giới.
+**Tư vấn ban đầu** — hỗ trợ tiếng Hàn, Anh, Trung, Nhật, Việt. Có thể nộp từ bất kỳ đâu trên thế giới.
 
 [Đăng ký chẩn đoán ngay →](/vi/contact)
 

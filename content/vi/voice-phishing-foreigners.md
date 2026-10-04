@@ -162,7 +162,7 @@ Khi người nước ngoài cho mượn tài khoản ngân hàng Hàn Quốc c�
 ## 9. Cách Sunshine hỗ trợ
 
 ### Gói 4 bước
-1. **Chẩn đoán ban đầu miễn phí** (trong ngày, bảo mật) — phân tích rủi ro hình sự + xem xét vi phạm
+1. **Tư vấn ban đầu** (trong ngày, bảo mật) — phân tích rủi ro hình sự + xem xét vi phạm
 2. **Diễn tập tự thú hoặc hợp tác** (1~2 ngày) — sắp xếp thời điểm và nội dung khai báo
 3. **Thu thập hồ sơ cho buổi xem xét** (10~14 ngày)
 4. **Đồng hành tại buổi xem xét + chiến lược tiếp theo**
@@ -174,7 +174,7 @@ Loại vụ việc này nếu bị gia đình hay nơi làm việc biết sẽ g
 
 Với loại án này, **nên kiểm tra sớm.** Việc tự thú và hợp tác điều tra có thể được xem xét như tình tiết giảm nhẹ; kết quả phụ thuộc vào từng vụ việc.
 
-**Chẩn đoán ban đầu miễn phí — thông tin được xử lý bảo mật — hỗ trợ đa ngôn ngữ**
+**Tư vấn ban đầu — thông tin được xử lý bảo mật — hỗ trợ đa ngôn ngữ**
 
 [Đăng ký chẩn đoán ngay →](/vi/contact)
 

@@ -3,6 +3,7 @@ import { siteGraph } from "../lib/schema";
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
 import HtmlShell from "../components/HtmlShell";
+import MobileContactBar from "../components/MobileContactBar";
 
 
 const VALID_LOCALES = ["ko", "en", "ja", "zh", "vi"] as const;
@@ -61,6 +62,7 @@ export default async function LocaleLayout({
       <SiteHeader />
       {children}
       <SiteFooter />
+      <MobileContactBar locale={safeLocale as (typeof VALID_LOCALES)[number]} />
     </HtmlShell>
   );
 }

@@ -187,7 +187,7 @@ Central Administrative Appeal Commission (https://www.acrc.go.kr).
 4. Decision (due within 60 days of the appeal being received, extendable by 30 days — Administrative Appeals Act Article 45(1))
 
 ### Cost
-Free claim filing; scrivener fee separate.
+No filing fee for the claim; scrivener fee separate.
 
 ## 6. Status-Change Options
 
@@ -213,7 +213,7 @@ Timing matters: check your options with the immigration office before an order i
 ## 8. Sunshine's Denial-Response Package
 
 ### 30-day package
-1. **Day 1–2: Free diagnosis** — denial reason analysis, response decision
+1. **Day 1–2: Consultation** — denial reason analysis, response decision
 2. **Day 3–7: Supplementary or status-change decision**
 3. **Day 7–21: Document collection + drafting**
 4. **Day 21–28: Submission + follow-up**
@@ -234,7 +234,7 @@ Applicants in Korea or abroad can engage; Korean family can attend on behalf.
 
 **Deadlines are short.** Check the dates on your notice first and start early.
 
-**Free initial diagnosis — multilingual**
+**Initial consultation — multilingual**
 
 [Request your diagnosis →](/en)
 

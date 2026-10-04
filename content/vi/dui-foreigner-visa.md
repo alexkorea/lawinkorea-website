@@ -154,9 +154,9 @@ Ngay khi có kết quả, bắt đầu ngay việc khiếu nại (đối với l
 
 Nếu bạn bị bắt vì lái xe say rượu, hãy **bắt đầu chuẩn bị cho buổi xem xét vi phạm ngay cả khi thủ tục hình sự còn đang tiếp diễn.** Nếu đợi xử lý hình sự xong mới bắt đầu, thời gian chuẩn bị có thể bị hạn chế.
 
-Văn phòng Hành chính sĩ Sunshine cung cấp chẩn đoán ban đầu miễn phí, hỗ trợ tiếng Hàn, Anh, Trung và Nhật.
+Văn phòng Hành chính sĩ Sunshine cung cấp tư vấn bằng tiếng Hàn, Anh, Trung, Nhật và Việt.
 
-[Đăng ký chẩn đoán miễn phí ngay →](/vi/contact)
+[Yêu cầu tư vấn ngay →](/vi/contact)
 
 ---
 

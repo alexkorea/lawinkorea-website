@@ -11,14 +11,18 @@ export const COMPANY = {
   addressEnExtra: "10m from Dongdaemun History & Culture Park Stn, Exit 4",
   phone: "02-363-2251",
   phoneIntl: "+82-2-363-2251",
-  // 대외 표기용 이메일. 수신은 5000meter@gmail.com 으로 Gmail 포워딩된다(Boss 설정).
-  email: "teamhelp888@gmail.com",
-  consultEmail: "teamhelp888@gmail.com",
+  // 대외 표기용 이메일(보스 msg 1816, 2026-10-04 — 맥7 수신 시험 통과). 개인 Gmail 주소는 사이트에 노출하지 않는다.
+  email: "help@lawinkorea.com",
+  consultEmail: "help@lawinkorea.com",
   hoursKo: "월~금 09:30 – 17:30 (토·일·공휴일 휴무)",
   hoursEn: "Mon–Fri 09:30 – 17:30 KST (Closed Sat/Sun/Holidays)",
   hoursZh: "周一~周五 09:30 – 17:30 (周末/节假日休息)",
   hoursJa: "月~金 09:30 – 17:30 (土日祝休)",
   kakaoTalk: "alexkorea",
+  // 메신저 — visaskorea.com 과 동일한 계정(보스 msg 1803). QR 원본: ~/law-v1/qr/
+  whatsappUrl: "https://wa.me/821020813408",
+  // 상담 가능 언어(ko·en·ja·zh·vi) — 화면 표기와 구조화 데이터 availableLanguage 의 단일 원천
+  availableLanguage: ["Korean", "English", "Japanese", "Chinese", "Vietnamese"],
   estYear: 2018,
   experienceSince: 2018,
 } as const;
