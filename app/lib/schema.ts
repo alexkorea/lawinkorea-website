@@ -160,12 +160,11 @@ export function siteGraph(locale: Locale | string) {
         taxID: COMPANY.bizRegNo,
         // 옛 루트 레이아웃 ProfessionalService 블록에만 있던 description 을 여기로 병합(I3b 명세 문안).
         description: "출입국사범심사·비자 연장·출국명령·입국금지 해제 상담 행정사사무소.",
-        // foundingDate(2018)·"Since 2018" 표기는 Boss 확인 대기 항목.
+        // foundingDate 는 넣지 않는다 — 근거 없는 2018 표기를 보스 지시(msg 1869, 2026-10-04)로 삭제. 새 설립일도 쓰지 말 것.
         // founder = 대표 행정사 한경택(I3b 명세 최종 노드, 맥7 2026-10-03).
         employee: { "@id": PERSON_ID },
         // 같은 Person(#representative) 을 다시 선언하지 않도록 @id 참조만 둔다(이름은 Person 노드에 있다).
         founder: { "@id": PERSON_ID },
-        foundingDate: String(COMPANY.estYear),
         address: {
           "@type": "PostalAddress",
           streetAddress: "퇴계로 324, 3층 (성우빌딩)",

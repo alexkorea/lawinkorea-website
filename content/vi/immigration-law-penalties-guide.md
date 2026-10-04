@@ -185,7 +185,7 @@ Nhìn vào số tiền phạt thì có vẻ không đáng kể, nhưng:
 
 Người nước ngoài nhận thông báo vi phạm Luật Quản lý xuất nhập cảnh **không kết thúc ở việc nộp phạt.** Nên kiểm tra song song cả thủ tục hình sự và thủ tục hành chính; kết quả phụ thuộc vào từng vụ việc.
 
-Văn phòng Hành chính sĩ Sunshine — Since 2018, hỗ trợ tiếng Hàn/Anh/Trung/Nhật/Việt.
+Văn phòng Hành chính sĩ Sunshine — hỗ trợ tiếng Hàn/Anh/Trung/Nhật/Việt.
 
 [Yêu cầu tư vấn →](/vi/contact)
 

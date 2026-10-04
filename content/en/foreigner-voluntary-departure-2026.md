@@ -13,7 +13,7 @@ faq:
   - q: "If I overstayed my visa (illegal stay) by less than 1 month and leave voluntarily, will I get an entry ban?"
     a: "It depends on the case. Whether a ban is imposed, and for how long, is decided by the immigration authorities considering the length of the overstay and whether you left voluntarily, so check with the immigration office or an expert before departure."
   - q: "Where do I report for voluntary departure?"
-    a: "Visit the immigration office in your region. In Seoul, contact Seoul Immigration & Foreign Office (02-2650-6300). Online self-reporting is available in some cases through HiKorea (www.hikorea.go.kr)."
+    a: "Visit the immigration office in your region. In Seoul, contact the Seoul Immigration & Foreign Office. The Seoul office moves to its new building at 55 Jeongui-ro, Songpa-gu, Seoul from October 19, 2026 — until October 18 it remains at 151 Mokdongdong-ro, Yangcheon-gu (tel. 02-2650-6214). Source: Ministry of Justice notice on immigration.go.kr (2026-10-02). After the move, confirm the phone number via 1345. Online self-reporting is available in some cases through HiKorea (www.hikorea.go.kr)."
   - q: "What if my entry ban removal application is rejected?"
     a: "Review the stated reason, gather additional supporting documents, and reapply. You may also file an administrative appeal or a court objection."
   - q: "Does having a Korean spouse help with entry ban removal?"
@@ -124,7 +124,7 @@ It depends on the case. Whether a ban is imposed, and for how long, is decided b
 
 **Q. Where do I self-report for voluntary departure?**
 
-Visit your regional immigration office in person. In Seoul, contact Seoul Immigration & Foreign Office (02-2650-6300). HiKorea ([www.hikorea.go.kr](https://www.hikorea.go.kr)) also offers online self-reporting in some cases.
+Visit your regional immigration office in person. In Seoul, contact the Seoul Immigration & Foreign Office. The Seoul office moves to its new building at 55 Jeongui-ro, Songpa-gu, Seoul from October 19, 2026 — until October 18 it remains at 151 Mokdongdong-ro, Yangcheon-gu (tel. 02-2650-6214). Source: [Ministry of Justice notice, 2026-10-02](https://www.immigration.go.kr/bbs/immigration/47/611051/artclView.do). After the move, confirm the phone number via 1345. HiKorea ([www.hikorea.go.kr](https://www.hikorea.go.kr)) also offers online self-reporting in some cases.
 
 **Q. What if my entry ban removal application is rejected?**
 

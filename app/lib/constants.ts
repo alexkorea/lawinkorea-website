@@ -23,8 +23,6 @@ export const COMPANY = {
   whatsappUrl: "https://wa.me/821020813408",
   // 상담 가능 언어(ko·en·ja·zh·vi) — 화면 표기와 구조화 데이터 availableLanguage 의 단일 원천
   availableLanguage: ["Korean", "English", "Japanese", "Chinese", "Vietnamese"],
-  estYear: 2018,
-  experienceSince: 2018,
 } as const;
 
 export const SITE = {

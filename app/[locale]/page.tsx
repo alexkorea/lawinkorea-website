@@ -40,10 +40,10 @@ const titles: Record<L, string> = {
 
 const descriptions: Record<L, string> = {
   ko: "형사사건이나 출입국법 위반 이후의 체류 문제는 형사처분과 별도로 검토될 수 있습니다. 음주운전·폭행·마약·불법취업·출국명령·강제퇴거 등 상황별 사범심사 대응과 소명자료 준비를 안내합니다.",
-  en: "Certified administrative scrivener specializing in immigration offense review — DUI, criminal cases, visa crisis. Sunshine Administrative Agency Office, Seoul. Since 2018.",
-  ja: "飲酒運転・刑事事件・出入国法違反の事犯審査専門行政書士。サンシャイン行政書士事務所、ソウル。Since 2018.",
-  zh: "专业行政士，专注出入境违规审查——酒驾、刑事案件、签证危机。Sunshine行政士事务所，首尔。Since 2018.",
-  vi: "Chuyên viên hành chính chuyên xem xét vi phạm xuất nhập cảnh — lái xe say rượu, vụ án hình sự, khủng hoảng visa. Văn phòng Sunshine, Seoul. Since 2018.",
+  en: "Certified administrative scrivener specializing in immigration offense review — DUI, criminal cases, visa crisis. Sunshine Administrative Agency Office, Seoul.",
+  ja: "飲酒運転・刑事事件・出入国法違反の事犯審査専門行政書士。サンシャイン行政書士事務所、ソウル。",
+  zh: "专业行政士，专注出入境违规审查——酒驾、刑事案件、签证危机。Sunshine行政士事务所，首尔。",
+  vi: "Chuyên viên hành chính chuyên xem xét vi phạm xuất nhập cảnh — lái xe say rượu, vụ án hình sự, khủng hoảng visa. Văn phòng Sunshine, Seoul.",
 };
 
 const ogTitles: Record<L, string> = {

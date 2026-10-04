@@ -128,7 +128,7 @@ export default function SiteFooter() {
         {t.bizName} {COMPANY.nameKo} · {t.bizRep} {COMPANY.representative} · {t.bizNo} {COMPANY.bizRegNo}
       </div>
       <div style={{ padding: "8px 24px 16px", textAlign: "center" as const, fontSize: 12, color: "#475569" }}>
-        © 2018 {t.copy}
+        © {t.copy}
         <span style={{ margin: "0 8px" }}>·</span>
         <Link href={`${base}/privacy`} style={{ color: "#475569", textDecoration: "none" }}>Privacy</Link>
         <span style={{ margin: "0 8px" }}>·</span>
