@@ -30,8 +30,9 @@ import path from "node:path";
 const WORKER_WRAPPER = `import opennextWorker from "./_worker-opennext.js";
 export { DOQueueHandler, DOShardedTagCache, BucketCachePurge } from "./_worker-opennext.js";
 import { deferNextScripts } from "./_defer-next-js.js";
-// 존 자동주입 비컨을 LCP 뒤로 미룰지(0951b). false 면 ?cfz=1 요청에서만 시험 동작.
-const HOLD_ZONE = false;
+// 존 자동주입 Web Analytics 비컨을 LCP 뒤로 미룬다(0951b, 라이브 ?cfz=1 검증: 비컨·/cdn-cgi/rum 수집 정상).
+// 끄려면 false — 그때도 ?cfz=1 요청에서만 시험 동작한다.
+const HOLD_ZONE = true;
 
 const HTML_CACHE_CONTROL = "public, max-age=0, must-revalidate";
 const LONG_S_MAXAGE_SECONDS = 60;
