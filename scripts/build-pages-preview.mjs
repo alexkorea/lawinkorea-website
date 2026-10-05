@@ -23,8 +23,13 @@ import path from "node:path";
 // 임계 서브셋 폰트가 HTML 도착 전에 출발해 첫 페인트가 JS 실행보다 앞선다(모바일 LCP).
 // 값은 응답 HTML 의 <head> 에서 그대로 뽑으므로 폰트 파일명이 바뀌어도 낡지 않는다.
 // script preload 는 넣지 않는다 — JS 가 페인트 전에 끝나면 LCP 가 오히려 늦어진다.
+// ── 0951b: Next async 청크 실행을 관측 LCP 페인트 뒤로 ──────────────────────────────
+// PSI(구글 서버)에서는 JS 가 첫 페인트 전에 내려와 실행돼 Lantern LCP 그래프에 실린다.
+// 워커 출구에서 HTMLRewriter 로 <script src=/_next/static/..js async> 를 preload(low)로 바꾸고
+// 본문 끝 로더가 FCP·히어로 LCP 페인트 뒤에 다시 넣는다(scripts/defer-next-js.worker.js).
 const WORKER_WRAPPER = `import opennextWorker from "./_worker-opennext.js";
 export { DOQueueHandler, DOShardedTagCache, BucketCachePurge } from "./_worker-opennext.js";
+import { deferNextScripts } from "./_defer-next-js.js";
 
 const HTML_CACHE_CONTROL = "public, max-age=0, must-revalidate";
 const LONG_S_MAXAGE_SECONDS = 60;
@@ -107,6 +112,7 @@ export default {
     if (!(response.headers.get("content-type") || "").includes("text/html")) return response;
     if (BODYLESS_STATUS.has(response.status)) return response;
     if (request.method === "GET") response = await withEarlyHints(response);
+    if (request.method === "GET" && response.status === 200) response = deferNextScripts(response);
     const match = /s-maxage=(\\d+)/i.exec(response.headers.get("cache-control") || "");
     if (!match || Number(match[1]) <= LONG_S_MAXAGE_SECONDS) return response;
     const patched = new Response(response.body, response);
@@ -128,6 +134,8 @@ if (!fs.existsSync(path.join(OUT, "worker.js"))) {
 // 1) worker 진입점을 Pages 규약(_worker.js)으로 복사
 fs.copyFileSync(path.join(OUT, 'worker.js'), path.join(ASSETS, '_worker-opennext.js'))
 fs.writeFileSync(path.join(ASSETS, '_worker.js'), WORKER_WRAPPER)
+// 0951b: Next 청크 실행을 관측 LCP 페인트 뒤로 미루는 모듈(래퍼가 import). 원본은 scripts/defer-next-js.worker.js
+fs.copyFileSync(path.join(process.cwd(), 'scripts', 'defer-next-js.worker.js'), path.join(ASSETS, '_defer-next-js.js'))
 
 // 2) _worker.js 가 상대경로로 import 하는 번들 소스를 assets 안으로 복사
 for (const dir of ["cloudflare", "middleware", "server-functions", ".build"]) {
