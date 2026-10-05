@@ -40,7 +40,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
       type: "article",
       publishedTime: post.date,
       authors: [COMPANY.nameKo],
-      images: [{ url: `${SITE.url}${post.cover}`, width: 1200, height: 630, alt: post.title }],
+      images: [{ url: `${SITE.url}${post.cover}`, width: 1200, height: 630, alt: post.coverAlt || post.title }],
     },
     twitter: {
       card: "summary_large_image",
@@ -184,7 +184,7 @@ export default async function BlogPost({ params }: { params: Promise<Params> }) 
 
         <img
           src={post.cover}
-          alt={post.title}
+          alt={post.coverAlt || post.title}
           width={1200}
           height={630}
           loading="eager"

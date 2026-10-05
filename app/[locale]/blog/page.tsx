@@ -172,8 +172,8 @@ export default async function LocaleBlogIndex({ params }: { params: Promise<{ lo
               >
                 {/* 목록 카드 썸네일 = og:image 와 같은 파일(THUMBNAIL_STANDARD 1장 카드 렌더) */}
                 <img
-                  src={p.cover.replace(/\.png$/, "-card.png")}
-                  alt={p.title}
+                  src={p.cover.replace(/\.png(\?|$)/, "-card.png$1")}
+                  alt={p.coverAlt || p.title}
                   width={800}
                   height={450}
                   loading="lazy"

@@ -83,7 +83,7 @@ export default function SiteFooter() {
           </div>
         </div>
 
-        {/* 메뉴 — QA01-FIX2(맥7): 링크 터치 높이 20 → 44px, 간격 8 은 링크 높이로 흡수 */}
+        {/* 메뉴 — QA01-FIX2(맥7) 링크 터치 높이 20 → 44px, QA01-FIX3 에서 36px 로(너무 성김). 간격 8 은 링크 높이로 흡수 */}
         <div>
           <div style={{ color: "#fff", fontWeight: 700, fontSize: 14, marginBottom: 12, textTransform: "uppercase" as const, letterSpacing: "0.06em" }}>Menu</div>
           <nav style={{ display: "flex", flexDirection: "column" as const, gap: 0 }}>
@@ -96,7 +96,7 @@ export default function SiteFooter() {
               { href: `${base}/blog`, label: t.blog },
               { href: `${base}/contact`, label: t.contact },
             ].map((item) => (
-              <Link key={item.href} href={item.href} style={{ color: "#94a3b8", fontSize: 13, textDecoration: "none", display: "flex", alignItems: "center", minHeight: 44 }}>
+              <Link key={item.href} href={item.href} style={{ color: "#94a3b8", fontSize: 13, textDecoration: "none", display: "flex", alignItems: "center", minHeight: 36 }}>
                 {item.label}
               </Link>
             ))}
@@ -115,7 +115,7 @@ export default function SiteFooter() {
               { href: `${base}/dispositions/deportation-order`, label: locale === "ko" ? "강제퇴거" : locale === "ja" ? "強制退去" : locale === "zh" ? "强制遣返" : locale === "vi" ? "Trục xuất" : "Deportation" },
               { href: `${base}/dispositions/entry-ban`, label: locale === "ko" ? "입국금지" : locale === "ja" ? "入国禁止" : locale === "zh" ? "禁止入境" : locale === "vi" ? "Cấm nhập cảnh" : "Entry Ban" },
             ].map((item) => (
-              <Link key={item.href} href={item.href} style={{ color: "#94a3b8", fontSize: 13, textDecoration: "none", display: "flex", alignItems: "center", minHeight: 44 }}>
+              <Link key={item.href} href={item.href} style={{ color: "#94a3b8", fontSize: 13, textDecoration: "none", display: "flex", alignItems: "center", minHeight: 36 }}>
                 {item.label}
               </Link>
             ))}

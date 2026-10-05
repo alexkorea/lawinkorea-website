@@ -4,6 +4,7 @@ import BLOG_POSTS_DATA, { getLocalesForSlug } from "./data/blog-posts-data";
 const locales = ["ko", "en", "ja", "zh", "vi"] as const;
 
 // 정책·안내 페이지는 정식 문안 확정 전까지 noindex 이므로 사이트맵에서도 제외한다.
+// /privacy 는 QA01-FIX3(2026-10-05) 정식 문안 게시로 색인·사이트맵 포함(/terms 는 아직 제외).
 const pages = [
   "",
   "/immigration-offense-review",
@@ -19,6 +20,7 @@ const pages = [
   "/contact",
   "/urgent-consultation",
   "/blog",
+  "/privacy",
 ] as const;
 
 // 상세 허브 — 5로캘 모두 200·index 인데 사이트맵에서 빠져 있던 쪽(맥7 K-exec 2026-10-03, 13장 6번).

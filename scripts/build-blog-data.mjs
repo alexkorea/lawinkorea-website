@@ -35,8 +35,18 @@ async function toHtml(md) {
 // frontmatter 에 손으로 넣은 스톡 파일명을 쓰지 않는다(BLOG_STANDARD 16장).
 const OG_INDEX = path.join(ROOT, "public/og/index.json");
 const ogIndex = fs.existsSync(OG_INDEX) ? JSON.parse(fs.readFileSync(OG_INDEX, "utf8")).items ?? {} : {};
+// ?v=<이미지 해시 앞 8자> — 같은 파일명으로 다시 만든 썸네일을 CF 엣지가 옛 바이트로 계속 주는 것을 막는다(QA01-FIX3).
 function coverFor(locale, slug) {
-  return ogIndex[`${locale}/${slug}`] ? `/og/${locale}/${slug}.png` : "";
+  const it = ogIndex[`${locale}/${slug}`];
+  return it ? `/og/${locale}/${slug}.png${it.hash ? `?v=${it.hash.slice(0, 8)}` : ""}` : "";
+}
+// QA01-FIX3 — 커버 배경 사진 설명(content/cover-photos.json). alt = "사진 설명: 글 제목".
+// 이미지에 제목 글자가 들어 있어 제목은 그대로 두고, 무슨 사진인지를 앞에 붙인다.
+const COVER_PHOTOS_FILE = path.join(CONTENT_ROOT, "cover-photos.json");
+const coverPhotos = fs.existsSync(COVER_PHOTOS_FILE) ? JSON.parse(fs.readFileSync(COVER_PHOTOS_FILE, "utf8")) : {};
+function coverAltFor(locale, slug, title) {
+  const desc = coverPhotos[slug]?.alt?.[locale];
+  return desc ? `${desc}: ${title}` : title;
 }
 
 const posts = [];
@@ -61,6 +71,7 @@ for (const locale of LOCALES) {
       related: data.related ?? [],
       faq: data.faq ?? [],
       cover: coverFor(locale, slug),
+      coverAlt: coverAltFor(locale, slug, data.title ?? ""),
       contentHtml: await toHtml(content),
     });
   }
@@ -85,6 +96,7 @@ const body = posts
     related: ${JSON.stringify(p.related)},
     faq: ${JSON.stringify(p.faq)},
     cover: ${JSON.stringify(p.cover)},
+    coverAlt: ${JSON.stringify(p.coverAlt)},
     contentHtml: ${JSON.stringify(p.contentHtml)},
   },`
   )
@@ -104,6 +116,7 @@ export interface BlogPostData {
   related: string[];
   faq: { q: string; a: string }[];
   cover: string;
+  coverAlt: string;
   contentHtml: string;
 }
 
