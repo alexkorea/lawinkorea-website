@@ -30,6 +30,8 @@ import path from "node:path";
 const WORKER_WRAPPER = `import opennextWorker from "./_worker-opennext.js";
 export { DOQueueHandler, DOShardedTagCache, BucketCachePurge } from "./_worker-opennext.js";
 import { deferNextScripts } from "./_defer-next-js.js";
+// 존 자동주입 비컨을 LCP 뒤로 미룰지(0951b). false 면 ?cfz=1 요청에서만 시험 동작.
+const HOLD_ZONE = false;
 
 const HTML_CACHE_CONTROL = "public, max-age=0, must-revalidate";
 const LONG_S_MAXAGE_SECONDS = 60;
@@ -112,7 +114,7 @@ export default {
     if (!(response.headers.get("content-type") || "").includes("text/html")) return response;
     if (BODYLESS_STATUS.has(response.status)) return response;
     if (request.method === "GET") response = await withEarlyHints(response);
-    if (request.method === "GET" && response.status === 200) response = deferNextScripts(response);
+    if (request.method === "GET" && response.status === 200) response = deferNextScripts(response, { holdZone: HOLD_ZONE || url.searchParams.get("cfz") === "1" });
     const match = /s-maxage=(\\d+)/i.exec(response.headers.get("cache-control") || "");
     if (!match || Number(match[1]) <= LONG_S_MAXAGE_SECONDS) return response;
     const patched = new Response(response.body, response);
