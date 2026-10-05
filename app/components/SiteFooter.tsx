@@ -83,10 +83,10 @@ export default function SiteFooter() {
           </div>
         </div>
 
-        {/* 메뉴 */}
+        {/* 메뉴 — QA01-FIX2(맥7): 링크 터치 높이 20 → 44px, 간격 8 은 링크 높이로 흡수 */}
         <div>
           <div style={{ color: "#fff", fontWeight: 700, fontSize: 14, marginBottom: 12, textTransform: "uppercase" as const, letterSpacing: "0.06em" }}>Menu</div>
-          <nav style={{ display: "flex", flexDirection: "column" as const, gap: 8 }}>
+          <nav style={{ display: "flex", flexDirection: "column" as const, gap: 0 }}>
             {[
               { href: `${base}/`, label: t.about },
               { href: `${base}/offenses`, label: t.offenses },
@@ -96,7 +96,7 @@ export default function SiteFooter() {
               { href: `${base}/blog`, label: t.blog },
               { href: `${base}/contact`, label: t.contact },
             ].map((item) => (
-              <Link key={item.href} href={item.href} style={{ color: "#94a3b8", fontSize: 13, textDecoration: "none" }}>
+              <Link key={item.href} href={item.href} style={{ color: "#94a3b8", fontSize: 13, textDecoration: "none", display: "flex", alignItems: "center", minHeight: 44 }}>
                 {item.label}
               </Link>
             ))}
@@ -106,7 +106,7 @@ export default function SiteFooter() {
         {/* 주요 서비스 */}
         <div>
           <div style={{ color: "#fff", fontWeight: 700, fontSize: 14, marginBottom: 12, textTransform: "uppercase" as const, letterSpacing: "0.06em" }}>Services</div>
-          <nav style={{ display: "flex", flexDirection: "column" as const, gap: 8 }}>
+          <nav style={{ display: "flex", flexDirection: "column" as const, gap: 0 }}>
             {[
               { href: `${base}/offenses/drugs`, label: locale === "ko" ? "마약 사건" : locale === "ja" ? "薬物事件" : locale === "zh" ? "毒品案件" : locale === "vi" ? "Vụ án ma túy" : "Drug Offense" },
               { href: `${base}/offenses/dui`, label: locale === "ko" ? "음주운전" : locale === "ja" ? "飲酒運転" : locale === "zh" ? "酒驾" : locale === "vi" ? "Lái xe say rượu" : "DUI" },
@@ -115,7 +115,7 @@ export default function SiteFooter() {
               { href: `${base}/dispositions/deportation-order`, label: locale === "ko" ? "강제퇴거" : locale === "ja" ? "強制退去" : locale === "zh" ? "强制遣返" : locale === "vi" ? "Trục xuất" : "Deportation" },
               { href: `${base}/dispositions/entry-ban`, label: locale === "ko" ? "입국금지" : locale === "ja" ? "入国禁止" : locale === "zh" ? "禁止入境" : locale === "vi" ? "Cấm nhập cảnh" : "Entry Ban" },
             ].map((item) => (
-              <Link key={item.href} href={item.href} style={{ color: "#94a3b8", fontSize: 13, textDecoration: "none" }}>
+              <Link key={item.href} href={item.href} style={{ color: "#94a3b8", fontSize: 13, textDecoration: "none", display: "flex", alignItems: "center", minHeight: 44 }}>
                 {item.label}
               </Link>
             ))}
@@ -130,9 +130,9 @@ export default function SiteFooter() {
       <div style={{ padding: "8px 24px 16px", textAlign: "center" as const, fontSize: 12, color: "#475569" }}>
         © {t.copy}
         <span style={{ margin: "0 8px" }}>·</span>
-        <Link href={`${base}/privacy`} style={{ color: "#475569", textDecoration: "none" }}>Privacy</Link>
+        <Link href={`${base}/privacy`} style={{ color: "#475569", textDecoration: "none", display: "inline-block", padding: "6px 4px", margin: "-6px -4px" }}>Privacy</Link>
         <span style={{ margin: "0 8px" }}>·</span>
-        <Link href={`${base}/terms`} style={{ color: "#475569", textDecoration: "none" }}>Terms</Link>
+        <Link href={`${base}/terms`} style={{ color: "#475569", textDecoration: "none", display: "inline-block", padding: "6px 4px", margin: "-6px -4px" }}>Terms</Link>
       </div>
     </footer>
   );

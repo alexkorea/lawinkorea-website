@@ -25,6 +25,7 @@ type Copy = {
   required: string;
   requiredMessage: string;
   privacy: string;
+  consent: { title: string; items: [string, string][]; refuse: string; agree: string };
 };
 
 const COPY: Record<L, Copy> = {
@@ -43,6 +44,7 @@ const COPY: Record<L, Copy> = {
     required: "성함과 연락처(이메일 또는 전화번호)를 입력해 주세요.",
     requiredMessage: "문의내용을 10자 이상 입력해 주세요.",
     privacy: "입력하신 정보는 상담 회신 목적으로만 사용됩니다.",
+    consent: { title: "개인정보 수집·이용 동의", items: [["수집 항목", "성함, 이메일, 연락처, 사건 유형, 국적, 상황 설명"], ["수집 목적", "상담 문의 접수 및 회신"], ["보유 기간", "상담 완료 후 1년 보관 후 파기"]], refuse: "동의를 거부할 수 있으나, 거부하시면 상담 신청을 접수할 수 없습니다.", agree: "개인정보 수집·이용에 동의합니다. (필수)" },
   },
   en: {
     name: "Name",
@@ -59,6 +61,7 @@ const COPY: Record<L, Copy> = {
     required: "Please enter your name and either an email or a phone number.",
     requiredMessage: "Please describe your situation in at least 10 characters.",
     privacy: "Your information is used only to reply to this inquiry.",
+    consent: { title: "Consent to collection and use of personal information", items: [["Items", "name, email, phone, case type, nationality, description of your situation"], ["Purpose", "receiving and replying to your consultation request"], ["Retention", "kept for 1 year after the consultation ends, then destroyed"]], refuse: "You may refuse, but we cannot accept your request without consent.", agree: "I agree to the collection and use of my personal information. (Required)" },
   },
   ja: {
     name: "お名前",
@@ -75,6 +78,7 @@ const COPY: Record<L, Copy> = {
     required: "お名前と連絡先（メールまたは電話番号）をご入力ください。",
     requiredMessage: "お問い合わせ内容を10文字以上ご入力ください。",
     privacy: "ご入力いただいた情報はご返信の目的にのみ使用します。",
+    consent: { title: "個人情報の収集・利用への同意", items: [["収集項目", "お名前、メール、連絡先、事件の種類、国籍、状況の説明"], ["収集目的", "ご相談の受付および回答"], ["保有期間", "相談終了後1年間保管後に破棄"]], refuse: "同意を拒否することもできますが、その場合はご相談を受け付けられません。", agree: "個人情報の収集・利用に同意します。（必須）" },
   },
   zh: {
     name: "姓名",
@@ -91,6 +95,7 @@ const COPY: Record<L, Copy> = {
     required: "请填写姓名和联系方式（邮箱或电话）。",
     requiredMessage: "请填写至少 10 个字的咨询内容。",
     privacy: "您填写的信息仅用于回复本次咨询。",
+    consent: { title: "个人信息收集·使用同意", items: [["收集项目", "姓名、邮箱、联系电话、案件类型、国籍、情况说明"], ["收集目的", "受理并回复咨询"], ["保留期限", "咨询结束后保存1年后销毁"]], refuse: "您可以拒绝同意，但拒绝后将无法受理咨询。", agree: "我同意收集和使用个人信息。（必选）" },
   },
   vi: {
     name: "Họ và tên",
@@ -107,6 +112,7 @@ const COPY: Record<L, Copy> = {
     required: "Vui lòng nhập họ tên và email hoặc số điện thoại.",
     requiredMessage: "Vui lòng mô tả tình huống với ít nhất 10 ký tự.",
     privacy: "Thông tin của bạn chỉ được dùng để phản hồi yêu cầu này.",
+    consent: { title: "Đồng ý thu thập và sử dụng thông tin cá nhân", items: [["Thông tin thu thập", "họ tên, email, số điện thoại, loại vụ việc, quốc tịch, mô tả tình huống"], ["Mục đích", "tiếp nhận và phản hồi yêu cầu tư vấn"], ["Thời gian lưu giữ", "lưu 1 năm sau khi kết thúc tư vấn, sau đó hủy"]], refuse: "Bạn có thể từ chối, nhưng khi đó chúng tôi không thể tiếp nhận yêu cầu tư vấn.", agree: "Tôi đồng ý cho thu thập và sử dụng thông tin cá nhân. (Bắt buộc)" },
   },
 };
 
@@ -236,6 +242,21 @@ export default function ContactForm({ locale }: { locale: string }) {
         aria-hidden="true"
         style={{ position: "absolute", left: "-9999px", width: 1, height: 1, opacity: 0 }}
       />
+
+      {/* QA01-FIX2(맥7): 개인정보 수집·이용 동의(필수). 체크박스는 name 이 없어 FormData·API body 에 실리지 않는다(/api/contact 계약 불변). */}
+      <div style={{ border: `1px solid ${ACCENT.border}`, borderRadius: 8, background: "#f8f9fb", padding: "14px 16px", marginBottom: 16, fontSize: 13, lineHeight: 1.65, color: ACCENT.textMuteSoft }}>
+        <p style={{ fontWeight: 700, color: ACCENT.navy, margin: "0 0 6px" }}>{c.consent.title}</p>
+        <ul style={{ listStyle: "none", margin: 0, padding: 0 }}>
+          {c.consent.items.map(([k, v]) => (
+            <li key={k}><strong style={{ fontWeight: 600, color: ACCENT.navy }}>{k}</strong>: {v}</li>
+          ))}
+        </ul>
+        <p style={{ margin: "6px 0 0" }}>{c.consent.refuse}</p>
+        <label style={{ display: "flex", alignItems: "center", gap: 8, minHeight: 44, marginTop: 4, cursor: "pointer", fontWeight: 600, color: ACCENT.navy, fontSize: 14 }}>
+          <input type="checkbox" required style={{ width: 24, height: 24, flexShrink: 0, accentColor: ACCENT.primary }} />
+          <span>{c.consent.agree}</span>
+        </label>
+      </div>
 
       {state === "fail" && error && (
         <p style={{ color: "#b3261e", fontSize: 14, margin: "0 0 14px" }}>{error}</p>

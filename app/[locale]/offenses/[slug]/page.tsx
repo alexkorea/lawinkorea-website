@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import HubBlogLinks, { HUB_POSTS, appendToMain } from "../../../components/HubBlogLinks";
 import { fineLabels, finesFor, FINE_TIER_COUNT } from "../../../lib/fines";
 import { alternatesFor, brandTitle } from "../../../lib/seo";
-import { faqSchema } from "../../../lib/schema";
+import { breadcrumbSchema, faqSchema } from "../../../lib/schema";
 import type { Metadata } from "next";
 
 const VALID_LOCALES = ["ko", "en", "ja", "zh", "vi"] as const;
@@ -271,7 +271,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             <div style={{ marginTop: 40, background: ACCENT.warn, border: `1px solid ${ACCENT.warnBorder}`, borderRadius: 8, padding: "14px 18px", fontSize: 13, color: "#78350f", lineHeight: 1.6 }}>{c.notice}</div>
 
             <div style={{ marginTop: 32 }}>
-              <a href={`/${locale}/offenses`} style={{ color: ACCENT.primary, fontWeight: 600, fontSize: 14, textDecoration: "none" }}>← {c.back}</a>
+              <a href={`/${locale}/offenses`} style={{ color: ACCENT.primary, fontWeight: 600, fontSize: 14, textDecoration: "none", display: "inline-flex", alignItems: "center", minHeight: 44 }}>← {c.back}</a>
             </div>
           </div>
         </main>
@@ -453,7 +453,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
 
             <div style={{ marginTop: 20, background: A.warn, border: `1px solid ${A.warnBorder}`, borderRadius: 8, padding: "14px 18px", fontSize: 13, color: "#78350f", lineHeight: 1.6 }}>{c.notice}</div>
             <div style={{ marginTop: 24, display: "flex", gap: 18, flexWrap: "wrap" as const }}>
-              <a href={`/${locale}/offenses`} style={{ color: A.primary, fontWeight: 600, fontSize: 14, textDecoration: "none" }}>← {c.back}</a>
+              <a href={`/${locale}/offenses`} style={{ color: A.primary, fontWeight: 600, fontSize: 14, textDecoration: "none", display: "inline-flex", alignItems: "center", minHeight: 44 }}>← {c.back}</a>
               <a href={`/${locale}/fines`} style={{ color: A.primary, fontWeight: 600, fontSize: 14, textDecoration: "none" }}>{L.ui.seeAll} →</a>
             </div>
           </div>
@@ -503,7 +503,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             <h2 style={{ fontSize: 20, fontWeight: 700, color: ACCENT.navy, marginBottom: 18 }}>{c.faqTitle}</h2>
             {c.faqs.map((faq, i) => (<div key={i} style={{ borderTop: `1px solid ${ACCENT.border}`, padding: "18px 0" }}><div style={{ fontWeight: 600, color: ACCENT.navy, marginBottom: 8, fontSize: 15 }}>{faq.q}</div><div style={{ color: ACCENT.muted, lineHeight: 1.7, fontSize: 14 }}>{faq.a}</div></div>))}
             <div style={{ marginTop: 40, background: ACCENT.warn, border: `1px solid ${ACCENT.warnBorder}`, borderRadius: 8, padding: "14px 18px", fontSize: 13, color: "#78350f", lineHeight: 1.6 }}>{c.notice}</div>
-            <div style={{ marginTop: 32 }}><a href={`/${locale}/offenses`} style={{ color: ACCENT.primary, fontWeight: 600, fontSize: 14, textDecoration: "none" }}>← {c.back}</a></div>
+            <div style={{ marginTop: 32 }}><a href={`/${locale}/offenses`} style={{ color: ACCENT.primary, fontWeight: 600, fontSize: 14, textDecoration: "none", display: "inline-flex", alignItems: "center", minHeight: 44 }}>← {c.back}</a></div>
           </div>
         </main>
       );
@@ -551,7 +551,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             <h2 style={{ fontSize: 20, fontWeight: 700, color: ACCENT.navy, marginBottom: 18 }}>{c.faqTitle}</h2>
             {c.faqs.map((faq, i) => (<div key={i} style={{ borderTop: `1px solid ${ACCENT.border}`, padding: "18px 0" }}><div style={{ fontWeight: 600, color: ACCENT.navy, marginBottom: 8, fontSize: 15 }}>{faq.q}</div><div style={{ color: ACCENT.muted, lineHeight: 1.7, fontSize: 14 }}>{faq.a}</div></div>))}
             <div style={{ marginTop: 40, background: ACCENT.warn, border: `1px solid ${ACCENT.warnBorder}`, borderRadius: 8, padding: "14px 18px", fontSize: 13, color: "#78350f", lineHeight: 1.6 }}>{c.notice}</div>
-            <div style={{ marginTop: 32 }}><a href={`/${locale}/offenses`} style={{ color: ACCENT.primary, fontWeight: 600, fontSize: 14, textDecoration: "none" }}>← {c.back}</a></div>
+            <div style={{ marginTop: 32 }}><a href={`/${locale}/offenses`} style={{ color: ACCENT.primary, fontWeight: 600, fontSize: 14, textDecoration: "none", display: "inline-flex", alignItems: "center", minHeight: 44 }}>← {c.back}</a></div>
           </div>
         </main>
       );
@@ -599,7 +599,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             <h2 style={{ fontSize: 20, fontWeight: 700, color: ACCENT.navy, marginBottom: 18 }}>{c.faqTitle}</h2>
             {c.faqs.map((faq, i) => (<div key={i} style={{ borderTop: `1px solid ${ACCENT.border}`, padding: "18px 0" }}><div style={{ fontWeight: 600, color: ACCENT.navy, marginBottom: 8, fontSize: 15 }}>{faq.q}</div><div style={{ color: ACCENT.muted, lineHeight: 1.7, fontSize: 14 }}>{faq.a}</div></div>))}
             <div style={{ marginTop: 40, background: ACCENT.warn, border: `1px solid ${ACCENT.warnBorder}`, borderRadius: 8, padding: "14px 18px", fontSize: 13, color: "#78350f", lineHeight: 1.6 }}>{c.notice}</div>
-            <div style={{ marginTop: 32 }}><a href={`/${locale}/offenses`} style={{ color: ACCENT.primary, fontWeight: 600, fontSize: 14, textDecoration: "none" }}>← {c.back}</a></div>
+            <div style={{ marginTop: 32 }}><a href={`/${locale}/offenses`} style={{ color: ACCENT.primary, fontWeight: 600, fontSize: 14, textDecoration: "none", display: "inline-flex", alignItems: "center", minHeight: 44 }}>← {c.back}</a></div>
           </div>
         </main>
       );
@@ -647,7 +647,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             <h2 style={{ fontSize: 20, fontWeight: 700, color: ACCENT.navy, marginBottom: 18 }}>{c.faqTitle}</h2>
             {c.faqs.map((faq, i) => (<div key={i} style={{ borderTop: `1px solid ${ACCENT.border}`, padding: "18px 0" }}><div style={{ fontWeight: 600, color: ACCENT.navy, marginBottom: 8, fontSize: 15 }}>{faq.q}</div><div style={{ color: ACCENT.muted, lineHeight: 1.7, fontSize: 14 }}>{faq.a}</div></div>))}
             <div style={{ marginTop: 40, background: ACCENT.warn, border: `1px solid ${ACCENT.warnBorder}`, borderRadius: 8, padding: "14px 18px", fontSize: 13, color: "#78350f", lineHeight: 1.6 }}>{c.notice}</div>
-            <div style={{ marginTop: 32 }}><a href={`/${locale}/offenses`} style={{ color: ACCENT.primary, fontWeight: 600, fontSize: 14, textDecoration: "none" }}>← {c.back}</a></div>
+            <div style={{ marginTop: 32 }}><a href={`/${locale}/offenses`} style={{ color: ACCENT.primary, fontWeight: 600, fontSize: 14, textDecoration: "none", display: "inline-flex", alignItems: "center", minHeight: 44 }}>← {c.back}</a></div>
           </div>
         </main>
       );
@@ -695,7 +695,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             <h2 style={{ fontSize: 20, fontWeight: 700, color: ACCENT.navy, marginBottom: 18 }}>{c.faqTitle}</h2>
             {c.faqs.map((faq, i) => (<div key={i} style={{ borderTop: `1px solid ${ACCENT.border}`, padding: "18px 0" }}><div style={{ fontWeight: 600, color: ACCENT.navy, marginBottom: 8, fontSize: 15 }}>{faq.q}</div><div style={{ color: ACCENT.muted, lineHeight: 1.7, fontSize: 14 }}>{faq.a}</div></div>))}
             <div style={{ marginTop: 40, background: ACCENT.warn, border: `1px solid ${ACCENT.warnBorder}`, borderRadius: 8, padding: "14px 18px", fontSize: 13, color: "#78350f", lineHeight: 1.6 }}>{c.notice}</div>
-            <div style={{ marginTop: 32 }}><a href={`/${locale}/offenses`} style={{ color: ACCENT.primary, fontWeight: 600, fontSize: 14, textDecoration: "none" }}>← {c.back}</a></div>
+            <div style={{ marginTop: 32 }}><a href={`/${locale}/offenses`} style={{ color: ACCENT.primary, fontWeight: 600, fontSize: 14, textDecoration: "none", display: "inline-flex", alignItems: "center", minHeight: 44 }}>← {c.back}</a></div>
           </div>
         </main>
       );
@@ -743,7 +743,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             <h2 style={{ fontSize: 20, fontWeight: 700, color: ACCENT.navy, marginBottom: 18 }}>{c.faqTitle}</h2>
             {c.faqs.map((faq, i) => (<div key={i} style={{ borderTop: `1px solid ${ACCENT.border}`, padding: "18px 0" }}><div style={{ fontWeight: 600, color: ACCENT.navy, marginBottom: 8, fontSize: 15 }}>{faq.q}</div><div style={{ color: ACCENT.muted, lineHeight: 1.7, fontSize: 14 }}>{faq.a}</div></div>))}
             <div style={{ marginTop: 40, background: ACCENT.warn, border: `1px solid ${ACCENT.warnBorder}`, borderRadius: 8, padding: "14px 18px", fontSize: 13, color: "#78350f", lineHeight: 1.6 }}>{c.notice}</div>
-            <div style={{ marginTop: 32 }}><a href={`/${locale}/offenses`} style={{ color: ACCENT.primary, fontWeight: 600, fontSize: 14, textDecoration: "none" }}>← {c.back}</a></div>
+            <div style={{ marginTop: 32 }}><a href={`/${locale}/offenses`} style={{ color: ACCENT.primary, fontWeight: 600, fontSize: 14, textDecoration: "none", display: "inline-flex", alignItems: "center", minHeight: 44 }}>← {c.back}</a></div>
           </div>
         </main>
       );
@@ -791,7 +791,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             <h2 style={{ fontSize: 20, fontWeight: 700, color: ACCENT.navy, marginBottom: 18 }}>{c.faqTitle}</h2>
             {c.faqs.map((faq, i) => (<div key={i} style={{ borderTop: `1px solid ${ACCENT.border}`, padding: "18px 0" }}><div style={{ fontWeight: 600, color: ACCENT.navy, marginBottom: 8, fontSize: 15 }}>{faq.q}</div><div style={{ color: ACCENT.muted, lineHeight: 1.7, fontSize: 14 }}>{faq.a}</div></div>))}
             <div style={{ marginTop: 40, background: ACCENT.warn, border: `1px solid ${ACCENT.warnBorder}`, borderRadius: 8, padding: "14px 18px", fontSize: 13, color: "#78350f", lineHeight: 1.6 }}>{c.notice}</div>
-            <div style={{ marginTop: 32 }}><a href={`/${locale}/offenses`} style={{ color: ACCENT.primary, fontWeight: 600, fontSize: 14, textDecoration: "none" }}>← {c.back}</a></div>
+            <div style={{ marginTop: 32 }}><a href={`/${locale}/offenses`} style={{ color: ACCENT.primary, fontWeight: 600, fontSize: 14, textDecoration: "none", display: "inline-flex", alignItems: "center", minHeight: 44 }}>← {c.back}</a></div>
           </div>
         </main>
       );
@@ -839,7 +839,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             <h2 style={{ fontSize: 20, fontWeight: 700, color: ACCENT.navy, marginBottom: 18 }}>{c.faqTitle}</h2>
             {c.faqs.map((faq, i) => (<div key={i} style={{ borderTop: `1px solid ${ACCENT.border}`, padding: "18px 0" }}><div style={{ fontWeight: 600, color: ACCENT.navy, marginBottom: 8, fontSize: 15 }}>{faq.q}</div><div style={{ color: ACCENT.muted, lineHeight: 1.7, fontSize: 14 }}>{faq.a}</div></div>))}
             <div style={{ marginTop: 40, background: ACCENT.warn, border: `1px solid ${ACCENT.warnBorder}`, borderRadius: 8, padding: "14px 18px", fontSize: 13, color: "#78350f", lineHeight: 1.6 }}>{c.notice}</div>
-            <div style={{ marginTop: 32 }}><a href={`/${locale}/offenses`} style={{ color: ACCENT.primary, fontWeight: 600, fontSize: 14, textDecoration: "none" }}>← {c.back}</a></div>
+            <div style={{ marginTop: 32 }}><a href={`/${locale}/offenses`} style={{ color: ACCENT.primary, fontWeight: 600, fontSize: 14, textDecoration: "none", display: "inline-flex", alignItems: "center", minHeight: 44 }}>← {c.back}</a></div>
           </div>
         </main>
       );
@@ -875,6 +875,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 import React from "react";
 
+const OFFENSES_LABEL: Record<string, string> = { ko: "위반 유형", en: "Offense Types", ja: "違反の種類", zh: "违规类型", vi: "Loại vi phạm" };
+
 export default async function Page({ params }: { params: Promise<{ locale: string; slug: string }> }) {
   const { locale, slug } = await params;
   if (!VALID_LOCALES.includes(locale as L)) notFound();
@@ -883,9 +885,24 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   const content = SLUG_CONTENT[slug];
   if (content) {
     const rendered = content.render(l, locale);
-    if (!HUB_POSTS[slug]) return <>{rendered}</>;
+    // QA01-FIX2(맥7): 위반 유형 상세 BreadcrumbList — 홈 > 위반 유형 > 이 페이지(이름은 meta.title 의 브랜드 앞부분)
+    const crumb = (
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            breadcrumbSchema(l, [
+              { name: OFFENSES_LABEL[l] ?? OFFENSES_LABEL.ko, path: "/offenses" },
+              { name: content.meta[l].title.split(" · ")[0], path: `/offenses/${slug}` },
+            ])
+          ),
+        }}
+      />
+    );
+    if (!HUB_POSTS[slug]) return <>{crumb}{rendered}</>;
     return (
       <>
+        {crumb}
         {appendToMain(
           rendered,
           <div style={{ maxWidth: 800, margin: "0 auto", padding: "0 24px 64px" }}>

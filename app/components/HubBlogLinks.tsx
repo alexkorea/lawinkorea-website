@@ -12,6 +12,8 @@ export const HUB_POSTS: Record<string, string[]> = {
   dui: ["dui-foreigner-visa", "criminal-record-pr-impact", "immigration-offense-review-guide"],
   drugs: ["drug-case-deportation", "criminal-case-visa-defense", "entry-ban-removal"],
   "immigration-fines": ["immigration-fine-notice-response-2026", "immigration-law-penalties-guide", "illegal-employer-penalty"],
+  // QA01-FIX2(맥7): 재산범죄 — 사기 유형(보이스피싱)·형사사건 체류 방어·전과의 영주 영향
+  "property-crime": ["voice-phishing-foreigners", "criminal-case-visa-defense", "criminal-record-pr-impact"],
   "unauthorized-employment": ["illegal-employment-penalty", "illegal-employer-penalty", "unauthorized-activity-disposition-2026"],
   dispositions: ["foreigner-voluntary-departure-2026", "entry-ban-removal", "foreigner-visa-cancellation-response"],
   "deportation-order": ["criminal-case-visa-defense", "foreigner-voluntary-departure-2026", "entry-ban-removal"],
