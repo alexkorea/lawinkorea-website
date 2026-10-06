@@ -33,6 +33,9 @@ import { deferNextScripts } from "./_defer-next-js.js";
 // 존 자동주입 Web Analytics 비컨을 LCP 뒤로 미룬다(0951b, 라이브 ?cfz=1 검증: 비컨·/cdn-cgi/rum 수집 정상).
 // 끄려면 false — 그때도 ?cfz=1 요청에서만 시험 동작한다.
 const HOLD_ZONE = true;
+// LCP-1007: 청크 preload(low)도 내지 않는다 — PSI 망에선 페인트 전에 다 받아져 Lantern LCP 그래프에 실렸다(약 170KB).
+// 되돌리려면 true(0951b 동작).
+const PRELOAD_JS = false;
 
 const HTML_CACHE_CONTROL = "public, max-age=0, must-revalidate";
 const LONG_S_MAXAGE_SECONDS = 60;
@@ -115,7 +118,7 @@ export default {
     if (!(response.headers.get("content-type") || "").includes("text/html")) return response;
     if (BODYLESS_STATUS.has(response.status)) return response;
     if (request.method === "GET") response = await withEarlyHints(response);
-    if (request.method === "GET" && response.status === 200) response = deferNextScripts(response, { holdZone: HOLD_ZONE || url.searchParams.get("cfz") === "1" });
+    if (request.method === "GET" && response.status === 200) response = deferNextScripts(response, { holdZone: HOLD_ZONE || url.searchParams.get("cfz") === "1", preload: PRELOAD_JS });
     const match = /s-maxage=(\\d+)/i.exec(response.headers.get("cache-control") || "");
     if (!match || Number(match[1]) <= LONG_S_MAXAGE_SECONDS) return response;
     const patched = new Response(response.body, response);

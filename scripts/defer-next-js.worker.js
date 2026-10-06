@@ -9,6 +9,9 @@
 //     시작된 스크립트"와 "페인트 전에 끝난 요청"을 LCP 그래프에 싣는다.
 // 로더 규칙: FCP 관측 + (히어로 img[fetchpriority=high] 가 LCP 로 그려짐 | load 이벤트) → 2프레임 뒤 실행.
 //           PerformanceObserver 미지원 브라우저는 load 이벤트, 어떤 경우든 15초 안전망.
+// opts.preload=false(LCP-1007, 맥7 2026-10-07): preload(low) 도 내지 않는다. Lantern LCP 그래프는 저우선 '이미지'만 빼고
+//   페인트 전에 끝난 요청을 전부 싣는데, PSI 망에선 preload 된 청크(160~175KB)가 페인트 전에 다 받아져 그래프에 실렸다.
+//   청크는 로더가 넣을 때(페인트 뒤) 처음 요청된다. 기본값(true)은 0951b 동작 그대로다.
 // 로더 위치는 바이트 꼬리에서 정한다 — 본문에 섞인 잘못된 </html> 에 body 끝 감지가 속지 않게(inhega 블로그 2쪽 실측).
 const LOADER = "(function(){var S=__S__,d=0,f=0,h=0,w=0,hero=document.querySelector('img[fetchpriority=high]');" +
   "function go(){if(d)return;d=1;for(var i=0;i<S.length;i++){var e=document.createElement('script');e.src=S[i][0];if(S[i][1])e.id=S[i][1];e.async=true;document.head.appendChild(e)}" +
@@ -45,7 +48,8 @@ export function deferNextScripts(response, opts = {}) {
         const id = el.getAttribute("id") || "";
         if (id && !/^[\w-]+$/.test(id)) return;
         list.push([src, id]);
-        el.replace('<link rel="preload" as="script" fetchpriority="low" href="' + src + '">', { html: true });
+        if (opts.preload === false) el.remove();
+        else el.replace('<link rel="preload" as="script" fetchpriority="low" href="' + src + '">', { html: true });
       },
     })
     .transform(response);
