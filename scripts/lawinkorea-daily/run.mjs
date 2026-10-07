@@ -24,6 +24,7 @@
  *   node run.mjs [--date=YYYY-MM-DD]            dry-run(무변경)
  *   node run.mjs --date=YYYY-MM-DD --write      발행: content 5파일 + cover-photos.json + OG 10장 + git commit
  *   node run.mjs --list | --check-all           은행 현황 / 미발행 원고 전수 검사
+ *   node run.mjs --check-all --bank=<dir>       다른 폴더의 원고 검사(NAS 원고 가져오기 전 검증)
  *
  * 종료코드  0 발행(또는 dry-run 통과·오늘 이미 발행) / 1 은행 고갈 / 3 원고 검사 FAIL / 4 쓰기·OG 실패(되돌림)
  * 출력      "✅ published <slug> (<n> locales)" + "ARCHIVE <json>"
@@ -38,7 +39,6 @@ import { createRequire } from 'node:module'
 
 const HERE = path.dirname(fileURLToPath(import.meta.url))
 const REPO = path.resolve(HERE, '..', '..')
-const BANK = path.join(HERE, 'bank')
 const STATE_FILE = path.join(HERE, 'state.json')
 const NODE = '/Users/mac4/.local/node/bin/node'
 const OG_TOOL = '/Users/mac4/tools/og-pipeline'
@@ -73,6 +73,9 @@ const kstToday = () => new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 
 const DATE = typeof args.date === 'string' ? args.date : kstToday()
 if (!/^\d{4}-\d{2}-\d{2}$/.test(DATE)) { console.error(`✗ --date 형식 오류: ${DATE}`); process.exit(4) }
 const WRITE = args.write === true
+// --bank=<dir>: 다른 은행 폴더를 검사(--check-all 전용 — daily-blog 의 NAS 원고 가져오기 단계가 설치 전 검증에 쓴다)
+const BANK = typeof args.bank === 'string' ? path.resolve(args.bank) : path.join(HERE, 'bank')
+if (BANK !== path.join(HERE, 'bank') && (WRITE || !args['check-all'])) { console.error('✗ --bank 는 --check-all 과만 쓴다'); process.exit(4) }
 
 function readState() {
   if (!fs.existsSync(STATE_FILE)) return { published: [], rejected: [] }
@@ -247,7 +250,7 @@ async function main() {
       for (const f of fails) console.log(`     ✗ ${f}`)
       for (const w of warns) console.log(`     ⚠ ${w}`)
     }
-    console.log(`\nlawinkorea: 검사 ${bank.length - done.size}편 FAIL ${bad}`)
+    console.log(`\nlawinkorea: 검사 ${bank.filter((x) => !done.has(x.slug)).length}편 FAIL ${bad}`)
     return bad ? 3 : 0
   }
 
