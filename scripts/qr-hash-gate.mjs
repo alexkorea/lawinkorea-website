@@ -64,6 +64,10 @@ for (const d of cfg.src_dirs || []) {
   for (const f of files.filter((x) => /\.(tsx?|jsx?|mjs|html?|json|css|md|py)$/.test(x) && !/\.bak$/.test(x))) {
     const txt = readFileSync(f, 'utf8')
     for (const m of txt.matchAll(REF)) {
+      // 외부 URL(https://zaloapp.com/qr/p/… 등)은 자기 사이트 파일이 아니다
+      const head = txt.slice(Math.max(0, m.index - 200), m.index)
+      const tok = head.slice(Math.max(...['"', "'", '`', '(', ' ', '\n', '='].map((c) => head.lastIndexOf(c))) + 1)
+      if (tok.includes('//')) continue
       const ok = m[2] ? names.has(m[1] + m[2]) : bases.has(m[1]) || [...bases].some((b) => b.startsWith(m[1] + '-'))
       if (!ok) errors.push(`목록에 없는 QR 참조: ${relative(ROOT, f)} → ${m[0]}`)
     }
