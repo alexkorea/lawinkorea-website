@@ -31,5 +31,7 @@
   "visa-denial-response": { "pexels_id": 9052846, "author": "SHVETS production",
     "alt": { "ko": "서류 위 달력에 기한 날짜를 표시하는 손 사진", "en": "Photo of hands marking a deadline on a calendar over documents", "zh": "在文件上的日历标记期限日期的照片", "ja": "書類の上のカレンダーに期限日を書き込む手の写真", "vi": "Ảnh bàn tay đánh dấu ngày hạn trên lịch đặt trên giấy tờ" } },
   "voice-phishing-foreigners": { "pexels_id": 6862836, "author": "cottonbro studio",
-    "alt": { "ko": "모르는 번호의 전화가 걸려 온 스마트폰을 든 손 사진", "en": "Photo of hands holding a smartphone with an incoming call", "zh": "手持来电中的智能手机的照片", "ja": "着信中のスマートフォンを持つ手の写真", "vi": "Ảnh bàn tay cầm điện thoại có cuộc gọi đến" } }
+    "alt": { "ko": "모르는 번호의 전화가 걸려 온 스마트폰을 든 손 사진", "en": "Photo of hands holding a smartphone with an incoming call", "zh": "手持来电中的智能手机的照片", "ja": "着信中のスマートフォンを持つ手の写真", "vi": "Ảnh bàn tay cầm điện thoại có cuộc gọi đến" } },
+  "residence-change-report-fine": { "pexels_id": 4246238, "author": "Ketut Subiyanto",
+    "alt": { "ko": "창가에 테이프로 봉한 이사 상자들이 놓인 사진", "en": "Photo of taped moving boxes stacked by a sunny window", "zh": "窗边堆放着封好胶带的搬家纸箱的照片", "ja": "日の差す窓辺にテープで封をした引っ越し用の箱が置かれた写真", "vi": "Ảnh các thùng các-tông chuyển nhà dán băng keo đặt cạnh cửa sổ" } }
 }
