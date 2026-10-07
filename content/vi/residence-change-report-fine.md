@@ -126,8 +126,6 @@ Bào chữa trong điều tra hoặc xét xử hình sự sau khi bị tố giá
 > - Điều 88-2 khoản 2: "Việc đăng ký người nước ngoài và khai báo thay đổi nơi cư trú theo Luật này thay cho đăng ký cư dân và khai báo chuyển đến."
 > - Điều 100 khoản 2 điểm 1: người vi phạm Điều 35 — phạt hành chính không quá 1 triệu won
 > - Mức tiền phạt cơ sở: Thông tư thi hành Luật Quản lý Xuất nhập cảnh [Bảng 7] / mức phạt hành chính cơ sở: Nghị định thi hành Luật Quản lý Xuất nhập cảnh [Bảng 2]
->
-> Ngày đối chiếu: 7/10/2026, kiểm tra văn bản hiện hành tại Trung tâm Thông tin Pháp luật Quốc gia (Luật có hiệu lực 23/1/2026, Nghị định thi hành có hiệu lực 2/10/2026)
 
 **Trang liên quan**
 - [Bảng tiền phạt xuất nhập cảnh — giải thích theo loại vi phạm](/vi/offenses/immigration-fines)

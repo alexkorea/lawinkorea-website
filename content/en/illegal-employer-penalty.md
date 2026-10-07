@@ -124,14 +124,12 @@ Statements that do not match the record of your interview can hurt you, so inclu
 
 Defense in a criminal investigation or trial after a complaint is filed is **outside the scope of an administrative scrivener**, so we do not handle it. Acting for you in procedures under labor laws such as the employment permit system is the work of a certified labor consultant, so we recommend consulting one.
 
-> **Official sources — statutory text**
+> **Statutory text**
 > - Immigration Act Art. 18(3): "No one shall employ a person who does not hold a status of stay under paragraph (1)."
 > - Immigration Act Art. 94(9): a person "who employs a person who does not hold a status of stay permitting employment, in violation of Article 18(3)" — up to 3 years in prison or KRW 30 million
 > - Immigration Act Art. 105(1): an immigration offender must pay the fine within 15 days of receiving the notice
 > - Enforcement Rule Art. 86(2): the fine may be reduced or increased within one half of the base amount, considering age and circumstances, motive and consequences, ability to pay and number of violations
 > - Fine amounts: Immigration Act Enforcement Rule, Table 8, Criteria for Fines (amended 25 Sep 2020)
->
-> Checked against the current statutes on the Korean National Law Information Center on 3 October 2026. English wording is our translation.
 
 **Related pages**
 - [Korea immigration fine schedule — by violation type](/en/offenses/immigration-fines)

@@ -34,8 +34,6 @@ related:
 
 Một vi phạm xuất nhập cảnh thường gặp của người nước ngoài tại Hàn Quốc là **hoạt động ngoài tư cách lưu trú**. Du học sinh (D-2) làm thêm quá thời gian được phép, người có visa E-9 chuyển sang nơi làm việc chưa được cấp phép, hay nhập cảnh bằng visa du lịch (C-3) rồi đi làm — tất cả đều thuộc nhóm này.
 
-
-
 ## 1. Thế nào là hoạt động ngoài tư cách
 
 Luật Quản lý xuất nhập cảnh, Điều 20: "Người nước ngoài muốn thực hiện hoạt động thuộc tư cách lưu trú khác, bên cạnh hoạt động thuộc tư cách hiện có, phải được Bộ trưởng Bộ Tư pháp cho phép trước."

@@ -130,8 +130,6 @@ Bào chữa trong giai đoạn điều tra, xét xử hình sự sau khi bị t�
 > - Điều 105 khoản 1: người vi phạm xuất nhập cảnh phải nộp tiền phạt trong 15 ngày kể từ khi nhận thông báo
 > - Thông tư thi hành Điều 86 khoản 2: tiền phạt có thể được giảm hoặc tăng trong phạm vi một nửa mức chuẩn, xét tuổi và hoàn cảnh, động cơ và hậu quả, khả năng chi trả, số lần vi phạm
 > - Mức chuẩn: Thông tư thi hành Luật Quản lý Xuất nhập cảnh, Bảng 8 — Tiêu chuẩn định mức tiền phạt (sửa đổi ngày 25/9/2020)
->
-> Đối chiếu với văn bản hiện hành trên Trung tâm Thông tin Pháp luật Quốc gia Hàn Quốc ngày 3/10/2026
 
 **Trang liên quan**
 - [Bảng mức phạt xuất nhập cảnh — theo loại vi phạm](/vi/offenses/immigration-fines)

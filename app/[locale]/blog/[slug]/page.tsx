@@ -264,12 +264,7 @@ export default async function LocaleBlogPost({ params }: { params: Promise<Param
           <span>
             {t.authorLabel} · {BRAND_BY_LOCALE[locale as LocaleParam]}
           </span>
-          <span>
-            {t.updatedLabel}{" "}
-            <time dateTime={post.updated || post.date} style={{ fontFamily: "var(--font-mono)" }}>
-              {post.updated || post.date}
-            </time>
-          </span>
+          {/* WQA-1007-FIX: 화면의 '최종 수정' 날짜는 내리고 dateModified(JSON-LD·메타)만 남긴다(보스 규칙: 확인일·기준일 화면 노출 0). */}
         </div>
 
         <img

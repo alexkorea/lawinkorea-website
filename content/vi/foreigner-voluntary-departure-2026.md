@@ -14,7 +14,7 @@ faq:
   - q: "Tôi quá hạn lưu trú (cư trú bất hợp pháp) chưa tới 1 tháng, xuất cảnh tự nguyện thì có bị cấm nhập cảnh (hạn chế nhập cảnh) không?"
     a: "Việc có bị cấm nhập cảnh hay không và thời hạn bao lâu phụ thuộc vào đánh giá của cơ quan xuất nhập cảnh đối với từng trường hợp, nên hãy kiểm tra trước khi rời đi."
   - q: "Khai báo xuất cảnh tự nguyện ở đâu?"
-    a: "Đến trực tiếp văn phòng xuất nhập cảnh quản lý nơi cư trú, một số trường hợp có thể khai báo qua điện thoại. Tại Seoul là Văn phòng Xuất nhập cảnh Seoul; các khu vực khác liên hệ văn phòng địa phương. Văn phòng Xuất nhập cảnh Seoul chuyển đến trụ sở mới tại 55 Jeongui-ro, Songpa-gu, Seoul từ ngày 19/10/2026 — đến hết ngày 18/10 vẫn làm việc tại 151 Mokdongdong-ro, Yangcheon-gu (điện thoại 02-2650-6214). Nguồn: thông báo của Bộ Tư pháp trên immigration.go.kr (02/10/2026). Sau khi chuyển trụ sở, vui lòng xác nhận số điện thoại qua 1345. Hi Korea (www.hikorea.go.kr) cũng có kênh khai báo trực tuyến cho một số trường hợp."
+    a: "Đến trực tiếp văn phòng xuất nhập cảnh quản lý nơi cư trú, một số trường hợp có thể khai báo qua điện thoại. Tại Seoul là Văn phòng Xuất nhập cảnh Seoul; các khu vực khác liên hệ văn phòng địa phương. Văn phòng Xuất nhập cảnh Seoul chuyển đến trụ sở mới tại 55 Jeongui-ro, Songpa-gu, Seoul từ ngày 19/10/2026 — đến hết ngày 18/10 vẫn làm việc tại 151 Mokdongdong-ro, Yangcheon-gu (điện thoại 02-2650-6214). Sau khi chuyển trụ sở, vui lòng xác nhận số điện thoại qua 1345. Hi Korea (www.hikorea.go.kr) cũng có kênh khai báo trực tuyến cho một số trường hợp."
   - q: "Đơn xin dỡ bỏ lệnh cấm bị từ chối thì làm gì?"
     a: "Sau khi nhận thông báo từ chối, hãy xác nhận lý do, bổ sung tài liệu và nộp lại. Ngoài ra có thể yêu cầu xét xử hành chính hoặc khiếu nại ra tòa. Nên cùng hành chính sĩ xây dựng chiến lược."
   - q: "Có vợ/chồng người Hàn thì dễ được dỡ lệnh cấm hơn không?"
@@ -139,7 +139,7 @@ Vì vậy hãy kiểm tra trước khi rời đi.
 **Q. Khai báo xuất cảnh tự nguyện ở đâu?**
 
 A. Đến trực tiếp văn phòng xuất nhập cảnh quản lý nơi cư trú; một số trường hợp có thể khai báo qua điện thoại.
-Tại Seoul là Văn phòng Xuất nhập cảnh Seoul; các khu vực khác liên hệ văn phòng địa phương. Văn phòng Xuất nhập cảnh Seoul chuyển đến trụ sở mới tại 55 Jeongui-ro, Songpa-gu, Seoul từ ngày 19/10/2026 — đến hết ngày 18/10 vẫn làm việc tại 151 Mokdongdong-ro, Yangcheon-gu (điện thoại 02-2650-6214). Nguồn: [thông báo của Bộ Tư pháp ngày 02/10/2026](https://www.immigration.go.kr/bbs/immigration/47/611051/artclView.do). Sau khi chuyển trụ sở, vui lòng xác nhận số điện thoại qua 1345.
+Tại Seoul là Văn phòng Xuất nhập cảnh Seoul; các khu vực khác liên hệ văn phòng địa phương. Văn phòng Xuất nhập cảnh Seoul chuyển đến trụ sở mới tại 55 Jeongui-ro, Songpa-gu, Seoul từ ngày 19/10/2026 — đến hết ngày 18/10 vẫn làm việc tại 151 Mokdongdong-ro, Yangcheon-gu (điện thoại 02-2650-6214). Sau khi chuyển trụ sở, vui lòng xác nhận số điện thoại qua 1345.
 Hi Korea ([www.hikorea.go.kr](https://www.hikorea.go.kr)) cũng có kênh khai báo trực tuyến cho một số trường hợp.
 
 **Q. Đơn xin dỡ bỏ lệnh cấm bị từ chối thì làm gì?**

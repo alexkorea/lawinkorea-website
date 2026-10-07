@@ -130,6 +130,8 @@ export const BANNED_TERMS = new RegExp('\ubcc0\ud638\uc0ac|\ubc95\ubb34\ubc95\uc
 // ── 브랜드 게이트 (맥7 2026-10-03 · 보스 msg 1688) ─────────────────────
 // lawinkorea 운영 주체는 선샤인행정사사무소(등록부 E). 옛 브랜드 A(비전) 표기가 어느 로캘에도 나오면 안 된다.
 // 일반명사 '비전문(취업)'은 제외. 대소문자 구분 — 소문자 vision(일반 영단어)은 대상 아님.
+// 출처·확인일·기준일 화면 노출 0 (보스 규칙, 맥7 WQA-1007-FIX). 원고(blog-posts-data.ts)만 검사한다 — 근거는 내부 데이터로만.
+export const SOURCE_BANNED = /(기준일|확인일|출처|基準日|基准日|核对日|出典|出处|来源|资料来源|Ngày đối chiếu|Nguồn(?: pháp lý| pháp luật)?)\s*[:：]|\bSources?\s*:|Legal sources|checked on law\.go\.kr|Checked against the current statutes|tra cứu law\.go\.kr|law\.go\.kr\s*確認|\d+일 검색 기준|検索時点|internal compilation|사내 정리 자료/gu;
 export const BRAND_BANNED = new RegExp('\\bVISION\\b|\\bVision\\b|비전(?!문)|飞展', 'gu');
 {
   const exts = ['.html', '.rsc', '.txt', '.json', '.meta', '.body', '.js', '.xml'];
@@ -152,6 +154,10 @@ export const BRAND_BANNED = new RegExp('\\bVISION\\b|\\bVision\\b|비전(?!문)|
     for (const m of txt.matchAll(BANNED_TERMS)) {
       const ctx = txt.slice(Math.max(0, m.index - 40), m.index + m[0].length + 40).replace(/\s+/g, ' ');
       violations.push(`${f.slice(ROOT.length + 1)} :: 금지어 "${m[0]}" … ${ctx}`);
+    }
+    if (extra.includes(f)) for (const m of txt.matchAll(SOURCE_BANNED)) {
+      const ctx = txt.slice(Math.max(0, m.index - 40), m.index + m[0].length + 40).replace(/\s+/g, ' ');
+      violations.push(`${f.slice(ROOT.length + 1)} :: 출처·기준일 문구 "${m[0]}" … ${ctx}`);
     }
     for (const m of txt.matchAll(BRAND_BANNED)) {
       const ctx = txt.slice(Math.max(0, m.index - 40), m.index + m[0].length + 40).replace(/\s+/g, ' ');

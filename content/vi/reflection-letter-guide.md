@@ -117,8 +117,6 @@ Hành chính sĩ được soạn văn bản nộp cho cơ quan hành chính, so�
 > - Thông tư thi hành Điều 86 khoản 2: tiền phạt có thể được giảm hoặc tăng trong phạm vi một nửa mức chuẩn, "xét tuổi và hoàn cảnh, động cơ và hậu quả vi phạm, khả năng chi trả tiền phạt, số lần vi phạm..."
 > - Luật Quản lý Xuất nhập cảnh Điều 48 khoản 4: biên bản phải được đọc cho người bị nghi vấn nghe hoặc cho xem, hỏi có ghi sai không; nếu người đó yêu cầu thêm, xóa hoặc sửa nội dung thì phải ghi lời khai đó vào biên bản
 > - Luật Hành chính sĩ Điều 2 khoản 1: soạn văn bản nộp cơ quan hành chính (điểm 1), soạn văn bản về quyền, nghĩa vụ hoặc chứng minh sự việc (điểm 2), dịch văn bản liên quan đến công việc của cơ quan hành chính (điểm 3), nộp thay các văn bản đã soạn (điểm 4)
->
-> Đối chiếu với văn bản hiện hành trên Trung tâm Thông tin Pháp luật Quốc gia Hàn Quốc ngày 3/10/2026
 
 **Trang liên quan**
 - [Thẩm tra vi phạm xuất nhập cảnh là gì và cần chuẩn bị gì](/vi/immigration-offense-review)

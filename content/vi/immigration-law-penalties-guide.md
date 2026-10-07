@@ -35,7 +35,7 @@ related:
 
 Khi vi phạm Luật Quản lý xuất nhập cảnh, điều cần lưu ý không chỉ là **số tiền phạt** mà còn là **chuỗi thủ tục theo sau**. Dù chỉ bị phạt tiền, bạn vẫn có thể phải qua buổi xem xét vi phạm, với các kết quả như từ chối gia hạn visa hoặc trục xuất (cưỡng chế xuất cảnh).
 
-Bài viết này trích dẫn nguyên văn các điều khoản chế tài tại Điều 93-3 và Điều 94~100 của Luật Quản lý xuất nhập cảnh theo **văn bản hiện hành (tra cứu law.go.kr ngày 2026-10-04)**, đồng thời sắp xếp theo tình huống thực tế.
+Bài viết này trích dẫn nguyên văn các điều khoản chế tài tại Điều 93-3 và Điều 94~100 của Luật Quản lý xuất nhập cảnh theo **văn bản hiện hành**, đồng thời sắp xếp theo tình huống thực tế.
 
 > **Các trích dẫn pháp luật trong bài đã được đối chiếu qua API Hệ thống thông tin pháp luật quốc gia (open.law.go.kr).** Tuy nhiên mức phạt thực tế của từng vụ có thể khác nhau theo khung lượng hình của viện kiểm sát và tòa án; bài viết chỉ mang tính thông tin chung.
 
@@ -196,11 +196,3 @@ Văn phòng Hành chính sĩ Sunshine — hỗ trợ tiếng Hàn/Anh/Trung/Nh�
 - [Lao động trái phép và hoạt động ngoài tư cách](/vi/blog/illegal-employment-penalty)
 - [Ứng phó sau khi bị từ chối gia hạn visa](/vi/blog/visa-denial-response)
 - [Tiền án và ảnh hưởng đến thường trú (F-5)](/vi/blog/criminal-record-pr-impact)
-
----
-
-**Nguồn pháp luật:**
-- Luật Quản lý xuất nhập cảnh (Luật số 21857, văn bản hiện hành tra cứu law.go.kr ngày 2026-10-04)
-- Nghị định thi hành (Nghị định Tổng thống số 35540, hiệu lực 01/06/2025)
-- Quy tắc thi hành (Thông tư Bộ Tư pháp số 01106, hiệu lực 23/01/2026)
-- Trung tâm thông tin pháp luật quốc gia: https://www.law.go.kr

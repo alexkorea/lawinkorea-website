@@ -10,7 +10,6 @@ import {
   fineLabels,
   fineLocale,
   finesFor,
-  sourceName,
   type FineLocale,
 } from "../../lib/fines";
 
@@ -73,7 +72,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   const summary = ui.summary
     .replace("{groups}", String(FINE_GROUPS.length))
     .replace("{tiers}", String(FINE_TIER_COUNT));
-  const asOf = ui.asOf.replace("{date}", FINES.checkedOn);
 
   const table = (g: (typeof groups)[number]) => (
     <table style={{ width: "100%", borderCollapse: "collapse", tableLayout: "fixed", fontSize: 14 }}>
@@ -188,23 +186,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         <div style={{ fontSize: 13, fontWeight: 600, color: A.primary, marginBottom: 14 }}>{summary}</div>
         <p style={{ fontSize: 16, color: A.muted, lineHeight: 1.75, margin: "0 0 24px" }}>{ui.lead}</p>
 
-        <div style={{ background: "#fff", border: `1px solid ${A.border}`, borderRadius: 10, padding: "16px 18px", marginBottom: 16 }}>
-          <div style={{ fontSize: 13, fontWeight: 700, color: A.navy, marginBottom: 8 }}>{ui.sourceTitle}</div>
-          <ul style={{ margin: 0, paddingLeft: 18, fontSize: 13, color: A.muted, lineHeight: 1.8 }}>
-            {Object.keys(FINES.sources).map((k) => {
-              const n = sourceName(l, k);
-              return (
-                <li key={k}>
-                  <a href={FINES.sources[k].url} rel="nofollow noopener" target="_blank" style={{ color: A.primary, textDecoration: "none" }}>
-                    {`${n.act} [${n.table}]`}
-                  </a>
-                  <span style={{ color: "#94a3b8" }}> · {FINES.sources[k].title}</span>
-                </li>
-              );
-            })}
-          </ul>
-          <div style={{ fontSize: 12, color: A.muted, marginTop: 10 }}>{asOf}</div>
-        </div>
+        {/* WQA-1007-FIX: 별표 출처·기준일 박스는 화면에서 내림(근거는 app/lib/fines.ts·immigration-fines.json 내부 데이터). */}
 
         <div style={{ background: "#fffbeb", border: "1px solid #f59e0b", borderRadius: 10, padding: "14px 18px", marginBottom: 16, fontSize: 13, color: "#78350f", lineHeight: 1.7 }}>
           {ui.adjustNote}

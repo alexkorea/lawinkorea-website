@@ -112,13 +112,11 @@ Letters matter before the disposition is decided. If you have a summons, bring t
 
 An administrative scrivener may draft documents submitted to administrative agencies, draft documents certifying facts, translate them and submit them (Haengjeongsa Act Article 2(1)). Defense in a criminal trial and representation in lawsuits are **outside the scope of an administrative scrivener**, so we do not handle them.
 
-> **Official sources — statutory text (English is our translation)**
+> **Statutory text (English is our translation)**
 > - Immigration Act Art. 103(2): "The Minister of Justice may waive a notice under Article 102(1), taking into account the age and circumstances of the immigration offender, the motive for and consequences of the violation, the ability to pay the fine and other circumstances."
 > - Enforcement Rule Art. 86(2): the fine may be reduced or increased within one half of the base amount, "taking into account the age and circumstances of the offender, the motive for and consequences of the violation, the ability to pay the fine, the number of violations, etc."
 > - Immigration Act Art. 48(4): the record must be read to the suspect or shown to him or her, the suspect must be asked whether it contains errors, and any request to add, delete or change content must be recorded.
 > - Haengjeongsa Act Art. 2(1): drafting documents submitted to administrative agencies (item 1), drafting documents on rights, duties or proof of facts (item 2), translating documents related to administrative work (item 3), submitting the documents so prepared (item 4)
->
-> Checked against the current statutes on the Korean National Law Information Center on 3 October 2026.
 
 **Related pages**
 - [What is an immigration offense review, and what should you prepare?](/en/immigration-offense-review)

@@ -42,7 +42,7 @@ Bài viết này tổng hợp ảnh hưởng của tiền án lên thường tr�
 - Nghị định thi hành, Điều 12-2 (điều kiện tư cách thường trú)
 - Nghị định thi hành, Phụ lục 1-3 (các loại và điều kiện tư cách thường trú)
 
-Điều kiện thường trú được quy định chi tiết theo từng loại tại Điều 12-2 và Phụ lục 1-3 (F-5-1 ~ F-5-17). Theo Quy tắc thi hành Luật Quản lý xuất nhập cảnh Điều 18-4 khoản 1 điểm 1 (tra cứu law.go.kr ngày 2026-10-04), yêu cầu về phẩm hạnh không được đáp ứng nếu thuộc một trong các trường hợp sau:
+Điều kiện thường trú được quy định chi tiết theo từng loại tại Điều 12-2 và Phụ lục 1-3 (F-5-1 ~ F-5-17). Theo Quy tắc thi hành Luật Quản lý xuất nhập cảnh Điều 18-4 khoản 1 điểm 1, yêu cầu về phẩm hạnh không được đáp ứng nếu thuộc một trong các trường hợp sau:
 
 1. **Án tù hoặc giam giữ (thi hành thực tế)** — chưa qua 5 năm kể từ khi chấp hành xong hoặc được miễn chấp hành
 2. **Án treo** — chưa qua 5 năm kể từ ngày bản án có hiệu lực
@@ -195,7 +195,7 @@ Thời hạn theo quy định được tính theo loại xử lý (mục 1); tí
 - Năng lực tiếng Hàn + hiểu biết xã hội Hàn Quốc
 - Từ bỏ quốc tịch nước ngoài (có ngoại lệ)
 
-### Thời hạn theo quy định (tra cứu law.go.kr ngày 2026-10-04)
+### Thời hạn theo quy định
 - Thường trú (Quy tắc thi hành Luật Quản lý xuất nhập cảnh Điều 18-4): án tù 5 năm kể từ khi chấp hành xong, án treo 5 năm kể từ ngày bản án có hiệu lực, phạt tiền 3 năm kể từ ngày nộp phạt
 - Nhập tịch (Quy tắc thi hành Luật Quốc tịch Điều 5-2): án tù 10 năm kể từ khi chấp hành xong, án treo 7 năm kể từ khi hết thời gian thử thách, phạt tiền 5 năm kể từ ngày nộp phạt, hoãn tuyên án hoặc tạm đình chỉ truy tố 2 năm
 

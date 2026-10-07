@@ -66,7 +66,7 @@ Deportation can be ordered only on the grounds listed in Article 46(1) of the Im
 | Refused testing | 1–5 yr imprisonment or KRW 5–20M fine (Article 148-2(2)) |
 | With accident | Additional charges may apply |
 
-Source: [Road Traffic Act Article 148-2](https://www.law.go.kr/법령/도로교통법/제148조의2), checked on law.go.kr on 4 October 2026. The immigration outcome is not set by BAC alone. Mitigation evidence (family, employer, contribution in Korea) is considered, and the disposition depends on the individual case.
+The immigration outcome is not set by BAC alone. Mitigation evidence (family, employer, contribution in Korea) is considered, and the disposition depends on the individual case.
 
 ## 3. Document Checklist Before the Review
 

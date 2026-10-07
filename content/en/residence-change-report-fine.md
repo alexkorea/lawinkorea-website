@@ -120,14 +120,12 @@ Statements that do not match the facts are compared with the interview record an
 
 Defense in a criminal investigation or trial after a complaint is filed is **outside the scope of an administrative scrivener**, and we do not take on that work.
 
-> **Official sources — statutory text (English translation by this site)**
+> **Statutory text (English translation by this site)**
 > - Immigration Act Article 36(1): "Where a foreigner who has registered under Article 31 changes his or her place of stay, he or she shall file a move-in report with the head of the new city, county or district or eup, myeon or dong, or with the head of the regional immigration office having jurisdiction over the new place of stay, within 15 days from the date of moving in, as prescribed by Presidential Decree."
 > - Article 98: "Any of the following persons shall be punished by a fine not exceeding one million won: … 2. A person who violates the duty to report a change of place of stay under Article 36(1)"
 > - Article 88-2(2): "Alien registration and a report on change of place of stay under this Act shall replace resident registration and a move-in report."
 > - Article 100(2)(1): a person who violates Article 35 — administrative fine not exceeding one million won
 > - Immigration fine base amounts: Enforcement Rule of the Immigration Act [Annex 7] / administrative fine base amounts: Enforcement Decree of the Immigration Act [Annex 2]
->
-> Checked against the current statutes on the National Law Information Center on October 7, 2026 (Immigration Act in force January 23, 2026; Enforcement Decree in force October 2, 2026)
 
 **Related pages**
 - [Immigration fines table — explained by violation type](/en/offenses/immigration-fines)

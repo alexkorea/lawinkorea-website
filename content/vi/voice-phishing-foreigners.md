@@ -56,7 +56,7 @@ Mức xử lý phụ thuộc vào mức độ tham gia và từng vụ việc.
 ## 2. Mức xử phạt theo luật hình sự Hàn Quốc
 
 ### Bộ luật Hình sự
-- **Tội lừa đảo** (Điều 347 khoản 1): tù đến 20 năm hoặc phạt đến 50 triệu won (sửa đổi ngày 23/12/2025, tra cứu law.go.kr ngày 2026-10-04)
+- **Tội lừa đảo** (Điều 347 khoản 1): tù đến 20 năm hoặc phạt đến 50 triệu won (sửa đổi ngày 23/12/2025)
 - **Lừa đảo bằng máy tính** (Điều 347-2): mức phạt theo luật tương tự
 - **Lừa đảo có tính chuyên nghiệp**: tăng nặng
 

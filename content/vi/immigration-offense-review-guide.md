@@ -151,7 +151,6 @@ Khác biệt lớn nhất nằm giữa **"lệnh xuất cảnh" và "trục xu�
 
 ## 6. Quy trình ứng phó 5 bước của Sunshine
 
-
 ### Bước 1. Tiếp nhận và tư vấn ban đầu (trong 1 ngày)
 
 Nắm chính xác tình huống và đánh giá mức độ rủi ro. Hỗ trợ đa ngôn ngữ, qua KakaoTalk, WeChat, LINE hay WhatsApp đều được.

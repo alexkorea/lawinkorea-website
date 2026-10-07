@@ -137,7 +137,6 @@ The biggest distinction is between **departure order** and **deportation**. A de
 
 ## 6. Sunshine's Five-Step Response Protocol
 
-
 ### Step 1. Intake and Initial Consultation (within 1 day)
 Accurate situation assessment and case-risk evaluation. Multilingual; KakaoTalk, WeChat, LINE, WhatsApp all available.
 

@@ -8,7 +8,6 @@ import {
   SITUATION_SLUGS,
   SITUATIONS,
   UI,
-  collectSources,
   resolveSrc,
   type Line,
   type SL,
@@ -45,8 +44,12 @@ const C = { navy: "#001F3F", primary: "#0056B3", muted: "#475569", border: "#E9E
 const H2 = { fontSize: 20, fontWeight: 700, color: C.navy, margin: "40px 0 14px" } as const;
 const LI = { color: C.muted, marginBottom: 10, lineHeight: 1.7, fontSize: 15 } as const;
 
+// WQA-1007-FIX: 항목별 '근거/Source:' 외부링크는 화면에 싣지 않는다(출처 노출 0·외부링크는 상세 맨 끝만).
+// 근거 키는 situations.ts 데이터에 그대로 남아 내부 검증용으로 쓴다.
+const SHOW_INLINE_SOURCES = false;
+
 function SrcLinks({ l, keys }: { l: SL; keys?: SrcKey[] }) {
-  if (!keys || keys.length === 0) return null;
+  if (!SHOW_INLINE_SOURCES || !keys || keys.length === 0) return null;
   return (
     <span style={{ display: "block", fontSize: 12.5, marginTop: 3 }}>
       <span style={{ color: "#64748b" }}>{UI[l].srcPrefix}: </span>
@@ -92,7 +95,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   const l = locale;
   const c = SITUATIONS[slug][l];
   const ui = UI[l];
-  const sources = collectSources(c);
 
   return (
     <main style={{ background: C.bg, minHeight: "100vh" }}>
@@ -148,19 +150,8 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         <h2 style={H2}>{ui.docs}</h2>
         <Lines l={l} items={c.docs} />
 
-        {/* 6. 공식 근거 링크 — 본문에 쓰인 조문 전체 + 공식 안내 사이트 */}
-        <h2 style={H2}>{ui.sources}</h2>
-        <ul style={{ paddingLeft: 22, margin: 0 }}>
-          {sources.map((k) => {
-            const s = resolveSrc(l, k);
-            return (
-              <li key={k} style={{ ...LI, marginBottom: 6 }}>
-                <a href={s.url} target="_blank" rel="noopener noreferrer" style={{ color: C.primary }}>{s.label}</a>
-              </li>
-            );
-          })}
-        </ul>
-        <div style={{ fontSize: 14, fontWeight: 600, color: C.navy, margin: "18px 0 8px" }}>{ui.officialSites}</div>
+        {/* 6. 공식 안내 사이트 — 상세 맨 끝 외부링크(조문별 근거 목록은 WQA-1007-FIX 로 화면에서 내림) */}
+        <h2 style={H2}>{ui.officialSites}</h2>
         <ul style={{ paddingLeft: 22, margin: 0 }}>
           {c.officialSites.map((k) => {
             const s = resolveSrc(l, k);

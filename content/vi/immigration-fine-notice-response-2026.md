@@ -31,7 +31,7 @@ Nếu không khai báo thay đổi thông tin đăng ký người nước ngoài
 
 Bài viết này tổng hợp những điều cần kiểm tra khi nhận thông báo và cách xử lý, dựa trên Luật Quản lý xuất nhập cảnh và bảng mức phạt chính thức.
 
-> **Mức phạt tiêu chuẩn trong bài dựa trên tài liệu tổng hợp nội bộ (tính đến 2026-09-22) và quy định hiện hành được xác nhận qua Trung tâm Thông tin Pháp luật Quốc gia (law.go.kr).** Mức phạt và thủ tục thực tế có thể khác nhau tùy cơ quan xuất nhập cảnh quản lý, vì vậy hãy luôn ưu tiên kiểm tra nội dung ghi trên thông báo bạn nhận được.
+> Mức phạt và thủ tục thực tế có thể khác nhau tùy cơ quan xuất nhập cảnh quản lý, vì vậy hãy luôn ưu tiên kiểm tra nội dung ghi trên thông báo bạn nhận được.
 
 ## 1. Beomchikgeum là gì — chế độ thông báo xử phạt
 
@@ -92,10 +92,3 @@ Nếu bạn đã nhận thông báo phạt và muốn kiểm tra luôn ảnh hư
 - [Hướng dẫn về thủ tục thẩm tra vi phạm xuất nhập cảnh](/blog/immigration-offense-review-guide)
 - [Tổng hợp hình phạt theo Luật Quản lý xuất nhập cảnh](/blog/immigration-law-penalties-guide)
 - [Xử phạt làm việc trái phép, hoạt động ngoài tư cách](/blog/illegal-employment-penalty)
-
----
-
-**Nguồn pháp lý:**
-- Luật Quản lý xuất nhập cảnh, Điều 102 trở đi (thông báo xử phạt và quy định liên quan): https://www.law.go.kr
-- Quy tắc thi hành Luật Quản lý xuất nhập cảnh, Bảng đính kèm (Mức phạt tiêu chuẩn) — tài liệu tổng hợp nội bộ, tính đến 2026-09-22
-- HiKorea (Bộ Tư pháp): https://www.hikorea.go.kr

@@ -31,7 +31,7 @@ If you miss the legal deadline to report a change in your alien registration det
 
 This article explains what to check when you receive a notice and how to respond, based on the Immigration Act and the official fine schedule.
 
-> **The standard fine amounts here are based on an internal compilation (as of 2026-09-22) and current provisions confirmed via the Korea Law Information Center (law.go.kr).** Actual amounts and procedures can vary by immigration office, so always check the details printed on your own notice first.
+> Actual amounts and procedures can vary by immigration office, so always check the details printed on your own notice first.
 
 ## 1. What a "beomchikgeum" fine is — the notification disposition system
 
@@ -92,10 +92,3 @@ If you've received a fine notice and want to also check how it could affect your
 - [Immigration Offense Review Guide](/blog/immigration-offense-review-guide)
 - [Immigration Act Penalties Guide](/blog/immigration-law-penalties-guide)
 - [Illegal Employment & Unauthorized Activity Dispositions](/blog/illegal-employment-penalty)
-
----
-
-**Legal sources:**
-- Immigration Act, Article 102 onward (notification disposition and related provisions): https://www.law.go.kr
-- Enforcement Rule of the Immigration Act, Attached Table (Standard Fine Amounts) — internal compilation, as of 2026-09-22
-- HiKorea (Ministry of Justice): https://www.hikorea.go.kr
