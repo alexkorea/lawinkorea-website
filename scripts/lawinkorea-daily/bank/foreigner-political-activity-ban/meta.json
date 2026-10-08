@@ -1,0 +1,27 @@
+{
+ "order": 15,
+ "batch": "20261007",
+ "pexels_id": 15904364,
+ "pexels_author": "Miguel González",
+ "cover_alt": {
+  "ko": "집회에서 확성기를 높이 든 손",
+  "en": "Hand holding a megaphone aloft at a rally",
+  "zh": "集会上高举扩音器的手",
+  "ja": "集会で拡声器を掲げる手",
+  "vi": "Bàn tay giơ cao loa phóng thanh tại cuộc tụ tập"
+ },
+ "og_category": {
+  "ko": "강제퇴거",
+  "en": "Removal",
+  "zh": "强制驱逐",
+  "ja": "強制退去",
+  "vi": "Buộc xuất cảnh"
+ },
+ "imageTitle": {
+  "ko": "외국인의 정치활동 금지",
+  "en": "Political activity ban",
+  "zh": "外国人禁止政治活动",
+  "ja": "外国人の政治活動の禁止",
+  "vi": "Cấm hoạt động chính trị"
+ }
+}

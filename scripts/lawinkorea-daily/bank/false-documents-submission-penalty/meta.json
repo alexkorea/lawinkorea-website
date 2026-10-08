@@ -1,0 +1,27 @@
+{
+ "order": 10,
+ "batch": "20261007",
+ "pexels_id": 6358840,
+ "pexels_author": "Anna Tarazevich",
+ "cover_alt": {
+  "ko": "나무 책상 위 서류에 도장을 찍는 손",
+  "en": "Hand stamping a document on a wooden desk",
+  "zh": "木桌上给文件盖章的手",
+  "ja": "木の机の上で書類に印を押す手",
+  "vi": "Bàn tay đóng dấu lên giấy tờ trên bàn gỗ"
+ },
+ "og_category": {
+  "ko": "벌칙·벌금",
+  "en": "Penalties",
+  "zh": "处罚·罚款",
+  "ja": "罰則・罰金",
+  "vi": "Hình phạt"
+ },
+ "imageTitle": {
+  "ko": "허위서류 제출 금지",
+  "en": "False documents",
+  "zh": "禁止提交虚假材料",
+  "ja": "虚偽書類の提出禁止",
+  "vi": "Cấm nộp giấy tờ giả"
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "order": 8,
+ "batch": "20261007",
+ "pexels_id": 8524948,
+ "pexels_author": "Olia Danilevich",
+ "cover_alt": {
+  "ko": "서류에 서명하는 손을 가까이서 찍은 사진",
+  "en": "Close-up of a hand signing a document",
+  "zh": "在文件上签名的手部特写",
+  "ja": "書類に署名する手のクローズアップ",
+  "vi": "Cận cảnh bàn tay ký giấy tờ"
+ },
+ "og_category": {
+  "ko": "체류허가",
+  "en": "Residence",
+  "zh": "居留许可",
+  "ja": "在留許可",
+  "vi": "Cư trú"
+ },
+ "imageTitle": {
+  "ko": "체류자격 변경은 허가 먼저",
+  "en": "Permit before status change",
+  "zh": "先获许可再变更资格",
+  "ja": "在留資格変更は許可が先",
+  "vi": "Xin phép trước khi đổi tư cách"
+ }
+}

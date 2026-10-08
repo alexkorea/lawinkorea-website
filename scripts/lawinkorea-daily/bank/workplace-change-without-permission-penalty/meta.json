@@ -1,0 +1,27 @@
+{
+ "order": 3,
+ "batch": "20261007",
+ "pexels_id": 8837510,
+ "pexels_author": "ANTONI SHKRABA production",
+ "cover_alt": {
+  "ko": "사무실 책상 위에서 악수하는 모습",
+  "en": "Handshake over an office desk",
+  "zh": "办公桌上的握手",
+  "ja": "オフィスの机越しの握手",
+  "vi": "Bắt tay trên bàn làm việc"
+ },
+ "og_category": {
+  "ko": "불법취업",
+  "en": "Employment",
+  "zh": "非法就业",
+  "ja": "不法就労",
+  "vi": "Làm việc bất hợp pháp"
+ },
+ "imageTitle": {
+  "ko": "허가 없이 근무처 변경",
+  "en": "Workplace change permit",
+  "zh": "未经许可换单位",
+  "ja": "許可なき勤務先変更",
+  "vi": "Đổi nơi làm không phép"
+ }
+}

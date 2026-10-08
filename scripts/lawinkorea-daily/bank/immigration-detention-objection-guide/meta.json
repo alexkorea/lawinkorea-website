@@ -1,0 +1,27 @@
+{
+ "order": 6,
+ "batch": "20261007",
+ "pexels_id": 7054505,
+ "pexels_author": "Kindel Media",
+ "cover_alt": {
+  "ko": "파란 펜으로 서류에 서명하는 손",
+  "en": "Hand signing a document with a blue pen",
+  "zh": "用蓝笔在文件上签名的手",
+  "ja": "青いペンで書類に署名する手",
+  "vi": "Bàn tay ký giấy tờ bằng bút xanh"
+ },
+ "og_category": {
+  "ko": "강제퇴거",
+  "en": "Removal",
+  "zh": "强制驱逐",
+  "ja": "強制退去",
+  "vi": "Buộc xuất cảnh"
+ },
+ "imageTitle": {
+  "ko": "보호·이의신청·일시해제",
+  "en": "Detention and objections",
+  "zh": "保护·异议·临时解除",
+  "ja": "保護・異議・一時解除",
+  "vi": "Bảo hộ, khiếu nại, tạm đình chỉ"
+ }
+}

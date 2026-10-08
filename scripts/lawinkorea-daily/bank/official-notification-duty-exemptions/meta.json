@@ -1,0 +1,27 @@
+{
+ "order": 13,
+ "batch": "20261007",
+ "pexels_id": 10586212,
+ "pexels_author": "Mathias Reding",
+ "cover_alt": {
+  "ko": "도시 건물의 현대적인 유리 출입구",
+  "en": "Modern glass entrance of a city building",
+  "zh": "城市建筑的现代玻璃入口",
+  "ja": "都市のビルのモダンなガラス張りの入口",
+  "vi": "Lối vào kính hiện đại của một tòa nhà"
+ },
+ "og_category": {
+  "ko": "벌칙·벌금",
+  "en": "Penalties",
+  "zh": "处罚·罚款",
+  "ja": "罰則・罰金",
+  "vi": "Hình phạt"
+ },
+ "imageTitle": {
+  "ko": "공무원 통보의무와 면제",
+  "en": "Official reporting duty",
+  "zh": "公务员通报义务与免除",
+  "ja": "公務員の通報義務と免除",
+  "vi": "Nghĩa vụ thông báo của công chức"
+ }
+}

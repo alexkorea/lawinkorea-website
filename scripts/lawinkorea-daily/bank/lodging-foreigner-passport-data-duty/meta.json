@@ -1,0 +1,27 @@
+{
+ "order": 16,
+ "batch": "20261007",
+ "pexels_id": 7820321,
+ "pexels_author": "Mikhail Nilov",
+ "cover_alt": {
+  "ko": "호텔 직원이 투숙객에게 키 카드를 건네는 모습",
+  "en": "Hotel receptionist handing a key card to a guest",
+  "zh": "酒店前台递给客人房卡",
+  "ja": "ホテルの受付が宿泊客にカードキーを渡す様子",
+  "vi": "Lễ tân khách sạn đưa thẻ phòng cho khách"
+ },
+ "og_category": {
+  "ko": "벌칙·벌금",
+  "en": "Penalties",
+  "zh": "处罚·罚款",
+  "ja": "罰則・罰金",
+  "vi": "Hình phạt"
+ },
+ "imageTitle": {
+  "ko": "숙박 시 여권 자료 제공",
+  "en": "Passport data at check-in",
+  "zh": "住宿时提供护照资料",
+  "ja": "宿泊時の旅券情報の提供",
+  "vi": "Cung cấp hộ chiếu khi lưu trú"
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "order": 9,
+ "batch": "20261007",
+ "pexels_id": 11385652,
+ "pexels_author": "Diana Light",
+ "cover_alt": {
+  "ko": "밀랍 봉인이 찍힌 하얀 봉투 세 장",
+  "en": "Three white envelopes with wax seals",
+  "zh": "三个带蜡封的白色信封",
+  "ja": "封蝋のついた白い封筒3通",
+  "vi": "Ba phong bì trắng có dấu sáp"
+ },
+ "og_category": {
+  "ko": "벌칙·벌금",
+  "en": "Penalties",
+  "zh": "处罚·罚款",
+  "ja": "罰則・罰金",
+  "vi": "Hình phạt"
+ },
+ "imageTitle": {
+  "ko": "허위초청·거짓 사증신청",
+  "en": "False invitations",
+  "zh": "虚假邀请·虚假申请",
+  "ja": "虚偽招請・虚偽申請",
+  "vi": "Mời giả, khai gian visa"
+ }
+}

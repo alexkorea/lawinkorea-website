@@ -1,0 +1,27 @@
+{
+ "order": 1,
+ "batch": "20261007",
+ "pexels_id": 32642488,
+ "pexels_author": "DΛVΞ GΛRCIΛ",
+ "cover_alt": {
+  "ko": "여권과 카드가 놓인 책상 위 평면 사진",
+  "en": "Flat lay of a passport and cards",
+  "zh": "护照与卡片的平铺俯拍",
+  "ja": "パスポートとカードの俯瞰写真",
+  "vi": "Ảnh nhìn từ trên xuống: hộ chiếu và thẻ"
+ },
+ "og_category": {
+  "ko": "벌칙·벌금",
+  "en": "Penalties",
+  "zh": "处罚·罚款",
+  "ja": "罰則・罰金",
+  "vi": "Hình phạt"
+ },
+ "imageTitle": {
+  "ko": "외국인등록 90일 넘기면",
+  "en": "Registration after 90 days",
+  "zh": "超过90天未登录",
+  "ja": "登録90日超過",
+  "vi": "Quá 90 ngày chưa đăng ký"
+ }
+}

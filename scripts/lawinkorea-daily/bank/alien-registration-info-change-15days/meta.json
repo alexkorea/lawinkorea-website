@@ -1,0 +1,27 @@
+{
+ "order": 11,
+ "batch": "20261007",
+ "pexels_id": 8376342,
+ "pexels_author": "Tima Miroshnichenko",
+ "cover_alt": {
+  "ko": "나무 탁자 위 클립보드에 글을 쓰는 손",
+  "en": "Hand writing on a clipboard on a wooden table",
+  "zh": "在木桌上的写字板上书写的手",
+  "ja": "木のテーブルでクリップボードに書く手",
+  "vi": "Bàn tay viết trên bìa kẹp giấy trên bàn gỗ"
+ },
+ "og_category": {
+  "ko": "벌칙·벌금",
+  "en": "Penalties",
+  "zh": "处罚·罚款",
+  "ja": "罰則・罰金",
+  "vi": "Hình phạt"
+ },
+ "imageTitle": {
+  "ko": "등록사항 변경은 15일 안에",
+  "en": "Report changes in 15 days",
+  "zh": "登录事项变更15日内",
+  "ja": "登録事項の変更は15日以内",
+  "vi": "Báo thay đổi trong 15 ngày"
+ }
+}

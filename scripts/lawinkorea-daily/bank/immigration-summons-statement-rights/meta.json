@@ -1,0 +1,27 @@
+{
+ "order": 5,
+ "batch": "20261007",
+ "pexels_id": 1906606,
+ "pexels_author": "Ylanite Koppens",
+ "cover_alt": {
+  "ko": "끈으로 묶은 편지 봉투 다발",
+  "en": "Bundle of letters tied with twine",
+  "zh": "用细绳捆扎的信件",
+  "ja": "紐で束ねた手紙",
+  "vi": "Xấp thư buộc dây"
+ },
+ "og_category": {
+  "ko": "사범심사",
+  "en": "Investigation",
+  "zh": "事犯审查",
+  "ja": "事犯審査",
+  "vi": "Thẩm tra vi phạm"
+ },
+ "imageTitle": {
+  "ko": "출석요구서 받았다면",
+  "en": "Got a summons?",
+  "zh": "收到出席要求书",
+  "ja": "出頭要求書が届いたら",
+  "vi": "Nhận giấy triệu tập"
+ }
+}

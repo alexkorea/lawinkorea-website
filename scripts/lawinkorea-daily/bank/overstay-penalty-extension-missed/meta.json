@@ -1,0 +1,27 @@
+{
+ "order": 2,
+ "batch": "20261007",
+ "pexels_id": 3570733,
+ "pexels_author": "Enrique Zafra",
+ "cover_alt": {
+  "ko": "모래가 흐르는 유리 모래시계",
+  "en": "Glass hourglass with flowing sand",
+  "zh": "流沙的玻璃沙漏",
+  "ja": "砂が落ちるガラスの砂時計",
+  "vi": "Đồng hồ cát thủy tinh"
+ },
+ "og_category": {
+  "ko": "벌칙·벌금",
+  "en": "Penalties",
+  "zh": "处罚·罚款",
+  "ja": "罰則・罰金",
+  "vi": "Hình phạt"
+ },
+ "imageTitle": {
+  "ko": "체류기간 지났을 때 범칙금",
+  "en": "Overstay fines",
+  "zh": "超期居留罚款",
+  "ja": "在留期間超過の犯則金",
+  "vi": "Phạt quá hạn lưu trú"
+ }
+}

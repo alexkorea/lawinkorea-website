@@ -1,0 +1,27 @@
+{
+ "order": 7,
+ "batch": "20261007",
+ "pexels_id": 2721581,
+ "pexels_author": "Lisa Fotios",
+ "cover_alt": {
+  "ko": "신생아의 손을 잡은 어른의 손",
+  "en": "Adult hand holding a baby's hand",
+  "zh": "大人握着婴儿的小手",
+  "ja": "赤ちゃんの手を握る大人の手",
+  "vi": "Bàn tay người lớn nắm tay em bé"
+ },
+ "og_category": {
+  "ko": "체류허가",
+  "en": "Residence",
+  "zh": "居留许可",
+  "ja": "在留許可",
+  "vi": "Cư trú"
+ },
+ "imageTitle": {
+  "ko": "한국에서 아기가 태어났다면",
+  "en": "Baby born in Korea",
+  "zh": "在韩国出生的孩子",
+  "ja": "韓国で子が生まれたら",
+  "vi": "Con sinh ra tại Hàn Quốc"
+ }
+}

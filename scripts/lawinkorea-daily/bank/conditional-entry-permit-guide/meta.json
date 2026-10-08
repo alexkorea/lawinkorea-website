@@ -1,0 +1,27 @@
+{
+ "order": 14,
+ "batch": "20261007",
+ "pexels_id": 2069,
+ "pexels_author": "ClickerHappy",
+ "cover_alt": {
+  "ko": "수하물 수취장과 입국장 안내판 옆을 걷는 사람들",
+  "en": "People walking past baggage hall and arrivals hall signs",
+  "zh": "走过行李厅和到达厅指示牌的人群",
+  "ja": "手荷物受取所と到着ホールの案内の横を歩く人々",
+  "vi": "Người đi qua biển chỉ dẫn sảnh hành lý và sảnh đến"
+ },
+ "og_category": {
+  "ko": "입출국",
+  "en": "Entry and exit",
+  "zh": "出入境",
+  "ja": "出入国",
+  "vi": "Xuất nhập cảnh"
+ },
+ "imageTitle": {
+  "ko": "입국심사와 조건부 입국허가",
+  "en": "Entry inspection",
+  "zh": "入境审查与附条件入境",
+  "ja": "入国審査と条件付き入国",
+  "vi": "Kiểm tra nhập cảnh"
+ }
+}
