@@ -12,6 +12,19 @@
       ],
       "at": "2026-10-07T00:30:04.847Z",
       "batch": "LAW-BLOG-1007"
+    },
+    {
+      "slug": "alien-registration-90-days-penalty",
+      "date": "2026-10-08",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-10-08T10:06:00.391Z",
+      "batch": "20261007"
     }
   ],
   "rejected": []
