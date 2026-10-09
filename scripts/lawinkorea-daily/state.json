@@ -25,6 +25,19 @@
       ],
       "at": "2026-10-08T10:06:00.391Z",
       "batch": "20261007"
+    },
+    {
+      "slug": "overstay-penalty-extension-missed",
+      "date": "2026-10-09",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-10-09T10:03:03.768Z",
+      "batch": "20261007"
     }
   ],
   "rejected": []
