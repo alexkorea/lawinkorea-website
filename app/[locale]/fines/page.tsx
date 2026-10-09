@@ -123,20 +123,27 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         >
           {L.kinds[g.kind]}
         </span>
-        <span style={{ fontSize: 12, color: A.primary, fontWeight: 600 }}>{g.lawText}</span>
       </div>
       <h3 style={{ fontSize: 17, fontWeight: 700, color: A.navy, lineHeight: 1.4, margin: "0 0 8px" }}>{g.title}</h3>
       <p style={{ fontSize: 14, color: A.muted, lineHeight: 1.7, margin: "0 0 12px" }}>{g.desc}</p>
-      <dl style={{ fontSize: 12, color: A.muted, margin: "0 0 14px", lineHeight: 1.8 }}>
-        <div>
-          <dt style={{ display: "inline", fontWeight: 600 }}>{ui.violatedLabel}: </dt>
-          <dd style={{ display: "inline", margin: 0 }}>{g.violatedText}</dd>
-        </div>
-        <div>
-          <dt style={{ display: "inline", fontWeight: 600 }}>{ui.basisLabel}: </dt>
-          <dd style={{ display: "inline", margin: 0 }}>{g.sourceText}</dd>
-        </div>
-      </dl>
+      {/* BEYE-1008-FIX #12: 근거(벌칙 조항·위반 조항·별표)는 카드마다 접기 1개로 */}
+      <details style={{ fontSize: 12, color: A.muted, margin: "0 0 14px", lineHeight: 1.8 }}>
+        <summary style={{ cursor: "pointer", fontWeight: 600, color: A.primary }}>{ui.basisToggle}</summary>
+        <dl style={{ margin: "6px 0 0" }}>
+          <div>
+            <dt style={{ display: "inline", fontWeight: 600 }}>{ui.lawLabel}: </dt>
+            <dd style={{ display: "inline", margin: 0 }}>{g.lawText}</dd>
+          </div>
+          <div>
+            <dt style={{ display: "inline", fontWeight: 600 }}>{ui.violatedLabel}: </dt>
+            <dd style={{ display: "inline", margin: 0 }}>{g.violatedText}</dd>
+          </div>
+          <div>
+            <dt style={{ display: "inline", fontWeight: 600 }}>{ui.basisLabel}: </dt>
+            <dd style={{ display: "inline", margin: 0 }}>{g.sourceText}</dd>
+          </div>
+        </dl>
+      </details>
       {table(g)}
       {g.byHeadcount ? (
         <p style={{ fontSize: 12, color: A.amber, margin: "10px 0 0", lineHeight: 1.6 }}>{ui.headcountNote}</p>
@@ -202,7 +209,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           {groups.map((g) => (
             <li key={g.id}>
               <a href={`#${g.id}`} style={{ color: A.primary, textDecoration: "none" }}>{g.title}</a>
-              <span style={{ color: "#94a3b8" }}> · {g.lawText}</span>
             </li>
           ))}
         </ol>

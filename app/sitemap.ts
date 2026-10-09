@@ -40,6 +40,7 @@ const detailHubs = [
   "/offenses/overstay",
   "/offenses/false-documents",
   "/dispositions/departure-order",
+  "/dispositions/departure-recommendation", // BEYE-1008-FIX 출국권고(제67조) 분리
   "/dispositions/visa-denial",
   // LAW-V1 P1-6 — 상황별 진입 페이지 3종(5로캘)
   "/situations/immigration-summons",

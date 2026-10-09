@@ -49,7 +49,7 @@ type Labels = {
 type FinesData = {
   version: string;
   checkedOn: string;
-  sources: Record<string, { law: string; table: string; title: string; amended: string; url: string; actKey: string; tableNo: number | null }>;
+  sources: Record<string, { law: string; table: string; title: string; amended: string; currentAs?: string; url: string; actKey: string; tableNo: number | null }>;
   groups: FineGroup[];
   tierOrder: string[];
   labels: Record<FineLocale, Labels>;
@@ -105,7 +105,7 @@ export function formatSource(locale: FineLocale, sourceKey: string): string {
   const ui = fineLabels(locale).ui;
   if (!s) return sourceKey;
   const { act, table } = sourceName(locale, sourceKey);
-  return ui.sourceLine.replace("{law}", act).replace("{table}", table).replace("{amended}", s.amended);
+  return ui.sourceLine.replace("{law}", act).replace("{table}", table).replace("{amended}", s.amended).replace("{current}", s.currentAs ?? s.amended);
 }
 
 /**

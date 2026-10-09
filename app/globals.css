@@ -601,7 +601,7 @@ main > section > div:first-child:not([class*="hero"]):not([class*="full"]) {
   }
 }
 
-/* 모바일 하단 고정 연락 바(LAW-V1b) — 전화 · WhatsApp · 문의 폼 + 운영시간 안내 */
+/* 모바일 하단 고정 연락 바(LAW-V1b) — 전화 · WhatsApp · 문의 폼 (바 위 안내문은 BEYE-1008-FIX #14 로 제거) */
 .mobile-contact-bar,
 .mobile-contact-spacer {
   display: none;
@@ -609,7 +609,7 @@ main > section > div:first-child:not([class*="hero"]):not([class*="full"]) {
 @media (max-width: 900px) {
   .mobile-contact-spacer {
     display: block;
-    height: 112px;
+    height: calc(64px + env(safe-area-inset-bottom));
     background: #0a1628;
   }
   .mobile-contact-bar {
@@ -623,13 +623,6 @@ main > section > div:first-child:not([class*="hero"]):not([class*="full"]) {
     border-top: 1px solid #cbd5e1;
     box-shadow: 0 -4px 16px rgba(10, 22, 40, 0.12);
     padding: 6px 10px calc(8px + env(safe-area-inset-bottom));
-  }
-  .mcb-note {
-    margin: 0 0 6px;
-    font-size: 11px;
-    line-height: 1.4;
-    color: #334155;
-    text-align: center;
   }
   .mcb-actions {
     display: grid;

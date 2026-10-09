@@ -23,6 +23,7 @@ type Copy = {
   ok: string;
   fail: string;
   required: string;
+  oneOf: string;
   requiredMessage: string;
   privacy: string;
   consent: { title: string; items: [string, string][]; notice: [string, string]; policy: string };
@@ -42,6 +43,7 @@ const COPY: Record<L, Copy> = {
     ok: "접수되었습니다. 영업일 기준 1일 이내에 회신드립니다.",
     fail: `접수에 실패했습니다. ${COMPANY.phone} 로 연락해 주세요.`,
     required: "성함과 연락처(이메일 또는 전화번호)를 입력해 주세요.",
+    oneOf: "* 표시는 필수입니다. 이메일과 연락처는 둘 중 하나만 적어도 됩니다(1개 필수).",
     requiredMessage: "문의내용을 10자 이상 입력해 주세요.",
     privacy: "입력하신 정보는 상담 회신 목적으로만 사용됩니다.",
     consent: { title: "개인정보 수집·이용 안내", items: [["수집 항목", "성함, 이메일, 연락처, 사건 유형, 국적, 상황 설명"], ["수집 목적", "상담 문의 접수 및 회신"], ["보유 기간", "상담 완료 후 1년 보관 후 파기"]], notice: ["문의 답변을 위해 이름·연락처를 수집하며 ", "에 따라 처리합니다."], policy: "개인정보처리방침" },
@@ -59,6 +61,7 @@ const COPY: Record<L, Copy> = {
     ok: "Received. We will reply within one business day.",
     fail: `Submission failed. Please call ${COMPANY.phoneIntl}.`,
     required: "Please enter your name and either an email or a phone number.",
+    oneOf: "* Required. For email and phone, filling in just one of the two is enough (one is required).",
     requiredMessage: "Please describe your situation in at least 10 characters.",
     privacy: "Your information is used only to reply to this inquiry.",
     consent: { title: "How we use your personal information", items: [["Items", "name, email, phone, case type, nationality, description of your situation"], ["Purpose", "receiving and replying to your consultation request"], ["Retention", "kept for 1 year after the consultation ends, then destroyed"]], notice: ["We collect your name and contact details to answer your inquiry and handle them under our ", "."], policy: "Privacy Policy" },
@@ -76,6 +79,7 @@ const COPY: Record<L, Copy> = {
     ok: "受け付けました。1営業日以内にご返信いたします。",
     fail: `送信に失敗しました。${COMPANY.phoneIntl} までご連絡ください。`,
     required: "お名前と連絡先（メールまたは電話番号）をご入力ください。",
+    oneOf: "* は必須です。メールと連絡先はどちらか一方だけで構いません（1つは必須）。",
     requiredMessage: "お問い合わせ内容を10文字以上ご入力ください。",
     privacy: "ご入力いただいた情報はご返信の目的にのみ使用します。",
     consent: { title: "個人情報の収集・利用について", items: [["収集項目", "お名前、メール、連絡先、事件の種類、国籍、状況の説明"], ["収集目的", "ご相談の受付および回答"], ["保有期間", "相談終了後1年間保管後に破棄"]], notice: ["ご回答のためにお名前・連絡先を収集し、", "に従って取り扱います。"], policy: "個人情報処理方針" },
@@ -93,6 +97,7 @@ const COPY: Record<L, Copy> = {
     ok: "已收到。我们将在一个工作日内回复。",
     fail: `提交失败，请拨打 ${COMPANY.phoneIntl}。`,
     required: "请填写姓名和联系方式（邮箱或电话）。",
+    oneOf: "* 为必填项。邮箱和联系方式填写其中一项即可（至少一项必填）。",
     requiredMessage: "请填写至少 10 个字的咨询内容。",
     privacy: "您填写的信息仅用于回复本次咨询。",
     consent: { title: "个人信息收集·使用说明", items: [["收集项目", "姓名、邮箱、联系电话、案件类型、国籍、情况说明"], ["收集目的", "受理并回复咨询"], ["保留期限", "咨询结束后保存1年后销毁"]], notice: ["为回复咨询，我们收集您的姓名和联系方式，并依照", "处理。"], policy: "个人信息处理方针" },
@@ -110,6 +115,7 @@ const COPY: Record<L, Copy> = {
     ok: "Đã tiếp nhận. Chúng tôi sẽ phản hồi trong vòng 1 ngày làm việc.",
     fail: `Gửi không thành công. Vui lòng gọi ${COMPANY.phoneIntl}.`,
     required: "Vui lòng nhập họ tên và email hoặc số điện thoại.",
+    oneOf: "* là bắt buộc. Email và số điện thoại chỉ cần điền một trong hai (bắt buộc ít nhất một).",
     requiredMessage: "Vui lòng mô tả tình huống với ít nhất 10 ký tự.",
     privacy: "Thông tin của bạn chỉ được dùng để phản hồi yêu cầu này.",
     consent: { title: "Thông tin về việc thu thập và sử dụng dữ liệu cá nhân", items: [["Thông tin thu thập", "họ tên, email, số điện thoại, loại vụ việc, quốc tịch, mô tả tình huống"], ["Mục đích", "tiếp nhận và phản hồi yêu cầu tư vấn"], ["Thời gian lưu giữ", "lưu 1 năm sau khi kết thúc tư vấn, sau đó hủy"]], notice: ["Chúng tôi thu thập họ tên và thông tin liên hệ để trả lời yêu cầu của bạn và xử lý theo ", "."], policy: "Chính sách bảo mật" },
@@ -199,18 +205,20 @@ export default function ContactForm({ locale }: { locale: string }) {
 
   return (
     <form onSubmit={onSubmit} style={{ border: `1px solid ${ACCENT.border}`, borderRadius: 10, padding: "24px", background: "#fff" }}>
+      {/* BEYE-1008-FIX #15: 회신 수단 1개 필수를 화면에 표시(검사는 위 onSubmit·서버 /api/contact 가 이미 한다). 동의 체크는 계속 없음. */}
+      <p id="cf-oneof" style={{ fontSize: 13, color: ACCENT.textMuteSoft, margin: "0 0 14px", lineHeight: 1.6 }}>{c.oneOf}</p>
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: 16, marginBottom: 16 }}>
         <div>
           <label style={labelStyle} htmlFor="cf-name">{c.name} *</label>
           <input id="cf-name" name="name" required style={fieldStyle} autoComplete="name" />
         </div>
         <div>
-          <label style={labelStyle} htmlFor="cf-email">{c.email}</label>
-          <input id="cf-email" name="email" type="email" style={fieldStyle} autoComplete="email" />
+          <label style={labelStyle} htmlFor="cf-email">{c.email} *</label>
+          <input id="cf-email" name="email" type="email" style={fieldStyle} autoComplete="email" aria-describedby="cf-oneof" />
         </div>
         <div>
-          <label style={labelStyle} htmlFor="cf-contact">{c.phone}</label>
-          <input id="cf-contact" name="contact" style={fieldStyle} autoComplete="tel" />
+          <label style={labelStyle} htmlFor="cf-contact">{c.phone} *</label>
+          <input id="cf-contact" name="contact" style={fieldStyle} autoComplete="tel" aria-describedby="cf-oneof" />
         </div>
         <div>
           <label style={labelStyle} htmlFor="cf-case">{c.caseType}</label>

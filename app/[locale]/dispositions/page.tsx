@@ -133,7 +133,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
             {[
               { t: "범칙금(통고처분)", d: "일정 위반에 대해 부과될 수 있는 금전적 처분의 하나입니다.", href: null },
               { t: "과태료", d: "행정상 의무 위반에 부과될 수 있는 금전적 제재(형사 벌금과 다름).", href: null },
-              { t: "출국권고", d: "자진 출국을 권고하는 처분일 수 있습니다.", href: null },
+              { t: "출국권고", d: "스스로 출국하도록 권고하는 처분입니다. 기한은 권고서 발급일부터 5일의 범위입니다.", href: "/ko/dispositions/departure-recommendation" },
               { t: "출국명령", d: "출국을 명하는 처분으로, 기한과 재입국 영향을 확인해야 합니다.", href: "/ko/dispositions/departure-order" },
               { t: "강제퇴거명령", d: "강제로 출국시키는 처분. 보호와 함께 이루어질 수 있습니다.", href: "/ko/dispositions/deportation-order" },
               { t: "보호 및 보호의 일시해제", d: "강제퇴거 절차 중 신병 확보를 위한 처분입니다.", href: null },
@@ -207,6 +207,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           <h2 style={{ fontSize: 18, fontWeight: 700, color: "#0a1628", marginBottom: 20 }}>더 알아보기</h2>
           <div style={{ display: "flex", flexWrap: "wrap", gap: 12 }}>
             {[
+              { t: "출국권고의 의미와 기한", href: "/ko/dispositions/departure-recommendation" },
               { t: "출국명령의 의미와 대응", href: "/ko/dispositions/departure-order" },
               { t: "강제퇴거명령과 행정구제", href: "/ko/dispositions/deportation-order" },
               { t: "비자 연장·변경 불허 대응", href: "/ko/dispositions/visa-denial" },

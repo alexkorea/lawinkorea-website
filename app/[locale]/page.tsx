@@ -102,7 +102,7 @@ const KoHomePage = () => (
           형사사건이 마무리되어도, 외국인의 체류 문제는 출입국에서 별도로 검토될 수 있습니다.
         </p>
         <p style={{ fontSize: 16, lineHeight: 1.8, color: "#64748b", margin: "0 0 40px" }}>
-          벌금형이나 기소유예를 받았더라도 비자 연장·변경, 출국명령, 강제퇴거, 입국금지 같은 출입국상의 판단은 형사처분과 따로 이루어질 수 있습니다. 어떤 자료를 언제, 어떻게 준비하느냐에 따라 설명할 수 있는 사정이 달라집니다. 지금 상황을 먼저 정확히 확인하는 것이 중요합니다.
+          벌금으로 끝나도 비자 심사는 따로 받을 수 있어요. 지금 상황부터 확인하세요.
         </p>
         <div style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
           <a href="/ko/urgent-consultation" style={{ display: "inline-block", background: "#dc2626", color: "#fff", padding: "16px 32px", borderRadius: 6, fontSize: 16, fontWeight: 600, textDecoration: "none" }}>
@@ -171,10 +171,10 @@ const KoHomePage = () => (
           { t: "비자 연장·변경 불허", d: "처분 사유 확인과 재신청·구제를 안내합니다.", href: "/ko/dispositions/visa-denial" },
           { t: "입국금지와 재입국", d: "규제 확인과 재입국 준비자료를 안내합니다.", href: "/ko/dispositions/entry-ban" },
         ].map((item) => (
-          <a key={item.href} href={item.href} style={{ display: "block", background: "#fff", border: "1px solid #e2e8f0", borderRadius: 8, padding: "24px 20px", textDecoration: "none" }}>
+          <a key={item.href} href={item.href} style={{ display: "flex", flexDirection: "column", background: "#fff", border: "1px solid #e2e8f0", borderRadius: 8, padding: "24px 20px", textDecoration: "none" }}>
             <p style={{ fontWeight: 600, color: "#0a1628", margin: "0 0 8px" }}>{item.t}</p>
-            <p style={{ fontSize: 14, color: "#64748b", margin: "0 0 12px", lineHeight: 1.6 }}>{item.d}</p>
-            <span style={{ fontSize: 13, color: "#2563eb", fontWeight: 500 }}>자세히 보기 →</span>
+            <p style={{ fontSize: 14, color: "#64748b", margin: "0 0 12px", lineHeight: 1.6, flex: "1 0 auto" }}>{item.d}</p>
+            <span style={{ fontSize: 13, color: "#2563eb", fontWeight: 500, marginTop: "auto" }}>자세히 보기 →</span>
           </a>
         ))}
       </div>
@@ -765,10 +765,10 @@ const GenericHomePage = ({ l }: { l: Exclude<L, "ko"> }) => {
         <h2 style={{ fontSize: 24, fontWeight: 700, color: "#0a1628", marginBottom: 28 }}>{c.services.title}</h2>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))", gap: 18 }}>
           {c.services.items.map((item) => (
-            <a key={item.slug} href={`/${l}/${item.type}/${item.slug}`} style={{ display: "block", background: "#fff", border: "1px solid #e2e8f0", borderRadius: 8, padding: "22px 18px", textDecoration: "none" }}>
+            <a key={item.slug} href={`/${l}/${item.type}/${item.slug}`} style={{ display: "flex", flexDirection: "column", background: "#fff", border: "1px solid #e2e8f0", borderRadius: 8, padding: "22px 18px", textDecoration: "none" }}>
               <p style={{ fontWeight: 600, color: "#0a1628", margin: "0 0 8px" }}>{item.t}</p>
-              <p style={{ fontSize: 13, color: "#64748b", margin: "0 0 10px", lineHeight: 1.6 }}>{item.d}</p>
-              <span style={{ fontSize: 13, color: "#2563eb", fontWeight: 500 }}>{c.services.more}</span>
+              <p style={{ fontSize: 13, color: "#64748b", margin: "0 0 10px", lineHeight: 1.6, flex: "1 0 auto" }}>{item.d}</p>
+              <span style={{ fontSize: 13, color: "#2563eb", fontWeight: 500, marginTop: "auto" }}>{c.services.more}</span>
             </a>
           ))}
         </div>

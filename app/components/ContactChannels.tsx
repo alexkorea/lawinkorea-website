@@ -67,16 +67,34 @@ export default function ContactChannels({ locale, showEmail = true }: { locale: 
           const label = q.label === "kakao" ? t.kakao : q.label;
           return (
             <li key={q.key} style={{ textAlign: "center", border: "1px solid #e2e8f0", borderRadius: 8, padding: 10 }}>
-              <img
-                src={q.src}
-                alt={`${label} QR`}
-                width={q.width}
-                height={q.height}
-                loading="lazy"
-                decoding="async"
-                style={{ width: "100%", maxWidth: 140, height: "auto", display: "block", margin: "0 auto 6px" }}
-              />
-              <span style={{ fontSize: 13, fontWeight: 600, color: "#0a1628" }}>{label}</span>
+              {q.href ? (
+                // 휴대폰에서는 QR 을 스캔할 수 없으니 누르면 같은 주소로 연다(이미지는 그대로)
+                <a href={q.href} target="_blank" rel="noopener noreferrer" style={{ display: "block", textDecoration: "none" }}>
+                <img
+                  src={q.src}
+                  alt={`${label} QR`}
+                  width={q.width}
+                  height={q.height}
+                  loading="lazy"
+                  decoding="async"
+                  style={{ width: "100%", maxWidth: 140, height: "auto", display: "block", margin: "0 auto 6px" }}
+                />
+                  <span style={{ fontSize: 13, fontWeight: 600, color: "#0a1628" }}>{label}</span>
+                </a>
+              ) : (
+                <>
+                <img
+                  src={q.src}
+                  alt={`${label} QR`}
+                  width={q.width}
+                  height={q.height}
+                  loading="lazy"
+                  decoding="async"
+                  style={{ width: "100%", maxWidth: 140, height: "auto", display: "block", margin: "0 auto 6px" }}
+                />
+                  <span style={{ fontSize: 13, fontWeight: 600, color: "#0a1628" }}>{label}</span>
+                </>
+              )}
             </li>
           );
         })}

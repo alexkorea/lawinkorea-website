@@ -4,6 +4,7 @@ import { alternatesFor, brandTitle } from "../../../lib/seo";
 import { faqSchema } from "../../../lib/schema";
 import type { Metadata } from "next";
 import React from "react";
+import { DEPARTURE_ORDER, DEPARTURE_RECOMMENDATION } from "./departure";
 
 const VALID_LOCALES = ["ko", "en", "ja", "zh", "vi"] as const;
 type L = (typeof VALID_LOCALES)[number];
@@ -22,267 +23,8 @@ type SlugContent = {
 };
 
 const SLUG_CONTENT: Record<string, SlugContent> = {
-  "departure-order": {
-    meta: {
-      ko: { title: "출국권고 — 의미·대응·재입국 금지 · Law in Korea", description: "출국권고(자진 출국 권고)의 의미, 강제퇴거와의 차이, 이의신청 방법, 재입국 금지 기간 등 핵심 정보를 선샤인행정사사무소가 안내합니다." },
-      en: { title: "Departure Order (출국권고) in Korea — What It Means & How to Respond · Law in Korea", description: "Understand Korea's voluntary departure recommendation, how it differs from forced deportation, appeal options, and re-entry ban implications." },
-      ja: { title: "出国勧告（출국권고）— 意味・対応・再入国禁止 · Law in Korea", description: "韓国の出国勧告の意味、強制退去との違い、異議申立て方法、再入国禁止期間について解説します。" },
-      zh: { title: "出境建议（출국권고）— 含义·应对·再入境禁止 · Law in Korea", description: "了解韩国出境建议的含义、与强制出境的区别、申诉方法及再入境禁止期限。" },
-      vi: { title: "Lệnh khuyến nghị xuất cảnh (출국권고) tại Hàn Quốc · Law in Korea", description: "Tìm hiểu về khuyến nghị xuất cảnh tự nguyện của Hàn Quốc, khác gì trục xuất cưỡng bức, cách kháng cáo và lệnh cấm tái nhập cảnh." },
-    },
-    render: (l, locale) => {
-      const t = {
-        ko: {
-          tag: "출국권고",
-          h1: "출국권고 — 의미, 대응 방법, 재입국 금지",
-          lead: "출국권고(자진 출국 권고)는 출입국 당국이 외국인에게 자진 출국을 권고하는 처분으로, 강제퇴거명령(강제추방)보다 가벼운 수준의 처분입니다. 그러나 권고를 무시하면 강제퇴거로 이어질 수 있습니다.",
-          s1: "출국권고란 무엇인가?",
-          p1: "출입국관리법상 출국권고는 법무부 출입국·외국인정책본부가 체류 자격 위반 또는 사범심사 결과에 따라 발부하는 행정 처분입니다. 강제적인 집행은 없으나, 기간 내 출국하지 않으면 보호(구금) 및 강제퇴거 절차로 전환됩니다.",
-          items1: [
-            "처분 수위: 강제퇴거보다 낮은 단계의 처분",
-            "이행 기간: 통상 7~14일 이내 출국 요구",
-            "재입국 금지: 출국 후 일정 기간(6개월~수년) 재입국이 제한될 수 있음",
-            "불이행 시: 보호(구금) 및 강제퇴거명령으로 전환 가능",
-          ],
-          s2: "출국권고 처리 절차",
-          p2: "출국권고는 사범심사 또는 단속 후 아래 절차를 통해 발부됩니다.",
-          steps: [
-            "사범심사 또는 체류 위반 단속",
-            "출입국·외국인청 면담 및 심사",
-            "출국권고 통지서 발부",
-            "지정 기간 내 자진 출국 이행",
-            "출국 후 재입국 금지 기간 적용",
-          ],
-          s3: "선샤인행정사사무소가 할 수 있는 일",
-          p3: "선샤인행정사사무소는 출국권고 처분을 받은 외국인을 위해 다음과 같이 지원합니다:",
-          services: [
-            "출국권고 처분의 이의신청(행정 심판) 가능 여부 검토",
-            "처분 수위 조정을 위한 소명 자료 준비",
-            "재입국 금지 기간 단축을 위한 협의",
-            "자진 출국 후 재입국 금지 해제 신청 지원",
-          ],
-          cta: "지금 상담 예약",
-          back: "처분 유형 목록으로",
-          faqTitle: "자주 묻는 질문",
-          faqs: [
-            { q: "이의신청을 하면 출국을 유예받을 수 있나요?", a: "이의신청(행정심판) 제기 자체가 자동으로 출국 유예를 보장하지 않습니다. 다만 집행 정지 신청을 병행하면 일시적으로 출국 이행을 유예받을 수 있는 경우가 있습니다." },
-            { q: "출국권고는 항상 재입국 금지로 이어지나요?", a: "반드시 그렇지는 않습니다. 위반 경중, 체류 기간, 자진 출국 이행 여부 등에 따라 재입국 금지 없이 출국권고만 받는 경우도 있습니다." },
-            { q: "출국권고를 강제퇴거(강제추방)보다 낮은 처분으로 조정받을 수 있나요?", a: "이미 출국권고가 발부된 경우, 추가적인 처분 하향보다는 재입국 금지 기간 단축이나 면제를 협의하는 방향이 현실적입니다." },
-          ],
-          notice: "※ 이 페이지는 일반적인 법령 정보 제공 목적이며 개별 사건에 대한 법률 조언이 아닙니다. 구체적인 상담은 선샤인행정사사무소에 문의하십시오.",
-        },
-        en: {
-          tag: "Departure Order",
-          h1: "Departure Order (출국권고) — What It Means and How to Respond",
-          lead: "A departure order (출국권고) — more precisely a departure recommendation under Article 67 of the Immigration Control Act — is a written recommendation from immigration authorities to leave Korea voluntarily. It differs from a formal departure order (출국명령, Article 68) and from a forced deportation order (강제퇴거명령), and how you comply affects re-entry.",
-          s1: "What Is a Departure Order?",
-          p1: "Under the Immigration Control Act, a departure order is an administrative disposition issued following an offense review or enforcement action. While not immediately forced, failure to depart within the specified window results in detention (보호) and a forced deportation order.",
-          items1: [
-            "Severity: Least severe immigration disposition",
-            "Compliance window: Typically 7–14 days to depart voluntarily",
-            "Re-entry ban: A ban of 6 months to several years may apply after departure",
-            "Non-compliance: May escalate to detention and forced deportation",
-          ],
-          s2: "The Departure Order Process",
-          p2: "A departure order is issued through the following process after an offense review or enforcement.",
-          steps: [
-            "Offense review or immigration enforcement action",
-            "Interview and review at Immigration Office",
-            "Departure order notice issued",
-            "Voluntary departure within specified period",
-            "Re-entry ban period applied after departure",
-          ],
-          s3: "How Sunshine Can Help",
-          p3: "Our office provides the following assistance for those who receive a departure order:",
-          services: [
-            "Assessing whether an administrative appeal is viable",
-            "Preparation of documents to argue for reduced or no re-entry ban",
-            "Negotiation to shorten the re-entry ban period",
-            "Post-departure support for lifting the re-entry ban",
-          ],
-          cta: "Book a Consultation",
-          back: "Back to Dispositions",
-          faqTitle: "Frequently Asked Questions",
-          faqs: [
-            { q: "Can I stay in Korea if I file an appeal?", a: "Filing an administrative appeal does not automatically suspend the departure obligation. A separate application for suspension of enforcement may delay departure in some cases." },
-            { q: "Does a departure order always result in a re-entry ban?", a: "Not necessarily. Depending on the violation severity, length of stay, and compliance, some departure orders are issued without a subsequent re-entry ban." },
-            { q: "Can the order be downgraded to something less serious?", a: "Once a departure order is issued, downgrading is rare. A more realistic goal is negotiating a shorter or waived re-entry ban period." },
-          ],
-          notice: "This page provides general legal information only and does not constitute legal advice. Contact our office for a specific consultation.",
-        },
-        ja: {
-          tag: "出国勧告",
-          h1: "出国勧告 — 意味・対応・再入国禁止",
-          lead: "出国勧告は、韓国の出入国当局が外国人に対して自進出国を勧告する行政処分であり、強制退去命令（強制送還）より軽い処分です。しかし指定期間内に出国しない場合、保護（拘禁）・強制退去手続きに移行します。",
-          s1: "出国勧告とは何か？",
-          p1: "出入国管理法に基づく出国勧告は、法務部が犯則審査または摘発の結果として発付する行政処分です。強制的な執行はありませんが、期間内に出国しない場合は保護および強制退去命令に切り替わります。",
-          items1: [
-            "処分レベル：強制退去より低い段階の処分",
-            "対応期間：通常7〜14日以内の自進出国を求める",
-            "再入国禁止：出国後、一定期間（6か月〜数年）の再入国制限の可能性",
-            "不履行時：保護（拘禁）・強制退去命令への移行可能性",
-          ],
-          s2: "出国勧告の処理手続き",
-          p2: "出国勧告は犯則審査または摘発後、以下の手続きを経て発付されます。",
-          steps: [
-            "犯則審査または在留違反摘発",
-            "出入国・外国人庁での面談・審査",
-            "出国勧告通知書の発付",
-            "指定期間内の自進出国の履行",
-            "出国後の再入国禁止期間の適用",
-          ],
-          s3: "サンシャインにできること",
-          p3: "当事務所は出国勧告処分を受けた外国人を以下のように支援します：",
-          services: [
-            "出国勧告処分に対する行政審判の可否検討",
-            "処分軽減のための疎明資料の準備",
-            "再入国禁止期間短縮のための交渉",
-            "自進出国後の再入国禁止解除申請支援",
-          ],
-          cta: "今すぐ相談予約",
-          back: "処分の種類一覧へ",
-          faqTitle: "よくある質問",
-          faqs: [
-            { q: "異議申立てをすれば出国を猶予してもらえますか？", a: "行政審判の提起自体は出国義務を自動的に停止しません。執行停止申請を併せて行えば、一時的に出国を猶予できる場合があります。" },
-            { q: "出国勧告は常に再入国禁止につながりますか？", a: "必ずしもそうではありません。違反の軽重、在留期間、自進出国の有無等によって、再入国禁止なしで出国勧告のみの場合もあります。" },
-            { q: "出国勧告をより軽い処分に変更できますか？", a: "出国勧告が発付された後の処分下向きは難しいです。再入国禁止期間の短縮や免除の交渉が現実的です。" },
-          ],
-          notice: "※ このページは一般的な法令情報の提供を目的としており、個別事案の法的助言ではありません。",
-        },
-        zh: {
-          tag: "出境建议",
-          h1: "出境建议（출국권고）— 含义、应对、再入境禁止",
-          lead: "出境建议（출국권고）是韩国出入境当局向外国人发出的自愿出境建议，是韩国最轻的出入境处分。但若在规定期限内未出境，将升级为强制出境（强制遣返）程序。",
-          s1: "出境建议是什么？",
-          p1: "根据《出入境管理法》，出境建议是法务部在犯罪审查或执法行动后发出的行政处分。虽无强制执行力，但期限内未出境将转入保护（拘留）及强制出境命令程序。",
-          items1: [
-            "处分级别：最轻的出入境处分",
-            "履行期限：通常要求7–14天内自愿出境",
-            "再入境禁止：出境后可能适用6个月至数年的再入境禁止",
-            "不履行后果：可能升级为保护（拘留）及强制出境命令",
-          ],
-          s2: "出境建议处理程序",
-          p2: "出境建议通过以下程序，在犯罪审查或执法行动后发出。",
-          steps: [
-            "犯罪审查或出入境违规执法",
-            "出入境·外国人厅面谈及审查",
-            "发出出境建议通知书",
-            "在规定期限内自愿出境",
-            "出境后适用再入境禁止期限",
-          ],
-          s3: "Sunshine能提供的帮助",
-          p3: "本事务所为收到出境建议的外国人提供以下支持：",
-          services: [
-            "评估行政申诉（行政审判）的可行性",
-            "准备争取减少或豁免再入境禁止的材料",
-            "协商缩短再入境禁止期限",
-            "出境后申请解除入境禁止支持",
-          ],
-          cta: "立即预约咨询",
-          back: "返回处分类型",
-          faqTitle: "常见问题",
-          faqs: [
-            { q: "提出申诉后可以留在韩国吗？", a: "提起行政审判不会自动暂停出境义务。另行申请执行停止在某些情况下可暂时延迟出境。" },
-            { q: "出境建议是否总会导致再入境禁止？", a: "不一定。根据违规严重程度、居留时间及履行情况，部分出境建议不附带再入境禁止。" },
-            { q: "出境建议能被降级处理吗？", a: "出境建议发出后降级处理较难。协商缩短或豁免再入境禁止期是更现实的目标。" },
-          ],
-          notice: "※ 本页面仅供一般法律信息参考，不构成针对个案的法律建议。",
-        },
-        vi: {
-          tag: "Lệnh khuyến nghị xuất cảnh",
-          h1: "Lệnh khuyến nghị xuất cảnh (출국권고) — Ý nghĩa & Cách ứng phó",
-          lead: "Lệnh khuyến nghị xuất cảnh (출국권고) là khuyến nghị của cơ quan xuất nhập cảnh Hàn Quốc yêu cầu người nước ngoài tự nguyện rời đi. Đây là mức xử lý xuất nhập cảnh nhẹ nhất tại Hàn Quốc, nhưng không tuân thủ sẽ dẫn đến trục xuất cưỡng bức.",
-          s1: "Lệnh khuyến nghị xuất cảnh là gì?",
-          p1: "Theo Luật Quản lý Xuất nhập cảnh, lệnh khuyến nghị xuất cảnh là quyết định hành chính được ban hành sau khi xem xét vi phạm hoặc thực thi pháp luật. Mặc dù không cưỡng chế ngay, nhưng không xuất cảnh trong thời hạn quy định sẽ dẫn đến giam giữ (보호) và lệnh trục xuất cưỡng bức.",
-          items1: [
-            "Mức độ nghiêm trọng: Mức xử lý xuất nhập cảnh nhẹ nhất",
-            "Thời hạn tuân thủ: Thường yêu cầu xuất cảnh trong 7–14 ngày",
-            "Cấm tái nhập cảnh: Có thể áp dụng cấm tái nhập cảnh từ 6 tháng đến vài năm sau khi xuất cảnh",
-            "Không tuân thủ: Có thể leo thang thành giam giữ và lệnh trục xuất cưỡng bức",
-          ],
-          s2: "Quy trình xử lý lệnh khuyến nghị xuất cảnh",
-          p2: "Lệnh khuyến nghị xuất cảnh được ban hành qua quy trình sau sau khi xem xét vi phạm hoặc thực thi.",
-          steps: [
-            "Xem xét vi phạm hoặc thực thi xuất nhập cảnh",
-            "Phỏng vấn và xem xét tại Cơ quan Xuất nhập cảnh",
-            "Ban hành thông báo lệnh khuyến nghị xuất cảnh",
-            "Tự nguyện xuất cảnh trong thời hạn quy định",
-            "Áp dụng thời gian cấm tái nhập cảnh sau khi xuất cảnh",
-          ],
-          s3: "Sunshine có thể hỗ trợ gì?",
-          p3: "Văn phòng chúng tôi cung cấp hỗ trợ sau cho những người nhận lệnh khuyến nghị xuất cảnh:",
-          services: [
-            "Đánh giá khả năng kháng cáo hành chính",
-            "Chuẩn bị tài liệu để không có hoặc giảm lệnh cấm tái nhập cảnh",
-            "Đàm phán rút ngắn thời gian cấm tái nhập cảnh",
-            "Hỗ trợ dỡ bỏ lệnh cấm tái nhập cảnh sau khi xuất cảnh",
-          ],
-          cta: "Đặt lịch tư vấn ngay",
-          back: "Quay lại các loại xử lý",
-          faqTitle: "Câu hỏi thường gặp",
-          faqs: [
-            { q: "Tôi có thể ở lại nếu kháng cáo không?", a: "Nộp đơn kháng cáo hành chính không tự động đình chỉ nghĩa vụ xuất cảnh. Đơn xin đình chỉ thực thi riêng biệt có thể trì hoãn xuất cảnh trong một số trường hợp." },
-            { q: "Lệnh khuyến nghị xuất cảnh có luôn dẫn đến cấm tái nhập cảnh không?", a: "Không nhất thiết. Tùy thuộc vào mức độ vi phạm, thời gian lưu trú và tuân thủ, một số lệnh khuyến nghị xuất cảnh không kèm theo cấm tái nhập cảnh." },
-            { q: "Lệnh này có thể được hạ cấp xuống mức nhẹ hơn không?", a: "Sau khi lệnh khuyến nghị xuất cảnh đã được ban hành, hạ cấp là điều hiếm thấy. Đàm phán để rút ngắn hoặc miễn cấm tái nhập cảnh là mục tiêu thực tế hơn." },
-          ],
-          notice: "Trang này chỉ cung cấp thông tin pháp luật chung và không phải lời khuyên pháp lý. Liên hệ văn phòng chúng tôi để được tư vấn cụ thể.",
-        },
-      };
-      const c = t[l] || t.ko;
-      const ACCENT = { navy: "#001F3F", primary: "#0056B3", muted: "#475569", border: "#E9ECEF", bg: "#f8f9fb", warn: "#fff8e6", warnBorder: "#f59e0b" };
-      return (
-        <main style={{ background: ACCENT.bg, minHeight: "100vh" }}>
-          <div style={{ maxWidth: 800, margin: "0 auto", padding: "48px 24px 80px" }}>
-            <div style={{ fontSize: 12, fontWeight: 600, letterSpacing: "0.08em", textTransform: "uppercase" as const, color: ACCENT.primary, marginBottom: 8 }}>{c.tag}</div>
-            <h1 style={{ fontSize: "clamp(24px, 3.5vw, 36px)", fontWeight: 700, color: ACCENT.navy, lineHeight: 1.25, marginBottom: 18 }}>{c.h1}</h1>
-            <p style={{ fontSize: 17, color: ACCENT.muted, lineHeight: 1.75, marginBottom: 36, borderBottom: `1px solid ${ACCENT.border}`, paddingBottom: 32 }}>{c.lead}</p>
-
-            <h2 style={{ fontSize: 20, fontWeight: 700, color: ACCENT.navy, marginBottom: 14 }}>{c.s1}</h2>
-            <p style={{ color: ACCENT.muted, lineHeight: 1.75, marginBottom: 14 }}>{c.p1}</p>
-            <ul style={{ paddingLeft: 22, marginBottom: 32 }}>
-              {c.items1.map((item, i) => <li key={i} style={{ color: ACCENT.muted, marginBottom: 8, lineHeight: 1.65 }}>{item}</li>)}
-            </ul>
-
-            <h2 style={{ fontSize: 20, fontWeight: 700, color: ACCENT.navy, marginBottom: 14 }}>{c.s2}</h2>
-            <p style={{ color: ACCENT.muted, lineHeight: 1.75, marginBottom: 14 }}>{c.p2}</p>
-            <ol style={{ paddingLeft: 22, marginBottom: 32 }}>
-              {c.steps.map((step, i) => <li key={i} style={{ color: ACCENT.muted, marginBottom: 8, lineHeight: 1.65 }}>{step}</li>)}
-            </ol>
-
-            <h2 style={{ fontSize: 20, fontWeight: 700, color: ACCENT.navy, marginBottom: 14 }}>{c.s3}</h2>
-            <p style={{ color: ACCENT.muted, lineHeight: 1.75, marginBottom: 14 }}>{c.p3}</p>
-            <ul style={{ paddingLeft: 22, marginBottom: 32 }}>
-              {c.services.map((svc, i) => <li key={i} style={{ color: ACCENT.muted, marginBottom: 8, lineHeight: 1.65 }}>{svc}</li>)}
-            </ul>
-
-            <div style={{ background: ACCENT.primary, color: "#fff", borderRadius: 10, padding: "28px 32px", display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap" as const, gap: 18, marginBottom: 40 }}>
-              <div>
-                <div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div>
-                <div style={{ opacity: 0.9, fontSize: 15 }}>서울 중구 퇴계로 324, 3층 · +82-2-363-2251</div>
-              </div>
-              <a href={`/${locale}/contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
-            </div>
-
-            {/* FAQPage — 화면에 그리는 같은 c.faqs 배열에서 생성(1:1, I3b 2026-10-03) */}
-            {c.faqs.length > 0 && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(c.faqs)) }} />}
-            <h2 style={{ fontSize: 20, fontWeight: 700, color: ACCENT.navy, marginBottom: 18 }}>{c.faqTitle}</h2>
-            {c.faqs.map((faq, i) => (
-              <div key={i} style={{ borderTop: `1px solid ${ACCENT.border}`, padding: "18px 0" }}>
-                <div style={{ fontWeight: 600, color: ACCENT.navy, marginBottom: 8, fontSize: 15 }}>{faq.q}</div>
-                <div style={{ color: ACCENT.muted, lineHeight: 1.7, fontSize: 14 }}>{faq.a}</div>
-              </div>
-            ))}
-
-            <div style={{ marginTop: 40, background: ACCENT.warn, border: `1px solid ${ACCENT.warnBorder}`, borderRadius: 8, padding: "14px 18px", fontSize: 13, color: "#78350f", lineHeight: 1.6 }}>{c.notice}</div>
-
-            <div style={{ marginTop: 32 }}>
-              <a href={`/${locale}/dispositions`} style={{ color: ACCENT.primary, fontWeight: 600, fontSize: 14, textDecoration: "none" }}>← {c.back}</a>
-            </div>
-          </div>
-        </main>
-      );
-    },
-  },
+  "departure-order": DEPARTURE_ORDER,
+  "departure-recommendation": DEPARTURE_RECOMMENDATION,
 
   "deportation-order": {
     meta: {
@@ -305,14 +47,14 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             "금지 행위(마약·성범죄 등) 위반으로 유죄 확정",
             "국가 안보 또는 공공 질서를 위협한다고 판단",
             "허위 서류로 입국 또는 체류 자격 취득",
-            "출국권고 불이행 후 강제퇴거로 전환",
+            "출국명령을 받고 기한까지 출국하지 않거나 조건을 위반한 경우(제68조 제4항)",
           ],
           s2: "강제퇴거 집행 절차",
           p2: "강제퇴거명령이 발부되면 아래 절차로 집행됩니다.",
           steps: [
             "강제퇴거명령서 발부 및 당사자에게 통지",
             "보호(구금) 조치: 외국인보호소 입소",
-            "이의신청(이의신청위원회) 또는 행정 소송 제기 가능",
+            "명령서를 받은 날부터 7일 이내 법무부장관에게 이의신청(제60조 제1항) 또는 행정 소송 제기 가능",
             "집행 유예 또는 보호 해제 결정 (드물게 인정)",
             "강제퇴거 집행 (항공편 탑승 후 출국)",
             "출국 후 재입국 금지 기간 적용 (1년~영구)",
@@ -329,8 +71,8 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
           back: "처분 유형 목록으로",
           faqTitle: "자주 묻는 질문",
           faqs: [
-            { q: "강제퇴거명령(강제추방)에 이의신청을 할 수 있나요?", a: "네. 이의신청위원회에 이의신청을 제기하거나 행정 법원에 취소 소송을 제기할 수 있습니다. 소송 기간 중 집행 정지를 신청하면 퇴거를 일시 유예받을 수 있습니다." },
-            { q: "보호(구금) 절차란 무엇인가요?", a: "강제퇴거명령 발부 후 당사자를 외국인보호소에 수용하는 절차입니다. 보호 기간은 원칙적으로 3개월이며 연장될 수 있습니다. 보호 해제 신청 또는 보증금 납부로 일시 해제를 받을 수 있는 경우도 있습니다." },
+            { q: "강제퇴거명령(강제추방)에 이의신청을 할 수 있나요?", a: "네. 강제퇴거명령서를 받은 날부터 7일 이내에 지방출입국·외국인관서의 장을 거쳐 법무부장관에게 이의신청서를 제출할 수 있고(제60조 제1항), 행정 법원에 취소 소송을 제기할 수도 있습니다. 소송 기간 중 집행 정지를 신청하면 퇴거를 일시 유예받을 수 있습니다." },
+            { q: "보호(구금) 절차란 무엇인가요?", a: "강제퇴거명령 발부 후 당사자를 외국인보호소에 수용하는 절차입니다. 즉시 송환할 수 없는 경우 2개월의 범위에서 보호할 수 있고, 외국인보호위원회의 승인을 받아 매 3개월의 범위에서 연장할 수 있으며 총 보호기간은 9개월(법에 정한 예외는 20개월)을 넘을 수 없습니다(제63조). 보호 해제 신청 또는 보증금 납부로 일시 해제를 받을 수 있는 경우도 있습니다." },
             { q: "강제퇴거 집행을 유예받을 수 있나요?", a: "인도주의적 사유(중병, 영아 양육 등) 또는 행정 소송 진행 중인 경우 집행 유예가 인정되는 사례가 있습니다. 전문가 조력이 필수적입니다." },
             { q: "출국명령과 강제퇴거는 어떻게 다른가요? 재입국에도 영향이 있나요?", a: "출국명령은 강제퇴거 사유에 해당한다고 인정되지만 자기비용으로 자진 출국하려는 사람 등에게 출국기한을 정해 내리는 처분이고, 강제퇴거명령은 심사 결과 강제퇴거 사유에 해당한다고 인정될 때 내리는 처분입니다. 출국명령을 받고도 지정된 기한까지 출국하지 않으면 강제퇴거명령서가 발급되며, 강제퇴거명령에 대한 이의신청은 명령서를 받은 날부터 7일 이내에 해야 합니다. 강제퇴거명령을 받고 출국한 후 5년이 지나지 않은 사람은 법무부장관이 입국을 금지할 수 있는 대상으로 법에 규정되어 있고, 영주(F-5) 심사에서는 강제퇴거 후 출국 7년, 출국명령 후 출국 5년이 지나지 않으면 결격사유로 안내됩니다. 어떤 처분인지는 받으신 서류로 먼저 확인하고, 기한은 관할 출입국·외국인관서 안내를 따르세요." },
           ],
@@ -371,8 +113,8 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
           back: "Back to Dispositions",
           faqTitle: "Frequently Asked Questions",
           faqs: [
-            { q: "Can I appeal a forced deportation order?", a: "Yes. You may file an objection with the Immigration Review Committee or file an administrative lawsuit for cancellation. Applying for suspension of execution during litigation can temporarily halt the deportation." },
-            { q: "What is the detention (보호) process?", a: "After a deportation order is issued, the person is placed in an immigration detention facility (보호소). The standard detention period is 3 months and may be extended. Release on bail or temporary release can sometimes be obtained." },
+            { q: "Can I appeal a forced deportation order?", a: "Yes. You may submit an objection to the Minister of Justice, through the immigration office, within 7 days of receiving the deportation order (Article 60(1)), or file an administrative lawsuit for cancellation. Applying for suspension of execution during litigation can temporarily halt the deportation." },
+            { q: "What is the detention (보호) process?", a: "After a deportation order is issued, the person is placed in an immigration detention facility (보호소). If immediate removal is not possible, detention may last up to 2 months; with approval of the Foreigner Detention Committee it can be extended by up to 3 months at a time, but the total may not exceed 9 months (20 months in the exceptions set by law) (Article 63). Release on bail or temporary release can sometimes be obtained." },
             { q: "Can deportation be suspended?", a: "In limited cases involving humanitarian grounds (serious illness, care of an infant, etc.) or pending administrative litigation, suspension of execution may be granted. Expert assistance is essential." },
             { q: "What is the difference between a departure order (exit order) and a deportation order in Korea?", a: "A departure order is issued, with an exit deadline, to a person who appears to fall under a deportation ground but wants to leave voluntarily at their own expense (among other cases), while a deportation order is issued when the immigration review finds that a deportation ground applies. If you do not leave by the deadline set in a departure order, a deportation order must be issued, and an objection to a deportation order must be filed within 7 days of receiving the order. A person who left after receiving a deportation order and has not yet passed 5 years is listed in the Immigration Act as someone the Minister of Justice may bar from entry, and in permanent-residence (F-5) screening the Ministry manual lists leaving under a deportation order within 7 years, or under a departure order within 5 years, as a disqualification. Check your own document to see which disposition you received, and confirm deadlines with the competent immigration office." },
           ],
@@ -389,14 +131,14 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             "禁止行為（薬物・性犯罪等）で有罪確定",
             "国家安保または公共秩序を脅かすと判断",
             "虚偽書類で入国または在留資格取得",
-            "出国勧告不履行後の強制退去への転換",
+            "出国命令を受けて期限までに出国しない、または条件に違反した場合（第68条第4項）",
           ],
           s2: "強制退去執行手続き",
           p2: "強制退去命令が発付されると、以下の手続きで執行されます。",
           steps: [
             "強制退去命令書の発付・当事者への通知",
             "保護（拘禁）措置：外国人保護所への収容",
-            "異議申立（異議申立委員会）または行政訴訟の提起",
+            "命令書を受け取った日から7日以内に法務部長官へ異議申立て（第60条第1項）または行政訴訟の提起",
             "執行猶予または保護解除の決定（稀なケース）",
             "強制退去の執行（航空便搭乗後出国）",
             "出国後の再入国禁止期間適用（1年〜永久）",
@@ -413,8 +155,8 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
           back: "処分の種類一覧へ",
           faqTitle: "よくある質問",
           faqs: [
-            { q: "強制退去命令（強制送還）に異議申立てはできますか？", a: "はい。異議申立委員会への異議申立または行政裁判所への取消訴訟を提起できます。訴訟中に執行停止を申請すれば退去を一時猶予できる場合があります。" },
-            { q: "保護（拘禁）手続きとはどういうものですか？", a: "強制退去命令後、外国人保護所に収容される手続きです。保護期間は原則3か月で延長される場合があります。保釈金納付または一時解除を求めることも可能です。" },
+            { q: "強制退去命令（強制送還）に異議申立てはできますか？", a: "はい。強制退去命令書を受け取った日から7日以内に、官署の長を経由して法務部長官に異議申立書を提出できます（第60条第1項）。行政裁判所への取消訴訟を提起することもできます。訴訟中に執行停止を申請すれば退去を一時猶予できる場合があります。" },
+            { q: "保護（拘禁）手続きとはどういうものですか？", a: "強制退去命令後、外国人保護所に収容される手続きです。直ちに送還できない場合は2か月の範囲で保護でき、外国人保護委員会の承認を得て3か月ごとの範囲で延長できますが、総保護期間は9か月（法定の例外は20か月）を超えられません（第63条）。保釈金納付または一時解除を求めることも可能です。" },
             { q: "強制退去の執行を猶予してもらえますか？", a: "重病・乳幼児養育等の人道的事由や行政訴訟継続中の場合、執行猶予が認められる事例があります。専門家のサポートが不可欠です。" },
             { q: "韓国の出国命令と強制退去の違いは何ですか？", a: "出国命令は、強制退去事由に該当すると認められるものの自己負担で自主的に出国しようとする人などに対し、出国期限を定めて行う処分で、強制退去命令は審査の結果、強制退去事由に該当すると認められた場合に行う処分です。出国命令を受けても指定の期限までに出国しない場合は強制退去命令書が発給され、強制退去命令への異議申立ては命令書を受け取った日から7日以内に行う必要があります。強制退去命令を受けて出国した後5年が経過していない人は、法務部長官が入国を禁止できる対象として法に定められており、永住(F-5)の審査では、強制退去後の出国から7年、出国命令後の出国から5年が経過していない場合が欠格事由として案内されています。どの処分かは受け取った書類で確認し、期限は管轄の出入国在留管理官署の案内に従ってください。" },
           ],
@@ -431,14 +173,14 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             "因禁止行为（毒品·性犯罪等）获刑",
             "被认定威胁国家安全或公共秩序",
             "通过虚假文件入境或取得居留资格",
-            "不履行出境建议后转为强制出境",
+            "收到出境命令后未在期限内出境或违反条件（第68条第4款）",
           ],
           s2: "强制出境执行程序",
           p2: "强制出境命令发出后，将按以下程序执行。",
           steps: [
             "强制出境命令书发出并通知当事人",
             "保护（拘留）措施：送入外国人保护所",
-            "可提出异议（异议申诉委员会）或提起行政诉讼",
+            "自收到命令书之日起7日内向法务部长官提出异议（第60条第1款）或提起行政诉讼",
             "执行暂停或保护解除决定（罕见情形）",
             "强制出境执行（登机后出境）",
             "出境后适用再入境禁止期（1年至永久）",
@@ -455,8 +197,8 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
           back: "返回处分类型",
           faqTitle: "常见问题",
           faqs: [
-            { q: "可以对强制出境命令（强制遣返）提出申诉吗？", a: "是的。可向异议申诉委员会提出异议，或向行政法院提起撤销诉讼。诉讼期间申请执行停止可暂时阻止被驱逐出境。" },
-            { q: "保护（拘留）程序是什么？", a: "强制出境命令发出后当事人被送入外国人保护所。保护期原则上为3个月，可能延长。有时可通过缴纳保证金或申请临时解除获得释放。" },
+            { q: "可以对强制出境命令（强制遣返）提出申诉吗？", a: "是的。可自收到强制驱逐命令书之日起7日内，经官署长官向法务部长官提交异议申请书（第60条第1款），也可向行政法院提起撤销诉讼。诉讼期间申请执行停止可暂时阻止被驱逐出境。" },
+            { q: "保护（拘留）程序是什么？", a: "强制出境命令发出后当事人被送入外国人保护所。无法立即遣返时可在2个月范围内保护，经外国人保护委员会批准可每次在3个月范围内延长，但总保护期不得超过9个月（法定例外为20个月）（第63条）。有时可通过缴纳保证金或申请临时解除获得释放。" },
             { q: "强制出境可以被暂停吗？", a: "在人道主义事由（重病·哺育婴儿等）或行政诉讼进行中等有限情形下，执行暂停可能获批。专业人士协助至关重要。" },
             { q: "韩国的出境命令和强制驱逐有什么区别？", a: "出境命令是对被认为属于强制驱逐事由、但愿意自费自行出境的人等，规定出境期限后作出的处分；强制驱逐命令则是审查后认定属于强制驱逐事由时作出的处分。收到出境命令后若未在指定期限内出境，将被发给强制驱逐命令书；对强制驱逐命令提出异议，须自收到命令书之日起7日内提出。被强制驱逐并出境后未满5年的人，属于法律规定法务部长官可以禁止入境的对象；在永住(F-5)审查中，被强制驱逐后出境未满7年、被出境命令后出境未满5年，也被列为欠格事由。具体属于哪种处分，请以所收文件为准，期限请向主管出入境·外国人机关确认。" },
           ],
@@ -473,7 +215,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             "Bị kết án vì hành vi bị cấm (ma túy, tội phạm tình dục, v.v.)",
             "Bị xác định là mối đe dọa đối với an ninh quốc gia hoặc trật tự công cộng",
             "Nhập cảnh hoặc có được tư cách lưu trú thông qua tài liệu giả mạo",
-            "Không tuân thủ lệnh khuyến nghị xuất cảnh",
+            "Nhận lệnh xuất cảnh nhưng không rời đi trước thời hạn hoặc vi phạm điều kiện (Điều 68 khoản 4)",
           ],
           s2: "Quy trình trục xuất",
           p2: "Sau khi lệnh trục xuất cưỡng bức được ban hành, quy trình sau diễn ra.",
@@ -497,8 +239,8 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
           back: "Quay lại các loại xử lý",
           faqTitle: "Câu hỏi thường gặp",
           faqs: [
-            { q: "Tôi có thể kháng cáo lệnh trục xuất cưỡng bức không?", a: "Có. Bạn có thể nộp đơn phản đối lên Ủy ban Xem xét Xuất nhập cảnh hoặc khởi kiện hành chính để hủy bỏ. Nộp đơn đình chỉ thực thi trong quá trình kiện tụng có thể tạm dừng việc trục xuất." },
-            { q: "Quy trình giam giữ (보호) là gì?", a: "Sau khi lệnh trục xuất được ban hành, người liên quan bị đưa vào cơ sở giam giữ người nước ngoài (보호소). Thời gian giam giữ tiêu chuẩn là 3 tháng và có thể được gia hạn. Đôi khi có thể được tại ngoại bảo lãnh hoặc tạm thời thả ra." },
+            { q: "Tôi có thể kháng cáo lệnh trục xuất cưỡng bức không?", a: "Có. Bạn có thể nộp đơn khiếu nại lên Bộ trưởng Tư pháp (thông qua cơ quan xuất nhập cảnh) trong vòng 7 ngày kể từ ngày nhận lệnh trục xuất (Điều 60 khoản 1), hoặc khởi kiện hành chính để hủy bỏ. Nộp đơn đình chỉ thực thi trong quá trình kiện tụng có thể tạm dừng việc trục xuất." },
+            { q: "Quy trình giam giữ (보호) là gì?", a: "Sau khi lệnh trục xuất được ban hành, người liên quan bị đưa vào cơ sở giam giữ người nước ngoài (보호소). Nếu không thể đưa về nước ngay, có thể bị giam giữ trong phạm vi 2 tháng; với sự chấp thuận của Ủy ban Giam giữ Người nước ngoài có thể gia hạn mỗi lần tối đa 3 tháng, nhưng tổng thời gian không quá 9 tháng (20 tháng trong các trường hợp ngoại lệ theo luật) (Điều 63). Đôi khi có thể được tại ngoại bảo lãnh hoặc tạm thời thả ra." },
             { q: "Có thể đình chỉ trục xuất (cưỡng chế xuất cảnh) không?", a: "Trong một số trường hợp có lý do nhân đạo (bệnh nặng, chăm sóc trẻ sơ sinh, v.v.) hoặc đang chờ kiện tụng hành chính, đình chỉ thực thi có thể được chấp thuận. Hỗ trợ từ chuyên gia là thiết yếu." },
           ],
           notice: "Trang này chỉ cung cấp thông tin pháp luật chung và không phải lời khuyên pháp lý. Liên hệ văn phòng chúng tôi để được tư vấn cụ thể.",
