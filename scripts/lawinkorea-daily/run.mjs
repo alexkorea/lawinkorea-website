@@ -36,6 +36,7 @@ import os from 'node:os'
 import { fileURLToPath } from 'node:url'
 import { spawnSync } from 'node:child_process'
 import { createRequire } from 'node:module'
+import { findPriceViolations } from './price-check.mjs'
 
 const HERE = path.dirname(fileURLToPath(import.meta.url))
 const REPO = path.resolve(HERE, '..', '..')
@@ -59,7 +60,6 @@ const FINE_IDS = new Set(JSON.parse(fs.readFileSync(path.join(REPO, 'app', 'data
 const C6_RE = /변호사|법무법인|로펌|(?<![Oo]f )\b(?:lawyers?|attorneys?|law firms?|law office)\b|luật sư|律师|(?<!調)律師|弁護士/giu
 // 브랜드 E(선샤인행정사사무소) 외 표기 — team-relay/content-guard/brand_registry.json 에서 옮겼다(NAS 멈춤에 발행이 걸리지 않게 내장).
 const BRAND_FORBIDDEN = /VISION|Vision (?:Admin|Immigration|Visa)|비전\s*행정|(?:ビジョン|愿景|远景)\s*行政|행정사사무소 이룸|유선행정|에이원|A-One|teamone1?163|teamhelp888|5000meter|lwj95|visaskorea|f4visa|f6visa|investkorea|inhega|kocation|229-57-00755|405-05-54079|722-39-01297/gu
-const OUR_PRICE_RE = /(대행료|수임료|착수금|상담료|견적가|보수액|service fee|agency fee|consultation fee|代办费|手数料|phí dịch vụ)[^\n]{0,30}\d/i
 const HYPE_RE = /100%|최고의?|업계 1위|무조건|합격 보장|승인 보장|허가 보장|guarantee[ds]? (?:approval|success)/i
 const DATE_IN_SLUG = /(?:^|-)20\d\d-?\d\d-?\d\d(?:-|$)/
 const PHONE_RE = /0\d{1,2}-\d{3,4}-\d{4}/g
@@ -145,7 +145,7 @@ function checkEntry(e) {
     }
     for (const m of raw.matchAll(C6_RE)) fails.push(`[${loc}] 금지어 "${m[0]}" …${raw.slice(Math.max(0, m.index - 12), m.index + 16).replace(/\n/g, ' ')}…`)
     for (const m of raw.matchAll(BRAND_FORBIDDEN)) fails.push(`[${loc}] 브랜드 E 외 표기 "${m[0]}"`)
-    if (OUR_PRICE_RE.test(raw)) fails.push(`[${loc}] 자사 요금 표기: ${OUR_PRICE_RE.exec(raw)[0]}`)
+    for (const v of findPriceViolations(raw)) fails.push(`[${loc}] 자사 요금 표기: ${v}`) // price-check.mjs(BANK-FP 10-10)
     if (HYPE_RE.test(raw)) fails.push(`[${loc}] 과장·보장 표현: ${HYPE_RE.exec(raw)[0]}`)
     for (const ph of new Set(raw.match(PHONE_RE) || [])) if (ph !== PHONE) fails.push(`[${loc}] 등록 외 전화번호 ${ph} (정답 ${PHONE})`)
     for (const em of new Set(raw.match(/[\w.+-]+@[\w-]+(?:\.[\w-]+)+/g) || [])) if (!EMAILS.includes(em.toLowerCase())) fails.push(`[${loc}] 등록 외 이메일 ${em}`)
