@@ -36,7 +36,9 @@ import os from 'node:os'
 import { fileURLToPath } from 'node:url'
 import { spawnSync } from 'node:child_process'
 import { createRequire } from 'node:module'
-import { findPriceViolations } from './price-check.mjs'
+import { findPriceViolations, findSanctionDateViolations } from './price-check.mjs'
+// BANK-FP2(10-10): 제재 금액 기준일은 기존 원고 대부분(10-10 기준 160파일 중 132)이 아직 없어 경고로 시작한다. 원고 정리 후 true 로 바꾸면 차단(rc=3).
+const SANCTION_DATE_STRICT = false
 
 const HERE = path.dirname(fileURLToPath(import.meta.url))
 const REPO = path.resolve(HERE, '..', '..')
@@ -146,6 +148,7 @@ function checkEntry(e) {
     for (const m of raw.matchAll(C6_RE)) fails.push(`[${loc}] 금지어 "${m[0]}" …${raw.slice(Math.max(0, m.index - 12), m.index + 16).replace(/\n/g, ' ')}…`)
     for (const m of raw.matchAll(BRAND_FORBIDDEN)) fails.push(`[${loc}] 브랜드 E 외 표기 "${m[0]}"`)
     for (const v of findPriceViolations(raw)) fails.push(`[${loc}] 자사 요금 표기: ${v}`) // price-check.mjs(BANK-FP 10-10)
+    { const sv = findSanctionDateViolations(raw); if (sv.length) (SANCTION_DATE_STRICT ? fails : warns).push(`[${loc}] 제재 금액 기준일·출처 누락 ${sv.length}곳: ${sv[0]}`) } // price-check.mjs(BANK-FP2 10-10)
     if (HYPE_RE.test(raw)) fails.push(`[${loc}] 과장·보장 표현: ${HYPE_RE.exec(raw)[0]}`)
     for (const ph of new Set(raw.match(PHONE_RE) || [])) if (ph !== PHONE) fails.push(`[${loc}] 등록 외 전화번호 ${ph} (정답 ${PHONE})`)
     for (const em of new Set(raw.match(/[\w.+-]+@[\w-]+(?:\.[\w-]+)+/g) || [])) if (!EMAILS.includes(em.toLowerCase())) fails.push(`[${loc}] 등록 외 이메일 ${em}`)

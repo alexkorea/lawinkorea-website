@@ -1,7 +1,7 @@
 // node --test scripts/lawinkorea-daily/price-check.test.mjs
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
-import { findPriceViolations as f } from './price-check.mjs'
+import { findPriceViolations as f, findSanctionDateViolations as g } from './price-check.mjs'
 
 // 10-10 이전 OUR_PRICE_RE 가 막던 용어 12개 — 전부 계속 차단(조문 인용이 붙어도)
 const OLD_BLOCK = [
@@ -42,4 +42,43 @@ test('전화번호·체류자격·날짜는 금액 아님', () => {
   assert.deepEqual(f('견적 문의는 02-363-2251'), [])
   assert.deepEqual(f('我们在初次咨询后再报价。政府规费（如 F-5 申请手续费）另计，金额以出入境管理法施行规则规定为准。'), [])
   assert.deepEqual(f('外国人登录证的发放·补发依施行规则第72条第10项收取手续费。法务部居留指南（2026年9月）还说明'), [])
+})
+
+// BANK-FP2(10-10): 범칙금·과태료·벌금 금액 — 출처 + 기준일
+test('제재 금액 기준일 없으면 차단', () => {
+  for (const s of [
+    '범칙금 기준액은 1회 10만원, 2회 20만원이에요(시행규칙 별표 7).',
+    '100만원 이하의 벌금 대상이에요(제98조 제1호).',
+    '시행령 [별표 2]의 과태료 기준액은 10만원, 30만원이에요.',
+    'a criminal fine of up to KRW 1 million (Article 98, item 1).',
+    '违反者可处100万韩元以下罚金（第98条第1项）。',
+    '犯則金の基準額は10万ウォンです（施行規則 別表7）。',
+    'Vi phạm có thể bị phạt tiền đến 1 triệu won (Điều 98 mục 1).',
+    'description: "범칙금 기준(10만원~100만원)과 재발급 방법"',
+  ]) assert.ok(g(s).length, s)
+  assert.ok(g('범칙금 10만원(2026년 10월 기준)')[0].startsWith('출처'), '기준일만 있고 출처 없음')
+})
+test('제재 금액 + 출처 + 기준일 통과(5로캘 실제 문장)', () => {
+  for (const s of [
+    '범칙금 기준액은 1회 10만원이에요(2026년 10월 기준, 출입국관리법 시행규칙 별표 7).',
+    'the standard penalty fine runs from KRW 100,000 to KRW 1,000,000 (as of October 2026, Immigration Act Enforcement Rule, Table 7).',
+    '罚款基准额从10万韩元到100万韩元（截至2026年10月，出入境管理法施行规则附表7）。',
+    '犯則金の基準額は10万ウォンから100万ウォンです（2026年10月時点、出入国管理法施行規則 別表7）。',
+    'mức phạt cơ sở từ 100.000 đến 1.000.000 won (tính đến tháng 10/2026, Thông tư thi hành, Bảng 7).',
+    'description: "위반 시 범칙금 기준(10만원~100만원, 2026년 10월 기준)과 재발급"',
+  ]) assert.deepEqual(g(s), [], s)
+})
+test('제재 금액 오탐 없음', () => {
+  for (const s of [
+    '어기면 벌금 대상이고(제98조 제1호), 통고서를 받으면 15일 안에 내야 해요(제105조 제1항).', // 금액 없음
+    '3년 이하 징역 또는 벌금(제94조), 최근 3년간 같은 위반으로 범칙금 처분을 받은 경우',        // 기간·횟수만
+    '외국인등록증 재발급 수수료 30,000원(시행규칙 제72조, 2026년 10월 기준)',                  // 제재 아님(수수료 검사 몫)
+    'That is fine. Call 02-363-2251.',                                                       // 전화번호
+    '| 1회 | 10만원 |',                                                                       // 머리행 없는 표 조각
+  ]) assert.deepEqual(g(s), [], s)
+})
+test('제재 표는 머리행·앞 문단 기준일로 판정', () => {
+  const t = (intro) => `${intro}\n\n| 위반 횟수 | 범칙금 기준액 |\n|---|---|\n| 1회 | 10만원 |\n| 2회 | 20만원 |`
+  assert.equal(g(t('범칙금 기준액은 시행규칙 [별표 7]에서 정해요.')).length, 1)
+  assert.deepEqual(g(t('범칙금 기준액은 시행규칙 [별표 7]에서 정해요(2026년 10월 기준).')), [])
 })

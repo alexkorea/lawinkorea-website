@@ -29,7 +29,7 @@ faq:
   - q: "Can I still apply for permanent residency (F-5) after a review?"
     a: "Depends on the disposition. Minor violations may allow F-5 application after a waiting period; deportation or a criminal conviction is weighed heavily, and a waiting period applies under the Ministry of Justice criteria in force. Case-by-case assessment is mandatory."
   - q: "How much does an administrative scrivener charge?"
-    a: "Fees vary by case complexity and required documentation. We offer an initial consultation and provide a clear quote afterward. Government fees (e.g., KRW 200,000 for a change to permanent residency, Enforcement Rule Article 72) are separate."
+    a: "Fees vary by case complexity and required documentation. We offer an initial consultation and provide a clear quote afterward. Government fees (e.g., KRW 200,000 for a change to permanent residency, Immigration Act Enforcement Rule Article 72, item 5, as of October 2026) are separate."
   - q: "Can I get a pre-emptive consultation if I haven't received a notice yet?"
     a: "Yes, and we recommend it. Foreigners with prior DUI or criminal records should be evaluated before their visa-renewal date. Early preparation gives you more time to gather evidence."
 related:
