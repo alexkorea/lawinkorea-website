@@ -13,7 +13,7 @@ keywords:
 faq:
   - q: "Được tạm đình chỉ truy tố thì có phải qua xem xét vi phạm không?"
     a: "Tạm đình chỉ truy tố vẫn có thể thuộc diện xem xét vi phạm. Việc đây không phải hình phạt chính thức có thể được xem xét, nhưng không có nghĩa là mặc nhiên an toàn; kết quả phụ thuộc vào từng vụ việc."
-  - q: "Án phạt tiền dưới 1 triệu won cũng có thể dẫn đến trục xuất (cưỡng chế xuất cảnh) sao?"
+  - q: "Án phạt tiền không quá 1 triệu won cũng có thể dẫn đến trục xuất (cưỡng chế xuất cảnh) sao?"
     a: "Không chỉ số tiền phạt mà tội danh, tính bạo lực và số lần tái phạm cũng có thể được xem xét. Tội có tính bạo lực (hành hung, đe dọa) dù mức phạt thấp vẫn có thể bị xem xét trục xuất. Mức xử lý phụ thuộc vào từng vụ việc."
   - q: "Đã hòa giải với nạn nhân rồi vẫn phải qua xem xét vi phạm à?"
     a: "Hòa giải có thể được xem xét trong xử lý hình sự, nhưng xem xét vi phạm là thủ tục riêng. Dù vậy, biên bản hòa giải và đơn không yêu cầu xử phạt có thể được xem xét như tài liệu giảm nhẹ. Khi hòa giải hãy nhận bằng văn bản."

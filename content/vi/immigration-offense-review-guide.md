@@ -16,7 +16,7 @@ faq:
   - q: "Xem xét vi phạm xuất nhập cảnh là gì?"
     a: "Đó là thủ tục hành chính nhằm thẩm định lại tư cách lưu trú của người nước ngoài vi phạm Luật Quản lý xuất nhập cảnh hoặc dính án hình sự. Thủ tục này độc lập với xử lý hình sự, và tùy kết quả có thể dẫn tới từ chối gia hạn visa, trục xuất hoặc cấm nhập cảnh."
   - q: "Tôi chỉ nộp phạt thôi mà vẫn phải qua xem xét vi phạm sao?"
-    a: "Đúng. Xử lý hình sự (kể cả án phạt tiền) và thủ tục hành chính xem xét vi phạm là hai việc riêng. Dù chỉ bị phạt dưới 1 triệu won, cơ quan xuất nhập cảnh vẫn thẩm định lại việc gia hạn visa và tư cách lưu trú theo tiêu chuẩn riêng."
+    a: "Đúng. Xử lý hình sự (kể cả án phạt tiền) và thủ tục hành chính xem xét vi phạm là hai việc riêng. Dù chỉ bị phạt không quá 1 triệu won, cơ quan xuất nhập cảnh vẫn thẩm định lại việc gia hạn visa và tư cách lưu trú theo tiêu chuẩn riêng."
   - q: "Nhận thông báo rồi thì phải có mặt trong bao nhiêu ngày?"
     a: "Hãy kiểm tra kỹ ngày có mặt ghi trong thông báo. Vắng mặt không có lý do chính đáng có thể dẫn tới quyết định bất lợi."
   - q: "Hành chính sĩ có hỗ trợ buổi xem xét vi phạm được không?"

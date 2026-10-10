@@ -213,6 +213,9 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           ))}
         </ol>
 
+        {/* SANCTION-DATE-2: 기준표 상단 기준일·출처 1줄 */}
+        <p style={{ fontSize: 13, color: A.muted, margin: "0 0 14px" }}>{ui.asOfLine}</p>
+
         <h2 style={{ fontSize: 18, fontWeight: 700, color: A.navy, margin: "0 0 14px" }}>{ui.sectionFine}</h2>
         {fines.map(card)}
 
