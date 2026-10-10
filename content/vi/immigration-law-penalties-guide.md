@@ -39,10 +39,11 @@ Bài viết này trích dẫn nguyên văn các điều khoản chế tài tại
 
 > **Các trích dẫn pháp luật trong bài đã được đối chiếu qua API Hệ thống thông tin pháp luật quốc gia (open.law.go.kr).** Tuy nhiên mức phạt thực tế của từng vụ có thể khác nhau theo khung lượng hình của viện kiểm sát và tòa án; bài viết chỉ mang tính thông tin chung.
 
-## 1. Cấu trúc 7 bậc chế tài
+## 1. Cấu trúc 8 bậc chế tài
 
 | Điều khoản | Mức xử lý (tính đến tháng 10/2026) | Vi phạm chính |
 |---|---|---|
+| Điều 93-2 | **Tù đến 7 năm** v.v. | Môi giới nhập cảnh, xuất cảnh trái phép theo nhóm... |
 | Điều 93-3 | **Tù đến 5 năm / phạt đến 50 triệu won** | Nhập cảnh không qua kiểm tra nhập cảnh (vi phạm Điều 12), tiết lộ bí mật biết được trong công vụ... |
 | Điều 94 | **Tù đến 3 năm / phạt đến 30 triệu won** | Hoạt động ngoài tư cách, cư trú bất hợp pháp, tuyển dụng trái phép, nhập cảnh không phép |
 | Điều 95 | **Tù đến 1 năm / phạt đến 10 triệu won** | Vi phạm thủ tục nhập cảnh, nghĩa vụ đăng ký, bỏ trốn |
