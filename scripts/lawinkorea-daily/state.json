@@ -38,6 +38,19 @@
       ],
       "at": "2026-10-09T10:03:03.768Z",
       "batch": "20261007"
+    },
+    {
+      "slug": "workplace-change-without-permission-penalty",
+      "date": "2026-10-10",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-10-10T10:02:58.201Z",
+      "batch": "20261007"
     }
   ],
   "rejected": []

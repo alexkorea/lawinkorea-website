@@ -37,5 +37,7 @@
   "alien-registration-90-days-penalty": { "pexels_id": 32642488, "author": "DΛVΞ GΛRCIΛ",
     "alt": { "ko": "여권과 카드가 놓인 책상 위 평면 사진", "en": "Flat lay of a passport and cards", "zh": "护照与卡片的平铺俯拍", "ja": "パスポートとカードの俯瞰写真", "vi": "Ảnh nhìn từ trên xuống: hộ chiếu và thẻ" } },
   "overstay-penalty-extension-missed": { "pexels_id": 3570733, "author": "Enrique Zafra",
-    "alt": { "ko": "모래가 흐르는 유리 모래시계", "en": "Glass hourglass with flowing sand", "zh": "流沙的玻璃沙漏", "ja": "砂が落ちるガラスの砂時計", "vi": "Đồng hồ cát thủy tinh" } }
+    "alt": { "ko": "모래가 흐르는 유리 모래시계", "en": "Glass hourglass with flowing sand", "zh": "流沙的玻璃沙漏", "ja": "砂が落ちるガラスの砂時計", "vi": "Đồng hồ cát thủy tinh" } },
+  "workplace-change-without-permission-penalty": { "pexels_id": 8837510, "author": "ANTONI SHKRABA production",
+    "alt": { "ko": "사무실 책상 위에서 악수하는 모습", "en": "Handshake over an office desk", "zh": "办公桌上的握手", "ja": "オフィスの机越しの握手", "vi": "Bắt tay trên bàn làm việc" } }
 }
