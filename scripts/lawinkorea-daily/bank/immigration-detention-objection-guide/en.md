@@ -70,7 +70,7 @@ Even if the objection is found unfounded, the Minister may permit stay where the
 
 ### (3) Temporary release from detention (Article 65)
 
-- **Ex officio:** the office head may temporarily release a detainee after considering circumstances, the reasons for the request and assets, with a deposit of up to KRW 20 million and conditions such as restriction of residence, regular reporting and a guarantor (Article 65(1)).
+- **Ex officio:** the office head may temporarily release a detainee after considering circumstances, the reasons for the request and assets, with a deposit of up to KRW 20 million and conditions such as restriction of residence, regular reporting and a guarantor (as of October 2026, Article 65(1)).
 - **On application:** when the detainee (including a guarantor or legal representative) applies, the Foreigner Protection Committee decides (Article 65(2)). The application attaches materials explaining the reasons and ability to pay the deposit (Enforcement Decree Article 79-2(1)). The Committee must decide within 3 weeks of receiving the application, extendable once by up to 2 weeks for unavoidable reasons (same Article, paragraph 3).
 - **Review criteria:** serious threats to life or body or irreparable property loss, harm to national interests, the person's offense, age, character and conduct in the facility, risk of flight, and other serious humanitarian reasons (Enforcement Decree Article 79-3(1)).
 - If conditions are broken or flight is likely, temporary release can be revoked and the deposit forfeited to the state (Article 66).

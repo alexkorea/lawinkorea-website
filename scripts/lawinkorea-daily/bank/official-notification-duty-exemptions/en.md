@@ -54,7 +54,7 @@ The work in item 5 is set by Enforcement Rule Article 70-2: investigation of cri
 - **The duty is on 'officials'.** Article 84 sets officials' duty, so application depends on what kind of body it is and whether the information was learned in the course of duty.
 - **Exemptions cover listed work only.** They apply to personal information learned in connection with that work; contact for other purposes may not be covered.
 - **Other routes exist.** Immigration officers may check whether foreigners are staying lawfully (Article 81(1)) and may visit and question people who employ or lodge foreigners.
-- **The residence problem remains.** Having no status or overstaying is still a violation. Overstaying breaches Article 94, item 17, with up to 3 years in prison or a fine of up to KRW 30 million, and is a ground for deportation (Article 46(1), item 8).
+- **The residence problem remains.** Having no status or overstaying is still a violation. Overstaying breaches Article 94, item 17, with up to 3 years in prison or a fine of up to KRW 30 million, and is a ground for deportation (as of October 2026, Article 46(1), item 8).
 
 ## 4. How to respond
 

@@ -13,7 +13,7 @@ faq:
   - q: "Can I start the new activity once I have applied for a change of status?"
     a: "No. Article 24(1) says that to engage in an activity that falls under a different status, you must obtain the Minister of Justice's permit in advance. The article does not say you may start once the application is filed, so begin only after approval. If unsure about timing, confirm with your immigration office."
   - q: "How much is the penalty for acting without permission?"
-    a: "Up to 3 years in prison or a fine of up to KRW 30 million (Article 94, item 16). In practice it is often settled by a penalty fine notice, and the Enforcement Rule Annex 7 standard amounts are KRW 500,000 for under 1 month, KRW 1 million for 1 to 3 months, KRW 2 million for 3 to 6 months and KRW 5 million for 6 months to 1 year. It is also a ground for deportation (Article 46(1), item 8)."
+    a: "Up to 3 years in prison or a fine of up to KRW 30 million (Article 94, item 16). In practice it is often settled by a penalty fine notice, and the Enforcement Rule Annex 7 standard amounts are KRW 500,000 for under 1 month, KRW 1 million for 1 to 3 months, KRW 2 million for 3 to 6 months and KRW 5 million for 6 months to 1 year (as of October 2026). It is also a ground for deportation (Article 46(1), item 8)."
   - q: "If the change is refused, must I leave immediately?"
     a: "Not necessarily. Enforcement Decree Article 33(1) says the applicant is notified and may be allowed to stay in the status already granted. If a departure deadline is written, it is within 14 days of issue (paragraph 2). Read the notice first."
 related:
@@ -31,7 +31,7 @@ When your work in Korea changes, for example from study to employment, your stat
 
 - A foreign national who wants to do **an activity that falls under a status other than the current one** must obtain the Minister of Justice's change permit **in advance** (Article 24(1)).
 - A person exempt from registration (Article 31(1)) whose personal status changes must obtain the permit within 30 days of the change (Article 24(2)).
-- Acting without the permit can bring up to 3 years in prison or a fine of up to KRW 30 million (Article 94, item 16), and is a ground for deportation (Article 46(1), item 8).
+- Acting without the permit can bring up to 3 years in prison or a fine of up to KRW 30 million (as of October 2026, Article 94, item 16), and is a ground for deportation (Article 46(1), item 8).
 
 ## 1. When is a change permit needed?
 
@@ -43,7 +43,7 @@ Under Enforcement Decree Article 30, submit a **change of status application** w
 
 ## 3. What if you act before permission?
 
-Article 94, item 16 punishes a person who engages in an activity of another status without a permit in breach of Article 24 with up to 3 years in prison or a fine of up to KRW 30 million. It is often settled by a penalty fine notice, and the Enforcement Rule Annex 7 standard amounts depend on the period.
+Article 94, item 16 punishes a person who engages in an activity of another status without a permit in breach of Article 24 with up to 3 years in prison or a fine of up to KRW 30 million (as of October 2026). It is often settled by a penalty fine notice, and the Enforcement Rule Annex 7 standard amounts depend on the period.
 
 | Period of violation | Standard fine |
 |---|---|

@@ -82,3 +82,35 @@ test('제재 표는 머리행·앞 문단 기준일로 판정', () => {
   assert.equal(g(t('범칙금 기준액은 시행규칙 [별표 7]에서 정해요.')).length, 1)
   assert.deepEqual(g(t('범칙금 기준액은 시행규칙 [별표 7]에서 정해요(2026년 10월 기준).')), [])
 })
+
+// SANCTION-DATE(10-10): 제재 단어 없는 정부 금액(기준액·過怠金·보증금)·목록·표 행·매뉴얼 출처
+test('확대 용어도 기준일 요구', () => {
+  for (const s of [
+    '시행규칙 별표 7의 기준액은 1개월 미만 20만원이에요.',
+    '100万ウォン以下の過怠金の対象です（第100条第2項第1号）。',
+    '直近3年間に500万ウォン以上の罰則金処分を受けた場合',
+    '必要时可要求缴存1000万韩元以下的保证金（第13条第2款）。',
+    'with a deposit of up to KRW 20 million (Article 65(1)).',
+    'mức chuẩn cho 1 người là 3 triệu won (Bảng 8).',
+  ]) assert.ok(g(s).length, s)
+})
+test('목록: 앞 문단 또는 항목의 기준일', () => {
+  const t = (intro, item = '- 3개월 미만: 300만원') => `${intro}\n\n${item}\n- 2년 이상: 1,100만원`
+  assert.ok(g(t('기준액은 시행규칙 [별표 8]이 정합니다.')).length)
+  assert.deepEqual(g(t('기준액은 시행규칙 [별표 8]이 정합니다(2026년 10월 기준).')), [])
+  assert.deepEqual(g('### 2단계: 처벌\n- Foreigner: up to 3 years or KRW 30 million (as of October 2026, Art. 94(8))'), [])
+  assert.deepEqual(g('사업장 검사 시 발견\n\n- 하루 50만 원 일당 광고'), []) // 앞 문단이 제재 얘기가 아니면 대상 아님
+})
+test('표 행의 제재 금액은 표 단위로 판정(출처는 표 어느 행이든)', () => {
+  const tb = (h) => `${h}\n|---|---|\n| 제97조 | **500만원 이하 벌금** |\n| 〃 | 100만원 이하 벌금 |`
+  assert.equal(g(tb('| 조항 | 처벌 강도 |')).length, 1)
+  assert.deepEqual(g(tb('| 조항 | 처벌 강도 (2026년 10월 기준) |')), [])
+  assert.ok(g('| 기간 | 기준액 (2026년 10월 기준) |\n|---|---|\n| 1회 | 10만원 |')[0].startsWith('표 출처'))
+})
+test('출처: 매뉴얼·别表·Annex 인정', () => {
+  for (const s of [
+    '초범 500만원 이상 범칙금(2026년 10월 기준, 법무부 체류 안내매뉴얼).',
+    '罚款基准额为300万～1100万韩元（截至2026年10月，施行规则别表8）',
+    'administrative fine of KRW 100,000–1,000,000 (as of October 2026, Enforcement Decree Annex 2)',
+  ]) assert.deepEqual(g(s), [], s)
+})

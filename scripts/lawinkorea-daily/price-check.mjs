@@ -29,8 +29,8 @@ const CITATION_RE = new RegExp([
   '제\\s?\\d+조(?:의\\d+)?(?:\\s?제\\s?\\d+(?:항|호|목))*',
   '(?:제\\s?)?\\d+(?:항|호)', '별표\\s?\\d+',
   '第\\s?\\d+\\s?条(?:之\\d+)?(?:\\s?第\\s?\\d+\\s?[項项款号號目])*',
-  '第\\s?\\d+\\s?[項项款号號]', '(?:別表|附表)\\s?\\d+',
-  'Article\\s\\d+(?:-\\d+)?(?:\\(\\d+\\))*(?:,?\\sitems?\\s\\d+(?:\\([a-z]\\))?)?', 'Art\\.\\s?\\d+', 'items?\\s\\d+', 'Table\\s\\d+', '\\(\\d+\\)',
+  '第\\s?\\d+\\s?[項项款号號]', '(?:別表|附表|别表)\\s?\\d+',
+  'Article\\s\\d+(?:-\\d+)?(?:\\(\\d+\\))*(?:,?\\sitems?\\s\\d+(?:\\([a-z]\\))?)?', 'Art\\.\\s?\\d+', 'items?\\s\\d+', 'Table\\s\\d+', 'Annex\\s\\d+', '\\(\\d+\\)',
   'Điều\\s\\d+(?:\\skhoản\\s\\d+)?(?:\\smục\\s\\d+)?', 'khoản\\s\\d+', 'mục\\s\\d+', 'Phụ lục\\s\\d+', 'Bảng\\s\\d+',
 ].join('|'), 'giu')
 const HAS_CITATION = new RegExp(CITATION_RE.source, 'iu')
@@ -38,7 +38,7 @@ const HAS_CITATION = new RegExp(CITATION_RE.source, 'iu')
 const NOT_MONEY_RE = /0\d{1,2}-\d{3,4}-\d{4}|\b[A-H]-\d{1,2}(?:-\d{1,2})?\b|20\d\d\s?(?:년|年)(?:\s?\d{1,2}\s?월|\d{1,2}月)?(?:\s?\d{1,2}\s?일|\d{1,2}日)?|\b20[0-3]\d\b(?![,.]\d|\s?(?:원|won|ウォン|韩元|韓元|đồng))/giu
 const EXEMPT_RE = /면제|免除|免收|免费|waive|exempt|miễn/iu
 // 기준일: 2026년 9월 기준 / 2026年9月時点·基准 / as of 2026 / tính đến 2026 등 — 연도 + 기준 표지
-const BASE_DATE_RE = /20\d\d\s?(?:년|年)[^\n]{0,12}?(?:기준|時点|現在|基准|起)|(?:截至|截止)\s?20\d\d\s?年|(?:as of|effective)\s[^\n]{0,20}?20\d\d|(?:tính đến|áp dụng từ)\s[^\n]{0,20}?20\d\d/iu
+export const BASE_DATE_RE = /20\d\d\s?(?:년|年)[^\n]{0,12}?(?:기준|時点|現在|基准|起)|(?:截至|截止)\s?20\d\d\s?年|(?:as of|effective)\s[^\n]{0,20}?20\d\d|(?:tính đến|áp dụng từ)\s[^\n]{0,20}?20\d\d/iu
 
 /** 반환: 위반 조각 배열(빈 배열이면 통과) */
 export function findPriceViolations(raw) {
@@ -66,8 +66,12 @@ export function findPriceViolations(raw) {
  * frontmatter title·description(검색 요약)은 기준일만 요구한다 — 조문 출처는 본문에 있다.
  * 금액 없이 "벌금 대상" 이라고만 쓴 줄, 제재와 무관한 금액(수수료는 위 검사)은 보지 않는다.
  */
-const SANCTION_RE = /범칙금|과태료|벌금|\bfines?\b|\bpenalt(?:y|ies)\b|罚款|罚金|过怠金|罰金|過料|犯則金|過怠料|phạt|beomchikgeum/iu
-const MONEY_RE = /\d[\d,.]*\s?(?:만|억|천|万|千|triệu|nghìn|million|thousand)?\s?(?:원|ウォン|韩元|韓元|won\b|đồng)|(?:KRW|₩)\s?\d/iu
+// 2026-10-10 SANCTION-DATE: ja 過怠金·罰則金, 제재 단어 없이 '기준액'·보증금만 쓴 정부 금액 줄도 대상(확대 전 112줄 누락)
+export const SANCTION_RE = /범칙금|과태료|벌금|기준액|보증금|\bfines?\b|\bpenalt(?:y|ies)\b|standard amounts?|base (?:amounts?|fines?)|\bdeposits?\b|罚款|罚金|过怠金|基准额|保证金|罰金|過料|過怠金|犯則金|罰則金|過怠料|基準額|保証金|phạt|mức chuẩn|mức cơ sở|ký quỹ|đặt cọc|beomchikgeum/iu
+export const MONEY_RE = /\d[\d,.]*\s?(?:만|억|천|万|千|triệu|nghìn|million|thousand)?\s?(?:원|ウォン|韩元|韓元|won\b|đồng)|(?:KRW|₩)\s?\d/iu
+// 조문 번호가 없는 정부 출처(법무부 체류 안내매뉴얼)도 출처로 인정한다
+const MANUAL_RE = /매뉴얼|\bmanual\b|マニュアル|指南|Sổ tay/iu
+const LIST_RE = /^\s*(?:[-*]|\d+\.)\s/
 
 /** 반환: 위반 조각 배열(빈 배열이면 통과) */
 export function findSanctionDateViolations(raw) {
@@ -77,19 +81,34 @@ export function findSanctionDateViolations(raw) {
   const seenTables = new Set()
   lines.forEach((line, i) => {
     if (!MONEY_RE.test(line)) return
+    if (line.trimStart().startsWith('|')) return tableCheck(i)
     if (SANCTION_RE.test(line)) {
       if (!BASE_DATE_RE.test(line)) out.push(`기준일 없음: ${cut(line)}`)
-      else if (!/^(?:title|description):/.test(line) && !HAS_CITATION.test(line)) out.push(`출처(조문·별표) 없음: ${cut(line)}`)
+      else if (!/^(?:title|description):/.test(line) && !HAS_CITATION.test(line) && !MANUAL_RE.test(line)) out.push(`출처(조문·별표) 없음: ${cut(line)}`)
       return
     }
-    if (!line.trimStart().startsWith('|')) return
+    // 목록: "- 3개월 미만: 300만원" 처럼 항목에 제재 용어가 없으면 목록 바로 앞 문단(제재 용어가 있을 때)의 기준일을 본다
+    if (LIST_RE.test(line)) {
+      let p = i - 1
+      while (p >= 0 && LIST_RE.test(lines[p])) p--
+      while (p >= 0 && !lines[p].trim()) p--
+      if (p >= 0 && SANCTION_RE.test(lines[p]) && !BASE_DATE_RE.test(lines[p]) && !BASE_DATE_RE.test(line)) out.push(`목록 기준일 없음: ${cut(line)}`)
+      return
+    }
+  })
+  // 표: 머리행 또는 행에 제재 용어가 있으면 표 단위로 본다 — 기준일은 머리행·표 바로 앞 문단·그 행 중 하나,
+  // 출처(조문·별표·매뉴얼)는 그 행·머리행·앞 문단 중 하나. 위반은 표마다 1번만 보고한다.
+  function tableCheck(i) {
     let h = i
     while (h > 0 && lines[h - 1].trimStart().startsWith('|')) h--
-    if (seenTables.has(h) || !SANCTION_RE.test(lines[h])) return
-    seenTables.add(h)
+    if (seenTables.has(h) || !(SANCTION_RE.test(lines[h]) || SANCTION_RE.test(lines[i]))) return
     let p = h - 1
     while (p >= 0 && !lines[p].trim()) p--
-    if (!BASE_DATE_RE.test(lines[h]) && !(p >= 0 && BASE_DATE_RE.test(lines[p]))) out.push(`표 기준일 없음: ${cut(lines[h])}`)
-  })
+    let e = h
+    while (e + 1 < lines.length && lines[e + 1].trimStart().startsWith('|')) e++
+    const ctx = [lines[i], lines[h], p >= 0 ? lines[p] : '']
+    if (!ctx.some((t) => BASE_DATE_RE.test(t))) { seenTables.add(h); out.push(`표 기준일 없음: ${cut(lines[h])}`) }
+    else if (![...lines.slice(h, e + 1), p >= 0 ? lines[p] : ''].some((t) => HAS_CITATION.test(t) || MANUAL_RE.test(t))) { seenTables.add(h); out.push(`표 출처 없음: ${cut(lines[i])}`) }
+  }
   return out
 }

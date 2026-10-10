@@ -57,7 +57,7 @@ Immigration officers may investigate a foreigner suspected of falling under a gr
 
 A person who violates Article 20 is listed as a deportation subject in Article 46(1), item 8. However, being listed is different from a deportation order actually being issued. The competent office decides the disposition case by case.
 
-**Criminal penalty provisions also exist separately.** Article 94 of the Immigration Act provides that a person falling under any of its subparagraphs shall be punished by imprisonment for up to 3 years or a fine of up to 30 million won, and item 12 lists "a person who, in violation of Article 20, engages in an activity of another status of sojourn without permission for activities outside the status of sojourn."
+**Criminal penalty provisions also exist separately.** Article 94 of the Immigration Act provides that a person falling under any of its subparagraphs shall be punished by imprisonment for up to 3 years or a fine of up to 30 million won, and item 12 lists "a person who, in violation of Article 20, engages in an activity of another status of sojourn without permission for activities outside the status of sojourn (as of October 2026)."
 
 ## 3. Handling standards by type in the manual
 
@@ -92,7 +92,7 @@ On receiving the notice you must pay the fine within 15 days, and if you do not 
 The record may be reflected in later reviews even after the matter ends. Examples stated in the Ministry of Justice manual:
 
 - **F-2 points system deductions**: Immigration Act violation history is a deduction item. For notification disposition, the standard is within 3 years of the application date (counted from the payment date); for departure order and deportation, within 5 years of the application date.
-- **F-5 (permanent residence) disqualification**: includes cases where 7 years have not passed since leaving after a deportation order, or 5 years since leaving after a departure order. It also includes a fine of 5 million won or more in the last 3 years, or combined fines of 7 million won or more.
+- **F-5 (permanent residence) disqualification**: includes cases where 7 years have not passed since leaving after a deportation order, or 5 years since leaving after a departure order. It also includes a fine of 5 million won or more in the last 3 years, or combined fines of 7 million won or more (as of October 2026, Ministry of Justice residence manual).
 
 ## 7. Practical order of response
 

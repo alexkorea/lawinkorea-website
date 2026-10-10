@@ -56,7 +56,7 @@ Dù được cho là thuộc các mục của Điều 46 khoản 1, **người m
 
 ## 4. Khác gì với việc hạn chế phạm vi hoạt động
 
-Theo Điều 22, Bộ trưởng Tư pháp khi thấy cần thiết vì trật tự an ninh công cộng hay lợi ích quan trọng của quốc gia có thể hạn chế nơi ở hoặc phạm vi hoạt động của người nước ngoài và quy định các điều cần tuân thủ. Vi phạm hạn chế hay điều cần tuân thủ này có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won theo Điều 94 mục 14, mức phạt chuẩn tại [Phụ lục 7] Thông tư thi hành là 3 triệu won ở lần đầu. Quy định chung về hoạt động ngoài tư cách xem thêm tại [hướng dẫn về hoạt động ngoài tư cách](/vi/blog/unauthorized-activity-disposition-2026).
+Theo Điều 22, Bộ trưởng Tư pháp khi thấy cần thiết vì trật tự an ninh công cộng hay lợi ích quan trọng của quốc gia có thể hạn chế nơi ở hoặc phạm vi hoạt động của người nước ngoài và quy định các điều cần tuân thủ. Vi phạm hạn chế hay điều cần tuân thủ này có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won theo Điều 94 mục 14, mức phạt chuẩn tại [Phụ lục 7] Thông tư thi hành là 3 triệu won ở lần đầu (tính đến tháng 10/2026). Quy định chung về hoạt động ngoài tư cách xem thêm tại [hướng dẫn về hoạt động ngoài tư cách](/vi/blog/unauthorized-activity-disposition-2026).
 
 ## 5. Thứ tự kiểm tra trước và sau khi tham gia
 

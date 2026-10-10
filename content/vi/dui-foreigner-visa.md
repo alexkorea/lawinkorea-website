@@ -15,7 +15,7 @@ faq:
   - q: "Tôi đã nộp phạt vì lái xe say rượu, vậy có gia hạn visa được không?"
     a: "Dù án phạt tiền đã kết thúc, thủ tục xem xét vi phạm của Cục Xuất nhập cảnh vẫn tiến hành riêng. Việc có được gia hạn hay không không phải mặc nhiên và phụ thuộc vào từng vụ việc; tài liệu giảm nhẹ có thể được xem xét."
   - q: "Nồng độ cồn 0,03% và 0,08% khác nhau thế nào?"
-    a: "Theo Luật Giao thông đường bộ Điều 148-2 khoản 3: 0,03~0,08%: tù đến 1 năm hoặc phạt đến 5 triệu won; 0,08~0,2%: tù 1~2 năm hoặc phạt 5~10 triệu won; từ 0,2% trở lên: tù 2~5 năm hoặc phạt 10~20 triệu won. Về bằng lái, theo Phụ lục 28 Quy tắc thi hành Luật Giao thông đường bộ: 0,03~0,08% bị 100 điểm phạt (đình chỉ), từ 0,08% trở lên bị thu hồi. Về phía Xuất nhập cảnh, mức xử lý phụ thuộc vào từng vụ việc."
+    a: "Theo Luật Giao thông đường bộ Điều 148-2 khoản 3: 0,03~0,08%: tù đến 1 năm hoặc phạt đến 5 triệu won; 0,08~0,2%: tù 1~2 năm hoặc phạt 5~10 triệu won; từ 0,2% trở lên: tù 2~5 năm hoặc phạt 10~20 triệu won (tính đến tháng 10/2026). Về bằng lái, theo Phụ lục 28 Quy tắc thi hành Luật Giao thông đường bộ: 0,03~0,08% bị 100 điểm phạt (đình chỉ), từ 0,08% trở lên bị thu hồi. Về phía Xuất nhập cảnh, mức xử lý phụ thuộc vào từng vụ việc."
   - q: "Phạm lần đầu có bị trục xuất (cưỡng chế xuất cảnh) không?"
     a: "Nếu nồng độ cồn trên 0,2%, có tai nạn, hoặc từ chối kiểm tra, thì ngay cả lần đầu vẫn có thể bị trục xuất. Với vụ việc lần đầu, mức xử lý cũng phụ thuộc vào từng vụ việc."
   - q: "Tôi gây tai nạn khi say rượu nhưng đã hòa giải với nạn nhân. Vẫn phải qua xem xét vi phạm sao?"
@@ -57,7 +57,7 @@ Bài viết này tổng hợp những điểm cần kiểm tra ngay sau khi bị
 
 ## 2. Mức xử phạt hình sự theo nồng độ cồn (BAC)
 
-| Mức BAC | Xử lý hình sự (Luật Giao thông đường bộ Điều 148-2) | Bằng lái (Quy tắc thi hành, Phụ lục 28) |
+| Mức BAC | Xử lý hình sự (tính đến tháng 10/2026, Luật Giao thông đường bộ Điều 148-2) | Bằng lái (Quy tắc thi hành, Phụ lục 28) |
 |---|---|---|
 | 0,03 ~ 0,08% | Tù đến 1 năm hoặc phạt đến 5 triệu won (khoản 3 điểm 3) | 100 điểm phạt (đình chỉ) |
 | 0,08 ~ 0,2% | Tù 1~2 năm hoặc phạt 5~10 triệu won (khoản 3 điểm 2) | Thu hồi |

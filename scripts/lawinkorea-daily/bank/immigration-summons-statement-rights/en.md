@@ -68,7 +68,7 @@ Remember that you can ask to add, delete or change content (Article 48(4)).
 
 Immigration officers may visit foreigners, employers, representatives of workplaces and people who accommodate foreigners to **ask questions or request documents** in order to check lawful stay (Article 81(1)). They may also ask a person to stop and question them when, judging reasonably from behavior and surroundings, there are reasonable grounds to suspect a violation (paragraph 3).
 
-A person who is asked questions or for materials must not refuse without proper reason (Article 81(4)), and refusing or evading a request for books or materials can bring an administrative fine of up to KRW 1 million (Article 100(2), item 3). An on-site question and an investigation under a summons are different stages, so respond according to which one you face.
+A person who is asked questions or for materials must not refuse without proper reason (Article 81(4)), and refusing or evading a request for books or materials can bring an administrative fine of up to KRW 1 million (as of October 2026, Article 100(2), item 3). An on-site question and an investigation under a summons are different stages, so respond according to which one you face.
 
 ## 5. What to prepare before attending
 

@@ -14,7 +14,7 @@ faq:
   - q: "I paid the DUI fine — can I still extend my visa?"
     a: "The fine ends only the criminal track; the Immigration Office runs a separate offense review. With low BAC, no accident, and strong mitigation evidence, extension is sometimes granted — but it is never automatic."
   - q: "What's the difference between BAC 0.03% and 0.08%?"
-    a: "0.03% is the legal threshold for drunk driving (Road Traffic Act Article 44(4)). Under Article 148-2(3): 0.03% to under 0.08% — up to 1 year imprisonment or a fine up to KRW 5 million; 0.08% to under 0.2% — 1 to 2 years imprisonment or a KRW 5–10 million fine; 0.2% or more — 2 to 5 years imprisonment or a KRW 10–20 million fine. The immigration outcome depends on the individual case."
+    a: "0.03% is the legal threshold for drunk driving (Road Traffic Act Article 44(4)). Under Article 148-2(3): 0.03% to under 0.08% — up to 1 year imprisonment or a fine up to KRW 5 million; 0.08% to under 0.2% — 1 to 2 years imprisonment or a KRW 5–10 million fine; 0.2% or more — 2 to 5 years imprisonment or a KRW 10–20 million fine (as of October 2026). The immigration outcome depends on the individual case."
   - q: "Can a first-time DUI lead to deportation?"
     a: "It can be reviewed. BAC level, whether there was an accident, and whether you refused a breath test are all weighed, even for a first offense. Whether the result is status maintained, a departure order or deportation depends on the individual case."
   - q: "I had a DUI accident but settled with the victim. Will I still face the review?"
@@ -58,7 +58,7 @@ This guide explains the procedure and the points to check after a DUI in Korea.
 
 Deportation can be ordered only on the grounds listed in Article 46(1) of the Immigration Control Act, and the actual outcome of the offense review depends on the individual case.
 
-| BAC | Criminal Penalty (Road Traffic Act Article 148-2) |
+| BAC | Criminal Penalty (as of October 2026, Road Traffic Act Article 148-2) |
 |---|---|
 | 0.03% to under 0.08% | Up to 1 yr imprisonment or fine up to KRW 5M |
 | 0.08% to under 0.2% | 1–2 yr imprisonment or KRW 5–10M fine |

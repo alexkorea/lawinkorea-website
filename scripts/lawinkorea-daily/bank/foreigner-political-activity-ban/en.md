@@ -56,7 +56,7 @@ Even where a ground in Article 46(1) appears to apply, a person who **wishes to 
 
 ## 4. How it differs from a restriction on scope of activity
 
-Under Article 22, the Minister of Justice may restrict a foreigner's residence or scope of activity and set required conduct when necessary for public order or important national interests. Breaking such a restriction or condition can bring up to 3 years in prison or a fine of up to KRW 30 million under Article 94, item 14, and the Enforcement Rule Annex 7 standard fine is KRW 3 million for the first time. Rules on activities beyond your status are in the [guide on activities outside status](/en/blog/unauthorized-activity-disposition-2026).
+Under Article 22, the Minister of Justice may restrict a foreigner's residence or scope of activity and set required conduct when necessary for public order or important national interests. Breaking such a restriction or condition can bring up to 3 years in prison or a fine of up to KRW 30 million under Article 94, item 14, and the Enforcement Rule Annex 7 standard fine is KRW 3 million for the first time (as of October 2026). Rules on activities beyond your status are in the [guide on activities outside status](/en/blog/unauthorized-activity-disposition-2026).
 
 ## 5. Checklist before and after acting
 

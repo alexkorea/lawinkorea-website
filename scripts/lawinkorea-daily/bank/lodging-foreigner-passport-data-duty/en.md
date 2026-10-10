@@ -15,7 +15,7 @@ faq:
   - q: "How does the operator submit the data?"
     a: "The operator submits the data a foreigner provides to the Minister of Justice through an information network within 12 hours of the stay or of the alert being issued (Article 81-3(2)). The data are copies of the passport, travel document or entry permit, and if network failure or similar makes it impossible, they may be submitted by email, fax, text, phone or in person (Enforcement Rule, Article 69-3)."
   - q: "What happens if the duty is breached?"
-    a: "A foreigner who does not provide data faces a fine of up to KRW 500,000 under Article 100(3), item 1-2, and an operator who does not submit or submits falsely does under item 1-3. Enforcement Decree Annex 2 standards are KRW 100,000 the first time, KRW 200,000 the second, KRW 300,000 the third, KRW 400,000 the fourth and KRW 500,000 the fifth or more."
+    a: "A foreigner who does not provide data faces a fine of up to KRW 500,000 under Article 100(3), item 1-2, and an operator who does not submit or submits falsely does under item 1-3. Enforcement Decree Annex 2 standards are KRW 100,000 the first time, KRW 200,000 the second, KRW 300,000 the third, KRW 400,000 the fourth and KRW 500,000 the fifth or more (as of October 2026)."
 related:
   - "immigration-law-penalties-guide"
   - "residence-change-report-fine"
@@ -32,7 +32,7 @@ Travelers who come to Korea are sometimes asked to show a passport at hotel or g
 - A foreigner with a short-stay status (stay of 90 days or less) is a **lodging foreigner** (Article 81-3(1), Article 10-2(1), item 1).
 - The foreigner's duty to provide data is **limited to cases set by Ministry of Justice rule**, such as an infectious disease or terror alert.
 - The operator must submit the data through an information network **within 12 hours** of receiving it (or of the alert) (Article 81-3(2)).
-- Breach can bring a **fine of up to KRW 500,000** (Article 100(3), items 1-2 and 1-3).
+- Breach can bring a **fine of up to KRW 500,000** (as of October 2026, Article 100(3), items 1-2 and 1-3).
 
 ## 1. Who is covered?
 
@@ -62,12 +62,12 @@ The operator holds and manages the data under the Personal Information Protectio
 
 ## 4. What if the duty is breached?
 
-Under Article 100(3), a fine of up to KRW 500,000 applies to:
+Under Article 100(3), a fine of up to KRW 500,000 applies to (as of October 2026):
 
 - A lodging foreigner who **does not provide** data (item 1-2)
 - An operator who **does not submit or submits falsely** (item 1-3)
 
-The Enforcement Decree Annex 2 standards for both are:
+The Enforcement Decree Annex 2 standards for both are (as of October 2026):
 
 | Violations | Standard fine |
 |---|---|

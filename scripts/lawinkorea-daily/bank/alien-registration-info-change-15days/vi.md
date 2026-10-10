@@ -15,7 +15,7 @@ faq:
   - q: "Khi báo cần mang theo gì?"
     a: "Theo Điều 44 khoản 1 Nghị định thi hành, nộp đơn báo thay đổi kèm thẻ đăng ký người nước ngoài và hộ chiếu cho trưởng cơ quan quản lý nơi cư trú. Nếu họ tên, giới tính, ngày sinh hoặc quốc tịch thay đổi, cơ quan sẽ cấp lại thẻ đăng ký (khoản 2). Hồ sơ bổ sung hãy hỏi cơ quan."
   - q: "Trễ thì bị phạt bao nhiêu?"
-    a: "Theo Điều 100 khoản 2 mục 1: phạt hành chính đến 1 triệu won. Mức chuẩn tại Phụ lục 2 Nghị định thi hành: trễ dưới 3 tháng 100.000 won, từ 3 đến dưới 6 tháng 300.000 won, từ 6 tháng đến dưới 1 năm 500.000 won, từ 1 năm 1 triệu won. Bộ trưởng Tư pháp có thể miễn phạt tùy hoàn cảnh (Điều 100 khoản 5)."
+    a: "Theo Điều 100 khoản 2 mục 1: phạt hành chính đến 1 triệu won. Mức chuẩn tại Phụ lục 2 Nghị định thi hành: trễ dưới 3 tháng 100.000 won, từ 3 đến dưới 6 tháng 300.000 won, từ 6 tháng đến dưới 1 năm 500.000 won, từ 1 năm 1 triệu won (tính đến tháng 10/2026). Bộ trưởng Tư pháp có thể miễn phạt tùy hoàn cảnh (Điều 100 khoản 5)."
 related:
   - "residence-change-report-fine"
   - "immigration-law-penalties-guide"
@@ -31,7 +31,7 @@ Khi đổi hộ chiếu mới hoặc đổi trường, đổi công ty, thông t
 
 - Người nước ngoài đã đăng ký phải báo thay đổi tại cơ quan quản lý nơi cư trú **trong 15 ngày** khi thông tin đăng ký thay đổi (Điều 35).
 - Đối tượng gồm (1) họ tên, giới tính, ngày sinh, quốc tịch, (2) số hộ chiếu, ngày cấp, thời hạn, (3) các nội dung do Bộ Tư pháp quy định.
-- Vi phạm có thể bị phạt hành chính đến 1 triệu won (Điều 100 khoản 2 mục 1).
+- Vi phạm có thể bị phạt hành chính đến 1 triệu won (tính đến tháng 10/2026, Điều 100 khoản 2 mục 1).
 - Báo đổi nơi cư trú khi chuyển nhà (Điều 36) là nghĩa vụ riêng, xem thêm [hướng dẫn báo đổi nơi cư trú](/vi/blog/residence-change-report-fine).
 
 ## 1. Những thay đổi nào phải báo?
@@ -58,7 +58,7 @@ Theo Điều 44 Nghị định thi hành, nộp **đơn báo thay đổi thông 
 
 ## 3. Trễ thì sao?
 
-Điều 100 khoản 2 mục 1 quy định người vi phạm Điều 35 bị phạt hành chính đến 1 triệu won. Mức chuẩn tại [Phụ lục 2] Nghị định thi hành theo thời gian trễ như sau.
+Điều 100 khoản 2 mục 1 quy định người vi phạm Điều 35 bị phạt hành chính đến 1 triệu won (tính đến tháng 10/2026). Mức chuẩn tại [Phụ lục 2] Nghị định thi hành theo thời gian trễ như sau.
 
 | Thời gian trễ | Mức phạt chuẩn |
 |---|---|

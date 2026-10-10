@@ -57,7 +57,7 @@ Công chức quản lý xuất nhập cảnh có thể điều tra sự việc �
 
 Người vi phạm Điều 20 được liệt kê là đối tượng cưỡng chế xuất cảnh tại Điều 46 khoản 1 mục 8. Tuy nhiên, việc được liệt kê khác với việc lệnh cưỡng chế xuất cảnh thực sự được ban hành. Cơ quan có thẩm quyền quyết định hình thức xử lý theo từng vụ việc.
 
-**Ngoài ra còn có điều khoản hình phạt riêng.** Điều 94 Luật Quản lý xuất nhập cảnh quy định người thuộc một trong các mục sẽ bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won, và mục 12 nêu: "người vi phạm Điều 20, thực hiện hoạt động thuộc tư cách lưu trú khác mà không được cấp phép hoạt động ngoài tư cách lưu trú".
+**Ngoài ra còn có điều khoản hình phạt riêng.** Điều 94 Luật Quản lý xuất nhập cảnh quy định người thuộc một trong các mục sẽ bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won, và mục 12 nêu: "người vi phạm Điều 20, thực hiện hoạt động thuộc tư cách lưu trú khác mà không được cấp phép hoạt động ngoài tư cách lưu trú" (tính đến tháng 10/2026).
 
 ## 3. Tiêu chuẩn xử lý theo từng loại được ghi trong sổ tay
 
@@ -92,7 +92,7 @@ Khi nhận được thông báo, bạn phải nộp tiền phạt trong vòng 15
 Sau khi vụ việc kết thúc, lịch sử vẫn có thể được phản ánh trong các lần xét duyệt sau. Các ví dụ được ghi trong sổ tay của Bộ Tư pháp:
 
 - **Điểm trừ trong hệ thống tính điểm F-2**: lịch sử vi phạm Luật Quản lý xuất nhập cảnh nằm trong mục bị trừ điểm. Với thông báo xử phạt, tiêu chuẩn là trong vòng 3 năm kể từ ngày nộp đơn (tính theo ngày nộp phạt); với lệnh xuất cảnh và cưỡng chế xuất cảnh là trong vòng 5 năm kể từ ngày nộp đơn.
-- **Lý do không đủ điều kiện xin vĩnh trú (F-5)**: bao gồm trường hợp chưa qua 7 năm kể từ ngày xuất cảnh sau khi bị ra lệnh cưỡng chế xuất cảnh, hoặc chưa qua 5 năm kể từ ngày xuất cảnh sau khi bị ra lệnh xuất cảnh. Ngoài ra còn gồm trường hợp bị phạt từ 5 triệu won trở lên trong 3 năm gần nhất, hoặc tổng tiền phạt từ 7 triệu won trở lên.
+- **Lý do không đủ điều kiện xin vĩnh trú (F-5)**: bao gồm trường hợp chưa qua 7 năm kể từ ngày xuất cảnh sau khi bị ra lệnh cưỡng chế xuất cảnh, hoặc chưa qua 5 năm kể từ ngày xuất cảnh sau khi bị ra lệnh xuất cảnh. Ngoài ra còn gồm trường hợp bị phạt từ 5 triệu won trở lên trong 3 năm gần nhất, hoặc tổng tiền phạt từ 7 triệu won trở lên (tính đến tháng 10/2026, Sổ tay lưu trú của Bộ Tư pháp).
 
 ## 7. Thứ tự ứng phó trên thực tế
 

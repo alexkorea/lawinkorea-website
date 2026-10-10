@@ -12,7 +12,7 @@ keywords:
   - "Korea visa violation penalty"
 faq:
   - q: "What's the fine range for Immigration Control Act violations?"
-    a: "Penalties range from a fine of up to KRW 1 million (Article 98) to imprisonment of up to 7 years (Article 93-2). Different tiers apply to different offense types."
+    a: "Penalties range from a fine of up to KRW 1 million (as of October 2026, Article 98) to imprisonment of up to 7 years (Article 93-2). Different tiers apply to different offense types."
   - q: "What's the penalty for a single out-of-status activity violation?"
     a: "Article 20 violation = Article 94 application — up to 3 years imprisonment or 30M KRW fine. The offense review outcome (status maintained vs deportation) matters more than the fine."
   - q: "What's the fine for overstaying your visa (illegal stay)?"

@@ -13,17 +13,17 @@ keywords:
   - "Immigration Control Act Korea penalties"
 faq:
   - q: "Mức phạt khi vi phạm Luật Quản lý xuất nhập cảnh bắt đầu từ bao nhiêu?"
-    a: "Từ phạt dưới 1 triệu won (Điều 98) đến phạt dưới 50 triệu won hoặc tù đến 5 năm (Điều 93-3), chia thành 7 bậc. Mỗi hành vi vi phạm áp dụng điều khoản khác nhau."
+    a: "Từ phạt dưới 1 triệu won (Điều 98) đến phạt dưới 50 triệu won hoặc tù đến 5 năm (tính đến tháng 10/2026, Điều 93-3), chia thành 7 bậc. Mỗi hành vi vi phạm áp dụng điều khoản khác nhau."
   - q: "Vi phạm hoạt động ngoài tư cách lần đầu bị xử lý thế nào?"
-    a: "Vi phạm Điều 20 áp dụng Điều 94 — tù đến 3 năm hoặc phạt đến 30 triệu won. Ngoài số tiền, quan trọng hơn số tiền là kết quả xem xét vi phạm (giữ tư cách hay bị trục xuất)."
+    a: "Vi phạm Điều 20 áp dụng Điều 94 — tù đến 3 năm hoặc phạt đến 30 triệu won (tính đến tháng 10/2026). Ngoài số tiền, quan trọng hơn số tiền là kết quả xem xét vi phạm (giữ tư cách hay bị trục xuất)."
   - q: "Phạt bao nhiêu khi quá hạn lưu trú (cư trú bất hợp pháp, overstay)?"
-    a: "Vi phạm Điều 25 (Điều 94 khoản 17) bị tù đến 3 năm hoặc phạt đến 30 triệu won. Ngoài ra có thể có lệnh xuất cảnh hoặc trục xuất, cấm nhập cảnh; mức xử lý phụ thuộc vào từng vụ việc."
+    a: "Vi phạm Điều 25 (Điều 94 khoản 17) bị tù đến 3 năm hoặc phạt đến 30 triệu won (tính đến tháng 10/2026). Ngoài ra có thể có lệnh xuất cảnh hoặc trục xuất, cấm nhập cảnh; mức xử lý phụ thuộc vào từng vụ việc."
   - q: "Chủ sử dụng tuyển người nước ngoài không đủ tư cách bị phạt bao nhiêu?"
-    a: "Vi phạm Điều 18 khoản 3 (Điều 94 khoản 9) — tù đến 3 năm hoặc phạt đến 30 triệu won. Ngoài ra theo quy định xử phạt kép tại Điều 99-3, pháp nhân cũng bị phạt. Mức phạt tính cộng dồn theo số lao động và tăng nặng khi tái phạm."
+    a: "Vi phạm Điều 18 khoản 3 (Điều 94 khoản 9) — tù đến 3 năm hoặc phạt đến 30 triệu won (tính đến tháng 10/2026). Ngoài ra theo quy định xử phạt kép tại Điều 99-3, pháp nhân cũng bị phạt. Mức phạt tính cộng dồn theo số lao động và tăng nặng khi tái phạm."
   - q: "Không mang hộ chiếu khi bị kiểm tra có bị phạt không?"
-    a: "Vi phạm nghĩa vụ mang theo và xuất trình hộ chiếu theo Điều 27 áp dụng Điều 98 — phạt đến 1 triệu won. Đây là mức nhẹ nhất nhưng tích lũy nhiều lần có thể bất lợi tại buổi xem xét."
+    a: "Vi phạm nghĩa vụ mang theo và xuất trình hộ chiếu theo Điều 27 áp dụng Điều 98 — phạt đến 1 triệu won (tính đến tháng 10/2026). Đây là mức nhẹ nhất nhưng tích lũy nhiều lần có thể bất lợi tại buổi xem xét."
   - q: "Không khai báo thay đổi nơi cư trú có bị phạt không?"
-    a: "Vi phạm Điều 36 khoản 1 (khai báo thay đổi nơi cư trú) áp dụng Điều 98 — phạt đến 1 triệu won. Phải khai báo trong 15 ngày kể từ ngày chuyển đến (Điều 36 khoản 1), áp dụng cho người nước ngoài đã đăng ký người nước ngoài."
+    a: "Vi phạm Điều 36 khoản 1 (khai báo thay đổi nơi cư trú) áp dụng Điều 98 — phạt đến 1 triệu won (tính đến tháng 10/2026). Phải khai báo trong 15 ngày kể từ ngày chuyển đến (Điều 36 khoản 1), áp dụng cho người nước ngoài đã đăng ký người nước ngoài."
   - q: "Bị án phạt tiền rồi vẫn phải qua xem xét vi phạm riêng à?"
     a: "Đúng. Xử lý hình sự và xem xét vi phạm xuất nhập cảnh là hai thủ tục độc lập. Dù chỉ bị phạt 1 triệu won, cơ quan xuất nhập cảnh vẫn quyết định việc gia hạn visa, thay đổi tư cách hay trục xuất theo tiêu chuẩn riêng."
 related:
@@ -41,7 +41,7 @@ Bài viết này trích dẫn nguyên văn các điều khoản chế tài tại
 
 ## 1. Cấu trúc 7 bậc chế tài
 
-| Điều khoản | Mức xử lý | Vi phạm chính |
+| Điều khoản | Mức xử lý (tính đến tháng 10/2026) | Vi phạm chính |
 |---|---|---|
 | Điều 93-3 | **Tù đến 5 năm / phạt đến 50 triệu won** | Nhập cảnh không qua kiểm tra nhập cảnh (vi phạm Điều 12), tiết lộ bí mật biết được trong công vụ... |
 | Điều 94 | **Tù đến 3 năm / phạt đến 30 triệu won** | Hoạt động ngoài tư cách, cư trú bất hợp pháp, tuyển dụng trái phép, nhập cảnh không phép |
@@ -53,7 +53,7 @@ Bài viết này trích dẫn nguyên văn các điều khoản chế tài tại
 
 ## 2. Điều 94 — 22 trường hợp (đến 3 năm tù / 30 triệu won)
 
-> **Điều 94 (Chế tài) — Người thuộc một trong các trường hợp sau bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won.**
+> **Điều 94 (Chế tài) — Người thuộc một trong các trường hợp sau bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (tính đến tháng 10/2026).**
 
 ### Liên quan nhập cảnh, xuất cảnh
 - **Khoản 1** — vi phạm Điều 3 khoản 1: xuất cảnh mà không qua thủ tục kiểm tra
@@ -85,9 +85,9 @@ Bài viết này trích dẫn nguyên văn các điều khoản chế tài tại
 
 **Vi phạm Điều 94 có thể dẫn tới việc xem xét trục xuất.** Dù về hình sự chỉ bị phạt tiền, buổi xem xét vẫn có thể dẫn tới hủy tư cách hoặc trục xuất.
 
-## 3. Điều 95 — Tù đến 1 năm / phạt đến 10 triệu won (10 mục)
+## 3. Điều 95 — Tù đến 1 năm / phạt đến 10 triệu won (10 mục, tính đến tháng 10/2026)
 
-> **Điều 95 (Chế tài) — Người thuộc một trong các trường hợp sau bị phạt tù đến 1 năm hoặc phạt tiền đến 10 triệu won.**
+> **Điều 95 (Chế tài) — Người thuộc một trong các trường hợp sau bị phạt tù đến 1 năm hoặc phạt tiền đến 10 triệu won (tính đến tháng 10/2026).**
 
 - **Khoản 1** — vi phạm Điều 6 khoản 1: nhập cảnh mà không qua kiểm tra
 - **Khoản 2** — vi phạm Điều 13 khoản 2: vi phạm điều kiện của giấy phép nhập cảnh có điều kiện
@@ -99,21 +99,21 @@ Bài viết này trích dẫn nguyên văn các điều khoản chế tài tại
 - **Khoản 8** — vi phạm Điều 51/56/63: **người nước ngoài đang bị bảo hộ bỏ trốn**
 - **Khoản 9** — vi phạm điều kiện bảo hộ (hạn chế nơi ở, báo cáo định kỳ, chỉ định người bảo lãnh...)
 
-## 4. Điều 96 — Phạt đến 10 triệu won (3 mục)
+## 4. Điều 96 — Phạt đến 10 triệu won (3 mục, tính đến tháng 10/2026)
 
 > Chủ yếu áp dụng cho doanh nghiệp vận tải, tàu thuyền — đối tượng là hãng hàng không, hãng tàu chứ không phải cá nhân người nước ngoài.
 
-## 5. Điều 97 — Phạt đến 5 triệu won (7 mục)
+## 5. Điều 97 — Phạt đến 5 triệu won (7 mục, tính đến tháng 10/2026)
 
-> **Điều 97 (Chế tài) — Người thuộc một trong các trường hợp sau bị phạt tiền đến 5 triệu won.**
+> **Điều 97 (Chế tài) — Người thuộc một trong các trường hợp sau bị phạt tiền đến 5 triệu won (tính đến tháng 10/2026).**
 
 - **Khoản 1** — vi phạm Điều 18 khoản 4: **môi giới, chiêu dụ** việc làm cho người không đủ tư cách (không mang tính nghề nghiệp)
 - **Khoản 2** — vi phạm Điều 21 khoản 2: môi giới việc làm cho người đổi nơi làm việc không phép (không mang tính nghề nghiệp)
 - **Khoản 3~7** — ra vào bằng tàu thuyền/hàng không, nghĩa vụ báo cáo, nghĩa vụ hồi hương, nghĩa vụ hoàn trả giấy chứng nhận tị nạn...
 
-## 6. Điều 98 — Phạt đến 1 triệu won (nhẹ nhất)
+## 6. Điều 98 — Phạt đến 1 triệu won (nhẹ nhất, tính đến tháng 10/2026)
 
-> **Điều 98 (Chế tài) — Người thuộc một trong các trường hợp sau bị phạt tiền đến 1 triệu won.**
+> **Điều 98 (Chế tài) — Người thuộc một trong các trường hợp sau bị phạt tiền đến 1 triệu won (tính đến tháng 10/2026).**
 
 - **Khoản 1** — **vi phạm Điều 27**: nghĩa vụ mang theo và xuất trình hộ chiếu
 - **Khoản 2** — **vi phạm Điều 36 khoản 1**: nghĩa vụ khai báo thay đổi nơi cư trú (trong 15 ngày)
@@ -154,7 +154,7 @@ Tuy nhiên, pháp nhân có thể được miễn trách nếu đã thực hiệ
 
 ### Tình huống F: Tuyển dụng người nước ngoài trái phép (chủ sử dụng)
 - Điều khoản áp dụng: vi phạm Điều 18 khoản 3 → **Điều 94 khoản 9**
-- Mức chuẩn tiền phạt khi có thông báo xử phạt: 3–30 triệu won theo số người và thời gian vi phạm (Quy tắc thi hành, Bảng 8)
+- Mức chuẩn tiền phạt khi có thông báo xử phạt: 3–30 triệu won theo số người và thời gian vi phạm (tính đến tháng 10/2026, Quy tắc thi hành, Bảng 8)
 - Xử phạt kép: pháp nhân cũng có thể bị phạt tiền (Điều 99-3)
 - Hạn chế tuyển dụng người nước ngoài: có thể đến 3 năm (Luật về việc làm của lao động nước ngoài Điều 20)
 

@@ -68,7 +68,7 @@ Hãy nhớ rằng nếu có chỗ cần sửa, bạn có thể yêu cầu thêm,
 
 Để kiểm tra người nước ngoài có lưu trú hợp pháp không, viên chức xuất nhập cảnh có thể đến gặp người nước ngoài, người sử dụng lao động, người đại diện nơi họ làm việc, người cho ở trọ... để **đặt câu hỏi hoặc yêu cầu cung cấp tài liệu** (Điều 81 khoản 1). Nếu xét hợp lý từ hành vi và hoàn cảnh xung quanh có lý do đáng nghi vi phạm luật, viên chức còn có thể yêu cầu dừng lại và đặt câu hỏi (khoản 3).
 
-Người bị hỏi hoặc bị yêu cầu nộp tài liệu không được từ chối nếu không có lý do chính đáng (Điều 81 khoản 4); từ chối hoặc né tránh việc nộp sổ sách, tài liệu có thể bị phạt hành chính đến 1 triệu won (Điều 100 khoản 2 mục 3). Hỏi tại chỗ và điều tra theo giấy triệu tập là hai giai đoạn khác nhau, hãy phân biệt để ứng xử cho phù hợp.
+Người bị hỏi hoặc bị yêu cầu nộp tài liệu không được từ chối nếu không có lý do chính đáng (Điều 81 khoản 4); từ chối hoặc né tránh việc nộp sổ sách, tài liệu có thể bị phạt hành chính đến 1 triệu won (tính đến tháng 10/2026, Điều 100 khoản 2 mục 3). Hỏi tại chỗ và điều tra theo giấy triệu tập là hai giai đoạn khác nhau, hãy phân biệt để ứng xử cho phù hợp.
 
 ## 5. Nên chuẩn bị gì trước khi đến
 

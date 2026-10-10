@@ -13,9 +13,9 @@ faq:
   - q: "Which applications does the false documents rule cover?"
     a: "Article 26 covers applications for permits under Article 20 (activities outside status), Article 21 (workplace change or addition), and Articles 23 to 25 (grant, change and extension of status), among others. It prohibits improper means such as submitting forged or altered documents as proof or submitting an application containing false statements, and also arranging or encouraging such acts."
   - q: "What are the penalty and the fine amounts?"
-    a: "Up to 3 years in prison or a fine of up to KRW 30 million (Article 94, item 17-2). Enforcement Rule Annex 7 standards are KRW 5 million for the first time, KRW 10 million for the second, KRW 20 million for the third and KRW 30 million for the fourth or more when done directly, and from KRW 10 million for one person to KRW 30 million for 20 or more when arranging or encouraging. They can be reduced or increased within one half."
+    a: "Up to 3 years in prison or a fine of up to KRW 30 million (Article 94, item 17-2). Enforcement Rule Annex 7 standards are KRW 5 million for the first time, KRW 10 million for the second, KRW 20 million for the third and KRW 30 million for the fourth or more when done directly, and from KRW 10 million for one person to KRW 30 million for 20 or more when arranging or encouraging (as of October 2026). They can be reduced or increased within one half."
   - q: "Is a mistake made by accident punished the same way?"
-    a: "Article 26 targets applying by improper means. Separately, writing or reporting false facts in applications or reports under the Act can bring a fine of up to KRW 500,000 under Article 100(3), item 2 (excluding cases under Article 94, item 17-2). Which applies depends on the facts."
+    a: "Article 26 targets applying by improper means. Separately, writing or reporting false facts in applications or reports under the Act can bring a fine of up to KRW 500,000 (as of October 2026) under Article 100(3), item 2 (excluding cases under Article 94, item 17-2). Which applies depends on the facts."
 related:
   - "immigration-law-penalties-guide"
   - "immigration-offense-review-guide"
@@ -31,7 +31,7 @@ When a document is missing for an extension or a change of status, people get an
 
 - In applications for permits on activities outside status, workplace change or addition, grant or change of status, and extension of stay, you must not apply by improper means such as submitting **forged or altered documents** or **an application with false statements** (Article 26, item 1).
 - **Arranging or encouraging** such applications is also prohibited (Article 26, item 2).
-- Violation can bring up to 3 years in prison or a fine of up to KRW 30 million (Article 94, item 17-2), and for a foreigner it is a ground for deportation (Article 46(1), item 10-2).
+- Violation can bring up to 3 years in prison or a fine of up to KRW 30 million (as of October 2026, Article 94, item 17-2), and for a foreigner it is a ground for deportation (Article 46(1), item 10-2).
 - The standard fine rises with the number of violations or people arranged.
 
 ## 1. Which permit applications are covered?
@@ -43,7 +43,7 @@ Article 26 applies to acts connected with **permit applications** under Articles
 
 ## 2. Penalties and standard fines
 
-Article 94, item 17-2 punishes a person who violates Article 26 with up to 3 years in prison or a fine of up to KRW 30 million. A complaint from the office head is needed for prosecution (Article 101(1)), and the head may notify a penalty fine once guilt is confirmed (Article 102(1)). The Enforcement Rule Annex 7 standard amounts are below.
+Article 94, item 17-2 punishes a person who violates Article 26 with up to 3 years in prison or a fine of up to KRW 30 million (as of October 2026). A complaint from the office head is needed for prosecution (Article 101(1)), and the head may notify a penalty fine once guilt is confirmed (Article 102(1)). The Enforcement Rule Annex 7 standard amounts are below.
 
 | Type | Count or people | Standard fine |
 |---|---|---|
@@ -65,7 +65,7 @@ Article 46(1), item 10-2 makes a foreigner who violated Article 26 subject to de
 
 ## 4. How does it differ from a simple error?
 
-Article 100(3), item 2 provides for a fine of up to KRW 500,000 on a person who writes or reports **false facts** in applications or reports under the Act, excluding persons covered by Article 94, item 17-2. The Enforcement Decree Annex 2 standards are KRW 300,000 for the first time, KRW 400,000 for the second and KRW 500,000 for the third or more. Which rule applies depends on facts such as whether forged documents were used or the application was made by improper means, so nothing can be stated categorically. If you are investigated, organize the facts and materials first, as in the [offense review guide](/en/blog/immigration-offense-review-guide).
+Article 100(3), item 2 provides for a fine of up to KRW 500,000 on a person who writes or reports **false facts** in applications or reports under the Act, excluding persons covered by Article 94, item 17-2. The Enforcement Decree Annex 2 standards are KRW 300,000 for the first time, KRW 400,000 for the second and KRW 500,000 for the third or more (as of October 2026). Which rule applies depends on facts such as whether forged documents were used or the application was made by improper means, so nothing can be stated categorically. If you are investigated, organize the facts and materials first, as in the [offense review guide](/en/blog/immigration-offense-review-guide).
 
 ## 5. Steps when a document is a problem
 

@@ -13,9 +13,9 @@ faq:
   - q: "What does entry inspection check?"
     a: "Under Article 12(3), officers check whether (1) the passport and visa are valid (visa only where the Act requires one), (2) any travel authorization is valid, (3) the purpose of entry fits the status, (4) the stay period is set under Ministry of Justice rule, and (5) the person is not subject to an entry ban or refusal under Article 11. If you cannot prove the requirements, entry may be refused (Article 12(4))."
   - q: "What is a conditional entry permit?"
-    a: "Under Article 13, an office head may grant conditional entry to a person who could not meet the passport or visa requirement for unavoidable reasons but is expected to within a set period, a person suspected of an entry-ban ground or of not meeting the entry purpose requirement who needs special examination, and others. Enforcement Decree Article 16 allows a period of up to 72 hours. The permit carries conditions such as residence restrictions and a duty to attend when summoned, and a deposit of up to KRW 10 million may be required."
+    a: "Under Article 13, an office head may grant conditional entry to a person who could not meet the passport or visa requirement for unavoidable reasons but is expected to within a set period, a person suspected of an entry-ban ground or of not meeting the entry purpose requirement who needs special examination, and others. Enforcement Decree Article 16 allows a period of up to 72 hours. The permit carries conditions such as residence restrictions and a duty to attend when summoned, and a deposit of up to KRW 10 million may be required (as of October 2026)."
   - q: "What if I break the conditions?"
-    a: "Up to 1 year in prison or a fine of up to KRW 10 million under Article 95, item 2. The Enforcement Rule Annex 7 standard fine is KRW 1 million for the first time, KRW 3 million for the second, KRW 5 million for the third and KRW 10 million for the fourth or more. The deposit can be forfeited in whole or in part (Article 13(3)), and breach is a ground for deportation (Article 46(1), item 5)."
+    a: "Up to 1 year in prison or a fine of up to KRW 10 million under Article 95, item 2. The Enforcement Rule Annex 7 standard fine is KRW 1 million for the first time, KRW 3 million for the second, KRW 5 million for the third and KRW 10 million for the fourth or more (as of October 2026). The deposit can be forfeited in whole or in part (Article 13(3)), and breach is a ground for deportation (Article 46(1), item 5)."
 related:
   - "entry-ban-removal"
   - "visa-denial-response"
@@ -58,11 +58,11 @@ Under Article 13(1), the head of a regional immigration office may grant conditi
 - A person suspected of an entry-ban ground or of not meeting the entry purpose requirement who **needs special examination**
 - Others for whom conditional entry is considered necessary
 
-The office issues a **conditional entry permit** with conditions such as residence restrictions and a duty to attend when summoned, and may require a **deposit of up to KRW 10 million** (Article 13(2)). Under Enforcement Decree Article 16, the period is set **within 72 hours** and may be extended within that limit for unavoidable reasons. If the requirements are met within the period, inspection is carried out and the date of entry is the date of the conditional permit.
+The office issues a **conditional entry permit** with conditions such as residence restrictions and a duty to attend when summoned, and may require a **deposit of up to KRW 10 million** (as of October 2026, Article 13(2)). Under Enforcement Decree Article 16, the period is set **within 72 hours** and may be extended within that limit for unavoidable reasons. If the requirements are met within the period, inspection is carried out and the date of entry is the date of the conditional permit.
 
 ## 4. Breaking conditions, and refusal
 
-Breaking the conditions of a conditional entry permit can bring up to 1 year in prison or a fine of up to KRW 10 million under Article 95, item 2. The Enforcement Rule Annex 7 standard fines are below and can be reduced or increased within one half (Enforcement Rule, Article 86(2)).
+Breaking the conditions of a conditional entry permit can bring up to 1 year in prison or a fine of up to KRW 10 million under Article 95, item 2 (as of October 2026). The Enforcement Rule Annex 7 standard fines are below and can be reduced or increased within one half (Enforcement Rule, Article 86(2)).
 
 | Violations | Standard fine |
 |---|---|

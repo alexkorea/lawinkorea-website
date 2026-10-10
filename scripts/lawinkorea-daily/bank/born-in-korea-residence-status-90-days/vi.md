@@ -13,7 +13,7 @@ faq:
   - q: "Con sinh tại Hàn Quốc thì chậm nhất khi nào phải có tư cách lưu trú?"
     a: "Trong vòng 90 ngày kể từ ngày sinh (Luật Xuất nhập cảnh Điều 23 khoản 1 mục 1). Nộp đơn xin cấp tư cách lưu trú tại cơ quan xuất nhập cảnh quản lý nơi cư trú, Bộ trưởng Tư pháp ấn định thời hạn lưu trú (Nghị định thi hành Điều 29). Sổ tay hướng dẫn cũng ghi rằng nếu xuất cảnh trong 90 ngày thì không cần xin phép riêng."
   - q: "Nộp đơn sau 90 ngày thì bị xử phạt thế nào?"
-    a: "Vi phạm Điều 23, lưu trú không có tư cách có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (Điều 94 mục 15), thực tế thường được giải quyết bằng thông báo xử phạt (beomchikgeum). Mức chuẩn tại Phụ lục 7 Thông tư thi hành tăng theo thời gian trễ: dưới 1 tháng 500.000 won, 1 đến dưới 3 tháng 1 triệu won, 3 đến dưới 6 tháng 2 triệu won, 6 tháng đến dưới 1 năm 5 triệu won. Đây cũng là lý do buộc xuất cảnh (Điều 46 khoản 1 mục 8)."
+    a: "Vi phạm Điều 23, lưu trú không có tư cách có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (Điều 94 mục 15), thực tế thường được giải quyết bằng thông báo xử phạt (beomchikgeum). Mức chuẩn tại Phụ lục 7 Thông tư thi hành tăng theo thời gian trễ: dưới 1 tháng 500.000 won, 1 đến dưới 3 tháng 1 triệu won, 3 đến dưới 6 tháng 2 triệu won, 6 tháng đến dưới 1 năm 5 triệu won (tính đến tháng 10/2026). Đây cũng là lý do buộc xuất cảnh (Điều 46 khoản 1 mục 8)."
   - q: "Tư cách lưu trú của trẻ có phụ thuộc vào tư cách của cha mẹ không?"
     a: "Có. Sổ tay nêu ví dụ: con của người F-2 sinh tại Hàn Quốc được cấp F-1; con của cha mẹ E-9 và tương tự được cấp thời hạn trong phạm vi thời hạn lưu trú của cha mẹ. Điều kiện và hồ sơ khác nhau theo tư cách của cha mẹ, hãy hỏi cơ quan quản lý trước khi nộp."
 related:
@@ -31,7 +31,7 @@ Khi con chào đời tại Hàn Quốc, ngoài khai sinh còn một việc nữa
 
 - Người nước ngoài sinh tại Hàn Quốc mà lưu trú không có tư cách phải được cấp tư cách lưu trú **trong 90 ngày kể từ ngày sinh** (Điều 23 khoản 1 mục 1).
 - Sổ tay hướng dẫn lưu trú cũng ghi: người sinh trong nước nộp đơn trong 90 ngày kể từ ngày sinh, nếu xuất cảnh trong 90 ngày thì không cần xin phép riêng.
-- Quá hạn có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (Điều 94 mục 15) và là lý do buộc xuất cảnh (Điều 46 khoản 1 mục 8).
+- Quá hạn có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (tính đến tháng 10/2026, Điều 94 mục 15) và là lý do buộc xuất cảnh (Điều 46 khoản 1 mục 8).
 - Trễ càng lâu mức phạt chuẩn càng cao, nên hãy nộp đơn ngay khi nhận ra.
 
 ## 1. Những trường hợp nào phải nộp đơn?
@@ -46,7 +46,7 @@ Sổ tay thường nêu: đơn, hộ chiếu, giấy tờ chứng minh quan hệ
 
 ## 3. Quá 90 ngày thì sao?
 
-Vi phạm Điều 23, lưu trú không có tư cách có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won theo Điều 94 mục 15. Thường được giải quyết bằng thông báo xử phạt, mức chuẩn tại [Phụ lục 7] Thông tư thi hành theo thời gian trễ như sau.
+Vi phạm Điều 23, lưu trú không có tư cách có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won theo Điều 94 mục 15 (tính đến tháng 10/2026). Thường được giải quyết bằng thông báo xử phạt, mức chuẩn tại [Phụ lục 7] Thông tư thi hành theo thời gian trễ như sau.
 
 | Thời gian trễ | Mức phạt chuẩn |
 |---|---|

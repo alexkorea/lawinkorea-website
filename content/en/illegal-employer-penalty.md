@@ -1,6 +1,6 @@
 ---
 title: "Hiring Foreigners Without Work Status in Korea — Employer Penalties"
-description: "Employers in Korea who hire a foreigner without work status face up to 3 years in prison or a KRW 30 million fine. Fine amounts, company liability, hiring bans."
+description: "Employers in Korea who hire a foreigner without work status face up to 3 years in prison or a KRW 30 million fine (as of October 2026). Fine amounts, company liability, hiring bans."
 date: "2026-10-03"
 category: "Penalties"
 cluster: "cluster"
@@ -18,11 +18,11 @@ faq:
   - q: "What happens if I cannot pay the fine by the deadline?"
     a: "You must pay within 15 days of receiving the notice. If you do not, the head of the immigration office must file a criminal complaint, unless you pay before it is filed (Immigration Act Article 105(1)-(2))."
   - q: "I employed one part-time worker for two months. How much is the fine?"
-    a: "Under Table 8 of the Enforcement Rule, the base amount for one worker and a violation period under three months is KRW 3 million. The office may lower or raise it by up to one half after considering age and circumstances, motive and consequences, ability to pay and number of violations (Enforcement Rule Article 86(2))."
+    a: "Under Table 8 of the Enforcement Rule, the base amount for one worker and a violation period under three months is KRW 3 million (as of October 2026). The office may lower or raise it by up to one half after considering age and circumstances, motive and consequences, ability to pay and number of violations (Enforcement Rule Article 86(2))."
   - q: "A store manager did the hiring. Can the company be fined too?"
     a: "Yes. When an agent, employee or other staff member commits an Article 94(9) violation in the course of the business, the corporation or individual business owner is also fined (Immigration Act Article 99-3(2)), unless it shows it exercised due care and supervision to prevent the violation."
   - q: "Will I still be able to invite foreign workers?"
-    a: "The Ministry of Justice may refuse to issue Certificates for Confirmation of Visa Issuance to an inviter for three years after paying a fine or criminal fine of KRW 5 million or more for an Article 18(3) violation, or for one year if the amount was under KRW 5 million (Enforcement Rule Article 17-3(2)(1)-(2)). The period can be shortened."
+    a: "The Ministry of Justice may refuse to issue Certificates for Confirmation of Visa Issuance to an inviter for three years after paying a fine or criminal fine of KRW 5 million or more for an Article 18(3) violation, or for one year if the amount was under KRW 5 million (as of October 2026, Enforcement Rule Article 17-3(2)(1)-(2)). The period can be shortened."
   - q: "Does this affect hiring under the Employment Permit System (E-9)?"
     a: "Under Article 20(1)(3) of the Act on the Employment of Foreign Workers, the employment security office may restrict an employer who was punished for violating that Act or the Immigration Act from hiring foreign workers for three years from the date of the event."
   - q: "What can an administrative scrivener handle for me?"
@@ -33,22 +33,22 @@ related:
   - "unauthorized-activity-disposition-2026"
 ---
 
-An employer who hires a foreign national without work-eligible status breaches Article 18(3) of Korea's Immigration Act and faces **up to 3 years in prison or a fine of up to KRW 30 million** (Article 94(9)). When the immigration office confirms the offense, it may instead notify the employer to pay an administrative criminal fine (Article 102(1)). The base amount depends on the number of workers and how long the violation lasted, **starting at KRW 3 million for one worker under three months and rising to KRW 30 million**. Separately, the employer can be barred for a period from inviting foreign nationals and from hiring foreign workers.
+An employer who hires a foreign national without work-eligible status breaches Article 18(3) of Korea's Immigration Act and faces **up to 3 years in prison or a fine of up to KRW 30 million** (Article 94(9)). When the immigration office confirms the offense, it may instead notify the employer to pay an administrative criminal fine (Article 102(1)). The base amount depends on the number of workers and how long the violation lasted, **starting at KRW 3 million for one worker under three months and rising to KRW 30 million** (as of October 2026). Separately, the employer can be barred for a period from inviting foreign nationals and from hiring foreign workers.
 
 > **Key points**
-> - Legal basis: Immigration Act Article 18(3) (ban on hiring) → Article 94(9) (up to 3 years in prison or KRW 30 million)
-> - Fine schedule (Enforcement Rule, Table 8): KRW 3–11 million for one worker depending on the violation period, up to KRW 30 million as headcount rises
+> - Legal basis: Immigration Act Article 18(3) (ban on hiring) → Article 94(9) (up to 3 years in prison or KRW 30 million, as of October 2026)
+> - Fine schedule (Enforcement Rule, Table 8): KRW 3–11 million for one worker depending on the violation period, up to KRW 30 million as headcount rises (as of October 2026)
 > - Company liability: the corporation or business owner is fined as well (Article 99-3(2))
 > - Side effects: limits on visa-issuance certificates for one or three years (Enforcement Rule Article 17-3) and a three-year hiring restriction (Foreign Workers Employment Act Article 20)
 > - The fine must be paid within 15 days of the notice, or a criminal complaint follows (Article 105)
 
 ## 1. What penalties does an employer face for hiring a foreigner illegally?
 
-Article 18(1) of the Immigration Act requires a foreign national to hold a status of stay that permits employment before working in Korea. Article 18(3) adds: **"No one shall employ a person who does not hold a status of stay under paragraph (1)."** An employer who breaks this rule can be sentenced under Article 94(9) to up to 3 years in prison or a fine of up to KRW 30 million.
+Article 18(1) of the Immigration Act requires a foreign national to hold a status of stay that permits employment before working in Korea. Article 18(3) adds: **"No one shall employ a person who does not hold a status of stay under paragraph (1)."** An employer who breaks this rule can be sentenced under Article 94(9) to up to 3 years in prison or a fine of up to KRW 30 million (as of October 2026).
 
 Closely related conduct is punished separately:
 
-| Conduct | Rule breached | Penalty |
+| Conduct | Rule breached | Penalty (as of October 2026) |
 |---|---|---|
 | Hiring a foreigner without work status | Art. 18(3) | Art. 94(9) — up to 3 years or KRW 30 million |
 | Arranging or soliciting such hiring as a business | Art. 18(4) | Art. 94(10) — same |
@@ -59,7 +59,7 @@ A prosecution for an immigration offense cannot be brought without a complaint f
 
 ## 2. How much is the fine and how is it set?
 
-Base amounts are set by Table 8 of the Immigration Act Enforcement Rule, by headcount and violation period. For **one worker**:
+Base amounts are set by Table 8 of the Immigration Act Enforcement Rule, by headcount and violation period. For **one worker** (as of October 2026):
 
 - Under 3 months: KRW 3 million
 - 3 to under 6 months: KRW 5 million
@@ -67,7 +67,7 @@ Base amounts are set by Table 8 of the Immigration Act Enforcement Rule, by head
 - 1 to under 2 years: KRW 9 million
 - 2 years or more: KRW 11 million
 
-The amount rises with headcount and reaches **KRW 30 million for 50 or more workers regardless of the period**. The full schedule is on our [immigration fine schedule page](/en/fines#employing-unauthorized).
+The amount rises with headcount and reaches **KRW 30 million for 50 or more workers regardless of the period** (as of October 2026, Enforcement Rule, Table 8). The full schedule is on our [immigration fine schedule page](/en/fines#employing-unauthorized).
 
 The base amount is not applied automatically. The head of the office may reduce or increase it by up to one half after weighing **age and circumstances, motive and consequences of the violation, ability to pay and number of violations** (Enforcement Rule Article 86(2)), and may set a different amount with Ministry approval where unavoidable (Article 86(3)). The Minister of Justice may also waive the fine notice altogether on the same grounds (Act Article 103(2)).
 
@@ -81,7 +81,7 @@ The business is not punished if it shows it **did not neglect due care and super
 
 **Limits on inviting foreign nationals.** The Ministry of Justice may refuse to issue Certificates for Confirmation of Visa Issuance to an inviter who breached Article 18(3)–(5) or 21(2), for the following periods (Enforcement Rule Article 17-3(2)):
 
-- **3 years** from paying a criminal fine or administrative fine of KRW 5 million or more
+- **3 years** from paying a criminal fine or administrative fine of KRW 5 million or more (as of October 2026, Enforcement Rule Article 17-3(2), item 1)
 - **1 year** from paying an amount under KRW 5 million
 - 3 years from the end of a prison sentence, or from a suspended sentence becoming final
 
@@ -93,7 +93,7 @@ In both cases the Minister may shorten the period after considering the risk of 
 
 ## 5. Are there reports an employer must file after hiring a foreigner?
 
-An employer of a foreign national with work-eligible status must report to the regional immigration office **within 15 days** when (1) the worker is dismissed, resigns or dies, (2) the worker's whereabouts become unknown, or (3) an important term of the employment contract changes (Article 19(1)). Failing to report can lead to an administrative fine of up to KRW 2 million (Article 100(1)(1)); under Table 2 of the Enforcement Decree, the base amount runs from KRW 100,000 (under 3 months) to KRW 2 million (2 years or more).
+An employer of a foreign national with work-eligible status must report to the regional immigration office **within 15 days** when (1) the worker is dismissed, resigns or dies, (2) the worker's whereabouts become unknown, or (3) an important term of the employment contract changes (Article 19(1)). Failing to report can lead to an administrative fine of up to KRW 2 million (Article 100(1)(1)); under Table 2 of the Enforcement Decree, the base amount runs from KRW 100,000 (under 3 months) to KRW 2 million (2 years or more) (as of October 2026).
 
 For workers covered by the Foreign Workers Employment Act, this report also counts as the report required under Article 17(1) of that Act (Article 19(3)).
 
@@ -126,7 +126,7 @@ Defense in a criminal investigation or trial after a complaint is filed is **out
 
 > **Statutory text**
 > - Immigration Act Art. 18(3): "No one shall employ a person who does not hold a status of stay under paragraph (1)."
-> - Immigration Act Art. 94(9): a person "who employs a person who does not hold a status of stay permitting employment, in violation of Article 18(3)" — up to 3 years in prison or KRW 30 million
+> - Immigration Act Art. 94(9): a person "who employs a person who does not hold a status of stay permitting employment, in violation of Article 18(3)" — up to 3 years in prison or KRW 30 million (as of October 2026)
 > - Immigration Act Art. 105(1): an immigration offender must pay the fine within 15 days of receiving the notice
 > - Enforcement Rule Art. 86(2): the fine may be reduced or increased within one half of the base amount, considering age and circumstances, motive and consequences, ability to pay and number of violations
 > - Fine amounts: Immigration Act Enforcement Rule, Table 8, Criteria for Fines (amended 25 Sep 2020)

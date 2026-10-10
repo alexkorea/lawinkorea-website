@@ -15,7 +15,7 @@ faq:
   - q: "Cơ sở lưu trú nộp dữ liệu như thế nào?"
     a: "Cơ sở lưu trú nộp dữ liệu do người nước ngoài cung cấp cho Bộ trưởng Tư pháp qua mạng thông tin trong vòng 12 giờ kể từ lúc lưu trú hoặc lúc phát cảnh báo (Điều 81-3 khoản 2). Dữ liệu là bản sao hộ chiếu, giấy thông hành hoặc giấy phép nhập cảnh; nếu lỗi mạng v.v. không nộp được thì có thể nộp qua email, fax, tin nhắn, điện thoại hoặc đến trực tiếp (Thông tư thi hành Điều 69-3)."
   - q: "Vi phạm nghĩa vụ thì bị xử lý thế nào?"
-    a: "Người nước ngoài không cung cấp dữ liệu bị phạt theo Điều 100 khoản 3 mục 1-2, cơ sở lưu trú không nộp hoặc nộp sai sự thật bị phạt theo mục 1-3, đều phạt hành chính đến 500.000 won. Mức chuẩn tại Phụ lục 2 Nghị định thi hành là 100.000 won lần 1, 200.000 won lần 2, 300.000 won lần 3, 400.000 won lần 4 và 500.000 won từ lần 5."
+    a: "Người nước ngoài không cung cấp dữ liệu bị phạt theo Điều 100 khoản 3 mục 1-2, cơ sở lưu trú không nộp hoặc nộp sai sự thật bị phạt theo mục 1-3, đều phạt hành chính đến 500.000 won. Mức chuẩn tại Phụ lục 2 Nghị định thi hành là 100.000 won lần 1, 200.000 won lần 2, 300.000 won lần 3, 400.000 won lần 4 và 500.000 won từ lần 5 (tính đến tháng 10/2026)."
 related:
   - "immigration-law-penalties-guide"
   - "residence-change-report-fine"
@@ -32,7 +32,7 @@ Người nước ngoài đến Hàn Quốc du lịch đôi khi được yêu c�
 - Người nước ngoài có tư cách lưu trú ngắn hạn (lưu trú dưới 90 ngày) được gọi là **người nước ngoài lưu trú** (Điều 81-3 khoản 1, Điều 10-2 khoản 1 mục 1).
 - Nghĩa vụ cung cấp dữ liệu của họ **chỉ giới hạn trong các trường hợp do Bộ Tư pháp quy định** như cảnh báo dịch bệnh, khủng bố.
 - Cơ sở lưu trú phải nộp dữ liệu qua mạng thông tin **trong vòng 12 giờ** kể từ lúc nhận (hoặc lúc phát cảnh báo) (Điều 81-3 khoản 2).
-- Vi phạm có thể bị **phạt hành chính đến 500.000 won** (Điều 100 khoản 3 mục 1-2 và 1-3).
+- Vi phạm có thể bị **phạt hành chính đến 500.000 won** (tính đến tháng 10/2026, Điều 100 khoản 3 mục 1-2 và 1-3).
 
 ## 1. Ai thuộc đối tượng?
 
@@ -62,12 +62,12 @@ Cơ sở lưu trú lưu giữ, quản lý dữ liệu thu thập theo Luật B�
 
 ## 4. Vi phạm thì sao?
 
-Theo Điều 100 khoản 3, phạt hành chính đến 500.000 won đối với:
+Theo Điều 100 khoản 3, phạt hành chính đến 500.000 won đối với (tính đến tháng 10/2026):
 
 - Người nước ngoài lưu trú **không cung cấp** dữ liệu (mục 1-2)
 - Cơ sở lưu trú **không nộp hoặc nộp sai sự thật** (mục 1-3)
 
-Mức chuẩn tại [Phụ lục 2] Nghị định thi hành, cho cả hai trường hợp, như sau.
+Mức chuẩn tại [Phụ lục 2] Nghị định thi hành, cho cả hai trường hợp, như sau (tính đến tháng 10/2026).
 
 | Số lần vi phạm | Mức phạt chuẩn |
 |---|---|

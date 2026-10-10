@@ -13,9 +13,9 @@ faq:
   - q: "Kiểm tra nhập cảnh xem xét những gì?"
     a: "Theo Điều 12 khoản 3, xem xét: (1) hộ chiếu và visa còn hiệu lực không (visa chỉ khi luật yêu cầu), (2) giấy phép du lịch trước còn hiệu lực không, (3) mục đích nhập cảnh có phù hợp tư cách lưu trú không, (4) thời hạn lưu trú có được định theo quy định của Bộ Tư pháp không, (5) có không thuộc đối tượng cấm hoặc từ chối nhập cảnh theo Điều 11 không, rồi mới cho nhập cảnh. Nếu không chứng minh được thì có thể không cho nhập cảnh (Điều 12 khoản 4)."
   - q: "Phép nhập cảnh có điều kiện là gì?"
-    a: "Theo Điều 13, trưởng cơ quan có thể cho nhập cảnh có điều kiện với người vì lý do bất khả kháng chưa đủ điều kiện hộ chiếu, visa nhưng được cho là sẽ đủ trong một thời gian, người bị nghi thuộc lý do cấm nhập cảnh hoặc cần thẩm tra đặc biệt mục đích nhập cảnh v.v. Điều 16 Nghị định thi hành cho phép định thời hạn trong phạm vi 72 giờ. Giấy phép kèm điều kiện như hạn chế nơi ở, nghĩa vụ ra trình diện khi được yêu cầu, và khi cần có thể yêu cầu ký quỹ đến 10 triệu won."
+    a: "Theo Điều 13, trưởng cơ quan có thể cho nhập cảnh có điều kiện với người vì lý do bất khả kháng chưa đủ điều kiện hộ chiếu, visa nhưng được cho là sẽ đủ trong một thời gian, người bị nghi thuộc lý do cấm nhập cảnh hoặc cần thẩm tra đặc biệt mục đích nhập cảnh v.v. Điều 16 Nghị định thi hành cho phép định thời hạn trong phạm vi 72 giờ. Giấy phép kèm điều kiện như hạn chế nơi ở, nghĩa vụ ra trình diện khi được yêu cầu, và khi cần có thể yêu cầu ký quỹ đến 10 triệu won (tính đến tháng 10/2026)."
   - q: "Vi phạm điều kiện của phép có điều kiện thì sao?"
-    a: "Theo Điều 95 mục 2: phạt tù đến 1 năm hoặc phạt tiền đến 10 triệu won; mức phạt chuẩn tại Phụ lục 7 Thông tư thi hành là 1 triệu won lần 1, 3 triệu won lần 2, 5 triệu won lần 3 và 10 triệu won từ lần 4. Tiền ký quỹ có thể bị sung công toàn bộ hoặc một phần (Điều 13 khoản 3) và vi phạm điều kiện là lý do buộc xuất cảnh (Điều 46 khoản 1 mục 5)."
+    a: "Theo Điều 95 mục 2: phạt tù đến 1 năm hoặc phạt tiền đến 10 triệu won; mức phạt chuẩn tại Phụ lục 7 Thông tư thi hành là 1 triệu won lần 1, 3 triệu won lần 2, 5 triệu won lần 3 và 10 triệu won từ lần 4 (tính đến tháng 10/2026). Tiền ký quỹ có thể bị sung công toàn bộ hoặc một phần (Điều 13 khoản 3) và vi phạm điều kiện là lý do buộc xuất cảnh (Điều 46 khoản 1 mục 5)."
 related:
   - "entry-ban-removal"
   - "visa-denial-response"
@@ -58,11 +58,11 @@ Theo Điều 13 khoản 1, trưởng cơ quan xuất nhập cảnh địa phươ
 - Người bị nghi thuộc lý do cấm nhập cảnh hoặc chưa đáp ứng điều kiện mục đích nhập cảnh và **cần thẩm tra đặc biệt**
 - Người khác được cho là cần nhập cảnh có điều kiện
 
-Khi cho phép phải cấp **giấy phép nhập cảnh có điều kiện**, kèm các điều kiện cần thiết như hạn chế nơi ở, nghĩa vụ ra trình diện khi được yêu cầu, và khi cần có thể yêu cầu **ký quỹ đến 10 triệu won** (Điều 13 khoản 2). Theo Điều 16 Nghị định thi hành, thời hạn được định **trong phạm vi 72 giờ**, nếu có lý do bất khả kháng có thể gia hạn trong phạm vi đó. Nếu trong thời hạn được xác nhận đủ điều kiện thì tiến hành kiểm tra nhập cảnh, khi đó ngày nhập cảnh là ngày được cho phép có điều kiện.
+Khi cho phép phải cấp **giấy phép nhập cảnh có điều kiện**, kèm các điều kiện cần thiết như hạn chế nơi ở, nghĩa vụ ra trình diện khi được yêu cầu, và khi cần có thể yêu cầu **ký quỹ đến 10 triệu won** (tính đến tháng 10/2026, Điều 13 khoản 2). Theo Điều 16 Nghị định thi hành, thời hạn được định **trong phạm vi 72 giờ**, nếu có lý do bất khả kháng có thể gia hạn trong phạm vi đó. Nếu trong thời hạn được xác nhận đủ điều kiện thì tiến hành kiểm tra nhập cảnh, khi đó ngày nhập cảnh là ngày được cho phép có điều kiện.
 
 ## 4. Khi vi phạm điều kiện và khi bị từ chối
 
-Vi phạm điều kiện của phép nhập cảnh có điều kiện có thể bị phạt tù đến 1 năm hoặc phạt tiền đến 10 triệu won theo Điều 95 mục 2. Mức phạt chuẩn tại [Phụ lục 7] Thông tư thi hành như sau, có thể giảm hoặc tăng trong phạm vi một nửa tùy hoàn cảnh (Thông tư thi hành Điều 86 khoản 2).
+Vi phạm điều kiện của phép nhập cảnh có điều kiện có thể bị phạt tù đến 1 năm hoặc phạt tiền đến 10 triệu won theo Điều 95 mục 2 (tính đến tháng 10/2026). Mức phạt chuẩn tại [Phụ lục 7] Thông tư thi hành như sau, có thể giảm hoặc tăng trong phạm vi một nửa tùy hoàn cảnh (Thông tư thi hành Điều 86 khoản 2).
 
 | Số lần vi phạm | Mức phạt chuẩn |
 |---|---|

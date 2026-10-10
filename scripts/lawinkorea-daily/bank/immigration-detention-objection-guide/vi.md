@@ -70,7 +70,7 @@ Kể cả khi cho rằng khiếu nại không có lý do, nếu đương sự t�
 
 ### (3) Tạm đình chỉ bảo hộ (Điều 65)
 
-- **Theo thẩm quyền**: người đứng đầu cơ quan có thể tạm đình chỉ bảo hộ sau khi xét hoàn cảnh, lý do đề nghị, tài sản..., yêu cầu đặt cọc đến 20 triệu won và kèm điều kiện như hạn chế nơi cư trú, báo cáo định kỳ, chỉ định người bảo lãnh (Điều 65 khoản 1).
+- **Theo thẩm quyền**: người đứng đầu cơ quan có thể tạm đình chỉ bảo hộ sau khi xét hoàn cảnh, lý do đề nghị, tài sản..., yêu cầu đặt cọc đến 20 triệu won và kèm điều kiện như hạn chế nơi cư trú, báo cáo định kỳ, chỉ định người bảo lãnh (tính đến tháng 10/2026, Điều 65 khoản 1).
 - **Theo đơn**: khi người bị bảo hộ (kể cả người bảo lãnh, người đại diện pháp luật) nộp đơn, Ủy ban Bảo hộ Người nước ngoài quyết định (Điều 65 khoản 2). Đơn kèm tài liệu giải thích lý do và khả năng nộp tiền đặt cọc (Nghị định thi hành Điều 79-2 khoản 1). Ủy ban phải quyết định trong 3 tuần kể từ ngày nhận đơn, nếu bất khả kháng được gia hạn một lần trong phạm vi 2 tuần (khoản 3).
 - **Tiêu chí xem xét**: nguy cơ đe dọa nghiêm trọng đến tính mạng, thân thể hoặc thiệt hại tài sản không thể khôi phục, nguy cơ gây hại lợi ích quốc gia, sự việc vi phạm, tuổi, nhân cách và thái độ sinh hoạt trong cơ sở bảo hộ, nguy cơ bỏ trốn, và các lý do nhân đạo nghiêm trọng khác (Nghị định thi hành Điều 79-3 khoản 1).
 - Nếu vi phạm điều kiện hoặc có nguy cơ bỏ trốn, việc tạm đình chỉ có thể bị hủy và tiền đặt cọc có thể bị sung công (Điều 66).

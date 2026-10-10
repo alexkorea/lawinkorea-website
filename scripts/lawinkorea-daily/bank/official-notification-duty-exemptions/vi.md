@@ -54,7 +54,7 @@ Công việc do Bộ Tư pháp quy định ở mục 5 nằm trong Điều 70-2 
 - **Đối tượng là 'công chức'.** Điều 84 quy định nghĩa vụ của công chức, nên áp dụng ra sao tùy đó là cơ quan nào và thông tin có biết được trong quá trình thi hành nhiệm vụ hay không.
 - **Miễn chỉ trong các công việc được liệt kê.** Áp dụng với thông tin cá nhân biết được liên quan đến công việc đó; tiếp xúc vì mục đích khác có thể không được miễn.
 - **Còn có các kênh khác.** Công chức xuất nhập cảnh có thể điều tra tình hình xem người nước ngoài lưu trú hợp pháp không (Điều 81 khoản 1) và có thể đến gặp người thuê hoặc cho người nước ngoài ở trọ để hỏi.
-- **Vấn đề lưu trú vẫn còn nguyên.** Không có tư cách hoặc quá hạn lưu trú vẫn là vi phạm. Quá hạn lưu trú vi phạm Điều 94 mục 17, có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won, và là lý do buộc xuất cảnh (Điều 46 khoản 1 mục 8).
+- **Vấn đề lưu trú vẫn còn nguyên.** Không có tư cách hoặc quá hạn lưu trú vẫn là vi phạm. Quá hạn lưu trú vi phạm Điều 94 mục 17, có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won, và là lý do buộc xuất cảnh (tính đến tháng 10/2026, Điều 46 khoản 1 mục 8).
 
 ## 4. Nên ứng phó thế nào?
 

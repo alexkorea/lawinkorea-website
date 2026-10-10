@@ -13,9 +13,9 @@ faq:
   - q: "Mới nhập cảnh chưa đến 90 ngày thì có cần đăng ký không?"
     a: "Không. Nghĩa vụ đăng ký phát sinh với người định ở quá 90 ngày kể từ ngày nhập cảnh (Điều 31 khoản 1). Nếu xuất cảnh trước khi quá 90 ngày thì không cần đăng ký. Tuy nhiên, nếu sau khi nhập cảnh bạn được cấp tư cách lưu trú mới (Điều 23) hoặc được phép đổi tư cách khiến thời gian ở vượt 90 ngày thì phải đăng ký ngay khi nhận giấy phép đó (Điều 31 khoản 3, khoản 4)."
   - q: "Tôi đăng ký trễ vài tháng, tiền phạt là bao nhiêu?"
-    a: "Mức cơ sở trong Bảng 7 của Thông tư thi hành: trễ dưới 1 tháng 200.000 won; từ 1 đến dưới 3 tháng 500.000 won; từ 3 đến dưới 6 tháng 1.000.000 won; từ 6 tháng đến dưới 1 năm 2.000.000 won; từ 1 đến dưới 2 năm 5.000.000 won; từ 2 năm trở lên 10.000.000 won. Có thể tăng giảm trong phạm vi một nửa tùy tuổi, hoàn cảnh, động cơ, khả năng nộp phạt (Thông tư thi hành Điều 86 khoản 2)."
+    a: "Mức cơ sở trong Bảng 7 của Thông tư thi hành: trễ dưới 1 tháng 200.000 won; từ 1 đến dưới 3 tháng 500.000 won; từ 3 đến dưới 6 tháng 1.000.000 won; từ 6 tháng đến dưới 1 năm 2.000.000 won; từ 1 đến dưới 2 năm 5.000.000 won; từ 2 năm trở lên 10.000.000 won (tính đến tháng 10/2026). Có thể tăng giảm trong phạm vi một nửa tùy tuổi, hoàn cảnh, động cơ, khả năng nộp phạt (Thông tư thi hành Điều 86 khoản 2)."
   - q: "Trẻ dưới 17 tuổi có phải đăng ký người nước ngoài không?"
-    a: "Nghĩa vụ đăng ký không có ngoại lệ về độ tuổi nên trẻ em cũng phải đăng ký trong 90 ngày. Tuy nhiên với trẻ dưới 17 tuổi, thẻ đăng ký có thể không được cấp (Điều 33 khoản 1, phần nhưng thư). Khi đó phải nộp đơn xin cấp thẻ trong 90 ngày kể từ ngày đủ 17 tuổi, nếu không có thể bị phạt hành chính đến 500.000 won (Điều 33 khoản 2, Điều 100 khoản 3 mục 1)."
+    a: "Nghĩa vụ đăng ký không có ngoại lệ về độ tuổi nên trẻ em cũng phải đăng ký trong 90 ngày. Tuy nhiên với trẻ dưới 17 tuổi, thẻ đăng ký có thể không được cấp (Điều 33 khoản 1, phần nhưng thư). Khi đó phải nộp đơn xin cấp thẻ trong 90 ngày kể từ ngày đủ 17 tuổi, nếu không có thể bị phạt hành chính đến 500.000 won (tính đến tháng 10/2026, Điều 33 khoản 2, Điều 100 khoản 3 mục 1)."
 related:
   - "immigration-law-penalties-guide"
   - "residence-change-report-fine"
@@ -30,7 +30,7 @@ Người nước ngoài ở Hàn Quốc dài hạn phải đăng ký người n�
 ## Tóm tắt nhanh
 
 - Nếu định ở **quá** 90 ngày kể từ ngày nhập cảnh, bạn phải đăng ký người nước ngoài tại cơ quan xuất nhập cảnh quản lý nơi cư trú trong vòng 90 ngày kể từ ngày nhập cảnh (Điều 31 khoản 1).
-- Vi phạm nghĩa vụ đăng ký có thể bị phạt tù đến 1 năm hoặc phạt tiền đến 10 triệu won (Điều 95 mục 7); nhiều trường hợp được xử lý bằng thông báo nộp phạt (beomchikgeum), mức cơ sở từ 200.000 đến 10.000.000 won tùy thời gian chậm (Thông tư thi hành, Bảng 7).
+- Vi phạm nghĩa vụ đăng ký có thể bị phạt tù đến 1 năm hoặc phạt tiền đến 10 triệu won (Điều 95 mục 7); nhiều trường hợp được xử lý bằng thông báo nộp phạt (beomchikgeum), mức cơ sở từ 200.000 đến 10.000.000 won tùy thời gian chậm (tính đến tháng 10/2026, Thông tư thi hành, Bảng 7).
 - Vi phạm Điều 31 cũng là lý do bị buộc xuất cảnh (Điều 46 khoản 1 mục 12).
 - Bạn vẫn cần đăng ký ngay bây giờ; chậm càng lâu, nhóm mức phạt càng có thể tăng.
 
@@ -44,7 +44,7 @@ Theo Nghị định thi hành Điều 40 khoản 1, bạn nộp đơn đăng ký
 
 ## 2. Không đăng ký thì bị xử phạt thế nào?
 
-Điều 95 mục 7 quy định người vi phạm nghĩa vụ đăng ký tại Điều 31 bị phạt tù đến 1 năm hoặc phạt tiền đến 10 triệu won. Đây là quy định hình sự, nên người vi phạm trở thành đối tượng vi phạm xuất nhập cảnh và vụ việc được xử lý như thông thường.
+Điều 95 mục 7 quy định người vi phạm nghĩa vụ đăng ký tại Điều 31 bị phạt tù đến 1 năm hoặc phạt tiền đến 10 triệu won (tính đến tháng 10/2026). Đây là quy định hình sự, nên người vi phạm trở thành đối tượng vi phạm xuất nhập cảnh và vụ việc được xử lý như thông thường.
 
 - Vụ vi phạm xuất nhập cảnh chỉ có thể bị truy tố khi có tố giác của người đứng đầu cơ quan xuất nhập cảnh (Điều 101 khoản 1).
 - Khi điều tra xác định có vi phạm, người đứng đầu cơ quan có thể thông báo bằng văn bản nộp khoản tiền tương đương tiền phạt, gọi là tiền phạt (beomchikgeum) (Điều 102 khoản 1).
@@ -52,7 +52,7 @@ Theo Nghị định thi hành Điều 40 khoản 1, bạn nộp đơn đăng ký
 
 ## 3. Mức tiền phạt là bao nhiêu?
 
-Mức cơ sở do [Bảng 7] của Thông tư thi hành quy định theo thời gian vi phạm nghĩa vụ đăng ký (thời gian quá hạn đăng ký).
+Mức cơ sở do [Bảng 7] của Thông tư thi hành quy định theo thời gian vi phạm nghĩa vụ đăng ký (thời gian quá hạn đăng ký) (tính đến tháng 10/2026).
 
 | Thời gian chậm | Mức phạt cơ sở |
 |---|---|

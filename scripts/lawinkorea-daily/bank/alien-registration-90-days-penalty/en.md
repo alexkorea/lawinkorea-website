@@ -13,9 +13,9 @@ faq:
   - q: "If I have been here fewer than 90 days, do I need to register?"
     a: "No. The duty to register arises for people who will stay more than 90 days from the date of arrival (Article 31(1)). If you leave before exceeding 90 days, you do not need to register. But if you receive a new status after arrival (Article 23) or a status change permit that pushes your stay past 90 days, you must register when you receive that permit (Article 31(3) and (4))."
   - q: "I registered a few months late. How much is the fine?"
-    a: "The standard amounts in Table 7 of the Enforcement Rule are KRW 200,000 for under 1 month late, KRW 500,000 for 1 to under 3 months, KRW 1,000,000 for 3 to under 6 months, KRW 2,000,000 for 6 months to under 1 year, KRW 5,000,000 for 1 to under 2 years and KRW 10,000,000 for 2 years or more. The office may reduce or increase them by up to one half considering age, circumstances, motive and ability to pay (Enforcement Rule, Article 86(2))."
+    a: "The standard amounts in Table 7 of the Enforcement Rule are KRW 200,000 for under 1 month late, KRW 500,000 for 1 to under 3 months, KRW 1,000,000 for 3 to under 6 months, KRW 2,000,000 for 6 months to under 1 year, KRW 5,000,000 for 1 to under 2 years and KRW 10,000,000 for 2 years or more (as of October 2026). The office may reduce or increase them by up to one half considering age, circumstances, motive and ability to pay (Enforcement Rule, Article 86(2))."
   - q: "Do children under 17 also have to be registered?"
-    a: "The duty to register has no age exception, so children must also be registered within 90 days. For children under 17, however, the registration card may be left unissued (Article 33(1) proviso). In that case, an application for the card must be filed within 90 days of turning 17, and failing to do so can result in an administrative fine of up to KRW 500,000 (Articles 33(2) and 100(3), item 1)."
+    a: "The duty to register has no age exception, so children must also be registered within 90 days. For children under 17, however, the registration card may be left unissued (Article 33(1) proviso). In that case, an application for the card must be filed within 90 days of turning 17, and failing to do so can result in an administrative fine of up to KRW 500,000 (as of October 2026, Articles 33(2) and 100(3), item 1)."
 related:
   - "immigration-law-penalties-guide"
   - "residence-change-report-fine"
@@ -30,7 +30,7 @@ Foreigners who stay long term in Korea must register within 90 days of arrival. 
 ## Key points
 
 - If you will stay **more than** 90 days from arrival, you must register at the immigration office for your place of residence within 90 days of arrival (Article 31(1)).
-- Breaking the registration duty can mean up to 1 year in prison or a fine of up to KRW 10 million (Article 95, item 7). In many cases the matter is resolved with a notified penalty fine, with standard amounts from KRW 200,000 to KRW 10,000,000 depending on how late you are (Enforcement Rule, Table 7).
+- Breaking the registration duty can mean up to 1 year in prison or a fine of up to KRW 10 million (Article 95, item 7). In many cases the matter is resolved with a notified penalty fine, with standard amounts from KRW 200,000 to KRW 10,000,000 depending on how late you are (as of October 2026, Enforcement Rule, Table 7).
 - A violation of Article 31 is also a ground for deportation (Article 46(1), item 12).
 - You still need to register now, and the longer the delay, the higher the fine bracket can be.
 
@@ -44,7 +44,7 @@ Under Enforcement Decree Article 40(1), you file a registration application with
 
 ## 2. What punishment applies if you do not register?
 
-Article 95, item 7 provides up to 1 year in prison or a fine of up to KRW 10 million for violating the registration duty in Article 31. It is a criminal provision, so the violator becomes an immigration offender and the case follows the usual process.
+Article 95, item 7 provides up to 1 year in prison or a fine of up to KRW 10 million for violating the registration duty in Article 31 (as of October 2026). It is a criminal provision, so the violator becomes an immigration offender and the case follows the usual process.
 
 - Prosecution requires a complaint from the head of the immigration office (Article 101(1)).
 - If the investigation confirms the offense, the office head may notify you in writing to pay a penalty fine equivalent to a criminal fine (Article 102(1)).
@@ -52,7 +52,7 @@ Article 95, item 7 provides up to 1 year in prison or a fine of up to KRW 10 mil
 
 ## 3. How much is the fine?
 
-Standard amounts are set in Table 7 of the Enforcement Rule by how long you were past the registration deadline.
+Standard amounts are set in Table 7 of the Enforcement Rule by how long you were past the registration deadline (as of October 2026).
 
 | Delay | Standard fine |
 |---|---|

@@ -45,7 +45,7 @@ Beomchikgeum (범칙금) là khoản tiền theo chế độ **thông báo xử 
 
 ## 3. Mức phạt tiêu chuẩn — ví dụ tiêu biểu
 
-| Vi phạm | Thời gian vi phạm | Mức phạt tiêu chuẩn |
+| Vi phạm | Thời gian vi phạm | Mức phạt tiêu chuẩn (tính đến tháng 10/2026) |
 |---|---|---|
 | Chậm khai báo thay đổi thông tin đăng ký người nước ngoài (số hộ chiếu, cơ quan trực thuộc..., phải khai báo trong 15 ngày — Luật Quản lý xuất nhập cảnh Điều 35) | Dưới 3 tháng | 100.000 won |
 | " | 6 tháng – dưới 1 năm | 500.000 won |

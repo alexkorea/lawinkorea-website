@@ -45,7 +45,7 @@ A beomchikgeum is an amount under the Immigration Act's **notification dispositi
 
 ## 3. Standard fine amounts — representative examples
 
-| Violation | Violation period | Standard amount |
+| Violation | Violation period | Standard amount (as of October 2026) |
 |---|---|---|
 | Late report of alien registration detail change (passport number, affiliated organization, etc. — due within 15 days, Immigration Act Article 35) | Under 3 months | KRW 100,000 |
 | " | 6 months – under 1 year | KRW 500,000 |

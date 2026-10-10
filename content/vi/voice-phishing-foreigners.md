@@ -56,7 +56,7 @@ Mức xử lý phụ thuộc vào mức độ tham gia và từng vụ việc.
 ## 2. Mức xử phạt theo luật hình sự Hàn Quốc
 
 ### Bộ luật Hình sự
-- **Tội lừa đảo** (Điều 347 khoản 1): tù đến 20 năm hoặc phạt đến 50 triệu won (sửa đổi ngày 23/12/2025)
+- **Tội lừa đảo** (Điều 347 khoản 1): tù đến 20 năm hoặc phạt đến 50 triệu won (sửa đổi ngày 23/12/2025) (tính đến tháng 10/2026)
 - **Lừa đảo bằng máy tính** (Điều 347-2): mức phạt theo luật tương tự
 - **Lừa đảo có tính chuyên nghiệp**: tăng nặng
 
@@ -153,7 +153,7 @@ Kết quả hình sự có thể ảnh hưởng đến buổi xem xét.
 ## 8. Rủi ro của việc cho mượn tài khoản
 
 Khi người nước ngoài cho mượn tài khoản ngân hàng Hàn Quốc của mình:
-- Hình sự: vi phạm Luật Giao dịch tài chính điện tử (tù đến 5 năm hoặc phạt đến 30 triệu won — Điều 49 khoản 4, Điều 6 khoản 3)
+- Hình sự: vi phạm Luật Giao dịch tài chính điện tử (tù đến 5 năm hoặc phạt đến 30 triệu won — Điều 49 khoản 4, Điều 6 khoản 3, tính đến tháng 10/2026)
 - Xuất nhập cảnh: có thể bị xem xét trục xuất
 - Tín dụng: có thể bị hạn chế giao dịch tài chính tại Hàn Quốc
 

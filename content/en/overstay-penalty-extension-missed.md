@@ -12,11 +12,11 @@ keywords:
   - "Immigration Act Article 25"
 faq:
   - q: "I overstayed by only one day. Can I still be fined?"
-    a: "The law treats any continued stay after the authorized period ends, without an extension permit, as a violation (Articles 25 and 94, item 17). In the fine schedule, the lowest bracket is an overstay of under one month, with a standard amount of KRW 500,000. The office may reduce or increase that amount by up to one half after considering age, circumstances, motive, ability to pay and prior violations (Enforcement Rule, Article 86(2))."
+    a: "The law treats any continued stay after the authorized period ends, without an extension permit, as a violation (Articles 25 and 94, item 17). In the fine schedule, the lowest bracket is an overstay of under one month, with a standard amount of KRW 500,000 (as of October 2026). The office may reduce or increase that amount by up to one half after considering age, circumstances, motive, ability to pay and prior violations (Enforcement Rule, Article 86(2))."
   - q: "If I pay the fine, can I stop worrying about deportation?"
     a: "Paying the fine as notified means you cannot be punished again for the same case (Article 106). But overstaying is also listed as a ground for deportation (Article 46(1), item 8), so the residence-related decision is assessed separately. Check the departure order and future permit questions on their own."
   - q: "Will a fine record affect my later visa applications?"
-    a: "It can. The Ministry of Justice residence manual for the D-10 job-seeking visa restricts people who received a fine and fall under the residence-permit restriction standard, giving examples of KRW 5 million or more for a first offense and a combined KRW 7 million or more within three years for repeat offenses. For F-2-99 changes, overstay periods are also excluded when counting length of stay."
+    a: "It can. The Ministry of Justice residence manual for the D-10 job-seeking visa restricts people who received a fine and fall under the residence-permit restriction standard, giving examples of KRW 5 million or more for a first offense and a combined KRW 7 million or more within three years for repeat offenses (as of October 2026). For F-2-99 changes, overstay periods are also excluded when counting length of stay."
 related:
   - "immigration-fine-notice-response-2026"
   - "foreigner-voluntary-departure-2026"
@@ -29,19 +29,19 @@ Forgetting an expiry date, or running out of time because documents weren't read
 ## Key points
 
 - Foreigners may stay only within their status and authorized period (Article 17(1)). To stay longer, you must get an extension permit **before the period ends** (Article 25(1)).
-- Continuing to stay past the period without a permit can lead to up to 3 years in prison or a fine of up to KRW 30 million (Article 94, item 17).
-- In practice the immigration office often notifies a penalty fine (beomchikgeum) in place of a criminal fine. The standard amount runs from KRW 500,000 to KRW 30 million depending on overstay length (Enforcement Rule, Table 7).
+- Continuing to stay past the period without a permit can lead to up to 3 years in prison or a fine of up to KRW 30 million (as of October 2026, Article 94, item 17).
+- In practice the immigration office often notifies a penalty fine (beomchikgeum) in place of a criminal fine. The standard amount runs from KRW 500,000 to KRW 30 million depending on overstay length (as of October 2026, Enforcement Rule, Table 7).
 - After paying, deportation, departure orders and later visa screening still need separate attention.
 
 ## 1. Which articles apply once your period ends?
 
-Two provisions matter most. Article 25(1) says anyone who wants to stay beyond the authorized period must obtain permission from the Minister of Justice **before the period ends**. Enforcement Decree Article 31(1) likewise requires the extension application to be filed before expiry. A person who keeps staying past the period without that permit can be punished under Article 94, item 17, with up to 3 years in prison or a fine of up to KRW 30 million.
+Two provisions matter most. Article 25(1) says anyone who wants to stay beyond the authorized period must obtain permission from the Minister of Justice **before the period ends**. Enforcement Decree Article 31(1) likewise requires the extension application to be filed before expiry. A person who keeps staying past the period without that permit can be punished under Article 94, item 17, with up to 3 years in prison or a fine of up to KRW 30 million (as of October 2026).
 
 Once the date has passed, you are no longer "extending" but already in violation, so a late filing does not erase the fact. If you notice you have passed the date, contact the competent immigration office as soon as you can.
 
 ## 2. How much is the fine?
 
-If an investigation confirms the offense, the head of the immigration office may order payment of a penalty fine equivalent to a criminal fine, in writing (Article 102(1)). The standard amount is set by overstay length in Table 7 of the Enforcement Rule.
+If an investigation confirms the offense, the head of the immigration office may order payment of a penalty fine equivalent to a criminal fine, in writing (Article 102(1)). The standard amount is set by overstay length in Table 7 of the Enforcement Rule (as of October 2026).
 
 | Overstay length | Standard fine |
 |---|---|
@@ -75,7 +75,7 @@ No. The criminal-side fine and the residence-side administrative process move se
 
 The Ministry of Justice residence manual (September 2026) reflects fine records and overstay periods in later reviews.
 
-- D-10 (job seeking) restrictions: people who received a fine under the Immigration Act and fall under the residence-permit restriction standard. The manual gives examples of KRW 5 million or more for a first offense and a combined KRW 7 million or more within three years for repeat offenses.
+- D-10 (job seeking) restrictions: people who received a fine under the Immigration Act and fall under the residence-permit restriction standard. The manual gives examples of KRW 5 million or more for a first offense and a combined KRW 7 million or more within three years for repeat offenses (as of October 2026).
 - F-2-99 changes: overstay (Article 25 violations) and unauthorized work (Article 18 violations) are excluded from the length-of-stay calculation, and overstayers are among those whose status changes are restricted.
 
 Criteria differ by status, so if you plan an extension, change or permanent residence later, organize the fine amount and dates first.

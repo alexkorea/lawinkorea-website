@@ -13,9 +13,9 @@ faq:
   - q: "Những loại đơn nào liên quan đến quy định giấy tờ giả?"
     a: "Điều 26 áp dụng với đơn xin phép theo Điều 20 (hoạt động ngoài tư cách), Điều 21 (đổi hoặc thêm nơi làm việc), Điều 23 đến 25 (cấp, đổi, gia hạn tư cách) v.v. Cấm xin bằng cách không chính đáng như nộp văn bản giả mạo, làm giả làm chứng từ hoặc nộp đơn ghi sự việc giả; cấm cả việc môi giới, khuyến khích hành vi đó."
   - q: "Mức xử phạt và tiền phạt là bao nhiêu?"
-    a: "Theo Điều 94 mục 17-2: phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won. Mức chuẩn tại Phụ lục 7 Thông tư thi hành: tự mình làm thì lần 1 là 5 triệu won, lần 2 là 10 triệu won, lần 3 là 20 triệu won, từ lần 4 là 30 triệu won; môi giới, khuyến khích thì từ 10 triệu won cho 1 người đến 30 triệu won cho từ 20 người. Có thể giảm hoặc tăng trong phạm vi một nửa."
+    a: "Theo Điều 94 mục 17-2: phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won. Mức chuẩn tại Phụ lục 7 Thông tư thi hành: tự mình làm thì lần 1 là 5 triệu won, lần 2 là 10 triệu won, lần 3 là 20 triệu won, từ lần 4 là 30 triệu won; môi giới, khuyến khích thì từ 10 triệu won cho 1 người đến 30 triệu won cho từ 20 người (tính đến tháng 10/2026). Có thể giảm hoặc tăng trong phạm vi một nửa."
   - q: "Ghi sai do sơ ý có bị xử phạt như vậy không?"
-    a: "Điều 26 nhắm vào hành vi xin bằng cách không chính đáng. Ngoài ra, ghi hoặc báo sự việc giả trong các đơn, kê khai theo luật này có thể bị phạt hành chính đến 500.000 won theo Điều 100 khoản 3 mục 2 (trừ trường hợp thuộc Điều 94 mục 17-2). Áp dụng quy định nào tùy sự việc."
+    a: "Điều 26 nhắm vào hành vi xin bằng cách không chính đáng. Ngoài ra, ghi hoặc báo sự việc giả trong các đơn, kê khai theo luật này có thể bị phạt hành chính đến 500.000 won (tính đến tháng 10/2026) theo Điều 100 khoản 3 mục 2 (trừ trường hợp thuộc Điều 94 mục 17-2). Áp dụng quy định nào tùy sự việc."
 related:
   - "immigration-law-penalties-guide"
   - "immigration-offense-review-guide"
@@ -31,7 +31,7 @@ Khi gia hạn lưu trú hay đổi tư cách mà thiếu giấy tờ, ai cũng s
 
 - Trong đơn xin phép hoạt động ngoài tư cách, đổi hoặc thêm nơi làm việc, cấp hoặc đổi tư cách, gia hạn lưu trú v.v., không được xin bằng cách không chính đáng như nộp **văn bản giả mạo, làm giả** hay **đơn ghi sự việc giả** (Điều 26 mục 1).
 - Việc **môi giới, khuyến khích** các đơn như vậy cũng bị cấm (Điều 26 mục 2).
-- Vi phạm có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (Điều 94 mục 17-2), và với người nước ngoài còn là lý do buộc xuất cảnh (Điều 46 khoản 1 mục 10-2).
+- Vi phạm có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (tính đến tháng 10/2026, Điều 94 mục 17-2), và với người nước ngoài còn là lý do buộc xuất cảnh (Điều 46 khoản 1 mục 10-2).
 - Mức phạt chuẩn tăng theo số lần vi phạm hoặc số người được môi giới.
 
 ## 1. Những đơn xin phép nào thuộc đối tượng?
@@ -43,7 +43,7 @@ Khi gia hạn lưu trú hay đổi tư cách mà thiếu giấy tờ, ai cũng s
 
 ## 2. Xử phạt và mức phạt chuẩn
 
-Điều 94 mục 17-2 quy định người vi phạm Điều 26 bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won. Chỉ được truy tố khi trưởng cơ quan tố cáo (Điều 101 khoản 1), và trưởng cơ quan có thể thông báo nộp tiền phạt khi đã xác định có tội (Điều 102 khoản 1). Mức chuẩn tại [Phụ lục 7] Thông tư thi hành như sau.
+Điều 94 mục 17-2 quy định người vi phạm Điều 26 bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (tính đến tháng 10/2026). Chỉ được truy tố khi trưởng cơ quan tố cáo (Điều 101 khoản 1), và trưởng cơ quan có thể thông báo nộp tiền phạt khi đã xác định có tội (Điều 102 khoản 1). Mức chuẩn tại [Phụ lục 7] Thông tư thi hành như sau.
 
 | Loại | Số lần, số người | Mức phạt chuẩn |
 |---|---|---|
@@ -65,7 +65,7 @@ Mức này có thể giảm hoặc tăng trong phạm vi một nửa tùy tuổi
 
 ## 4. Khác gì với ghi sai thông thường?
 
-Điều 100 khoản 3 mục 2 quy định người ghi hoặc báo **sự việc giả** trong các đơn hay kê khai theo luật này bị phạt hành chính đến 500.000 won, trừ người thuộc Điều 94 mục 17-2. Mức chuẩn tại [Phụ lục 2] Nghị định thi hành là 300.000 won lần 1, 400.000 won lần 2 và 500.000 won từ lần 3. Áp dụng quy định nào tùy sự việc như có dùng giấy tờ giả mạo hay xin bằng cách không chính đáng hay không, nên không thể khẳng định chung. Nếu bị điều tra, hãy sắp xếp sự việc và tài liệu trước như trong [hướng dẫn thẩm tra vi phạm](/vi/blog/immigration-offense-review-guide).
+Điều 100 khoản 3 mục 2 quy định người ghi hoặc báo **sự việc giả** trong các đơn hay kê khai theo luật này bị phạt hành chính đến 500.000 won, trừ người thuộc Điều 94 mục 17-2. Mức chuẩn tại [Phụ lục 2] Nghị định thi hành là 300.000 won lần 1, 400.000 won lần 2 và 500.000 won từ lần 3 (tính đến tháng 10/2026). Áp dụng quy định nào tùy sự việc như có dùng giấy tờ giả mạo hay xin bằng cách không chính đáng hay không, nên không thể khẳng định chung. Nếu bị điều tra, hãy sắp xếp sự việc và tài liệu trước như trong [hướng dẫn thẩm tra vi phạm](/vi/blog/immigration-offense-review-guide).
 
 ## 5. Thứ tự xử lý khi giấy tờ có vấn đề
 

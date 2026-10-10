@@ -13,7 +13,7 @@ faq:
   - q: "Nộp đơn đổi tư cách rồi thì có thể bắt đầu hoạt động mới chưa?"
     a: "Chưa. Điều 24 khoản 1 quy định muốn làm hoạt động thuộc tư cách khác phải được Bộ trưởng Tư pháp cho phép đổi tư cách 'trước'. Điều luật không nói nộp đơn là được bắt đầu, nên hãy chờ có giấy phép rồi mới làm. Nếu chưa rõ thời điểm, hãy hỏi cơ quan quản lý."
   - q: "Làm hoạt động của tư cách khác khi chưa có phép thì bị xử phạt bao nhiêu?"
-    a: "Theo Điều 94 mục 16, có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won. Thực tế thường giải quyết bằng thông báo xử phạt (beomchikgeum); mức chuẩn tại Phụ lục 7 Thông tư thi hành là 500.000 won nếu dưới 1 tháng, 1 triệu won từ 1 đến 3 tháng, 2 triệu won từ 3 đến 6 tháng, 5 triệu won từ 6 tháng đến 1 năm. Đây cũng là lý do buộc xuất cảnh (Điều 46 khoản 1 mục 8)."
+    a: "Theo Điều 94 mục 16, có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won. Thực tế thường giải quyết bằng thông báo xử phạt (beomchikgeum); mức chuẩn tại Phụ lục 7 Thông tư thi hành là 500.000 won nếu dưới 1 tháng, 1 triệu won từ 1 đến 3 tháng, 2 triệu won từ 3 đến 6 tháng, 5 triệu won từ 6 tháng đến 1 năm (tính đến tháng 10/2026). Đây cũng là lý do buộc xuất cảnh (Điều 46 khoản 1 mục 8)."
   - q: "Nếu không được cho phép đổi thì phải xuất cảnh ngay không?"
     a: "Không nhất thiết. Điều 33 khoản 1 Nghị định thi hành quy định khi không cho phép đổi, người nộp đơn được thông báo và có thể tiếp tục lưu trú theo tư cách đã được cấp. Nếu có ghi hạn xuất cảnh thì không quá 14 ngày kể từ ngày cấp (khoản 2). Hãy đọc kỹ thông báo trước."
 related:
@@ -31,7 +31,7 @@ Khi công việc ở Hàn Quốc thay đổi, chẳng hạn từ đi học sang 
 
 - Người nước ngoài lưu trú muốn làm **hoạt động thuộc tư cách khác với tư cách hiện tại** phải được Bộ trưởng Tư pháp cho phép đổi **trước** (Điều 24 khoản 1).
 - Người được miễn đăng ký (Điều 31 khoản 1) khi thay đổi thân phận và cần đổi tư cách phải xin phép trong 30 ngày kể từ ngày thay đổi (Điều 24 khoản 2).
-- Làm hoạt động của tư cách khác khi chưa có phép có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (Điều 94 mục 16), và là lý do buộc xuất cảnh (Điều 46 khoản 1 mục 8).
+- Làm hoạt động của tư cách khác khi chưa có phép có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (tính đến tháng 10/2026, Điều 94 mục 16), và là lý do buộc xuất cảnh (Điều 46 khoản 1 mục 8).
 
 ## 1. Khi nào cần xin phép đổi?
 
@@ -43,7 +43,7 @@ Theo Điều 30 Nghị định thi hành, nộp **đơn xin đổi tư cách lư
 
 ## 3. Làm trước khi có phép thì sao?
 
-Điều 94 mục 16 quy định người vi phạm Điều 24, làm hoạt động của tư cách khác khi chưa có phép, bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won. Thường được giải quyết bằng thông báo xử phạt, mức chuẩn tại [Phụ lục 7] Thông tư thi hành tùy thời gian vi phạm.
+Điều 94 mục 16 quy định người vi phạm Điều 24, làm hoạt động của tư cách khác khi chưa có phép, bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (tính đến tháng 10/2026). Thường được giải quyết bằng thông báo xử phạt, mức chuẩn tại [Phụ lục 7] Thông tư thi hành tùy thời gian vi phạm.
 
 | Thời gian vi phạm | Mức phạt chuẩn |
 |---|---|

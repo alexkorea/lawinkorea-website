@@ -37,8 +37,8 @@ import { fileURLToPath } from 'node:url'
 import { spawnSync } from 'node:child_process'
 import { createRequire } from 'node:module'
 import { findPriceViolations, findSanctionDateViolations } from './price-check.mjs'
-// BANK-FP2(10-10): 제재 금액 기준일은 기존 원고 대부분(10-10 기준 160파일 중 132)이 아직 없어 경고로 시작한다. 원고 정리 후 true 로 바꾸면 차단(rc=3).
-const SANCTION_DATE_STRICT = false
+// BANK-FP2(10-10): 제재 금액 기준일은 경고로 시작했다. SANCTION-DATE(10-10): 은행·NAS·inbox 240파일 위반 0 확인 후 차단(rc=3)으로 전환.
+const SANCTION_DATE_STRICT = true
 
 const HERE = path.dirname(fileURLToPath(import.meta.url))
 const REPO = path.resolve(HERE, '..', '..')

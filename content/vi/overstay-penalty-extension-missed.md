@@ -12,11 +12,11 @@ keywords:
   - "Điều 25 Luật Quản lý Xuất nhập cảnh"
 faq:
   - q: "Chỉ quá hạn một ngày có bị phạt không?"
-    a: "Luật coi việc tiếp tục ở lại sau khi hết thời hạn lưu trú mà không có giấy phép gia hạn là vi phạm (Điều 25, Điều 94 khoản 17). Trong bảng mức phạt, nhóm quá hạn dưới 1 tháng là thấp nhất, mức cơ sở là 500.000 won. Mức này có thể được giảm hoặc tăng trong phạm vi một nửa tùy tuổi, hoàn cảnh, động cơ vi phạm, khả năng nộp phạt (Thông tư thi hành, Điều 86 khoản 2)."
+    a: "Luật coi việc tiếp tục ở lại sau khi hết thời hạn lưu trú mà không có giấy phép gia hạn là vi phạm (Điều 25, Điều 94 khoản 17). Trong bảng mức phạt, nhóm quá hạn dưới 1 tháng là thấp nhất, mức cơ sở là 500.000 won (tính đến tháng 10/2026). Mức này có thể được giảm hoặc tăng trong phạm vi một nửa tùy tuổi, hoàn cảnh, động cơ vi phạm, khả năng nộp phạt (Thông tư thi hành, Điều 86 khoản 2)."
   - q: "Nộp tiền phạt xong thì có hết lo bị buộc xuất cảnh không?"
     a: "Nếu nộp đúng theo thông báo, bạn không bị xử phạt lại về cùng vụ việc (Điều 106). Tuy nhiên, quá hạn lưu trú cũng nằm trong các lý do bị buộc xuất cảnh (Điều 46 khoản 1 mục 8), nên xử lý về lưu trú được xem xét riêng. Hãy hỏi riêng về lệnh xuất cảnh và việc xin phép lưu trú sau này."
   - q: "Có lịch sử bị phạt thì sau này xin visa có bị ảnh hưởng không?"
-    a: "Có thể. Sổ tay lưu trú của Bộ Tư pháp, mục tìm việc (D-10), hạn chế người đã bị phạt và thuộc tiêu chuẩn hạn chế cấp phép lưu trú, ví dụ lần đầu từ 5 triệu won trở lên, tái phạm tổng từ 7 triệu won trở lên trong 3 năm. Với chuyển sang F-2-99, thời gian ở bất hợp pháp cũng không được tính vào thời gian lưu trú."
+    a: "Có thể. Sổ tay lưu trú của Bộ Tư pháp, mục tìm việc (D-10), hạn chế người đã bị phạt và thuộc tiêu chuẩn hạn chế cấp phép lưu trú, ví dụ lần đầu từ 5 triệu won trở lên, tái phạm tổng từ 7 triệu won trở lên trong 3 năm (tính đến tháng 10/2026). Với chuyển sang F-2-99, thời gian ở bất hợp pháp cũng không được tính vào thời gian lưu trú."
 related:
   - "immigration-fine-notice-response-2026"
   - "foreigner-voluntary-departure-2026"
@@ -29,19 +29,19 @@ Quên ngày hết hạn visa, hoặc hồ sơ gia hạn chưa chuẩn bị kịp
 ## Tóm tắt nhanh
 
 - Người nước ngoài chỉ được ở trong phạm vi tư cách và thời hạn lưu trú (Điều 17 khoản 1); muốn ở thêm phải xin gia hạn **trước khi hết thời hạn** (Điều 25 khoản 1).
-- Tiếp tục ở lại quá hạn mà không có giấy phép gia hạn có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (Điều 94 khoản 17).
-- Trên thực tế, cơ quan xuất nhập cảnh thường thông báo nộp tiền phạt (beomchikgeum) tương đương tiền phạt hình sự; mức cơ sở từ 500.000 won đến 30 triệu won tùy thời gian quá hạn (Thông tư thi hành, Bảng 7).
+- Tiếp tục ở lại quá hạn mà không có giấy phép gia hạn có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (tính đến tháng 10/2026, Điều 94 khoản 17).
+- Trên thực tế, cơ quan xuất nhập cảnh thường thông báo nộp tiền phạt (beomchikgeum) tương đương tiền phạt hình sự; mức cơ sở từ 500.000 won đến 30 triệu won tùy thời gian quá hạn (tính đến tháng 10/2026, Thông tư thi hành, Bảng 7).
 - Sau khi nộp phạt, vẫn cần chú ý riêng đến buộc xuất cảnh, lệnh xuất cảnh và việc xét duyệt lưu trú sau này.
 
 ## 1. Hết thời hạn lưu trú thì áp dụng điều luật nào?
 
-Có hai điều quan trọng. Điều 25 khoản 1 quy định muốn ở quá thời hạn lưu trú phải được Bộ trưởng Tư pháp cho phép gia hạn **trước khi hết thời hạn**. Nghị định thi hành Điều 31 khoản 1 cũng yêu cầu nộp đơn gia hạn trước khi hết thời hạn. Người vi phạm nghĩa vụ này và tiếp tục ở lại quá hạn không có giấy phép gia hạn có thể bị xử theo Điều 94 khoản 17: phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won.
+Có hai điều quan trọng. Điều 25 khoản 1 quy định muốn ở quá thời hạn lưu trú phải được Bộ trưởng Tư pháp cho phép gia hạn **trước khi hết thời hạn**. Nghị định thi hành Điều 31 khoản 1 cũng yêu cầu nộp đơn gia hạn trước khi hết thời hạn. Người vi phạm nghĩa vụ này và tiếp tục ở lại quá hạn không có giấy phép gia hạn có thể bị xử theo Điều 94 khoản 17: phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (tính đến tháng 10/2026).
 
 Khi ngày đã qua, không còn là "gia hạn" nữa mà đã ở trạng thái vi phạm, nên nộp hồ sơ muộn cũng không xóa được việc đã vi phạm. Nếu phát hiện đã quá hạn, hãy liên hệ cơ quan xuất nhập cảnh quản lý địa bàn sớm nhất có thể.
 
 ## 2. Mức tiền phạt là bao nhiêu?
 
-Khi điều tra xác định có vi phạm, người đứng đầu cơ quan xuất nhập cảnh có thể thông báo bằng văn bản yêu cầu nộp khoản tiền tương đương tiền phạt hình sự, gọi là tiền phạt (beomchikgeum) (Điều 102 khoản 1). Mức cơ sở được [Bảng 7] của Thông tư thi hành quy định theo thời gian quá hạn.
+Khi điều tra xác định có vi phạm, người đứng đầu cơ quan xuất nhập cảnh có thể thông báo bằng văn bản yêu cầu nộp khoản tiền tương đương tiền phạt hình sự, gọi là tiền phạt (beomchikgeum) (Điều 102 khoản 1). Mức cơ sở được [Bảng 7] của Thông tư thi hành quy định theo thời gian quá hạn (tính đến tháng 10/2026).
 
 | Thời gian quá hạn | Mức phạt cơ sở |
 |---|---|
@@ -75,7 +75,7 @@ Không. Phần xử phạt hình sự và thủ tục hành chính về lưu tr�
 
 Sổ tay lưu trú của Bộ Tư pháp (tháng 9/2026) có phần phản ánh lịch sử bị phạt và thời gian ở bất hợp pháp vào các lần xét duyệt sau.
 
-- Đối tượng hạn chế D-10 (tìm việc): người bị phạt theo Luật Quản lý Xuất nhập cảnh và thuộc "tiêu chuẩn hạn chế cấp phép lưu trú". Sổ tay nêu ví dụ lần đầu từ 5 triệu won, tái phạm tổng từ 7 triệu won trong 3 năm.
+- Đối tượng hạn chế D-10 (tìm việc): người bị phạt theo Luật Quản lý Xuất nhập cảnh và thuộc "tiêu chuẩn hạn chế cấp phép lưu trú". Sổ tay nêu ví dụ lần đầu từ 5 triệu won, tái phạm tổng từ 7 triệu won trong 3 năm (tính đến tháng 10/2026).
 - Chuyển sang F-2-99: khi tính thời gian lưu trú, loại trừ thời gian ở bất hợp pháp (vi phạm Điều 25) hoặc làm việc bất hợp pháp (vi phạm Điều 18); người ở bất hợp pháp cũng thuộc nhóm bị hạn chế đổi tư cách lưu trú.
 
 Mỗi tư cách có tiêu chuẩn khác nhau, nên nếu sau này định gia hạn, đổi tư cách hay xin thường trú, hãy sắp xếp trước số tiền phạt và các mốc ngày.

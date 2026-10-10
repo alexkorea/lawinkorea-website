@@ -15,7 +15,7 @@ faq:
   - q: "What do I bring to report?"
     a: "Under Enforcement Decree Article 44(1), submit a change report form with your registration card and passport to the office head for your place of residence. If name, sex, date of birth or nationality changed, the office reissues the registration card (paragraph 2). Check your office for any additional documents."
   - q: "How much is the fine for being late?"
-    a: "Up to KRW 1 million under Article 100(2), item 1. Enforcement Decree Annex 2 standards are KRW 100,000 if under 3 months late, KRW 300,000 for 3 to 6 months, KRW 500,000 for 6 months to 1 year and KRW 1 million for 1 year or more. The Minister of Justice may waive the fine considering the circumstances (Article 100(5))."
+    a: "Up to KRW 1 million under Article 100(2), item 1. Enforcement Decree Annex 2 standards are KRW 100,000 if under 3 months late, KRW 300,000 for 3 to 6 months, KRW 500,000 for 6 months to 1 year and KRW 1 million for 1 year or more (as of October 2026). The Minister of Justice may waive the fine considering the circumstances (Article 100(5))."
 related:
   - "residence-change-report-fine"
   - "immigration-law-penalties-guide"
@@ -31,7 +31,7 @@ When you get a new passport or change school or employer, the details on your re
 
 - A registered foreign national must file a change report with the office for their place of residence **within 15 days** when registered details change (Article 35).
 - It covers (1) name, sex, date of birth and nationality, (2) passport number, issue date and validity, and (3) matters set by Ministry of Justice rule.
-- Violation can bring a fine of up to KRW 1 million (Article 100(2), item 1).
+- Violation can bring a fine of up to KRW 1 million (as of October 2026, Article 100(2), item 1).
 - The report on moving house (Article 36) is a separate duty. See the [residence change report guide](/en/blog/residence-change-report-fine) as well.
 
 ## 1. Which changes must be reported?
@@ -58,7 +58,7 @@ Under Enforcement Decree Article 44, submit a **change report form** with your *
 
 ## 3. What if you are late?
 
-Article 100(2), item 1 provides a fine of up to KRW 1 million for violating Article 35. Enforcement Decree Annex 2 standards depend on how late you are.
+Article 100(2), item 1 provides a fine of up to KRW 1 million for violating Article 35 (as of October 2026). Enforcement Decree Annex 2 standards depend on how late you are.
 
 | How late | Standard fine |
 |---|---|

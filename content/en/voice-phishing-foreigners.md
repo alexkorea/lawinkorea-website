@@ -54,7 +54,7 @@ This guide explains how these roles are treated and what to prepare for the immi
 ## 2. Penalty Tier (Korean Criminal Code)
 
 ### Penal Code
-- **Fraud (Art. 347)**: up to 20 years imprisonment or KRW 50M fine
+- **Fraud (Art. 347)**: up to 20 years imprisonment or KRW 50M fine (as of October 2026)
 - **Computer-aided fraud (Art. 347-2)**: same
 - **Habitual fraud**: aggravated
 
@@ -149,7 +149,7 @@ Voice-phishing cases require strong criminal defense.
 
 ## 8. Account Lending Risks
 
-- Criminal: Electronic Financial Transactions Act violation (up to 5 years imprisonment or KRW 30M fine, Article 49(4))
+- Criminal: Electronic Financial Transactions Act violation (as of October 2026, up to 5 years imprisonment or KRW 30M fine, Article 49(4))
 - Immigration: can lead to a deportation review
 
 **Do not lend your bank account to anyone.**
