@@ -38,10 +38,11 @@ This guide presents Articles 93-3 and 94 to 100 of the **current Immigration Con
 
 > **All citations verified through the National Law Information Center API (open.law.go.kr).** Actual case-level fines depend on prosecution and court sentencing standards; this guide provides general information.
 
-## 1. Seven-Tier Penalty Structure
+## 1. Eight-Tier Penalty Structure
 
 | Article | Penalty | Common Violations |
 |---|---|---|
+| Art. 93-2 | **Up to 7 yrs imprisonment**, etc. | Arranging organized illegal entry/exit, etc. |
 | Art. 93-3 | **Up to 5 yrs imprisonment / 50M KRW fine** | Entry without inspection (Art. 12), etc. |
 | Art. 94 | **Up to 3 yrs imprisonment / 30M KRW fine** | Out-of-status, overstay, illegal hire |
 | Art. 95 | **Up to 1 yr imprisonment / 10M KRW fine** | Entry inspection violation, registration failure, escape |
