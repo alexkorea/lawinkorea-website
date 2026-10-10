@@ -1,6 +1,6 @@
 ---
 title: "Chủ sử dụng thuê người nước ngoài trái phép tại Hàn Quốc bị xử lý thế nào"
-description: "Chủ sử dụng tại Hàn Quốc thuê người nước ngoài không có tư cách lao động có thể bị tù đến 3 năm hoặc phạt đến 30 triệu won (tính đến tháng 10/2026). Mức phạt và hạn chế tuyển dụng."
+description: "Chủ sử dụng thuê người nước ngoài không có tư cách lao động có thể bị tù đến 3 năm hoặc phạt đến 30 triệu won (tính đến tháng 10/2026). Mức phạt, hạn chế thuê."
 date: "2026-10-03"
 category: "Hình phạt · Penalties"
 cluster: "cluster"

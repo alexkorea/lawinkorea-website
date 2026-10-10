@@ -2,7 +2,7 @@
 slug: "residence-change-report-fine"
 locale: "vi"
 title: "Quên khai báo thay đổi nơi cư trú ở Hàn Quốc: mức phạt và cách xử lý"
-description: "Người nước ngoài đã đăng ký tại Hàn Quốc phải khai báo nơi ở mới trong 15 ngày kể từ ngày chuyển đến. Khai báo trễ bị phạt 100.000 đến 1 triệu won (tính đến tháng 10/2026)."
+description: "Người nước ngoài đã đăng ký phải khai báo nơi ở mới trong 15 ngày kể từ ngày chuyển đến. Khai báo trễ bị phạt 100.000–1 triệu won (tính đến tháng 10/2026)."
 category: "Hình phạt · Penalties"
 cluster: "cluster"
 keywords:

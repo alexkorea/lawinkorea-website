@@ -1,6 +1,6 @@
 ---
 title: "Hiring Foreigners Without Work Status in Korea — Employer Penalties"
-description: "Employers in Korea who hire a foreigner without work status face up to 3 years in prison or a KRW 30 million fine (as of October 2026). Fine amounts, company liability, hiring bans."
+description: "Employers in Korea hiring a foreigner without work status face up to 3 years in prison or a KRW 30M fine (as of October 2026). Fines, liability, hiring bans."
 date: "2026-10-03"
 category: "Penalties"
 cluster: "cluster"

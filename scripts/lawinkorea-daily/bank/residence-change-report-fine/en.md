@@ -2,7 +2,7 @@
 slug: "residence-change-report-fine"
 locale: "en"
 title: "Missed the Change of Address Report in Korea? Fines and Next Steps"
-description: "Registered foreigners in Korea must report a new address within 15 days of moving in. A late report means an immigration fine of KRW 100,000 to 1 million (as of October 2026)."
+description: "Registered foreigners in Korea must report a new address within 15 days of moving in. Late reports bring a fine of KRW 100,000–1 million (as of October 2026)."
 category: "Penalties"
 cluster: "cluster"
 keywords:
