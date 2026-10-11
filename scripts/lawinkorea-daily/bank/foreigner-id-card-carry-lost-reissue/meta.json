@@ -1,0 +1,27 @@
+{
+ "order": 4,
+ "batch": "20261007",
+ "pexels_id": 915917,
+ "pexels_author": "Lukas Blazek",
+ "cover_alt": {
+  "ko": "질감 있는 나무 위의 갈색 가죽 지갑",
+  "en": "Brown leather wallet on wood",
+  "zh": "木面上的棕色皮夹",
+  "ja": "木の上の茶色い革の財布",
+  "vi": "Ví da nâu trên mặt gỗ"
+ },
+ "og_category": {
+  "ko": "벌칙·벌금",
+  "en": "Penalties",
+  "zh": "处罚·罚款",
+  "ja": "罰則・罰金",
+  "vi": "Hình phạt"
+ },
+ "imageTitle": {
+  "ko": "등록증 분실·휴대 의무",
+  "en": "Lost or uncarried ID",
+  "zh": "登录证丢失·携带",
+  "ja": "登録証の紛失・携帯",
+  "vi": "Mất thẻ, nghĩa vụ mang thẻ"
+ }
+}
