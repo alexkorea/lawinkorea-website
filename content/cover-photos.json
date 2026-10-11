@@ -39,5 +39,7 @@
   "overstay-penalty-extension-missed": { "pexels_id": 3570733, "author": "Enrique Zafra",
     "alt": { "ko": "모래가 흐르는 유리 모래시계", "en": "Glass hourglass with flowing sand", "zh": "流沙的玻璃沙漏", "ja": "砂が落ちるガラスの砂時計", "vi": "Đồng hồ cát thủy tinh" } },
   "workplace-change-without-permission-penalty": { "pexels_id": 8837510, "author": "ANTONI SHKRABA production",
-    "alt": { "ko": "사무실 책상 위에서 악수하는 모습", "en": "Handshake over an office desk", "zh": "办公桌上的握手", "ja": "オフィスの机越しの握手", "vi": "Bắt tay trên bàn làm việc" } }
+    "alt": { "ko": "사무실 책상 위에서 악수하는 모습", "en": "Handshake over an office desk", "zh": "办公桌上的握手", "ja": "オフィスの机越しの握手", "vi": "Bắt tay trên bàn làm việc" } },
+  "foreigner-id-card-carry-lost-reissue": { "pexels_id": 915917, "author": "Lukas Blazek",
+    "alt": { "ko": "질감 있는 나무 위의 갈색 가죽 지갑", "en": "Brown leather wallet on wood", "zh": "木面上的棕色皮夹", "ja": "木の上の茶色い革の財布", "vi": "Ví da nâu trên mặt gỗ" } }
 }
