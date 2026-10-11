@@ -12,6 +12,12 @@
 set -euo pipefail
 
 cd "$(dirname "$0")/.."
+
+# DEPLOY-LOCK(보스 영구 규칙 msg 3119, 2026-10-11): 가드 밖에서 부르면 ~/bin/deploy-guard.sh 로 다시 실행한다 —
+# 사이트 잠금(잠금 중이면 rc=75·배포 없음)·빌드 전 산출물 삭제·업로드 직전 docs/seo/publish-blocklist.txt 검사.
+if [ "${DEPLOY_GUARD_SITE:-}" != lawinkorea ]; then
+  exec /bin/bash "$HOME/bin/deploy-guard.sh" lawinkorea "$PWD" -- /bin/bash "$PWD/scripts/deploy.sh" "$@"
+fi
 export PATH="$HOME/.local/node/bin:$HOME/.local/bin:$PATH"
 
 echo "[1/4] next build + SEO 게이트 (5언어 hreflang·description 70~160)"
@@ -27,6 +33,9 @@ echo "[3.5/4] 풋터 사업자번호 게이트 — 5언어 홈 + 사이트맵 �
 lsof -ti tcp:4392 | xargs kill 2>/dev/null || true
 node "$HOME/scripts/bizno-footer-gate.mjs" lawinkorea --start "npx next start -p 4392" --url http://127.0.0.1:4392 \
   --paths /ko,/en,/zh,/ja,/vi --sample 30
+
+echo "[3.9/4] 금지목록 검사 (docs/seo/publish-blocklist.txt — 빌드 결과물·사이트맵)"
+/bin/bash "$DEPLOY_GUARD" --check .open-next .next/server/app
 
 echo "[4/4] Pages direct upload → lawinkorea-pages (branch main)"
 cd .open-next/assets
