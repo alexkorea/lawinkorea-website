@@ -13,7 +13,7 @@ keywords:
   - "Immigration Control Act Korea penalties"
 faq:
   - q: "Mức phạt khi vi phạm Luật Quản lý xuất nhập cảnh bắt đầu từ bao nhiêu?"
-    a: "Từ phạt không quá 1 triệu won (tính đến tháng 10/2026, Điều 98) đến tù không quá 7 năm (Điều 93-2). Mỗi hành vi vi phạm áp dụng điều khoản khác nhau."
+    a: "Chế tài khác nhau theo từng điều khoản, từ Điều 93-2 (tù không quá 7 năm, v.v.) đến Điều 98 (phạt tiền không quá 1 triệu won, tính đến tháng 10/2026); một số hành vi như vi phạm nghĩa vụ khai báo thuộc diện phạt hành chính theo Điều 100. Mỗi hành vi vi phạm áp dụng điều khoản khác nhau."
   - q: "Vi phạm hoạt động ngoài tư cách lần đầu bị xử lý thế nào?"
     a: "Vi phạm Điều 20 áp dụng Điều 94 — tù đến 3 năm hoặc phạt đến 30 triệu won (tính đến tháng 10/2026). Ngoài số tiền, quan trọng hơn số tiền là kết quả xem xét vi phạm (giữ tư cách hay bị trục xuất)."
   - q: "Phạt bao nhiêu khi quá hạn lưu trú (cư trú bất hợp pháp, overstay)?"
@@ -39,7 +39,7 @@ Bài viết này trích dẫn nguyên văn các điều khoản chế tài tại
 
 > **Các trích dẫn pháp luật trong bài đã được đối chiếu qua API Hệ thống thông tin pháp luật quốc gia (open.law.go.kr).** Tuy nhiên mức phạt thực tế của từng vụ có thể khác nhau theo khung lượng hình của viện kiểm sát và tòa án; bài viết chỉ mang tính thông tin chung.
 
-## 1. Cấu trúc 8 bậc chế tài
+## 1. Cấu trúc chế tài theo từng điều khoản
 
 | Điều khoản | Mức xử lý (tính đến tháng 10/2026) | Vi phạm chính |
 |---|---|---|

@@ -12,7 +12,7 @@ keywords:
   - "Korea visa violation penalty"
 faq:
   - q: "What's the fine range for Immigration Control Act violations?"
-    a: "Penalties range from a fine of up to KRW 1 million (as of October 2026, Article 98) to imprisonment of up to 7 years (Article 93-2). Different tiers apply to different offense types."
+    a: "Penalties differ by provision, from Article 93-2 (imprisonment of up to 7 years, etc.) to Article 98 (a fine of up to KRW 1 million, as of October 2026), and some violations, such as breaches of reporting obligations, are subject to an administrative fine under Article 100. The applicable provision differs by violation."
   - q: "What's the penalty for a single out-of-status activity violation?"
     a: "Article 20 violation = Article 94 application — up to 3 years imprisonment or 30M KRW fine. The offense review outcome (status maintained vs deportation) matters more than the fine."
   - q: "What's the fine for overstaying your visa (illegal stay)?"
@@ -34,16 +34,16 @@ related:
 
 For foreigners violating the Korean Immigration Control Act, the **fine itself is rarely the primary impact**; it's the **post-fine consequences**. Visa renewal denial or deportation can follow even after a small fine.
 
-This guide presents Articles 93-3 and 94 to 100 of the **current Immigration Control Act (effective January 23, 2026)**, organized by case type.
+This guide presents Articles 93-3 and 94 to 100 of the **current Immigration Control Act**, organized by case type.
 
 > **All citations verified through the National Law Information Center API (open.law.go.kr).** Actual case-level fines depend on prosecution and court sentencing standards; this guide provides general information.
 
-## 1. Eight-Tier Penalty Structure
+## 1. Immigration Control Act — Penalty Structure by Provision
 
 | Article | Penalty | Common Violations |
 |---|---|---|
 | Art. 93-2 | **Up to 7 yrs imprisonment**, etc. | Arranging organized illegal entry/exit, etc. |
-| Art. 93-3 | **Up to 5 yrs imprisonment / 50M KRW fine** | Entry without inspection (Art. 12), etc. |
+| Art. 93-3 | **Up to 5 yrs imprisonment / 50M KRW fine** | Entry without immigration inspection (violation of Art. 12), disclosure of official secrets, etc. |
 | Art. 94 | **Up to 3 yrs imprisonment / 30M KRW fine** | Out-of-status, overstay, illegal hire |
 | Art. 95 | **Up to 1 yr imprisonment / 10M KRW fine** | Entry inspection violation, registration failure, escape |
 | Art. 96 | **Up to 10M KRW fine** | Vessel non-compliance, document refusal |
