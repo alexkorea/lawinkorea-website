@@ -64,6 +64,19 @@
       ],
       "at": "2026-10-11T10:02:47.435Z",
       "batch": "20261007"
+    },
+    {
+      "slug": "immigration-summons-statement-rights",
+      "date": "2026-10-12",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-10-12T10:02:52.795Z",
+      "batch": "20261007"
     }
   ],
   "rejected": []
