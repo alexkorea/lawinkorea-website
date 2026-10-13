@@ -77,6 +77,19 @@
       ],
       "at": "2026-10-12T10:02:52.795Z",
       "batch": "20261007"
+    },
+    {
+      "slug": "immigration-detention-objection-guide",
+      "date": "2026-10-13",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-10-13T10:03:06.567Z",
+      "batch": "20261007"
     }
   ],
   "rejected": []

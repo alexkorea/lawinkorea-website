@@ -43,5 +43,7 @@
   "foreigner-id-card-carry-lost-reissue": { "pexels_id": 915917, "author": "Lukas Blazek",
     "alt": { "ko": "질감 있는 나무 위의 갈색 가죽 지갑", "en": "Brown leather wallet on wood", "zh": "木面上的棕色皮夹", "ja": "木の上の茶色い革の財布", "vi": "Ví da nâu trên mặt gỗ" } },
   "immigration-summons-statement-rights": { "pexels_id": 1906606, "author": "Ylanite Koppens",
-    "alt": { "ko": "끈으로 묶은 편지 봉투 다발", "en": "Bundle of letters tied with twine", "zh": "用细绳捆扎的信件", "ja": "紐で束ねた手紙", "vi": "Xấp thư buộc dây" } }
+    "alt": { "ko": "끈으로 묶은 편지 봉투 다발", "en": "Bundle of letters tied with twine", "zh": "用细绳捆扎的信件", "ja": "紐で束ねた手紙", "vi": "Xấp thư buộc dây" } },
+  "immigration-detention-objection-guide": { "pexels_id": 7054505, "author": "Kindel Media",
+    "alt": { "ko": "파란 펜으로 서류에 서명하는 손", "en": "Hand signing a document with a blue pen", "zh": "用蓝笔在文件上签名的手", "ja": "青いペンで書類に署名する手", "vi": "Bàn tay ký giấy tờ bằng bút xanh" } }
 }
