@@ -90,6 +90,19 @@
       ],
       "at": "2026-10-13T10:03:06.567Z",
       "batch": "20261007"
+    },
+    {
+      "slug": "born-in-korea-residence-status-90-days",
+      "date": "2026-10-14",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-10-14T10:03:04.981Z",
+      "batch": "20261007"
     }
   ],
   "rejected": []
