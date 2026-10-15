@@ -47,5 +47,7 @@
   "immigration-detention-objection-guide": { "pexels_id": 7054505, "author": "Kindel Media",
     "alt": { "ko": "파란 펜으로 서류에 서명하는 손", "en": "Hand signing a document with a blue pen", "zh": "用蓝笔在文件上签名的手", "ja": "青いペンで書類に署名する手", "vi": "Bàn tay ký giấy tờ bằng bút xanh" } },
   "born-in-korea-residence-status-90-days": { "pexels_id": 2721581, "author": "Lisa Fotios",
-    "alt": { "ko": "신생아의 손을 잡은 어른의 손", "en": "Adult hand holding a baby's hand", "zh": "大人握着婴儿的小手", "ja": "赤ちゃんの手を握る大人の手", "vi": "Bàn tay người lớn nắm tay em bé" } }
+    "alt": { "ko": "신생아의 손을 잡은 어른의 손", "en": "Adult hand holding a baby's hand", "zh": "大人握着婴儿的小手", "ja": "赤ちゃんの手を握る大人の手", "vi": "Bàn tay người lớn nắm tay em bé" } },
+  "status-change-permit-before-activity": { "pexels_id": 8524948, "author": "Olia Danilevich",
+    "alt": { "ko": "서류에 서명하는 손을 가까이서 찍은 사진", "en": "Close-up of a hand signing a document", "zh": "在文件上签名的手部特写", "ja": "書類に署名する手のクローズアップ", "vi": "Cận cảnh bàn tay ký giấy tờ" } }
 }

@@ -103,6 +103,19 @@
       ],
       "at": "2026-10-14T10:03:04.981Z",
       "batch": "20261007"
+    },
+    {
+      "slug": "status-change-permit-before-activity",
+      "date": "2026-10-15",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-10-15T10:03:15.433Z",
+      "batch": "20261007"
     }
   ],
   "rejected": []
