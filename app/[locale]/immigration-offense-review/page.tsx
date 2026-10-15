@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { alternatesFor, brandTitle } from "../../lib/seo";
+import { alternatesFor, brandTitle, siteOgImages } from "../../lib/seo";
 import type { Metadata } from "next";
 import { SITE } from "../../lib/constants";
 import ScopeBlock from "../../components/ScopeBlock";
@@ -43,6 +43,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     openGraph: {
       title: l === "ko" ? "출입국 사범심사, 형사절차와 무엇이 다른가" : metaData[l].title,
       description: l === "ko" ? "사범심사의 의미와 검토 요소, 출석 전 준비를 정리했습니다." : metaData[l].description,
+      images: siteOgImages(l),
     },
     alternates: alternatesFor(l, "/immigration-offense-review"),
   };

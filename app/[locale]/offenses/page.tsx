@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { alternatesFor, brandTitle } from "../../lib/seo";
+import { alternatesFor, brandTitle, siteOgImages } from "../../lib/seo";
 import type { Metadata } from "next";
 import { SITE } from "../../lib/constants";
 import { faqSchema } from "../../lib/schema";
@@ -41,6 +41,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     openGraph: {
       title: l === "ko" ? "사건 유형에 따라 달라지는 체류 영향" : metaData[l].title,
       description: l === "ko" ? "형사범죄와 출입국법 위반을 구분해 사건별 대응을 안내합니다." : metaData[l].description,
+      images: siteOgImages(l),
     },
     alternates: alternatesFor(l, "/offenses"),
   };

@@ -5,6 +5,7 @@ import { getBlogPostsByLocale } from "../../data/blog-posts-data";
 import { ACCENT } from "../../lib/constants";
 import { alternatesFor } from "../../lib/seo";
 import { breadcrumbSchema } from "../../lib/schema";
+import BlogCategoryTabs from "../../components/BlogCategoryTabs";
 
 const VALID_LOCALES = ["ko", "en", "zh", "ja", "vi"] as const;
 type LocaleParam = (typeof VALID_LOCALES)[number];
@@ -150,76 +151,10 @@ export default async function LocaleBlogIndex({ params }: { params: Promise<{ lo
             </Link>
           </div>
         ) : (
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))",
-              gap: 24,
-            }}
-          >
-            {posts.map((p) => (
-              <Link
-                key={p.slug}
-                href={`/${locale}/blog/${p.slug}`}
-                style={{
-                  background: "#fff",
-                  border: `1px solid ${ACCENT.border}`,
-                  borderRadius: 8,
-                  overflow: "hidden",
-                  display: "flex",
-                  flexDirection: "column",
-                }}
-              >
-                {/* 목록 카드 썸네일 = og:image 와 같은 파일(THUMBNAIL_STANDARD 1장 카드 렌더) */}
-                <img
-                  src={p.cover.replace(/\.png(\?|$)/, "-card.png$1")}
-                  alt={p.coverAlt || p.title}
-                  width={800}
-                  height={450}
-                  loading="lazy"
-                  style={{ width: "100%", height: "auto", display: "block", aspectRatio: "16 / 9", objectFit: "cover" }}
-                />
-                <div style={{ padding: 28, display: "flex", flexDirection: "column", gap: 12, flex: 1 }}>
-                <div
-                  style={{
-                    fontSize: 11,
-                    fontWeight: 700,
-                    color: ACCENT.primary,
-                    letterSpacing: "0.12em",
-                    textTransform: "uppercase",
-                  }}
-                >
-                  {p.category}
-                </div>
-                <h2
-                  style={{
-                    fontSize: 20,
-                    fontWeight: 700,
-                    color: ACCENT.navy,
-                    margin: 0,
-                    lineHeight: 1.35,
-                  }}
-                >
-                  {p.title}
-                </h2>
-                <p style={{ fontSize: 14, color: ACCENT.textMute, lineHeight: 1.6, margin: 0, flex: 1 }}>
-                  {p.description}
-                </p>
-                <div
-                  style={{
-                    fontSize: 12,
-                    color: ACCENT.textMuteSoft,
-                    fontFamily: "var(--font-mono)",
-                    paddingTop: 12,
-                    borderTop: `1px solid ${ACCENT.border}`,
-                  }}
-                >
-                  {p.date}
-                </div>
-                </div>
-              </Link>
-            ))}
-          </div>
+          <BlogCategoryTabs
+            locale={locale}
+            posts={posts.map((p) => ({ slug: p.slug, title: p.title, description: p.description, date: p.date, category: p.category, cover: p.cover, coverAlt: p.coverAlt }))}
+          />
         )}
 
         <div

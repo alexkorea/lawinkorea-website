@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { alternatesFor, brandTitle } from "../../lib/seo";
+import { alternatesFor, brandTitle, siteOgImages } from "../../lib/seo";
 import type { Metadata } from "next";
 import { SITE } from "../../lib/constants";
 import HubBlogLinks from "../../components/HubBlogLinks";
@@ -60,6 +60,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     openGraph: {
       title: l === "ko" ? "출국명령·강제퇴거·입국금지, 무엇이 다른가" : metaData[l].title,
       description: l === "ko" ? "처분별 성격과 결과를 혼동 없이 정리했습니다." : metaData[l].description,
+      images: siteOgImages(l),
     },
     alternates: alternatesFor(l, "/dispositions"),
   };

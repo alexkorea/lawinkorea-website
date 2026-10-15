@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { alternatesFor } from "../lib/seo";
+import { alternatesFor, siteOgImages } from "../lib/seo";
 import type { Metadata } from "next";
 import { SITE } from "../lib/constants";
 import { faqSchema } from "../lib/schema";
@@ -85,6 +85,7 @@ export async function generateMetadata({
       siteName: "선샤인행정사사무소 | Law in Korea",
       locale: l,
       type: "website",
+      images: siteOgImages(l),
     },
     alternates: alternatesFor(l, ""),
   };
@@ -96,7 +97,7 @@ const KoHomePage = () => (
     <section style={{ background: "#0a1628", color: "#fff", padding: "96px 24px 80px", textAlign: "center" }}>
       <div style={{ maxWidth: 800, margin: "0 auto" }}>
         <h1 style={{ fontSize: "clamp(26px, 4vw, 44px)", fontWeight: 700, lineHeight: 1.3, margin: 0, marginBottom: 24 }}>
-          사범심사 통보, 당황하지 말고 체류 자격부터 지키십시오
+          사범심사 통보, 당황하지 말고 체류 자격부터 지키세요
         </h1>
         <p style={{ fontSize: 18, lineHeight: 1.8, color: "#94a3b8", margin: "0 0 16px" }}>
           형사사건이 마무리되어도, 외국인의 체류 문제는 출입국에서 별도로 검토될 수 있습니다.
@@ -145,7 +146,7 @@ const KoHomePage = () => (
     {/* 중간 CTA */}
     <section style={{ background: "#eff6ff", padding: "48px 24px", textAlign: "center" }}>
       <p style={{ fontSize: 18, fontWeight: 600, color: "#1e40af", margin: "0 0 16px" }}>
-        내 사건이 어떤 유형인지 모르겠다면, 사건 유형부터 함께 확인해 보십시오.
+        내 사건이 어떤 유형인지 모르겠다면, 사건 유형부터 함께 확인해 봐요.
       </p>
       <a href="/ko/offenses" style={{ display: "inline-block", background: "#1e40af", color: "#fff", padding: "14px 28px", borderRadius: 6, fontWeight: 600, textDecoration: "none" }}>
         사건 유형 확인하기
@@ -173,7 +174,8 @@ const KoHomePage = () => (
         ].map((item) => (
           <a key={item.href} href={item.href} style={{ display: "flex", flexDirection: "column", background: "#fff", border: "1px solid #e2e8f0", borderRadius: 8, padding: "24px 20px", textDecoration: "none" }}>
             <p style={{ fontWeight: 600, color: "#0a1628", margin: "0 0 8px" }}>{item.t}</p>
-            <p style={{ fontSize: 14, color: "#64748b", margin: "0 0 12px", lineHeight: 1.6, flex: "1 0 auto" }}>{item.d}</p>
+            {/* QA1014-FIX L4(맥7 2026-10-15) — 설명 2줄 고정(높이 2줄 확보 + 2줄 넘치면 말줄임), 버튼은 카드 바닥 정렬 */}
+            <p style={{ fontSize: 14, color: "#64748b", margin: "0 0 12px", lineHeight: 1.6, minHeight: "3.2em", display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden", wordBreak: "keep-all" }}>{item.d}</p>
             <span style={{ fontSize: 13, color: "#2563eb", fontWeight: 500, marginTop: "auto" }}>자세히 보기 →</span>
           </a>
         ))}

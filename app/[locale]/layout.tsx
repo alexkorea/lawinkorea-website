@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { siteGraph } from "../lib/schema";
+import { ROOT_OPEN_GRAPH, siteOgImages } from "../lib/seo";
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
 import HtmlShell from "../components/HtmlShell";
@@ -30,6 +31,9 @@ export async function generateMetadata({
   // canonical/hreflang 은 각 페이지가 자기 경로로 직접 선언한다(레이아웃에서 홈 URL을
   // 상속시키면 하위 페이지의 hreflang 이 전부 홈을 가리키는 오류가 생긴다).
   return {
+    // og:image 언어별 기본값(QA1014-FIX L3). 루트와 같은 openGraph 값에 이미지만 언어별로 바꾼다 —
+    // openGraph 는 얕게 덮어써지므로 값은 ROOT_OPEN_GRAPH 단일 원천에서 가져온다.
+    openGraph: { ...ROOT_OPEN_GRAPH, images: siteOgImages(locale) },
     other: {
       "content-language": locale,
     },

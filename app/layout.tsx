@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { COMPANY, SITE } from "./lib/constants";
+import { ROOT_OPEN_GRAPH, siteOgImages } from "./lib/seo";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
@@ -40,16 +41,7 @@ export const metadata: Metadata = {
       "x-default": `${SITE.url}/ko`,
     },
   },
-  openGraph: {
-    type: "website",
-    siteName: "Law in Korea",
-    title: "대한민국 출입국사범심사 · Law in Korea",
-    description:
-      "출입국사범심사·음주운전·형사사건·비자 위기 시 차분하게 함께하는 전문 행정사. 4개 국어 지원, 서울 중구.",
-    url: SITE.url,
-    locale: "ko_KR",
-    alternateLocale: ["en_US", "zh_CN", "ja_JP", "vi_VN"],
-  },
+  openGraph: { ...ROOT_OPEN_GRAPH, images: siteOgImages("ko") },
   twitter: {
     card: "summary_large_image",
     title: "대한민국 출입국사범심사 · Law in Korea",

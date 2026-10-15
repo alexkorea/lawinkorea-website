@@ -17,6 +17,8 @@ type Copy = {
   caseType: string;
   caseTypes: string[];
   nationality: string;
+  title: string;
+  oneOfLabel: string;
   message: string;
   submit: string;
   sending: string;
@@ -37,6 +39,8 @@ const COPY: Record<L, Copy> = {
     caseType: "사건 유형",
     caseTypes: ["선택해 주세요", "음주운전 (DUI)", "마약 사건", "보이스피싱", "불법취업", "성범죄", "비자 거절", "강제퇴거", "입국금지 해제", "영주권/국적", "형사사건", "기타"],
     nationality: "국적",
+    title: "제목 (선택)",
+    oneOfLabel: "(둘 중 하나 필수)",
     message: "상황 설명",
     submit: "상담 신청",
     sending: "접수 중…",
@@ -46,7 +50,7 @@ const COPY: Record<L, Copy> = {
     oneOf: "* 표시는 필수입니다. 이메일과 연락처는 둘 중 하나만 적어도 됩니다(1개 필수).",
     requiredMessage: "문의내용을 10자 이상 입력해 주세요.",
     privacy: "입력하신 정보는 상담 회신 목적으로만 사용됩니다.",
-    consent: { title: "개인정보 수집·이용 안내", items: [["수집 항목", "성함, 이메일, 연락처, 사건 유형, 국적, 상황 설명"], ["수집 목적", "상담 문의 접수 및 회신"], ["보유 기간", "상담 완료 후 1년 보관 후 파기"]], notice: ["문의 답변을 위해 이름·연락처를 수집하며 ", "에 따라 처리합니다."], policy: "개인정보처리방침" },
+    consent: { title: "개인정보 수집·이용 안내", items: [["수집 항목", "성함, 이메일, 연락처, 사건 유형, 국적, 제목, 상황 설명"], ["수집 목적", "상담 문의 접수 및 회신"], ["보유 기간", "상담 완료 후 1년 보관 후 파기"]], notice: ["문의 답변을 위해 이름·연락처를 수집하며 ", "에 따라 처리합니다."], policy: "개인정보처리방침" },
   },
   en: {
     name: "Name",
@@ -55,6 +59,8 @@ const COPY: Record<L, Copy> = {
     caseType: "Case type",
     caseTypes: ["Please select", "DUI", "Drug case", "Voice phishing", "Illegal employment", "Sex offense", "Visa denied", "Deportation", "Entry ban relief", "Permanent residency / Nationality", "Criminal case", "Other"],
     nationality: "Nationality",
+    title: "Subject (optional)",
+    oneOfLabel: "(one of the two required)",
     message: "Describe your situation",
     submit: "Request consultation",
     sending: "Sending…",
@@ -64,7 +70,7 @@ const COPY: Record<L, Copy> = {
     oneOf: "* Required. For email and phone, filling in just one of the two is enough (one is required).",
     requiredMessage: "Please describe your situation in at least 10 characters.",
     privacy: "Your information is used only to reply to this inquiry.",
-    consent: { title: "How we use your personal information", items: [["Items", "name, email, phone, case type, nationality, description of your situation"], ["Purpose", "receiving and replying to your consultation request"], ["Retention", "kept for 1 year after the consultation ends, then destroyed"]], notice: ["We collect your name and contact details to answer your inquiry and handle them under our ", "."], policy: "Privacy Policy" },
+    consent: { title: "How we use your personal information", items: [["Items", "name, email, phone, case type, nationality, subject, description of your situation"], ["Purpose", "receiving and replying to your consultation request"], ["Retention", "kept for 1 year after the consultation ends, then destroyed"]], notice: ["We collect your name and contact details to answer your inquiry and handle them under our ", "."], policy: "Privacy Policy" },
   },
   ja: {
     name: "お名前",
@@ -73,6 +79,8 @@ const COPY: Record<L, Copy> = {
     caseType: "案件の種類",
     caseTypes: ["選択してください", "飲酒運転 (DUI)", "麻薬事件", "ボイスフィッシング", "不法就労", "性犯罪", "ビザ却下", "強制退去", "入国禁止解除", "永住権・国籍", "刑事事件", "その他"],
     nationality: "国籍",
+    title: "件名（任意）",
+    oneOfLabel: "（どちらか一方必須）",
     message: "状況のご説明",
     submit: "相談を申し込む",
     sending: "送信中…",
@@ -82,7 +90,7 @@ const COPY: Record<L, Copy> = {
     oneOf: "* は必須です。メールと連絡先はどちらか一方だけで構いません（1つは必須）。",
     requiredMessage: "お問い合わせ内容を10文字以上ご入力ください。",
     privacy: "ご入力いただいた情報はご返信の目的にのみ使用します。",
-    consent: { title: "個人情報の収集・利用について", items: [["収集項目", "お名前、メール、連絡先、事件の種類、国籍、状況の説明"], ["収集目的", "ご相談の受付および回答"], ["保有期間", "相談終了後1年間保管後に破棄"]], notice: ["ご回答のためにお名前・連絡先を収集し、", "に従って取り扱います。"], policy: "個人情報処理方針" },
+    consent: { title: "個人情報の収集・利用について", items: [["収集項目", "お名前、メール、連絡先、事件の種類、国籍、件名、状況の説明"], ["収集目的", "ご相談の受付および回答"], ["保有期間", "相談終了後1年間保管後に破棄"]], notice: ["ご回答のためにお名前・連絡先を収集し、", "に従って取り扱います。"], policy: "個人情報処理方針" },
   },
   zh: {
     name: "姓名",
@@ -91,6 +99,8 @@ const COPY: Record<L, Copy> = {
     caseType: "案件类型",
     caseTypes: ["请选择", "酒驾 (DUI)", "毒品案件", "电信诈骗", "非法就业", "性犯罪", "签证拒签", "强制出境", "解除入境禁止", "永居/国籍", "刑事案件", "其他"],
     nationality: "国籍",
+    title: "标题（选填）",
+    oneOfLabel: "（二选一必填）",
     message: "情况说明",
     submit: "申请咨询",
     sending: "提交中…",
@@ -100,7 +110,7 @@ const COPY: Record<L, Copy> = {
     oneOf: "* 为必填项。邮箱和联系方式填写其中一项即可（至少一项必填）。",
     requiredMessage: "请填写至少 10 个字的咨询内容。",
     privacy: "您填写的信息仅用于回复本次咨询。",
-    consent: { title: "个人信息收集·使用说明", items: [["收集项目", "姓名、邮箱、联系电话、案件类型、国籍、情况说明"], ["收集目的", "受理并回复咨询"], ["保留期限", "咨询结束后保存1年后销毁"]], notice: ["为回复咨询，我们收集您的姓名和联系方式，并依照", "处理。"], policy: "个人信息处理方针" },
+    consent: { title: "个人信息收集·使用说明", items: [["收集项目", "姓名、邮箱、联系电话、案件类型、国籍、标题、情况说明"], ["收集目的", "受理并回复咨询"], ["保留期限", "咨询结束后保存1年后销毁"]], notice: ["为回复咨询，我们收集您的姓名和联系方式，并依照", "处理。"], policy: "个人信息处理方针" },
   },
   vi: {
     name: "Họ và tên",
@@ -109,6 +119,8 @@ const COPY: Record<L, Copy> = {
     caseType: "Loại vụ việc",
     caseTypes: ["Vui lòng chọn", "Lái xe khi say rượu (DUI)", "Vụ việc ma túy", "Lừa đảo qua điện thoại", "Làm việc bất hợp pháp", "Tội phạm tình dục", "Từ chối visa", "Trục xuất", "Gỡ lệnh cấm nhập cảnh", "Thường trú / Quốc tịch", "Vụ án hình sự", "Khác"],
     nationality: "Quốc tịch",
+    title: "Tiêu đề (không bắt buộc)",
+    oneOfLabel: "(bắt buộc một trong hai)",
     message: "Mô tả tình huống",
     submit: "Gửi yêu cầu tư vấn",
     sending: "Đang gửi…",
@@ -118,7 +130,7 @@ const COPY: Record<L, Copy> = {
     oneOf: "* là bắt buộc. Email và số điện thoại chỉ cần điền một trong hai (bắt buộc ít nhất một).",
     requiredMessage: "Vui lòng mô tả tình huống với ít nhất 10 ký tự.",
     privacy: "Thông tin của bạn chỉ được dùng để phản hồi yêu cầu này.",
-    consent: { title: "Thông tin về việc thu thập và sử dụng dữ liệu cá nhân", items: [["Thông tin thu thập", "họ tên, email, số điện thoại, loại vụ việc, quốc tịch, mô tả tình huống"], ["Mục đích", "tiếp nhận và phản hồi yêu cầu tư vấn"], ["Thời gian lưu giữ", "lưu 1 năm sau khi kết thúc tư vấn, sau đó hủy"]], notice: ["Chúng tôi thu thập họ tên và thông tin liên hệ để trả lời yêu cầu của bạn và xử lý theo ", "."], policy: "Chính sách bảo mật" },
+    consent: { title: "Thông tin về việc thu thập và sử dụng dữ liệu cá nhân", items: [["Thông tin thu thập", "họ tên, email, số điện thoại, loại vụ việc, quốc tịch, tiêu đề, mô tả tình huống"], ["Mục đích", "tiếp nhận và phản hồi yêu cầu tư vấn"], ["Thời gian lưu giữ", "lưu 1 năm sau khi kết thúc tư vấn, sau đó hủy"]], notice: ["Chúng tôi thu thập họ tên và thông tin liên hệ để trả lời yêu cầu của bạn và xử lý theo ", "."], policy: "Chính sách bảo mật" },
   },
 };
 
@@ -172,6 +184,7 @@ export default function ContactForm({ locale }: { locale: string }) {
           contact,
           caseType: String(fd.get("caseType") ?? ""),
           nationality: String(fd.get("nationality") ?? "").trim(),
+          title: String(fd.get("title") ?? "").trim(),
           message,
           // 허니팟. input 이름을 "website" 로 두면 브라우저 자동완성이 숨은 칸을
           // 채워버려 사람이 낸 문의가 스팸으로 분류된다(2026-09-22). 이름은
@@ -213,11 +226,11 @@ export default function ContactForm({ locale }: { locale: string }) {
           <input id="cf-name" name="name" required style={fieldStyle} autoComplete="name" />
         </div>
         <div>
-          <label style={labelStyle} htmlFor="cf-email">{c.email} *</label>
+          <label style={labelStyle} htmlFor="cf-email">{c.email} {c.oneOfLabel}</label>
           <input id="cf-email" name="email" type="email" style={fieldStyle} autoComplete="email" aria-describedby="cf-oneof" />
         </div>
         <div>
-          <label style={labelStyle} htmlFor="cf-contact">{c.phone} *</label>
+          <label style={labelStyle} htmlFor="cf-contact">{c.phone} {c.oneOfLabel}</label>
           <input id="cf-contact" name="contact" style={fieldStyle} autoComplete="tel" aria-describedby="cf-oneof" />
         </div>
         <div>
@@ -233,6 +246,12 @@ export default function ContactForm({ locale }: { locale: string }) {
           <label style={labelStyle} htmlFor="cf-nationality">{c.nationality}</label>
           <input id="cf-nationality" name="nationality" style={fieldStyle} autoComplete="country-name" />
         </div>
+      </div>
+
+      {/* QA1014-FIX L5(맥7 2026-10-15) — 제목 칸(필수 아님). 동의 체크박스는 넣지 않는다(보스 msg 2746) */}
+      <div style={{ marginBottom: 16 }}>
+        <label style={labelStyle} htmlFor="cf-title">{c.title}</label>
+        <input id="cf-title" name="title" maxLength={120} style={fieldStyle} />
       </div>
 
       <div style={{ marginBottom: 16 }}>

@@ -34,6 +34,35 @@ export const OG_LOCALE: Record<string, string> = {
 /** 페이지별 title(50~60자)·description(120~155자) — STANDARD §2 */
 type Seo = { title: string; description: string };
 
+/**
+ * 사이트 기본 og:image(언어별 1200×630, QA1014-FIX L3 맥7 2026-10-15).
+ * 자체 og 이미지가 없는 페이지용. 원본은 scripts/build-site-og.mjs 가 그린 public/og/site-<언어>.jpg.
+ * 블로그 글·벌금기준표처럼 자체 이미지가 있는 페이지는 각자 images 를 그대로 쓴다.
+ */
+const OG_ALT: Record<string, string> = {
+  ko: "선샤인행정사사무소 · 외국인 출입국 사범심사",
+  en: "Law in Korea · Immigration offense review for foreigners",
+  ja: "Law in Korea · 外国人の出入国事犯審査",
+  zh: "Law in Korea · 外国人出入境违规审查",
+  vi: "Law in Korea · Xem xét vi phạm xuất nhập cảnh",
+};
+export function siteOgImages(rawLocale: string) {
+  const l = (LOCALES as readonly string[]).includes(rawLocale) ? rawLocale : "ko";
+  return [{ url: `${SITE.url}/og/site-${l}.jpg`, width: 1200, height: 630, alt: OG_ALT[l] }];
+}
+
+/** 루트 레이아웃 openGraph — [locale] 레이아웃이 같은 값에 언어별 이미지만 얹어 쓴다(값 단일 원천). */
+export const ROOT_OPEN_GRAPH = {
+  type: "website",
+  siteName: "Law in Korea",
+  title: "대한민국 출입국사범심사 · Law in Korea",
+  description:
+    "출입국사범심사·음주운전·형사사건·비자 위기 시 차분하게 함께하는 전문 행정사. 4개 국어 지원, 서울 중구.",
+  url: SITE.url,
+  locale: "ko_KR",
+  alternateLocale: ["en_US", "zh_CN", "ja_JP", "vi_VN"],
+} satisfies Metadata["openGraph"];
+
 export const PAGE_SEO: Record<string, Record<Locale, Seo>> = {
   about: {
     ko: {
@@ -267,6 +296,7 @@ export function pageMetadata(rawLocale: string, key: keyof typeof PAGE_SEO, path
       description: seo.description,
       url: `${SITE.url}/${locale}${path}`,
       locale: OG_LOCALE[locale],
+      images: siteOgImages(locale),
     },
   };
 }

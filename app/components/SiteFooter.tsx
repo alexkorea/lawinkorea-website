@@ -9,6 +9,7 @@ const NAV: Record<string, {
   address: string; addressDetail: string; tel: string; hours: string; hoursVal: string;
   copy: string;
   bizName: string; bizRep: string; bizNo: string;
+  menuTitle?: string; servicesTitle?: string; privacy?: string; terms?: string;
 }> = {
   ko: {
     about: "소개", cases: "사례", process: "절차", blog: "블로그", offenses: "위반 유형", dispositions: "처분 유형", contact: "상담 문의",
@@ -19,6 +20,8 @@ const NAV: Record<string, {
     hoursVal: "평일 09:30 – 17:30",
     copy: "선샤인행정사사무소 · Law in Korea. All rights reserved.",
     bizName: "상호", bizRep: "대표", bizNo: "사업자등록번호",
+    // QA1014-FIX L2(맥7 2026-10-15) — 한국어 푸터 영문 제목·링크를 한국어로. 다른 언어는 기본값(영문) 유지
+    menuTitle: "메뉴", servicesTitle: "주요 업무", privacy: "개인정보처리방침", terms: "이용약관",
   },
   en: {
     about: "About", cases: "Cases", process: "Process", blog: "Blog", offenses: "Offense Types", dispositions: "Disposition Types", contact: "Contact",
@@ -85,7 +88,7 @@ export default function SiteFooter() {
 
         {/* 메뉴 — QA01-FIX2(맥7) 링크 터치 높이 20 → 44px, QA01-FIX3 에서 36px 로(너무 성김). 간격 8 은 링크 높이로 흡수 */}
         <div>
-          <div style={{ color: "#fff", fontWeight: 700, fontSize: 14, marginBottom: 12, textTransform: "uppercase" as const, letterSpacing: "0.06em" }}>Menu</div>
+          <div style={{ color: "#fff", fontWeight: 700, fontSize: 14, marginBottom: 12, textTransform: "uppercase" as const, letterSpacing: "0.06em" }}>{t.menuTitle ?? "Menu"}</div>
           <nav style={{ display: "flex", flexDirection: "column" as const, gap: 0 }}>
             {[
               { href: `${base}/`, label: t.about },
@@ -105,7 +108,7 @@ export default function SiteFooter() {
 
         {/* 주요 서비스 */}
         <div>
-          <div style={{ color: "#fff", fontWeight: 700, fontSize: 14, marginBottom: 12, textTransform: "uppercase" as const, letterSpacing: "0.06em" }}>Services</div>
+          <div style={{ color: "#fff", fontWeight: 700, fontSize: 14, marginBottom: 12, textTransform: "uppercase" as const, letterSpacing: "0.06em" }}>{t.servicesTitle ?? "Services"}</div>
           <nav style={{ display: "flex", flexDirection: "column" as const, gap: 0 }}>
             {[
               { href: `${base}/offenses/drugs`, label: locale === "ko" ? "마약 사건" : locale === "ja" ? "薬物事件" : locale === "zh" ? "毒品案件" : locale === "vi" ? "Vụ án ma túy" : "Drug Offense" },
@@ -130,9 +133,9 @@ export default function SiteFooter() {
       <div style={{ padding: "8px 24px 16px", textAlign: "center" as const, fontSize: 12, color: "#475569" }}>
         © {t.copy}
         <span style={{ margin: "0 8px" }}>·</span>
-        <Link href={`${base}/privacy`} style={{ color: "#475569", textDecoration: "none", display: "inline-block", padding: "6px 4px", margin: "-6px -4px" }}>Privacy</Link>
+        <Link href={`${base}/privacy`} style={{ color: "#475569", textDecoration: "none", display: "inline-block", padding: "6px 4px", margin: "-6px -4px" }}>{t.privacy ?? "Privacy"}</Link>
         <span style={{ margin: "0 8px" }}>·</span>
-        <Link href={`${base}/terms`} style={{ color: "#475569", textDecoration: "none", display: "inline-block", padding: "6px 4px", margin: "-6px -4px" }}>Terms</Link>
+        <Link href={`${base}/terms`} style={{ color: "#475569", textDecoration: "none", display: "inline-block", padding: "6px 4px", margin: "-6px -4px" }}>{t.terms ?? "Terms"}</Link>
       </div>
     </footer>
   );
