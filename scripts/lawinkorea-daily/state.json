@@ -116,6 +116,19 @@
       ],
       "at": "2026-10-15T10:03:15.433Z",
       "batch": "20261007"
+    },
+    {
+      "slug": "false-invitation-visa-application-penalty",
+      "date": "2026-10-16",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-10-16T10:03:34.875Z",
+      "batch": "20261007"
     }
   ],
   "rejected": []

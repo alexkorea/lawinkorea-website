@@ -49,5 +49,7 @@
   "born-in-korea-residence-status-90-days": { "pexels_id": 2721581, "author": "Lisa Fotios",
     "alt": { "ko": "신생아의 손을 잡은 어른의 손", "en": "Adult hand holding a baby's hand", "zh": "大人握着婴儿的小手", "ja": "赤ちゃんの手を握る大人の手", "vi": "Bàn tay người lớn nắm tay em bé" } },
   "status-change-permit-before-activity": { "pexels_id": 8524948, "author": "Olia Danilevich",
-    "alt": { "ko": "서류에 서명하는 손을 가까이서 찍은 사진", "en": "Close-up of a hand signing a document", "zh": "在文件上签名的手部特写", "ja": "書類に署名する手のクローズアップ", "vi": "Cận cảnh bàn tay ký giấy tờ" } }
+    "alt": { "ko": "서류에 서명하는 손을 가까이서 찍은 사진", "en": "Close-up of a hand signing a document", "zh": "在文件上签名的手部特写", "ja": "書類に署名する手のクローズアップ", "vi": "Cận cảnh bàn tay ký giấy tờ" } },
+  "false-invitation-visa-application-penalty": { "pexels_id": 11385652, "author": "Diana Light",
+    "alt": { "ko": "밀랍 봉인이 찍힌 하얀 봉투 세 장", "en": "Three white envelopes with wax seals", "zh": "三个带蜡封的白色信封", "ja": "封蝋のついた白い封筒3通", "vi": "Ba phong bì trắng có dấu sáp" } }
 }
