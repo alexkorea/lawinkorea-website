@@ -129,6 +129,19 @@
       ],
       "at": "2026-10-16T10:03:34.875Z",
       "batch": "20261007"
+    },
+    {
+      "slug": "false-documents-submission-penalty",
+      "date": "2026-10-17",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-10-17T10:03:15.943Z",
+      "batch": "20261007"
     }
   ],
   "rejected": []
