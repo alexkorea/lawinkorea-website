@@ -57,15 +57,25 @@ function languagesFor(path: string, onlyLocales: readonly string[] = locales) {
   return languages;
 }
 
+// lastmod 는 실제 날짜가 있는 곳에만 쓴다(SITEMAP-LASTMOD-2, 2026-10-17 — kocation KOC-LASTMOD 와 같은 처방).
+// 종전엔 고정·허브 165건이 new Date()(빌드 시각)라 배포할 때마다 전부 '방금 수정'이 됐다.
+// 글 = 원고 frontmatter(updated, 없으면 date), /blog 목록 = 그 언어 최신 글 날짜, 고정 페이지 = 생략.
+const postDate = (post: (typeof BLOG_POSTS_DATA)[number]) => post.updated || post.date || "";
+
+const latestPostDate: Record<string, string> = {};
+for (const post of BLOG_POSTS_DATA) {
+  const d = postDate(post);
+  if (d && d > (latestPostDate[post.locale] ?? "")) latestPostDate[post.locale] = d;
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
   const entries: MetadataRoute.Sitemap = [];
 
   for (const locale of locales) {
     for (const page of pages) {
       entries.push({
         url: `${baseUrl}/${locale}${page}`,
-        lastModified: now,
+        ...(page === "/blog" && latestPostDate[locale] ? { lastModified: new Date(latestPostDate[locale]) } : {}),
         changeFrequency: "weekly",
         priority: page === "" ? 1.0 : 0.8,
         alternates: { languages: languagesFor(page) },
@@ -77,7 +87,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const page of detailHubs) {
       entries.push({
         url: `${baseUrl}/${locale}${page}`,
-        lastModified: now,
         changeFrequency: "weekly",
         priority: 0.8,
         alternates: { languages: languagesFor(page) },
@@ -90,7 +99,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const path = `/blog/${post.slug}`;
     entries.push({
       url: `${baseUrl}/${post.locale}${path}`,
-      lastModified: post.updated || post.date ? new Date(post.updated || post.date) : now,
+      ...(postDate(post) ? { lastModified: new Date(postDate(post)) } : {}),
       changeFrequency: "monthly",
       priority: post.cluster === "pillar" ? 0.9 : 0.7,
       alternates: { languages: languagesFor(path, getLocalesForSlug(post.slug)) },
