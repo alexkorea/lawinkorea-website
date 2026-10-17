@@ -29,8 +29,6 @@ related:
 
 If you miss the legal deadline to report a change in your alien registration details, a change of address, or a change/addition of workplace, you may receive a **fine notice** (notice of administrative fine, 통고처분) from the Immigration Office. Treating it as "just a fine, no big deal" can backfire later — the violation record can resurface when your stay extension or status change is reviewed.
 
-This article explains what to check when you receive a notice and how to respond, based on the Immigration Act and the official fine schedule.
-
 > Actual amounts and procedures can vary by immigration office, so always check the details printed on your own notice first.
 
 ## 1. What a "beomchikgeum" fine is — the notification disposition system

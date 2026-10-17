@@ -32,9 +32,7 @@ related:
 
 International students sometimes take a part-time job without part-time work permission, start work at a new employer without a workplace change permit, or join outside research unrelated to their studies, and then face an inquiry from the immigration office. Many of these situations come down to **activity outside your status of sojourn**.
 
-This article explains which dispositions are possible when such activity is detected and what to keep in mind during the offense review, based on the text of the Immigration Act and the Ministry of Justice "Foreigner Stay Guidance Manual" (March 2026).
-
-> The manual is a status-by-status application guide and does not describe the detailed procedure of an offense review. Actual dispositions and procedures depend on the case and the competent office, so always give priority to the documents you received and the office's instructions.
+> Actual dispositions and procedures depend on the case and the competent office, so always give priority to the documents you received and the office's instructions.
 
 ## 1. What is an activity outside your status? Article 20
 

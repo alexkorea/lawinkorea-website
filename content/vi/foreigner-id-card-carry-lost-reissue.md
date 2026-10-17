@@ -24,7 +24,7 @@ related:
   - "immigration-offense-review-guide"
 ---
 
-Với người nước ngoài sống ở Hàn Quốc, thẻ đăng ký người nước ngoài vừa là giấy tờ tùy thân vừa là giấy tờ chứng minh đang lưu trú. Để quên ở nhà rồi bị kiểm tra, hoặc làm mất ở đâu đó rồi hoảng, là chuyện không hiếm. Bài này tóm tắt mức phạt khi không mang thẻ và cách xin cấp lại khi mất, theo từng điều luật.
+Với người nước ngoài sống ở Hàn Quốc, thẻ đăng ký người nước ngoài vừa là giấy tờ tùy thân vừa là giấy tờ chứng minh đang lưu trú. Để quên ở nhà rồi bị kiểm tra, hoặc làm mất ở đâu đó rồi hoảng, là chuyện không hiếm. Bài này tóm tắt mức phạt khi không mang thẻ và cách xin cấp lại khi mất.
 
 ## Tóm tắt nhanh
 

@@ -1,6 +1,6 @@
 ---
 title: "Held by Immigration in Korea? Detention Review, Deportation Objection and Temporary Release"
-description: "How long can immigration detention last and how is family told? Detention review, the 7-day objection to a deportation order and temporary release, by article."
+description: "How long can immigration detention last and how is family told? Detention review, the 7-day objection to a deportation order and temporary release."
 date: "2026-10-13"
 category: "Removal"
 cluster: "cluster"
@@ -24,7 +24,7 @@ related:
   - "immigration-fine-notice-response-2026"
 ---
 
-When someone is held at an immigration office or detention facility after a crackdown or investigation, both they and their family are easily thrown. Many things have to happen within limited time, and not knowing what can be done and by when means missed rights. This guide sets out the grounds and length of detention under the Immigration Act and the three ways to object, article by article.
+When someone is held at an immigration office or detention facility after a crackdown or investigation, both they and their family are easily thrown. Many things have to happen within limited time, and not knowing what can be done and by when means missed rights. This guide sets out the grounds and length of detention under the Immigration Act and the three ways to object.
 
 ## Key points
 

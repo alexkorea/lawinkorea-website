@@ -32,9 +32,7 @@ related:
 
 Có du học sinh làm thêm mà chưa có giấy phép làm việc theo giờ, đi làm ở nơi mới mà chưa được phép thay đổi nơi làm việc, hoặc tham gia hoạt động nghiên cứu bên ngoài không liên quan đến việc học, rồi bị cơ quan xuất nhập cảnh · người nước ngoài điều tra. Những tình huống này có thể liên quan đến **hoạt động ngoài tư cách lưu trú**.
 
-Bài viết này tổng hợp những hình thức xử lý có thể áp dụng khi hoạt động ngoài tư cách lưu trú bị phát hiện, và những điều cần lưu ý ở giai đoạn thẩm tra vi phạm xuất nhập cảnh, dựa trên điều luật của Luật Quản lý xuất nhập cảnh và nội dung trong "Sổ tay hướng dẫn lưu trú cho người nước ngoài" (tháng 3/2026) của Bộ Tư pháp.
-
-> Sổ tay là tài liệu hướng dẫn nộp hồ sơ theo từng tư cách lưu trú, không mô tả thủ tục chi tiết của thẩm tra vi phạm xuất nhập cảnh. Việc xử lý và thủ tục thực tế tùy thuộc vào vụ việc và phán đoán của cơ quan có thẩm quyền, vì vậy hãy luôn ưu tiên xem lại giấy tờ bạn đã nhận và hướng dẫn của cơ quan.
+> Việc xử lý và thủ tục thực tế tùy thuộc vào vụ việc và phán đoán của cơ quan có thẩm quyền, vì vậy hãy luôn ưu tiên xem lại giấy tờ bạn đã nhận và hướng dẫn của cơ quan.
 
 ## 1. Hoạt động ngoài tư cách lưu trú là gì — Điều 20
 

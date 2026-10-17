@@ -24,7 +24,7 @@ related:
   - "immigration-offense-review-guide"
 ---
 
-For foreigners living in Korea, the registration card is both an ID and proof of lawful stay. Many people leave it at home and get stopped, or lose it somewhere and panic. This guide covers the fine for not carrying it and how to get a replacement, article by article.
+For foreigners living in Korea, the registration card is both an ID and proof of lawful stay. Many people leave it at home and get stopped, or lose it somewhere and panic. This guide covers the fine for not carrying it and how to get a replacement.
 
 ## Key points
 

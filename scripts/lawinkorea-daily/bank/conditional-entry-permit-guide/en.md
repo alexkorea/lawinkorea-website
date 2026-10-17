@@ -25,7 +25,7 @@ slug: "conditional-entry-permit-guide"
 locale: "en"
 ---
 
-Foreign nationals arriving in Korea go through entry inspection at the airport or port. If documents are missing, or there is doubt about whether the purpose of entry fits the status, entry may not be permitted right away. This guide covers the inspection requirements, what happens on refusal and the conditional entry permit, by article. Whether you can enter is decided at the inspection itself, so no outcome can be stated in advance.
+Foreign nationals arriving in Korea go through entry inspection at the airport or port. If documents are missing, or there is doubt about whether the purpose of entry fits the status, entry may not be permitted right away. This guide covers the inspection requirements, what happens on refusal and the conditional entry permit. Whether you can enter is decided at the inspection itself, so no outcome can be stated in advance.
 
 ## Key points
 

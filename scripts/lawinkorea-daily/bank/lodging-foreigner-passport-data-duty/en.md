@@ -25,7 +25,7 @@ slug: "lodging-foreigner-passport-data-duty"
 locale: "en"
 ---
 
-Travelers who come to Korea are sometimes asked to show a passport at hotel or guesthouse check-in, and people who run lodging businesses wonder how to handle foreign guests' information. Article 81-3 of the Immigration Act applies this duty only in very special cases. This guide covers who must do what and when, and the fines, by article.
+Travelers who come to Korea are sometimes asked to show a passport at hotel or guesthouse check-in, and people who run lodging businesses wonder how to handle foreign guests' information. Article 81-3 of the Immigration Act applies this duty only in very special cases. This guide covers who must do what and when, and the fines.
 
 ## Key points
 

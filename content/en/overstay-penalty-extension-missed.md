@@ -24,7 +24,7 @@ related:
   - "residence-change-report-fine"
 ---
 
-Forgetting an expiry date, or running out of time because documents weren't ready, happens more often than people think. The first questions are usually "How much is the fine?" and "Can I stay in Korea?" This guide walks through the overstay fine and the steps that follow, article by article.
+Forgetting an expiry date, or running out of time because documents weren't ready, happens more often than people think. The first questions are usually "How much is the fine?" and "Can I stay in Korea?" This guide walks through the overstay fine and the steps that follow.
 
 ## Key points
 

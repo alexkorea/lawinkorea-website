@@ -24,7 +24,7 @@ related:
   - "immigration-fine-notice-response-2026"
 ---
 
-Khi bị cơ quan xuất nhập cảnh bảo hộ (tạm giữ) trong quá trình kiểm tra hoặc điều tra, cả bản thân và gia đình đều dễ hoang mang. Thời gian có hạn mà việc cần làm lại nhiều; không biết làm gì trước hạn nào thì dễ bỏ lỡ quyền của mình. Bài này tóm tắt điều kiện và thời hạn bảo hộ theo Luật Quản lý Xuất nhập cảnh, cùng ba cách phản đối, theo từng điều luật.
+Khi bị cơ quan xuất nhập cảnh bảo hộ (tạm giữ) trong quá trình kiểm tra hoặc điều tra, cả bản thân và gia đình đều dễ hoang mang. Thời gian có hạn mà việc cần làm lại nhiều; không biết làm gì trước hạn nào thì dễ bỏ lỡ quyền của mình. Bài này tóm tắt điều kiện và thời hạn bảo hộ theo Luật Quản lý Xuất nhập cảnh, cùng ba cách phản đối.
 
 ## Tóm tắt nhanh
 

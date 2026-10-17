@@ -1,6 +1,6 @@
 ---
 title: "Baby Born in Korea? Why You Must Obtain Residence Status Within 90 Days of Birth"
-description: "A foreign child born in Korea must obtain residence status within 90 days of birth. How to apply, fines if late and deportation risk, by article."
+description: "A foreign child born in Korea must obtain residence status within 90 days of birth. How to apply, fines if late and deportation risk."
 date: "2026-10-14"
 category: "Penalties"
 cluster: "cluster"

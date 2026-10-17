@@ -24,7 +24,7 @@ related:
   - "residence-change-report-fine"
 ---
 
-Quên ngày hết hạn visa, hoặc hồ sơ gia hạn chưa chuẩn bị kịp nên để quá hạn, là chuyện không hiếm. Câu hỏi đầu tiên thường là "bị phạt bao nhiêu" và "có được ở lại Hàn Quốc không". Bài này tóm tắt mức phạt khi quá hạn lưu trú và các bước tiếp theo, theo thứ tự điều luật.
+Quên ngày hết hạn visa, hoặc hồ sơ gia hạn chưa chuẩn bị kịp nên để quá hạn, là chuyện không hiếm. Câu hỏi đầu tiên thường là "bị phạt bao nhiêu" và "có được ở lại Hàn Quốc không". Bài này tóm tắt mức phạt khi quá hạn lưu trú và các bước tiếp theo.
 
 ## Tóm tắt nhanh
 

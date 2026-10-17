@@ -29,8 +29,6 @@ related:
 
 Nếu không khai báo thay đổi thông tin đăng ký người nước ngoài, thay đổi nơi cư trú, hoặc thay đổi/bổ sung nơi làm việc trong thời hạn luật định, bạn có thể nhận được **thông báo phạt** (thông báo xử phạt — giấy báo tiền phạt) từ Cục Xuất nhập cảnh. Nếu nghĩ đơn giản "nộp phạt là xong", về sau lịch sử vi phạm này có thể trở thành bất lợi khi xét gia hạn lưu trú hoặc thay đổi tư cách.
 
-Bài viết này tổng hợp những điều cần kiểm tra khi nhận thông báo và cách xử lý, dựa trên Luật Quản lý xuất nhập cảnh và bảng mức phạt chính thức.
-
 > Mức phạt và thủ tục thực tế có thể khác nhau tùy cơ quan xuất nhập cảnh quản lý, vì vậy hãy luôn ưu tiên kiểm tra nội dung ghi trên thông báo bạn nhận được.
 
 ## 1. Beomchikgeum là gì — chế độ thông báo xử phạt

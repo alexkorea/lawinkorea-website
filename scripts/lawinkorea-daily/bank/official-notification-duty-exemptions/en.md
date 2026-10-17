@@ -25,7 +25,7 @@ slug: "official-notification-duty-exemptions"
 locale: "en"
 ---
 
-Foreigners with a problem in their status or stay period often worry, when going to a hospital, sending a child to school or reporting a crime against them, that an official will notify immigration. Article 84 of the Immigration Act sets the officials' reporting duty and its exceptions. This guide explains the scope and limits by article. First, though: the exemptions are limited and are not a way to resolve a residence problem.
+Foreigners with a problem in their status or stay period often worry, when going to a hospital, sending a child to school or reporting a crime against them, that an official will notify immigration. Article 84 of the Immigration Act sets the officials' reporting duty and its exceptions. This guide explains the scope and limits. First, though: the exemptions are limited and are not a way to resolve a residence problem.
 
 ## Key points
 
