@@ -36,7 +36,7 @@ related:
 Chủ sử dụng thuê người nước ngoài không có tư cách lưu trú được phép làm việc là vi phạm Điều 18 khoản 3 Luật Quản lý Xuất nhập cảnh Hàn Quốc và có thể bị **phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won** (Điều 94 khoản 9). Khi đã xác định được vi phạm qua điều tra, cơ quan xuất nhập cảnh có thể thông báo bằng văn bản yêu cầu nộp tiền phạt (thông báo xử phạt — giấy báo tiền phạt, Điều 102 khoản 1). Mức chuẩn tùy theo số người được thuê và thời gian vi phạm, **từ 3 triệu won cho 1 người dưới 3 tháng, tối đa 30 triệu won** (tính đến tháng 10/2026). Ngoài ra, chủ sử dụng có thể bị hạn chế mời người nước ngoài và tuyển lao động nước ngoài trong một thời gian.
 
 > **Tóm tắt**
-> - Căn cứ: Luật Quản lý Xuất nhập cảnh Điều 18 khoản 3 (cấm thuê) → Điều 94 khoản 9 (tù đến 3 năm hoặc phạt đến 30 triệu won, tính đến tháng 10/2026)
+> - Hình phạt: thuê người không có tư cách làm việc (vi phạm Điều 18 khoản 3 Luật Quản lý Xuất nhập cảnh) bị phạt tù đến 3 năm hoặc phạt đến 30 triệu won theo Điều 94 khoản 9 (tính đến tháng 10/2026)
 > - Mức chuẩn (Thông tư thi hành, Bảng 8): với 1 người là 3–11 triệu won tùy thời gian vi phạm, tối đa 30 triệu won khi số người tăng (tính đến tháng 10/2026)
 > - Công ty cũng bị phạt: pháp nhân hoặc chủ doanh nghiệp cá nhân bị phạt tiền theo quy định xử phạt kép (Điều 99-3 khoản 2)
 > - Hệ quả kèm theo: hạn chế cấp giấy xác nhận cấp thị thực 1 hoặc 3 năm (Thông tư thi hành, Điều 17-3), hạn chế tuyển lao động nước ngoài 3 năm (Luật về việc làm của lao động nước ngoài, Điều 20)
@@ -123,13 +123,6 @@ Nội dung không khớp với biên bản lời khai có thể gây bất lợi
 - **Soạn hồ sơ mời** người nước ngoài sau khi hết thời hạn hạn chế
 
 Bào chữa trong giai đoạn điều tra, xét xử hình sự sau khi bị tố giác **nằm ngoài phạm vi nghiệp vụ của hành chính sĩ** nên chúng tôi không nhận; đại diện trong các thủ tục theo pháp luật lao động như chế độ cấp phép việc làm là công việc của chuyên viên lao động được cấp phép, vì vậy bạn nên tham khảo chuyên viên này.
-
-> **Căn cứ chính thức — nội dung điều luật (bản dịch tiếng Việt của chúng tôi)**
-> - Luật Quản lý Xuất nhập cảnh Điều 18 khoản 3: "Không ai được thuê người không có tư cách lưu trú theo khoản 1."
-> - Điều 94 khoản 9: "người thuê người không có tư cách lưu trú được phép làm việc, vi phạm Điều 18 khoản 3" — tù đến 3 năm hoặc phạt đến 30 triệu won (tính đến tháng 10/2026)
-> - Điều 105 khoản 1: người vi phạm xuất nhập cảnh phải nộp tiền phạt trong 15 ngày kể từ khi nhận thông báo
-> - Thông tư thi hành Điều 86 khoản 2: tiền phạt có thể được giảm hoặc tăng trong phạm vi một nửa mức chuẩn, xét tuổi và hoàn cảnh, động cơ và hậu quả, khả năng chi trả, số lần vi phạm
-> - Mức chuẩn: Thông tư thi hành Luật Quản lý Xuất nhập cảnh, Bảng 8 — Tiêu chuẩn định mức tiền phạt (sửa đổi ngày 25/9/2020)
 
 **Trang liên quan**
 - [Bảng mức phạt xuất nhập cảnh — theo loại vi phạm](/vi/offenses/immigration-fines)

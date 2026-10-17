@@ -37,6 +37,9 @@ node "$HOME/scripts/bizno-footer-gate.mjs" lawinkorea --start "npx next start -p
 echo "[3.9/4] 금지목록 검사 (docs/seo/publish-blocklist.txt — 빌드 결과물·사이트맵)"
 /bin/bash "$DEPLOY_GUARD" --check .open-next .next/server/app
 
+echo "[3.95/4] NOCITE 게이트 — 업로드 폴더·프리렌더 HTML 에 근거·출처·확인일 표시 0건 (NOCITE-ALL-4, 보스 msg 3373·3377)"
+node scripts/nocite-gate.mjs .open-next/assets .next/server/app
+
 echo "[4/4] Pages direct upload → lawinkorea-pages (branch main)"
 cd .open-next/assets
 CLOUDFLARE_API_TOKEN="$(cat "$HOME/.local/secrets/cf_pages_token.txt")" \

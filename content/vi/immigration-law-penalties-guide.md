@@ -37,7 +37,7 @@ Khi vi phạm Luật Quản lý xuất nhập cảnh, điều cần lưu ý khô
 
 Bài viết này trích dẫn nguyên văn các điều khoản chế tài tại Điều 93-3 và Điều 94~100 của Luật Quản lý xuất nhập cảnh theo **văn bản hiện hành**, đồng thời sắp xếp theo tình huống thực tế.
 
-> **Các trích dẫn pháp luật trong bài đã được đối chiếu qua API Hệ thống thông tin pháp luật quốc gia (open.law.go.kr).** Tuy nhiên mức phạt thực tế của từng vụ có thể khác nhau theo khung lượng hình của viện kiểm sát và tòa án; bài viết chỉ mang tính thông tin chung.
+> Mức phạt thực tế của từng vụ có thể khác nhau theo khung lượng hình của viện kiểm sát và tòa án; bài viết chỉ mang tính thông tin chung.
 
 ## 1. Cấu trúc chế tài theo từng điều khoản
 

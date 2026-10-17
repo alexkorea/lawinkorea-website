@@ -121,15 +121,6 @@ Nội dung không đúng sự thật sẽ bị đối chiếu với biên bản 
 
 Bào chữa trong điều tra hoặc xét xử hình sự sau khi bị tố giác **nằm ngoài phạm vi nghiệp vụ của hành chính sĩ**, nên chúng tôi không nhận.
 
-> **Căn cứ chính thức — nội dung điều luật (bản dịch tiếng Việt của chúng tôi)**
-> - Luật Quản lý Xuất nhập cảnh, Điều 36 khoản 1: "Người nước ngoài đã đăng ký theo Điều 31 khi thay đổi nơi cư trú phải, theo quy định của Nghị định Tổng thống, khai báo chuyển đến trong 15 ngày kể từ ngày chuyển đến với người đứng đầu thành phố, quận, huyện hoặc eup, myeon, dong nơi cư trú mới, hoặc với người đứng đầu cơ quan xuất nhập cảnh địa phương có thẩm quyền đối với nơi cư trú đó."
-> - Điều 98: "Người thuộc một trong các trường hợp sau bị phạt tiền không quá 1 triệu won: … 2 (tính đến tháng 10/2026). Người vi phạm nghĩa vụ khai báo thay đổi nơi cư trú theo Điều 36 khoản 1"
-> - Điều 88-2 khoản 2: "Việc đăng ký người nước ngoài và khai báo thay đổi nơi cư trú theo Luật này thay cho đăng ký cư dân và khai báo chuyển đến."
-> - Điều 100 khoản 2 điểm 1: người vi phạm Điều 35 — phạt hành chính không quá 1 triệu won (tính đến tháng 10/2026)
-> - Mức tiền phạt cơ sở: Thông tư thi hành Luật Quản lý Xuất nhập cảnh [Bảng 7] / mức phạt hành chính cơ sở: Nghị định thi hành Luật Quản lý Xuất nhập cảnh [Bảng 2]
->
-> Ngày đối chiếu: 7/10/2026, kiểm tra văn bản hiện hành tại Trung tâm Thông tin Pháp luật Quốc gia (Luật có hiệu lực 23/1/2026, Nghị định thi hành có hiệu lực 2/10/2026)
-
 **Trang liên quan**
 - [Bảng tiền phạt xuất nhập cảnh — giải thích theo loại vi phạm](/vi/offenses/immigration-fines)
 - [Thẩm tra vi phạm xuất nhập cảnh là gì](/vi/immigration-offense-review)

@@ -112,12 +112,6 @@ Thư hối lỗi và đơn xin giảm nhẹ chỉ có ý nghĩa khi được n�
 
 Hành chính sĩ được soạn văn bản nộp cho cơ quan hành chính, soạn văn bản chứng minh sự việc, dịch và nộp thay các văn bản đó (Luật Hành chính sĩ Hàn Quốc, Điều 2 khoản 1). Bào chữa trong phiên tòa hình sự và đại diện tố tụng **nằm ngoài phạm vi nghiệp vụ của hành chính sĩ**, nên chúng tôi không nhận.
 
-> **Căn cứ chính thức — nội dung điều luật (bản dịch tiếng Việt của chúng tôi)**
-> - Luật Quản lý Xuất nhập cảnh Điều 103 khoản 2: "Bộ trưởng Tư pháp có thể miễn thông báo xử lý theo Điều 102 khoản 1, có xem xét tuổi và hoàn cảnh của người vi phạm, động cơ và hậu quả của vi phạm, khả năng chi trả tiền phạt và các tình tiết khác."
-> - Thông tư thi hành Điều 86 khoản 2: tiền phạt có thể được giảm hoặc tăng trong phạm vi một nửa mức chuẩn, "xét tuổi và hoàn cảnh, động cơ và hậu quả vi phạm, khả năng chi trả tiền phạt, số lần vi phạm..."
-> - Luật Quản lý Xuất nhập cảnh Điều 48 khoản 4: biên bản phải được đọc cho người bị nghi vấn nghe hoặc cho xem, hỏi có ghi sai không; nếu người đó yêu cầu thêm, xóa hoặc sửa nội dung thì phải ghi lời khai đó vào biên bản
-> - Luật Hành chính sĩ Điều 2 khoản 1: soạn văn bản nộp cơ quan hành chính (điểm 1), soạn văn bản về quyền, nghĩa vụ hoặc chứng minh sự việc (điểm 2), dịch văn bản liên quan đến công việc của cơ quan hành chính (điểm 3), nộp thay các văn bản đã soạn (điểm 4)
-
 **Trang liên quan**
 - [Thẩm tra vi phạm xuất nhập cảnh là gì và cần chuẩn bị gì](/vi/immigration-offense-review)
 - [Hồ sơ cần chuẩn bị khi thẩm tra vi phạm](/vi/documents)

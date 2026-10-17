@@ -405,7 +405,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             {groups.map((g) => (
               <div key={g.id} id={g.id} style={{ marginBottom: 32, scrollMarginTop: 90 }}>
                 <h2 style={{ fontSize: 17, fontWeight: 700, color: g.severity === "high" ? A.red : A.navy, marginBottom: 6 }}>{g.title}</h2>
-                <div style={{ fontSize: 12, color: A.primary, marginBottom: 4, fontWeight: 600 }}>{L.kinds[g.kind]} · {g.lawText}</div>
+                <div style={{ fontSize: 12, color: A.primary, marginBottom: 4, fontWeight: 600 }}>{L.kinds[g.kind]}</div>
                 <p style={{ fontSize: 14, color: A.muted, marginBottom: 10, lineHeight: 1.6 }}>{g.desc}</p>
                 <table style={{ width: "100%", borderCollapse: "collapse" as const, tableLayout: "fixed" as const, fontSize: 14 }}>
                   <thead>

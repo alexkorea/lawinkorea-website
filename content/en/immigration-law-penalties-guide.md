@@ -36,7 +36,7 @@ For foreigners violating the Korean Immigration Control Act, the **fine itself i
 
 This guide presents Articles 93-3 and 94 to 100 of the **current Immigration Control Act**, organized by case type.
 
-> **All citations verified through the National Law Information Center API (open.law.go.kr).** Actual case-level fines depend on prosecution and court sentencing standards; this guide provides general information.
+> Actual case-level fines depend on prosecution and court sentencing standards; this guide provides general information.
 
 ## 1. Immigration Control Act — Penalty Structure by Provision
 

@@ -77,7 +77,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
     <table style={{ width: "100%", borderCollapse: "collapse", tableLayout: "fixed", fontSize: 14 }}>
       {/* 표 제목은 바로 위 h3 와 겹치므로 눈에는 감추고 스크린리더에만 남긴다 */}
       <caption style={{ position: "absolute", width: 1, height: 1, overflow: "hidden", clip: "rect(0 0 0 0)", whiteSpace: "nowrap" }}>
-        {g.title} — {g.lawText}
+        {g.title}
       </caption>
       <thead>
         <tr style={{ background: "#eef2f7" }}>
@@ -126,24 +126,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       </div>
       <h3 style={{ fontSize: 17, fontWeight: 700, color: A.navy, lineHeight: 1.4, margin: "0 0 8px" }}>{g.title}</h3>
       <p style={{ fontSize: 14, color: A.muted, lineHeight: 1.7, margin: "0 0 12px" }}>{g.desc}</p>
-      {/* BEYE-1008-FIX #12: 근거(벌칙 조항·위반 조항·별표)는 카드마다 접기 1개로 */}
-      <details style={{ fontSize: 12, color: A.muted, margin: "0 0 14px", lineHeight: 1.8 }}>
-        <summary style={{ cursor: "pointer", fontWeight: 600, color: A.primary }}>{ui.basisToggle}</summary>
-        <dl style={{ margin: "6px 0 0" }}>
-          <div>
-            <dt style={{ display: "inline", fontWeight: 600 }}>{ui.lawLabel}: </dt>
-            <dd style={{ display: "inline", margin: 0 }}>{g.lawText}</dd>
-          </div>
-          <div>
-            <dt style={{ display: "inline", fontWeight: 600 }}>{ui.violatedLabel}: </dt>
-            <dd style={{ display: "inline", margin: 0 }}>{g.violatedText}</dd>
-          </div>
-          <div>
-            <dt style={{ display: "inline", fontWeight: 600 }}>{ui.basisLabel}: </dt>
-            <dd style={{ display: "inline", margin: 0 }}>{g.sourceText}</dd>
-          </div>
-        </dl>
-      </details>
+      {/* NOCITE-ALL-4(10-17): 카드별 "근거 법령 보기"(벌칙 조항·위반 조항·별표) 접기는 화면에서 삭제. 조문 데이터는 immigration-fines.json 에 내부용으로만 남는다. */}
       {table(g)}
       {g.byHeadcount ? (
         <p style={{ fontSize: 12, color: A.amber, margin: "10px 0 0", lineHeight: 1.6 }}>{ui.headcountNote}</p>
@@ -213,7 +196,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           ))}
         </ol>
 
-        {/* SANCTION-DATE-2: 기준표 상단 기준일·출처 1줄 */}
+        {/* SANCTION-DATE-2: 기준표 상단 기준일 1줄(NOCITE-ALL-4: 출처 표기는 빼고 기간만) */}
         <p style={{ fontSize: 13, color: A.muted, margin: "0 0 14px" }}>{ui.asOfLine}</p>
 
         <h2 style={{ fontSize: 18, fontWeight: 700, color: A.navy, margin: "0 0 14px" }}>{ui.sectionFine}</h2>

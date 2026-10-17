@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && node scripts/seo-gate.mjs",
+    "build": "next build && node scripts/seo-gate.mjs && node scripts/nocite-gate.mjs .next/server/app",
     "start": "next start",
     "blog:data": "node scripts/build-blog-data.mjs",
-    "prebuild": "node scripts/qr-hash-gate.mjs && node scripts/build-blog-data.mjs",
-    "seo:gate": "node scripts/seo-gate.mjs"
+    "prebuild": "node scripts/qr-hash-gate.mjs && node scripts/nocite-src.mjs && node scripts/build-blog-data.mjs",
+    "seo:gate": "node scripts/seo-gate.mjs",
+    "nocite:gate": "node scripts/nocite-src.mjs && node scripts/nocite-gate.mjs .next/server/app"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

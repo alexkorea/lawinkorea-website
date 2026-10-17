@@ -11,6 +11,7 @@
  *                             keywords·faq·related) + slug·locale, date 없음. 본문 H1 없음(페이지가 title 을 H1 로 쓴다).
  *   bank/<slug>/meta.json     { order, batch, pexels_id, pexels_author, cover_alt:{loc}, og_category:{loc}, imageTitle:{loc} }
  *   bank/<slug>/evidence.md   근거 대조표(발행하지 않는다, 검수용)
+ *                             본문에는 근거 법령 박스·'조문 원문'·'Legal basis:'·국가법령정보센터/law.go.kr·확인일을 쓰지 않는다(NOCITE-ALL-4, 검사 rc=3)
  *   state.json                발행 이력(published[])·거부 이력(rejected[])
  *
  * 규칙
@@ -37,6 +38,7 @@ import { fileURLToPath } from 'node:url'
 import { spawnSync } from 'node:child_process'
 import { createRequire } from 'node:module'
 import { findPriceViolations, findSanctionDateViolations } from './price-check.mjs'
+import { findNociteViolations } from './nocite-check.mjs' // NOCITE-ALL-4(10-17): 근거·출처·확인일 블록이 든 원고는 발행·설치(bank-pull --check-all) 거부
 // BANK-FP2(10-10): 제재 금액 기준일은 경고로 시작했다. SANCTION-DATE(10-10): 은행·NAS·inbox 240파일 위반 0 확인 후 차단(rc=3)으로 전환.
 const SANCTION_DATE_STRICT = true
 
@@ -149,6 +151,7 @@ function checkEntry(e) {
     for (const m of raw.matchAll(BRAND_FORBIDDEN)) fails.push(`[${loc}] 브랜드 E 외 표기 "${m[0]}"`)
     for (const v of findPriceViolations(raw)) fails.push(`[${loc}] 자사 요금 표기: ${v}`) // price-check.mjs(BANK-FP 10-10)
     { const sv = findSanctionDateViolations(raw); if (sv.length) (SANCTION_DATE_STRICT ? fails : warns).push(`[${loc}] 제재 금액 기준일·출처 누락 ${sv.length}곳: ${sv[0]}`) } // price-check.mjs(BANK-FP2 10-10)
+    for (const v of findNociteViolations(raw)) fails.push(`[${loc}] 근거·출처 표시(NOCITE) [${v.rule}] …${v.ctx.slice(0, 80)}… — 블록·문장째 빼고 내용 문장만 남길 것`)
     if (HYPE_RE.test(raw)) fails.push(`[${loc}] 과장·보장 표현: ${HYPE_RE.exec(raw)[0]}`)
     for (const ph of new Set(raw.match(PHONE_RE) || [])) if (ph !== PHONE) fails.push(`[${loc}] 등록 외 전화번호 ${ph} (정답 ${PHONE})`)
     for (const em of new Set(raw.match(/[\w.+-]+@[\w-]+(?:\.[\w-]+)+/g) || [])) if (!EMAILS.includes(em.toLowerCase())) fails.push(`[${loc}] 등록 외 이메일 ${em}`)

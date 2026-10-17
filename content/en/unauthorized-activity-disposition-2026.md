@@ -32,9 +32,9 @@ related:
 
 International students sometimes take a part-time job without part-time work permission, start work at a new employer without a workplace change permit, or join outside research unrelated to their studies, and then face an inquiry from the immigration office. Many of these situations come down to **activity outside your status of sojourn**.
 
-This article explains which dispositions are possible when such activity is detected and what to keep in mind during the offense review, based on the text of the Immigration Act and what the Ministry of Justice "Foreigner Stay Guidance Manual" (March 2026) actually says.
+This article explains which dispositions are possible when such activity is detected and what to keep in mind during the offense review, based on the text of the Immigration Act and the Ministry of Justice "Foreigner Stay Guidance Manual" (March 2026).
 
-> **This article relies only on the current statutory text at law.go.kr and what the Ministry of Justice manual states.** The manual is a status-by-status application guide and does not describe the detailed procedure of an offense review. Actual dispositions and procedures depend on the case and the competent office, so always give priority to the documents you received and the office's instructions.
+> The manual is a status-by-status application guide and does not describe the detailed procedure of an offense review. Actual dispositions and procedures depend on the case and the competent office, so always give priority to the documents you received and the office's instructions.
 
 ## 1. What is an activity outside your status? Article 20
 
@@ -49,11 +49,11 @@ Typical examples in the manual:
 
 Immigration officers may investigate a foreigner suspected of falling under a ground for deportation (Article 47). Depending on the result, there are three main types of disposition.
 
-| Disposition | Basis | Content |
-|---|---|---|
-| Notification disposition | Art. 102 | When evidence of an offense is confirmed, a written notice requires payment of a fine |
-| Departure order | Art. 68 | An order with a departure deadline, e.g., for a person who wishes to leave voluntarily at own expense; also covers a person for whom departure after a notification disposition is deemed appropriate |
-| Deportation | Art. 46(1), Art. 59(2) | A deportation order if the person is found to fall under the grounds for deportation |
+| Disposition | Content |
+|---|---|
+| Notification disposition | When evidence of an offense is confirmed, a written notice requires payment of a fine (Art. 102) |
+| Departure order | An order with a departure deadline, e.g., for a person who wishes to leave voluntarily at own expense; also covers a person for whom departure after a notification disposition is deemed appropriate (Art. 68) |
+| Deportation | A deportation order if the person is found to fall under the grounds for deportation (Art. 46(1), Art. 59(2)) |
 
 A person who violates Article 20 is listed as a deportation subject in Article 46(1), item 8. However, being listed is different from a deportation order actually being issued. The competent office decides the disposition case by case.
 

@@ -37,11 +37,6 @@ Bài viết này tổng hợp ảnh hưởng của tiền án lên thường tr�
 
 ## 1. Căn cứ loại hồ sơ thường trú F-5 (Luật Quản lý xuất nhập cảnh)
 
-### Căn cứ pháp lý
-- Luật Quản lý xuất nhập cảnh, Điều 10-3 (tư cách thường trú)
-- Nghị định thi hành, Điều 12-2 (điều kiện tư cách thường trú)
-- Nghị định thi hành, Phụ lục 1-3 (các loại và điều kiện tư cách thường trú)
-
 Điều kiện thường trú được quy định chi tiết theo từng loại tại Điều 12-2 và Phụ lục 1-3 (F-5-1 ~ F-5-17). Theo Quy tắc thi hành Luật Quản lý xuất nhập cảnh Điều 18-4 khoản 1 điểm 1, yêu cầu về phẩm hạnh không được đáp ứng nếu thuộc một trong các trường hợp sau:
 
 1. **Án tù hoặc giam giữ (thi hành thực tế)** — chưa qua 5 năm kể từ khi chấp hành xong hoặc được miễn chấp hành

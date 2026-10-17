@@ -32,9 +32,9 @@ related:
 
 Có du học sinh làm thêm mà chưa có giấy phép làm việc theo giờ, đi làm ở nơi mới mà chưa được phép thay đổi nơi làm việc, hoặc tham gia hoạt động nghiên cứu bên ngoài không liên quan đến việc học, rồi bị cơ quan xuất nhập cảnh · người nước ngoài điều tra. Những tình huống này có thể liên quan đến **hoạt động ngoài tư cách lưu trú**.
 
-Bài viết này tổng hợp những hình thức xử lý có thể áp dụng khi hoạt động ngoài tư cách lưu trú bị phát hiện, và những điều cần lưu ý ở giai đoạn thẩm tra vi phạm xuất nhập cảnh, dựa trên điều luật của Luật Quản lý xuất nhập cảnh và nội dung thực tế trong "Sổ tay hướng dẫn lưu trú cho người nước ngoài" (tháng 3/2026) của Bộ Tư pháp.
+Bài viết này tổng hợp những hình thức xử lý có thể áp dụng khi hoạt động ngoài tư cách lưu trú bị phát hiện, và những điều cần lưu ý ở giai đoạn thẩm tra vi phạm xuất nhập cảnh, dựa trên điều luật của Luật Quản lý xuất nhập cảnh và nội dung trong "Sổ tay hướng dẫn lưu trú cho người nước ngoài" (tháng 3/2026) của Bộ Tư pháp.
 
-> **Bài viết chỉ dựa trên điều luật hiện hành tại law.go.kr và nội dung ghi trong sổ tay của Bộ Tư pháp.** Sổ tay là tài liệu hướng dẫn nộp hồ sơ theo từng tư cách lưu trú, không mô tả thủ tục chi tiết của thẩm tra vi phạm xuất nhập cảnh. Việc xử lý và thủ tục thực tế tùy thuộc vào vụ việc và phán đoán của cơ quan có thẩm quyền, vì vậy hãy luôn ưu tiên xem lại giấy tờ bạn đã nhận và hướng dẫn của cơ quan.
+> Sổ tay là tài liệu hướng dẫn nộp hồ sơ theo từng tư cách lưu trú, không mô tả thủ tục chi tiết của thẩm tra vi phạm xuất nhập cảnh. Việc xử lý và thủ tục thực tế tùy thuộc vào vụ việc và phán đoán của cơ quan có thẩm quyền, vì vậy hãy luôn ưu tiên xem lại giấy tờ bạn đã nhận và hướng dẫn của cơ quan.
 
 ## 1. Hoạt động ngoài tư cách lưu trú là gì — Điều 20
 
@@ -49,11 +49,11 @@ Các ví dụ tiêu biểu trong sổ tay:
 
 Công chức quản lý xuất nhập cảnh có thể điều tra sự việc đối với người nước ngoài bị nghi thuộc lý do cưỡng chế xuất cảnh (Điều 47). Tùy kết quả điều tra, có ba hình thức xử lý chính.
 
-| Hình thức | Căn cứ | Nội dung |
-|---|---|---|
-| Thông báo xử phạt (통고처분) | Điều 102 | Khi đã có bằng chứng xác đáng về hành vi vi phạm, thông báo bằng văn bản yêu cầu nộp tiền phạt |
-| Lệnh xuất cảnh (출국명령) | Điều 68 | Ra lệnh kèm thời hạn xuất cảnh, ví dụ với người muốn tự nguyện xuất cảnh bằng chi phí của mình; cũng áp dụng cho người được cho là phù hợp để xuất cảnh sau thông báo xử phạt |
-| Cưỡng chế xuất cảnh (강제퇴거) | Điều 46 khoản 1, Điều 59 khoản 2 | Ra lệnh cưỡng chế xuất cảnh khi xác định thuộc đối tượng bị cưỡng chế xuất cảnh |
+| Hình thức | Nội dung |
+|---|---|
+| Thông báo xử phạt (통고처분) | Khi đã có bằng chứng xác đáng về hành vi vi phạm, thông báo bằng văn bản yêu cầu nộp tiền phạt (Điều 102) |
+| Lệnh xuất cảnh (출국명령) | Ra lệnh kèm thời hạn xuất cảnh, ví dụ với người muốn tự nguyện xuất cảnh bằng chi phí của mình; cũng áp dụng cho người được cho là phù hợp để xuất cảnh sau thông báo xử phạt (Điều 68) |
+| Cưỡng chế xuất cảnh (강제퇴거) | Ra lệnh cưỡng chế xuất cảnh khi xác định thuộc đối tượng bị cưỡng chế xuất cảnh (Điều 46 khoản 1, Điều 59 khoản 2) |
 
 Người vi phạm Điều 20 được liệt kê là đối tượng cưỡng chế xuất cảnh tại Điều 46 khoản 1 mục 8. Tuy nhiên, việc được liệt kê khác với việc lệnh cưỡng chế xuất cảnh thực sự được ban hành. Cơ quan có thẩm quyền quyết định hình thức xử lý theo từng vụ việc.
 

@@ -483,7 +483,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             "Trung hạn (3–5 năm): Làm việc trái phép, có tiền án phạm tội vừa",
             "Dài hạn (5–10 năm): Tội phạm ma túy, tội phạm tình dục, liên quan băng đảng",
             "Cấm vĩnh viễn: Đe dọa an ninh quốc gia, vi phạm nghiêm trọng lặp đi lặp lại",
-            "Căn cứ pháp lý (Điều 11): Bệnh tâm thần, nghiện ma túy, liên quan khủng bố, v.v.",
+            "Các trường hợp theo Điều 11: Bệnh tâm thần, nghiện ma túy, liên quan khủng bố, v.v.",
           ],
           s2: "Kiểm tra và dỡ bỏ lệnh cấm nhập cảnh",
           p2: "Quy trình kiểm tra tình trạng cấm nhập cảnh và nộp đơn xin dỡ bỏ như sau.",

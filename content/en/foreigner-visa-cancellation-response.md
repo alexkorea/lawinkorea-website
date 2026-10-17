@@ -23,7 +23,7 @@ faq:
 ---
 
 Receiving a visa status cancellation notice can be alarming, but acting quickly gives you real options.
-Under Article 89 of the [Immigration Act](https://www.law.go.kr), you have the right to file an objection against the cancellation decision — and you can pursue administrative litigation to challenge the ruling itself.
+Under Article 89 of the Immigration Act, you have the right to file an objection against the cancellation decision — and you can pursue administrative litigation to challenge the ruling itself.
 This guide covers the main grounds for cancellation, the step-by-step response process, and the points to check when you respond.
 
 ## Common Grounds for Visa Status Cancellation
@@ -135,7 +135,3 @@ Sunshine Administrative Agency Office specializes in visa status cancellation de
 Multilingual consultations available in English, Korean, Chinese, Japanese, and Vietnamese.
 
 **[Request a Consultation Now →](/en/contact)**
-
----
-
-*Legal reference: [Immigration Act Article 89 (Revocation of Status of Sojourn)](https://www.law.go.kr) · [Administrative Appeals Act](https://www.law.go.kr)*
