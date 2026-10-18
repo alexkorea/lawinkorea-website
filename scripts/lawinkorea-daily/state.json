@@ -142,6 +142,19 @@
       ],
       "at": "2026-10-17T10:03:15.943Z",
       "batch": "20261007"
+    },
+    {
+      "slug": "alien-registration-info-change-15days",
+      "date": "2026-10-18",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-10-18T10:03:11.824Z",
+      "batch": "20261007"
     }
   ],
   "rejected": []

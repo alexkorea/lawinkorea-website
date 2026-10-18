@@ -53,5 +53,7 @@
   "false-invitation-visa-application-penalty": { "pexels_id": 11385652, "author": "Diana Light",
     "alt": { "ko": "밀랍 봉인이 찍힌 하얀 봉투 세 장", "en": "Three white envelopes with wax seals", "zh": "三个带蜡封的白色信封", "ja": "封蝋のついた白い封筒3通", "vi": "Ba phong bì trắng có dấu sáp" } },
   "false-documents-submission-penalty": { "pexels_id": 6358840, "author": "Anna Tarazevich",
-    "alt": { "ko": "나무 책상 위 서류에 도장을 찍는 손", "en": "Hand stamping a document on a wooden desk", "zh": "木桌上给文件盖章的手", "ja": "木の机の上で書類に印を押す手", "vi": "Bàn tay đóng dấu lên giấy tờ trên bàn gỗ" } }
+    "alt": { "ko": "나무 책상 위 서류에 도장을 찍는 손", "en": "Hand stamping a document on a wooden desk", "zh": "木桌上给文件盖章的手", "ja": "木の机の上で書類に印を押す手", "vi": "Bàn tay đóng dấu lên giấy tờ trên bàn gỗ" } },
+  "alien-registration-info-change-15days": { "pexels_id": 8376342, "author": "Tima Miroshnichenko",
+    "alt": { "ko": "나무 탁자 위 클립보드에 글을 쓰는 손", "en": "Hand writing on a clipboard on a wooden table", "zh": "在木桌上的写字板上书写的手", "ja": "木のテーブルでクリップボードに書く手", "vi": "Bàn tay viết trên bìa kẹp giấy trên bàn gỗ" } }
 }
