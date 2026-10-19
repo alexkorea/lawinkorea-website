@@ -155,6 +155,19 @@
       ],
       "at": "2026-10-18T10:03:11.824Z",
       "batch": "20261007"
+    },
+    {
+      "slug": "reentry-permit-exemption-guide",
+      "date": "2026-10-19",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-10-19T10:02:38.737Z",
+      "batch": "20261007"
     }
   ],
   "rejected": []
