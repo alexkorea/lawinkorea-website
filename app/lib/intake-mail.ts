@@ -292,11 +292,13 @@ export function adminNotifyMail(
   crmNote: string,
   receivedAt: string = kstStamp(),
   flag = "",
+  topNote = "",
 ): { subject: string; html: string } {
   const ko = L.ko;
   const name = String(data.name ?? "").trim() || "익명";
   const rows = buildRows({ ...data, locale }, receivedAt);
   const html = shell(
+    (topNote ? `<p style="margin:0 0 12px;padding:10px 14px;background:#fff7ed;border-left:4px solid #ea580c;color:#9a3412;font-weight:bold">${esc(topNote)}</p>` : "") +
     `<h2 style="font-size:18px;margin:0 0 14px;color:#001F3F">${esc(SITE.domain)} 새 문의${flag ? ` ${esc(flag)}` : ""}</h2>` +
       table(rows, ko.labels) +
       `<p style="margin:16px 0 0;color:#74777f;font-size:12px">CRM: ${esc(crmNote)}</p>` +

@@ -7,6 +7,7 @@ import {
   type MailLocale,
 } from "@/app/lib/intake-mail";
 import { COMPANY } from "@/app/lib/constants";
+import { customerReplyTo, NO_EMAIL_LINE } from "@/app/lib/reply-to";
 
 export const runtime = "nodejs";
 
@@ -63,18 +64,18 @@ async function sendMail(opts: {
 async function sendAdminEmail(
   data: Record<string, unknown>,
   locale: MailLocale,
-  customerEmail: string,
+  replyTo: string | undefined,
   notionNote: string,
   receivedAt: string,
   flag: string,
 ): Promise<boolean> {
-  const { subject, html } = adminNotifyMail(data, locale, notionNote, receivedAt, flag);
+  const { subject, html } = adminNotifyMail(data, locale, notionNote, receivedAt, flag, replyTo ? "" : NO_EMAIL_LINE);
   return sendMail({
     to: NOTIFY_EMAIL,
     subject,
     html,
-    // 관리자가 '회신' 을 누르면 곧바로 고객에게 가도록 (이메일 없으면 생략)
-    ...(customerEmail ? { replyTo: customerEmail } : {}),
+    // 관리자가 '회신' 을 누르면 곧바로 고객에게 가도록 — "이름" <email> (이메일 없으면 생략, FORM-REPLYTO-1019)
+    ...(replyTo ? { replyTo } : {}),
   });
 }
 
@@ -173,6 +174,14 @@ export async function POST(req: Request) {
       );
     }
     if (emailV && !/^[^\s@]+@[^\s@.]+\.[^\s@]{2,}$/.test(emailV)) {
+      return NextResponse.json(
+        { ok: false, error: "이메일 형식이 올바르지 않습니다." },
+        { status: 400 },
+      );
+    }
+    // FORM-REPLYTO-1019: 헤더에 실릴 값이라 개행·쉼표·<> 가 든 이메일은 거부한다.
+    const replyTo = customerReplyTo(nameV, emailV);
+    if (!replyTo.ok) {
       return NextResponse.json(
         { ok: false, error: "이메일 형식이 올바르지 않습니다." },
         { status: 400 },
@@ -299,7 +308,7 @@ export async function POST(req: Request) {
     const mailOk = await sendAdminEmail(
       data as Record<string, unknown>,
       mailLocale,
-      customerEmail,
+      replyTo.replyTo,
       notionNote,
       receivedAt,
       honeypot ? "[스팸의심]" : "",
