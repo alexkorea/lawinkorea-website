@@ -168,6 +168,19 @@
       ],
       "at": "2026-10-19T10:02:38.737Z",
       "batch": "20261007"
+    },
+    {
+      "slug": "official-notification-duty-exemptions",
+      "date": "2026-10-20",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-10-20T10:03:06.034Z",
+      "batch": "20261007"
     }
   ],
   "rejected": []

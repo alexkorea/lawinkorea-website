@@ -57,5 +57,7 @@
   "alien-registration-info-change-15days": { "pexels_id": 8376342, "author": "Tima Miroshnichenko",
     "alt": { "ko": "나무 탁자 위 클립보드에 글을 쓰는 손", "en": "Hand writing on a clipboard on a wooden table", "zh": "在木桌上的写字板上书写的手", "ja": "木のテーブルでクリップボードに書く手", "vi": "Bàn tay viết trên bìa kẹp giấy trên bàn gỗ" } },
   "reentry-permit-exemption-guide": { "pexels_id": 7310015, "author": "RDNE Stock project",
-    "alt": { "ko": "노트북 위에 놓인 여권과 탑승권", "en": "Passport and boarding passes on a laptop", "zh": "笔记本电脑上的护照和登机牌", "ja": "ノートパソコンの上のパスポートと搭乗券", "vi": "Hộ chiếu và thẻ lên máy bay trên laptop" } }
+    "alt": { "ko": "노트북 위에 놓인 여권과 탑승권", "en": "Passport and boarding passes on a laptop", "zh": "笔记本电脑上的护照和登机牌", "ja": "ノートパソコンの上のパスポートと搭乗券", "vi": "Hộ chiếu và thẻ lên máy bay trên laptop" } },
+  "official-notification-duty-exemptions": { "pexels_id": 10586212, "author": "Mathias Reding",
+    "alt": { "ko": "도시 건물의 현대적인 유리 출입구", "en": "Modern glass entrance of a city building", "zh": "城市建筑的现代玻璃入口", "ja": "都市のビルのモダンなガラス張りの入口", "vi": "Lối vào kính hiện đại của một tòa nhà" } }
 }
