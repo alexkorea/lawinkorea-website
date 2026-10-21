@@ -181,6 +181,19 @@
       ],
       "at": "2026-10-20T10:03:06.034Z",
       "batch": "20261007"
+    },
+    {
+      "slug": "conditional-entry-permit-guide",
+      "date": "2026-10-21",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-10-21T10:02:56.258Z",
+      "batch": "20261007"
     }
   ],
   "rejected": []

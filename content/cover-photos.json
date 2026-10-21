@@ -59,5 +59,7 @@
   "reentry-permit-exemption-guide": { "pexels_id": 7310015, "author": "RDNE Stock project",
     "alt": { "ko": "노트북 위에 놓인 여권과 탑승권", "en": "Passport and boarding passes on a laptop", "zh": "笔记本电脑上的护照和登机牌", "ja": "ノートパソコンの上のパスポートと搭乗券", "vi": "Hộ chiếu và thẻ lên máy bay trên laptop" } },
   "official-notification-duty-exemptions": { "pexels_id": 10586212, "author": "Mathias Reding",
-    "alt": { "ko": "도시 건물의 현대적인 유리 출입구", "en": "Modern glass entrance of a city building", "zh": "城市建筑的现代玻璃入口", "ja": "都市のビルのモダンなガラス張りの入口", "vi": "Lối vào kính hiện đại của một tòa nhà" } }
+    "alt": { "ko": "도시 건물의 현대적인 유리 출입구", "en": "Modern glass entrance of a city building", "zh": "城市建筑的现代玻璃入口", "ja": "都市のビルのモダンなガラス張りの入口", "vi": "Lối vào kính hiện đại của một tòa nhà" } },
+  "conditional-entry-permit-guide": { "pexels_id": 2069, "author": "ClickerHappy",
+    "alt": { "ko": "수하물 수취장과 입국장 안내판 옆을 걷는 사람들", "en": "People walking past baggage hall and arrivals hall signs", "zh": "走过行李厅和到达厅指示牌的人群", "ja": "手荷物受取所と到着ホールの案内の横を歩く人々", "vi": "Người đi qua biển chỉ dẫn sảnh hành lý và sảnh đến" } }
 }
