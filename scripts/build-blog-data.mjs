@@ -10,6 +10,8 @@ import path from "node:path";
 import matter from "gray-matter";
 import { remark } from "remark";
 import remarkGfm from "remark-gfm";
+// WQA1021-FIX2 — zh/ja/ko 에서 **"…"**고 · 。**다음 꼴의 굵게가 CommonMark 경계 규칙에 막혀 '**' 가 그대로 보였다.
+import remarkCjkFriendly from "remark-cjk-friendly";
 import remarkHtml from "remark-html";
 
 const ROOT = process.cwd();
@@ -27,7 +29,7 @@ function slugsFor(locale) {
 }
 
 async function toHtml(md) {
-  const processed = await remark().use(remarkGfm).use(remarkHtml, { sanitize: false }).process(md);
+  const processed = await remark().use(remarkGfm).use(remarkCjkFriendly).use(remarkHtml, { sanitize: false }).process(md);
   return processed.toString();
 }
 

@@ -189,7 +189,7 @@ related:
 - 処分があったことを知った日から**90日以内**(行政審判法第27条第1項)
 
 ### 申請先
-- 中央行政審判委員会(https://www.acrc.go.kr)
+- 中央行政審判委員会(オンライン行政審判で請求できます)
 
 ### 手続き
 1. 行政審判請求書の提出
@@ -259,3 +259,5 @@ related:
 - [出入国事犯審査ガイド](/ja/blog/immigration-offense-review-guide)
 - [外国人の刑事事件とビザ防御](/ja/blog/criminal-case-visa-defense)
 - [刑事記録が永住権に及ぼす影響](/ja/blog/criminal-record-pr-impact)
+
+**公式サイトで確認する：** [中央行政審判委員会 オンライン行政審判](https://www.simpan.go.kr)

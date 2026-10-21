@@ -189,7 +189,7 @@ related:
 - 自知道处分之日起**90日内**（行政审判法第27条第1款）
 
 ### 受理机关
-- 中央行政审判委员会（<https://www.acrc.go.kr>）
+- 中央行政审判委员会（可通过在线行政审判系统提交）
 
 ### 流程
 1. 提交行政审判请求书
@@ -260,3 +260,5 @@ related:
 - [出入境事犯审查指南](/zh/blog/immigration-offense-review-guide)
 - [外国人刑事案件与签证防御](/zh/blog/criminal-case-visa-defense)
 - [刑事记录对永住权的影响](/zh/blog/criminal-record-pr-impact)
+
+**在官方网站确认：** [中央行政审判委员会 在线行政审判](https://www.simpan.go.kr)

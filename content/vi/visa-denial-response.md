@@ -191,7 +191,7 @@ Cách ứng phó:
 - Trong vòng **90 ngày** kể từ ngày biết quyết định (Luật Xét xử hành chính Điều 27 khoản 1)
 
 ### Nơi nộp
-- Ủy ban Xét xử hành chính Trung ương (https://www.acrc.go.kr)
+- Ủy ban Xét xử hành chính Trung ương (nộp trực tuyến qua hệ thống Xét xử hành chính trực tuyến)
 
 ### Trình tự
 1. Nộp đơn yêu cầu xét xử hành chính
@@ -263,3 +263,5 @@ Xuất cảnh tự nguyện khác với việc xuất cảnh theo lệnh xuất 
 - [Hướng dẫn về thủ tục xem xét vi phạm xuất nhập cảnh](/vi/blog/immigration-offense-review-guide)
 - [Án hình sự của người nước ngoài và visa](/vi/blog/criminal-case-visa-defense)
 - [Ảnh hưởng của tiền án đến thường trú](/vi/blog/criminal-record-pr-impact)
+
+**Kiểm tra trên trang chính thức:** [Ủy ban Xét xử hành chính Trung ương — Xét xử hành chính trực tuyến](https://www.simpan.go.kr)

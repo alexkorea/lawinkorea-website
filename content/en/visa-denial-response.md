@@ -178,7 +178,7 @@ Hardest case:
 Within **90 days** of learning of the disposition (Administrative Appeals Act Article 27(1)).
 
 ### Where
-Central Administrative Appeal Commission (https://www.acrc.go.kr).
+Central Administrative Appeal Commission (file online through its Online Administrative Appeals service).
 
 ### Procedure
 1. File appeal claim
@@ -244,3 +244,5 @@ Applicants in Korea or abroad can engage; Korean family can attend on behalf.
 - [Korea Immigration Offense Review Guide](/en/blog/immigration-offense-review-guide)
 - [Criminal Cases and Visa Defense](/en/blog/criminal-case-visa-defense)
 - [Impact on Permanent Residency](/en/blog/criminal-record-pr-impact)
+
+**Check the official site:** [Central Administrative Appeal Commission — Online Administrative Appeals](https://www.simpan.go.kr)

@@ -3,6 +3,7 @@ import path from "node:path";
 import matter from "gray-matter";
 import { remark } from "remark";
 import remarkGfm from "remark-gfm";
+import remarkCjkFriendly from "remark-cjk-friendly"; // WQA1021-FIX2 — CJK 굵게 경계
 import remarkHtml from "remark-html";
 import type { Locale } from "./content";
 
@@ -53,6 +54,7 @@ export async function getPostBySlug(slug: string, locale: Locale): Promise<BlogP
   const { data, content } = matter(raw);
   const processed = await remark()
     .use(remarkGfm)
+    .use(remarkCjkFriendly)
     .use(remarkHtml, { sanitize: false })
     .process(content);
   return {

@@ -191,7 +191,7 @@ related:
 - 처분이 있음을 안 날부터 **90일 이내** (행정심판법 제27조①)
 
 ### 신청처
-- 중앙행정심판위원회 (https://www.acrc.go.kr)
+- 중앙행정심판위원회 (온라인행정심판으로 청구)
 
 ### 절차
 1. 행정심판 청구서 제출
@@ -262,3 +262,5 @@ related:
 - [출입국사범심사 가이드](/ko/blog/immigration-offense-review-guide)
 - [외국인 형사사건과 비자 방어](/ko/blog/criminal-case-visa-defense)
 - [형사 기록이 영주권에 미치는 영향](/ko/blog/criminal-record-pr-impact)
+
+**공식 사이트에서 확인하기:** [중앙행정심판위원회 온라인행정심판](https://www.simpan.go.kr)
