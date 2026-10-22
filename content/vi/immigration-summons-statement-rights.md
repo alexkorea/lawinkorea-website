@@ -9,7 +9,7 @@ keywords:
   - "quyền khi bị điều tra xuất nhập cảnh"
   - "biên bản lấy lời khai nghi phạm xuất nhập cảnh"
   - "phiên dịch khi điều tra xuất nhập cảnh"
-  - "Điều 48 Luật Quản lý Xuất nhập cảnh"
+  - "thủ tục điều tra Luật Quản lý Xuất nhập cảnh"
 faq:
   - q: "Không đến được vào ngày ghi trên giấy triệu tập thì sao?"
     a: "Giấy triệu tập ghi mục đích, ngày giờ và địa điểm đến. Nếu thực sự không đến được, nên báo cơ quan phụ trách trước ngày hẹn và hỏi có thể đổi lịch không. Vắng mặt mà không liên lạc có thể làm mất cơ hội giải trình, và việc mất liên lạc cũng có thể bị xem là có nguy cơ bỏ trốn."
@@ -24,11 +24,11 @@ related:
   - "entry-ban-removal"
 ---
 
-Nhận giấy triệu tập của cơ quan xuất nhập cảnh qua bưu điện hoặc tin nhắn, ai cũng thấy lo. "Mình làm sai gì?", "Đến thì có bị giữ lại luôn không?". Nhưng việc triệu tập và điều tra có thủ tục do luật quy định, và người nước ngoài cũng có những quyền được bảo đảm trong đó. Bài này tóm tắt những điều cần biết ở giai đoạn điều tra, xoay quanh Điều 47 đến Điều 50 Luật Quản lý Xuất nhập cảnh.
+Nhận giấy triệu tập của cơ quan xuất nhập cảnh qua bưu điện hoặc tin nhắn, ai cũng thấy lo. "Mình làm sai gì?", "Đến thì có bị giữ lại luôn không?". Nhưng việc triệu tập và điều tra có thủ tục do luật quy định, và người nước ngoài cũng có những quyền được bảo đảm trong đó. Bài này tóm tắt những điều cần biết ở giai đoạn điều tra, xoay quanh các quy định về triệu tập và thẩm vấn của Luật Quản lý Xuất nhập cảnh.
 
 ## Tóm tắt nhanh
 
-- Viên chức xuất nhập cảnh có thể **điều tra** người nước ngoài bị nghi thuộc các trường hợp tại Điều 46 khoản 1 (lý do buộc xuất cảnh), tức nghi phạm.
+- Viên chức xuất nhập cảnh có thể **điều tra** người nước ngoài bị nghi thuộc các lý do buộc xuất cảnh, tức nghi phạm.
 - Khi cần, có thể triệu tập nghi phạm hoặc người làm chứng để lấy lời khai; giấy triệu tập ghi mục đích, thời gian, địa điểm.
 - Lời khai được ghi vào **biên bản**, phải đọc hoặc cho xem và hỏi có sai sót không; bạn có thể yêu cầu thêm, bớt, sửa.
 - Nếu không thông thạo tiếng Hàn, **phiên dịch viên** phải dịch.
@@ -38,11 +38,11 @@ Nhận giấy triệu tập của cơ quan xuất nhập cảnh qua bưu điện
 
 Khi cần cho điều tra, viên chức xuất nhập cảnh có thể yêu cầu nghi phạm có mặt để thẩm vấn. Cũng có thể yêu cầu người làm chứng đến và nghe lời khai, được xử lý theo cách tương tự.
 
-Nghị định thi hành Điều 58 khoản 1 quy định khi yêu cầu có mặt, viên chức phải cấp giấy triệu tập ghi **mục đích, thời gian và địa điểm** có mặt. Trường hợp khẩn cấp có thể yêu cầu bằng lời. Về nguyên tắc, việc triệu tập được người đứng đầu cơ quan phê duyệt trước. Khi nhận giấy triệu tập, hãy kiểm tra trước ai yêu cầu, vì mục đích gì, khi nào và ở đâu.
+Nghị định thi hành Luật Quản lý Xuất nhập cảnh quy định khi yêu cầu có mặt, viên chức phải cấp giấy triệu tập ghi **mục đích, thời gian và địa điểm** có mặt. Trường hợp khẩn cấp có thể yêu cầu bằng lời. Về nguyên tắc, việc triệu tập được người đứng đầu cơ quan phê duyệt trước. Khi nhận giấy triệu tập, hãy kiểm tra trước ai yêu cầu, vì mục đích gì, khi nào và ở đâu.
 
 ## 2. Điều tra diễn ra theo trình tự nào?
 
-Điều 48 quy định cụ thể thủ tục thẩm vấn.
+Luật Quản lý Xuất nhập cảnh quy định cụ thể thủ tục thẩm vấn.
 
 - Khi thẩm vấn phải có **một viên chức xuất nhập cảnh khác tham gia**.
 - Lời khai của nghi phạm phải **ghi vào biên bản**.
@@ -55,7 +55,7 @@ Ngoài ra, khi cần cho điều tra, việc kiểm tra nơi ở hoặc đồ v�
 
 ## 3. Vì sao biên bản quan trọng?
 
-Việc điều tra người vi phạm xuất nhập cảnh áp dụng tương tự Điều 47 đến Điều 50, và khi đó **biên bản lấy lời khai nghi phạm được coi là biên bản lấy lời khai bị can theo Điều 244 Luật Tố tụng Hình sự**. Nghĩa là biên bản này có thể là cơ sở cho các quyết định sau như thông báo xử phạt, tố giác, xét duyệt buộc xuất cảnh. Vì vậy trước khi ký, hãy kiểm tra kỹ:
+Việc điều tra người vi phạm xuất nhập cảnh cũng áp dụng tương tự các quy định về triệu tập và thẩm vấn này, và khi đó **biên bản lấy lời khai nghi phạm được coi là biên bản lấy lời khai bị can theo Luật Tố tụng Hình sự**. Nghĩa là biên bản này có thể là cơ sở cho các quyết định sau như thông báo xử phạt, tố giác, xét duyệt buộc xuất cảnh. Vì vậy trước khi ký, hãy kiểm tra kỹ:
 
 1. Các sự việc như ngày, nơi, số lần, số tiền có đúng với lời mình nói không
 2. Có ghi điều mình không nói, hoặc thiếu điều mình đã nói không

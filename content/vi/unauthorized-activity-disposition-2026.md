@@ -7,16 +7,16 @@ cluster: "cluster"
 keywords:
   - "hoạt động ngoài tư cách lưu trú Hàn Quốc"
   - "giấy phép hoạt động ngoài tư cách lưu trú"
-  - "Điều 20 Luật Quản lý xuất nhập cảnh"
+  - "Luật Quản lý xuất nhập cảnh hoạt động ngoài tư cách lưu trú"
   - "thông báo xử phạt lệnh xuất cảnh cưỡng chế xuất cảnh"
   - "thẩm tra vi phạm xuất nhập cảnh"
   - "du học sinh làm việc trái phép Hàn Quốc"
   - "unauthorized activity Korea visa"
 faq:
   - q: "Hoạt động ngoài tư cách lưu trú là gì?"
-    a: "Là việc thực hiện hoạt động thuộc một tư cách lưu trú khác, song song với hoạt động thuộc tư cách lưu trú hiện tại. Điều 20 Luật Quản lý xuất nhập cảnh quy định muốn làm vậy phải được Bộ trưởng Tư pháp cấp phép hoạt động ngoài tư cách lưu trú trước."
+    a: "Là việc thực hiện hoạt động thuộc một tư cách lưu trú khác, song song với hoạt động thuộc tư cách lưu trú hiện tại. Luật Quản lý xuất nhập cảnh quy định muốn làm vậy phải được Bộ trưởng Tư pháp cấp phép hoạt động ngoài tư cách lưu trú trước."
   - q: "Bị phát hiện có bị cưỡng chế xuất cảnh (trục xuất) ngay không?"
-    a: "Không. Vi phạm Điều 20 được liệt kê trong các lý do bị cưỡng chế xuất cảnh, nhưng việc thực tế áp dụng thông báo xử phạt, lệnh xuất cảnh hay cưỡng chế xuất cảnh do cơ quan có thẩm quyền quyết định dựa trên diễn biến, mức độ vi phạm và việc có tái phạm hay không."
+    a: "Không. Hoạt động ngoài tư cách lưu trú khi chưa được phép được liệt kê trong các lý do bị cưỡng chế xuất cảnh, nhưng việc thực tế áp dụng thông báo xử phạt, lệnh xuất cảnh hay cưỡng chế xuất cảnh do cơ quan có thẩm quyền quyết định dựa trên diễn biến, mức độ vi phạm và việc có tái phạm hay không."
   - q: "Thông báo xử phạt (giấy báo tiền phạt) khác lệnh xuất cảnh thế nào?"
     a: "Thông báo xử phạt là việc thông báo nộp tiền phạt, còn lệnh xuất cảnh là yêu cầu rời khỏi Hàn Quốc trong thời hạn nhất định. Luật cũng cho phép ra lệnh xuất cảnh đối với người được cho là phù hợp để xuất cảnh sau thông báo xử phạt, nên hai biện pháp có thể đi cùng nhau."
   - q: "Khi bị thẩm tra vi phạm xuất nhập cảnh thì cần chuẩn bị những giấy tờ nào?"
@@ -34,9 +34,9 @@ Có du học sinh làm thêm mà chưa có giấy phép làm việc theo giờ, 
 
 > Việc xử lý và thủ tục thực tế tùy thuộc vào vụ việc và phán đoán của cơ quan có thẩm quyền, vì vậy hãy luôn ưu tiên xem lại giấy tờ bạn đã nhận và hướng dẫn của cơ quan.
 
-## 1. Hoạt động ngoài tư cách lưu trú là gì — Điều 20
+## 1. Hoạt động ngoài tư cách lưu trú là gì
 
-Điều 20 Luật Quản lý xuất nhập cảnh quy định rằng người nước ngoài lưu trú tại Hàn Quốc muốn thực hiện hoạt động thuộc tư cách lưu trú khác, song song với hoạt động thuộc tư cách lưu trú của mình, thì phải được Bộ trưởng Tư pháp cấp phép hoạt động ngoài tư cách lưu trú **trước**, theo quy định của Sắc lệnh Tổng thống. Sổ tay nêu Điều 25 Nghị định thi hành và Điều 29 Quy tắc thi hành (giới hạn của hoạt động ngoài tư cách lưu trú) làm căn cứ của giấy phép này.
+Luật Quản lý xuất nhập cảnh quy định rằng người nước ngoài lưu trú tại Hàn Quốc muốn thực hiện hoạt động thuộc tư cách lưu trú khác, song song với hoạt động thuộc tư cách lưu trú của mình, thì phải được Bộ trưởng Tư pháp cấp phép hoạt động ngoài tư cách lưu trú **trước**, theo quy định của Sắc lệnh Tổng thống. Sổ tay nêu Nghị định thi hành và Quy tắc thi hành (giới hạn của hoạt động ngoài tư cách lưu trú) làm căn cứ của giấy phép này.
 
 Các ví dụ tiêu biểu trong sổ tay:
 
@@ -53,9 +53,9 @@ Công chức quản lý xuất nhập cảnh có thể điều tra sự việc �
 | Lệnh xuất cảnh (출국명령) | Ra lệnh kèm thời hạn xuất cảnh, ví dụ với người muốn tự nguyện xuất cảnh bằng chi phí của mình; cũng áp dụng cho người được cho là phù hợp để xuất cảnh sau thông báo xử phạt |
 | Cưỡng chế xuất cảnh (강제퇴거) | Ra lệnh cưỡng chế xuất cảnh khi xác định thuộc đối tượng bị cưỡng chế xuất cảnh |
 
-Người vi phạm Điều 20 được liệt kê là đối tượng cưỡng chế xuất cảnh tại Điều 46 khoản 1 mục 8. Tuy nhiên, việc được liệt kê khác với việc lệnh cưỡng chế xuất cảnh thực sự được ban hành. Cơ quan có thẩm quyền quyết định hình thức xử lý theo từng vụ việc.
+Người hoạt động ngoài tư cách lưu trú khi chưa được phép được Luật Quản lý xuất nhập cảnh liệt kê là đối tượng cưỡng chế xuất cảnh. Tuy nhiên, việc được liệt kê khác với việc lệnh cưỡng chế xuất cảnh thực sự được ban hành. Cơ quan có thẩm quyền quyết định hình thức xử lý theo từng vụ việc.
 
-**Ngoài ra còn có điều khoản hình phạt riêng.** Điều 94 Luật Quản lý xuất nhập cảnh quy định người thuộc một trong các mục sẽ bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won, và mục 12 nêu: "người vi phạm Điều 20, thực hiện hoạt động thuộc tư cách lưu trú khác mà không được cấp phép hoạt động ngoài tư cách lưu trú" (tính đến tháng 10/2026).
+**Ngoài ra còn có điều khoản hình phạt riêng.** Luật Quản lý xuất nhập cảnh quy định "người thực hiện hoạt động thuộc tư cách lưu trú khác mà không được cấp phép hoạt động ngoài tư cách lưu trú" sẽ bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (tính đến tháng 10/2026).
 
 ## 3. Tiêu chuẩn xử lý theo từng loại được ghi trong sổ tay
 
@@ -79,7 +79,7 @@ Những nguyên tắc thực tế cần nhớ:
 1. **Nhớ và sắp xếp chính xác các sự việc.** Bắt đầu từ khi nào, ở đâu, làm gì, và có hoàn cảnh nào khiến bạn không biết cần giấy phép hay không là những điểm chính được xác minh trong điều tra.
 2. **Giấy tờ được yêu cầu nộp hãy làm theo hướng dẫn của cơ quan phụ trách.** Có thể khác nhau tùy vụ việc, nên nếu hướng dẫn chưa rõ, an toàn nhất là hỏi lại cơ quan trước khi nộp.
 3. **Khi lệnh cưỡng chế xuất cảnh được ban hành, bạn được thông báo rằng có thể khiếu nại.** Luật quy định người đứng đầu cơ quan xuất nhập cảnh · người nước ngoài khu vực, khi cấp lệnh cưỡng chế xuất cảnh, phải cho biết có thể khiếu nại lên Bộ trưởng Tư pháp.
-4. **Bản thân giấy phép cũng có thể bị hủy.** Bộ trưởng Tư pháp có thể hủy hoặc thay đổi giấy phép lưu trú theo Điều 20, và có thể yêu cầu đương sự có mặt để nghe ý kiến.
+4. **Bản thân giấy phép cũng có thể bị hủy.** Bộ trưởng Tư pháp có thể hủy hoặc thay đổi giấy phép hoạt động ngoài tư cách lưu trú, và có thể yêu cầu đương sự có mặt để nghe ý kiến.
 
 ## 5. Nếu bạn đã nhận thông báo xử phạt
 

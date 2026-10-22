@@ -9,12 +9,12 @@ keywords:
   - "90 days residence status birth Korea"
   - "foreign newborn visa Korea"
   - "grant of status of stay"
-  - "Immigration Act Article 23"
+  - "newborn residence status deadline Korea"
 faq:
   - q: "By when must a baby born in Korea obtain residence status?"
     a: "Within 90 days of the birth date. The application for a grant of status of stay goes to the immigration office for your place of residence, and the Minister of Justice sets the stay period. The immigration manual also notes that no separate permit is needed if the child leaves within 90 days."
   - q: "What happens if I apply after 90 days?"
-    a: "Staying without status in breach of Article 23 can bring up to 3 years in prison or a fine of up to KRW 30 million, and in practice it is often settled by a penalty fine notice. The Enforcement Rule, Annex 7 standard amounts rise with the delay: KRW 500,000 under 1 month, KRW 1 million for 1 to 3 months, KRW 2 million for 3 to 6 months and KRW 5 million for 6 months to 1 year (as of October 2026). It is also a ground for deportation."
+    a: "Staying without status in breach of this duty can bring up to 3 years in prison or a fine of up to KRW 30 million, and in practice it is often settled by a penalty fine notice. The standard amounts in the Enforcement Rule of the Immigration Act rise with the delay: KRW 500,000 under 1 month, KRW 1 million for 1 to 3 months, KRW 2 million for 3 to 6 months and KRW 5 million for 6 months to 1 year (as of October 2026). It is also a ground for deportation."
   - q: "Does the child's status depend on the parents' status?"
     a: "Yes. The manual gives examples such as a visiting-and-residing (F-1) status for a child of an F-2 holder, and a stay period within the parent's stay period for children of parents in E-9 and similar statuses. Requirements and documents differ by the parent's status, so check with your local immigration office before applying."
 related:
@@ -35,17 +35,17 @@ When a child is born in Korea, there is one more task besides the birth registra
 
 ## 1. Who must apply?
 
-Article 23(1) sets two cases. First, a **foreign national born in Korea**, within 90 days of the birth date. Second, a foreign national who loses or renounces Korean nationality while staying in Korea or has a similar event, within 60 days of that event. Both apply when the person stays without a status under Article 10. Even if the parents already hold long-term status, the child must obtain status separately.
+The Immigration Act sets two cases. First, a **foreign national born in Korea**, within 90 days of the birth date. Second, a foreign national who loses or renounces Korean nationality while staying in Korea or has a similar event, within 60 days of that event. Both apply when the person stays without a status of stay under the Immigration Act. Even if the parents already hold long-term status, the child must obtain status separately.
 
 ## 2. How to apply and what to bring
 
-Under Enforcement Decree Article 29, the applicant submits a **grant of status of stay application form** with the documents set by Ministry of Justice rule to the office head for the place of residence. The Minister sets the stay period, and the passport is stamped or given a sticker.
+Under the Enforcement Decree of the Immigration Act, the applicant submits a **grant of status of stay application form** with the documents set by Ministry of Justice rule to the office head for the place of residence. The Minister sets the stay period, and the passport is stamped or given a sticker.
 
 The manual generally lists the application form, passport, documents proving family relations such as a birth certificate, and the ID of the supporter. Examples are split by the parent's status: F-1 for a child of an F-2 holder, or a stay period within the parent's stay period for E-9 parents and similar. Exact documents depend on the parent's status, so confirm the latest guidance with the office.
 
 ## 3. What happens after 90 days?
 
-Staying without status in breach of Article 23 can bring up to 3 years in prison or a fine of up to KRW 30 million under Article 94, item 15 (as of October 2026). It is often settled with a penalty fine notice, and the standard amounts in Enforcement Rule Annex 7 depend on the delay.
+Staying without status in breach of this duty can bring up to 3 years in prison or a fine of up to KRW 30 million under the Immigration Act (as of October 2026). It is often settled with a penalty fine notice, and the standard amounts in the Enforcement Rule depend on the delay.
 
 | Delay | Standard fine |
 |---|---|
@@ -59,7 +59,7 @@ These are **standard amounts**; age, circumstances, motive and ability to pay ca
 
 ## 4. If the application is refused
 
-Under Enforcement Decree Article 33, when status is not granted, the Minister notifies the applicant, and the notice states a departure deadline within 14 days of issue. If you receive one, check the deadline and the reason first.
+Under the Enforcement Decree, when status is not granted, the Minister notifies the applicant, and the notice states a departure deadline within 14 days of issue. If you receive one, check the deadline and the reason first.
 
 ## 5. Steps to take now
 

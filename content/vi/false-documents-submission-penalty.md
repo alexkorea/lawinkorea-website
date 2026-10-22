@@ -7,16 +7,16 @@ cluster: "cluster"
 keywords:
   - "xử phạt nộp giấy tờ giả xuất nhập cảnh"
   - "giấy tờ giả xin phép lưu trú"
-  - "Luật Xuất nhập cảnh Điều 26"
+  - "Luật Xuất nhập cảnh khai gian"
   - "phạt đơn khai gian"
   - "giấy tờ giả bị buộc xuất cảnh"
 faq:
   - q: "Những loại đơn nào liên quan đến quy định giấy tờ giả?"
-    a: "Điều 26 áp dụng với đơn xin phép theo Điều 20 (hoạt động ngoài tư cách), Điều 21 (đổi hoặc thêm nơi làm việc), Điều 23 đến 25 (cấp, đổi, gia hạn tư cách) v.v. Cấm xin bằng cách không chính đáng như nộp văn bản giả mạo, làm giả làm chứng từ hoặc nộp đơn ghi sự việc giả; cấm cả việc môi giới, khuyến khích hành vi đó."
+    a: "Luật Xuất nhập cảnh áp dụng với đơn xin phép hoạt động ngoài tư cách, đổi hoặc thêm nơi làm việc, cấp, đổi, gia hạn tư cách v.v. Cấm xin bằng cách không chính đáng như nộp văn bản giả mạo, làm giả làm chứng từ hoặc nộp đơn ghi sự việc giả; cấm cả việc môi giới, khuyến khích hành vi đó."
   - q: "Mức xử phạt và tiền phạt là bao nhiêu?"
-    a: "Theo Điều 94 mục 17-2: phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won. Mức chuẩn tại Phụ lục 7 Thông tư thi hành: tự mình làm thì lần 1 là 5 triệu won, lần 2 là 10 triệu won, lần 3 là 20 triệu won, từ lần 4 là 30 triệu won; môi giới, khuyến khích thì từ 10 triệu won cho 1 người đến 30 triệu won cho từ 20 người (tính đến tháng 10/2026). Có thể giảm hoặc tăng trong phạm vi một nửa."
+    a: "Theo Luật Xuất nhập cảnh: phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won. Mức phạt chuẩn trong Thông tư thi hành Luật Xuất nhập cảnh: tự mình làm thì lần 1 là 5 triệu won, lần 2 là 10 triệu won, lần 3 là 20 triệu won, từ lần 4 là 30 triệu won; môi giới, khuyến khích thì từ 10 triệu won cho 1 người đến 30 triệu won cho từ 20 người (tính đến tháng 10/2026). Có thể giảm hoặc tăng trong phạm vi một nửa."
   - q: "Ghi sai do sơ ý có bị xử phạt như vậy không?"
-    a: "Điều 26 nhắm vào hành vi xin bằng cách không chính đáng. Ngoài ra, ghi hoặc báo sự việc giả trong các đơn, kê khai theo luật này có thể bị phạt hành chính đến 500.000 won (tính đến tháng 10/2026) theo Điều 100 khoản 3 mục 2 (trừ trường hợp bị xử lý hình sự). Áp dụng quy định nào tùy sự việc."
+    a: "Quy định cấm nộp giấy tờ giả nhắm vào hành vi xin bằng cách không chính đáng. Ngoài ra, ghi hoặc báo sự việc giả trong các đơn, kê khai theo luật này có thể bị phạt hành chính đến 500.000 won (tính đến tháng 10/2026) theo Luật Xuất nhập cảnh (trừ trường hợp bị xử lý hình sự). Áp dụng quy định nào tùy sự việc."
 related:
   - "immigration-law-penalties-guide"
   - "immigration-offense-review-guide"
@@ -24,7 +24,7 @@ related:
   - "foreigner-visa-cancellation-response"
 ---
 
-Khi gia hạn lưu trú hay đổi tư cách mà thiếu giấy tờ, ai cũng sốt ruột. Lúc đó dễ nảy ra ý nghĩ làm tạm một bản giống giống rồi nộp, nhưng giấy tờ giả mạo, làm giả hay đơn khai gian là hành vi bị Luật Xuất nhập cảnh cấm và xử phạt riêng. Bài viết này tóm tắt Điều 26, mức xử phạt và điểm khác với việc ghi sai thông thường.
+Khi gia hạn lưu trú hay đổi tư cách mà thiếu giấy tờ, ai cũng sốt ruột. Lúc đó dễ nảy ra ý nghĩ làm tạm một bản giống giống rồi nộp, nhưng giấy tờ giả mạo, làm giả hay đơn khai gian là hành vi bị Luật Xuất nhập cảnh cấm và xử phạt riêng. Bài viết này tóm tắt quy định cấm nộp giấy tờ giả, mức xử phạt và điểm khác với việc ghi sai thông thường.
 
 ## Điểm chính
 
@@ -35,22 +35,22 @@ Khi gia hạn lưu trú hay đổi tư cách mà thiếu giấy tờ, ai cũng s
 
 ## 1. Những đơn xin phép nào thuộc đối tượng?
 
-Điều 26 áp dụng với hành vi liên quan đến **đơn xin phép** theo Điều 20, Điều 21, Điều 23 đến 25, Điều 25-2, 25-3 và 25-4. Nói đơn giản là đơn xin phép hoạt động ngoài tư cách, đổi hoặc thêm nơi làm việc, cấp tư cách, đổi tư cách, gia hạn lưu trú. Có hai loại hành vi bị cấm.
+Quy định cấm nộp giấy tờ giả áp dụng với hành vi liên quan đến **đơn xin phép** về lưu trú theo Luật Xuất nhập cảnh. Nói đơn giản là đơn xin phép hoạt động ngoài tư cách, đổi hoặc thêm nơi làm việc, cấp tư cách, đổi tư cách, gia hạn lưu trú. Có hai loại hành vi bị cấm.
 
 - **Xin bằng cách không chính đáng**, như nộp văn bản giả mạo, làm giả làm chứng từ hoặc nộp đơn ghi sự việc giả
 - **Môi giới, khuyến khích** các hành vi trên
 
 ## 2. Xử phạt và mức phạt chuẩn
 
-Điều 94 mục 17-2 quy định người vi phạm Điều 26 bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (tính đến tháng 10/2026). Chỉ được truy tố khi trưởng cơ quan tố cáo, và trưởng cơ quan có thể thông báo nộp tiền phạt khi đã xác định có tội. Mức chuẩn tại [Phụ lục 7] Thông tư thi hành như sau.
+Luật Xuất nhập cảnh quy định người vi phạm quy định này bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (tính đến tháng 10/2026). Chỉ được truy tố khi trưởng cơ quan tố cáo, và trưởng cơ quan có thể thông báo nộp tiền phạt khi đã xác định có tội. Mức phạt chuẩn trong Thông tư thi hành Luật Xuất nhập cảnh như sau.
 
 | Loại | Số lần, số người | Mức phạt chuẩn |
 |---|---|---|
-| Tự nộp đơn (mục 1) | Lần 1 | 5 triệu won |
+| Tự nộp đơn | Lần 1 | 5 triệu won |
 | | Lần 2 | 10 triệu won |
 | | Lần 3 | 20 triệu won |
 | | Từ lần 4 | 30 triệu won |
-| Môi giới, khuyến khích (mục 2) | 1 người | 10 triệu won |
+| Môi giới, khuyến khích | 1 người | 10 triệu won |
 | | 2 đến 4 người | 15 triệu won |
 | | 5 đến 9 người | 20 triệu won |
 | | 10 đến 19 người | 25 triệu won |
@@ -60,11 +60,11 @@ Mức này có thể giảm hoặc tăng trong phạm vi một nửa tùy tuổi
 
 ## 3. Ảnh hưởng đến người nước ngoài
 
-Điều 46 khoản 1 mục 10-2 quy định người nước ngoài vi phạm Điều 26 thuộc đối tượng buộc xuất cảnh. Người có tư cách vĩnh trú không bị buộc xuất cảnh trừ các trường hợp luật quy định. Nếu đã có giấy phép lưu trú, hãy xem thêm [hướng dẫn ứng phó khi bị hủy giấy phép lưu trú](/vi/blog/foreigner-visa-cancellation-response). Người muốn tự nguyện xuất cảnh bằng chi phí của mình có thể được ra lệnh xuất cảnh.
+Luật Xuất nhập cảnh quy định người nước ngoài vi phạm quy định này thuộc đối tượng buộc xuất cảnh. Người có tư cách vĩnh trú không bị buộc xuất cảnh trừ các trường hợp luật quy định. Nếu đã có giấy phép lưu trú, hãy xem thêm [hướng dẫn ứng phó khi bị hủy giấy phép lưu trú](/vi/blog/foreigner-visa-cancellation-response). Người muốn tự nguyện xuất cảnh bằng chi phí của mình có thể được ra lệnh xuất cảnh.
 
 ## 4. Khác gì với ghi sai thông thường?
 
-Điều 100 khoản 3 mục 2 quy định người ghi hoặc báo **sự việc giả** trong các đơn hay kê khai theo luật này bị phạt hành chính đến 500.000 won, trừ người thuộc Điều 94 mục 17-2. Mức chuẩn tại [Phụ lục 2] Nghị định thi hành là 300.000 won lần 1, 400.000 won lần 2 và 500.000 won từ lần 3 (tính đến tháng 10/2026). Áp dụng quy định nào tùy sự việc như có dùng giấy tờ giả mạo hay xin bằng cách không chính đáng hay không, nên không thể khẳng định chung. Nếu bị điều tra, hãy sắp xếp sự việc và tài liệu trước như trong [hướng dẫn thẩm tra vi phạm](/vi/blog/immigration-offense-review-guide).
+Ngoài ra, Luật Xuất nhập cảnh quy định người ghi hoặc báo **sự việc giả** trong các đơn hay kê khai theo luật này bị phạt hành chính đến 500.000 won, trừ người bị xử lý hình sự vì vi phạm quy định cấm nộp giấy tờ giả. Mức chuẩn trong Nghị định thi hành Luật Xuất nhập cảnh là 300.000 won lần 1, 400.000 won lần 2 và 500.000 won từ lần 3 (tính đến tháng 10/2026). Áp dụng quy định nào tùy sự việc như có dùng giấy tờ giả mạo hay xin bằng cách không chính đáng hay không, nên không thể khẳng định chung. Nếu bị điều tra, hãy sắp xếp sự việc và tài liệu trước như trong [hướng dẫn thẩm tra vi phạm](/vi/blog/immigration-offense-review-guide).
 
 ## 5. Thứ tự xử lý khi giấy tờ có vấn đề
 

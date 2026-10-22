@@ -50,7 +50,7 @@ Câu chúng tôi nghe nhiều nhất là: **"Tôi nộp phạt đủ rồi mà, 
 
 ## 1. Xem xét vi phạm xuất nhập cảnh là gì
 
-Đây là **thủ tục hành chính nhằm thẩm định lại tư cách lưu trú tại Hàn Quốc của người nước ngoài khi họ vi phạm pháp luật xuất nhập cảnh hoặc dính án hình sự**, dựa trên Điều 46 và Điều 68 Luật Quản lý xuất nhập cảnh.
+Đây là **thủ tục hành chính nhằm thẩm định lại tư cách lưu trú tại Hàn Quốc của người nước ngoài khi họ vi phạm pháp luật xuất nhập cảnh hoặc dính án hình sự**, dựa trên Luật Quản lý xuất nhập cảnh.
 
 Ba điểm cốt lõi:
 

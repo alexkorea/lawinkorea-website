@@ -8,15 +8,15 @@ keywords:
   - "false invitation penalty Korea"
   - "false visa application Korea"
   - "false guarantor invitation"
-  - "Immigration Act Article 7-2"
+  - "Immigration Act false invitation"
   - "false invitation deportation"
 faq:
   - q: "What counts as a false invitation?"
-    a: "Article 7-2 prohibits, for the purpose of bringing a foreigner into Korea, (1) inviting a foreigner, or arranging such an invitation, by improper means such as false statements or a false identity surety, and (2) falsely applying for a visa or a certificate of visa issuance, or arranging such an application. People who arrange it are covered as well as those who do it directly."
+    a: "The Immigration Act prohibits, for the purpose of bringing a foreigner into Korea, (1) inviting a foreigner, or arranging such an invitation, by improper means such as false statements or a false identity surety, and (2) falsely applying for a visa or a certificate of visa issuance, or arranging such an application. People who arrange it are covered as well as those who do it directly."
   - q: "How severe is the penalty?"
-    a: "Up to 3 years in prison or a fine of up to KRW 30 million under Article 94, item 3. In practice a penalty fine notice may be issued, and the Enforcement Rule Annex 7 standard is KRW 10 million for one person invited, rising by KRW 2 million for each additional person to KRW 30 million for 11 or more (as of October 2026). The amount can be reduced or increased within one half depending on circumstances."
+    a: "Up to 3 years in prison or a fine of up to KRW 30 million under the Immigration Act. In practice a penalty fine notice may be issued, and the Enforcement Rule standard is KRW 10 million for one person invited, rising by KRW 2 million for each additional person to KRW 30 million for 11 or more (as of October 2026). The amount can be reduced or increased within one half depending on circumstances."
   - q: "Is the invited foreigner also affected?"
-    a: "Possibly. Article 46(1), item 2 makes a foreigner who violated Article 7-2, or who entered through a false invitation, subject to deportation. A person who wants to leave at their own expense can be given a departure order. The outcome depends on the facts."
+    a: "Possibly. The Immigration Act makes a foreigner who violated the false invitation ban, or who entered through a false invitation, subject to deportation. A person who wants to leave at their own expense can be given a departure order. The outcome depends on the facts."
 related:
   - "immigration-law-penalties-guide"
   - "immigration-offense-review-guide"
@@ -24,7 +24,7 @@ related:
   - "visa-denial-response"
 ---
 
-When writing an invitation for a relative, friend or employee, some people think a small inaccuracy will do no harm. But false statements in invitation papers and visa applications are separately prohibited by the Immigration Act. This guide covers Article 7-2, the penalties and the effect on the invited person.
+When writing an invitation for a relative, friend or employee, some people think a small inaccuracy will do no harm. But false statements in invitation papers and visa applications are separately prohibited by the Immigration Act. This guide covers the false invitation ban, the penalties and the effect on the invited person.
 
 ## Key points
 
@@ -35,7 +35,7 @@ When writing an invitation for a relative, friend or employee, some people think
 
 ## 1. What is prohibited?
 
-Article 7-2 says no one may do either of two things to bring a foreigner into Korea.
+The Immigration Act says no one may do either of two things to bring a foreigner into Korea.
 
 - **Invite a foreigner by improper means**, such as false statements or a false identity surety, or **arrange** such an invitation
 - **Falsely apply for a visa or a certificate of visa issuance**, or **arrange** such an application
@@ -44,7 +44,7 @@ Inflating the inviter's job, income or relationship, or citing a contract or bus
 
 ## 2. Penalties and standard fines
 
-Article 94, item 3 punishes a person who violates Article 7-2 with up to 3 years in prison or a fine of up to KRW 30 million (as of October 2026). Prosecution needs a complaint from the office head, and the head may notify a penalty fine equivalent to a criminal fine once guilt is confirmed. The Enforcement Rule Annex 7 standard amounts are below.
+The Immigration Act punishes a person who violates the false invitation ban with up to 3 years in prison or a fine of up to KRW 30 million (as of October 2026). Prosecution needs a complaint from the office head, and the head may notify a penalty fine equivalent to a criminal fine once guilt is confirmed. The standard amounts under the Enforcement Rule of the Immigration Act are below.
 
 | People invited | Standard fine |
 |---|---|
@@ -59,7 +59,7 @@ Amounts can be reduced or increased within one half for age, circumstances, moti
 
 ## 3. Effect on the invited foreigner
 
-Article 46(1), item 2 makes a foreigner who violated Article 7-2, or who entered through a false invitation under that article, subject to deportation. A permanent resident is not deported except in the cases the law lists. A person who wants to leave at their own expense can be given a departure order, so see the [voluntary departure guide](/en/blog/foreigner-voluntary-departure-2026) and the [entry ban removal guide](/en/blog/entry-ban-removal). Grounds and length of any entry restriction depend on the case.
+The Immigration Act makes a foreigner who violated the false invitation ban, or who entered through a false invitation that the ban prohibits, subject to deportation. A permanent resident is not deported except in the cases the law lists. A person who wants to leave at their own expense can be given a departure order, so see the [voluntary departure guide](/en/blog/foreigner-voluntary-departure-2026) and the [entry ban removal guide](/en/blog/entry-ban-removal). Grounds and length of any entry restriction depend on the case.
 
 ## 4. How is it investigated?
 

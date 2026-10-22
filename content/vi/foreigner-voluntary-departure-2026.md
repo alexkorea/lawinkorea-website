@@ -38,7 +38,7 @@ Bài viết này trình bày về lợi ích của chế độ xuất cảnh t�
 Cư trú bất hợp pháp (overstay) là tình trạng ở lại Hàn Quốc vượt quá thời hạn lưu trú đã được cấp phép.
 Nhập cảnh không có thị thực, hoặc hoạt động ngoài tư cách lưu trú, cũng có thể bị coi là cư trú bất hợp pháp.
 
-Theo Điều 17 Luật Quản lý xuất nhập cảnh, người nước ngoài chỉ được lưu trú tại Hàn Quốc trong phạm vi tư cách và thời hạn lưu trú.
+Theo Luật Quản lý xuất nhập cảnh, người nước ngoài chỉ được lưu trú tại Hàn Quốc trong phạm vi tư cách và thời hạn lưu trú.
 
 Khi rơi vào tình trạng này, bạn đối mặt các rủi ro sau:
 

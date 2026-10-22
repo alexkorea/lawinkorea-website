@@ -9,14 +9,14 @@ keywords:
   - "đổi hộ chiếu báo thay đổi"
   - "báo thay đổi 15 ngày"
   - "phạt khi trễ báo thay đổi"
-  - "Luật Xuất nhập cảnh Điều 35"
+  - "nghĩa vụ báo thay đổi Luật Xuất nhập cảnh"
 faq:
   - q: "Cấp hộ chiếu mới có phải báo thay đổi không?"
-    a: "Có. Điều 35 yêu cầu báo thay đổi thông tin đăng ký người nước ngoài tại cơ quan xuất nhập cảnh quản lý nơi cư trú trong 15 ngày khi số hộ chiếu, ngày cấp hoặc thời hạn thay đổi. Đổi hộ chiếu mới thường làm thay đổi số và thời hạn nên hầu hết thuộc diện phải báo."
+    a: "Có. Luật Xuất nhập cảnh yêu cầu báo thay đổi thông tin đăng ký người nước ngoài tại cơ quan xuất nhập cảnh quản lý nơi cư trú trong 15 ngày khi số hộ chiếu, ngày cấp hoặc thời hạn thay đổi. Đổi hộ chiếu mới thường làm thay đổi số và thời hạn nên hầu hết thuộc diện phải báo."
   - q: "Khi báo cần mang theo gì?"
-    a: "Theo Điều 44 khoản 1 Nghị định thi hành, nộp đơn báo thay đổi kèm thẻ đăng ký người nước ngoài và hộ chiếu cho trưởng cơ quan quản lý nơi cư trú. Nếu họ tên, giới tính, ngày sinh hoặc quốc tịch thay đổi, cơ quan sẽ cấp lại thẻ đăng ký. Hồ sơ bổ sung hãy hỏi cơ quan."
+    a: "Theo Nghị định thi hành Luật Xuất nhập cảnh, nộp đơn báo thay đổi kèm thẻ đăng ký người nước ngoài và hộ chiếu cho trưởng cơ quan quản lý nơi cư trú. Nếu họ tên, giới tính, ngày sinh hoặc quốc tịch thay đổi, cơ quan sẽ cấp lại thẻ đăng ký. Hồ sơ bổ sung hãy hỏi cơ quan."
   - q: "Trễ thì bị phạt bao nhiêu?"
-    a: "Theo Điều 100 khoản 2 mục 1: phạt hành chính đến 1 triệu won. Mức chuẩn tại Phụ lục 2 Nghị định thi hành: trễ dưới 3 tháng 100.000 won, từ 3 đến dưới 6 tháng 300.000 won, từ 6 tháng đến dưới 1 năm 500.000 won, từ 1 năm 1 triệu won (tính đến tháng 10/2026). Bộ trưởng Tư pháp có thể miễn phạt tùy hoàn cảnh."
+    a: "Theo Luật Xuất nhập cảnh: phạt hành chính đến 1 triệu won. Mức chuẩn tại Nghị định thi hành: trễ dưới 3 tháng 100.000 won, từ 3 đến dưới 6 tháng 300.000 won, từ 6 tháng đến dưới 1 năm 500.000 won, từ 1 năm 1 triệu won (tính đến tháng 10/2026). Bộ trưởng Tư pháp có thể miễn phạt tùy hoàn cảnh."
 related:
   - "residence-change-report-fine"
   - "immigration-law-penalties-guide"
@@ -35,13 +35,13 @@ Khi đổi hộ chiếu mới hoặc đổi trường, đổi công ty, thông t
 
 ## 1. Những thay đổi nào phải báo?
 
-Điều 35 quy định các nội dung phải báo như sau.
+Luật Xuất nhập cảnh quy định các nội dung phải báo như sau.
 
 1. Họ tên, giới tính, ngày sinh và quốc tịch
 2. Số hộ chiếu, ngày cấp và thời hạn
 3. Nội dung do Bộ Tư pháp quy định
 
-Điều 49-2 Thông tư thi hành nêu cho mục 3:
+Thông tư thi hành Luật Xuất nhập cảnh nêu cho nhóm cuối cùng:
 
 - **Thay đổi hoặc bổ sung cơ quan, tổ chức trực thuộc** (kể cả đổi tên) của người có tư cách Văn hóa nghệ thuật (D-1), Du học (D-2), và từ Đào tạo thông thường (D-4) đến Kinh doanh thương mại (D-9)
 - Thay đổi tình trạng đang theo học
@@ -53,11 +53,11 @@ Ví dụ nhận hộ chiếu mới, sinh viên chuyển trường, hoặc công 
 
 ## 2. Cách báo
 
-Theo Điều 44 Nghị định thi hành, nộp **đơn báo thay đổi thông tin đăng ký người nước ngoài** kèm **thẻ đăng ký và hộ chiếu** cho trưởng cơ quan quản lý nơi cư trú. Nhận được, trưởng cơ quan chỉnh lý hồ sơ, nếu họ tên, giới tính, ngày sinh, quốc tịch thay đổi thì cấp lại thẻ đăng ký và thông báo cho chính quyền địa phương. Cách đặt lịch và hồ sơ bổ sung có thể khác nhau theo cơ quan, hãy kiểm tra trước khi đến.
+Theo Nghị định thi hành Luật Xuất nhập cảnh, nộp **đơn báo thay đổi thông tin đăng ký người nước ngoài** kèm **thẻ đăng ký và hộ chiếu** cho trưởng cơ quan quản lý nơi cư trú. Nhận được, trưởng cơ quan chỉnh lý hồ sơ, nếu họ tên, giới tính, ngày sinh, quốc tịch thay đổi thì cấp lại thẻ đăng ký và thông báo cho chính quyền địa phương. Cách đặt lịch và hồ sơ bổ sung có thể khác nhau theo cơ quan, hãy kiểm tra trước khi đến.
 
 ## 3. Trễ thì sao?
 
-Điều 100 khoản 2 mục 1 quy định người vi phạm Điều 35 bị phạt hành chính đến 1 triệu won (tính đến tháng 10/2026). Mức chuẩn tại [Phụ lục 2] Nghị định thi hành theo thời gian trễ như sau.
+Luật Xuất nhập cảnh quy định người vi phạm nghĩa vụ báo thay đổi này bị phạt hành chính đến 1 triệu won (tính đến tháng 10/2026). Mức chuẩn tại Nghị định thi hành theo thời gian trễ như sau.
 
 | Thời gian trễ | Mức phạt chuẩn |
 |---|---|

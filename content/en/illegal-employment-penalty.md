@@ -12,7 +12,7 @@ keywords:
   - "Korea C-3 tourist work"
 faq:
   - q: "What's the penalty for D-2 students exceeding work hours?"
-    a: "Working beyond the hours allowed by your part-time work permission is a violation. The disposition (warning, fine notice, departure order and so on) depends on the case and on whether it is repeated. The employer faces up to 3 years in prison or a KRW 30 million fine under Immigration Act Art. 94(9) (as of October 2026)."
+    a: "Working beyond the hours allowed by your part-time work permission is a violation. The disposition (warning, fine notice, departure order and so on) depends on the case and on whether it is repeated. The employer faces up to 3 years in prison or a KRW 30 million fine under the Immigration Act (as of October 2026)."
   - q: "What if E-9 holders work for a different employer?"
     a: "Employer changes require government approval. An unauthorized change is an immigration law violation and can lead to a deportation review and an entry ban; the disposition depends on the case."
   - q: "If I'm caught, will late reporting still help?"
@@ -37,7 +37,7 @@ This guide covers each.
 
 ## 1. Definition of Out-of-Status Activity
 
-Article 20 of the Immigration Control Act: *"A foreign national in the Republic of Korea who wishes to engage in activities not corresponding to the activities of the granted status of stay must obtain prior approval from the Minister of Justice for out-of-status activity."*
+The Immigration Control Act: *"A foreign national in the Republic of Korea who wishes to engage in activities not corresponding to the activities of the granted status of stay must obtain prior approval from the Minister of Justice for out-of-status activity."*
 
 In short: **anything outside your visa's permitted activity = violation.**
 

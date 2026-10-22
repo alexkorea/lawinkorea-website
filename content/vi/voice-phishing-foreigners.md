@@ -20,9 +20,9 @@ faq:
   - q: "Tôi bị lừa qua tin tuyển việc làm thêm dành cho người nước ngoài. Tôi phải làm gì?"
     a: "Hãy tư vấn hành chính sĩ ngay. Lưu lại toàn bộ ảnh chụp tin tuyển dụng, lịch sử trò chuyện KakaoTalk/tin nhắn, lịch sử chuyển khoản và số tiền thù lao đã nhận. Tài liệu chứng minh khách quan rằng bạn nhận thức đó là việc làm thêm bình thường là mấu chốt."
   - q: "Sau khi tham gia thì bị cấm nhập cảnh (hạn chế nhập cảnh) bao lâu?"
-    a: "Theo Luật Quản lý xuất nhập cảnh Điều 11 khoản 1 điểm 6, người bị trục xuất không được nhập cảnh trong 5 năm kể từ khi xuất cảnh. Thời hạn cụ thể trong từng trường hợp phụ thuộc vào quyết định của cơ quan có thẩm quyền."
+    a: "Theo Luật Quản lý xuất nhập cảnh, người bị trục xuất không được nhập cảnh trong 5 năm kể từ khi xuất cảnh. Thời hạn cụ thể trong từng trường hợp phụ thuộc vào quyết định của cơ quan có thẩm quyền."
   - q: "Hồ sơ vụ lừa đảo qua điện thoại ảnh hưởng thế nào đến thường trú?"
-    a: "Theo Quy tắc thi hành Luật Quản lý xuất nhập cảnh Điều 18-4, án phạt tiền là 3 năm kể từ ngày nộp phạt, án treo là 5 năm kể từ ngày bản án có hiệu lực, án tù là 5 năm kể từ khi chấp hành xong. Tính chất vụ việc cũng có thể được xem xét; kết quả phụ thuộc vào từng trường hợp."
+    a: "Theo Quy tắc thi hành Luật Quản lý xuất nhập cảnh, án phạt tiền là 3 năm kể từ ngày nộp phạt, án treo là 5 năm kể từ ngày bản án có hiệu lực, án tù là 5 năm kể từ khi chấp hành xong. Tính chất vụ việc cũng có thể được xem xét; kết quả phụ thuộc vào từng trường hợp."
 related:
   - "immigration-offense-review-guide"
   - "criminal-case-visa-defense"

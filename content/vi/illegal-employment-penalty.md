@@ -13,7 +13,7 @@ keywords:
   - "out-of-status work Korea"
 faq:
   - q: "Du học sinh (D-2) làm thêm quá giờ bị xử lý thế nào?"
-    a: "Làm thêm vượt quá thời gian được phép theo tiêu chuẩn hiện hành của Bộ Tư pháp có thể bị coi là hoạt động ngoài tư cách. Mức xử lý phụ thuộc vào từng vụ việc. Chủ sử dụng có thể bị tù đến 3 năm hoặc phạt đến 30 triệu won theo Điều 94 khoản 9 Luật Quản lý Xuất nhập cảnh (tính đến tháng 10/2026)."
+    a: "Làm thêm vượt quá thời gian được phép theo tiêu chuẩn hiện hành của Bộ Tư pháp có thể bị coi là hoạt động ngoài tư cách. Mức xử lý phụ thuộc vào từng vụ việc. Chủ sử dụng có thể bị tù đến 3 năm hoặc phạt đến 30 triệu won theo Luật Quản lý Xuất nhập cảnh (tính đến tháng 10/2026)."
   - q: "Có visa E-9 mà làm ở nơi khác thì sao?"
     a: "Chuyển nơi làm việc bắt buộc phải được Trung tâm việc làm chấp thuận. Tự ý chuyển là hoạt động ngoài tư cách + vi phạm Luật Quản lý xuất nhập cảnh, có thể bị trục xuất + cấm nhập cảnh. Chủ sử dụng bị xử lý theo Luật về tuyển dụng lao động nước ngoài."
   - q: "Đã bị phát hiện rồi, khai báo muộn có sao không?"
@@ -23,7 +23,7 @@ faq:
   - q: "Tôi nhập cảnh bằng visa du lịch (C-3) rồi đi làm và bị phát hiện. Sẽ thế nào?"
     a: "Làm việc bằng visa du lịch là làm việc không có tư cách và có thể bị trục xuất (cưỡng chế xuất cảnh); người bị trục xuất không được nhập cảnh trong 5 năm kể từ khi xuất cảnh. Hoàn cảnh gia đình tại Hàn Quốc hoặc con đang đi học có thể được xem xét; kết quả phụ thuộc vào từng vụ việc."
   - q: "Sau khi bị xử lý về hoạt động ngoài tư cách, có xin được thường trú không?"
-    a: "Theo Quy tắc thi hành Luật Quản lý Xuất nhập cảnh Điều 18-4, án phạt tiền là 3 năm kể từ ngày nộp phạt, nhận lệnh xuất cảnh là 5 năm và bị trục xuất là 7 năm kể từ ngày xuất cảnh; vi phạm Luật Quản lý Xuất nhập cảnh từ 3 lần trở lên trong 5 năm gần nhất cũng là căn cứ không đáp ứng yêu cầu. Kết quả phụ thuộc vào từng trường hợp."
+    a: "Theo Quy tắc thi hành Luật Quản lý Xuất nhập cảnh, án phạt tiền là 3 năm kể từ ngày nộp phạt, nhận lệnh xuất cảnh là 5 năm và bị trục xuất là 7 năm kể từ ngày xuất cảnh; vi phạm Luật Quản lý Xuất nhập cảnh từ 3 lần trở lên trong 5 năm gần nhất cũng là căn cứ không đáp ứng yêu cầu. Kết quả phụ thuộc vào từng trường hợp."
 related:
   - "illegal-employer-penalty"
   - "immigration-offense-review-guide"
@@ -36,7 +36,7 @@ Một vi phạm xuất nhập cảnh thường gặp của người nước ngo�
 
 ## 1. Thế nào là hoạt động ngoài tư cách
 
-Luật Quản lý xuất nhập cảnh, Điều 20: "Người nước ngoài muốn thực hiện hoạt động thuộc tư cách lưu trú khác, bên cạnh hoạt động thuộc tư cách hiện có, phải được Bộ trưởng Bộ Tư pháp cho phép trước."
+Luật Quản lý xuất nhập cảnh quy định: "Người nước ngoài muốn thực hiện hoạt động thuộc tư cách lưu trú khác, bên cạnh hoạt động thuộc tư cách hiện có, phải được Bộ trưởng Bộ Tư pháp cho phép trước."
 
 Nghĩa là, **làm công việc nằm ngoài phạm vi ghi trong tư cách visa của mình là vi phạm**.
 

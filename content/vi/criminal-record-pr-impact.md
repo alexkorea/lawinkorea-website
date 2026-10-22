@@ -13,17 +13,17 @@ keywords:
   - "F5 criminal record"
 faq:
   - q: "Án phạt 1 triệu won cũng là căn cứ loại khi xin thường trú sao?"
-    a: "Theo Quy tắc thi hành Luật Quản lý xuất nhập cảnh Điều 18-4 khoản 1, người bị phạt tiền mà chưa qua 3 năm kể từ ngày nộp phạt không đáp ứng yêu cầu về phẩm hạnh, không phân biệt số tiền. Theo khoản 2 của điều này, Bộ trưởng Bộ Tư pháp có thể xem xét tổng hợp các hoàn cảnh; tội danh và số lần vi phạm cũng có thể được xem xét."
+    a: "Theo Quy tắc thi hành Luật Quản lý xuất nhập cảnh, người bị phạt tiền mà chưa qua 3 năm kể từ ngày nộp phạt không đáp ứng yêu cầu về phẩm hạnh, không phân biệt số tiền. Theo quy tắc này, Bộ trưởng Bộ Tư pháp có thể xem xét tổng hợp các hoàn cảnh; tội danh và số lần vi phạm cũng có thể được xem xét."
   - q: "Hết thời gian án treo là xin thường trú được ngay chứ?"
-    a: "Không. Theo Quy tắc thi hành Luật Quản lý xuất nhập cảnh Điều 18-4 khoản 1, người bị tuyên án treo mà chưa qua 5 năm kể từ ngày bản án có hiệu lực không đáp ứng yêu cầu về phẩm hạnh. Ví dụ, án treo với thời gian thử thách 2 năm thì vẫn phải chờ hết 5 năm kể từ ngày bản án có hiệu lực."
+    a: "Không. Theo Quy tắc thi hành Luật Quản lý xuất nhập cảnh, người bị tuyên án treo mà chưa qua 5 năm kể từ ngày bản án có hiệu lực không đáp ứng yêu cầu về phẩm hạnh. Ví dụ, án treo với thời gian thử thách 2 năm thì vẫn phải chờ hết 5 năm kể từ ngày bản án có hiệu lực."
   - q: "Tiền án từ 10 năm trước có còn ảnh hưởng không?"
-    a: "Các thời hạn theo Quy tắc thi hành Luật Quản lý xuất nhập cảnh Điều 18-4 là từ 3 đến 7 năm tùy loại xử lý (phạt tiền, án treo, án tù, trục xuất...). Tuy nhiên tính chất tội danh như ma túy, tội phạm tình dục, tội bạo lực nghiêm trọng vẫn có thể được xem xét, và kết quả phụ thuộc vào từng trường hợp."
+    a: "Các thời hạn theo Quy tắc thi hành Luật Quản lý xuất nhập cảnh là từ 3 đến 7 năm tùy loại xử lý (phạt tiền, án treo, án tù, trục xuất...). Tuy nhiên tính chất tội danh như ma túy, tội phạm tình dục, tội bạo lực nghiêm trọng vẫn có thể được xem xét, và kết quả phụ thuộc vào từng trường hợp."
   - q: "Tiêu chuẩn nhập tịch có khác với thường trú không?"
     a: "Có. Thời hạn liên quan đến tiền án khi xin nhập tịch dài hơn thường trú, ví dụ án phạt tiền là 5 năm kể từ ngày nộp phạt đối với nhập tịch và 3 năm đối với thường trú. Người xin nhập tịch thông thường cũng cần có tư cách thường trú."
   - q: "Tiền án ở nước ngoài có ảnh hưởng đến thường trú không?"
     a: "Có thể. Khi xin thường trú, thường phải nộp lý lịch tư pháp nước ngoài và khai báo tiền án theo yêu cầu. Khai gian có thể dẫn tới hủy thường trú hoặc trục xuất."
   - q: "Nếu phát sinh án mới sau khi đã nộp hồ sơ thường trú thì sao?"
-    a: "Phát sinh án mới trong thời gian thẩm định có thể dẫn tới bị từ chối. Ngay cả sau khi đã có thường trú, nếu bị xử phạt hình sự vẫn có thể bị thu hồi. Người có F-5 chỉ bị trục xuất (cưỡng chế xuất cảnh) trong các trường hợp hạn chế theo Luật Quản lý xuất nhập cảnh Điều 46 khoản 2 (ví dụ bị tuyên án tù từ 5 năm trở lên)."
+    a: "Phát sinh án mới trong thời gian thẩm định có thể dẫn tới bị từ chối. Ngay cả sau khi đã có thường trú, nếu bị xử phạt hình sự vẫn có thể bị thu hồi. Người có F-5 chỉ bị trục xuất (cưỡng chế xuất cảnh) trong các trường hợp hạn chế theo Luật Quản lý xuất nhập cảnh (ví dụ bị tuyên án tù từ 5 năm trở lên)."
 related:
   - "immigration-offense-review-guide"
   - "criminal-case-visa-defense"
@@ -37,7 +37,7 @@ Bài viết này tổng hợp ảnh hưởng của tiền án lên thường tr�
 
 ## 1. Căn cứ loại hồ sơ thường trú F-5 (Luật Quản lý xuất nhập cảnh)
 
-Điều kiện thường trú được quy định chi tiết theo từng loại tại Điều 12-2 và Phụ lục 1-3 (F-5-1 ~ F-5-17). Theo Quy tắc thi hành Luật Quản lý xuất nhập cảnh Điều 18-4 khoản 1 điểm 1, yêu cầu về phẩm hạnh không được đáp ứng nếu thuộc một trong các trường hợp sau:
+Điều kiện thường trú được quy định chi tiết theo từng loại tại Nghị định thi hành Luật Quản lý xuất nhập cảnh (F-5-1 ~ F-5-17). Theo Quy tắc thi hành Luật Quản lý xuất nhập cảnh, yêu cầu về phẩm hạnh không được đáp ứng nếu thuộc một trong các trường hợp sau:
 
 1. **Án tù hoặc giam giữ (thi hành thực tế)** — chưa qua 5 năm kể từ khi chấp hành xong hoặc được miễn chấp hành
 2. **Án treo** — chưa qua 5 năm kể từ ngày bản án có hiệu lực
@@ -46,13 +46,13 @@ Bài viết này tổng hợp ảnh hưởng của tiền án lên thường tr�
 5. **Đã bị trục xuất** — chưa qua 7 năm kể từ ngày xuất cảnh; **đã nhận lệnh xuất cảnh** — chưa qua 5 năm kể từ ngày xuất cảnh
 6. **Các trường hợp tương tự khác do Bộ trưởng Bộ Tư pháp quy định**
 
-Theo khoản 2 của điều này, Bộ trưởng Bộ Tư pháp vẫn có thể cho phép sau khi xem xét tổng hợp nền tảng cuộc sống tại Hàn Quốc, mức đóng góp và mức độ vi phạm.
+Theo quy tắc này, Bộ trưởng Bộ Tư pháp vẫn có thể cho phép sau khi xem xét tổng hợp nền tảng cuộc sống tại Hàn Quốc, mức đóng góp và mức độ vi phạm.
 
 Ngoài các thời hạn trên, **tội danh** và các hoàn cảnh khác cũng có thể được xem xét; kết quả phụ thuộc vào từng trường hợp.
 
 ## 2. Ảnh hưởng theo từng tội danh
 
-Thời hạn theo quy định được tính theo loại xử lý (mục 1); tính chất tội danh có thể được xem xét thêm, và mức ảnh hưởng thực tế phụ thuộc vào từng trường hợp.
+Thời hạn theo quy định được tính theo loại xử lý (xem phần trên); tính chất tội danh có thể được xem xét thêm, và mức ảnh hưởng thực tế phụ thuộc vào từng trường hợp.
 
 ### Nhóm có thể bị xem xét nghiêm khắc
 - **Án ma túy** (kể cả sử dụng đơn thuần)
@@ -105,7 +105,7 @@ Thời hạn theo quy định được tính theo loại xử lý (mục 1); tí
 - Thời hạn theo quy định: 5 năm kể từ ngày chấp hành xong
 - Hết thời hạn: **sau 2029-01-09**
 
-Đây là thời hạn theo Quy tắc thi hành Luật Quản lý xuất nhập cảnh Điều 18-4 khoản 1. Hết thời hạn không có nghĩa là mặc nhiên được cấp; các yêu cầu khác và hoàn cảnh cụ thể vẫn được xem xét, và kết quả phụ thuộc vào từng trường hợp.
+Đây là thời hạn theo Quy tắc thi hành Luật Quản lý xuất nhập cảnh. Hết thời hạn không có nghĩa là mặc nhiên được cấp; các yêu cầu khác và hoàn cảnh cụ thể vẫn được xem xét, và kết quả phụ thuộc vào từng trường hợp.
 
 ## 4. Những yếu tố có thể được xem xét
 
@@ -182,7 +182,7 @@ Thời hạn theo quy định được tính theo loại xử lý (mục 1); tí
 
 ## 7. Nhập tịch Hàn Quốc và tiền án
 
-### Luật Quốc tịch Điều 5 (điều kiện nhập tịch)
+### Điều kiện nhập tịch theo Luật Quốc tịch
 - Có địa chỉ liên tục tại Hàn Quốc từ 5 năm và có tư cách thường trú
 - Thành niên theo Bộ luật Dân sự (từ 19 tuổi)
 - Nhân thân tốt (đánh giá tiền án)
@@ -195,7 +195,7 @@ Thời hạn theo quy định được tính theo loại xử lý (mục 1); tí
 - Nhập tịch: án tù 10 năm kể từ khi chấp hành xong, án treo 7 năm kể từ khi hết thời gian thử thách, phạt tiền 5 năm kể từ ngày nộp phạt, hoãn tuyên án hoặc tạm đình chỉ truy tố 2 năm
 
 ### Gợi ý thực tế
-Theo Luật Quốc tịch Điều 5, người xin nhập tịch thông thường cần có tư cách thường trú, nên trình tự thường là **lấy thường trú (F-5) trước → xin nhập tịch**.
+Theo Luật Quốc tịch, người xin nhập tịch thông thường cần có tư cách thường trú, nên trình tự thường là **lấy thường trú (F-5) trước → xin nhập tịch**.
 
 ## 8. Tiền án tại nước ngoài
 

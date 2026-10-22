@@ -9,12 +9,12 @@ keywords:
   - "90 ngày tư cách lưu trú sau sinh"
   - "em bé người nước ngoài visa Hàn Quốc"
   - "cấp tư cách lưu trú"
-  - "Luật Xuất nhập cảnh Điều 23"
+  - "hạn xin tư cách lưu trú cho trẻ sơ sinh"
 faq:
   - q: "Con sinh tại Hàn Quốc thì chậm nhất khi nào phải có tư cách lưu trú?"
     a: "Trong vòng 90 ngày kể từ ngày sinh. Nộp đơn xin cấp tư cách lưu trú tại cơ quan xuất nhập cảnh quản lý nơi cư trú, Bộ trưởng Tư pháp ấn định thời hạn lưu trú. Sổ tay hướng dẫn cũng ghi rằng nếu xuất cảnh trong 90 ngày thì không cần xin phép riêng."
   - q: "Nộp đơn sau 90 ngày thì bị xử phạt thế nào?"
-    a: "Vi phạm Điều 23, lưu trú không có tư cách có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won, thực tế thường được giải quyết bằng thông báo xử phạt (beomchikgeum). Mức chuẩn tại Phụ lục 7 Thông tư thi hành tăng theo thời gian trễ: dưới 1 tháng 500.000 won, 1 đến dưới 3 tháng 1 triệu won, 3 đến dưới 6 tháng 2 triệu won, 6 tháng đến dưới 1 năm 5 triệu won (tính đến tháng 10/2026). Đây cũng là lý do buộc xuất cảnh."
+    a: "Vi phạm nghĩa vụ này, lưu trú không có tư cách có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won, thực tế thường được giải quyết bằng thông báo xử phạt (beomchikgeum). Mức chuẩn trong Thông tư thi hành Luật Xuất nhập cảnh tăng theo thời gian trễ: dưới 1 tháng 500.000 won, 1 đến dưới 3 tháng 1 triệu won, 3 đến dưới 6 tháng 2 triệu won, 6 tháng đến dưới 1 năm 5 triệu won (tính đến tháng 10/2026). Đây cũng là lý do buộc xuất cảnh."
   - q: "Tư cách lưu trú của trẻ có phụ thuộc vào tư cách của cha mẹ không?"
     a: "Có. Sổ tay nêu ví dụ: con của người F-2 sinh tại Hàn Quốc được cấp F-1; con của cha mẹ E-9 và tương tự được cấp thời hạn trong phạm vi thời hạn lưu trú của cha mẹ. Điều kiện và hồ sơ khác nhau theo tư cách của cha mẹ, hãy hỏi cơ quan quản lý trước khi nộp."
 related:
@@ -35,17 +35,17 @@ Khi con chào đời tại Hàn Quốc, ngoài khai sinh còn một việc nữa
 
 ## 1. Những trường hợp nào phải nộp đơn?
 
-Điều 23 khoản 1 quy định hai trường hợp. Thứ nhất, **người nước ngoài sinh tại Hàn Quốc**: trong 90 ngày kể từ ngày sinh. Thứ hai, người nước ngoài đang lưu trú mà mất hoặc từ bỏ quốc tịch Hàn Quốc hay phát sinh sự kiện tương tự: trong 60 ngày kể từ ngày sự kiện đó phát sinh. Cả hai trường hợp áp dụng khi người đó lưu trú mà không có tư cách theo Điều 10. Dù cha mẹ đã có tư cách lưu trú dài hạn, trẻ vẫn phải được cấp tư cách riêng.
+Luật Xuất nhập cảnh quy định hai trường hợp. Thứ nhất, **người nước ngoài sinh tại Hàn Quốc**: trong 90 ngày kể từ ngày sinh. Thứ hai, người nước ngoài đang lưu trú mà mất hoặc từ bỏ quốc tịch Hàn Quốc hay phát sinh sự kiện tương tự: trong 60 ngày kể từ ngày sự kiện đó phát sinh. Cả hai trường hợp áp dụng khi người đó lưu trú mà không có tư cách lưu trú theo luật này. Dù cha mẹ đã có tư cách lưu trú dài hạn, trẻ vẫn phải được cấp tư cách riêng.
 
 ## 2. Cách nộp đơn và hồ sơ cần chuẩn bị
 
-Theo Điều 29 Nghị định thi hành, người xin nộp **đơn xin cấp tư cách lưu trú** kèm hồ sơ theo quy định của Bộ Tư pháp cho trưởng cơ quan quản lý nơi cư trú. Bộ trưởng Tư pháp ấn định thời hạn lưu trú, sau đó hộ chiếu được đóng dấu hoặc dán nhãn cấp tư cách.
+Theo Nghị định thi hành Luật Xuất nhập cảnh, người xin nộp **đơn xin cấp tư cách lưu trú** kèm hồ sơ theo quy định của Bộ Tư pháp cho trưởng cơ quan quản lý nơi cư trú. Bộ trưởng Tư pháp ấn định thời hạn lưu trú, sau đó hộ chiếu được đóng dấu hoặc dán nhãn cấp tư cách.
 
 Sổ tay thường nêu: đơn, hộ chiếu, giấy tờ chứng minh quan hệ gia đình như giấy khai sinh, giấy tờ tùy thân của người nuôi dưỡng. Ví dụ chia theo tư cách của cha mẹ: con của người F-2 được cấp F-1, con của cha mẹ E-9 và tương tự được cấp thời hạn trong phạm vi thời hạn lưu trú của cha mẹ. Hồ sơ cụ thể khác nhau theo tư cách của cha mẹ, hãy kiểm tra hướng dẫn mới nhất của cơ quan quản lý.
 
 ## 3. Quá 90 ngày thì sao?
 
-Vi phạm Điều 23, lưu trú không có tư cách có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won theo Điều 94 mục 15 (tính đến tháng 10/2026). Thường được giải quyết bằng thông báo xử phạt, mức chuẩn tại [Phụ lục 7] Thông tư thi hành theo thời gian trễ như sau.
+Vi phạm nghĩa vụ này, lưu trú không có tư cách có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won theo Luật Xuất nhập cảnh (tính đến tháng 10/2026). Thường được giải quyết bằng thông báo xử phạt, mức chuẩn trong Thông tư thi hành theo thời gian trễ như sau.
 
 | Thời gian trễ | Mức phạt chuẩn |
 |---|---|
@@ -59,7 +59,7 @@ Vi phạm Điều 23, lưu trú không có tư cách có thể bị phạt tù �
 
 ## 4. Khi đơn không được chấp nhận
 
-Theo Điều 33 Nghị định thi hành, khi không cấp tư cách, Bộ trưởng Tư pháp thông báo cho người nộp đơn, trong thông báo ghi hạn xuất cảnh không quá 14 ngày kể từ ngày cấp. Nếu nhận được, hãy kiểm tra hạn và lý do trước.
+Theo Nghị định thi hành, khi không cấp tư cách, Bộ trưởng Tư pháp thông báo cho người nộp đơn, trong thông báo ghi hạn xuất cảnh không quá 14 ngày kể từ ngày cấp. Nếu nhận được, hãy kiểm tra hạn và lý do trước.
 
 ## 5. Các bước cần làm ngay
 

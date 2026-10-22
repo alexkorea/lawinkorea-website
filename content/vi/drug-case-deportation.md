@@ -21,9 +21,9 @@ faq:
   - q: "Tôi được bạn cho và chỉ dùng một lần. Có gia hạn được thẻ cư trú không?"
     a: "Điều đó phụ thuộc kết quả xem xét vi phạm. Một lần duy nhất + tự thú + có ý chí điều trị + có gia đình tại Hàn Quốc thì có thể kết thúc bằng thay đổi tư cách hoặc lệnh xuất cảnh, nhưng cũng có thể có quyết định trục xuất; kết quả phụ thuộc vào từng vụ việc. Cần tư vấn chuyên gia sớm."
   - q: "Sau án ma túy thì bị cấm nhập cảnh (hạn chế nhập cảnh) bao lâu?"
-    a: "Theo Luật Quản lý xuất nhập cảnh Điều 11 khoản 1 điểm 6, người bị trục xuất không được nhập cảnh trong 5 năm kể từ khi xuất cảnh; ngoài ra Bộ trưởng Bộ Tư pháp có thể cấm nhập cảnh theo các điểm khác của điều này (ví dụ người nghiện chất ma túy — điểm 1), nên thời hạn cụ thể phụ thuộc vào từng trường hợp. Có thể nộp đơn xin dỡ bỏ lệnh cấm; kết quả phụ thuộc vào từng vụ việc."
+    a: "Theo Luật Quản lý xuất nhập cảnh, người bị trục xuất không được nhập cảnh trong 5 năm kể từ khi xuất cảnh; ngoài ra Bộ trưởng Bộ Tư pháp có thể cấm nhập cảnh theo các trường hợp khác trong luật này (ví dụ người nghiện chất ma túy), nên thời hạn cụ thể phụ thuộc vào từng trường hợp. Có thể nộp đơn xin dỡ bỏ lệnh cấm; kết quả phụ thuộc vào từng vụ việc."
   - q: "Sau án ma túy có xin được thường trú (F-5) không?"
-    a: "Theo Quy tắc thi hành Luật Quản lý xuất nhập cảnh Điều 18-4, án phạt tiền là 3 năm kể từ ngày nộp phạt, án treo là 5 năm kể từ ngày bản án có hiệu lực, án tù là 5 năm kể từ khi chấp hành xong. Tính chất tội ma túy cũng có thể được xem xét, và kết quả phụ thuộc vào từng trường hợp."
+    a: "Theo Quy tắc thi hành Luật Quản lý xuất nhập cảnh, án phạt tiền là 3 năm kể từ ngày nộp phạt, án treo là 5 năm kể từ ngày bản án có hiệu lực, án tù là 5 năm kể từ khi chấp hành xong. Tính chất tội ma túy cũng có thể được xem xét, và kết quả phụ thuộc vào từng trường hợp."
 related:
   - "immigration-offense-review-guide"
   - "criminal-case-visa-defense"

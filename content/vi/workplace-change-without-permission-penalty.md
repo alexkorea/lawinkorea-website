@@ -9,12 +9,11 @@ keywords:
   - "thời hạn khai báo đổi nơi làm việc"
   - "đổi việc không xin phép bị phạt"
   - "vi phạm tư cách lưu trú khi đổi công ty"
-  - "Điều 21 Luật Quản lý Xuất nhập cảnh"
 faq:
   - q: "Có thể bắt đầu làm ở công ty mới trước rồi xin phép sau không?"
-    a: "Về nguyên tắc là không. Muốn đổi hoặc thêm nơi làm việc phải được Bộ trưởng Tư pháp cho phép trước. Đổi hoặc thêm mà không có phép là vi phạm Điều 95 mục 6. Ngoại lệ là người chuyên môn thuộc Điều 26-2 Nghị định thi hành, họ khai báo trong 15 ngày kể từ ngày đổi hoặc thêm nơi làm việc."
+    a: "Về nguyên tắc là không. Muốn đổi hoặc thêm nơi làm việc phải được Bộ trưởng Tư pháp cho phép trước. Đổi hoặc thêm mà không có phép là vi phạm Luật Quản lý Xuất nhập cảnh. Ngoại lệ là người chuyên môn do Nghị định thi hành quy định, họ khai báo trong 15 ngày kể từ ngày đổi hoặc thêm nơi làm việc."
   - q: "Nếu quá hạn khai báo 15 ngày thì sao?"
-    a: "Vi phạm nghĩa vụ khai báo có thể bị phạt hành chính đến 2 triệu won. Mức cơ sở trong Bảng 2 Nghị định thi hành: trễ dưới 3 tháng 100.000 won; từ 3 đến dưới 6 tháng 300.000 won; từ 6 đến dưới 12 tháng 500.000 won; từ 1 đến dưới 2 năm 1.000.000 won; từ 2 năm trở lên 2.000.000 won (tính đến tháng 10/2026). Sổ tay lưu trú của Bộ Tư pháp cho biết khai báo quá hạn sẽ được tiếp nhận sau khi có quyết định phạt hành chính và vụ việc kết thúc."
+    a: "Vi phạm nghĩa vụ khai báo có thể bị phạt hành chính đến 2 triệu won. Mức cơ sở trong Nghị định thi hành: trễ dưới 3 tháng 100.000 won; từ 3 đến dưới 6 tháng 300.000 won; từ 6 đến dưới 12 tháng 500.000 won; từ 1 đến dưới 2 năm 1.000.000 won; từ 2 năm trở lên 2.000.000 won (tính đến tháng 10/2026). Sổ tay lưu trú của Bộ Tư pháp cho biết khai báo quá hạn sẽ được tiếp nhận sau khi có quyết định phạt hành chính và vụ việc kết thúc."
   - q: "Nếu là lần vi phạm đầu tiên thì có được ở lại Hàn Quốc không?"
     a: "Sổ tay lưu trú của Bộ Tư pháp (mục khai báo sau của nhân lực chuyên môn) nêu rằng khi làm việc tại nơi đã đổi/thêm không phép, cơ quan xem xét tổng hợp quá trình và mức độ vi phạm; nếu là lần đầu thì sau khi thông báo xử phạt sẽ cho phép đổi nơi làm việc. Nếu vi phạm từ 2 lần trở lên trong 2 năm gần đây thì về nguyên tắc là thông báo xử phạt rồi yêu cầu xuất cảnh. Kết quả cụ thể do cơ quan quyết định theo từng trường hợp."
 related:
@@ -29,21 +28,21 @@ Khi đổi việc hoặc đi làm thêm, một số người nghĩ "hai công ty
 ## Tóm tắt nhanh
 
 - Muốn đổi hoặc thêm nơi làm việc trong phạm vi tư cách lưu trú, cần **được Bộ trưởng Tư pháp cho phép trước**.
-- Người chuyên môn thuộc Điều 26-2 Nghị định thi hành thì **khai báo trong 15 ngày** kể từ ngày đổi hoặc thêm nơi làm việc (phần nhưng thư của khoản đó).
+- Người chuyên môn do Nghị định thi hành quy định thì **khai báo trong 15 ngày** kể từ ngày đổi hoặc thêm nơi làm việc (ngoại lệ của cùng quy định).
 - Đổi hoặc thêm không phép có thể bị phạt tù đến 1 năm hoặc phạt tiền đến 10 triệu won; mức phạt cơ sở từ 1.000.000 đến 10.000.000 won (tính đến tháng 10/2026).
 - Nếu chỉ khai báo trễ thì là phạt hành chính đến 2 triệu won, mức cơ sở từ 100.000 đến 2.000.000 won (tính đến tháng 10/2026).
 
 ## 1. Xin phép và khai báo khác nhau thế nào?
 
-Điều 21 khoản 1 quy định người nước ngoài ở Hàn Quốc muốn đổi hoặc thêm nơi làm việc trong phạm vi tư cách lưu trú phải **được Bộ trưởng Tư pháp cho phép trước** theo quy định của sắc lệnh. Theo Nghị định thi hành Điều 26 khoản 1, bạn nộp đơn xin phép đổi/thêm nơi làm việc kèm giấy tờ do Bộ Tư pháp quy định cho cơ quan quản lý.
+Luật Quản lý Xuất nhập cảnh quy định người nước ngoài ở Hàn Quốc muốn đổi hoặc thêm nơi làm việc trong phạm vi tư cách lưu trú phải **được Bộ trưởng Tư pháp cho phép trước** theo quy định của sắc lệnh. Theo Nghị định thi hành, bạn nộp đơn xin phép đổi/thêm nơi làm việc kèm giấy tờ do Bộ Tư pháp quy định cho cơ quan quản lý.
 
-Có ngoại lệ. Người có kiến thức, kỹ thuật, kỹ năng chuyên môn do sắc lệnh quy định chỉ cần **khai báo trong 15 ngày** kể từ ngày đổi hoặc thêm nơi làm việc. Điều 26-2 khoản 1 Nghị định thi hành quy định đối tượng là người nước ngoài có một trong các tư cách từ Giáo sư (E-1) đến Hoạt động đặc định (E-7) và đáp ứng điều kiện do Bộ trưởng Tư pháp công bố. Dù cùng ngành nghề, người không đáp ứng điều kiện thì phải xin phép trước chứ không chỉ khai báo.
+Có ngoại lệ. Người có kiến thức, kỹ thuật, kỹ năng chuyên môn do sắc lệnh quy định chỉ cần **khai báo trong 15 ngày** kể từ ngày đổi hoặc thêm nơi làm việc. Nghị định thi hành quy định đối tượng là người nước ngoài có một trong các tư cách từ Giáo sư (E-1) đến Hoạt động đặc định (E-7) và đáp ứng điều kiện do Bộ trưởng Tư pháp công bố. Dù cùng ngành nghề, người không đáp ứng điều kiện thì phải xin phép trước chứ không chỉ khai báo.
 
 ## 2. Đổi nơi làm việc không phép bị xử phạt thế nào?
 
-Điều 95 mục 6 quy định người vi phạm Điều 21 khoản 1 (phần chính), đổi hoặc thêm nơi làm việc không có phép, bị phạt tù đến 1 năm hoặc phạt tiền đến 10 triệu won (tính đến tháng 10/2026). Người thuê lao động nước ngoài chưa có phép cũng bị xử theo cùng mục. Làm việc ở nơi không phải nơi chỉ định là vi phạm Điều 18 khoản 2 và áp dụng Điều 95 mục 5.
+Luật Quản lý Xuất nhập cảnh quy định người đổi hoặc thêm nơi làm việc không có phép bị phạt tù đến 1 năm hoặc phạt tiền đến 10 triệu won (tính đến tháng 10/2026). Người thuê lao động nước ngoài chưa có phép cũng bị xử theo cùng quy định. Làm việc ở nơi không phải nơi chỉ định là vi phạm quy định cấm làm việc ngoài nơi làm việc được chỉ định và cũng bị xử phạt.
 
-Khi điều tra xác định có vi phạm, người đứng đầu cơ quan có thể thông báo nộp tiền phạt (beomchikgeum) tương đương tiền phạt hình sự. Mức cơ sở trong [Bảng 7] của Thông tư thi hành theo thời gian vi phạm như sau (tính đến tháng 10/2026):
+Khi điều tra xác định có vi phạm, người đứng đầu cơ quan có thể thông báo nộp tiền phạt (beomchikgeum) tương đương tiền phạt hình sự. Mức cơ sở trong Thông tư thi hành Luật Quản lý Xuất nhập cảnh theo thời gian vi phạm như sau (tính đến tháng 10/2026):
 
 | Thời gian vi phạm | Mức phạt cơ sở |
 |---|---|
@@ -53,11 +52,11 @@ Khi điều tra xác định có vi phạm, người đứng đầu cơ quan có
 | Từ 1 năm đến dưới 2 năm | 5.000.000 won |
 | Từ 2 năm trở lên | 10.000.000 won |
 
-Mức cơ sở của Điều 95 mục 5 và mục 6 giống nhau. Đây là **mức cơ sở**; có thể giảm hoặc tăng trong phạm vi một nửa, có xét tuổi và hoàn cảnh, động cơ và hậu quả, khả năng nộp phạt, số lần vi phạm. Phải nộp trong 15 ngày kể từ ngày nhận thông báo; nộp đúng theo thông báo thì không bị xử phạt lại cùng vụ việc.
+Mức cơ sở đối với việc làm ngoài nơi được chỉ định và việc đổi/thêm nơi làm việc không phép là giống nhau. Đây là **mức cơ sở**; có thể giảm hoặc tăng trong phạm vi một nửa, có xét tuổi và hoàn cảnh, động cơ và hậu quả, khả năng nộp phạt, số lần vi phạm. Phải nộp trong 15 ngày kể từ ngày nhận thông báo; nộp đúng theo thông báo thì không bị xử phạt lại cùng vụ việc.
 
 ## 3. Nếu chỉ khai báo trễ thì sao?
 
-Thuộc diện khai báo mà quá 15 ngày thì không phải hình phạt mà là vấn đề **phạt hành chính**. Điều 100 khoản 1 mục 3 quy định người vi phạm nghĩa vụ khai báo tại phần nhưng thư của Điều 21 khoản 1 bị phạt hành chính đến 2 triệu won (tính đến tháng 10/2026).
+Thuộc diện khai báo mà quá 15 ngày thì không phải hình phạt mà là vấn đề **phạt hành chính**. Luật Quản lý Xuất nhập cảnh quy định người vi phạm nghĩa vụ khai báo đổi/thêm nơi làm việc bị phạt hành chính đến 2 triệu won (tính đến tháng 10/2026).
 
 | Thời gian trễ | Mức phạt cơ sở |
 |---|---|
@@ -67,11 +66,11 @@ Thuộc diện khai báo mà quá 15 ngày thì không phải hình phạt mà l
 | Từ 1 năm đến dưới 2 năm | 1.000.000 won |
 | Từ 2 năm trở lên | 2.000.000 won |
 
-Đây là mục về nghĩa vụ khai báo theo phần nhưng thư Điều 21 khoản 1 trong [Bảng 2] Nghị định thi hành. Có thể giảm trong phạm vi một nửa tùy hoàn cảnh, nhưng không giảm cho người đang nợ tiền phạt. Trước khi phạt còn có thông báo trước và ít nhất 10 ngày để nộp ý kiến. Sổ tay lưu trú của Bộ Tư pháp cũng giải thích khai báo quá hạn được tiếp nhận sau khi có quyết định phạt hành chính và vụ việc kết thúc.
+Đây là mức phạt hành chính cơ sở theo Nghị định thi hành Luật Quản lý Xuất nhập cảnh. Có thể giảm trong phạm vi một nửa tùy hoàn cảnh, nhưng không giảm cho người đang nợ tiền phạt. Trước khi phạt còn có thông báo trước và ít nhất 10 ngày để nộp ý kiến. Sổ tay lưu trú của Bộ Tư pháp cũng giải thích khai báo quá hạn được tiếp nhận sau khi có quyết định phạt hành chính và vụ việc kết thúc.
 
 ## 4. Ảnh hưởng đến buộc xuất cảnh và lưu trú sau này?
 
-Điều 46 khoản 1 mục 9 coi việc đổi/thêm nơi làm việc không phép, hoặc thuê/giới thiệu người nước ngoài vi phạm Điều 21 khoản 2, là lý do bị buộc xuất cảnh. Tuy nhiên, mục khai báo sau của nhân lực chuyên môn trong sổ tay lưu trú của Bộ Tư pháp nêu rằng khi làm việc tại nơi đã đổi/thêm không phép, cơ quan xem xét tổng hợp quá trình và mức độ vi phạm, đồng thời hướng dẫn như sau:
+Luật Quản lý Xuất nhập cảnh coi việc đổi/thêm nơi làm việc không phép, hoặc thuê/giới thiệu người nước ngoài chưa có phép, là lý do bị buộc xuất cảnh. Tuy nhiên, mục khai báo sau của nhân lực chuyên môn trong sổ tay lưu trú của Bộ Tư pháp nêu rằng khi làm việc tại nơi đã đổi/thêm không phép, cơ quan xem xét tổng hợp quá trình và mức độ vi phạm, đồng thời hướng dẫn như sau:
 
 - Vi phạm lần đầu: sau khi thông báo xử phạt, cho phép đổi nơi làm việc
 - Vi phạm từ 2 lần trở lên trong 2 năm gần đây, hoặc bị doanh nghiệp thuộc diện hạn chế mời lao động nước ngoài thuê: về nguyên tắc thông báo xử phạt rồi yêu cầu xuất cảnh
@@ -80,7 +79,7 @@ Kết quả từng trường hợp do cơ quan quyết định, nên hãy xem n�
 
 ## 5. Công ty thuê người có chịu trách nhiệm không?
 
-Có. Bên sử dụng cũng có nghĩa vụ. Điều 21 khoản 2 quy định không ai được thuê hoặc giới thiệu việc làm cho người nước ngoài chưa được phép đổi/thêm nơi làm việc. Điều 19 khoản 1 cũng yêu cầu người thuê lao động nước ngoài có tư cách làm việc phải khai báo trong 15 ngày khi sa thải, nghỉ việc, qua đời, mất liên lạc hoặc thay đổi nội dung quan trọng của hợp đồng. Vi phạm sẽ bị phạt hành chính đến 2 triệu won (tính đến tháng 10/2026). Trách nhiệm phía chủ sử dụng có trong [hướng dẫn xử phạt chủ sử dụng thuê trái phép](/vi/blog/illegal-employer-penalty).
+Có. Bên sử dụng cũng có nghĩa vụ. Luật Quản lý Xuất nhập cảnh quy định không ai được thuê hoặc giới thiệu việc làm cho người nước ngoài chưa được phép đổi/thêm nơi làm việc. Luật này cũng yêu cầu người thuê lao động nước ngoài có tư cách làm việc phải khai báo trong 15 ngày khi sa thải, nghỉ việc, qua đời, mất liên lạc hoặc thay đổi nội dung quan trọng của hợp đồng. Vi phạm sẽ bị phạt hành chính đến 2 triệu won (tính đến tháng 10/2026). Trách nhiệm phía chủ sử dụng có trong [hướng dẫn xử phạt chủ sử dụng thuê trái phép](/vi/blog/illegal-employer-penalty).
 
 ## 6. Khi phát hiện nơi làm việc đã thay đổi, làm theo thứ tự nào?
 

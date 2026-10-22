@@ -9,7 +9,7 @@ keywords:
   - "visa expired Korea penalty"
   - "stayed past authorized period Korea"
   - "missed visa extension Korea"
-  - "Immigration Act Article 25"
+  - "Korea stay extension permit"
 faq:
   - q: "I overstayed by only one day. Can I still be fined?"
     a: "The law treats any continued stay after the authorized period ends, without an extension permit, as a violation. In the fine schedule, the lowest bracket is an overstay of under one month, with a standard amount of KRW 500,000 (as of October 2026). The office may reduce or increase that amount by up to one half after considering age, circumstances, motive, ability to pay and prior violations."
@@ -33,15 +33,15 @@ Forgetting an expiry date, or running out of time because documents weren't read
 - In practice the immigration office often notifies a penalty fine (beomchikgeum) in place of a criminal fine. The standard amount runs from KRW 500,000 to KRW 30 million depending on overstay length (as of October 2026).
 - After paying, deportation, departure orders and later visa screening still need separate attention.
 
-## 1. Which articles apply once your period ends?
+## 1. Which rules apply once your period ends?
 
-Two provisions matter most. Article 25(1) says anyone who wants to stay beyond the authorized period must obtain permission from the Minister of Justice **before the period ends**. Enforcement Decree Article 31(1) likewise requires the extension application to be filed before expiry. A person who keeps staying past the period without that permit can be punished under Article 94, item 17, with up to 3 years in prison or a fine of up to KRW 30 million (as of October 2026).
+Two provisions matter most. The Immigration Act says anyone who wants to stay beyond the authorized period must obtain permission from the Minister of Justice **before the period ends**. The Enforcement Decree likewise requires the extension application to be filed before expiry. A person who keeps staying past the period without that permit can be punished under the Immigration Act with up to 3 years in prison or a fine of up to KRW 30 million (as of October 2026).
 
 Once the date has passed, you are no longer "extending" but already in violation, so a late filing does not erase the fact. If you notice you have passed the date, contact the competent immigration office as soon as you can.
 
 ## 2. How much is the fine?
 
-If an investigation confirms the offense, the head of the immigration office may order payment of a penalty fine equivalent to a criminal fine, in writing. The standard amount is set by overstay length in Table 7 of the Enforcement Rule (as of October 2026).
+If an investigation confirms the offense, the head of the immigration office may order payment of a penalty fine equivalent to a criminal fine, in writing. The standard amount is set by overstay length in the Enforcement Rule of the Immigration Act (as of October 2026).
 
 | Overstay length | Standard fine |
 |---|---|
@@ -67,8 +67,8 @@ If the investigation shows the offense warrants imprisonment or more, the case c
 
 No. The criminal-side fine and the residence-side administrative process move separately.
 
-- **Deportation grounds:** Violating Article 25 is listed in Article 46(1), item 8. Permanent residents are generally protected from deportation except in limited cases.
-- **Departure order:** Even where Article 46(1) may apply, a person who wishes to leave voluntarily at their own expense can be given a departure order, and a departure measure after a notified fine is covered by item 5. We compare the options in our [voluntary departure guide](/en/blog/foreigner-voluntary-departure-2026).
+- **Deportation grounds:** Violating the extension-permit duty is listed among the deportation grounds in the Immigration Act. Permanent residents are generally protected from deportation except in limited cases.
+- **Departure order:** Even where the deportation grounds may apply, a person who wishes to leave voluntarily at their own expense can be given a departure order, and a departure measure after a notified fine is covered by the same provision. We compare the options in our [voluntary departure guide](/en/blog/foreigner-voluntary-departure-2026).
 - **Whether you can remain:** The office decides based on overstay length, the circumstances and family or work situation. Similar overstays can end differently.
 
 ## 5. How does it affect later visa screening?

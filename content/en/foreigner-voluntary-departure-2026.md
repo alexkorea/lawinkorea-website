@@ -31,7 +31,7 @@ This guide covers voluntary departure, how entry bans are decided, and the proce
 Overstaying (불법체류, "illegal stay") means remaining in Korea beyond your permitted period of stay.
 Entering without a visa or engaging in activities outside your visa category can also be classified as an illegal stay.
 
-Under Article 17 of the Immigration Act, all foreigners must remain within the scope of their visa status and permitted stay period.
+Under the Immigration Act, all foreigners must remain within the scope of their visa status and permitted stay period.
 
 Overstaying can lead to the following:
 

@@ -9,7 +9,7 @@ keywords:
   - "khiếu nại hủy tư cách lưu trú"
   - "khởi kiện hành chính trục xuất Hàn Quốc"
   - "đình chỉ thi hành xuất nhập cảnh"
-  - "Luật Quản lý xuất nhập cảnh Điều 89"
+  - "ứng phó hủy tư cách lưu trú"
 faq:
   - q: "Nhận thông báo hủy tư cách lưu trú thì phải rời Hàn Quốc ngay sao?"
     a: "Không nhất thiết. Việc có phải xuất cảnh trong thời gian khiếu nại hoặc khởi kiện hành chính hay không phụ thuộc vào thời hạn ghi trên thông báo và việc có được quyết định đình chỉ thi hành hay không. Việc nộp kèm đơn xin đình chỉ thi hành là rất quan trọng."
@@ -28,12 +28,12 @@ related:
 ---
 
 Khi nhận thông báo hủy tư cách lưu trú, nếu không khiếu nại ngay, vụ việc có thể chuyển sang thủ tục trục xuất (cưỡng chế xuất cảnh).
-Theo Điều 89 Luật Quản lý xuất nhập cảnh, bạn có thể khiếu nại quyết định hủy, và cũng có thể khởi kiện hành chính để tranh chấp chính quyết định đó.
+Theo Luật Quản lý xuất nhập cảnh, bạn có thể khiếu nại quyết định hủy, và cũng có thể khởi kiện hành chính để tranh chấp chính quyết định đó.
 Bài viết này tổng hợp các lý do hủy phổ biến, quy trình ứng phó, cách khiếu nại và những điểm quan trọng trong thực tiễn.
 
 ## Các lý do hủy tư cách lưu trú phổ biến
 
-Theo Điều 89 Luật Quản lý xuất nhập cảnh và nghị định thi hành:
+Theo Luật Quản lý xuất nhập cảnh và nghị định thi hành:
 
 | Lý do hủy | Nội dung cụ thể |
 | --- | --- |

@@ -7,16 +7,16 @@ cluster: "cluster"
 keywords:
   - "activity outside status of sojourn Korea"
   - "permission for activities outside status"
-  - "Immigration Act Article 20"
+  - "Immigration Act activities outside status"
   - "notification disposition departure order deportation"
   - "immigration offense review Korea"
   - "international student illegal work Korea"
   - "unauthorized activity Korea visa"
 faq:
   - q: "What counts as an activity outside your status of sojourn?"
-    a: "It means engaging in an activity that belongs to another status of sojourn in addition to the activity your current status allows. Article 20 of the Immigration Act requires you to obtain permission for activities outside your status from the Minister of Justice in advance."
+    a: "It means engaging in an activity that belongs to another status of sojourn in addition to the activity your current status allows. The Immigration Act requires you to obtain permission for activities outside your status from the Minister of Justice in advance."
   - q: "Will I be deported immediately if I am caught?"
-    a: "No. A violation of Article 20 is listed among the grounds for deportation, but which disposition is actually issued (notification disposition, departure order, or deportation) is decided by the competent office based on the circumstances, the degree of violation, and whether it is a repeat."
+    a: "No. Engaging in such activity without permission is listed among the grounds for deportation, but which disposition is actually issued (notification disposition, departure order, or deportation) is decided by the competent office based on the circumstances, the degree of violation, and whether it is a repeat."
   - q: "How does a notification disposition differ from a departure order (exit order)?"
     a: "A notification disposition notifies you to pay a fine, while a departure order directs you to leave by a set deadline. The law also allows a departure order for a person for whom leaving the country after a notification disposition is deemed appropriate, so the two can be combined."
   - q: "What documents should I prepare for an offense review?"
@@ -34,9 +34,9 @@ International students sometimes take a part-time job without part-time work per
 
 > Actual dispositions and procedures depend on the case and the competent office, so always give priority to the documents you received and the office's instructions.
 
-## 1. What is an activity outside your status? Article 20
+## 1. What is an activity outside your status?
 
-Article 20 of the Immigration Act provides that a foreigner staying in Korea who wishes to engage in an activity of another status of sojourn, together with the activity of his or her own status, must **obtain in advance** permission for activities outside the status of sojourn from the Minister of Justice, as prescribed by Presidential Decree. The manual cites Article 25 of the Enforcement Decree and Article 29 of the Enforcement Rule (limits of activities outside status) as the basis for this permission.
+The Immigration Act provides that a foreigner staying in Korea who wishes to engage in an activity of another status of sojourn, together with the activity of his or her own status, must **obtain in advance** permission for activities outside the status of sojourn from the Minister of Justice, as prescribed by Presidential Decree. The manual cites the Enforcement Decree and the Enforcement Rule (limits of activities outside status) as the basis for this permission.
 
 Typical examples in the manual:
 
@@ -53,9 +53,9 @@ Immigration officers may investigate a foreigner suspected of falling under a gr
 | Departure order | An order with a departure deadline, e.g., for a person who wishes to leave voluntarily at own expense; also covers a person for whom departure after a notification disposition is deemed appropriate |
 | Deportation | A deportation order if the person is found to fall under the grounds for deportation |
 
-A person who violates Article 20 is listed as a deportation subject in Article 46(1), item 8. However, being listed is different from a deportation order actually being issued. The competent office decides the disposition case by case.
+A person who engages in such activity without permission is listed as a deportation subject in the Immigration Act. However, being listed is different from a deportation order actually being issued. The competent office decides the disposition case by case.
 
-**Criminal penalty provisions also exist separately.** Article 94 of the Immigration Act provides that a person falling under any of its subparagraphs shall be punished by imprisonment for up to 3 years or a fine of up to 30 million won, and item 12 lists "a person who, in violation of Article 20, engages in an activity of another status of sojourn without permission for activities outside the status of sojourn (as of October 2026)."
+**Criminal penalty provisions also exist separately.** The Immigration Act provides that "a person who engages in an activity of another status of sojourn without permission for activities outside the status of sojourn" shall be punished by imprisonment for up to 3 years or a fine of up to 30 million won (as of October 2026).
 
 ## 3. Handling standards by type in the manual
 
@@ -79,7 +79,7 @@ Practical principles to remember:
 1. **Recall and organize the facts accurately.** When you started, where, what you did, and whether you did not know a permit was needed are central points examined in the inquiry.
 2. **Follow the competent office's instructions on documents.** They can differ by case, so if instructions are unclear, it is safer to confirm with the office before submitting.
 3. **When a deportation order is issued, you are informed that an objection can be filed.** The law requires the head of the immigration office to inform the person that an objection may be filed with the Minister of Justice when issuing a deportation order.
-4. **The permission itself may be cancelled.** The Minister of Justice may cancel or change permissions under Article 20, and may call the person in to hear their opinion.
+4. **The permission itself may be cancelled.** The Minister of Justice may cancel or change permissions for activities outside status, and may call the person in to hear their opinion.
 
 ## 5. If you received a notification disposition
 

@@ -9,14 +9,14 @@ keywords:
   - "activity before status change"
   - "status change violation fine"
   - "change of status refused"
-  - "Immigration Act Article 24"
+  - "Immigration Act change of status"
 faq:
   - q: "Can I start the new activity once I have applied for a change of status?"
-    a: "No. Article 24(1) says that to engage in an activity that falls under a different status, you must obtain the Minister of Justice's permit in advance. The article does not say you may start once the application is filed, so begin only after approval. If unsure about timing, confirm with your immigration office."
+    a: "No. The Immigration Act says that to engage in an activity that falls under a different status, you must obtain the Minister of Justice's permit in advance. The law does not say you may start once the application is filed, so begin only after approval. If unsure about timing, confirm with your immigration office."
   - q: "How much is the penalty for acting without permission?"
-    a: "Up to 3 years in prison or a fine of up to KRW 30 million. In practice it is often settled by a penalty fine notice, and the Enforcement Rule Annex 7 standard amounts are KRW 500,000 for under 1 month, KRW 1 million for 1 to 3 months, KRW 2 million for 3 to 6 months and KRW 5 million for 6 months to 1 year (as of October 2026). It is also a ground for deportation."
+    a: "Up to 3 years in prison or a fine of up to KRW 30 million. In practice it is often settled by a penalty fine notice, and the Enforcement Rule standard amounts are KRW 500,000 for under 1 month, KRW 1 million for 1 to 3 months, KRW 2 million for 3 to 6 months and KRW 5 million for 6 months to 1 year (as of October 2026). It is also a ground for deportation."
   - q: "If the change is refused, must I leave immediately?"
-    a: "Not necessarily. Enforcement Decree Article 33(1) says the applicant is notified and may be allowed to stay in the status already granted. If a departure deadline is written, it is within 14 days of issue. Read the notice first."
+    a: "Not necessarily. The Enforcement Decree of the Immigration Act says the applicant is notified and may be allowed to stay in the status already granted. If a departure deadline is written, it is within 14 days of issue. Read the notice first."
 related:
   - "unauthorized-activity-disposition-2026"
   - "immigration-law-penalties-guide"
@@ -34,15 +34,15 @@ When your work in Korea changes, for example from study to employment, your stat
 
 ## 1. When is a change permit needed?
 
-The test in Article 24(1) is the 'activity'. To do an activity that falls under a different status, going beyond what your current status allows, you need a permit before you do it. For example, a student who wants to take up employment may fall here. For lesser departures from the scope of your status there is a separate permit for activities outside status; see the [guide on activities outside status](/en/blog/unauthorized-activity-disposition-2026) and your office's guidance to tell which applies.
+The test in the Immigration Act is the 'activity'. To do an activity that falls under a different status, going beyond what your current status allows, you need a permit before you do it. For example, a student who wants to take up employment may fall here. For lesser departures from the scope of your status there is a separate permit for activities outside status; see the [guide on activities outside status](/en/blog/unauthorized-activity-disposition-2026) and your office's guidance to tell which applies.
 
 ## 2. Application procedure
 
-Under Enforcement Decree Article 30, submit a **change of status application** with the documents set by Ministry of Justice rule to the office head. The head attaches an opinion and forwards it to the Minister; if permitted, the passport is stamped or given a sticker, or the issue of a registration card replaces it. Review follows the criteria under Enforcement Rule Article 31-2.
+Under the Enforcement Decree of the Immigration Act, submit a **change of status application** with the documents set by Ministry of Justice rule to the office head. The head attaches an opinion and forwards it to the Minister; if permitted, the passport is stamped or given a sticker, or the issue of a registration card replaces it. Review follows the criteria set in the Enforcement Rule of the Immigration Act.
 
 ## 3. What if you act before permission?
 
-Article 94, item 16 punishes a person who engages in an activity of another status without a permit in breach of Article 24 with up to 3 years in prison or a fine of up to KRW 30 million (as of October 2026). It is often settled by a penalty fine notice, and the Enforcement Rule Annex 7 standard amounts depend on the period.
+The Immigration Act punishes a person who engages in an activity of another status without a permit with up to 3 years in prison or a fine of up to KRW 30 million (as of October 2026). It is often settled by a penalty fine notice, and the Enforcement Rule standard amounts depend on the period.
 
 | Period of violation | Standard fine |
 |---|---|
@@ -56,7 +56,7 @@ Amounts can be reduced or increased within one half depending on age, circumstan
 
 ## 4. If the change is refused
 
-Enforcement Decree Article 33(1) says the applicant is notified when permission is not granted and may be allowed to stay in the status already granted. A departure deadline, if written, is within 14 days of issue. Reasons for refusal are also covered in the [visa denial guide](/en/blog/visa-denial-response).
+The Enforcement Decree of the Immigration Act says the applicant is notified when permission is not granted and may be allowed to stay in the status already granted. A departure deadline, if written, is within 14 days of issue. Reasons for refusal are also covered in the [visa denial guide](/en/blog/visa-denial-response).
 
 ## 5. The right order
 

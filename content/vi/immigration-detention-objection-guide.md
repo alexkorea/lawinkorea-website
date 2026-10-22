@@ -9,7 +9,7 @@ keywords:
   - "khiếu nại lệnh buộc xuất cảnh 7 ngày"
   - "tạm đình chỉ bảo hộ xuất nhập cảnh"
   - "thời gian tạm giữ xuất nhập cảnh"
-  - "Điều 55 Luật Quản lý Xuất nhập cảnh"
+  - "yêu cầu xem xét việc bảo hộ xuất nhập cảnh"
 faq:
   - q: "Bị bảo hộ thì gia đình có được thông báo không?"
     a: "Có. Khi bảo hộ nghi phạm, viên chức xuất nhập cảnh phải thông báo bằng văn bản trong vòng 3 ngày về thời gian, địa điểm và lý do cho người đại diện pháp luật, vợ/chồng, họ hàng trực hệ, anh chị em, gia đình, người bào chữa hoặc người do nghi phạm chỉ định ở trong nước. Nếu người bị bảo hộ muốn, cũng phải thông báo cho lãnh sự nước họ trừ trường hợp khẩn cấp."
@@ -35,11 +35,11 @@ Khi bị cơ quan xuất nhập cảnh bảo hộ (tạm giữ) trong quá trìn
 
 ## 1. Khi nào bị bảo hộ?
 
-Điều 51 khoản 1 quy định viên chức xuất nhập cảnh có thể bảo hộ người nước ngoài theo lệnh bảo hộ do người đứng đầu cơ quan xuất nhập cảnh khu vực cấp, khi có lý do đáng nghi thuộc các trường hợp buộc xuất cảnh tại Điều 46 khoản 1 và người đó bỏ trốn hoặc có nguy cơ bỏ trốn. Khi xin lệnh bảo hộ phải kèm tài liệu chứng minh sự cần thiết.
+Luật Quản lý Xuất nhập cảnh quy định viên chức xuất nhập cảnh có thể bảo hộ người nước ngoài theo lệnh bảo hộ do người đứng đầu cơ quan xuất nhập cảnh khu vực cấp, khi có lý do đáng nghi thuộc các trường hợp buộc xuất cảnh và người đó bỏ trốn hoặc có nguy cơ bỏ trốn. Khi xin lệnh bảo hộ phải kèm tài liệu chứng minh sự cần thiết.
 
 Trường hợp khẩn cấp không kịp xin lệnh, có thể bảo hộ trước sau khi nêu lý do. Khi đó phải lập ngay giấy bảo hộ khẩn cấp xuất trình cho người đó và phải xin được lệnh bảo hộ rồi xuất trình **trong vòng 48 giờ**; nếu không xin được thì phải trả tự do ngay.
 
-Ngoài ra, trước khi cấp lệnh bảo hộ hoặc gia hạn thời gian bảo hộ, người đứng đầu cơ quan phải cho đương sự cơ hội **trình bày ý kiến** bằng lời hoặc văn bản. Nếu không giao tiếp được bằng tiếng Hàn, Nghị định thi hành Điều 80-2 khoản 5 cho phép hỗ trợ phiên dịch hoặc biên dịch.
+Ngoài ra, trước khi cấp lệnh bảo hộ hoặc gia hạn thời gian bảo hộ, người đứng đầu cơ quan phải cho đương sự cơ hội **trình bày ý kiến** bằng lời hoặc văn bản. Nếu không giao tiếp được bằng tiếng Hàn, Nghị định thi hành Luật Quản lý Xuất nhập cảnh cho phép hỗ trợ phiên dịch hoặc biên dịch.
 
 ## 2. Thời gian bảo hộ là bao lâu?
 
@@ -59,7 +59,7 @@ Vì vậy, ngay sau khi bị bảo hộ, hãy cung cấp chính xác thông tin 
 
 ### (1) Yêu cầu xem xét việc bảo hộ
 
-Người bị bảo hộ theo lệnh bảo hộ hoặc người đại diện pháp luật... nếu phản đối việc bảo hộ có thể yêu cầu Ủy ban Bảo hộ Người nước ngoài xem xét thông qua người đứng đầu cơ quan xuất nhập cảnh khu vực. Theo Nghị định thi hành Điều 69 khoản 1, nộp đơn yêu cầu xem xét theo mẫu của Bộ Tư pháp kèm tài liệu giải thích lý do phản đối. Ủy ban bác bỏ nếu yêu cầu không có lý do và quyết định trả tự do nếu có lý do.
+Người bị bảo hộ theo lệnh bảo hộ hoặc người đại diện pháp luật... nếu phản đối việc bảo hộ có thể yêu cầu Ủy ban Bảo hộ Người nước ngoài xem xét thông qua người đứng đầu cơ quan xuất nhập cảnh khu vực. Theo Nghị định thi hành Luật Quản lý Xuất nhập cảnh, nộp đơn yêu cầu xem xét theo mẫu của Bộ Tư pháp kèm tài liệu giải thích lý do phản đối. Ủy ban bác bỏ nếu yêu cầu không có lý do và quyết định trả tự do nếu có lý do.
 
 ### (2) Khiếu nại lệnh buộc xuất cảnh
 

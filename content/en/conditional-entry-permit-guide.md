@@ -9,14 +9,14 @@ keywords:
   - "conditional entry permit"
   - "entry refusal return"
   - "grounds for entry ban Korea"
-  - "Immigration Act Article 12"
+  - "Immigration Act entry inspection"
 faq:
   - q: "What does entry inspection check?"
-    a: "Under Article 12(3), officers check whether (1) the passport and visa are valid (visa only where the Act requires one), (2) any travel authorization is valid, (3) the purpose of entry fits the status, (4) the stay period is set under Ministry of Justice rule, and (5) the person is not subject to an entry ban or refusal under Article 11. If you cannot prove the requirements, entry may be refused."
+    a: "Under the Immigration Act, officers check whether (1) the passport and visa are valid (visa only where the Act requires one), (2) any travel authorization is valid, (3) the purpose of entry fits the status, (4) the stay period is set under Ministry of Justice rule, and (5) the person is not subject to an entry ban or refusal under the Act. If you cannot prove the requirements, entry may be refused."
   - q: "What is a conditional entry permit?"
-    a: "Under Article 13, an office head may grant conditional entry to a person who could not meet the passport or visa requirement for unavoidable reasons but is expected to within a set period, a person suspected of an entry-ban ground or of not meeting the entry purpose requirement who needs special examination, and others. Enforcement Decree Article 16 allows a period of up to 72 hours. The permit carries conditions such as residence restrictions and a duty to attend when summoned, and a deposit of up to KRW 10 million may be required (as of October 2026)."
+    a: "Under the Immigration Act, an office head may grant conditional entry to a person who could not meet the passport or visa requirement for unavoidable reasons but is expected to within a set period, a person suspected of an entry-ban ground or of not meeting the entry purpose requirement who needs special examination, and others. The Enforcement Decree allows a period of up to 72 hours. The permit carries conditions such as residence restrictions and a duty to attend when summoned, and a deposit of up to KRW 10 million may be required (as of October 2026)."
   - q: "What if I break the conditions?"
-    a: "Up to 1 year in prison or a fine of up to KRW 10 million under Article 95, item 2. The Enforcement Rule Annex 7 standard fine is KRW 1 million for the first time, KRW 3 million for the second, KRW 5 million for the third and KRW 10 million for the fourth or more (as of October 2026). The deposit can be forfeited in whole or in part, and breach is a ground for deportation."
+    a: "Up to 1 year in prison or a fine of up to KRW 10 million under the Immigration Act. The Enforcement Rule standard fine is KRW 1 million for the first time, KRW 3 million for the second, KRW 5 million for the third and KRW 10 million for the fourth or more (as of October 2026). The deposit can be forfeited in whole or in part, and breach is a ground for deportation."
 related:
   - "entry-ban-removal"
   - "visa-denial-response"
@@ -35,33 +35,33 @@ Foreign nationals arriving in Korea go through entry inspection at the airport o
 
 ## 1. Inspection requirements
 
-Article 12(1) requires a foreigner to submit a passport and arrival card at the port of entry and undergo inspection. Under paragraph 3, officers permit entry after checking that:
+The Immigration Act requires a foreigner to submit a passport and arrival card at the port of entry and undergo inspection. Officers permit entry after checking that:
 
 1. The passport and visa are valid (visa only where the Act requires one)
 2. Any travel authorization is valid (where applicable)
 3. The purpose of entry fits the status
 4. The stay period is set under Ministry of Justice rule
-5. The person is not subject to an entry ban or refusal under Article 11
+5. The person is not subject to an entry ban or refusal under the Act
 
 People with valid registration and similar may skip the arrival card. If you cannot prove you meet the requirements, entry may be refused.
 
 ## 2. Grounds for entry ban or refusal
 
-Article 11(1) lists foreigners the Minister of Justice may ban from entry: persons who may harm public health, such as those with infectious disease or drug addiction; persons trying to enter with firearms, swords or explosives unlawfully; persons likely to harm the nation's interests or public safety; persons likely to harm economic or social order; persons needing relief such as those unable to pay for their stay; **persons who left after a deportation order and 5 years have not passed**; and others the Minister finds unsuitable. If a person's home country refuses entry to Korean nationals on the same grounds, Korea may refuse as well. For lifting a ban, see the [entry ban removal guide](/en/blog/entry-ban-removal).
+The Immigration Act lists foreigners the Minister of Justice may ban from entry: persons who may harm public health, such as those with infectious disease or drug addiction; persons trying to enter with firearms, swords or explosives unlawfully; persons likely to harm the nation's interests or public safety; persons likely to harm economic or social order; persons needing relief such as those unable to pay for their stay; **persons who left after a deportation order and 5 years have not passed**; and others the Minister finds unsuitable. If a person's home country refuses entry to Korean nationals on the same grounds, Korea may refuse as well. For lifting a ban, see the [entry ban removal guide](/en/blog/entry-ban-removal).
 
 ## 3. Conditional entry permit
 
-Under Article 13(1), the head of a regional immigration office may grant conditional entry to:
+Under the Immigration Act, the head of a regional immigration office may grant conditional entry to:
 
 - A person who could not meet the passport or visa requirement for unavoidable reasons but is recognized as able to meet it within a set period
 - A person suspected of an entry-ban ground or of not meeting the entry purpose requirement who **needs special examination**
 - Others for whom conditional entry is considered necessary
 
-The office issues a **conditional entry permit** with conditions such as residence restrictions and a duty to attend when summoned, and may require a **deposit of up to KRW 10 million** (as of October 2026). Under Enforcement Decree Article 16, the period is set **within 72 hours** and may be extended within that limit for unavoidable reasons. If the requirements are met within the period, inspection is carried out and the date of entry is the date of the conditional permit.
+The office issues a **conditional entry permit** with conditions such as residence restrictions and a duty to attend when summoned, and may require a **deposit of up to KRW 10 million** (as of October 2026). Under the Enforcement Decree, the period is set **within 72 hours** and may be extended within that limit for unavoidable reasons. If the requirements are met within the period, inspection is carried out and the date of entry is the date of the conditional permit.
 
 ## 4. Breaking conditions, and refusal
 
-Breaking the conditions of a conditional entry permit can bring up to 1 year in prison or a fine of up to KRW 10 million under Article 95, item 2 (as of October 2026). The Enforcement Rule Annex 7 standard fines are below and can be reduced or increased within one half.
+Breaking the conditions of a conditional entry permit can bring up to 1 year in prison or a fine of up to KRW 10 million under the Immigration Act (as of October 2026). The Enforcement Rule standard fines are below and can be reduced or increased within one half.
 
 | Violations | Standard fine |
 |---|---|
@@ -77,7 +77,7 @@ The deposit can be forfeited in whole or in part for a breach, and breach is als
 1. **Check passport validity and visa.** Prepare the visa or travel authorization that matches your purpose.
 2. **Bring material that proves your purpose.** An invitation, proof of employment or enrollment, and accommodation bookings may help.
 3. **Check for entry ban grounds.** If you were deported before, confirm whether 5 years have passed.
-4. **Answer questions truthfully on the spot.** Do not say anything that differs from your documents. False statements in applications can be punished separately under Articles 7-2 and 26.
+4. **Answer questions truthfully on the spot.** Do not say anything that differs from your documents. False statements in applications can be punished separately under the Immigration Act.
 5. **If given a conditional entry permit, follow the conditions exactly.** Note the period, residence restriction and appearance time.
 
 ## 6. What an administrative scrivener can do

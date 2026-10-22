@@ -49,7 +49,7 @@ A question we often hear is: **"I paid the fine — why is Immigration calling m
 
 ## 1. What Is an Immigration Offense Review?
 
-An Immigration Offense Review is an administrative procedure under **Articles 46 and 68 of the Immigration Control Act** that re-examines a foreigner's right to remain in Korea after a violation of immigration law or a criminal incident.
+An Immigration Offense Review is an administrative procedure under **the Immigration Control Act** that re-examines a foreigner's right to remain in Korea after a violation of immigration law or a criminal incident.
 
 Three core points:
 

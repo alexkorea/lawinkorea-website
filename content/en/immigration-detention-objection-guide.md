@@ -9,7 +9,7 @@ keywords:
   - "deportation order objection Korea 7 days"
   - "temporary release from immigration detention"
   - "how long immigration detention Korea"
-  - "Immigration Act Article 55"
+  - "immigration detention review request Korea"
 faq:
   - q: "Will my family be told if I am detained?"
     a: "Yes. When an immigration officer detains a suspect, the officer must notify the legal representative, spouse, lineal relative, sibling, family member, counsel or a person the suspect designates in Korea, in writing within 3 days, of the time, place and reason. If the detained person wishes, the consul of their country must also be notified unless there are urgent circumstances."
@@ -35,11 +35,11 @@ When someone is held at an immigration office or detention facility after a crac
 
 ## 1. When can someone be detained?
 
-Article 51(1) says an immigration officer may detain a foreigner under a detention order issued by the head of the regional immigration office when there are reasonable grounds to suspect a deportation ground under Article 46(1) and the person has fled or may flee. An application for a detention order must attach materials showing the need for detention.
+The Immigration Act says an immigration officer may detain a foreigner under a detention order issued by the head of the regional immigration office when there are reasonable grounds to suspect a deportation ground and the person has fled or may flee. An application for a detention order must attach materials showing the need for detention.
 
 In urgent cases where there is no time to obtain a detention order, the officer may detain first after stating the reason. An emergency detention document must then be prepared and shown immediately, and a detention order must be obtained and shown **within 48 hours**. If it cannot be obtained, the person must be released immediately.
 
-Before issuing a detention order or extending the detention period, the office head must also give the person a chance to state their views orally or in writing. Enforcement Decree Article 80-2(5) allows interpretation or translation support where the person cannot communicate in Korean.
+Before issuing a detention order or extending the detention period, the office head must also give the person a chance to state their views orally or in writing. The Enforcement Decree of the Immigration Act allows interpretation or translation support where the person cannot communicate in Korean.
 
 ## 2. How long can detention last?
 
@@ -59,7 +59,7 @@ So right after detention, it matters to give the correct contact details of the 
 
 ### (1) Review request against detention
 
-A person detained under a detention order, or their legal representative and others, who objects to the detention may request review by the Foreigner Protection Committee through the head of the regional immigration office. Under Enforcement Decree Article 69(1), you file the review request form set by ministerial ordinance with materials explaining the grounds for objection. The Committee dismisses the request if it lacks merit and decides to release the person if it has merit.
+A person detained under a detention order, or their legal representative and others, who objects to the detention may request review by the Foreigner Protection Committee through the head of the regional immigration office. Under the Enforcement Decree of the Immigration Act, you file the review request form set by ministerial ordinance with materials explaining the grounds for objection. The Committee dismisses the request if it lacks merit and decides to release the person if it has merit.
 
 ### (2) Objection to the deportation order
 
@@ -70,7 +70,7 @@ Even if the objection is found unfounded, the Minister may permit stay where the
 ### (3) Temporary release from detention
 
 - **Ex officio:** the office head may temporarily release a detainee after considering circumstances, the reasons for the request and assets, with a deposit of up to KRW 20 million and conditions such as restriction of residence, regular reporting and a guarantor (as of October 2026).
-- **On application:** when the detainee (including a guarantor or legal representative) applies, the Foreigner Protection Committee decides. The application attaches materials explaining the reasons and ability to pay the deposit. The Committee must decide within 3 weeks of receiving the application, extendable once by up to 2 weeks for unavoidable reasons (same Article).
+- **On application:** when the detainee (including a guarantor or legal representative) applies, the Foreigner Protection Committee decides. The application attaches materials explaining the reasons and ability to pay the deposit. The Committee must decide within 3 weeks of receiving the application, extendable once by up to 2 weeks for unavoidable reasons.
 - **Review criteria:** serious threats to life or body or irreparable property loss, harm to national interests, the person's offense, age, character and conduct in the facility, risk of flight, and other serious humanitarian reasons.
 - If conditions are broken or flight is likely, temporary release can be revoked and the deposit forfeited to the state.
 

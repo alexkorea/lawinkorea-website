@@ -9,12 +9,11 @@ keywords:
   - "re-entry permit exemption"
   - "multiple re-entry permit"
   - "extend re-entry permit"
-  - "Immigration Act Article 30"
 faq:
   - q: "Must I always get a re-entry permit before leaving?"
-    a: "In principle a registered foreigner who leaves and re-enters within the stay period needs the Minister of Justice's permit. Permanent residents and persons set by Ministry of Justice rule may be exempt, and Enforcement Rule Article 44-2 sets the criteria. Check with your office before leaving whether you are exempt."
+    a: "In principle a registered foreigner who leaves and re-enters within the stay period needs the Minister of Justice's permit. Permanent residents and persons set by Ministry of Justice rule may be exempt, and the Enforcement Rule of the Immigration Act sets the criteria. Check with your office before leaving whether you are exempt."
   - q: "How long can I be out without a permit?"
-    a: "Under Enforcement Rule Article 44-2, F-5 holders are exempt if they return within 2 years of leaving, and holders of statuses from A-1 to F-3 and from F-6 to G-1 are exempt if they return within 1 year (or the remaining stay period if shorter than 1 year). People subject to an entry ban under Article 11 and similar are excluded."
+    a: "Under the Enforcement Rule of the Immigration Act, F-5 holders are exempt if they return within 2 years of leaving, and holders of statuses from A-1 to F-3 and from F-6 to G-1 are exempt if they return within 1 year (or the remaining stay period if shorter than 1 year). People subject to an entry ban under the Immigration Act and similar are excluded."
   - q: "What if I cannot return within the permitted period?"
     a: "If illness or other unavoidable reasons prevent re-entry within the permitted period, you must obtain an extension of the re-entry permit period before it ends. The authority is delegated to heads of overseas missions, and the same procedure applies to extending the exemption period."
 related:
@@ -35,11 +34,11 @@ For a registered foreigner who visits home or travels abroad for a short time, t
 
 ## 1. What is a re-entry permit?
 
-Article 30(1) says that when a foreigner who is registered or exempt from registration leaves and wants to re-enter within the stay period, the Minister of Justice may permit re-entry on application. Under Enforcement Rule Article 39-7, submit a **re-entry permit application** with documents explaining the reason to the office head. The permit period is set **within the permitted stay period**, and if granted the passport is stamped or given a sticker. Check the permit fee in the HiKorea fee guide.
+The Immigration Act says that when a foreigner who is registered or exempt from registration leaves and wants to re-enter within the stay period, the Minister of Justice may permit re-entry on application. Under the Enforcement Rule of the Immigration Act, submit a **re-entry permit application** with documents explaining the reason to the office head. The permit period is set **within the permitted stay period**, and if granted the passport is stamped or given a sticker. Check the permit fee in the HiKorea fee guide.
 
 ## 2. Single and multiple permits and periods
 
-Article 30(2) divides re-entry permits into single, allowing one re-entry, and multiple, allowing two or more. The **maximum periods** under Enforcement Rule Article 41 are as follows.
+The Immigration Act divides re-entry permits into single, allowing one re-entry, and multiple, allowing two or more. The **maximum periods** under the Enforcement Rule of the Immigration Act are as follows.
 
 | Type | Maximum period |
 |---|---|
@@ -51,16 +50,16 @@ The criteria for multiple permits are set separately by the Minister of Justice 
 
 ## 3. Who is exempt?
 
-Under the proviso to Article 30(1), Enforcement Rule Article 44-2 exempts the following people from the permit.
+The Enforcement Rule of the Immigration Act exempts the following people from the permit.
 
 - F-5 holders: re-entry **within 2 years** of leaving
 - Holders of statuses from A-1 to F-3 and from F-6 to G-1: re-entry **within 1 year** of leaving (or the remaining stay period if shorter than 1 year)
 
-People subject to an entry ban under Article 11 and those whose visa issuance needs the Minister's approval under Article 10 of the Rule are excluded. The manual also says people under entry or visa issuance restrictions must visit the office for their place of residence to obtain a permit. Once the exemption period passes, the exemption does not apply, so count the days.
+People subject to an entry ban under the Immigration Act and those whose visa issuance needs the Minister's approval under the Enforcement Rule are excluded. The manual also says people under entry or visa issuance restrictions must visit the office for their place of residence to obtain a permit. Once the exemption period passes, the exemption does not apply, so count the days.
 
 ## 4. If you cannot return in time
 
-If illness or other unavoidable reasons prevent re-entry within the permitted period, you must obtain the Minister of Justice's **extension of the re-entry permit period** before it ends. Under Enforcement Decree Article 38, the authority is delegated to heads of overseas missions, and it covers exempted persons who cannot return within the exemption period as well as permit holders. The application goes to the head of an overseas mission, and the extension runs up to 3 months from the end of the permit period but cannot exceed the permitted stay; extending the exemption period follows the same rule. This procedure is not available after the period ends, so if something happens abroad, contact the nearest overseas mission right away.
+If illness or other unavoidable reasons prevent re-entry within the permitted period, you must obtain the Minister of Justice's **extension of the re-entry permit period** before it ends. Under the Enforcement Decree of the Immigration Act, the authority is delegated to heads of overseas missions, and it covers exempted persons who cannot return within the exemption period as well as permit holders. The application goes to the head of an overseas mission, and the extension runs up to 3 months from the end of the permit period but cannot exceed the permitted stay; extending the exemption period follows the same rule. This procedure is not available after the period ends, so if something happens abroad, contact the nearest overseas mission right away.
 
 ## 5. Checklist before and after leaving
 

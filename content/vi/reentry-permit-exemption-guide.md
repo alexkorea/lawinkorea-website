@@ -9,12 +9,11 @@ keywords:
   - "miễn giấy phép tái nhập cảnh"
   - "tái nhập cảnh nhiều lần"
   - "gia hạn giấy phép tái nhập cảnh"
-  - "Luật Xuất nhập cảnh Điều 30"
 faq:
   - q: "Xuất cảnh rồi quay lại có bắt buộc xin giấy phép tái nhập cảnh không?"
-    a: "Về nguyên tắc, người nước ngoài đã đăng ký xuất cảnh rồi tái nhập cảnh trong thời hạn lưu trú phải được Bộ trưởng Tư pháp cho phép. Người có tư cách vĩnh trú và người do Bộ Tư pháp quy định có thể được miễn; Điều 44-2 Thông tư thi hành quy định tiêu chuẩn. Hãy hỏi cơ quan trước khi đi xem mình có thuộc diện miễn không."
+    a: "Về nguyên tắc, người nước ngoài đã đăng ký xuất cảnh rồi tái nhập cảnh trong thời hạn lưu trú phải được Bộ trưởng Tư pháp cho phép. Người có tư cách vĩnh trú và người do Bộ Tư pháp quy định có thể được miễn; Thông tư thi hành Luật Xuất nhập cảnh quy định tiêu chuẩn. Hãy hỏi cơ quan trước khi đi xem mình có thuộc diện miễn không."
   - q: "Không xin phép thì được ra nước ngoài bao lâu?"
-    a: "Theo Điều 44-2 Thông tư thi hành, F-5 được miễn nếu quay lại trong 2 năm kể từ ngày xuất cảnh; người có tư cách từ A-1 đến F-3 và từ F-6 đến G-1 được miễn nếu quay lại trong 1 năm (hoặc thời hạn lưu trú còn lại nếu ngắn hơn 1 năm). Người bị cấm nhập cảnh theo Điều 11 v.v. bị loại trừ."
+    a: "Theo Thông tư thi hành Luật Xuất nhập cảnh, F-5 được miễn nếu quay lại trong 2 năm kể từ ngày xuất cảnh; người có tư cách từ A-1 đến F-3 và từ F-6 đến G-1 được miễn nếu quay lại trong 1 năm (hoặc thời hạn lưu trú còn lại nếu ngắn hơn 1 năm). Người bị cấm nhập cảnh theo Luật Xuất nhập cảnh v.v. bị loại trừ."
   - q: "Không kịp quay lại trong thời hạn được phép thì làm sao?"
     a: "Nếu vì bệnh tật hoặc lý do bất khả kháng khác mà không thể tái nhập cảnh trong thời hạn được phép, phải xin gia hạn thời hạn tái nhập cảnh trước khi hết hạn. Thẩm quyền này được ủy quyền cho người đứng đầu cơ quan đại diện ở nước ngoài, việc gia hạn thời hạn miễn cũng áp dụng thủ tục tương tự."
 related:
@@ -35,11 +34,11 @@ Người nước ngoài đã đăng ký tại Hàn Quốc khi về quê một th
 
 ## 1. Giấy phép tái nhập cảnh là gì?
 
-Điều 30 khoản 1 quy định khi người nước ngoài đã đăng ký hoặc được miễn đăng ký xuất cảnh rồi muốn tái nhập cảnh trong thời hạn lưu trú, Bộ trưởng Tư pháp có thể cho phép tái nhập cảnh theo đơn. Theo Điều 39-7 Thông tư thi hành, nộp **đơn xin tái nhập cảnh** kèm giấy tờ giải trình lý do cho trưởng cơ quan. Thời hạn phép được định **trong phạm vi thời hạn lưu trú được cấp**, nếu được phép, hộ chiếu được đóng dấu hoặc dán nhãn. Lệ phí cấp phép vui lòng xem trong phần hướng dẫn lệ phí của HiKorea.
+Luật Xuất nhập cảnh quy định khi người nước ngoài đã đăng ký hoặc được miễn đăng ký xuất cảnh rồi muốn tái nhập cảnh trong thời hạn lưu trú, Bộ trưởng Tư pháp có thể cho phép tái nhập cảnh theo đơn. Theo Thông tư thi hành Luật Xuất nhập cảnh, nộp **đơn xin tái nhập cảnh** kèm giấy tờ giải trình lý do cho trưởng cơ quan. Thời hạn phép được định **trong phạm vi thời hạn lưu trú được cấp**, nếu được phép, hộ chiếu được đóng dấu hoặc dán nhãn. Lệ phí cấp phép vui lòng xem trong phần hướng dẫn lệ phí của HiKorea.
 
 ## 2. Phép một lần, nhiều lần và thời hạn
 
-Điều 30 khoản 2 chia giấy phép thành một lần và nhiều lần. **Thời hạn tối đa** theo Điều 41 Thông tư thi hành như sau.
+Luật Xuất nhập cảnh chia giấy phép thành một lần và nhiều lần. **Thời hạn tối đa** theo Thông tư thi hành Luật Xuất nhập cảnh như sau.
 
 | Loại | Thời hạn tối đa |
 |---|---|
@@ -51,16 +50,16 @@ Tiêu chuẩn phép nhiều lần do Bộ trưởng Tư pháp quy định riêng
 
 ## 3. Trường hợp được miễn
 
-Theo phần ngoại lệ của Điều 30 khoản 1, Điều 44-2 Thông tư thi hành quy định những người sau **được miễn** giấy phép.
+Thông tư thi hành Luật Xuất nhập cảnh quy định những người sau **được miễn** giấy phép.
 
 - Người có tư cách F-5: tái nhập cảnh **trong 2 năm** kể từ ngày xuất cảnh
 - Người có tư cách từ A-1 đến F-3 và từ F-6 đến G-1: tái nhập cảnh **trong 1 năm** kể từ ngày xuất cảnh (hoặc thời hạn lưu trú còn lại nếu ngắn hơn 1 năm)
 
-Tuy nhiên người nước ngoài bị cấm nhập cảnh theo Điều 11 và người cấp visa phải được Bộ trưởng Tư pháp phê duyệt theo Điều 10 Thông tư thi hành bị loại trừ. Sổ tay cũng hướng dẫn người bị hạn chế nhập cảnh hoặc cấp visa phải đến cơ quan quản lý nơi cư trú xin phép tái nhập cảnh. Hết thời hạn miễn thì không còn được miễn, nên hãy đếm ngày cho chắc.
+Tuy nhiên người nước ngoài bị cấm nhập cảnh theo Luật Xuất nhập cảnh và người cấp visa phải được Bộ trưởng Tư pháp phê duyệt theo Thông tư thi hành bị loại trừ. Sổ tay cũng hướng dẫn người bị hạn chế nhập cảnh hoặc cấp visa phải đến cơ quan quản lý nơi cư trú xin phép tái nhập cảnh. Hết thời hạn miễn thì không còn được miễn, nên hãy đếm ngày cho chắc.
 
 ## 4. Khi không kịp quay lại
 
-Nếu vì bệnh tật hoặc lý do bất khả kháng khác mà không thể tái nhập cảnh trong thời hạn được phép, phải xin Bộ trưởng Tư pháp **gia hạn thời hạn tái nhập cảnh** trước khi hết hạn. Theo Điều 38 Nghị định thi hành, thẩm quyền này được ủy quyền cho người đứng đầu cơ quan đại diện ở nước ngoài, bao gồm cả người được miễn không thể quay lại trong thời hạn miễn. Đơn nộp cho người đứng đầu cơ quan đại diện, thời hạn gia hạn tối đa 3 tháng kể từ ngày hết hạn phép và không vượt quá thời hạn lưu trú được cấp; gia hạn thời hạn miễn cũng theo quy định này. Sau khi hết hạn không thể dùng thủ tục này, nên nếu có sự cố ở nước ngoài, hãy liên hệ ngay cơ quan đại diện gần nhất.
+Nếu vì bệnh tật hoặc lý do bất khả kháng khác mà không thể tái nhập cảnh trong thời hạn được phép, phải xin Bộ trưởng Tư pháp **gia hạn thời hạn tái nhập cảnh** trước khi hết hạn. Theo Nghị định thi hành Luật Xuất nhập cảnh, thẩm quyền này được ủy quyền cho người đứng đầu cơ quan đại diện ở nước ngoài, bao gồm cả người được miễn không thể quay lại trong thời hạn miễn. Đơn nộp cho người đứng đầu cơ quan đại diện, thời hạn gia hạn tối đa 3 tháng kể từ ngày hết hạn phép và không vượt quá thời hạn lưu trú được cấp; gia hạn thời hạn miễn cũng theo quy định này. Sau khi hết hạn không thể dùng thủ tục này, nên nếu có sự cố ở nước ngoài, hãy liên hệ ngay cơ quan đại diện gần nhất.
 
 ## 5. Thứ tự kiểm tra trước và sau khi xuất cảnh
 

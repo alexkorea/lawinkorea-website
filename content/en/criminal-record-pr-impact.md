@@ -36,7 +36,7 @@ This guide details the impact, by case.
 
 ## 1. F-5 Disqualification (Immigration Control Act)
 
-Permanent residence (F-5) requirements are set by Immigration Act Article 10-3 and Enforcement Decree Article 12-2 with Table 1-3. Detailed criminal-record standards, such as how long after a fine, a sentence or a deportation you must wait, are applied under the Ministry of Justice's residence guidance and reviewed case by case. Check the criteria in force for your own record before applying.
+Permanent residence (F-5) requirements are set by the Immigration Act and its Enforcement Decree. Detailed criminal-record standards, such as how long after a fine, a sentence or a deportation you must wait, are applied under the Ministry of Justice's residence guidance and reviewed case by case. Check the criteria in force for your own record before applying.
 
 The offense type, the disposition, the time elapsed and your circumstances in Korea are all considered, and immigration officers have discretion.
 
@@ -141,7 +141,7 @@ The waiting period is generally counted from the date the punishment ends — fo
 
 ## 7. Korean Citizenship and Records
 
-### Nationality Act Article 5
+### Nationality Act naturalization requirements
 - 5+ years of continuous domicile in Korea
 - Permanent residence (F-5) status
 - Adult under the Korean Civil Act

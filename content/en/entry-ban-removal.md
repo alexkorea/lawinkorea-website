@@ -36,7 +36,7 @@ For deported foreigners seeking re-entry to Korea, the first thing to know is: *
 
 ## 1. Korean Entry-Ban System
 
-### Article 11 of the Immigration Control Act
+### Entry-ban provision of the Immigration Control Act
 Minister of Justice may bar entry of:
 - Deported foreigners returned to home country
 - Foreigners under departure order

@@ -9,7 +9,7 @@ keywords:
   - "tiền phạt cư trú bất hợp pháp"
   - "lỡ gia hạn visa Hàn Quốc"
   - "hết hạn visa Hàn Quốc bị phạt"
-  - "Điều 25 Luật Quản lý Xuất nhập cảnh"
+  - "giấy phép gia hạn lưu trú Hàn Quốc"
 faq:
   - q: "Chỉ quá hạn một ngày có bị phạt không?"
     a: "Luật coi việc tiếp tục ở lại sau khi hết thời hạn lưu trú mà không có giấy phép gia hạn là vi phạm. Trong bảng mức phạt, nhóm quá hạn dưới 1 tháng là thấp nhất, mức cơ sở là 500.000 won (tính đến tháng 10/2026). Mức này có thể được giảm hoặc tăng trong phạm vi một nửa tùy tuổi, hoàn cảnh, động cơ vi phạm, khả năng nộp phạt."
@@ -33,15 +33,15 @@ Quên ngày hết hạn visa, hoặc hồ sơ gia hạn chưa chuẩn bị kịp
 - Trên thực tế, cơ quan xuất nhập cảnh thường thông báo nộp tiền phạt (beomchikgeum) tương đương tiền phạt hình sự; mức cơ sở từ 500.000 won đến 30 triệu won tùy thời gian quá hạn (tính đến tháng 10/2026).
 - Sau khi nộp phạt, vẫn cần chú ý riêng đến buộc xuất cảnh, lệnh xuất cảnh và việc xét duyệt lưu trú sau này.
 
-## 1. Hết thời hạn lưu trú thì áp dụng điều luật nào?
+## 1. Hết thời hạn lưu trú thì áp dụng quy định nào?
 
-Có hai điều quan trọng. Điều 25 khoản 1 quy định muốn ở quá thời hạn lưu trú phải được Bộ trưởng Tư pháp cho phép gia hạn **trước khi hết thời hạn**. Nghị định thi hành Điều 31 khoản 1 cũng yêu cầu nộp đơn gia hạn trước khi hết thời hạn. Người vi phạm nghĩa vụ này và tiếp tục ở lại quá hạn không có giấy phép gia hạn có thể bị xử theo Điều 94 khoản 17: phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (tính đến tháng 10/2026).
+Có hai quy định quan trọng. Luật Quản lý Xuất nhập cảnh quy định muốn ở quá thời hạn lưu trú phải được Bộ trưởng Tư pháp cho phép gia hạn **trước khi hết thời hạn**. Nghị định thi hành cũng yêu cầu nộp đơn gia hạn trước khi hết thời hạn. Người vi phạm nghĩa vụ này và tiếp tục ở lại quá hạn không có giấy phép gia hạn có thể bị xử theo Luật Quản lý Xuất nhập cảnh: phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (tính đến tháng 10/2026).
 
 Khi ngày đã qua, không còn là "gia hạn" nữa mà đã ở trạng thái vi phạm, nên nộp hồ sơ muộn cũng không xóa được việc đã vi phạm. Nếu phát hiện đã quá hạn, hãy liên hệ cơ quan xuất nhập cảnh quản lý địa bàn sớm nhất có thể.
 
 ## 2. Mức tiền phạt là bao nhiêu?
 
-Khi điều tra xác định có vi phạm, người đứng đầu cơ quan xuất nhập cảnh có thể thông báo bằng văn bản yêu cầu nộp khoản tiền tương đương tiền phạt hình sự, gọi là tiền phạt (beomchikgeum). Mức cơ sở được [Bảng 7] của Thông tư thi hành quy định theo thời gian quá hạn (tính đến tháng 10/2026).
+Khi điều tra xác định có vi phạm, người đứng đầu cơ quan xuất nhập cảnh có thể thông báo bằng văn bản yêu cầu nộp khoản tiền tương đương tiền phạt hình sự, gọi là tiền phạt (beomchikgeum). Mức cơ sở được Thông tư thi hành Luật Quản lý Xuất nhập cảnh quy định theo thời gian quá hạn (tính đến tháng 10/2026).
 
 | Thời gian quá hạn | Mức phạt cơ sở |
 |---|---|
@@ -67,8 +67,8 @@ Ngược lại, nếu điều tra thấy tình tiết thuộc mức hình phạt
 
 Không. Phần xử phạt hình sự và thủ tục hành chính về lưu trú chạy riêng.
 
-- **Lý do buộc xuất cảnh**: vi phạm Điều 25 nằm trong Điều 46 khoản 1 mục 8. Người có tư cách thường trú về nguyên tắc không bị buộc xuất cảnh nhưng có ngoại lệ.
-- **Lệnh xuất cảnh**: kể cả khi có thể thuộc Điều 46 khoản 1, người muốn tự nguyện xuất cảnh bằng chi phí của mình có thể được ra lệnh xuất cảnh; trường hợp nên xuất cảnh sau thông báo xử phạt là mục 5. Ưu nhược điểm của xuất cảnh tự nguyện có trong [hướng dẫn xuất cảnh tự nguyện](/vi/blog/foreigner-voluntary-departure-2026).
+- **Lý do buộc xuất cảnh**: vi phạm nghĩa vụ xin gia hạn lưu trú nằm trong các lý do buộc xuất cảnh do Luật Quản lý Xuất nhập cảnh quy định. Người có tư cách thường trú về nguyên tắc không bị buộc xuất cảnh nhưng có ngoại lệ.
+- **Lệnh xuất cảnh**: kể cả khi có thể thuộc các lý do buộc xuất cảnh, người muốn tự nguyện xuất cảnh bằng chi phí của mình có thể được ra lệnh xuất cảnh; trường hợp nên xuất cảnh sau thông báo xử phạt cũng nằm trong cùng quy định này. Ưu nhược điểm của xuất cảnh tự nguyện có trong [hướng dẫn xuất cảnh tự nguyện](/vi/blog/foreigner-voluntary-departure-2026).
 - **Có được ở tiếp không**: cơ quan xem xét tổng hợp thời gian quá hạn, hoàn cảnh vi phạm, gia đình và công việc. Cùng thời gian quá hạn vẫn có thể có kết quả khác nhau.
 
 ## 5. Ảnh hưởng thế nào tới xét duyệt visa sau này?

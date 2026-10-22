@@ -8,8 +8,6 @@ keywords:
   - "change of address report Korea foreigner"
   - "alien registration address change deadline"
   - "late address change fine Korea"
-  - "Immigration Act Article 36"
-  - "Immigration Act Article 98"
   - "change of alien registration information fine"
 faq:
   - q: "How soon after moving do I have to report my new address?"
@@ -17,9 +15,9 @@ faq:
   - q: "Do I also need to file a separate move-in report at the community service center?"
     a: "No. A change of address report under the Immigration Act takes the place of the move-in report under the Resident Registration Act. One report is enough."
   - q: "My report is a few months late. How much is the fine?"
-    a: "Under Annex 7 of the Enforcement Rule of the Immigration Act, the base amount is KRW 100,000 if less than 3 months late, KRW 300,000 for 3 to under 6 months, KRW 500,000 for 6 months to under 1 year, KRW 700,000 for 1 to under 2 years and KRW 1,000,000 for 2 years or more (as of October 2026). The office may reduce or increase it within half of the base amount, considering age and circumstances, motive and result, ability to pay and number of violations."
+    a: "Under the Enforcement Rule of the Immigration Act, the base amount is KRW 100,000 if less than 3 months late, KRW 300,000 for 3 to under 6 months, KRW 500,000 for 6 months to under 1 year, KRW 700,000 for 1 to under 2 years and KRW 1,000,000 for 2 years or more (as of October 2026). The office may reduce or increase it within half of the base amount, considering age and circumstances, motive and result, ability to pay and number of violations."
   - q: "Can I be deported for reporting my address change late?"
-    a: "Breach of the address change duty is not on the list of deportation grounds in Article 46(1) of the Immigration Act. Failing to complete alien registration at all, however, is a deportation ground, so the two duties must be kept apart."
+    a: "Breach of the address change duty is not on the list of deportation grounds in the Immigration Act. Failing to complete alien registration at all, however, is a deportation ground, so the two duties must be kept apart."
   - q: "I received a new passport. Do I have to report it?"
     a: "Yes. If your name, sex, date of birth or nationality, or your passport number, issue date or expiry date changes, you must report the change of alien registration information to the immigration office for your address within 15 days. A breach carries an administrative fine of up to KRW 1 million (as of October 2026)."
   - q: "If I receive a notice to pay an immigration fine, when is it due?"
@@ -45,7 +43,7 @@ A foreigner who has completed alien registration in Korea and then moves must re
 
 ## 1. When and where must I report a change of address?
 
-Article 36(1) of the Immigration Act provides that **"where a foreigner who has registered under Article 31 changes his or her place of stay, he or she shall file a move-in report … within 15 days from the date of moving in"** with the head of the new city, county, district, eup, myeon or dong, or with the head of the regional immigration office having jurisdiction over the new address. The deadline runs from the day you **actually moved in**, not from the date of your lease.
+The Immigration Act provides that **a foreigner who has completed alien registration and changes his or her place of stay shall file a move-in report within 15 days from the date of moving in** with the head of the new city, county, district, eup, myeon or dong, or with the head of the regional immigration office having jurisdiction over the new address. The deadline runs from the day you **actually moved in**, not from the date of your lease.
 
 - **Where to report**: the community service center (eup, myeon or dong office) or city/county/district office for your new address, or the immigration office with jurisdiction over it
 - **Online**: the report may also be filed through the information network designated by the Minister of Justice.
@@ -56,14 +54,14 @@ The office records the new address on your residence card and returns it. If you
 
 ## 2. What penalty applies if I miss the deadline?
 
-Article 98 punishes **"a person who violates the duty to report a change of place of stay under Article 36(1)"** with a fine of up to KRW 1 million (as of October 2026). Because this is a criminal provision, the person becomes an "immigration offender," and the case follows these rules:
+The Immigration Act punishes **a person who violates the duty to report a change of place of stay** with a fine of up to KRW 1 million (as of October 2026). Because this is a criminal provision, the person becomes an "immigration offender," and the case follows these rules:
 
 - An immigration offense cannot be prosecuted without a complaint from the head of the regional immigration office, and if the police or another investigative agency opens the case, it must hand it over to the competent immigration office.
 - When the investigation establishes the offense, the head of the office may notify the person in writing, with reasons, to pay an amount equivalent to the fine — the **immigration fine**.
 
 ## 3. How much is the immigration fine and how is it set?
 
-The base amount is set by the entry for the address change duty in [Annex 7] of the Enforcement Rule of the Immigration Act, according to the **period of violation** (as of October 2026).
+The base amount is set by the sentencing standards for the address change duty in the Enforcement Rule of the Immigration Act, according to the **period of violation** (as of October 2026).
 
 | Period of violation (time past the deadline) | Base amount |
 |---|---|
@@ -89,9 +87,9 @@ Before an administrative fine is imposed, you receive an advance notice and **at
 
 ## 5. Can a late report affect my stay?
 
-**Deportation grounds.** Article 46(1) of the Immigration Act lists the grounds for deportation. Breaches of the address change duty and of the registration information duty are not on that list. By contrast, **never completing alien registration** is a deportation ground under item 12 and carries a heavier penalty of up to 1 year in prison or a fine of up to KRW 10 million (as of October 2026). If you did not register within 90 days of entry, your situation is different from the one described here and needs to be checked separately.
+**Deportation grounds.** The Immigration Act lists the grounds for deportation. Breaches of the address change duty and of the registration information duty are not on that list. By contrast, **never completing alien registration** is one of the listed deportation grounds and carries a heavier penalty of up to 1 year in prison or a fine of up to KRW 10 million (as of October 2026). If you did not register within 90 days of entry, your situation is different from the one described here and needs to be checked separately.
 
-**Status-specific requirements.** For statuses that require actual residence in a region, the address report doubles as proof of that requirement. The Ministry of Justice *Guide to Stay for Foreigners* (March 2026), in its section on the Regional Talent visa (F-2-R), explains that **if more than 15 days pass between the lease contract date and the move-in report, this is a breach of Article 36 of the Immigration Act**, and that breaching the special conditions may lead to cancellation of the status. The same guide's section on international students also directs them to report within 15 days of moving in.
+**Status-specific requirements.** For statuses that require actual residence in a region, the address report doubles as proof of that requirement. The Ministry of Justice *Guide to Stay for Foreigners* (March 2026), in its section on the Regional Talent visa (F-2-R), explains that **if more than 15 days pass between the lease contract date and the move-in report, this is a breach of the address change duty under the Immigration Act**, and that breaching the special conditions may lead to cancellation of the status. The same guide's section on international students also directs them to report within 15 days of moving in.
 
 ## 6. What should I do if I only just realized the deadline passed?
 

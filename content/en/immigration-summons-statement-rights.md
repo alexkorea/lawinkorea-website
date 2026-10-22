@@ -9,7 +9,7 @@ keywords:
   - "immigration interview rights Korea"
   - "immigration statement record Korea"
   - "interpreter immigration investigation Korea"
-  - "Immigration Act Article 48"
+  - "Immigration Act investigation procedure"
 faq:
   - q: "What if I cannot come on the date in the summons?"
     a: "The summons states its purpose, date and place. If you truly cannot attend, tell the office before the date and ask whether it can be rescheduled. Not showing up without contact can cost you the chance to explain, and losing contact can also look like a flight risk."
@@ -24,11 +24,11 @@ related:
   - "entry-ban-removal"
 ---
 
-Getting a summons from an immigration office by mail or text makes anyone nervous. "What did I do wrong?" "Will I be held if I go?" But summonses and interviews follow procedures set by law, and foreigners have rights within them. This guide covers what to know at the investigation stage, centered on Articles 47 to 50 of the Immigration Act.
+Getting a summons from an immigration office by mail or text makes anyone nervous. "What did I do wrong?" "Will I be held if I go?" But summonses and interviews follow procedures set by law, and foreigners have rights within them. This guide covers what to know at the investigation stage, centered on the Immigration Act provisions on summonses and questioning.
 
 ## Key points
 
-- Immigration officers may **investigate** a foreigner suspected of falling under a ground in Article 46(1), the deportation grounds.
+- Immigration officers may **investigate** a foreigner suspected of falling under one of the deportation grounds.
 - When needed, they may summon and question suspects or witnesses, and the summons states the purpose, date and place.
 - Statements are written in a **record**, which must be read to you or made available to you, and you must be asked about errors. You may ask to add, delete or change content.
 - If you do not understand Korean, an **interpreter** must interpret.
@@ -38,11 +38,11 @@ Getting a summons from an immigration office by mail or text makes anyone nervou
 
 An immigration officer may summon a suspect and question them where needed for the investigation. Witnesses can also be summoned and their statements taken, in the same way.
 
-Enforcement Decree Article 58(1) requires officers to issue a summons stating **the purpose, date and place** of attendance. In urgent cases the summons can be oral. As a rule the office head's approval is obtained beforehand. When you receive a summons, first check who is asking you to appear, for what purpose, when and where.
+The Enforcement Decree of the Immigration Act requires officers to issue a summons stating **the purpose, date and place** of attendance. In urgent cases the summons can be oral. As a rule the office head's approval is obtained beforehand. When you receive a summons, first check who is asking you to appear, for what purpose, when and where.
 
 ## 2. How does the interview proceed?
 
-Article 48 sets out the procedure in detail.
+The Immigration Act sets out the questioning procedure in detail.
 
 - Another immigration officer must **take part** in the questioning.
 - The suspect's statement must be **written in a record**.
@@ -55,7 +55,7 @@ Officers may also inspect a residence or item, or ask for documents or items, on
 
 ## 3. Why does the record matter?
 
-Articles 47 to 50 apply to investigations of immigration offenders, and **a suspect interrogation record is treated as a suspect interrogation record under Article 244 of the Criminal Procedure Act**. That means the record can form the basis for later decisions such as a notified fine, a complaint or deportation review. Before signing, check:
+The same summons and questioning rules apply to investigations of immigration offenders, and **a suspect interrogation record is treated as a suspect interrogation record under the Criminal Procedure Act**. That means the record can form the basis for later decisions such as a notified fine, a complaint or deportation review. Before signing, check:
 
 1. Whether dates, places, numbers and amounts match what you said
 2. Whether anything you did not say is written, or something you said is missing

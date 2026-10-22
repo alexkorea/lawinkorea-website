@@ -8,15 +8,15 @@ keywords:
   - "xử phạt mời giả người nước ngoài"
   - "khai gian xin visa"
   - "bảo lãnh giả khi mời"
-  - "Luật Xuất nhập cảnh Điều 7-2"
+  - "Luật Xuất nhập cảnh mời giả"
   - "mời giả bị buộc xuất cảnh"
 faq:
   - q: "Mời giả là hành vi nào?"
-    a: "Điều 7-2 cấm, nhằm cho người nước ngoài nhập cảnh, các hành vi: (1) mời người nước ngoài hoặc môi giới việc mời bằng cách không chính đáng như ghi sự việc giả hay bảo lãnh nhân thân giả; (2) xin visa hoặc giấy xác nhận cấp visa bằng thông tin giả, hoặc môi giới việc xin đó. Không chỉ người trực tiếp làm mà cả người môi giới cũng bị điều chỉnh."
+    a: "Luật Xuất nhập cảnh cấm, nhằm cho người nước ngoài nhập cảnh, các hành vi: (1) mời người nước ngoài hoặc môi giới việc mời bằng cách không chính đáng như ghi sự việc giả hay bảo lãnh nhân thân giả; (2) xin visa hoặc giấy xác nhận cấp visa bằng thông tin giả, hoặc môi giới việc xin đó. Không chỉ người trực tiếp làm mà cả người môi giới cũng bị điều chỉnh."
   - q: "Mức xử phạt nặng đến đâu?"
-    a: "Theo Điều 94 mục 3: phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won. Thực tế có thể ra thông báo xử phạt (beomchikgeum); mức chuẩn tại Phụ lục 7 Thông tư thi hành là 10 triệu won nếu mời 1 người, mỗi người thêm tăng 2 triệu won, từ 11 người trở lên là 30 triệu won (tính đến tháng 10/2026). Mức này có thể giảm hoặc tăng trong phạm vi một nửa tùy hoàn cảnh."
+    a: "Theo Luật Xuất nhập cảnh: phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won. Thực tế có thể ra thông báo xử phạt (beomchikgeum); mức chuẩn theo Thông tư thi hành là 10 triệu won nếu mời 1 người, mỗi người thêm tăng 2 triệu won, từ 11 người trở lên là 30 triệu won (tính đến tháng 10/2026). Mức này có thể giảm hoặc tăng trong phạm vi một nửa tùy hoàn cảnh."
   - q: "Người nước ngoài được mời nhập cảnh có bị ảnh hưởng không?"
-    a: "Có thể. Điều 46 khoản 1 mục 2 quy định người nước ngoài vi phạm Điều 7-2, hoặc nhập cảnh nhờ hành vi mời giả, thuộc đối tượng buộc xuất cảnh. Tuy nhiên người muốn tự nguyện xuất cảnh bằng chi phí của mình có thể được ra lệnh xuất cảnh. Kết quả cụ thể tùy sự việc."
+    a: "Có thể. Luật Xuất nhập cảnh quy định người nước ngoài vi phạm quy định cấm mời giả, hoặc nhập cảnh nhờ hành vi mời giả, thuộc đối tượng buộc xuất cảnh. Tuy nhiên người muốn tự nguyện xuất cảnh bằng chi phí của mình có thể được ra lệnh xuất cảnh. Kết quả cụ thể tùy sự việc."
 related:
   - "immigration-law-penalties-guide"
   - "immigration-offense-review-guide"
@@ -24,7 +24,7 @@ related:
   - "visa-denial-response"
 ---
 
-Khi viết thư mời người thân, bạn bè hay nhân viên sang Hàn Quốc, có người nghĩ ghi sai lệch một chút cũng không sao. Nhưng việc khai gian trong hồ sơ mời và đơn xin visa là hành vi bị Luật Xuất nhập cảnh cấm riêng. Bài viết này tóm tắt Điều 7-2, mức xử phạt và ảnh hưởng đến người được mời.
+Khi viết thư mời người thân, bạn bè hay nhân viên sang Hàn Quốc, có người nghĩ ghi sai lệch một chút cũng không sao. Nhưng việc khai gian trong hồ sơ mời và đơn xin visa là hành vi bị Luật Xuất nhập cảnh cấm riêng. Bài viết này tóm tắt quy định cấm mời giả, mức xử phạt và ảnh hưởng đến người được mời.
 
 ## Điểm chính
 
@@ -35,7 +35,7 @@ Khi viết thư mời người thân, bạn bè hay nhân viên sang Hàn Quốc
 
 ## 1. Hành vi nào bị cấm?
 
-Điều 7-2 quy định "bất kỳ ai" cũng không được làm hai việc sau nhằm cho người nước ngoài nhập cảnh.
+Luật Xuất nhập cảnh quy định "bất kỳ ai" cũng không được làm hai việc sau nhằm cho người nước ngoài nhập cảnh.
 
 - **Mời người nước ngoài bằng cách không chính đáng** như ghi sự việc giả hoặc bảo lãnh nhân thân giả, hoặc **môi giới** việc mời đó
 - **Xin visa hoặc giấy xác nhận cấp visa bằng thông tin giả**, hoặc **môi giới** việc xin đó
@@ -44,7 +44,7 @@ Việc thổi phồng nghề nghiệp, thu nhập, quan hệ của người mờ
 
 ## 2. Xử phạt và mức phạt chuẩn
 
-Điều 94 mục 3 quy định người vi phạm Điều 7-2 bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (tính đến tháng 10/2026). Vụ việc vi phạm xuất nhập cảnh chỉ được truy tố khi trưởng cơ quan tố cáo, và trưởng cơ quan có thể thông báo nộp tiền phạt tương đương tiền phạt hình sự khi đã xác định có tội. Mức chuẩn tại [Phụ lục 7] Thông tư thi hành như sau.
+Luật Xuất nhập cảnh quy định người vi phạm quy định cấm mời giả bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (tính đến tháng 10/2026). Vụ việc vi phạm xuất nhập cảnh chỉ được truy tố khi trưởng cơ quan tố cáo, và trưởng cơ quan có thể thông báo nộp tiền phạt tương đương tiền phạt hình sự khi đã xác định có tội. Mức chuẩn theo Thông tư thi hành Luật Xuất nhập cảnh như sau.
 
 | Số người được mời | Mức phạt chuẩn |
 |---|---|
@@ -59,7 +59,7 @@ Mức này có thể giảm hoặc tăng trong phạm vi một nửa tùy tuổi
 
 ## 3. Ảnh hưởng đến người nước ngoài được mời
 
-Điều 46 khoản 1 mục 2 quy định người nước ngoài vi phạm Điều 7-2, hoặc nhập cảnh nhờ hành vi mời giả theo điều đó, thuộc đối tượng buộc xuất cảnh. Người có tư cách vĩnh trú không bị buộc xuất cảnh trừ các trường hợp luật quy định. Người muốn tự nguyện xuất cảnh bằng chi phí của mình có thể được ra lệnh xuất cảnh, xem thêm [hướng dẫn tự nguyện xuất cảnh](/vi/blog/foreigner-voluntary-departure-2026) và [hướng dẫn gỡ lệnh cấm nhập cảnh](/vi/blog/entry-ban-removal). Lý do và thời hạn hạn chế nhập cảnh tùy từng vụ việc.
+Luật Xuất nhập cảnh quy định người nước ngoài vi phạm quy định cấm mời giả, hoặc nhập cảnh nhờ hành vi mời giả mà quy định đó cấm, thuộc đối tượng buộc xuất cảnh. Người có tư cách vĩnh trú không bị buộc xuất cảnh trừ các trường hợp luật quy định. Người muốn tự nguyện xuất cảnh bằng chi phí của mình có thể được ra lệnh xuất cảnh, xem thêm [hướng dẫn tự nguyện xuất cảnh](/vi/blog/foreigner-voluntary-departure-2026) và [hướng dẫn gỡ lệnh cấm nhập cảnh](/vi/blog/entry-ban-removal). Lý do và thời hạn hạn chế nhập cảnh tùy từng vụ việc.
 
 ## 4. Việc điều tra diễn ra thế nào?
 

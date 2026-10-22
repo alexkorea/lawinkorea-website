@@ -9,17 +9,15 @@ keywords:
   - "thời hạn khai báo đổi địa chỉ người nước ngoài"
   - "phạt khai báo đổi địa chỉ trễ"
   - "phạt khai báo thay đổi thông tin đăng ký người nước ngoài"
-  - "Điều 36 Luật Quản lý Xuất nhập cảnh"
-  - "Điều 98 Luật Quản lý Xuất nhập cảnh"
 faq:
   - q: "Sau khi chuyển nhà, tôi phải khai báo thay đổi nơi cư trú trong bao lâu?"
     a: "Người nước ngoài đã đăng ký phải khai báo chuyển đến trong 15 ngày kể từ ngày chuyển đến, với người đứng đầu thành phố, quận, huyện hoặc ấp, xã, phường (eup, myeon, dong) nơi ở mới, hoặc với cơ quan xuất nhập cảnh có thẩm quyền đối với nơi ở mới."
   - q: "Tôi có phải khai báo chuyển đến riêng tại trung tâm dịch vụ cộng đồng không?"
     a: "Không. Khai báo thay đổi nơi cư trú theo Luật Quản lý Xuất nhập cảnh được coi là thay cho khai báo chuyển đến theo Luật Đăng ký cư dân. Chỉ cần khai báo một lần."
   - q: "Tôi khai báo trễ vài tháng. Tiền phạt là bao nhiêu?"
-    a: "Theo Bảng 7 của Thông tư thi hành Luật Quản lý Xuất nhập cảnh, mức cơ sở là 100.000 won nếu trễ dưới 3 tháng, 300.000 won từ 3 đến dưới 6 tháng, 500.000 won từ 6 tháng đến dưới 1 năm, 700.000 won từ 1 đến dưới 2 năm và 1.000.000 won từ 2 năm trở lên (tính đến tháng 10/2026). Cơ quan có thể giảm hoặc tăng trong phạm vi một nửa mức cơ sở, xét tuổi và hoàn cảnh, động cơ và hậu quả, khả năng nộp phạt và số lần vi phạm."
+    a: "Theo Thông tư thi hành Luật Quản lý Xuất nhập cảnh, mức cơ sở là 100.000 won nếu trễ dưới 3 tháng, 300.000 won từ 3 đến dưới 6 tháng, 500.000 won từ 6 tháng đến dưới 1 năm, 700.000 won từ 1 đến dưới 2 năm và 1.000.000 won từ 2 năm trở lên (tính đến tháng 10/2026). Cơ quan có thể giảm hoặc tăng trong phạm vi một nửa mức cơ sở, xét tuổi và hoàn cảnh, động cơ và hậu quả, khả năng nộp phạt và số lần vi phạm."
   - q: "Khai báo đổi nơi cư trú trễ có bị trục xuất không?"
-    a: "Vi phạm nghĩa vụ khai báo thay đổi nơi cư trú không nằm trong danh sách các căn cứ trục xuất tại Điều 46 khoản 1 Luật Quản lý Xuất nhập cảnh. Tuy nhiên, hoàn toàn không đăng ký người nước ngoài là căn cứ trục xuất, nên cần phân biệt hai nghĩa vụ này."
+    a: "Vi phạm nghĩa vụ khai báo thay đổi nơi cư trú không nằm trong danh sách các căn cứ trục xuất trong Luật Quản lý Xuất nhập cảnh. Tuy nhiên, hoàn toàn không đăng ký người nước ngoài là căn cứ trục xuất, nên cần phân biệt hai nghĩa vụ này."
   - q: "Tôi vừa nhận hộ chiếu mới. Có phải khai báo không?"
     a: "Có. Khi họ tên, giới tính, ngày sinh, quốc tịch, hoặc số, ngày cấp, thời hạn hộ chiếu thay đổi, bạn phải khai báo thay đổi thông tin đăng ký người nước ngoài với cơ quan xuất nhập cảnh nơi cư trú trong 15 ngày. Vi phạm có thể bị phạt hành chính đến 1 triệu won (tính đến tháng 10/2026)."
   - q: "Nhận thông báo nộp phạt xuất nhập cảnh thì phải nộp trong bao lâu?"
@@ -45,7 +43,7 @@ Người nước ngoài đã đăng ký người nước ngoài tại Hàn Quố
 
 ## 1. Khai báo thay đổi nơi cư trú khi nào và ở đâu?
 
-Điều 36 khoản 1 Luật Quản lý Xuất nhập cảnh quy định: **"Người nước ngoài đã đăng ký theo Điều 31 khi thay đổi nơi cư trú phải khai báo chuyển đến trong 15 ngày kể từ ngày chuyển đến"** với người đứng đầu thành phố, quận, huyện hoặc eup, myeon, dong nơi ở mới, hoặc với người đứng đầu cơ quan xuất nhập cảnh địa phương có thẩm quyền đối với nơi ở mới. Thời hạn tính từ ngày bạn **thực sự chuyển đến**, không phải ngày ký hợp đồng.
+Luật Quản lý Xuất nhập cảnh quy định: **người nước ngoài đã đăng ký người nước ngoài khi thay đổi nơi cư trú phải khai báo chuyển đến trong 15 ngày kể từ ngày chuyển đến** với người đứng đầu thành phố, quận, huyện hoặc eup, myeon, dong nơi ở mới, hoặc với người đứng đầu cơ quan xuất nhập cảnh địa phương có thẩm quyền đối với nơi ở mới. Thời hạn tính từ ngày bạn **thực sự chuyển đến**, không phải ngày ký hợp đồng.
 
 - **Nơi khai báo**: trung tâm dịch vụ cộng đồng (eup, myeon, dong) hoặc ủy ban thành phố, quận, huyện nơi ở mới, hoặc cơ quan xuất nhập cảnh có thẩm quyền — chọn một nơi
 - **Trực tuyến**: cũng có thể khai báo qua mạng thông tin do Bộ trưởng Tư pháp chỉ định.
@@ -56,14 +54,14 @@ Cơ quan tiếp nhận ghi nơi cư trú mới lên thẻ đăng ký người n�
 
 ## 2. Quá hạn thì bị xử lý thế nào?
 
-Điều 98 quy định **"người vi phạm nghĩa vụ khai báo thay đổi nơi cư trú theo Điều 36 khoản 1"** bị phạt tiền đến 1 triệu won (tính đến tháng 10/2026, điểm 2). Đây là chế tài hình sự nên người vi phạm trở thành "người vi phạm xuất nhập cảnh", và vụ việc được xử lý theo các quy tắc sau:
+Luật Quản lý Xuất nhập cảnh quy định **người vi phạm nghĩa vụ khai báo thay đổi nơi cư trú** bị phạt tiền đến 1 triệu won (tính đến tháng 10/2026). Đây là chế tài hình sự nên người vi phạm trở thành "người vi phạm xuất nhập cảnh", và vụ việc được xử lý theo các quy tắc sau:
 
 - Vụ vi phạm xuất nhập cảnh không thể bị truy tố nếu không có tố giác của người đứng đầu cơ quan xuất nhập cảnh địa phương; nếu cảnh sát hoặc cơ quan điều tra khác khởi tố, phải chuyển giao cho cơ quan xuất nhập cảnh có thẩm quyền.
 - Khi đã xác định được vi phạm qua điều tra, người đứng đầu cơ quan có thể thông báo bằng văn bản có nêu lý do, yêu cầu nộp số tiền tương đương tiền phạt — tức **tiền phạt xuất nhập cảnh**.
 
 ## 3. Tiền phạt là bao nhiêu và được xác định thế nào?
 
-Mức cơ sở được quy định tại mục về nghĩa vụ khai báo thay đổi nơi cư trú trong [Bảng 7] Thông tư thi hành Luật Quản lý Xuất nhập cảnh, theo **thời gian vi phạm** (tính đến tháng 10/2026).
+Mức cơ sở được quy định tại mục về nghĩa vụ khai báo thay đổi nơi cư trú trong tiêu chuẩn định mức tiền phạt của Thông tư thi hành Luật Quản lý Xuất nhập cảnh, theo **thời gian vi phạm** (tính đến tháng 10/2026).
 
 | Thời gian vi phạm (thời gian quá hạn khai báo) | Mức cơ sở |
 |---|---|
@@ -83,15 +81,15 @@ Tên gọi gần giống, nhưng **khai báo thay đổi thông tin đăng ký n
 - **Thời hạn và nơi khai báo**: trong 15 ngày, tại người đứng đầu cơ quan xuất nhập cảnh nơi cư trú. Kèm thẻ đăng ký người nước ngoài và hộ chiếu. Khai báo này nộp tại cơ quan xuất nhập cảnh, không phải trung tâm dịch vụ cộng đồng.
 - **Nếu vi phạm**: **phạt hành chính** đến 1 triệu won (tính đến tháng 10/2026). Đây không phải chế tài hình sự, nên áp dụng thủ tục phạt hành chính thay vì thông báo nộp phạt.
 
-Mức phạt hành chính cơ sở (mục về nghĩa vụ khai báo thay đổi thông tin đăng ký) là 100.000 won nếu trễ dưới 3 tháng, 300.000 won từ 3 đến dưới 6 tháng, 500.000 won từ 6 tháng đến dưới 1 năm, và 1.000.000 won từ 1 năm trở lên (tính đến tháng 10/2026). Có thể giảm đến một nửa xét mức độ, động cơ, hậu quả của vi phạm và tuổi, hoàn cảnh, khả năng nộp phạt, nhưng không được giảm nếu đang nợ tiền phạt hành chính (tiêu chuẩn chung của cùng Bảng).
+Mức phạt hành chính cơ sở (mục về nghĩa vụ khai báo thay đổi thông tin đăng ký) là 100.000 won nếu trễ dưới 3 tháng, 300.000 won từ 3 đến dưới 6 tháng, 500.000 won từ 6 tháng đến dưới 1 năm, và 1.000.000 won từ 1 năm trở lên (tính đến tháng 10/2026). Có thể giảm đến một nửa xét mức độ, động cơ, hậu quả của vi phạm và tuổi, hoàn cảnh, khả năng nộp phạt, nhưng không được giảm nếu đang nợ tiền phạt hành chính.
 
 Trước khi phạt hành chính, bạn nhận thông báo trước và **ít nhất 10 ngày để nộp ý kiến**. Nếu lý do xác đáng, cơ quan có thể không phạt hoặc thay đổi nội dung; tự nguyện nộp trong thời hạn có thể được giảm đến 20%. Nếu không đồng ý với quyết định phạt, bạn có thể phản đối bằng văn bản trong 60 ngày kể từ ngày nhận thông báo.
 
 ## 5. Khai báo trễ có ảnh hưởng đến việc lưu trú không?
 
-**Quan hệ với căn cứ trục xuất.** Điều 46 khoản 1 Luật Quản lý Xuất nhập cảnh liệt kê các căn cứ trục xuất; vi phạm nghĩa vụ khai báo thay đổi nơi cư trú và thay đổi thông tin đăng ký không có trong danh sách đó. Ngược lại, **hoàn toàn không đăng ký người nước ngoài** là căn cứ trục xuất theo điểm 12, và chế tài cũng nặng hơn: tù đến 1 năm hoặc phạt tiền đến 10 triệu won (tính đến tháng 10/2026). Nếu đã quá 90 ngày kể từ khi nhập cảnh mà chưa đăng ký người nước ngoài, trường hợp của bạn khác với nội dung bài này và cần được kiểm tra riêng.
+**Quan hệ với căn cứ trục xuất.** Luật Quản lý Xuất nhập cảnh liệt kê các căn cứ trục xuất; vi phạm nghĩa vụ khai báo thay đổi nơi cư trú và thay đổi thông tin đăng ký không có trong danh sách đó. Ngược lại, **hoàn toàn không đăng ký người nước ngoài** là một căn cứ trục xuất có trong danh sách đó, và chế tài cũng nặng hơn: tù đến 1 năm hoặc phạt tiền đến 10 triệu won (tính đến tháng 10/2026). Nếu đã quá 90 ngày kể từ khi nhập cảnh mà chưa đăng ký người nước ngoài, trường hợp của bạn khác với nội dung bài này và cần được kiểm tra riêng.
 
-**Quan hệ với điều kiện của từng tư cách lưu trú.** Với các tư cách lưu trú yêu cầu cư trú thực tế tại địa phương, việc khai báo nơi cư trú chính là bằng chứng cho điều kiện đó. *Sổ tay hướng dẫn lưu trú cho người nước ngoài* của Bộ Tư pháp (tháng 3/2026), ở mục nhân tài ưu tú đặc thù địa phương (F-2-R), khi giải thích ngoại lệ công nhận cư trú thực tế đã ghi rõ: **nếu từ ngày ký hợp đồng thuê nhà đến ngày khai báo chuyển đến quá 15 ngày thì vi phạm Điều 36 Luật Quản lý Xuất nhập cảnh**, và vi phạm điều kiện ngoại lệ có thể dẫn đến hủy tư cách lưu trú. Mục du học sinh trong cùng sổ tay cũng hướng dẫn khai báo trong 15 ngày kể từ ngày chuyển đến.
+**Quan hệ với điều kiện của từng tư cách lưu trú.** Với các tư cách lưu trú yêu cầu cư trú thực tế tại địa phương, việc khai báo nơi cư trú chính là bằng chứng cho điều kiện đó. *Sổ tay hướng dẫn lưu trú cho người nước ngoài* của Bộ Tư pháp (tháng 3/2026), ở mục nhân tài ưu tú đặc thù địa phương (F-2-R), khi giải thích ngoại lệ công nhận cư trú thực tế đã ghi rõ: **nếu từ ngày ký hợp đồng thuê nhà đến ngày khai báo chuyển đến quá 15 ngày thì vi phạm nghĩa vụ khai báo thay đổi nơi cư trú theo Luật Quản lý Xuất nhập cảnh**, và vi phạm điều kiện ngoại lệ có thể dẫn đến hủy tư cách lưu trú. Mục du học sinh trong cùng sổ tay cũng hướng dẫn khai báo trong 15 ngày kể từ ngày chuyển đến.
 
 ## 6. Nếu mới phát hiện đã quá hạn thì xử lý theo thứ tự nào?
 

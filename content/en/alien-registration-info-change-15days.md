@@ -9,14 +9,14 @@ keywords:
   - "new passport report immigration Korea"
   - "15 days report change"
   - "change report fine Korea"
-  - "Immigration Act Article 35"
+  - "Immigration Act change report duty"
 faq:
   - q: "Must I report when I get a new passport?"
-    a: "Yes. Article 35 requires a change report to the immigration office for your place of residence within 15 days when the passport number, issue date or validity period changes. A new passport usually changes the number and validity, so it is generally reportable."
+    a: "Yes. The Immigration Act requires a change report to the immigration office for your place of residence within 15 days when the passport number, issue date or validity period changes. A new passport usually changes the number and validity, so it is generally reportable."
   - q: "What do I bring to report?"
-    a: "Under Enforcement Decree Article 44(1), submit a change report form with your registration card and passport to the office head for your place of residence. If name, sex, date of birth or nationality changed, the office reissues the registration card. Check your office for any additional documents."
+    a: "Under the Enforcement Decree of the Immigration Act, submit a change report form with your registration card and passport to the office head for your place of residence. If name, sex, date of birth or nationality changed, the office reissues the registration card. Check your office for any additional documents."
   - q: "How much is the fine for being late?"
-    a: "Up to KRW 1 million under Article 100(2), item 1. Enforcement Decree Annex 2 standards are KRW 100,000 if under 3 months late, KRW 300,000 for 3 to 6 months, KRW 500,000 for 6 months to 1 year and KRW 1 million for 1 year or more (as of October 2026). The Minister of Justice may waive the fine considering the circumstances."
+    a: "Up to KRW 1 million under the Immigration Act. The Enforcement Decree standards are KRW 100,000 if under 3 months late, KRW 300,000 for 3 to 6 months, KRW 500,000 for 6 months to 1 year and KRW 1 million for 1 year or more (as of October 2026). The Minister of Justice may waive the fine considering the circumstances."
 related:
   - "residence-change-report-fine"
   - "immigration-law-penalties-guide"
@@ -35,13 +35,13 @@ When you get a new passport or change school or employer, the details on your re
 
 ## 1. Which changes must be reported?
 
-Article 35 sets these reportable items.
+The Immigration Act sets these reportable items.
 
 1. Name, sex, date of birth and nationality
 2. Passport number, issue date and validity period
 3. Matters set by Ministry of Justice rule
 
-Enforcement Rule Article 49-2 lists for item 3:
+The Enforcement Rule of the Immigration Act lists for the last category:
 
 - A **change of or addition to the institution or organization** (including a name change) for holders of Culture and Arts (D-1), Study (D-2), and General Training (D-4) through Trade Management (D-9)
 - A change in school enrollment
@@ -53,11 +53,11 @@ Examples include receiving a new passport, a student changing school, or your em
 
 ## 2. How to report
 
-Under Enforcement Decree Article 44, submit a **change report form** with your **registration card and passport** to the office head for your place of residence. On receipt the head updates the record and, if name, sex, date of birth or nationality changed, reissues the registration card and notifies the local government office. Booking methods and extra documents may differ by office, so check before visiting.
+Under the Enforcement Decree of the Immigration Act, submit a **change report form** with your **registration card and passport** to the office head for your place of residence. On receipt the head updates the record and, if name, sex, date of birth or nationality changed, reissues the registration card and notifies the local government office. Booking methods and extra documents may differ by office, so check before visiting.
 
 ## 3. What if you are late?
 
-Article 100(2), item 1 provides a fine of up to KRW 1 million for violating Article 35 (as of October 2026). Enforcement Decree Annex 2 standards depend on how late you are.
+The Immigration Act provides a fine of up to KRW 1 million for violating this change report duty (as of October 2026). The Enforcement Decree standards depend on how late you are.
 
 | How late | Standard fine |
 |---|---|
