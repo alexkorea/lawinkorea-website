@@ -1,0 +1,27 @@
+{
+ "order": 19,
+ "batch": "LAW-BANK-1021",
+ "pexels_id": 13735868,
+ "pexels_author": "Mizuno K",
+ "cover_alt": {
+  "ko": "카페에서 커피 머신을 다루는 바리스타의 손",
+  "en": "Barista's hands working a coffee machine in a café",
+  "zh": "咖啡馆里操作咖啡机的咖啡师双手",
+  "ja": "カフェでコーヒーマシンを操作するバリスタの手",
+  "vi": "Đôi tay nhân viên pha chế đang dùng máy pha cà phê trong quán"
+ },
+ "og_category": {
+  "ko": "불법취업",
+  "en": "Employment",
+  "zh": "非法就业",
+  "ja": "不法就労",
+  "vi": "Làm việc bất hợp pháp"
+ },
+ "imageTitle": {
+  "ko": "유학생 시간제취업 허가",
+  "en": "Student part-time work permit",
+  "zh": "留学生兼职就业许可",
+  "ja": "留学生の時間制就業許可",
+  "vi": "Giấy phép làm thêm du học sinh"
+ }
+}

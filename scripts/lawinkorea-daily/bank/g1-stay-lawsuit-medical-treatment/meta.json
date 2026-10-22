@@ -1,0 +1,27 @@
+{
+ "order": 24,
+ "batch": "LAW-BANK-1021",
+ "pexels_id": 11660581,
+ "pexels_author": "adrian vieriu",
+ "cover_alt": {
+  "ko": "빈 침대가 줄지어 놓인 조용한 병원 복도",
+  "en": "Quiet hospital hallway with empty beds lined up",
+  "zh": "整齐摆放着空病床的安静医院走廊",
+  "ja": "空のベッドが並ぶ静かな病院の廊下",
+  "vi": "Hành lang bệnh viện yên tĩnh với những chiếc giường trống"
+ },
+ "og_category": {
+  "ko": "입국·출국",
+  "en": "Entry",
+  "zh": "入境·出境",
+  "ja": "入国・出国",
+  "vi": "Nhập cảnh·Xuất cảnh"
+ },
+ "imageTitle": {
+  "ko": "기타(G-1) 체류자격",
+  "en": "G-1 status for staying on",
+  "zh": "其他（G-1）居留资格",
+  "ja": "その他（G-1）在留資格",
+  "vi": "Tư cách lưu trú G-1"
+ }
+}

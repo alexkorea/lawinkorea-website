@@ -1,0 +1,27 @@
+{
+ "order": 25,
+ "batch": "LAW-BANK-1021",
+ "pexels_id": 7111546,
+ "pexels_author": "Tara Winstead",
+ "cover_alt": {
+  "ko": "계산기와 동전, 메모장, 세금 서류 폴더가 놓인 책상",
+  "en": "Calculator, coins, notepad and a tax folder on a desk",
+  "zh": "桌上的计算器、硬币、记事本和税务文件夹",
+  "ja": "電卓、硬貨、メモ帳、税金書類のフォルダーが置かれた机",
+  "vi": "Máy tính, tiền xu, sổ tay và bìa hồ sơ thuế trên bàn"
+ },
+ "og_category": {
+  "ko": "입국·출국",
+  "en": "Entry",
+  "zh": "入境·出境",
+  "ja": "入国・出国",
+  "vi": "Nhập cảnh·Xuất cảnh"
+ },
+ "imageTitle": {
+  "ko": "체납과 체류기간 연장",
+  "en": "Tax arrears and stay extension",
+  "zh": "欠缴与居留延长",
+  "ja": "滞納と在留期間延長",
+  "vi": "Nợ thuế và gia hạn lưu trú"
+ }
+}

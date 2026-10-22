@@ -1,0 +1,27 @@
+{
+ "order": 21,
+ "batch": "LAW-BANK-1021",
+ "pexels_id": 34718922,
+ "pexels_author": "Yetkin Ağaç",
+ "cover_alt": {
+  "ko": "기계와 작업대가 늘어선 넓은 공장 내부",
+  "en": "Wide factory floor with machinery and workstations",
+  "zh": "摆满机器和工作台的宽敞工厂内部",
+  "ja": "機械と作業台が並ぶ広い工場の内部",
+  "vi": "Bên trong nhà xưởng rộng với máy móc và bàn làm việc"
+ },
+ "og_category": {
+  "ko": "벌칙·벌금",
+  "en": "Penalties",
+  "zh": "处罚·罚款",
+  "ja": "罰則・罰金",
+  "vi": "Hình phạt"
+ },
+ "imageTitle": {
+  "ko": "단속 현장 권리와 의무",
+  "en": "Rights during field checks",
+  "zh": "现场检查的权利与义务",
+  "ja": "取締り現場の権利と義務",
+  "vi": "Quyền khi bị kiểm tra tại chỗ"
+ }
+}

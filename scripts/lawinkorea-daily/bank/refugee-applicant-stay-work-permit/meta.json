@@ -1,0 +1,27 @@
+{
+ "order": 20,
+ "batch": "LAW-BANK-1021",
+ "pexels_id": 34930983,
+ "pexels_author": "Bastian Riccardi",
+ "cover_alt": {
+  "ko": "서류에 글씨를 쓰는 손의 흑백 사진",
+  "en": "Black-and-white photo of a hand writing on a document",
+  "zh": "手在文件上书写的黑白照片",
+  "ja": "書類に文字を書く手のモノクロ写真",
+  "vi": "Ảnh đen trắng bàn tay đang viết trên giấy tờ"
+ },
+ "og_category": {
+  "ko": "입국·출국",
+  "en": "Entry",
+  "zh": "入境·出境",
+  "ja": "入国・出国",
+  "vi": "Nhập cảnh·Xuất cảnh"
+ },
+ "imageTitle": {
+  "ko": "난민신청자 체류·취업",
+  "en": "Refugee applicant stay and work",
+  "zh": "难民申请者居留与就业",
+  "ja": "難民申請者の在留と就労",
+  "vi": "Người xin tị nạn: lưu trú, làm việc"
+ }
+}

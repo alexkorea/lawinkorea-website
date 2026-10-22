@@ -1,0 +1,27 @@
+{
+ "order": 23,
+ "batch": "LAW-BANK-1021",
+ "pexels_id": 34583565,
+ "pexels_author": "Breno Cardoso",
+ "cover_alt": {
+  "ko": "펼친 책 위에 놓인 두 개의 금색 결혼반지",
+  "en": "Two gold wedding rings resting on an open book",
+  "zh": "放在翻开的书上的两枚金色婚戒",
+  "ja": "開いた本の上に置かれた二つの金の結婚指輪",
+  "vi": "Hai chiếc nhẫn cưới vàng đặt trên cuốn sách mở"
+ },
+ "og_category": {
+  "ko": "입국·출국",
+  "en": "Entry",
+  "zh": "入境·出境",
+  "ja": "入国・出国",
+  "vi": "Nhập cảnh·Xuất cảnh"
+ },
+ "imageTitle": {
+  "ko": "불법체류 중 결혼과 F-6",
+  "en": "Overstay and marriage",
+  "zh": "超期滞留与结婚",
+  "ja": "不法滞在中の結婚",
+  "vi": "Quá hạn lưu trú và kết hôn"
+ }
+}

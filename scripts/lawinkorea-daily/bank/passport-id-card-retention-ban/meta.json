@@ -1,0 +1,27 @@
+{
+ "order": 22,
+ "batch": "LAW-BANK-1021",
+ "pexels_id": 37717005,
+ "pexels_author": "panumas nikhomkhai",
+ "cover_alt": {
+  "ko": "금속 캐비닛 문 자물쇠에 꽂힌 열쇠",
+  "en": "Key inserted into the lock of a metal cabinet door",
+  "zh": "插在金属柜门锁上的钥匙",
+  "ja": "金属キャビネットの扉の鍵穴に差し込まれた鍵",
+  "vi": "Chìa khóa cắm trong ổ khóa cửa tủ kim loại"
+ },
+ "og_category": {
+  "ko": "불법취업",
+  "en": "Employment",
+  "zh": "非法就业",
+  "ja": "不法就労",
+  "vi": "Làm việc bất hợp pháp"
+ },
+ "imageTitle": {
+  "ko": "여권 보관 금지",
+  "en": "Passport retention ban",
+  "zh": "禁止扣押护照",
+  "ja": "旅券の預かり禁止",
+  "vi": "Cấm giữ hộ chiếu"
+ }
+}

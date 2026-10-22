@@ -1,0 +1,27 @@
+{
+ "order": 26,
+ "batch": "LAW-BANK-1021",
+ "pexels_id": 4481329,
+ "pexels_author": "Tiger Lily",
+ "cover_alt": {
+  "ko": "물류창고에서 팔레트와 재고를 정리하는 작업자들",
+  "en": "Workers organizing pallets and inventory in a warehouse",
+  "zh": "在仓库里整理托盘和库存的工人",
+  "ja": "倉庫でパレットと在庫を整理する作業員",
+  "vi": "Công nhân sắp xếp pallet và hàng tồn kho trong nhà kho"
+ },
+ "og_category": {
+  "ko": "불법취업",
+  "en": "Employment",
+  "zh": "非法就业",
+  "ja": "不法就労",
+  "vi": "Làm việc bất hợp pháp"
+ },
+ "imageTitle": {
+  "ko": "E-9 이탈 신고",
+  "en": "E-9 desertion report",
+  "zh": "E-9脱离申报",
+  "ja": "E-9離脱申告",
+  "vi": "Báo cáo bỏ trốn E-9"
+ }
+}

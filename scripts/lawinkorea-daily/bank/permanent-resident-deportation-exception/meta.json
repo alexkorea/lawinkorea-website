@@ -1,0 +1,27 @@
+{
+ "order": 18,
+ "batch": "LAW-BANK-1021",
+ "pexels_id": 7054757,
+ "pexels_author": "Kindel Media",
+ "cover_alt": {
+  "ko": "안경과 함께 책상 위에 쌓인 서류 더미",
+  "en": "A stack of papers on a desk with a pair of glasses",
+  "zh": "办公桌上叠放的文件和一副眼镜",
+  "ja": "眼鏡とともに机の上に積まれた書類の束",
+  "vi": "Chồng giấy tờ trên bàn cùng một chiếc kính"
+ },
+ "og_category": {
+  "ko": "강제퇴거",
+  "en": "Removal",
+  "zh": "强制驱逐",
+  "ja": "強制退去",
+  "vi": "Buộc xuất cảnh"
+ },
+ "imageTitle": {
+  "ko": "영주권자의 강제퇴거",
+  "en": "Deportation of F-5 holders",
+  "zh": "永住者的强制驱逐",
+  "ja": "永住者の強制退去",
+  "vi": "Trục xuất người thường trú"
+ }
+}

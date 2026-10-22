@@ -1,0 +1,27 @@
+{
+ "order": 17,
+ "batch": "LAW-BANK-1021",
+ "pexels_id": 4401167,
+ "pexels_author": "Tiago Alvar",
+ "cover_alt": {
+  "ko": "빈 좌석이 늘어선 공항 터미널과 유리창 너머의 비행기",
+  "en": "Airport terminal with empty seats and an airplane beyond the glass",
+  "zh": "排列着空座椅的机场航站楼与玻璃窗外的飞机",
+  "ja": "空席が並ぶ空港ターミナルとガラス越しの飛行機",
+  "vi": "Nhà ga sân bay với hàng ghế trống và máy bay sau ô kính"
+ },
+ "og_category": {
+  "ko": "입국·출국",
+  "en": "Entry",
+  "zh": "入境·出境",
+  "ja": "入国・出国",
+  "vi": "Nhập cảnh·Xuất cảnh"
+ },
+ "imageTitle": {
+  "ko": "외국인 출국정지 해제",
+  "en": "Departure suspension",
+  "zh": "外国人出境停止的解除",
+  "ja": "外国人の出国停止と解除",
+  "vi": "Tạm đình chỉ xuất cảnh"
+ }
+}
