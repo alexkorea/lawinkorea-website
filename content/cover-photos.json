@@ -61,5 +61,7 @@
   "official-notification-duty-exemptions": { "pexels_id": 7108329, "author": "Pavel Danilyuk",
     "alt": {"ko": "병원 접수창구에서 직원에게 안내를 받는 두 사람 사진", "en": "Photo of two people being helped at a hospital reception desk", "zh": "两人在医院挂号窗口接受工作人员指引的照片", "ja": "病院の受付窓口で職員から案内を受ける二人の写真", "vi": "Ảnh hai người được nhân viên hướng dẫn tại quầy tiếp nhận bệnh viện"} },
   "conditional-entry-permit-guide": { "pexels_id": 2069, "author": "ClickerHappy",
-    "alt": { "ko": "수하물 수취장과 입국장 안내판 옆을 걷는 사람들", "en": "People walking past baggage hall and arrivals hall signs", "zh": "走过行李厅和到达厅指示牌的人群", "ja": "手荷物受取所と到着ホールの案内の横を歩く人々", "vi": "Người đi qua biển chỉ dẫn sảnh hành lý và sảnh đến" } }
+    "alt": { "ko": "수하물 수취장과 입국장 안내판 옆을 걷는 사람들", "en": "People walking past baggage hall and arrivals hall signs", "zh": "走过行李厅和到达厅指示牌的人群", "ja": "手荷物受取所と到着ホールの案内の横を歩く人々", "vi": "Người đi qua biển chỉ dẫn sảnh hành lý và sảnh đến" } },
+  "foreigner-political-activity-ban": { "pexels_id": 15904364, "author": "Miguel González",
+    "alt": { "ko": "집회에서 확성기를 높이 든 손", "en": "Hand holding a megaphone aloft at a rally", "zh": "集会上高举扩音器的手", "ja": "集会で拡声器を掲げる手", "vi": "Bàn tay giơ cao loa phóng thanh tại cuộc tụ tập" } }
 }
