@@ -62,7 +62,7 @@ Cục Chính sách xuất nhập cảnh và người nước ngoài ([immigratio
 ## Thời hạn cấm nhập cảnh
 
 Thời hạn cấm nhập cảnh đối với người quá hạn lưu trú không được ghi trực tiếp trong Luật Quản lý xuất nhập cảnh; việc có bị cấm hay không và thời hạn bao lâu phụ thuộc vào thời gian quá hạn, việc tự nguyện xuất cảnh hay bị phát hiện, và hoàn cảnh của từng trường hợp.
-Riêng người bị trục xuất thì không được nhập cảnh trong 5 năm kể từ khi xuất cảnh (Luật Quản lý xuất nhập cảnh Điều 11 khoản 1 điểm 6). Hãy kiểm tra với cơ quan xuất nhập cảnh trước khi rời đi.
+Riêng người bị trục xuất thì không được nhập cảnh trong 5 năm kể từ khi xuất cảnh. Hãy kiểm tra với cơ quan xuất nhập cảnh trước khi rời đi.
 
 ## Trình tự xuất cảnh tự nguyện
 

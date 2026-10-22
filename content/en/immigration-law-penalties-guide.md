@@ -1,6 +1,6 @@
 ---
 title: "Korea Immigration Act Penalties & Fines Explained"
-description: "Penalties under Articles 93-3 and 94 to 100 of the Immigration Control Act: unauthorized employment, overstay and illegal hiring, sentencing ranges and fines."
+description: "Penalties under the Immigration Control Act: unauthorized employment, overstay and illegal hiring, sentencing ranges and fines."
 date: "2026-05-01"
 category: "Penalties"
 cluster: "cluster"
@@ -16,13 +16,13 @@ faq:
   - q: "What's the penalty for a single out-of-status activity violation?"
     a: "Article 20 violation = Article 94 application — up to 3 years imprisonment or 30M KRW fine. The offense review outcome (status maintained vs deportation) matters more than the fine."
   - q: "What's the fine for overstaying your visa (illegal stay)?"
-    a: "Article 25 violation (Article 94 #17) — up to 3 years imprisonment or 30M KRW fine. The fine and any departure order, deportation or entry ban depend on the case."
+    a: "Article 25 violation — up to 3 years imprisonment or 30M KRW fine. The fine and any departure order, deportation or entry ban depend on the case."
   - q: "How much does an illegal employer pay?"
-    a: "Article 18(3) violation (Article 94 #9) — up to 3 years imprisonment or 30M KRW fine. Joint Penalty Provision (Article 99-3) also penalizes the corporation. Base fine amounts are set by headcount and violation period (Enforcement Rule Table 8)."
+    a: "Article 18(3) violation — up to 3 years imprisonment or 30M KRW fine. Joint Penalty Provision also penalizes the corporation. Base fine amounts are set by headcount and violation period."
   - q: "Can I be punished for not carrying my passport?"
     a: "Article 27 violation = Article 98 application — up to 1M KRW fine. Lightest penalty, but cumulative violations hurt at offense review."
   - q: "Failure to report residence change?"
-    a: "Article 36(1) violation = Article 98 application — up to 1M KRW fine. The report is due within 15 days of moving in (Article 36(1)) and applies to registered foreigners."
+    a: "Article 36(1) violation = Article 98 application — up to 1M KRW fine. The report is due within 15 days of moving in and applies to registered foreigners."
   - q: "Are fines a separate offense review?"
     a: "Yes. Criminal punishment and immigration offense review are separate procedures. Even a small fine can be considered in Immigration's own assessment for visa renewal, status change, or deportation."
 related:
@@ -43,7 +43,7 @@ This guide presents Articles 93-3 and 94 to 100 of the **current Immigration Con
 | Article | Penalty | Common Violations |
 |---|---|---|
 | Art. 93-2 | **Up to 7 yrs imprisonment**, etc. | Arranging organized illegal entry/exit, etc. |
-| Art. 93-3 | **Up to 5 yrs imprisonment / 50M KRW fine** | Entry without immigration inspection (violation of Art. 12), disclosure of official secrets, etc. |
+| Art. 93-3 | **Up to 5 yrs imprisonment / 50M KRW fine** | Entry without immigration inspection, disclosure of official secrets, etc. |
 | Art. 94 | **Up to 3 yrs imprisonment / 30M KRW fine** | Out-of-status, overstay, illegal hire |
 | Art. 95 | **Up to 1 yr imprisonment / 10M KRW fine** | Entry inspection violation, registration failure, escape |
 | Art. 96 | **Up to 10M KRW fine** | Vessel non-compliance, document refusal |
@@ -106,7 +106,7 @@ Mainly transport-related violations (airlines, shipping). Less foreigner-targete
 
 Lightest, but **cumulative** violations are detrimental at offense review.
 
-## 7. Joint Penalty Provision (Article 99-3) — Corporation Liable Too
+## 7. Joint Penalty Provision — Corporation Liable Too
 
 > *When a representative, agent, employee, or other personnel of a corporation or person commits any of the following violations in connection with the corporation's business, in addition to punishing the actor, the corporation or person also pays the fine corresponding to that article.*
 
@@ -142,9 +142,9 @@ Exception: due-diligence and supervision can exempt the corporation.
 
 ### Case F: Illegal foreign hire (employer)
 - Applied: Article 18(3) → **Article 94 #9**
-- Base fine: set by headcount and violation period (Enforcement Rule Table 8)
-- Joint penalty: the corporation is also fined (Art. 99-3)
-- Foreign hire restriction: up to 3 years (Act on the Employment of Foreign Workers Art. 20)
+- Base fine: set by headcount and violation period
+- Joint penalty: the corporation is also fined
+- Foreign hire restriction: up to 3 years
 
 ### Case G: ARC non-carrying (at inspection)
 - Applied: Article 27 → **Article 98 #1**

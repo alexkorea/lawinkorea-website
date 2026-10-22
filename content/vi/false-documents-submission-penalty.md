@@ -1,6 +1,6 @@
 ---
-title: "Nộp giấy tờ giả mạo hoặc khai gian khi xin phép lưu trú: xử phạt theo Điều 26 và nguy cơ buộc xuất cảnh"
-description: "Nộp giấy tờ giả hoặc đơn khai gian khi xin phép lưu trú là vi phạm Điều 26 Luật Xuất nhập cảnh. Mức phạt và khác biệt với ghi sai thông thường."
+title: "Nộp giấy tờ giả mạo hoặc khai gian khi xin phép lưu trú: mức xử phạt và nguy cơ buộc xuất cảnh"
+description: "Nộp giấy tờ giả hoặc đơn khai gian khi xin phép lưu trú là vi phạm Luật Xuất nhập cảnh. Mức phạt và khác biệt với ghi sai thông thường."
 date: "2026-10-17"
 category: "Hình phạt · Penalties"
 cluster: "cluster"
@@ -16,7 +16,7 @@ faq:
   - q: "Mức xử phạt và tiền phạt là bao nhiêu?"
     a: "Theo Điều 94 mục 17-2: phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won. Mức chuẩn tại Phụ lục 7 Thông tư thi hành: tự mình làm thì lần 1 là 5 triệu won, lần 2 là 10 triệu won, lần 3 là 20 triệu won, từ lần 4 là 30 triệu won; môi giới, khuyến khích thì từ 10 triệu won cho 1 người đến 30 triệu won cho từ 20 người (tính đến tháng 10/2026). Có thể giảm hoặc tăng trong phạm vi một nửa."
   - q: "Ghi sai do sơ ý có bị xử phạt như vậy không?"
-    a: "Điều 26 nhắm vào hành vi xin bằng cách không chính đáng. Ngoài ra, ghi hoặc báo sự việc giả trong các đơn, kê khai theo luật này có thể bị phạt hành chính đến 500.000 won (tính đến tháng 10/2026) theo Điều 100 khoản 3 mục 2 (trừ trường hợp thuộc Điều 94 mục 17-2). Áp dụng quy định nào tùy sự việc."
+    a: "Điều 26 nhắm vào hành vi xin bằng cách không chính đáng. Ngoài ra, ghi hoặc báo sự việc giả trong các đơn, kê khai theo luật này có thể bị phạt hành chính đến 500.000 won (tính đến tháng 10/2026) theo Điều 100 khoản 3 mục 2 (trừ trường hợp bị xử lý hình sự). Áp dụng quy định nào tùy sự việc."
 related:
   - "immigration-law-penalties-guide"
   - "immigration-offense-review-guide"
@@ -28,9 +28,9 @@ Khi gia hạn lưu trú hay đổi tư cách mà thiếu giấy tờ, ai cũng s
 
 ## Điểm chính
 
-- Trong đơn xin phép hoạt động ngoài tư cách, đổi hoặc thêm nơi làm việc, cấp hoặc đổi tư cách, gia hạn lưu trú v.v., không được xin bằng cách không chính đáng như nộp **văn bản giả mạo, làm giả** hay **đơn ghi sự việc giả** (Điều 26 mục 1).
-- Việc **môi giới, khuyến khích** các đơn như vậy cũng bị cấm (Điều 26 mục 2).
-- Vi phạm có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (tính đến tháng 10/2026, Điều 94 mục 17-2), và với người nước ngoài còn là lý do buộc xuất cảnh (Điều 46 khoản 1 mục 10-2).
+- Trong đơn xin phép hoạt động ngoài tư cách, đổi hoặc thêm nơi làm việc, cấp hoặc đổi tư cách, gia hạn lưu trú v.v., không được xin bằng cách không chính đáng như nộp **văn bản giả mạo, làm giả** hay **đơn ghi sự việc giả**.
+- Việc **môi giới, khuyến khích** các đơn như vậy cũng bị cấm.
+- Vi phạm có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (tính đến tháng 10/2026), và với người nước ngoài còn là lý do buộc xuất cảnh.
 - Mức phạt chuẩn tăng theo số lần vi phạm hoặc số người được môi giới.
 
 ## 1. Những đơn xin phép nào thuộc đối tượng?
@@ -42,7 +42,7 @@ Khi gia hạn lưu trú hay đổi tư cách mà thiếu giấy tờ, ai cũng s
 
 ## 2. Xử phạt và mức phạt chuẩn
 
-Điều 94 mục 17-2 quy định người vi phạm Điều 26 bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (tính đến tháng 10/2026). Chỉ được truy tố khi trưởng cơ quan tố cáo (Điều 101 khoản 1), và trưởng cơ quan có thể thông báo nộp tiền phạt khi đã xác định có tội (Điều 102 khoản 1). Mức chuẩn tại [Phụ lục 7] Thông tư thi hành như sau.
+Điều 94 mục 17-2 quy định người vi phạm Điều 26 bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (tính đến tháng 10/2026). Chỉ được truy tố khi trưởng cơ quan tố cáo, và trưởng cơ quan có thể thông báo nộp tiền phạt khi đã xác định có tội. Mức chuẩn tại [Phụ lục 7] Thông tư thi hành như sau.
 
 | Loại | Số lần, số người | Mức phạt chuẩn |
 |---|---|---|
@@ -56,11 +56,11 @@ Khi gia hạn lưu trú hay đổi tư cách mà thiếu giấy tờ, ai cũng s
 | | 10 đến 19 người | 25 triệu won |
 | | Từ 20 người | 30 triệu won |
 
-Mức này có thể giảm hoặc tăng trong phạm vi một nửa tùy tuổi, hoàn cảnh, động cơ, hậu quả và khả năng chi trả (Thông tư thi hành Điều 86 khoản 2). Nhận thông báo phải nộp trong 15 ngày (Điều 105 khoản 1), nộp xong thì không bị xử phạt lại về cùng vụ việc (Điều 106).
+Mức này có thể giảm hoặc tăng trong phạm vi một nửa tùy tuổi, hoàn cảnh, động cơ, hậu quả và khả năng chi trả. Nhận thông báo phải nộp trong 15 ngày, nộp xong thì không bị xử phạt lại về cùng vụ việc.
 
 ## 3. Ảnh hưởng đến người nước ngoài
 
-Điều 46 khoản 1 mục 10-2 quy định người nước ngoài vi phạm Điều 26 thuộc đối tượng buộc xuất cảnh. Người có tư cách vĩnh trú không bị buộc xuất cảnh trừ các trường hợp luật quy định (Điều 46 khoản 2). Nếu đã có giấy phép lưu trú, hãy xem thêm [hướng dẫn ứng phó khi bị hủy giấy phép lưu trú](/vi/blog/foreigner-visa-cancellation-response). Người muốn tự nguyện xuất cảnh bằng chi phí của mình có thể được ra lệnh xuất cảnh (Điều 68 khoản 1 mục 1).
+Điều 46 khoản 1 mục 10-2 quy định người nước ngoài vi phạm Điều 26 thuộc đối tượng buộc xuất cảnh. Người có tư cách vĩnh trú không bị buộc xuất cảnh trừ các trường hợp luật quy định. Nếu đã có giấy phép lưu trú, hãy xem thêm [hướng dẫn ứng phó khi bị hủy giấy phép lưu trú](/vi/blog/foreigner-visa-cancellation-response). Người muốn tự nguyện xuất cảnh bằng chi phí của mình có thể được ra lệnh xuất cảnh.
 
 ## 4. Khác gì với ghi sai thông thường?
 

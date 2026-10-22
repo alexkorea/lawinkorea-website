@@ -33,7 +33,7 @@ Nếu không khai báo thay đổi thông tin đăng ký người nước ngoài
 
 ## 1. Beomchikgeum là gì — chế độ thông báo xử phạt
 
-Beomchikgeum (범칙금) là khoản tiền theo chế độ **thông báo xử phạt** (Điều 102 trở đi của Luật Quản lý xuất nhập cảnh): đối với vi phạm tương đối nhẹ, thủ trưởng cơ quan sẽ thông báo nộp một khoản tiền nhất định thay vì tố giác hình sự. Nộp đúng hạn thì thủ tục kết thúc; không nộp thì cơ quan có thể tố giác, chuyển vụ việc sang thủ tục mang tính hình sự (thẩm tra vi phạm xuất nhập cảnh).
+Beomchikgeum (범칙금) là khoản tiền theo chế độ **thông báo xử phạt**: đối với vi phạm tương đối nhẹ, thủ trưởng cơ quan sẽ thông báo nộp một khoản tiền nhất định thay vì tố giác hình sự. Nộp đúng hạn thì thủ tục kết thúc; không nộp thì cơ quan có thể tố giác, chuyển vụ việc sang thủ tục mang tính hình sự (thẩm tra vi phạm xuất nhập cảnh).
 
 ## 2. 3 điều cần kiểm tra đầu tiên khi nhận thông báo
 
@@ -45,13 +45,13 @@ Beomchikgeum (범칙금) là khoản tiền theo chế độ **thông báo xử 
 
 | Vi phạm | Thời gian vi phạm | Mức phạt tiêu chuẩn (tính đến tháng 10/2026) |
 |---|---|---|
-| Chậm khai báo thay đổi thông tin đăng ký người nước ngoài (số hộ chiếu, cơ quan trực thuộc..., phải khai báo trong 15 ngày — Luật Quản lý xuất nhập cảnh Điều 35) | Dưới 3 tháng | 100.000 won |
+| Chậm khai báo thay đổi thông tin đăng ký người nước ngoài (số hộ chiếu, cơ quan trực thuộc..., phải khai báo trong 15 ngày) | Dưới 3 tháng | 100.000 won |
 | " | 6 tháng – dưới 1 năm | 500.000 won |
 | " | Từ 1 năm trở lên | 1.000.000 won |
-| Chậm khai báo thay đổi nơi cư trú (phải khai báo trong 15 ngày — Điều 36 khoản 1) | Dưới 3 tháng | 100.000 won |
+| Chậm khai báo thay đổi nơi cư trú (phải khai báo trong 15 ngày) | Dưới 3 tháng | 100.000 won |
 | " | 1 năm – dưới 2 năm | 700.000 won |
 | " | Từ 2 năm trở lên | 1.000.000 won |
-| Chậm khai báo thay đổi/bổ sung nơi làm việc (nhân lực chuyên môn, phải khai báo trong 15 ngày — Điều 21 khoản 1) | 1 năm – dưới 2 năm | 1.000.000 won |
+| Chậm khai báo thay đổi/bổ sung nơi làm việc (nhân lực chuyên môn, phải khai báo trong 15 ngày) | 1 năm – dưới 2 năm | 1.000.000 won |
 | " | Từ 2 năm trở lên | 2.000.000 won |
 
 Tất cả mức tiền trên đều là mức chuẩn chính thức trong bảng mức phạt; số tiền thực tế có thể được cơ quan quản lý điều chỉnh theo từng trường hợp (có cố ý hay không, có tình tiết giảm nhẹ hay không...). Nếu số tiền trên thông báo của bạn khác với những gì bạn biết, đừng tự phỏng đoán — hãy liên hệ trực tiếp cơ quan phát hành thông báo để xác nhận.

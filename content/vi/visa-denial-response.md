@@ -15,11 +15,11 @@ faq:
   - q: "Quá hạn lệnh bổ sung hồ sơ thì sao?"
     a: "Không nộp tài liệu bổ sung có thể dẫn tới quyết định từ chối, sau đó có thể chuyển sang thủ tục lệnh xuất cảnh hoặc trục xuất. Nếu có lý do chính đáng, hãy hỏi cơ quan về việc gia hạn thời hạn nộp trước khi hết hạn."
   - q: "Sau khi bị từ chối có khiếu nại được không?"
-    a: "Được. Có thể yêu cầu xét xử hành chính (trong 90 ngày kể từ ngày biết quyết định, Luật Xét xử hành chính Điều 27 khoản 1) hoặc khởi kiện hành chính (trong 90 ngày, Luật Tố tụng hành chính Điều 20 khoản 1). Tùy hoàn cảnh, cũng có thể cân nhắc việc xin đổi sang tư cách mới."
+    a: "Được. Có thể yêu cầu xét xử hành chính (trong 90 ngày kể từ ngày biết quyết định) hoặc khởi kiện hành chính (trong 90 ngày). Tùy hoàn cảnh, cũng có thể cân nhắc việc xin đổi sang tư cách mới."
   - q: "Bị từ chối rồi có xin đổi tư cách lưu trú được không?"
     a: "Được. Bạn có thể xin một tư cách khác không liên quan đến lý do bị từ chối (ví dụ D-2 bị từ chối → xin E-7). Nhưng nếu lý do từ chối là án hình sự thì việc xin tư cách khác cũng có thể bị ảnh hưởng."
   - q: "Bị từ chối mà không rời Hàn Quốc thì sao?"
-    a: "Nếu không xuất cảnh trong thời hạn ghi trên thông báo (Nghị định thi hành Luật Quản lý Xuất nhập cảnh Điều 33 khoản 2) và không có biện pháp tiếp theo như đổi tư cách, bạn có thể trở thành người cư trú bất hợp pháp và bị trục xuất; người bị trục xuất không được nhập cảnh trong 5 năm kể từ khi xuất cảnh (Luật Quản lý Xuất nhập cảnh Điều 11 khoản 1 điểm 6)."
+    a: "Nếu không xuất cảnh trong thời hạn ghi trên thông báo và không có biện pháp tiếp theo như đổi tư cách, bạn có thể trở thành người cư trú bất hợp pháp và bị trục xuất; người bị trục xuất không được nhập cảnh trong 5 năm kể từ khi xuất cảnh."
   - q: "Họ không nói rõ lý do từ chối. Làm sao để biết?"
     a: "Nếu thông báo chỉ ghi lý do vắn tắt, bạn có thể yêu cầu công khai thông tin tại Cục Xuất nhập cảnh để biết lý do chi tiết. Có hành chính sĩ đi cùng thì có thể gặp trực tiếp cán bộ."
   - q: "Nhận lệnh bổ sung thì cần nộp thêm giấy tờ gì?"
@@ -43,7 +43,7 @@ Bài viết này liệt kê theo từng bước những việc cần làm.
 
 ### B. Không cho phép gia hạn (Denial)
 - Quyết định từ chối rõ ràng
-- Phải xuất cảnh hoặc có biện pháp khác trong thời hạn ghi trên thông báo (tối đa 14 ngày kể từ ngày phát hành, hoặc ngày hết hạn lưu trú hiện tại — Nghị định thi hành Luật Quản lý Xuất nhập cảnh Điều 33 khoản 2)
+- Phải xuất cảnh hoặc có biện pháp khác trong thời hạn ghi trên thông báo (tối đa 14 ngày kể từ ngày phát hành, hoặc ngày hết hạn lưu trú hiện tại)
 
 ### C. Khuyến nghị đổi tư cách
 - "Tư cách hiện tại bị từ chối, khuyến nghị chuyển sang tư cách khác"
@@ -83,7 +83,7 @@ Bài viết này liệt kê theo từng bước những việc cần làm.
 
 ## 3. Kế hoạch hành động theo từng bước
 
-Hãy điều chỉnh các bước dưới đây theo thời hạn xuất cảnh ghi trên thông báo (Nghị định thi hành Luật Quản lý Xuất nhập cảnh Điều 33 khoản 2).
+Hãy điều chỉnh các bước dưới đây theo thời hạn xuất cảnh ghi trên thông báo.
 
 ### Bước 1: Nắm chính xác lý do bị từ chối
 
@@ -112,8 +112,8 @@ Chọn một trong bốn phương án:
 
 #### Phương án C) Khiếu nại (xét xử hành chính)
 - Khi cho rằng quyết định từ chối là không thỏa đáng
-- Nộp trong vòng 90 ngày kể từ ngày biết quyết định (Luật Xét xử hành chính Điều 27 khoản 1)
-- Phán quyết phải được đưa ra trong 60 ngày kể từ ngày nhận đơn, có thể gia hạn 30 ngày khi bất khả kháng (Luật Xét xử hành chính Điều 45 khoản 1)
+- Nộp trong vòng 90 ngày kể từ ngày biết quyết định
+- Phán quyết phải được đưa ra trong 60 ngày kể từ ngày nhận đơn, có thể gia hạn 30 ngày khi bất khả kháng
 
 #### Phương án D) Xuất cảnh tự nguyện
 - Khi các phương án trên đều khó
@@ -152,7 +152,7 @@ Chọn một trong bốn phương án:
 ### Bị từ chối do án hình sự
 
 Cách ứng phó:
-- Nếu là lệnh trục xuất, khiếu nại trong 7 ngày kể từ ngày nhận lệnh (Luật Quản lý Xuất nhập cảnh Điều 60 khoản 1)
+- Nếu là lệnh trục xuất, khiếu nại trong 7 ngày kể từ ngày nhận lệnh
 - Cân nhắc đổi sang tư cách khác
 - Cân nhắc xuất cảnh tự nguyện
 
@@ -188,7 +188,7 @@ Cách ứng phó:
 ## 5. Thủ tục khiếu nại (xét xử hành chính)
 
 ### Thời điểm nộp
-- Trong vòng **90 ngày** kể từ ngày biết quyết định (Luật Xét xử hành chính Điều 27 khoản 1)
+- Trong vòng **90 ngày** kể từ ngày biết quyết định
 
 ### Nơi nộp
 - Ủy ban Xét xử hành chính Trung ương (nộp trực tuyến qua hệ thống Xét xử hành chính trực tuyến)
@@ -197,7 +197,7 @@ Cách ứng phó:
 1. Nộp đơn yêu cầu xét xử hành chính
 2. Cơ quan ra quyết định (Cục Xuất nhập cảnh) nộp bản giải trình
 3. Người yêu cầu nộp ý kiến bổ sung (tùy chọn)
-4. Ra phán quyết (trong 60 ngày kể từ ngày nhận đơn, có thể gia hạn 30 ngày — Luật Xét xử hành chính Điều 45 khoản 1)
+4. Ra phán quyết (trong 60 ngày kể từ ngày nhận đơn, có thể gia hạn 30 ngày)
 
 ### Chi phí
 - Phí nộp đơn: không có
@@ -222,9 +222,9 @@ Tùy tư cách bị từ chối mà có thể chuyển sang:
 ## 7. Giá trị chiến lược của xuất cảnh tự nguyện
 
 **Xuất cảnh tự nguyện** trước khi bị ra quyết định trục xuất có thể:
-- Được xem xét khác về cấm nhập cảnh so với khi bị trục xuất (người bị trục xuất không được nhập cảnh trong 5 năm kể từ khi xuất cảnh — Luật Quản lý Xuất nhập cảnh Điều 11 khoản 1 điểm 6)
+- Được xem xét khác về cấm nhập cảnh so với khi bị trục xuất (người bị trục xuất không được nhập cảnh trong 5 năm kể từ khi xuất cảnh)
 - Thuận lợi hơn khi xin nhập cảnh lại
-- Ít bất lợi hơn khi xin thường trú (theo Quy tắc thi hành Điều 18-4, trục xuất là 7 năm và lệnh xuất cảnh là 5 năm kể từ ngày xuất cảnh)
+- Ít bất lợi hơn khi xin thường trú (trục xuất là 7 năm và lệnh xuất cảnh là 5 năm kể từ ngày xuất cảnh)
 
 Xuất cảnh tự nguyện khác với việc xuất cảnh theo lệnh xuất cảnh hoặc lệnh trục xuất; hãy kiểm tra tình trạng của mình trước khi rời đi.
 

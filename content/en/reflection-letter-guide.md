@@ -12,7 +12,7 @@ keywords:
   - "Korean immigration administrative office"
 faq:
   - q: "Do I have to submit an apology letter in an immigration offense review?"
-    a: "No article of the Immigration Act, its Enforcement Decree or its Enforcement Rule makes an apology letter or petition mandatory. The law does, however, require age and circumstances, motive and consequences and similar factors to be considered when setting or waiving a fine (Act Article 103(2), Enforcement Rule Article 86(2)), and the letter is how you explain those facts yourself."
+    a: "No article of the Immigration Act, its Enforcement Decree or its Enforcement Rule makes an apology letter or petition mandatory. The law does, however, require age and circumstances, motive and consequences and similar factors to be considered when setting or waiving a fine, and the letter is how you explain those facts yourself."
   - q: "How long should the apology letter be?"
     a: "There is no set length. What matters is that the account of events, your acknowledgement of the violation and your plan to prevent a repeat are tied to specific facts and evidence."
   - q: "How many petition letters should I collect?"
@@ -20,9 +20,9 @@ faq:
   - q: "Must the letter be handwritten?"
     a: "We found no formal requirement in the statutes. Either way, include the writer's name, signature and date so it is clear who wrote it and when."
   - q: "Will an apology letter reduce my fine?"
-    a: "No outcome can be promised. The law allows the office to reduce or increase a fine by up to one half after considering the circumstances (Enforcement Rule Article 86(2)) and allows the Minister of Justice to waive the fine notice (Act Article 103(2)). The letter supplies the facts needed for that decision."
+    a: "No outcome can be promised. The law allows the office to reduce or increase a fine by up to one half after considering the circumstances and allows the Minister of Justice to waive the fine notice. The letter supplies the facts needed for that decision."
   - q: "Can I write it in my own language?"
-    a: "Write in the language you can express yourself in most accurately and attach a Korean translation so the officer can read it as written. Translating documents related to administrative work is within the scope of an administrative scrivener (Haengjeongsa Act Article 2(1)(3))."
+    a: "Write in the language you can express yourself in most accurately and attach a Korean translation so the officer can read it as written. Translating documents related to administrative work is within the scope of an administrative scrivener."
   - q: "Can an administrative scrivener write the letter for me?"
     a: "We help structure and word the letter based on facts you confirm, translate it and submit it. The content must be your actual situation. Defense in a criminal trial is outside the scope of an administrative scrivener."
 related:
@@ -31,7 +31,7 @@ related:
   - "immigration-fine-notice-response-2026"
 ---
 
-An apology letter or petition in a Korean immigration offense review is **not a document with a prescribed form. It is your own and other people's factual explanation of the circumstances the immigration office weighs when deciding a disposition.** Korea's Immigration Act requires **age and circumstances, motive and consequences of the violation, ability to pay, and number of violations** to be considered when waiving a fine notice or setting the amount (Act Article 103(2), Enforcement Rule Article 86(2)). The key is to write to those factors, with concrete facts and evidence.
+An apology letter or petition in a Korean immigration offense review is **not a document with a prescribed form. It is your own and other people's factual explanation of the circumstances the immigration office weighs when deciding a disposition.** Korea's Immigration Act requires **age and circumstances, motive and consequences of the violation, ability to pay, and number of violations** to be considered when waiving a fine notice or setting the amount. The key is to write to those factors, with concrete facts and evidence.
 
 > **Key points**
 > - Apology letter: your own factual account of what happened, your acknowledgement, your motive, your life in Korea and your plan to prevent a repeat
@@ -44,9 +44,9 @@ An apology letter or petition in a Korean immigration offense review is **not a 
 
 "Immigration offense review" is not a statutory term. It is the practical name for the process in which an immigration office investigates a breach of the Immigration Act and decides on a fine, a departure order, deportation or another disposition. During that process the law lets the authorities take circumstances into account:
 
-- **Amount of the fine**: may be reduced or increased by up to one half of the base amount, considering age and circumstances, motive and consequences, ability to pay and number of violations (Enforcement Rule Article 86(2))
-- **Waiver of the fine notice**: the Minister of Justice may waive it on the same grounds (Act Article 103(2))
-- **Waiver of an administrative fine**: possible considering age and circumstances, motive and consequences and ability to pay (Act Article 100(5))
+- **Amount of the fine**: may be reduced or increased by up to one half of the base amount, considering age and circumstances, motive and consequences, ability to pay and number of violations
+- **Waiver of the fine notice**: the Minister of Justice may waive it on the same grounds
+- **Waiver of an administrative fine**: possible considering age and circumstances, motive and consequences and ability to pay
 
 We found no provision or form for apology letters or petitions in the articles of the Immigration Act, its Enforcement Decree and Enforcement Rule, or in the Ministry of Justice's residence management manual (September 2026 edition), as searched on 3 October 2026. It is therefore most accurate to treat these letters as **statements of opinion** that convey the factors above to the officer in charge.
 
@@ -90,18 +90,18 @@ The summons and the officer's instructions take priority — check the items lis
 
 ## 5. What should you avoid in an apology letter?
 
-- **Anything untrue** — what you say in the interview is written into a record, which must be read back to you or shown to you so you can request corrections (Act Article 48(3)–(4), applied by Article 102(4)). A letter that contradicts the record loses credibility. If the record is wrong, ask for a correction at the time.
+- **Anything untrue** — what you say in the interview is written into a record, which must be read back to you or shown to you so you can request corrections. A letter that contradicts the record loses credibility. If the record is wrong, ask for a correction at the time.
 - **Shifting blame** — sentences that only blame an employer or friend. Explain the circumstances as facts and leave the judgment to the officer.
 - **Promises you cannot keep** — one or two workable steps are better than vague pledges.
 - **Copied templates** — a letter built from stock sentences does not show your situation.
 
 ## 6. Can I write in a foreign language?
 
-We recommend writing in the language you can express yourself in most accurately and **attaching a Korean translation**. Even at the interview stage, the law requires an interpreter for a person who does not understand Korean and a translation of any non-Korean writing in a statement (Act Article 48(6)–(7), applied by Article 102(4)). A letter is only useful if the officer can read it as you wrote it.
+We recommend writing in the language you can express yourself in most accurately and **attaching a Korean translation**. Even at the interview stage, the law requires an interpreter for a person who does not understand Korean and a translation of any non-Korean writing in a statement. A letter is only useful if the officer can read it as you wrote it.
 
 ## 7. When and where do I submit it?
 
-Letters matter before the disposition is decided. If you have a summons, bring them when you attend **the regional immigration office that issued it**, or ask the officer in advance how to submit them. If you have already received a fine notice, the fine must be paid within 15 days of receiving it, or a criminal complaint follows (Act Article 105) — check that deadline first.
+Letters matter before the disposition is decided. If you have a summons, bring them when you attend **the regional immigration office that issued it**, or ask the officer in advance how to submit them. If you have already received a fine notice, the fine must be paid within 15 days of receiving it, or a criminal complaint follows — check that deadline first.
 
 ## 8. How we can help
 
@@ -110,7 +110,7 @@ Letters matter before the disposition is decided. If you have a summons, bring t
 - **Korean translation** of letters and supporting documents written in another language
 - **Submission** to the immigration office and preparation before your interview
 
-An administrative scrivener may draft documents submitted to administrative agencies, draft documents certifying facts, translate them and submit them (Haengjeongsa Act Article 2(1)). Defense in a criminal trial and representation in lawsuits are **outside the scope of an administrative scrivener**, so we do not handle them.
+An administrative scrivener may draft documents submitted to administrative agencies, draft documents certifying facts, translate them and submit them. Defense in a criminal trial and representation in lawsuits are **outside the scope of an administrative scrivener**, so we do not handle them.
 
 **Related pages**
 - [What is an immigration offense review, and what should you prepare?](/en/immigration-offense-review)

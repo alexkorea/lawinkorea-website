@@ -22,7 +22,7 @@ faq:
   - q: "Hành chính sĩ có hỗ trợ buổi xem xét vi phạm được không?"
     a: "Có. Việc soạn và nộp hồ sơ trong thủ tục hành chính xuất nhập cảnh thuộc lĩnh vực chuyên môn của hành chính sĩ theo Luật Hành chính sĩ. Chúng tôi không đại diện tố tụng hoặc tại tòa, kể cả bào chữa hình sự (ngoài phạm vi nghiệp vụ của hành chính sĩ)."
   - q: "Nếu kết quả là trục xuất (cưỡng chế xuất cảnh) thì coi như hết à?"
-    a: "Bạn vẫn có thể khiếu nại, và tùy vụ việc có thể xin xem xét lại thời hạn cấm nhập cảnh hoặc xem xét xuất cảnh tự nguyện; kết quả phụ thuộc vào từng vụ việc. Mấu chốt là phản ứng nhanh sau khi nhận kết quả (khiếu nại lệnh trục xuất phải nộp trong 7 ngày kể từ ngày nhận lệnh, Luật Quản lý Xuất nhập cảnh Điều 60 khoản 1)."
+    a: "Bạn vẫn có thể khiếu nại, và tùy vụ việc có thể xin xem xét lại thời hạn cấm nhập cảnh hoặc xem xét xuất cảnh tự nguyện; kết quả phụ thuộc vào từng vụ việc. Mấu chốt là phản ứng nhanh sau khi nhận kết quả (khiếu nại lệnh trục xuất phải nộp trong 7 ngày kể từ ngày nhận lệnh)."
   - q: "Visa sắp hết hạn mà lại bị xem xét vi phạm thì sao?"
     a: "Hồ sơ gia hạn visa và thủ tục xem xét sẽ diễn ra song song. Trước khi có kết quả, lệnh xuất cảnh không được ban hành ngay, nhưng tùy kết quả, việc gia hạn có thể bị từ chối."
   - q: "Gia đình tôi ở Hàn Quốc, nếu tôi bị trục xuất thì họ có phải đi cùng không?"
@@ -66,11 +66,11 @@ Chỉ cần rơi vào một trong tám tình huống sau là bạn thuộc diệ
 
 ### (1) Bị phát hiện lái xe say rượu
 
-Chỉ một lần bị phát hiện cũng có thể dẫn tới thủ tục xem xét khi bạn gia hạn visa. Từ 0,03% trở lên là đối tượng xử phạt hình sự (Luật Giao thông đường bộ Điều 44 khoản 4, Điều 148-2) và có thể dẫn tới xem xét vi phạm; mức xử lý phụ thuộc vào từng vụ việc. Xem chi tiết tại [Người nước ngoài lái xe say rượu và xem xét vi phạm](/vi/blog/dui-foreigner-visa).
+Chỉ một lần bị phát hiện cũng có thể dẫn tới thủ tục xem xét khi bạn gia hạn visa. Từ 0,03% trở lên là đối tượng xử phạt hình sự và có thể dẫn tới xem xét vi phạm; mức xử lý phụ thuộc vào từng vụ việc. Xem chi tiết tại [Người nước ngoài lái xe say rượu và xem xét vi phạm](/vi/blog/dui-foreigner-visa).
 
 ### (2) Dính án hình sự
 
-Các vụ án hình sự như hành hung, trộm cắp, lừa đảo, phỉ báng có thể được thông báo cho cơ quan xuất nhập cảnh (Luật Quản lý xuất nhập cảnh Điều 84). Ngay cả án phạt tiền, nếu lặp lại hoặc mang tính bạo lực, cũng có thể được xem xét khi quyết định xử lý. Xem [Án hình sự và visa](/vi/blog/criminal-case-visa-defense).
+Các vụ án hình sự như hành hung, trộm cắp, lừa đảo, phỉ báng có thể được thông báo cho cơ quan xuất nhập cảnh. Ngay cả án phạt tiền, nếu lặp lại hoặc mang tính bạo lực, cũng có thể được xem xét khi quyết định xử lý. Xem [Án hình sự và visa](/vi/blog/criminal-case-visa-defense).
 
 ### (3) Bị điều tra, truy tố về ma túy
 
@@ -90,7 +90,7 @@ Dù chỉ tham gia đơn thuần với vai trò chuyển tiền, bạn vẫn b�
 
 ### (7) Bị từ chối gia hạn visa hoặc đổi tư cách
 
-Nếu trong quá trình thẩm định phát hiện tiền sử vi phạm và bạn nhận lệnh bổ sung hoặc bị từ chối, cần nộp bổ sung trong thời hạn ghi trên thông báo, còn yêu cầu xét xử hành chính đối với quyết định từ chối phải nộp trong 90 ngày kể từ ngày biết quyết định (Luật Xét xử hành chính Điều 27 khoản 1). Xem [Ứng phó khi bị từ chối gia hạn visa](/vi/blog/visa-denial-response).
+Nếu trong quá trình thẩm định phát hiện tiền sử vi phạm và bạn nhận lệnh bổ sung hoặc bị từ chối, cần nộp bổ sung trong thời hạn ghi trên thông báo, còn yêu cầu xét xử hành chính đối với quyết định từ chối phải nộp trong 90 ngày kể từ ngày biết quyết định. Xem [Ứng phó khi bị từ chối gia hạn visa](/vi/blog/visa-denial-response).
 
 ### (8) Tìm cách nhập cảnh lại khi đang bị cấm
 
@@ -132,11 +132,11 @@ Những tài liệu cho thấy sự gắn bó và đóng góp của bạn tại 
 |---|---|---|
 | **Cho phép lưu trú** | Giữ nguyên tư cách hoặc gia hạn có điều kiện | Tiếp tục cư trú bình thường |
 | **Đổi hoặc rút ngắn tư cách** | Đổi loại visa, rút ngắn thời hạn lưu trú | Ảnh hưởng tới kinh doanh, việc làm, gia đình |
-| **Lệnh xuất cảnh** | Yêu cầu tự xuất cảnh trong thời hạn ghi trên lệnh (Luật Quản lý xuất nhập cảnh Điều 68) | Vẫn có thể nhập cảnh lại nhưng ảnh hưởng visa sau này |
-| **Trục xuất** | Cưỡng chế hồi hương | Không được nhập cảnh trong 5 năm kể từ khi xuất cảnh (Luật Quản lý xuất nhập cảnh Điều 11 khoản 1 điểm 6) |
+| **Lệnh xuất cảnh** | Yêu cầu tự xuất cảnh trong thời hạn ghi trên lệnh | Vẫn có thể nhập cảnh lại nhưng ảnh hưởng visa sau này |
+| **Trục xuất** | Cưỡng chế hồi hương | Không được nhập cảnh trong 5 năm kể từ khi xuất cảnh |
 | **Cấm nhập cảnh** | Không được vào Hàn Quốc trong thời hạn nhất định | Thời hạn phụ thuộc vào từng trường hợp |
 
-Khác biệt lớn nhất nằm giữa **"lệnh xuất cảnh" và "trục xuất"**. Người bị trục xuất không được nhập cảnh trong 5 năm kể từ khi xuất cảnh (Luật Quản lý xuất nhập cảnh Điều 11 khoản 1 điểm 6), và việc này cũng có thể ảnh hưởng đến hồ sơ thường trú hoặc quốc tịch sau này. Hạn chế nhập cảnh sau lệnh xuất cảnh phụ thuộc vào từng trường hợp.
+Khác biệt lớn nhất nằm giữa **"lệnh xuất cảnh" và "trục xuất"**. Người bị trục xuất không được nhập cảnh trong 5 năm kể từ khi xuất cảnh, và việc này cũng có thể ảnh hưởng đến hồ sơ thường trú hoặc quốc tịch sau này. Hạn chế nhập cảnh sau lệnh xuất cảnh phụ thuộc vào từng trường hợp.
 
 ## 5. Vai trò và phạm vi nghiệp vụ của hành chính sĩ
 
@@ -169,7 +169,7 @@ Hoàn thiện bản giải trình, đơn xin khoan hồng và tài liệu giảm
 
 ### Bước 5. Đồng hành và chiến lược tiếp theo (ngày làm việc + sau khi có kết quả)
 
-Đi cùng đến cơ quan xuất nhập cảnh hoặc diễn tập trước. Ngay sau khi có kết quả, đề xuất chiến lược visa tiếp theo (khiếu nại, xuất cảnh tự nguyện, đổi tư cách...). Khiếu nại lệnh trục xuất phải nộp trong 7 ngày kể từ ngày nhận lệnh (Luật Quản lý Xuất nhập cảnh Điều 60 khoản 1).
+Đi cùng đến cơ quan xuất nhập cảnh hoặc diễn tập trước. Ngay sau khi có kết quả, đề xuất chiến lược visa tiếp theo (khiếu nại, xuất cảnh tự nguyện, đổi tư cách...). Khiếu nại lệnh trục xuất phải nộp trong 7 ngày kể từ ngày nhận lệnh.
 
 > Văn phòng thực hiện **việc soạn thảo và nộp hồ sơ theo Luật Hành chính sĩ**. Chúng tôi không đại diện tố tụng hoặc tại tòa, kể cả bào chữa hình sự (ngoài phạm vi nghiệp vụ của hành chính sĩ).
 

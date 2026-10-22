@@ -41,7 +41,7 @@ Bài viết này tổng hợp những điểm cần kiểm tra ngay sau khi bị
 ## 1. Bị bắt vì say rượu → Xử lý hình sự → Xem xét vi phạm
 
 ### Bước 1: Tại hiện trường kiểm tra
-- Đo nồng độ cồn trong máu (BAC) → từ chối đo có thể bị xử phạt riêng (Luật Giao thông đường bộ Điều 148-2 khoản 2)
+- Đo nồng độ cồn trong máu (BAC) → từ chối đo có thể bị xử phạt riêng
 - Nhận thông báo đình chỉ hoặc thu hồi bằng lái
 
 ### Bước 2: Xử lý hình sự
@@ -57,12 +57,12 @@ Bài viết này tổng hợp những điểm cần kiểm tra ngay sau khi bị
 
 ## 2. Mức xử phạt hình sự theo nồng độ cồn (BAC)
 
-| Mức BAC | Xử lý hình sự (tính đến tháng 10/2026, Luật Giao thông đường bộ Điều 148-2) | Bằng lái (Quy tắc thi hành, Phụ lục 28) |
+| Mức BAC | Xử lý hình sự (tính đến tháng 10/2026) | Bằng lái |
 |---|---|---|
-| 0,03 ~ 0,08% | Tù đến 1 năm hoặc phạt đến 5 triệu won (khoản 3 điểm 3) | 100 điểm phạt (đình chỉ) |
-| 0,08 ~ 0,2% | Tù 1~2 năm hoặc phạt 5~10 triệu won (khoản 3 điểm 2) | Thu hồi |
-| Từ 0,2% trở lên | Tù 2~5 năm hoặc phạt 10~20 triệu won (khoản 3 điểm 1) | Thu hồi |
-| Từ chối kiểm tra | Tù 1~5 năm hoặc phạt 5~20 triệu won (khoản 2) | Thu hồi |
+| 0,03 ~ 0,08% | Tù đến 1 năm hoặc phạt đến 5 triệu won | 100 điểm phạt (đình chỉ) |
+| 0,08 ~ 0,2% | Tù 1~2 năm hoặc phạt 5~10 triệu won | Thu hồi |
+| Từ 0,2% trở lên | Tù 2~5 năm hoặc phạt 10~20 triệu won | Thu hồi |
+| Từ chối kiểm tra | Tù 1~5 năm hoặc phạt 5~20 triệu won | Thu hồi |
 | Có tai nạn kèm theo | Có thể áp dụng thêm Luật xử phạt tăng nặng tội phạm đặc định... | — |
 
 Bảng trên là mức xử phạt hình sự và bằng lái theo luật. Mức xử lý tại thủ tục xem xét vi phạm xuất nhập cảnh không được quy định theo nồng độ cồn và phụ thuộc vào từng vụ việc; các yếu tố như gia đình, công việc, đóng góp cho Hàn Quốc có thể được xem xét.
@@ -131,7 +131,7 @@ Không chỉ nộp tài liệu giảm nhẹ, mà lập trang tóm tắt và mụ
 Hành chính sĩ bổ sung những phần thân chủ chưa diễn đạt đủ bằng tiếng Hàn, và những điểm cần giải thích thêm dưới góc độ thủ tục hành chính.
 
 ### (4) Chiến lược tiếp theo
-Ngay khi có kết quả, bắt đầu ngay việc khiếu nại (đối với lệnh trục xuất: trong 7 ngày kể từ ngày nhận lệnh, Luật Quản lý Xuất nhập cảnh Điều 60 khoản 1), xin thay đổi tư cách, hoặc căn thời điểm xuất cảnh tự nguyện.
+Ngay khi có kết quả, bắt đầu ngay việc khiếu nại (đối với lệnh trục xuất: trong 7 ngày kể từ ngày nhận lệnh), xin thay đổi tư cách, hoặc căn thời điểm xuất cảnh tự nguyện.
 
 ## 6. Năm hiểu lầm phổ biến
 

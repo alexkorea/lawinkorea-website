@@ -33,7 +33,7 @@ If you miss the legal deadline to report a change in your alien registration det
 
 ## 1. What a "beomchikgeum" fine is — the notification disposition system
 
-A beomchikgeum is an amount under the Immigration Act's **notification disposition** system (Article 102 onward): for relatively minor violations, the office head notifies you to pay a set amount instead of filing a criminal complaint. Paying within the deadline closes the case; missing it lets the office file a complaint, moving the matter into criminal-style review (sabeom simsa).
+A beomchikgeum is an amount under the Immigration Act's **notification disposition** system: for relatively minor violations, the office head notifies you to pay a set amount instead of filing a criminal complaint. Paying within the deadline closes the case; missing it lets the office file a complaint, moving the matter into criminal-style review (sabeom simsa).
 
 ## 2. Three things to check first when you receive a notice
 
@@ -45,10 +45,10 @@ A beomchikgeum is an amount under the Immigration Act's **notification dispositi
 
 | Violation | Violation period | Standard amount (as of October 2026) |
 |---|---|---|
-| Late report of alien registration detail change (passport number, affiliated organization, etc. — due within 15 days, Immigration Act Article 35) | Under 3 months | KRW 100,000 |
+| Late report of alien registration detail change (passport number, affiliated organization, etc. — due within 15 days) | Under 3 months | KRW 100,000 |
 | " | 6 months – under 1 year | KRW 500,000 |
 | " | 1 year or more | KRW 1,000,000 |
-| Late report of address change (due within 15 days, Immigration Act Article 36(1)) | Under 3 months | KRW 100,000 |
+| Late report of address change (due within 15 days) | Under 3 months | KRW 100,000 |
 | " | 1 year – under 2 years | KRW 700,000 |
 | " | 2 years or more | KRW 1,000,000 |
 | Late report of workplace change/addition (professionals, due within 15 days) | 1 year – under 2 years | KRW 1,000,000 |

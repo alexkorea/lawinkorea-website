@@ -10,13 +10,14 @@ import BlogCategoryTabs from "../../components/BlogCategoryTabs";
 const VALID_LOCALES = ["ko", "en", "zh", "ja", "vi"] as const;
 type LocaleParam = (typeof VALID_LOCALES)[number];
 
-const HEADER_TEXT: Record<LocaleParam, { eyebrow: string; title: string; subtitle: string; cta: string }> = {
+const HEADER_TEXT: Record<LocaleParam, { eyebrow: string; title: string; subtitle: string; cta: string; ctaLead: string }> = {
   ko: {
     eyebrow: "블로그 · 심층 가이드",
     title: "대한민국 출입국사범심사 — 실무 가이드",
     subtitle:
       "음주운전·형사사건·마약 조사·불법취업·비자 위기에 처한 외국인을 위한 실질적 대응 전략. 선샤인행정사사무소 작성.",
     cta: "상담 요청하기 →",
+    ctaLead: "글을 읽고도 내 상황이 어디에 해당하는지 헷갈리면 받은 서류를 들고 상담을 요청하세요.",
   },
   en: {
     eyebrow: "BLOG · INSIGHTS",
@@ -24,6 +25,7 @@ const HEADER_TEXT: Record<LocaleParam, { eyebrow: string; title: string; subtitl
     subtitle:
       "Practical strategies for foreigners facing DUI, criminal cases, drug investigations, illegal employment, and visa crisis in Korea. Authored by Sunshine Administrative Agency Office.",
     cta: "Request a consultation →",
+    ctaLead: "Not sure how this applies to your case? Request a consultation and bring the documents you received.",
   },
   zh: {
     eyebrow: "博客 · 深度解析",
@@ -31,6 +33,7 @@ const HEADER_TEXT: Record<LocaleParam, { eyebrow: string; title: string; subtitl
     subtitle:
       "面向在韩外国人的酒驾、刑事案件、毒品调查、非法就业及签证危机应对实务。由首尔Sunshine行政士事务所撰写。",
     cta: "申请咨询 →",
+    ctaLead: "读完仍不确定自己的情况属于哪一种？请带上收到的文件申请咨询。",
   },
   ja: {
     eyebrow: "ブログ · 実務ガイド",
@@ -38,6 +41,7 @@ const HEADER_TEXT: Record<LocaleParam, { eyebrow: string; title: string; subtitl
     subtitle:
       "韓国在住外国人向け、飲酒運転・刑事事件・麻薬調査・不法就労・ビザ危機への対応実務。サンシャイン行政書士事務所が直接執筆。",
     cta: "相談を申し込む →",
+    ctaLead: "読んでも自分の状況がどれに当たるか分からないときは、受け取った書類を手元に相談をお申し込みください。",
   },
   vi: {
     eyebrow: "BLOG · HƯỚNG DẪN THỰC TẾ",
@@ -45,6 +49,7 @@ const HEADER_TEXT: Record<LocaleParam, { eyebrow: string; title: string; subtitl
     subtitle:
       "Chiến lược thực tế cho người nước ngoài đối mặt với DUI, án hình sự, điều tra ma túy, lao động trái phép và khủng hoảng visa tại Hàn Quốc, do Sunshine biên soạn.",
     cta: "Yêu cầu tư vấn →",
+    ctaLead: "Đọc xong vẫn chưa rõ trường hợp của mình? Hãy mang giấy tờ đã nhận và yêu cầu tư vấn.",
   },
 };
 
@@ -168,6 +173,7 @@ export default async function LocaleBlogIndex({ params }: { params: Promise<{ lo
             textAlign: "center",
           }}
         >
+          <p style={{ margin: "0 0 18px", fontSize: 15, color: ACCENT.navy, lineHeight: 1.7 }}>{t.ctaLead}</p>
           <Link
             href={`/${locale}/contact`}
             style={{

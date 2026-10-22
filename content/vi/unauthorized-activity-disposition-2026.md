@@ -18,7 +18,7 @@ faq:
   - q: "Bị phát hiện có bị cưỡng chế xuất cảnh (trục xuất) ngay không?"
     a: "Không. Vi phạm Điều 20 được liệt kê trong các lý do bị cưỡng chế xuất cảnh, nhưng việc thực tế áp dụng thông báo xử phạt, lệnh xuất cảnh hay cưỡng chế xuất cảnh do cơ quan có thẩm quyền quyết định dựa trên diễn biến, mức độ vi phạm và việc có tái phạm hay không."
   - q: "Thông báo xử phạt (giấy báo tiền phạt) khác lệnh xuất cảnh thế nào?"
-    a: "Thông báo xử phạt (Điều 102) là việc thông báo nộp tiền phạt, còn lệnh xuất cảnh (Điều 68) là yêu cầu rời khỏi Hàn Quốc trong thời hạn nhất định. Luật cũng cho phép ra lệnh xuất cảnh đối với người được cho là phù hợp để xuất cảnh sau thông báo xử phạt, nên hai biện pháp có thể đi cùng nhau."
+    a: "Thông báo xử phạt là việc thông báo nộp tiền phạt, còn lệnh xuất cảnh là yêu cầu rời khỏi Hàn Quốc trong thời hạn nhất định. Luật cũng cho phép ra lệnh xuất cảnh đối với người được cho là phù hợp để xuất cảnh sau thông báo xử phạt, nên hai biện pháp có thể đi cùng nhau."
   - q: "Khi bị thẩm tra vi phạm xuất nhập cảnh thì cần chuẩn bị những giấy tờ nào?"
     a: "Giấy tờ được yêu cầu và thủ tục khác nhau tùy vụ việc và cơ quan phụ trách nên chúng tôi không thể đưa ra một danh sách cố định. Hãy chuẩn bị theo hướng dẫn của cơ quan phụ trách, và nếu hướng dẫn chưa rõ, hãy hỏi lại cơ quan trước khi nộp."
   - q: "Bị xử lý rồi có ảnh hưởng đến việc xin lưu trú sau này không?"
@@ -45,13 +45,13 @@ Các ví dụ tiêu biểu trong sổ tay:
 
 ## 2. Nếu bị phát hiện thì có thể bị xử lý thế nào
 
-Công chức quản lý xuất nhập cảnh có thể điều tra sự việc đối với người nước ngoài bị nghi thuộc lý do cưỡng chế xuất cảnh (Điều 47). Tùy kết quả điều tra, có ba hình thức xử lý chính.
+Công chức quản lý xuất nhập cảnh có thể điều tra sự việc đối với người nước ngoài bị nghi thuộc lý do cưỡng chế xuất cảnh. Tùy kết quả điều tra, có ba hình thức xử lý chính.
 
 | Hình thức | Nội dung |
 |---|---|
-| Thông báo xử phạt (통고처분) | Khi đã có bằng chứng xác đáng về hành vi vi phạm, thông báo bằng văn bản yêu cầu nộp tiền phạt (Điều 102) |
-| Lệnh xuất cảnh (출국명령) | Ra lệnh kèm thời hạn xuất cảnh, ví dụ với người muốn tự nguyện xuất cảnh bằng chi phí của mình; cũng áp dụng cho người được cho là phù hợp để xuất cảnh sau thông báo xử phạt (Điều 68) |
-| Cưỡng chế xuất cảnh (강제퇴거) | Ra lệnh cưỡng chế xuất cảnh khi xác định thuộc đối tượng bị cưỡng chế xuất cảnh (Điều 46 khoản 1, Điều 59 khoản 2) |
+| Thông báo xử phạt (통고처분) | Khi đã có bằng chứng xác đáng về hành vi vi phạm, thông báo bằng văn bản yêu cầu nộp tiền phạt |
+| Lệnh xuất cảnh (출국명령) | Ra lệnh kèm thời hạn xuất cảnh, ví dụ với người muốn tự nguyện xuất cảnh bằng chi phí của mình; cũng áp dụng cho người được cho là phù hợp để xuất cảnh sau thông báo xử phạt |
+| Cưỡng chế xuất cảnh (강제퇴거) | Ra lệnh cưỡng chế xuất cảnh khi xác định thuộc đối tượng bị cưỡng chế xuất cảnh |
 
 Người vi phạm Điều 20 được liệt kê là đối tượng cưỡng chế xuất cảnh tại Điều 46 khoản 1 mục 8. Tuy nhiên, việc được liệt kê khác với việc lệnh cưỡng chế xuất cảnh thực sự được ban hành. Cơ quan có thẩm quyền quyết định hình thức xử lý theo từng vụ việc.
 
@@ -78,12 +78,12 @@ Những nguyên tắc thực tế cần nhớ:
 
 1. **Nhớ và sắp xếp chính xác các sự việc.** Bắt đầu từ khi nào, ở đâu, làm gì, và có hoàn cảnh nào khiến bạn không biết cần giấy phép hay không là những điểm chính được xác minh trong điều tra.
 2. **Giấy tờ được yêu cầu nộp hãy làm theo hướng dẫn của cơ quan phụ trách.** Có thể khác nhau tùy vụ việc, nên nếu hướng dẫn chưa rõ, an toàn nhất là hỏi lại cơ quan trước khi nộp.
-3. **Khi lệnh cưỡng chế xuất cảnh được ban hành, bạn được thông báo rằng có thể khiếu nại.** Luật quy định người đứng đầu cơ quan xuất nhập cảnh · người nước ngoài khu vực, khi cấp lệnh cưỡng chế xuất cảnh, phải cho biết có thể khiếu nại lên Bộ trưởng Tư pháp (Điều 59 khoản 4).
-4. **Bản thân giấy phép cũng có thể bị hủy.** Bộ trưởng Tư pháp có thể hủy hoặc thay đổi giấy phép lưu trú theo Điều 20, và có thể yêu cầu đương sự có mặt để nghe ý kiến (Điều 89).
+3. **Khi lệnh cưỡng chế xuất cảnh được ban hành, bạn được thông báo rằng có thể khiếu nại.** Luật quy định người đứng đầu cơ quan xuất nhập cảnh · người nước ngoài khu vực, khi cấp lệnh cưỡng chế xuất cảnh, phải cho biết có thể khiếu nại lên Bộ trưởng Tư pháp.
+4. **Bản thân giấy phép cũng có thể bị hủy.** Bộ trưởng Tư pháp có thể hủy hoặc thay đổi giấy phép lưu trú theo Điều 20, và có thể yêu cầu đương sự có mặt để nghe ý kiến.
 
 ## 5. Nếu bạn đã nhận thông báo xử phạt
 
-Khi nhận được thông báo, bạn phải nộp tiền phạt trong vòng 15 ngày, và nếu không nộp trong thời hạn đó thì về nguyên tắc sẽ bị tố giác (Điều 105). Nếu nộp đúng như thông báo thì sẽ không bị xử phạt lại về cùng vụ việc (Điều 106). Các điểm cần kiểm tra và thứ tự nộp phạt, giải trình đã được nói kỹ trong bài [Nhận được thông báo phạt vi phạm xuất nhập cảnh: cách xử lý](/blog/immigration-fine-notice-response-2026).
+Khi nhận được thông báo, bạn phải nộp tiền phạt trong vòng 15 ngày, và nếu không nộp trong thời hạn đó thì về nguyên tắc sẽ bị tố giác. Nếu nộp đúng như thông báo thì sẽ không bị xử phạt lại về cùng vụ việc. Các điểm cần kiểm tra và thứ tự nộp phạt, giải trình đã được nói kỹ trong bài [Nhận được thông báo phạt vi phạm xuất nhập cảnh: cách xử lý](/blog/immigration-fine-notice-response-2026).
 
 ## 6. Lịch sử xử lý ảnh hưởng thế nào đến lưu trú sau này
 

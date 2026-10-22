@@ -1,6 +1,6 @@
 ---
 title: "Invited a Foreigner With False Documents? Penalties for False Invitations and False Visa Applications"
-description: "Inviting a foreigner or applying for a visa with false statements or surety violates Immigration Act Article 7-2. Penalties, fines and effects."
+description: "Inviting a foreigner or applying for a visa with false statements or surety violates the Immigration Act. Penalties, fines and effects."
 date: "2026-10-16"
 category: "Penalties"
 cluster: "cluster"
@@ -16,7 +16,7 @@ faq:
   - q: "How severe is the penalty?"
     a: "Up to 3 years in prison or a fine of up to KRW 30 million under Article 94, item 3. In practice a penalty fine notice may be issued, and the Enforcement Rule Annex 7 standard is KRW 10 million for one person invited, rising by KRW 2 million for each additional person to KRW 30 million for 11 or more (as of October 2026). The amount can be reduced or increased within one half depending on circumstances."
   - q: "Is the invited foreigner also affected?"
-    a: "Possibly. Article 46(1), item 2 makes a foreigner who violated Article 7-2, or who entered through a false invitation, subject to deportation. A person who wants to leave at their own expense can be given a departure order (Article 68(1), item 1). The outcome depends on the facts."
+    a: "Possibly. Article 46(1), item 2 makes a foreigner who violated Article 7-2, or who entered through a false invitation, subject to deportation. A person who wants to leave at their own expense can be given a departure order. The outcome depends on the facts."
 related:
   - "immigration-law-penalties-guide"
   - "immigration-offense-review-guide"
@@ -28,10 +28,10 @@ When writing an invitation for a relative, friend or employee, some people think
 
 ## Key points
 
-- Inviting or arranging an invitation by improper means such as false statements or a false identity surety, and falsely applying for or arranging a visa or certificate of visa issuance, are prohibited (Article 7-2).
-- Violation can bring up to 3 years in prison or a fine of up to KRW 30 million (as of October 2026, Article 94, item 3).
-- The standard fine rises with the number of people invited (Enforcement Rule, Annex 7).
-- An invited foreigner who entered through a false invitation can also face deportation (Article 46(1), item 2).
+- Inviting or arranging an invitation by improper means such as false statements or a false identity surety, and falsely applying for or arranging a visa or certificate of visa issuance, are prohibited.
+- Violation can bring up to 3 years in prison or a fine of up to KRW 30 million (as of October 2026).
+- The standard fine rises with the number of people invited.
+- An invited foreigner who entered through a false invitation can also face deportation.
 
 ## 1. What is prohibited?
 
@@ -44,7 +44,7 @@ Inflating the inviter's job, income or relationship, or citing a contract or bus
 
 ## 2. Penalties and standard fines
 
-Article 94, item 3 punishes a person who violates Article 7-2 with up to 3 years in prison or a fine of up to KRW 30 million (as of October 2026). Prosecution needs a complaint from the office head (Article 101(1)), and the head may notify a penalty fine equivalent to a criminal fine once guilt is confirmed (Article 102(1)). The Enforcement Rule Annex 7 standard amounts are below.
+Article 94, item 3 punishes a person who violates Article 7-2 with up to 3 years in prison or a fine of up to KRW 30 million (as of October 2026). Prosecution needs a complaint from the office head, and the head may notify a penalty fine equivalent to a criminal fine once guilt is confirmed. The Enforcement Rule Annex 7 standard amounts are below.
 
 | People invited | Standard fine |
 |---|---|
@@ -55,15 +55,15 @@ Article 94, item 3 punishes a person who violates Article 7-2 with up to 3 years
 | 10 | KRW 28 million |
 | 11 or more | KRW 30 million |
 
-Amounts can be reduced or increased within one half for age, circumstances, motive, result and ability to pay (Enforcement Rule, Article 86(2)). If the offense is considered punishable by imprisonment or more, a complaint can be filed without a penalty notice (Article 102(3)). A notice must be paid within 15 days (Article 105(1)), and after payment you are not punished again for the same matter (Article 106).
+Amounts can be reduced or increased within one half for age, circumstances, motive, result and ability to pay. If the offense is considered punishable by imprisonment or more, a complaint can be filed without a penalty notice. A notice must be paid within 15 days, and after payment you are not punished again for the same matter.
 
 ## 3. Effect on the invited foreigner
 
-Article 46(1), item 2 makes a foreigner who violated Article 7-2, or who entered through a false invitation under that article, subject to deportation. A permanent resident is not deported except in the cases the law lists (Article 46(2)). A person who wants to leave at their own expense can be given a departure order (Article 68(1), item 1), so see the [voluntary departure guide](/en/blog/foreigner-voluntary-departure-2026) and the [entry ban removal guide](/en/blog/entry-ban-removal). Grounds and length of any entry restriction depend on the case.
+Article 46(1), item 2 makes a foreigner who violated Article 7-2, or who entered through a false invitation under that article, subject to deportation. A permanent resident is not deported except in the cases the law lists. A person who wants to leave at their own expense can be given a departure order, so see the [voluntary departure guide](/en/blog/foreigner-voluntary-departure-2026) and the [entry ban removal guide](/en/blog/entry-ban-removal). Grounds and length of any entry restriction depend on the case.
 
 ## 4. How is it investigated?
 
-To prevent illegal entry by false invitation, immigration officers may visit people or businesses that arrange or broker invitations or international marriages, ask questions and request materials (Article 81(2)). Refusal without good reason is not allowed (Article 81(4)), and refusing or avoiding a request for books or materials can bring a fine of up to KRW 1 million (as of October 2026, Article 100(2), item 3). If you are asked to appear, organize the facts and materials first, as in the [offense review guide](/en/blog/immigration-offense-review-guide).
+To prevent illegal entry by false invitation, immigration officers may visit people or businesses that arrange or broker invitations or international marriages, ask questions and request materials. Refusal without good reason is not allowed, and refusing or avoiding a request for books or materials can bring a fine of up to KRW 1 million (as of October 2026). If you are asked to appear, organize the facts and materials first, as in the [offense review guide](/en/blog/immigration-offense-review-guide).
 
 ## 5. A checklist before and after preparing invitation papers
 

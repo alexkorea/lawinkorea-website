@@ -21,7 +21,7 @@ faq:
   - q: "Can an administrative scrivener (행정사) handle the offense review?"
     a: "Yes. Administrative scriveners are statutorily authorized to prepare and submit immigration documents. We do not handle litigation or court representation, including criminal defense (outside the scope of an administrative scrivener)."
   - q: "If deportation is decided, is everything over?"
-    a: "No. You can file an objection (행정심판) within 90 days, or convert to voluntary departure (which can be considered when the entry-ban period is set), or apply for status change. Speed is critical — an objection to a deportation order must be filed within 7 days of receiving the order (Immigration Act Article 60(1))."
+    a: "No. You can file an objection (행정심판) within 90 days, or convert to voluntary departure (which can be considered when the entry-ban period is set), or apply for status change. Speed is critical — an objection to a deportation order must be filed within 7 days of receiving the order."
   - q: "My visa expires soon and the review is pending — what happens?"
     a: "Your existing visa stays valid until the review decision. However, renewal may be denied if the review concludes against you. Plan a parallel exit-or-stay strategy with a professional."
   - q: "Will my family also be deported?"
@@ -29,7 +29,7 @@ faq:
   - q: "Can I still apply for permanent residency (F-5) after a review?"
     a: "Depends on the disposition. Minor violations may allow F-5 application after a waiting period; deportation or a criminal conviction is weighed heavily, and a waiting period applies under the Ministry of Justice criteria in force. Case-by-case assessment is mandatory."
   - q: "How much does an administrative scrivener charge?"
-    a: "Fees vary by case complexity and required documentation. We offer an initial consultation and provide a clear quote afterward. Government fees (e.g., KRW 200,000 for a change to permanent residency, Immigration Act Enforcement Rule Article 72, item 5, as of October 2026) are separate."
+    a: "Fees vary by case complexity and required documentation. We offer an initial consultation and provide a clear quote afterward. Government fees (e.g., KRW 200,000 for a change to permanent residency, as of October 2026) are separate."
   - q: "Can I get a pre-emptive consultation if I haven't received a notice yet?"
     a: "Yes, and we recommend it. Foreigners with prior DUI or criminal records should be evaluated before their visa-renewal date. Early preparation gives you more time to gather evidence."
 related:
@@ -64,7 +64,7 @@ In short, this single procedure can determine whether you can continue your life
 Eight common situations:
 
 ### (1) DUI Detection
-A DUI record is reviewed at the next visa renewal. A BAC of 0.03% or more is drunk driving (Road Traffic Act Article 44(4)), penalties rise by BAC level (Article 148-2), and the immigration disposition depends on the case. See [DUI defense guide](/en/blog/dui-foreigner-visa).
+A DUI record is reviewed at the next visa renewal. A BAC of 0.03% or more is drunk driving, penalties rise by BAC level, and the immigration disposition depends on the case. See [DUI defense guide](/en/blog/dui-foreigner-visa).
 
 ### (2) Criminal Cases
 Assault, theft, fraud, defamation — any criminal record reaches Immigration. Even a fine, especially for violent offenses, can trigger deportation. See [criminal-case visa defense](/en/blog/criminal-case-visa-defense).
@@ -82,7 +82,7 @@ False educational records, forged employment certificates, fake marriage. Discov
 Even mere couriers face severe review. Immigration treats this as serious crime. See [voice phishing penalty](/en/blog/voice-phishing-foreigners).
 
 ### (7) Visa Renewal / Status Change Denial
-Past records surface during processing, leading to a supplementary order or denial. Submit supplements by the deadline stated in the order; an administrative appeal against a denial must be filed within 90 days of learning of the disposition (Administrative Appeals Act Article 27(1)). See [visa denial response](/en/blog/visa-denial-response).
+Past records surface during processing, leading to a supplementary order or denial. Submit supplements by the deadline stated in the order; an administrative appeal against a denial must be filed within 90 days of learning of the disposition. See [visa denial response](/en/blog/visa-denial-response).
 
 ### (8) Re-entry Attempt After Entry Ban
 If you were deported and try to re-enter, an entry-ban removal is required first. See [entry-ban removal](/en/blog/entry-ban-removal).
@@ -118,7 +118,7 @@ A solo appearance often misses what to emphasize. Pre-appearance simulation with
 |---|---|---|
 | Status maintained | Existing status preserved or conditional renewal | Continued residence |
 | Status change/shortened | Visa type change, period reduction | Career, business, family impact |
-| Departure order (exit order) | Leave by the deadline set in the order (Immigration Act Art. 68) | Re-entry possible but with future visa effects |
+| Departure order (exit order) | Leave by the deadline set in the order | Re-entry possible but with future visa effects |
 | Deportation | Compulsory removal | Entry ban may follow; period decided case by case |
 | Entry ban | Period of ineligibility for entry | Period decided case by case |
 
@@ -150,7 +150,7 @@ Document list and collection methods specific to your case. We separate items th
 Reason statements, petitions, mitigation materials. Reviewed by an administrative scrivener; final document pack assembled.
 
 ### Step 5. Appearance Support and Strategy (day-of + post-decision)
-Office attendance with you, or a thorough simulation. Right after the decision, we propose follow-up strategy (objection, voluntary departure, status change, etc.). An objection to a deportation order must be filed within 7 days of receiving the order (Immigration Act Article 60(1)).
+Office attendance with you, or a thorough simulation. Right after the decision, we propose follow-up strategy (objection, voluntary departure, status change, etc.). An objection to a deportation order must be filed within 7 days of receiving the order.
 
 > This office performs document preparation and submission under the Administrative Scrivener Act. We do not handle litigation or court representation, including criminal defense (outside the scope of an administrative scrivener).
 

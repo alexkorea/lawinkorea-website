@@ -70,9 +70,9 @@ See [DUI offense review for foreigners](/en/blog/dui-foreigner-visa).
 | **No suspicion / Acquittal** | No crime | No effect (review may still proceed) |
 | **Non-prosecution (기소유예)** | Crime found but not punished | Review subject; lighter outcomes possible |
 | **Fine (vol. summary)** | Formal punishment | Review subject; severity by offense and amount |
-| **Suspended pronouncement** | Pronouncement deferred (2 yrs, Criminal Act Art. 60) | Review subject |
+| **Suspended pronouncement** | Pronouncement deferred (2 yrs) | Review subject |
 | **Suspended sentence** | Sentence deferred | Review subject; disposition depends on the case |
-| **Imprisonment served** | Actual incarceration | Deportation ground after release (Immigration Act Art. 46(1)(13)); decided case by case |
+| **Imprisonment served** | Actual incarceration | Deportation ground after release; decided case by case |
 
 ## 3. Five-Step Visa-Defense Strategy
 
@@ -102,7 +102,7 @@ Short, clear, accountable.
 
 ### Step 5. Post-decision follow-through
 If the result is unfavorable:
-- **Objection** (행정심판) — within 90 days of learning of the disposition (Administrative Appeals Act Article 27(1))
+- **Objection** (행정심판) — within 90 days of learning of the disposition
 - **Convert to voluntary departure** — can be considered when the entry-ban period is set
 - **Status change** — apply for a different visa
 

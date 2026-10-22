@@ -17,7 +17,7 @@ faq:
   - q: "Chỉ bị điều tra rồi được kết luận không đủ căn cứ, có ảnh hưởng visa không?"
     a: "Nếu được kết luận không đủ căn cứ thì không có tiền án, nhưng hồ sơ nội bộ của cơ quan xuất nhập cảnh vẫn có thể lưu việc từng bị điều tra. Khi gia hạn visa có thể bị hỏi thêm, tuy nhiên kết luận này có thể được xem xét như tài liệu có lợi."
   - q: "Sử dụng đơn thuần và buôn bán khác nhau bao nhiêu về mức xử lý?"
-    a: "Mức hình phạt theo luật khác nhau tùy loại chất và hành vi; buôn bán bị quy định mức phạt nặng hơn nhiều so với sử dụng đơn thuần (Luật Quản lý chất ma túy Điều 58~61). Với người nước ngoài, ngay cả sử dụng đơn thuần cũng có thể bị xem xét trục xuất; mức xử lý phụ thuộc vào từng vụ việc."
+    a: "Mức hình phạt theo luật khác nhau tùy loại chất và hành vi; buôn bán bị quy định mức phạt nặng hơn nhiều so với sử dụng đơn thuần. Với người nước ngoài, ngay cả sử dụng đơn thuần cũng có thể bị xem xét trục xuất; mức xử lý phụ thuộc vào từng vụ việc."
   - q: "Tôi được bạn cho và chỉ dùng một lần. Có gia hạn được thẻ cư trú không?"
     a: "Điều đó phụ thuộc kết quả xem xét vi phạm. Một lần duy nhất + tự thú + có ý chí điều trị + có gia đình tại Hàn Quốc thì có thể kết thúc bằng thay đổi tư cách hoặc lệnh xuất cảnh, nhưng cũng có thể có quyết định trục xuất; kết quả phụ thuộc vào từng vụ việc. Cần tư vấn chuyên gia sớm."
   - q: "Sau án ma túy thì bị cấm nhập cảnh (hạn chế nhập cảnh) bao lâu?"
@@ -59,7 +59,7 @@ Cần sa y tế hay dầu CBD được kê đơn ở nước bạn cũng có th�
 - **Buôn bán, phân phối**
 - **Buôn lậu**
 
-Mức hình phạt theo luật khác nhau tùy loại chất và hành vi (Luật Quản lý chất ma túy Điều 58~61); buôn bán, buôn lậu bị quy định mức phạt nặng hơn nhiều so với sử dụng đơn thuần. Với người nước ngoài, ngoài xử lý hình sự còn có thể có chế tài hành chính của cơ quan xuất nhập cảnh; ngay cả **sử dụng đơn thuần 1 lần** cũng có thể bị xem xét trục xuất. Mức xử lý phụ thuộc vào từng vụ việc.
+Mức hình phạt theo luật khác nhau tùy loại chất và hành vi; buôn bán, buôn lậu bị quy định mức phạt nặng hơn nhiều so với sử dụng đơn thuần. Với người nước ngoài, ngoài xử lý hình sự còn có thể có chế tài hành chính của cơ quan xuất nhập cảnh; ngay cả **sử dụng đơn thuần 1 lần** cũng có thể bị xem xét trục xuất. Mức xử lý phụ thuộc vào từng vụ việc.
 
 ## 3. Việc phải làm ngay sau khi vụ việc xảy ra
 
@@ -130,7 +130,7 @@ Ngay cả khi bạn có đơn thuốc cần sa y tế ở nước nhà, khi nh�
 
 ## 7. Khả năng nhập cảnh lại Hàn Quốc sau án ma túy
 
-Người bị trục xuất không được nhập cảnh trong 5 năm kể từ khi xuất cảnh (Luật Quản lý xuất nhập cảnh Điều 11 khoản 1 điểm 6). Bộ trưởng Bộ Tư pháp cũng có thể cấm nhập cảnh theo các điểm khác của điều này, nên thời hạn cụ thể phụ thuộc vào từng trường hợp.
+Người bị trục xuất không được nhập cảnh trong 5 năm kể từ khi xuất cảnh. Bộ trưởng Bộ Tư pháp cũng có thể cấm nhập cảnh theo các điểm khác của điều này, nên thời hạn cụ thể phụ thuộc vào từng trường hợp.
 
 Có thể nộp đơn xin dỡ bỏ lệnh cấm. Những điểm thường được xem xét gồm:
 - Thời gian đã trôi qua

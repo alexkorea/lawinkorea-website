@@ -1,6 +1,6 @@
 ---
 title: "Mời người nước ngoài bằng giấy tờ khai gian: mức xử phạt mời giả và xin visa gian lận"
-description: "Mời người nước ngoài hoặc xin visa bằng nội dung giả là vi phạm Điều 7-2 Luật Xuất nhập cảnh. Mức xử phạt, mức phạt chuẩn, ảnh hưởng đến người được mời."
+description: "Mời người nước ngoài hoặc xin visa bằng nội dung giả là vi phạm Luật Xuất nhập cảnh. Mức xử phạt, mức phạt chuẩn, ảnh hưởng đến người được mời."
 date: "2026-10-16"
 category: "Hình phạt · Penalties"
 cluster: "cluster"
@@ -16,7 +16,7 @@ faq:
   - q: "Mức xử phạt nặng đến đâu?"
     a: "Theo Điều 94 mục 3: phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won. Thực tế có thể ra thông báo xử phạt (beomchikgeum); mức chuẩn tại Phụ lục 7 Thông tư thi hành là 10 triệu won nếu mời 1 người, mỗi người thêm tăng 2 triệu won, từ 11 người trở lên là 30 triệu won (tính đến tháng 10/2026). Mức này có thể giảm hoặc tăng trong phạm vi một nửa tùy hoàn cảnh."
   - q: "Người nước ngoài được mời nhập cảnh có bị ảnh hưởng không?"
-    a: "Có thể. Điều 46 khoản 1 mục 2 quy định người nước ngoài vi phạm Điều 7-2, hoặc nhập cảnh nhờ hành vi mời giả, thuộc đối tượng buộc xuất cảnh. Tuy nhiên người muốn tự nguyện xuất cảnh bằng chi phí của mình có thể được ra lệnh xuất cảnh (Điều 68 khoản 1 mục 1). Kết quả cụ thể tùy sự việc."
+    a: "Có thể. Điều 46 khoản 1 mục 2 quy định người nước ngoài vi phạm Điều 7-2, hoặc nhập cảnh nhờ hành vi mời giả, thuộc đối tượng buộc xuất cảnh. Tuy nhiên người muốn tự nguyện xuất cảnh bằng chi phí của mình có thể được ra lệnh xuất cảnh. Kết quả cụ thể tùy sự việc."
 related:
   - "immigration-law-penalties-guide"
   - "immigration-offense-review-guide"
@@ -28,10 +28,10 @@ Khi viết thư mời người thân, bạn bè hay nhân viên sang Hàn Quốc
 
 ## Điểm chính
 
-- Mời hoặc môi giới việc mời người nước ngoài bằng cách không chính đáng như ghi sự việc giả, bảo lãnh nhân thân giả, và xin hoặc môi giới xin visa, giấy xác nhận cấp visa bằng thông tin giả đều bị cấm (Điều 7-2).
-- Vi phạm có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (tính đến tháng 10/2026, Điều 94 mục 3).
-- Mức phạt chuẩn tăng theo số người được mời (Phụ lục 7 Thông tư thi hành).
-- Người nước ngoài nhập cảnh nhờ mời giả cũng có thể bị buộc xuất cảnh (Điều 46 khoản 1 mục 2).
+- Mời hoặc môi giới việc mời người nước ngoài bằng cách không chính đáng như ghi sự việc giả, bảo lãnh nhân thân giả, và xin hoặc môi giới xin visa, giấy xác nhận cấp visa bằng thông tin giả đều bị cấm.
+- Vi phạm có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (tính đến tháng 10/2026).
+- Mức phạt chuẩn tăng theo số người được mời.
+- Người nước ngoài nhập cảnh nhờ mời giả cũng có thể bị buộc xuất cảnh.
 
 ## 1. Hành vi nào bị cấm?
 
@@ -44,7 +44,7 @@ Việc thổi phồng nghề nghiệp, thu nhập, quan hệ của người mờ
 
 ## 2. Xử phạt và mức phạt chuẩn
 
-Điều 94 mục 3 quy định người vi phạm Điều 7-2 bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (tính đến tháng 10/2026). Vụ việc vi phạm xuất nhập cảnh chỉ được truy tố khi trưởng cơ quan tố cáo (Điều 101 khoản 1), và trưởng cơ quan có thể thông báo nộp tiền phạt tương đương tiền phạt hình sự khi đã xác định có tội (Điều 102 khoản 1). Mức chuẩn tại [Phụ lục 7] Thông tư thi hành như sau.
+Điều 94 mục 3 quy định người vi phạm Điều 7-2 bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (tính đến tháng 10/2026). Vụ việc vi phạm xuất nhập cảnh chỉ được truy tố khi trưởng cơ quan tố cáo, và trưởng cơ quan có thể thông báo nộp tiền phạt tương đương tiền phạt hình sự khi đã xác định có tội. Mức chuẩn tại [Phụ lục 7] Thông tư thi hành như sau.
 
 | Số người được mời | Mức phạt chuẩn |
 |---|---|
@@ -55,15 +55,15 @@ Việc thổi phồng nghề nghiệp, thu nhập, quan hệ của người mờ
 | 10 người | 28 triệu won |
 | Từ 11 người | 30 triệu won |
 
-Mức này có thể giảm hoặc tăng trong phạm vi một nửa tùy tuổi, hoàn cảnh, động cơ, hậu quả và khả năng chi trả (Thông tư thi hành Điều 86 khoản 2). Nếu tình tiết được xem thuộc mức phạt tù trở lên, có thể bị tố cáo thẳng mà không qua thông báo xử phạt (Điều 102 khoản 3). Nhận thông báo phải nộp trong 15 ngày (Điều 105 khoản 1), nộp xong thì không bị xử phạt lại về cùng vụ việc (Điều 106).
+Mức này có thể giảm hoặc tăng trong phạm vi một nửa tùy tuổi, hoàn cảnh, động cơ, hậu quả và khả năng chi trả. Nếu tình tiết được xem thuộc mức phạt tù trở lên, có thể bị tố cáo thẳng mà không qua thông báo xử phạt. Nhận thông báo phải nộp trong 15 ngày, nộp xong thì không bị xử phạt lại về cùng vụ việc.
 
 ## 3. Ảnh hưởng đến người nước ngoài được mời
 
-Điều 46 khoản 1 mục 2 quy định người nước ngoài vi phạm Điều 7-2, hoặc nhập cảnh nhờ hành vi mời giả theo điều đó, thuộc đối tượng buộc xuất cảnh. Người có tư cách vĩnh trú không bị buộc xuất cảnh trừ các trường hợp luật quy định (Điều 46 khoản 2). Người muốn tự nguyện xuất cảnh bằng chi phí của mình có thể được ra lệnh xuất cảnh (Điều 68 khoản 1 mục 1), xem thêm [hướng dẫn tự nguyện xuất cảnh](/vi/blog/foreigner-voluntary-departure-2026) và [hướng dẫn gỡ lệnh cấm nhập cảnh](/vi/blog/entry-ban-removal). Lý do và thời hạn hạn chế nhập cảnh tùy từng vụ việc.
+Điều 46 khoản 1 mục 2 quy định người nước ngoài vi phạm Điều 7-2, hoặc nhập cảnh nhờ hành vi mời giả theo điều đó, thuộc đối tượng buộc xuất cảnh. Người có tư cách vĩnh trú không bị buộc xuất cảnh trừ các trường hợp luật quy định. Người muốn tự nguyện xuất cảnh bằng chi phí của mình có thể được ra lệnh xuất cảnh, xem thêm [hướng dẫn tự nguyện xuất cảnh](/vi/blog/foreigner-voluntary-departure-2026) và [hướng dẫn gỡ lệnh cấm nhập cảnh](/vi/blog/entry-ban-removal). Lý do và thời hạn hạn chế nhập cảnh tùy từng vụ việc.
 
 ## 4. Việc điều tra diễn ra thế nào?
 
-Để ngăn nhập cảnh trái phép do mời giả, công chức xuất nhập cảnh khi cần có thể đến gặp người hoặc cơ sở môi giới việc mời người nước ngoài hay kết hôn quốc tế, đặt câu hỏi và yêu cầu nộp tài liệu (Điều 81 khoản 2). Không được từ chối khi không có lý do chính đáng (Điều 81 khoản 4), từ chối hoặc né tránh yêu cầu nộp sổ sách, tài liệu có thể bị phạt hành chính đến 1 triệu won (tính đến tháng 10/2026, Điều 100 khoản 2 mục 3). Nếu được yêu cầu ra trình diện, hãy sắp xếp sự việc và tài liệu trước như trong [hướng dẫn thẩm tra vi phạm](/vi/blog/immigration-offense-review-guide).
+Để ngăn nhập cảnh trái phép do mời giả, công chức xuất nhập cảnh khi cần có thể đến gặp người hoặc cơ sở môi giới việc mời người nước ngoài hay kết hôn quốc tế, đặt câu hỏi và yêu cầu nộp tài liệu. Không được từ chối khi không có lý do chính đáng, từ chối hoặc né tránh yêu cầu nộp sổ sách, tài liệu có thể bị phạt hành chính đến 1 triệu won (tính đến tháng 10/2026). Nếu được yêu cầu ra trình diện, hãy sắp xếp sự việc và tài liệu trước như trong [hướng dẫn thẩm tra vi phạm](/vi/blog/immigration-offense-review-guide).
 
 ## 5. Thứ tự kiểm tra trước và sau khi chuẩn bị hồ sơ mời
 

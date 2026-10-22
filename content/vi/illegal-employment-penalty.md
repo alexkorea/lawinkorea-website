@@ -13,7 +13,7 @@ keywords:
   - "out-of-status work Korea"
 faq:
   - q: "Du học sinh (D-2) làm thêm quá giờ bị xử lý thế nào?"
-    a: "Làm thêm vượt quá thời gian được phép theo tiêu chuẩn hiện hành của Bộ Tư pháp có thể bị coi là hoạt động ngoài tư cách (Luật Quản lý Xuất nhập cảnh Điều 20, Điều 94 khoản 12). Mức xử lý phụ thuộc vào từng vụ việc. Chủ sử dụng có thể bị tù đến 3 năm hoặc phạt đến 30 triệu won theo Điều 94 khoản 9 Luật Quản lý Xuất nhập cảnh (tính đến tháng 10/2026)."
+    a: "Làm thêm vượt quá thời gian được phép theo tiêu chuẩn hiện hành của Bộ Tư pháp có thể bị coi là hoạt động ngoài tư cách. Mức xử lý phụ thuộc vào từng vụ việc. Chủ sử dụng có thể bị tù đến 3 năm hoặc phạt đến 30 triệu won theo Điều 94 khoản 9 Luật Quản lý Xuất nhập cảnh (tính đến tháng 10/2026)."
   - q: "Có visa E-9 mà làm ở nơi khác thì sao?"
     a: "Chuyển nơi làm việc bắt buộc phải được Trung tâm việc làm chấp thuận. Tự ý chuyển là hoạt động ngoài tư cách + vi phạm Luật Quản lý xuất nhập cảnh, có thể bị trục xuất + cấm nhập cảnh. Chủ sử dụng bị xử lý theo Luật về tuyển dụng lao động nước ngoài."
   - q: "Đã bị phát hiện rồi, khai báo muộn có sao không?"
@@ -21,7 +21,7 @@ faq:
   - q: "Chủ sử dụng bị phạt có ảnh hưởng đến mức xử lý của tôi không?"
     a: "Người lao động và chủ sử dụng bị xử lý riêng. Tuy nhiên nếu chủ sử dụng nộp bản khai thừa nhận người lao động không có lỗi thì có thể được xem xét như tình tiết giảm nhẹ. Ngược lại, nếu chủ sử dụng đổ lỗi cho người lao động thì mức xử lý có thể nặng hơn."
   - q: "Tôi nhập cảnh bằng visa du lịch (C-3) rồi đi làm và bị phát hiện. Sẽ thế nào?"
-    a: "Làm việc bằng visa du lịch là làm việc không có tư cách (Luật Quản lý Xuất nhập cảnh Điều 18 khoản 1, Điều 94 khoản 8) và có thể bị trục xuất (cưỡng chế xuất cảnh); người bị trục xuất không được nhập cảnh trong 5 năm kể từ khi xuất cảnh (Điều 11 khoản 1 điểm 6). Hoàn cảnh gia đình tại Hàn Quốc hoặc con đang đi học có thể được xem xét; kết quả phụ thuộc vào từng vụ việc."
+    a: "Làm việc bằng visa du lịch là làm việc không có tư cách và có thể bị trục xuất (cưỡng chế xuất cảnh); người bị trục xuất không được nhập cảnh trong 5 năm kể từ khi xuất cảnh. Hoàn cảnh gia đình tại Hàn Quốc hoặc con đang đi học có thể được xem xét; kết quả phụ thuộc vào từng vụ việc."
   - q: "Sau khi bị xử lý về hoạt động ngoài tư cách, có xin được thường trú không?"
     a: "Theo Quy tắc thi hành Luật Quản lý Xuất nhập cảnh Điều 18-4, án phạt tiền là 3 năm kể từ ngày nộp phạt, nhận lệnh xuất cảnh là 5 năm và bị trục xuất là 7 năm kể từ ngày xuất cảnh; vi phạm Luật Quản lý Xuất nhập cảnh từ 3 lần trở lên trong 5 năm gần nhất cũng là căn cứ không đáp ứng yêu cầu. Kết quả phụ thuộc vào từng trường hợp."
 related:
@@ -60,8 +60,8 @@ Nghĩa là, **làm công việc nằm ngoài phạm vi ghi trong tư cách visa 
 
 ### Giai đoạn 2: Xử lý hình sự hoặc hành chính
 **Xử lý hình sự:**
-- Người nước ngoài: tù đến 3 năm hoặc phạt đến 30 triệu won (Luật Quản lý Xuất nhập cảnh Điều 94 khoản 8 làm việc không có tư cách, khoản 12 hoạt động ngoài tư cách) (tính đến tháng 10/2026)
-- Chủ sử dụng: tù đến 3 năm hoặc phạt đến 30 triệu won (tính đến tháng 10/2026, Điều 94 khoản 9) — [chi tiết chế tài với chủ sử dụng](/vi/blog/illegal-employer-penalty)
+- Người nước ngoài: tù đến 3 năm hoặc phạt đến 30 triệu won (làm việc không có tư cách, hoạt động ngoài tư cách) (tính đến tháng 10/2026)
+- Chủ sử dụng: tù đến 3 năm hoặc phạt đến 30 triệu won (tính đến tháng 10/2026) — [chi tiết chế tài với chủ sử dụng](/vi/blog/illegal-employer-penalty)
 
 **Xử lý hành chính (riêng biệt):**
 - Có thể là lệnh xuất cảnh, thay đổi tư cách hoặc trục xuất; mức xử lý phụ thuộc vào từng vụ việc
@@ -99,7 +99,7 @@ Nghĩa là, **làm công việc nằm ngoài phạm vi ghi trong tư cách visa 
 
 Nhập cảnh bằng visa du lịch rồi làm ở nhà hàng, nhà máy, giúp việc gia đình và bị phát hiện.
 
-**Xử lý:** có thể bị trục xuất; người bị trục xuất không được nhập cảnh trong 5 năm kể từ khi xuất cảnh (Luật Quản lý Xuất nhập cảnh Điều 11 khoản 1 điểm 6)
+**Xử lý:** có thể bị trục xuất; người bị trục xuất không được nhập cảnh trong 5 năm kể từ khi xuất cảnh
 
 ## 4. Tài liệu giảm nhẹ tại buổi xem xét
 
@@ -159,9 +159,9 @@ Nhập cảnh bằng visa du lịch rồi làm ở nhà hàng, nhà máy, giúp 
 Khi có vi phạm hoạt động ngoài tư cách, không chỉ người lao động mà **chủ sử dụng cũng bị xử phạt**.
 
 ### Chế tài với chủ sử dụng
-- Tù đến 3 năm hoặc phạt đến 30 triệu won (Luật Quản lý Xuất nhập cảnh Điều 94 khoản 9); mức chuẩn tiền phạt 3–30 triệu won theo số người và thời gian vi phạm (tính đến tháng 10/2026, Thông tư thi hành, Bảng 8)
-- Pháp nhân hoặc chủ doanh nghiệp cá nhân cũng bị phạt tiền (Điều 99-3)
-- Có thể bị hạn chế tuyển dụng lao động nước ngoài trong 3 năm (Luật về việc làm của lao động nước ngoài Điều 20 khoản 1)
+- Tù đến 3 năm hoặc phạt đến 30 triệu won; mức chuẩn tiền phạt 3–30 triệu won theo số người và thời gian vi phạm (tính đến tháng 10/2026)
+- Pháp nhân hoặc chủ doanh nghiệp cá nhân cũng bị phạt tiền
+- Có thể bị hạn chế tuyển dụng lao động nước ngoài trong 3 năm
 
 ### Phối hợp giữa người lao động và chủ sử dụng
 - Bản khai của chủ sử dụng: "người lao động không có lỗi, bản thân họ không biết" → có lợi cho người lao động

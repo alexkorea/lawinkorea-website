@@ -12,7 +12,7 @@ keywords:
   - "visa Hàn Quốc"
 faq:
   - q: "Khi thẩm tra vi phạm xuất nhập cảnh có bắt buộc nộp thư hối lỗi không?"
-    a: "Luật Quản lý Xuất nhập cảnh, Nghị định và Thông tư thi hành không có điều khoản nào bắt buộc nộp thư hối lỗi hay đơn xin giảm nhẹ. Tuy nhiên, luật quy định khi định mức hoặc miễn tiền phạt phải xem xét tuổi và hoàn cảnh, động cơ và hậu quả vi phạm (Luật Điều 103 khoản 2, Thông tư thi hành Điều 86 khoản 2), và thư hối lỗi là cách bạn tự trình bày những sự việc đó."
+    a: "Luật Quản lý Xuất nhập cảnh, Nghị định và Thông tư thi hành không có điều khoản nào bắt buộc nộp thư hối lỗi hay đơn xin giảm nhẹ. Tuy nhiên, luật quy định khi định mức hoặc miễn tiền phạt phải xem xét tuổi và hoàn cảnh, động cơ và hậu quả vi phạm, và thư hối lỗi là cách bạn tự trình bày những sự việc đó."
   - q: "Thư hối lỗi nên dài bao nhiêu?"
     a: "Không có quy định về độ dài. Điều quan trọng là diễn biến sự việc, việc nhận lỗi và kế hoạch ngăn tái phạm có gắn với sự việc và chứng cứ cụ thể hay không."
   - q: "Cần bao nhiêu người viết đơn xin giảm nhẹ?"
@@ -20,9 +20,9 @@ faq:
   - q: "Có phải viết tay không?"
     a: "Chúng tôi không tìm thấy quy định về hình thức trong văn bản pháp luật. Dù viết cách nào, hãy ghi họ tên, chữ ký và ngày viết để rõ ai viết và viết khi nào."
   - q: "Nộp thư hối lỗi thì tiền phạt có giảm không?"
-    a: "Không thể hứa trước kết quả. Theo luật, người đứng đầu cơ quan có thể giảm hoặc tăng tiền phạt trong phạm vi một nửa mức chuẩn sau khi xem xét các tình tiết (Thông tư thi hành Điều 86 khoản 2), và Bộ trưởng Tư pháp có thể miễn thông báo nộp phạt (Luật Điều 103 khoản 2). Thư hối lỗi cung cấp sự việc cần cho quyết định đó."
+    a: "Không thể hứa trước kết quả. Theo luật, người đứng đầu cơ quan có thể giảm hoặc tăng tiền phạt trong phạm vi một nửa mức chuẩn sau khi xem xét các tình tiết, và Bộ trưởng Tư pháp có thể miễn thông báo nộp phạt. Thư hối lỗi cung cấp sự việc cần cho quyết định đó."
   - q: "Tôi có thể viết bằng tiếng mẹ đẻ không?"
-    a: "Hãy viết bằng ngôn ngữ bạn diễn đạt chính xác nhất và kèm bản dịch tiếng Hàn để cán bộ phụ trách đọc được đúng nội dung. Dịch văn bản liên quan đến công việc của cơ quan hành chính thuộc phạm vi công việc của hành chính sĩ (Luật Hành chính sĩ Hàn Quốc, Điều 2 khoản 1 điểm 3)."
+    a: "Hãy viết bằng ngôn ngữ bạn diễn đạt chính xác nhất và kèm bản dịch tiếng Hàn để cán bộ phụ trách đọc được đúng nội dung. Dịch văn bản liên quan đến công việc của cơ quan hành chính thuộc phạm vi công việc của hành chính sĩ."
   - q: "Hành chính sĩ có viết thay thư hối lỗi không?"
     a: "Chúng tôi hỗ trợ sắp xếp bố cục và câu chữ dựa trên những sự việc bạn xác nhận, dịch và nộp thư. Nội dung phải là hoàn cảnh thật của bạn. Bào chữa trong phiên tòa hình sự nằm ngoài phạm vi nghiệp vụ của hành chính sĩ."
 related:
@@ -31,7 +31,7 @@ related:
   - "immigration-fine-notice-response-2026"
 ---
 
-Thư hối lỗi và đơn xin giảm nhẹ nộp khi thẩm tra vi phạm xuất nhập cảnh tại Hàn Quốc **không phải là văn bản có mẫu cố định, mà là văn bản do chính bạn và những người xung quanh trình bày đúng sự thật các hoàn cảnh được xem xét khi quyết định xử lý**. Luật Quản lý Xuất nhập cảnh quy định khi miễn thông báo nộp phạt (thông báo xử phạt — giấy báo tiền phạt) hoặc định mức tiền phạt phải xem xét **tuổi và hoàn cảnh, động cơ và hậu quả của vi phạm, khả năng chi trả tiền phạt và số lần vi phạm** (Luật Điều 103 khoản 2, Thông tư thi hành Điều 86 khoản 2). Điều cốt lõi là viết theo đúng các yếu tố này, với sự việc và chứng cứ cụ thể.
+Thư hối lỗi và đơn xin giảm nhẹ nộp khi thẩm tra vi phạm xuất nhập cảnh tại Hàn Quốc **không phải là văn bản có mẫu cố định, mà là văn bản do chính bạn và những người xung quanh trình bày đúng sự thật các hoàn cảnh được xem xét khi quyết định xử lý**. Luật Quản lý Xuất nhập cảnh quy định khi miễn thông báo nộp phạt (thông báo xử phạt — giấy báo tiền phạt) hoặc định mức tiền phạt phải xem xét **tuổi và hoàn cảnh, động cơ và hậu quả của vi phạm, khả năng chi trả tiền phạt và số lần vi phạm**. Điều cốt lõi là viết theo đúng các yếu tố này, với sự việc và chứng cứ cụ thể.
 
 > **Tóm tắt**
 > - Thư hối lỗi: bạn tự trình bày đúng sự thật diễn biến, việc nhận lỗi, động cơ, nền tảng cuộc sống và kế hoạch ngăn tái phạm
@@ -44,9 +44,9 @@ Thư hối lỗi và đơn xin giảm nhẹ nộp khi thẩm tra vi phạm xuấ
 
 "Thẩm tra vi phạm xuất nhập cảnh" không phải thuật ngữ pháp lý mà là cách gọi trong thực tế cho quá trình người nước ngoài bị cơ quan xuất nhập cảnh điều tra vì vi phạm Luật Quản lý Xuất nhập cảnh và bị quyết định nộp phạt, lệnh xuất cảnh, trục xuất hoặc hình thức xử lý khác. Trong quá trình này, luật cho phép xem xét các tình tiết như sau:
 
-- **Mức tiền phạt**: có thể giảm hoặc tăng trong phạm vi một nửa mức chuẩn, xét tuổi và hoàn cảnh, động cơ và hậu quả, khả năng chi trả và số lần vi phạm (Thông tư thi hành Điều 86 khoản 2)
-- **Miễn thông báo nộp phạt**: Bộ trưởng Tư pháp có thể miễn dựa trên cùng các yếu tố (Luật Điều 103 khoản 2)
-- **Miễn phạt hành chính**: có thể miễn khi xét tuổi và hoàn cảnh, động cơ và hậu quả, khả năng chi trả (Luật Điều 100 khoản 5)
+- **Mức tiền phạt**: có thể giảm hoặc tăng trong phạm vi một nửa mức chuẩn, xét tuổi và hoàn cảnh, động cơ và hậu quả, khả năng chi trả và số lần vi phạm
+- **Miễn thông báo nộp phạt**: Bộ trưởng Tư pháp có thể miễn dựa trên cùng các yếu tố
+- **Miễn phạt hành chính**: có thể miễn khi xét tuổi và hoàn cảnh, động cơ và hậu quả, khả năng chi trả
 
 Trong các điều khoản của Luật Quản lý Xuất nhập cảnh, Nghị định và Thông tư thi hành, cũng như sổ tay quản lý lưu trú của Bộ Tư pháp (bản tháng 9/2026), chúng tôi không tìm thấy quy định hay mẫu riêng cho thư hối lỗi hoặc đơn xin giảm nhẹ (tra cứu ngày 3/10/2026). Vì vậy, chính xác nhất là xem đây là **văn bản trình bày ý kiến** nhằm chuyển các yếu tố trên đến cán bộ phụ trách.
 
@@ -90,18 +90,18 @@ Giấy triệu tập và hướng dẫn của cán bộ phụ trách là ưu ti�
 
 ## 5. Cần tránh những cách viết nào trong thư hối lỗi?
 
-- **Nội dung không đúng sự thật** — lời khai khi điều tra được ghi vào biên bản, và biên bản phải được đọc lại hoặc cho xem để hỏi có cần sửa không (Luật Điều 48 khoản 3 và 4, áp dụng theo Điều 102 khoản 4). Thư mâu thuẫn với biên bản sẽ mất lòng tin. Nếu biên bản ghi sai, hãy yêu cầu sửa ngay lúc đó.
+- **Nội dung không đúng sự thật** — lời khai khi điều tra được ghi vào biên bản, và biên bản phải được đọc lại hoặc cho xem để hỏi có cần sửa không. Thư mâu thuẫn với biên bản sẽ mất lòng tin. Nếu biên bản ghi sai, hãy yêu cầu sửa ngay lúc đó.
 - **Đổ lỗi** — câu văn chỉ đổ lỗi cho chủ sử dụng hay bạn bè. Hãy trình bày hoàn cảnh bằng sự việc và để cán bộ phụ trách phán đoán.
 - **Lời hứa không thực hiện được** — một hai kế hoạch khả thi tốt hơn những cam kết chung chung.
 - **Chép mẫu trên mạng** — văn bản ghép từ câu mẫu không thể hiện được hoàn cảnh của bạn.
 
 ## 6. Có thể viết bằng tiếng nước ngoài không?
 
-Chúng tôi khuyên bạn viết bằng ngôn ngữ mình diễn đạt chính xác nhất và **kèm bản dịch tiếng Hàn**. Luật quy định ngay ở giai đoạn điều tra, lời khai của người không thông thạo tiếng Hàn phải có người phiên dịch, và chữ viết hay ký hiệu không phải tiếng Hàn trong lời khai phải được dịch (Luật Điều 48 khoản 6 và 7, áp dụng theo Điều 102 khoản 4). Thư hối lỗi cũng chỉ có ý nghĩa khi cán bộ phụ trách đọc được đúng nội dung.
+Chúng tôi khuyên bạn viết bằng ngôn ngữ mình diễn đạt chính xác nhất và **kèm bản dịch tiếng Hàn**. Luật quy định ngay ở giai đoạn điều tra, lời khai của người không thông thạo tiếng Hàn phải có người phiên dịch, và chữ viết hay ký hiệu không phải tiếng Hàn trong lời khai phải được dịch. Thư hối lỗi cũng chỉ có ý nghĩa khi cán bộ phụ trách đọc được đúng nội dung.
 
 ## 7. Nộp khi nào và nộp ở đâu?
 
-Thư hối lỗi và đơn xin giảm nhẹ chỉ có ý nghĩa khi được nộp trước khi có quyết định xử lý. Nếu đã nhận giấy triệu tập, hãy mang theo khi đến **cơ quan xuất nhập cảnh khu vực đã gửi giấy**, hoặc hỏi trước cán bộ phụ trách về cách nộp. Nếu đã nhận thông báo nộp phạt, bạn phải nộp trong 15 ngày kể từ ngày nhận, nếu không sẽ bị tố giác (Luật Điều 105) — hãy kiểm tra thời hạn trước tiên.
+Thư hối lỗi và đơn xin giảm nhẹ chỉ có ý nghĩa khi được nộp trước khi có quyết định xử lý. Nếu đã nhận giấy triệu tập, hãy mang theo khi đến **cơ quan xuất nhập cảnh khu vực đã gửi giấy**, hoặc hỏi trước cán bộ phụ trách về cách nộp. Nếu đã nhận thông báo nộp phạt, bạn phải nộp trong 15 ngày kể từ ngày nhận, nếu không sẽ bị tố giác — hãy kiểm tra thời hạn trước tiên.
 
 ## 8. Chúng tôi có thể hỗ trợ gì
 
@@ -110,7 +110,7 @@ Thư hối lỗi và đơn xin giảm nhẹ chỉ có ý nghĩa khi được n�
 - **Dịch sang tiếng Hàn** thư hối lỗi và chứng cứ viết bằng ngôn ngữ khác
 - **Nộp thay** tại cơ quan xuất nhập cảnh và chuẩn bị trước buổi làm việc
 
-Hành chính sĩ được soạn văn bản nộp cho cơ quan hành chính, soạn văn bản chứng minh sự việc, dịch và nộp thay các văn bản đó (Luật Hành chính sĩ Hàn Quốc, Điều 2 khoản 1). Bào chữa trong phiên tòa hình sự và đại diện tố tụng **nằm ngoài phạm vi nghiệp vụ của hành chính sĩ**, nên chúng tôi không nhận.
+Hành chính sĩ được soạn văn bản nộp cho cơ quan hành chính, soạn văn bản chứng minh sự việc, dịch và nộp thay các văn bản đó. Bào chữa trong phiên tòa hình sự và đại diện tố tụng **nằm ngoài phạm vi nghiệp vụ của hành chính sĩ**, nên chúng tôi không nhận.
 
 **Trang liên quan**
 - [Thẩm tra vi phạm xuất nhập cảnh là gì và cần chuẩn bị gì](/vi/immigration-offense-review)

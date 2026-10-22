@@ -23,17 +23,17 @@ const HUB_INTRO: Partial<Record<Exclude<L, "ko">, { lead: string; h2: string; bo
   en: {
     lead: "Immigration dispositions in Korea differ in their legal nature and consequences. This page explains the difference between a departure order (exit order) and deportation, and links to the guides on voluntary departure, entry bans and status cancellation.",
     h2: "What is the difference between a departure order and deportation in Korea?",
-    body: "A departure order (출국명령) is issued under Article 68 of the Immigration Control Act to a foreigner who is considered to fall under a deportation ground (Article 46(1)) but intends to leave voluntarily at their own expense, among other cases. It sets a departure deadline, and if the person does not leave by then, a deportation order is issued (Article 68(4)). Deportation (강제퇴거) is the measure by which the head of the immigration office forcibly removes a foreigner who falls under the grounds in Article 46. Under Article 11(1)(6), the Minister of Justice may ban entry of a person who left after receiving a deportation order and for whom five years have not yet passed. Actual re-entry restrictions depend on the written order and the visa type, so check the document you received before responding.",
+    body: "A departure order (출국명령) is issued under the Immigration Control Act to a foreigner who is considered to fall under a deportation ground but intends to leave voluntarily at their own expense, among other cases. It sets a departure deadline, and if the person does not leave by then, a deportation order is issued. Deportation (강제퇴거) is the measure by which the head of the immigration office forcibly removes a foreigner who falls under a deportation ground. The Minister of Justice may ban entry of a person who left after receiving a deportation order and for whom five years have not yet passed. Actual re-entry restrictions depend on the written order and the visa type, so check the document you received before responding.",
   },
   zh: {
     lead: "出入境处分的法律性质和后果各不相同。本页说明出境命令与强制驱逐（强制遣返）有什么区别，并链接到自愿出境、禁止入境和居留资格取消的相关指南。",
     h2: "韩国出国命令和强制驱逐有什么区别",
-    body: "出国命令（即出境命令）依据《出入境管理法》第68条，适用于被认为属于强制驱逐事由（第46条第1款各项）、但愿意自费自愿出境的人等，并会设定出境期限；如在期限内未出境，将被发出强制驱逐命令书（第68条第4款）。强制驱逐是指出入境机构负责人将属于第46条各项事由的外国人强制遣送出境的处分。依据第11条第1款第6项，接到强制驱逐命令后出境未满5年的人可能被禁止入境。具体的再入境限制取决于处分书内容和居留资格，请先确认您收到的文件。",
+    body: "出国命令（即出境命令）依据《出入境管理法》，适用于被认为属于强制驱逐事由、但愿意自费自愿出境的人等，并会设定出境期限；如在期限内未出境，将被发出强制驱逐命令书。强制驱逐是指出入境机构负责人将属于强制驱逐事由的外国人强制遣送出境的处分。接到强制驱逐命令后出境未满5年的人可能被禁止入境。具体的再入境限制取决于处分书内容和居留资格，请先确认您收到的文件。",
   },
   ja: {
     lead: "出入国上の処分は、法的性質や結果がそれぞれ異なります。このページでは出国命令と強制退去（強制送還）の違いを説明し、自主出国・入国禁止・在留資格取消に関するガイドへご案内します。",
     h2: "韓国の出国命令と強制退去の違い",
-    body: "出国命令は出入国管理法第68条に基づき、強制退去事由(第46条第1項各号)に該当すると認められるものの、自己負担で自主的に出国しようとする人などに対して出され、出国期限が定められます。期限までに出国しない場合は、強制退去命令書が発付されることがあります(第68条第4項)。強制退去は、第46条各号に該当する外国人を出入国・外国人官署の長が韓国国外へ強制的に退去させる処分です。第11条第1項第6号により、強制退去命令を受けて出国した後5年が経過していない人は入国禁止の対象となることがあります。具体的な再入国の制限は、処分書の内容と在留資格によって確認が必要です。",
+    body: "出国命令は出入国管理法に基づき、強制退去事由に該当すると認められるものの、自己負担で自主的に出国しようとする人などに対して出され、出国期限が定められます。期限までに出国しない場合は、強制退去命令書が発付されることがあります。強制退去は、強制退去事由に該当する外国人を出入国・外国人官署の長が韓国国外へ強制的に退去させる処分です。強制退去命令を受けて出国した後5年が経過していない人は入国禁止の対象となることがあります。具体的な再入国の制限は、処分書の内容と在留資格によって確認が必要です。",
   },
 };
 
@@ -165,7 +165,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
         <section style={{ marginBottom: 48 }}>
           <h2 style={{ fontSize: 22, fontWeight: 700, color: "#0a1628", marginBottom: 16 }}>출국명령과 강제퇴거는 어떻게 다른가요?</h2>
-          <p style={{ lineHeight: 1.9, color: "#374151" }}>출국명령은 출입국관리법 제68조에 따라 강제퇴거 사유(제46조 제1항 각 호)에 해당한다고 인정되지만 자기비용으로 자진하여 출국하려는 사람 등에게 내려지며, 출국기한이 정해집니다. 기한까지 출국하지 않으면 강제퇴거명령서가 발급될 수 있습니다(제68조 제4항). 강제퇴거는 제46조 각 호에 해당하는 외국인을 지방출입국·외국인관서의 장이 대한민국 밖으로 강제로 내보내는 처분입니다. 강제퇴거명령을 받고 출국한 후 5년이 지나지 않은 사람은 입국금지 대상이 될 수 있습니다(제11조 제1항 제6호). 구체적인 재입국 제한은 처분서의 내용과 체류자격에 따라 확인이 필요합니다.</p>
+          <p style={{ lineHeight: 1.9, color: "#374151" }}>출국명령은 출입국관리법에 따라 강제퇴거 사유에 해당한다고 인정되지만 자기비용으로 자진하여 출국하려는 사람 등에게 내려지며, 출국기한이 정해집니다. 기한까지 출국하지 않으면 강제퇴거명령서가 발급될 수 있습니다. 강제퇴거는 강제퇴거 사유에 해당하는 외국인을 지방출입국·외국인관서의 장이 대한민국 밖으로 강제로 내보내는 처분입니다. 강제퇴거명령을 받고 출국한 후 5년이 지나지 않은 사람은 입국금지 대상이 될 수 있습니다. 구체적인 재입국 제한은 처분서의 내용과 체류자격에 따라 확인이 필요합니다.</p>
         </section>
 
         <section style={{ marginBottom: 48, background: "#fef3c7", borderRadius: 8, padding: "28px 24px" }}>

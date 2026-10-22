@@ -60,8 +60,8 @@ F-2, F-5, F-6, F-4 = unrestricted work permitted.
 - Anyone can report (former colleagues, competitors)
 
 ### Stage 2: Criminal / administrative penalty
-- Foreigner: up to 3 years in prison or KRW 30 million (Immigration Act Art. 94(8) working without work status, Art. 94(12) out-of-status activity) (as of October 2026)
-- Employer: up to 3 years in prison or KRW 30 million (as of October 2026, Art. 94(9)) — [employer penalties in detail](/en/blog/illegal-employer-penalty)
+- Foreigner: up to 3 years in prison or KRW 30 million (working without work status, out-of-status activity) (as of October 2026)
+- Employer: up to 3 years in prison or KRW 30 million (as of October 2026) — [employer penalties in detail](/en/blog/illegal-employer-penalty)
 
 ### Stage 3: Offense Review
 - Outcome by case: status maintained → status change → departure order → deportation
@@ -141,9 +141,9 @@ Difficult cases:
 ## 7. Employer Impact
 
 Employer faces:
-- Up to 3 years in prison or KRW 30 million (Immigration Act Art. 94(9)); base fine KRW 3–30 million by headcount and period (as of October 2026, Enforcement Rule, Table 8)
-- The company is fined as well (Art. 99-3)
-- Foreign-hire restriction (up to 3 years, Act on the Employment of Foreign Workers Article 20)
+- Up to 3 years in prison or KRW 30 million; base fine KRW 3–30 million by headcount and period (as of October 2026)
+- The company is fined as well
+- Foreign-hire restriction (up to 3 years)
 
 Employer-foreigner cooperation:
 - Statement: "Foreigner not at fault" → favorable

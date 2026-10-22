@@ -20,7 +20,7 @@ faq:
   - q: "I tried it once with a friend — can I still extend my Alien Registration Card?"
     a: "Depends on the review. Single use + voluntary surrender + treatment willingness + Korean family may end with status change or departure order. But deportation is a real possibility. Immediate professional consultation is essential."
   - q: "What's the entry ban after a drug case?"
-    a: "The entry-ban period is decided by the Ministry of Justice for each case (Immigration Act Article 11). An application to lift the ban can be filed, but drug cases are reviewed strictly."
+    a: "The entry-ban period is decided by the Ministry of Justice for each case. An application to lift the ban can be filed, but drug cases are reviewed strictly."
   - q: "Is permanent residency (F-5) possible after a drug case?"
     a: "A drug record is reviewed strictly in an F-5 application, and the waiting period depends on the disposition and the Ministry of Justice criteria in force. Maintaining your current status may be the more realistic focus."
 related:
@@ -53,7 +53,7 @@ Medical-prescribed cannabis, CBD oil from abroad — can be treated as a narcoti
 ## 2. How Conduct Is Treated
 
 - Simple use, possession, habitual use, distribution/sale and smuggling are punished at different levels under the Narcotics Control Act, with distribution and smuggling punished most heavily. The actual sentence depends on the case.
-- Each can lead to a deportation review and an entry ban (Immigration Act Articles 11 and 46). The disposition depends on the individual case.
+- Each can lead to a deportation review and an entry ban. The disposition depends on the individual case.
 
 A deportation review can follow even a **single simple use**, separately from the criminal outcome.
 
@@ -127,7 +127,7 @@ Discontinue cannabis use during Korean stay; consult a Korean physician for alte
 
 ## 7. Re-entry After a Drug Deportation
 
-The entry-ban period is decided by the Ministry of Justice for each case (Immigration Act Article 11); distribution and smuggling cases are treated most strictly.
+The entry-ban period is decided by the Ministry of Justice for each case; distribution and smuggling cases are treated most strictly.
 
 Applications to lift a ban can be filed, but **drug cases are reviewed strictly**. Factors considered include:
 - Time elapsed since departure

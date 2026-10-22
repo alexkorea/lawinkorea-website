@@ -14,7 +14,7 @@ faq:
   - q: "What if I miss the supplementary order deadline?"
     a: "Failure to submit by the deadline can lead to a denial. If you have a justified reason, ask the office before the deadline whether an extension is possible."
   - q: "Can I appeal a denial?"
-    a: "Yes. Administrative appeal (within 90 days of learning of the disposition, Administrative Appeals Act Article 27(1)) or administrative litigation (within 90 days, Administrative Litigation Act Article 20(1)). If your renewal date is imminent, applying for a different status may be faster."
+    a: "Yes. Administrative appeal (within 90 days of learning of the disposition) or administrative litigation (within 90 days). If your renewal date is imminent, applying for a different status may be faster."
   - q: "Can I apply for a different status after denial?"
     a: "Yes. You can apply for an unrelated status (e.g., D-2 denied → E-7). But if denial reason is criminal, other statuses may also be difficult."
   - q: "What if I don't leave Korea after denial?"
@@ -109,8 +109,8 @@ Choose among 4:
 
 #### Option C: Objection (행정심판)
 - For unjust denials
-- Within 90 days of learning of the disposition (Administrative Appeals Act Article 27(1))
-- The decision is due within 60 days of the appeal being received, extendable once by 30 days (Administrative Appeals Act Article 45(1))
+- Within 90 days of learning of the disposition
+- The decision is due within 60 days of the appeal being received, extendable once by 30 days
 
 #### Option D: Voluntary departure
 - When all options difficult
@@ -143,7 +143,7 @@ Choose among 4:
 
 ### Criminal-record denial
 Hardest case:
-- For a deportation order, file an objection within 7 days of receiving the order (Immigration Act Article 60(1))
+- For a deportation order, file an objection within 7 days of receiving the order
 - Status change to other status
 - Voluntary departure → considered in later entry decisions
 
@@ -175,7 +175,7 @@ Hardest case:
 ## 5. Administrative Appeal Procedure
 
 ### When
-Within **90 days** of learning of the disposition (Administrative Appeals Act Article 27(1)).
+Within **90 days** of learning of the disposition.
 
 ### Where
 Central Administrative Appeal Commission (file online through its Online Administrative Appeals service).
@@ -184,7 +184,7 @@ Central Administrative Appeal Commission (file online through its Online Adminis
 1. File appeal claim
 2. Disposition agency (Immigration) submits answer
 3. Claimant supplementary opinion (optional)
-4. Decision (due within 60 days of the appeal being received, extendable by 30 days — Administrative Appeals Act Article 45(1))
+4. Decision (due within 60 days of the appeal being received, extendable by 30 days)
 
 ### Cost
 No filing fee for the claim; scrivener fee separate.

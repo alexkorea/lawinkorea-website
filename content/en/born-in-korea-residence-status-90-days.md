@@ -12,9 +12,9 @@ keywords:
   - "Immigration Act Article 23"
 faq:
   - q: "By when must a baby born in Korea obtain residence status?"
-    a: "Within 90 days of the birth date (Immigration Act, Article 23(1), item 1). The application for a grant of status of stay goes to the immigration office for your place of residence, and the Minister of Justice sets the stay period (Enforcement Decree, Article 29). The immigration manual also notes that no separate permit is needed if the child leaves within 90 days."
+    a: "Within 90 days of the birth date. The application for a grant of status of stay goes to the immigration office for your place of residence, and the Minister of Justice sets the stay period. The immigration manual also notes that no separate permit is needed if the child leaves within 90 days."
   - q: "What happens if I apply after 90 days?"
-    a: "Staying without status in breach of Article 23 can bring up to 3 years in prison or a fine of up to KRW 30 million (Article 94, item 15), and in practice it is often settled by a penalty fine notice. The Enforcement Rule, Annex 7 standard amounts rise with the delay: KRW 500,000 under 1 month, KRW 1 million for 1 to 3 months, KRW 2 million for 3 to 6 months and KRW 5 million for 6 months to 1 year (as of October 2026). It is also a ground for deportation (Article 46(1), item 8)."
+    a: "Staying without status in breach of Article 23 can bring up to 3 years in prison or a fine of up to KRW 30 million, and in practice it is often settled by a penalty fine notice. The Enforcement Rule, Annex 7 standard amounts rise with the delay: KRW 500,000 under 1 month, KRW 1 million for 1 to 3 months, KRW 2 million for 3 to 6 months and KRW 5 million for 6 months to 1 year (as of October 2026). It is also a ground for deportation."
   - q: "Does the child's status depend on the parents' status?"
     a: "Yes. The manual gives examples such as a visiting-and-residing (F-1) status for a child of an F-2 holder, and a stay period within the parent's stay period for children of parents in E-9 and similar statuses. Requirements and documents differ by the parent's status, so check with your local immigration office before applying."
 related:
@@ -28,9 +28,9 @@ When a child is born in Korea, there is one more task besides the birth registra
 
 ## Key points
 
-- A foreign national born in Korea who comes to stay without status must obtain status **within 90 days of the birth date** (Article 23(1), item 1).
+- A foreign national born in Korea who comes to stay without status must obtain status **within 90 days of the birth date**.
 - The immigration manual likewise says to apply within 90 days of birth, and that no separate permit is needed if the child leaves within 90 days.
-- Missing the deadline can bring up to 3 years in prison or a fine of up to KRW 30 million (as of October 2026, Article 94, item 15), and it is a ground for deportation (Article 46(1), item 8).
+- Missing the deadline can bring up to 3 years in prison or a fine of up to KRW 30 million (as of October 2026), and it is a ground for deportation.
 - The longer the delay, the higher the standard fine, so apply as soon as you realize.
 
 ## 1. Who must apply?
@@ -55,7 +55,7 @@ Staying without status in breach of Article 23 can bring up to 3 years in prison
 | 6 months to under 1 year | KRW 5 million |
 | 1 to under 2 years | KRW 10 million |
 
-These are **standard amounts**; age, circumstances, motive and ability to pay can reduce or increase them within a range of one half (Enforcement Rule, Article 86(2)). A notice must be paid within 15 days (Article 105(1)), and after payment you are not punished again for the same matter (Article 106). It is also a ground for deportation (Article 46(1), item 8), but a person who wishes to leave at their own expense can be given a departure order (Article 68(1), item 1). See the [voluntary departure guide](/en/blog/foreigner-voluntary-departure-2026) for a comparison.
+These are **standard amounts**; age, circumstances, motive and ability to pay can reduce or increase them within a range of one half. A notice must be paid within 15 days, and after payment you are not punished again for the same matter. It is also a ground for deportation, but a person who wishes to leave at their own expense can be given a departure order. See the [voluntary departure guide](/en/blog/foreigner-voluntary-departure-2026) for a comparison.
 
 ## 4. If the application is refused
 

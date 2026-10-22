@@ -18,7 +18,7 @@ faq:
   - q: "Do 10-year-old records still affect F-5?"
     a: "Older records generally weigh less over time, but drug, sex and violent offenses can continue to affect the review. Immigration officers have discretion, so the effect depends on the individual case."
   - q: "Are the F-5 and citizenship standards different?"
-    a: "Citizenship is stricter than F-5. General naturalization requires holding permanent residence status (Nationality Act Article 5, item 1-2), and conduct, including criminal records, is reviewed again (item 3)."
+    a: "Citizenship is stricter than F-5. General naturalization requires holding permanent residence status, and conduct, including criminal records, is reviewed again."
   - q: "Do foreign-country criminal records affect F-5?"
     a: "Yes. Korean Immigration regulations require disclosure of foreign criminal records. False reporting → F-5 cancellation + deportation possible. Foreign no-criminal-record certificate required."
   - q: "If a new criminal case arises during F-5 application?"
@@ -142,17 +142,17 @@ The waiting period is generally counted from the date the punishment ends — fo
 ## 7. Korean Citizenship and Records
 
 ### Nationality Act Article 5
-- 5+ years of continuous domicile in Korea (item 1)
-- Permanent residence (F-5) status (item 1-2)
-- Adult under the Korean Civil Act (item 2)
+- 5+ years of continuous domicile in Korea
+- Permanent residence (F-5) status
+- Adult under the Korean Civil Act
 - Conduct integrity (criminal record evaluation)
 - Income or family-support capability
 - Korean language + Korean society understanding
 - Foreign nationality renunciation (exceptions exist)
 
 ### Stricter than F-5
-- General naturalization requires holding F-5 status first (Nationality Act Article 5, item 1-2)
-- Good conduct is reviewed again under Ministry of Justice standards (item 3), so criminal records are examined once more
+- General naturalization requires holding F-5 status first
+- Good conduct is reviewed again under Ministry of Justice standards, so criminal records are examined once more
 
 ### Practical advice
 **For general naturalization, F-5 comes first; when to apply for citizenship depends on your record and circumstances.**

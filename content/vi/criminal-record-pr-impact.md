@@ -19,7 +19,7 @@ faq:
   - q: "Tiền án từ 10 năm trước có còn ảnh hưởng không?"
     a: "Các thời hạn theo Quy tắc thi hành Luật Quản lý xuất nhập cảnh Điều 18-4 là từ 3 đến 7 năm tùy loại xử lý (phạt tiền, án treo, án tù, trục xuất...). Tuy nhiên tính chất tội danh như ma túy, tội phạm tình dục, tội bạo lực nghiêm trọng vẫn có thể được xem xét, và kết quả phụ thuộc vào từng trường hợp."
   - q: "Tiêu chuẩn nhập tịch có khác với thường trú không?"
-    a: "Có. Thời hạn liên quan đến tiền án khi xin nhập tịch dài hơn thường trú, ví dụ án phạt tiền là 5 năm kể từ ngày nộp phạt đối với nhập tịch (Quy tắc thi hành Luật Quốc tịch Điều 5-2) và 3 năm đối với thường trú (Quy tắc thi hành Luật Quản lý xuất nhập cảnh Điều 18-4). Người xin nhập tịch thông thường cũng cần có tư cách thường trú (Luật Quốc tịch Điều 5)."
+    a: "Có. Thời hạn liên quan đến tiền án khi xin nhập tịch dài hơn thường trú, ví dụ án phạt tiền là 5 năm kể từ ngày nộp phạt đối với nhập tịch và 3 năm đối với thường trú. Người xin nhập tịch thông thường cũng cần có tư cách thường trú."
   - q: "Tiền án ở nước ngoài có ảnh hưởng đến thường trú không?"
     a: "Có thể. Khi xin thường trú, thường phải nộp lý lịch tư pháp nước ngoài và khai báo tiền án theo yêu cầu. Khai gian có thể dẫn tới hủy thường trú hoặc trục xuất."
   - q: "Nếu phát sinh án mới sau khi đã nộp hồ sơ thường trú thì sao?"
@@ -139,7 +139,7 @@ Thời hạn theo quy định được tính theo loại xử lý (mục 1); tí
 
 **3. Hòa nhập xã hội Hàn Quốc**
 - [ ] Năng lực tiếng Hàn (TOPIK hoặc chương trình hội nhập xã hội)
-- [ ] Thu nhập ổn định (thu nhập gia đình từ mức GNI bình quân đầu người năm trước trở lên, hoặc tài sản ở mức trung vị trở lên — Quy tắc thi hành Luật Quản lý xuất nhập cảnh Điều 18-4 khoản 1 điểm 2)
+- [ ] Thu nhập ổn định (thu nhập gia đình từ mức GNI bình quân đầu người năm trước trở lên, hoặc tài sản ở mức trung vị trở lên)
 - [ ] Lịch sử nộp thuế đều đặn
 
 **4. Quan hệ gia đình**
@@ -191,8 +191,8 @@ Thời hạn theo quy định được tính theo loại xử lý (mục 1); tí
 - Từ bỏ quốc tịch nước ngoài (có ngoại lệ)
 
 ### Thời hạn theo quy định
-- Thường trú (Quy tắc thi hành Luật Quản lý xuất nhập cảnh Điều 18-4): án tù 5 năm kể từ khi chấp hành xong, án treo 5 năm kể từ ngày bản án có hiệu lực, phạt tiền 3 năm kể từ ngày nộp phạt
-- Nhập tịch (Quy tắc thi hành Luật Quốc tịch Điều 5-2): án tù 10 năm kể từ khi chấp hành xong, án treo 7 năm kể từ khi hết thời gian thử thách, phạt tiền 5 năm kể từ ngày nộp phạt, hoãn tuyên án hoặc tạm đình chỉ truy tố 2 năm
+- Thường trú: án tù 5 năm kể từ khi chấp hành xong, án treo 5 năm kể từ ngày bản án có hiệu lực, phạt tiền 3 năm kể từ ngày nộp phạt
+- Nhập tịch: án tù 10 năm kể từ khi chấp hành xong, án treo 7 năm kể từ khi hết thời gian thử thách, phạt tiền 5 năm kể từ ngày nộp phạt, hoãn tuyên án hoặc tạm đình chỉ truy tố 2 năm
 
 ### Gợi ý thực tế
 Theo Luật Quốc tịch Điều 5, người xin nhập tịch thông thường cần có tư cách thường trú, nên trình tự thường là **lấy thường trú (F-5) trước → xin nhập tịch**.

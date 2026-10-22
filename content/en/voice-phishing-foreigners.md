@@ -19,7 +19,7 @@ faq:
   - q: "I responded to a part-time job ad and got pulled in. What now?"
     a: "Immediate scrivener consultation. Save: ad screenshots, KakaoTalk/messenger logs, transfer history, your earnings. Objective proof of normal-job perception is critical."
   - q: "Entry ban after voice phishing?"
-    a: "The entry-ban period is decided by the Ministry of Justice for each case (Immigration Act Article 11). The role, the amount, self-surrender and cooperation are considered."
+    a: "The entry-ban period is decided by the Ministry of Justice for each case. The role, the amount, self-surrender and cooperation are considered."
   - q: "Voice phishing record impact on F-5?"
     a: "A voice-phishing record is reviewed strictly in an F-5 application; the waiting period depends on the disposition and the Ministry of Justice criteria in force."
 related:
@@ -54,8 +54,8 @@ This guide explains how these roles are treated and what to prepare for the immi
 ## 2. Penalty Tier (Korean Criminal Code)
 
 ### Penal Code
-- **Fraud (Art. 347)**: up to 20 years imprisonment or KRW 50M fine (as of October 2026)
-- **Computer-aided fraud (Art. 347-2)**: same
+- **Fraud**: up to 20 years imprisonment or KRW 50M fine (as of October 2026)
+- **Computer-aided fraud**: same
 - **Habitual fraud**: aggravated
 
 ### Voice Phishing Special Act
@@ -149,7 +149,7 @@ Voice-phishing cases require strong criminal defense.
 
 ## 8. Account Lending Risks
 
-- Criminal: Electronic Financial Transactions Act violation (as of October 2026, up to 5 years imprisonment or KRW 30M fine, Article 49(4))
+- Criminal: Electronic Financial Transactions Act violation (as of October 2026, up to 5 years imprisonment or KRW 30M fine)
 - Immigration: can lead to a deportation review
 
 **Do not lend your bank account to anyone.**

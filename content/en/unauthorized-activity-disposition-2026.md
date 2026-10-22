@@ -18,7 +18,7 @@ faq:
   - q: "Will I be deported immediately if I am caught?"
     a: "No. A violation of Article 20 is listed among the grounds for deportation, but which disposition is actually issued (notification disposition, departure order, or deportation) is decided by the competent office based on the circumstances, the degree of violation, and whether it is a repeat."
   - q: "How does a notification disposition differ from a departure order (exit order)?"
-    a: "A notification disposition (Article 102) notifies you to pay a fine, while a departure order (Article 68) directs you to leave by a set deadline. The law also allows a departure order for a person for whom leaving the country after a notification disposition is deemed appropriate, so the two can be combined."
+    a: "A notification disposition notifies you to pay a fine, while a departure order directs you to leave by a set deadline. The law also allows a departure order for a person for whom leaving the country after a notification disposition is deemed appropriate, so the two can be combined."
   - q: "What documents should I prepare for an offense review?"
     a: "The documents requested and the procedure depend on the case and the competent office, so we cannot give a fixed list. Prepare what the office instructs, and confirm with the office before submitting if the instructions are unclear."
   - q: "Does a disposition affect later status applications?"
@@ -45,13 +45,13 @@ Typical examples in the manual:
 
 ## 2. What dispositions are possible if detected
 
-Immigration officers may investigate a foreigner suspected of falling under a ground for deportation (Article 47). Depending on the result, there are three main types of disposition.
+Immigration officers may investigate a foreigner suspected of falling under a ground for deportation. Depending on the result, there are three main types of disposition.
 
 | Disposition | Content |
 |---|---|
-| Notification disposition | When evidence of an offense is confirmed, a written notice requires payment of a fine (Art. 102) |
-| Departure order | An order with a departure deadline, e.g., for a person who wishes to leave voluntarily at own expense; also covers a person for whom departure after a notification disposition is deemed appropriate (Art. 68) |
-| Deportation | A deportation order if the person is found to fall under the grounds for deportation (Art. 46(1), Art. 59(2)) |
+| Notification disposition | When evidence of an offense is confirmed, a written notice requires payment of a fine |
+| Departure order | An order with a departure deadline, e.g., for a person who wishes to leave voluntarily at own expense; also covers a person for whom departure after a notification disposition is deemed appropriate |
+| Deportation | A deportation order if the person is found to fall under the grounds for deportation |
 
 A person who violates Article 20 is listed as a deportation subject in Article 46(1), item 8. However, being listed is different from a deportation order actually being issued. The competent office decides the disposition case by case.
 
@@ -78,12 +78,12 @@ Practical principles to remember:
 
 1. **Recall and organize the facts accurately.** When you started, where, what you did, and whether you did not know a permit was needed are central points examined in the inquiry.
 2. **Follow the competent office's instructions on documents.** They can differ by case, so if instructions are unclear, it is safer to confirm with the office before submitting.
-3. **When a deportation order is issued, you are informed that an objection can be filed.** The law requires the head of the immigration office to inform the person that an objection may be filed with the Minister of Justice when issuing a deportation order (Article 59(4)).
-4. **The permission itself may be cancelled.** The Minister of Justice may cancel or change permissions under Article 20, and may call the person in to hear their opinion (Article 89).
+3. **When a deportation order is issued, you are informed that an objection can be filed.** The law requires the head of the immigration office to inform the person that an objection may be filed with the Minister of Justice when issuing a deportation order.
+4. **The permission itself may be cancelled.** The Minister of Justice may cancel or change permissions under Article 20, and may call the person in to hear their opinion.
 
 ## 5. If you received a notification disposition
 
-On receiving the notice you must pay the fine within 15 days, and if you do not pay within that period, a criminal complaint is in principle filed (Article 105). If you pay as notified, you will not be punished again for the same case (Article 106). The checkpoints and the order of payment and explanation are covered in [What to Do When You Receive an Immigration Fine Notice](/blog/immigration-fine-notice-response-2026).
+On receiving the notice you must pay the fine within 15 days, and if you do not pay within that period, a criminal complaint is in principle filed. If you pay as notified, you will not be punished again for the same case. The checkpoints and the order of payment and explanation are covered in [What to Do When You Receive an Immigration Fine Notice](/blog/immigration-fine-notice-response-2026).
 
 ## 6. How disposition history affects later stays
 

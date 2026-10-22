@@ -12,11 +12,11 @@ keywords:
   - "Luật Xuất nhập cảnh Điều 12"
 faq:
   - q: "Kiểm tra nhập cảnh xem xét những gì?"
-    a: "Theo Điều 12 khoản 3, xem xét: (1) hộ chiếu và visa còn hiệu lực không (visa chỉ khi luật yêu cầu), (2) giấy phép du lịch trước còn hiệu lực không, (3) mục đích nhập cảnh có phù hợp tư cách lưu trú không, (4) thời hạn lưu trú có được định theo quy định của Bộ Tư pháp không, (5) có không thuộc đối tượng cấm hoặc từ chối nhập cảnh theo Điều 11 không, rồi mới cho nhập cảnh. Nếu không chứng minh được thì có thể không cho nhập cảnh (Điều 12 khoản 4)."
+    a: "Theo Điều 12 khoản 3, xem xét: (1) hộ chiếu và visa còn hiệu lực không (visa chỉ khi luật yêu cầu), (2) giấy phép du lịch trước còn hiệu lực không, (3) mục đích nhập cảnh có phù hợp tư cách lưu trú không, (4) thời hạn lưu trú có được định theo quy định của Bộ Tư pháp không, (5) có không thuộc đối tượng cấm hoặc từ chối nhập cảnh theo Điều 11 không, rồi mới cho nhập cảnh. Nếu không chứng minh được thì có thể không cho nhập cảnh."
   - q: "Phép nhập cảnh có điều kiện là gì?"
     a: "Theo Điều 13, trưởng cơ quan có thể cho nhập cảnh có điều kiện với người vì lý do bất khả kháng chưa đủ điều kiện hộ chiếu, visa nhưng được cho là sẽ đủ trong một thời gian, người bị nghi thuộc lý do cấm nhập cảnh hoặc cần thẩm tra đặc biệt mục đích nhập cảnh v.v. Điều 16 Nghị định thi hành cho phép định thời hạn trong phạm vi 72 giờ. Giấy phép kèm điều kiện như hạn chế nơi ở, nghĩa vụ ra trình diện khi được yêu cầu, và khi cần có thể yêu cầu ký quỹ đến 10 triệu won (tính đến tháng 10/2026)."
   - q: "Vi phạm điều kiện của phép có điều kiện thì sao?"
-    a: "Theo Điều 95 mục 2: phạt tù đến 1 năm hoặc phạt tiền đến 10 triệu won; mức phạt chuẩn tại Phụ lục 7 Thông tư thi hành là 1 triệu won lần 1, 3 triệu won lần 2, 5 triệu won lần 3 và 10 triệu won từ lần 4 (tính đến tháng 10/2026). Tiền ký quỹ có thể bị sung công toàn bộ hoặc một phần (Điều 13 khoản 3) và vi phạm điều kiện là lý do buộc xuất cảnh (Điều 46 khoản 1 mục 5)."
+    a: "Theo Điều 95 mục 2: phạt tù đến 1 năm hoặc phạt tiền đến 10 triệu won; mức phạt chuẩn tại Phụ lục 7 Thông tư thi hành là 1 triệu won lần 1, 3 triệu won lần 2, 5 triệu won lần 3 và 10 triệu won từ lần 4 (tính đến tháng 10/2026). Tiền ký quỹ có thể bị sung công toàn bộ hoặc một phần và vi phạm điều kiện là lý do buộc xuất cảnh."
 related:
   - "entry-ban-removal"
   - "visa-denial-response"
@@ -28,10 +28,10 @@ Người nước ngoài nhập cảnh Hàn Quốc phải qua kiểm tra nhập c
 
 ## Điểm chính
 
-- Kiểm tra nhập cảnh xem xét hiệu lực hộ chiếu, visa, giấy phép du lịch trước, **mục đích nhập cảnh có phù hợp tư cách lưu trú**, thời hạn lưu trú và **có thuộc đối tượng cấm hoặc từ chối nhập cảnh hay không** (Điều 12 khoản 3).
-- Không chứng minh được điều kiện thì **có thể không cho nhập cảnh** (Điều 12 khoản 4).
-- Người cần xác minh đặc biệt có thể được **cho nhập cảnh có điều kiện** (Điều 13).
-- Người bị từ chối nhập cảnh thuộc đối tượng hồi hương, chi phí và trách nhiệm thuộc về hãng tàu, hãng hàng không (Điều 76).
+- Kiểm tra nhập cảnh xem xét hiệu lực hộ chiếu, visa, giấy phép du lịch trước, **mục đích nhập cảnh có phù hợp tư cách lưu trú**, thời hạn lưu trú và **có thuộc đối tượng cấm hoặc từ chối nhập cảnh hay không**.
+- Không chứng minh được điều kiện thì **có thể không cho nhập cảnh**.
+- Người cần xác minh đặc biệt có thể được **cho nhập cảnh có điều kiện**.
+- Người bị từ chối nhập cảnh thuộc đối tượng hồi hương, chi phí và trách nhiệm thuộc về hãng tàu, hãng hàng không.
 
 ## 1. Điều kiện của kiểm tra nhập cảnh
 
@@ -43,11 +43,11 @@ Người nước ngoài nhập cảnh Hàn Quốc phải qua kiểm tra nhập c
 4. Thời hạn lưu trú được định theo quy định của Bộ Tư pháp
 5. Không thuộc đối tượng cấm hoặc từ chối nhập cảnh theo Điều 11
 
-Người có đăng ký người nước ngoài còn hiệu lực v.v. có thể được bỏ qua tờ khai nhập cảnh (Nghị định thi hành Điều 15 khoản 1). Không chứng minh được đủ điều kiện thì có thể không cho nhập cảnh (Điều 12 khoản 4).
+Người có đăng ký người nước ngoài còn hiệu lực v.v. có thể được bỏ qua tờ khai nhập cảnh. Không chứng minh được đủ điều kiện thì có thể không cho nhập cảnh.
 
 ## 2. Lý do cấm, từ chối nhập cảnh
 
-Điều 11 khoản 1 nêu những người nước ngoài Bộ trưởng Tư pháp có thể cấm nhập cảnh: người có nguy cơ gây hại vệ sinh công cộng như bệnh nhân truyền nhiễm, người nghiện ma túy; người mang trái phép súng, kiếm, thuốc nổ khi nhập cảnh; người có nguy cơ gây hại lợi ích quốc gia hay an ninh công cộng; người có nguy cơ gây hại trật tự kinh tế, xã hội; người cần cứu trợ như không đủ khả năng chi trả chi phí lưu trú; **người đã xuất cảnh sau lệnh buộc xuất cảnh chưa quá 5 năm**; và người khác mà Bộ trưởng thấy không thích hợp nhập cảnh. Nếu nước của người đó từ chối công dân Hàn Quốc nhập cảnh vì cùng lý do thì có thể từ chối tương tự (khoản 2). Về việc gỡ lệnh cấm, xem [hướng dẫn gỡ lệnh cấm nhập cảnh](/vi/blog/entry-ban-removal).
+Điều 11 khoản 1 nêu những người nước ngoài Bộ trưởng Tư pháp có thể cấm nhập cảnh: người có nguy cơ gây hại vệ sinh công cộng như bệnh nhân truyền nhiễm, người nghiện ma túy; người mang trái phép súng, kiếm, thuốc nổ khi nhập cảnh; người có nguy cơ gây hại lợi ích quốc gia hay an ninh công cộng; người có nguy cơ gây hại trật tự kinh tế, xã hội; người cần cứu trợ như không đủ khả năng chi trả chi phí lưu trú; **người đã xuất cảnh sau lệnh buộc xuất cảnh chưa quá 5 năm**; và người khác mà Bộ trưởng thấy không thích hợp nhập cảnh. Nếu nước của người đó từ chối công dân Hàn Quốc nhập cảnh vì cùng lý do thì có thể từ chối tương tự. Về việc gỡ lệnh cấm, xem [hướng dẫn gỡ lệnh cấm nhập cảnh](/vi/blog/entry-ban-removal).
 
 ## 3. Phép nhập cảnh có điều kiện
 
@@ -57,11 +57,11 @@ Theo Điều 13 khoản 1, trưởng cơ quan xuất nhập cảnh địa phươ
 - Người bị nghi thuộc lý do cấm nhập cảnh hoặc chưa đáp ứng điều kiện mục đích nhập cảnh và **cần thẩm tra đặc biệt**
 - Người khác được cho là cần nhập cảnh có điều kiện
 
-Khi cho phép phải cấp **giấy phép nhập cảnh có điều kiện**, kèm các điều kiện cần thiết như hạn chế nơi ở, nghĩa vụ ra trình diện khi được yêu cầu, và khi cần có thể yêu cầu **ký quỹ đến 10 triệu won** (tính đến tháng 10/2026, Điều 13 khoản 2). Theo Điều 16 Nghị định thi hành, thời hạn được định **trong phạm vi 72 giờ**, nếu có lý do bất khả kháng có thể gia hạn trong phạm vi đó. Nếu trong thời hạn được xác nhận đủ điều kiện thì tiến hành kiểm tra nhập cảnh, khi đó ngày nhập cảnh là ngày được cho phép có điều kiện.
+Khi cho phép phải cấp **giấy phép nhập cảnh có điều kiện**, kèm các điều kiện cần thiết như hạn chế nơi ở, nghĩa vụ ra trình diện khi được yêu cầu, và khi cần có thể yêu cầu **ký quỹ đến 10 triệu won** (tính đến tháng 10/2026). Theo Điều 16 Nghị định thi hành, thời hạn được định **trong phạm vi 72 giờ**, nếu có lý do bất khả kháng có thể gia hạn trong phạm vi đó. Nếu trong thời hạn được xác nhận đủ điều kiện thì tiến hành kiểm tra nhập cảnh, khi đó ngày nhập cảnh là ngày được cho phép có điều kiện.
 
 ## 4. Khi vi phạm điều kiện và khi bị từ chối
 
-Vi phạm điều kiện của phép nhập cảnh có điều kiện có thể bị phạt tù đến 1 năm hoặc phạt tiền đến 10 triệu won theo Điều 95 mục 2 (tính đến tháng 10/2026). Mức phạt chuẩn tại [Phụ lục 7] Thông tư thi hành như sau, có thể giảm hoặc tăng trong phạm vi một nửa tùy hoàn cảnh (Thông tư thi hành Điều 86 khoản 2).
+Vi phạm điều kiện của phép nhập cảnh có điều kiện có thể bị phạt tù đến 1 năm hoặc phạt tiền đến 10 triệu won theo Điều 95 mục 2 (tính đến tháng 10/2026). Mức phạt chuẩn tại [Phụ lục 7] Thông tư thi hành như sau, có thể giảm hoặc tăng trong phạm vi một nửa tùy hoàn cảnh.
 
 | Số lần vi phạm | Mức phạt chuẩn |
 |---|---|
@@ -70,7 +70,7 @@ Vi phạm điều kiện của phép nhập cảnh có điều kiện có thể 
 | Lần 3 | 5 triệu won |
 | Từ lần 4 | 10 triệu won |
 
-Tiền ký quỹ có thể bị sung công toàn bộ hoặc một phần khi vi phạm điều kiện (Điều 13 khoản 3) và vi phạm điều kiện còn là lý do buộc xuất cảnh (Điều 46 khoản 1 mục 5). Người không được cho nhập cảnh thuộc đối tượng hồi hương (Điều 76 khoản 1 mục 3), và nếu vụ việc quyết định không cho nhập cảnh được cho là quan trọng thì công chức xuất nhập cảnh báo cáo Bộ trưởng Tư pháp (Nghị định thi hành Điều 15 khoản 6).
+Tiền ký quỹ có thể bị sung công toàn bộ hoặc một phần khi vi phạm điều kiện và vi phạm điều kiện còn là lý do buộc xuất cảnh. Người không được cho nhập cảnh thuộc đối tượng hồi hương, và nếu vụ việc quyết định không cho nhập cảnh được cho là quan trọng thì công chức xuất nhập cảnh báo cáo Bộ trưởng Tư pháp.
 
 ## 5. Cần chuẩn bị gì trước khi nhập cảnh
 

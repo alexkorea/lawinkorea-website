@@ -72,9 +72,9 @@ Mức xử lý hình sự và ảnh hưởng tới visa phụ thuộc vào từn
 | **Không đủ căn cứ · vô tội** | Không có tội | Không ảnh hưởng visa (nhưng xem xét vi phạm vẫn có thể tiến hành) |
 | **Tạm đình chỉ truy tố** | Có tội nhưng không xử phạt | Thuộc diện xem xét; kết quả phụ thuộc vào từng vụ việc |
 | **Án phạt tiền** (lệnh rút gọn) | Hình phạt chính thức | Thuộc diện xem xét; khác nhau theo số tiền và tội danh |
-| **Hoãn tuyên án** | Hoãn tuyên hình phạt (2 năm, Bộ luật Hình sự Điều 60) | Thuộc diện xem xét; kết quả phụ thuộc vào từng vụ việc |
+| **Hoãn tuyên án** | Hoãn tuyên hình phạt (2 năm) | Thuộc diện xem xét; kết quả phụ thuộc vào từng vụ việc |
 | **Án treo** | Tuyên án nhưng hoãn thi hành | Có thể bị xem xét trục xuất; kết quả phụ thuộc vào từng vụ việc |
-| **Tù giam thực tế** | Thực sự thi hành án | Thuộc diện trục xuất khi được thả (Luật Quản lý xuất nhập cảnh Điều 46 khoản 1 điểm 13); quyết định cụ thể phụ thuộc vào từng vụ việc |
+| **Tù giam thực tế** | Thực sự thi hành án | Thuộc diện trục xuất khi được thả; quyết định cụ thể phụ thuộc vào từng vụ việc |
 
 **Lưu ý:** Xử lý hình sự nhẹ không có nghĩa xem xét vi phạm cũng nhẹ — hai thủ tục độc lập. Ngược lại, dù hình phạt nặng, nếu tình tiết giảm nhẹ được chấp nhận thì vẫn có thể giữ tư cách lưu trú.
 
@@ -122,7 +122,7 @@ Câu trả lời cần ngắn, rõ, và không né tránh trách nhiệm.
 ### Bước 5. Xử lý tiếp sau khi có kết quả
 
 Nếu kết quả bất lợi:
-- **Khiếu nại** (xét xử hành chính) — trong vòng 90 ngày kể từ ngày biết có quyết định (Luật Xét xử hành chính Điều 27 khoản 1); với lệnh trục xuất, đơn phản đối nộp trong 7 ngày kể từ ngày nhận lệnh (Luật Quản lý xuất nhập cảnh Điều 60 khoản 1)
+- **Khiếu nại** (xét xử hành chính) — trong vòng 90 ngày kể từ ngày biết có quyết định; với lệnh trục xuất, đơn phản đối nộp trong 7 ngày kể từ ngày nhận lệnh
 - **Xem xét xuất cảnh tự nguyện** — ảnh hưởng đến thời hạn cấm nhập cảnh phụ thuộc vào từng trường hợp
 - **Xin thay đổi tư cách lưu trú** — visa hiện tại bị từ chối vẫn có thể nộp theo tư cách khác
 

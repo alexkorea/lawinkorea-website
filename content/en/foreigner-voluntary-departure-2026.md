@@ -54,7 +54,7 @@ The Immigration and Foreign Policy Headquarters ([immigration.go.kr](https://www
 
 ## How Entry-Ban Periods Are Decided
 
-The Immigration Act (Article 11) sets the grounds for an entry ban. The period for your case is decided by the Ministry of Justice, considering the length of the overstay and whether you left voluntarily or were deported, so check it with the immigration office.
+The Immigration Act sets the grounds for an entry ban. The period for your case is decided by the Ministry of Justice, considering the length of the overstay and whether you left voluntarily or were deported, so check it with the immigration office.
 
 ## Voluntary Departure Procedure
 
@@ -109,7 +109,7 @@ Entry ban removal is not a guaranteed right — persuasive documentation is key.
 
 Remaining in Korea while overstaying has legal consequences.
 
-- If caught in an enforcement raid, you can be placed in a foreign national protection center and deported (Immigration Act Articles 46 and 51)
+- If caught in an enforcement raid, you can be placed in a foreign national protection center and deported
 - If you have minor children, they may require a separate process
 - Your Korean spouse or employer may also face legal liability
 - Some nationalities may be subject to notification procedures to their home country

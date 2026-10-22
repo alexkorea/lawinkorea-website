@@ -51,7 +51,7 @@ const CONTENT: Record<L, { title: string; sub: string; situations: string[]; ste
     faqs: [
       {
         q: "I received a departure order (exit order) in Korea — what should I check and do first?",
-        a: "Under Article 68 of the Immigration Act, a departure order is issued as a written order that sets an exit deadline and may attach conditions such as restrictions on where you live. If you do not leave by the designated deadline or you breach those conditions, the immigration office must issue a deportation order without delay (Article 68(4)). Because the deadline and conditions are written on your own order, read it carefully, confirm the details with the issuing immigration office, and decide how to respond before the deadline passes.",
+        a: "Under the Immigration Act, a departure order is issued as a written order that sets an exit deadline and may attach conditions such as restrictions on where you live. If you do not leave by the designated deadline or you breach those conditions, the immigration office must issue a deportation order without delay. Because the deadline and conditions are written on your own order, read it carefully, confirm the details with the issuing immigration office, and decide how to respond before the deadline passes.",
       },
     ],
   },

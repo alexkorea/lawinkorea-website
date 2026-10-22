@@ -1,5 +1,5 @@
 ---
-title: "Will Hospitals or Schools Report You to Immigration? Official Reporting Duty and Exemptions (Article 84)"
+title: "Will Hospitals or Schools Report You to Immigration? Official Reporting Duty and Exemptions"
 description: "Officials must report immigration violators found in their duties, with exemptions for schools, public health care and victim relief. Scope and limits."
 date: "2026-10-20"
 category: "Penalties"
@@ -12,11 +12,11 @@ keywords:
   - "reporting duty exemption"
 faq:
   - q: "Must a public official always report an immigration violator?"
-    a: "Article 84(1) says that when a national or local government official, in performing duties, finds a person who falls under a ground for deportation (Article 46(1)) or appears to violate the Act, the official must promptly notify the office head. If reporting would prevent the official from achieving the essential purpose of the duty, and the case falls under a reason set by Presidential Decree, no report is required."
+    a: "Article 84(1) says that when a national or local government official, in performing duties, finds a person who falls under a ground for deportation or appears to violate the Act, the official must promptly notify the office head. If reporting would prevent the official from achieving the essential purpose of the duty, and the case falls under a reason set by Presidential Decree, no report is required."
   - q: "When are officials exempt?"
     a: "Enforcement Decree Article 92-2 lists (1) personal information learned at kindergartens and elementary, middle and high schools in connection with a foreign student's school life, (2) information on patients learned by officials at public health institutions in connection with health care, (3) work under the Child Welfare Act such as protective measures, (4) counseling and emergency rescue at youth counseling centers, and (5) work set by Ministry of Justice rule such as relief for crime victims or human rights violations where relief takes priority."
   - q: "Does an exemption solve the residence problem?"
-    a: "No. An exemption is only an exception to that official's reporting duty; it does not make a lack of status or an expired stay lawful. Other routes, such as immigration officers' field checks (Article 81), are separate, so find out how to resolve the residence problem itself."
+    a: "No. An exemption is only an exception to that official's reporting duty; it does not make a lack of status or an expired stay lawful. Other routes, such as immigration officers' field checks, are separate, so find out how to resolve the residence problem itself."
 related:
   - "foreigner-voluntary-departure-2026"
   - "immigration-law-penalties-guide"
@@ -28,8 +28,8 @@ Foreigners with a problem in their status or stay period often worry, when going
 
 ## Key points
 
-- A national or local government **official** who, in performing duties, finds a person who falls under a ground for deportation or appears to violate the Act must promptly **notify** the office head (Article 84(1) main text).
-- **No report is needed** where reporting would prevent the essential purpose of the duty and the case falls under a reason set by Presidential Decree (Article 84(1) proviso, Enforcement Decree Article 92-2).
+- A national or local government **official** who, in performing duties, finds a person who falls under a ground for deportation or appears to violate the Act must promptly **notify** the office head.
+- **No report is needed** where reporting would prevent the essential purpose of the duty and the case falls under a reason set by Presidential Decree.
 - An exemption is only an exception to that official's reporting duty; it does not make the stay lawful.
 
 ## 1. The basic duty
@@ -52,12 +52,12 @@ The work in item 5 is set by Enforcement Rule Article 70-2: investigation of cri
 
 - **The duty is on 'officials'.** Article 84 sets officials' duty, so application depends on what kind of body it is and whether the information was learned in the course of duty.
 - **Exemptions cover listed work only.** They apply to personal information learned in connection with that work; contact for other purposes may not be covered.
-- **Other routes exist.** Immigration officers may check whether foreigners are staying lawfully (Article 81(1)) and may visit and question people who employ or lodge foreigners.
-- **The residence problem remains.** Having no status or overstaying is still a violation. Overstaying breaches Article 94, item 17, with up to 3 years in prison or a fine of up to KRW 30 million, and is a ground for deportation (as of October 2026, Article 46(1), item 8).
+- **Other routes exist.** Immigration officers may check whether foreigners are staying lawfully and may visit and question people who employ or lodge foreigners.
+- **The residence problem remains.** Having no status or overstaying is still a violation. Overstaying breaches Article 94, item 17, with up to 3 years in prison or a fine of up to KRW 30 million, and is a ground for deportation (as of October 2026).
 
 ## 4. How to respond
 
-If your residence has a problem, it is better to first find out how to put your status in order than to count on an exemption. A person who wants to leave at their own expense can be given a departure order (Article 68(1), item 1), so see the [voluntary departure guide](/en/blog/foreigner-voluntary-departure-2026). Fines by type of violation are in the [overview of immigration penalties](/en/blog/immigration-law-penalties-guide), and the procedure after receiving a notice is in the [fine notice response guide](/en/blog/immigration-fine-notice-response-2026).
+If your residence has a problem, it is better to first find out how to put your status in order than to count on an exemption. A person who wants to leave at their own expense can be given a departure order, so see the [voluntary departure guide](/en/blog/foreigner-voluntary-departure-2026). Fines by type of violation are in the [overview of immigration penalties](/en/blog/immigration-law-penalties-guide), and the procedure after receiving a notice is in the [fine notice response guide](/en/blog/immigration-fine-notice-response-2026).
 
 ## 5. Steps you can take now
 

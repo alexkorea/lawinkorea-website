@@ -1133,7 +1133,7 @@
     },
     "entry-violation": {
      "title": "유효한 여권·사증 없이 입국한 경우",
-     "desc": "법이 정한 여권과 사증을 갖추지 않고 입국한 경우(법 제7조 제1항·제4항)로, 위반 횟수에 따라 금액이 올라갑니다."
+     "desc": "법이 정한 여권과 사증을 갖추지 않고 입국한 경우로, 위반 횟수에 따라 금액이 올라갑니다."
     },
     "employer-report": {
      "title": "외국인 고용 관련 신고의무를 위반한 경우(사용자)",
@@ -1170,8 +1170,8 @@
     "colPeriod": "위반 기간",
     "colCount": "위반 횟수",
     "colAmount": "기준액",
-    "sectionFine": "범칙금 (출입국관리법 시행규칙 별표 7·별표 8)",
-    "sectionPenalty": "과태료 (출입국관리법 시행령 별표 2 · 재외동포법 시행령 별표)",
+    "sectionFine": "범칙금",
+    "sectionPenalty": "과태료",
     "lawLabel": "근거 법조문",
     "basisToggle": "근거 법령 보기",
     "violatedLabel": "위반 조항",
@@ -1194,7 +1194,7 @@
    },
    "seo": {
     "title": "벌금기준 — 출입국 범칙금·과태료 기준표 16유형 101구간",
-    "description": "출입국관리법 시행규칙 별표 7·8, 시행령 별표 2에 규정된 범칙금·과태료 기준액을 16개 위반 유형 101개 구간으로 모두 정리했습니다. 초과체류, 불법취업, 외국인등록 미이행 등 유형별 금액을 확인하세요."
+    "description": "출입국관리법령에 규정된 범칙금·과태료 기준액을 16개 위반 유형 101개 구간으로 모두 정리했습니다. 초과체류, 불법취업, 외국인등록 미이행 등 유형별 금액을 확인하세요."
    }
   },
   "en": {
@@ -1320,8 +1320,8 @@
     "colPeriod": "Length of breach",
     "colCount": "Number of violations",
     "colAmount": "Standard amount",
-    "sectionFine": "Fine (Enforcement Rule of the Immigration Act, Tables 7 and 8)",
-    "sectionPenalty": "Administrative penalty (Enforcement Decree of the Immigration Act, Table 2 · Enforcement Decree of the Overseas Koreans Act, Table)",
+    "sectionFine": "Fine",
+    "sectionPenalty": "Administrative penalty",
     "lawLabel": "Penalty provision",
     "basisToggle": "Legal basis",
     "violatedLabel": "Duty breached",
@@ -1344,7 +1344,7 @@
    },
    "seo": {
     "title": "Immigration Fine Standards — Korea's Full Fine & Penalty Schedule",
-    "description": "Korea's immigration fine schedule in full: 16 breach types, 101 bands — overstay, unauthorized work, registration failures — with each statutory provision."
+    "description": "Korea's immigration fine schedule in full: 16 breach types, 101 bands — overstay, unauthorized work, registration failures — in one table."
    }
   },
   "ja": {
@@ -1433,7 +1433,7 @@
     },
     "entry-violation": {
      "title": "有効な旅券・査証なく入国した場合",
-     "desc": "法が定める旅券と査証を備えずに入国した場合（法第7条第1項・第4項）で、違反回数に応じて金額が上がります。"
+     "desc": "法が定める旅券と査証を備えずに入国した場合で、違反回数に応じて金額が上がります。"
     },
     "employer-report": {
      "title": "外国人雇用に関する申告義務違反（使用者）",
@@ -1470,8 +1470,8 @@
     "colPeriod": "違反期間",
     "colCount": "違反回数",
     "colAmount": "基準額",
-    "sectionFine": "犯則金（出入国管理法施行規則 別表7・別表8）",
-    "sectionPenalty": "過料（出入国管理法施行令 別表2 · 在外同胞法施行令 別表）",
+    "sectionFine": "犯則金",
+    "sectionPenalty": "過料",
     "lawLabel": "根拠法条",
     "basisToggle": "根拠法令を見る",
     "violatedLabel": "違反した条項",
@@ -1494,7 +1494,7 @@
    },
    "seo": {
     "title": "入管罰金基準 — 韓国の犯則金・過料 全16類型101区間",
-    "description": "出入国管理法施行規則 別表7・8、施行令 別表2 に定められた犯則金・過料の基準額を、16の違反類型・101区間としてすべて掲載。超過滞在、不法就労、外国人登録の未了など、類型別の金額をご確認ください。"
+    "description": "出入国管理法令に定められた犯則金・過料の基準額を、16の違反類型・101区間としてすべて掲載。超過滞在、不法就労、外国人登録の未了など、類型別の金額をご確認ください。"
    }
   },
   "zh": {
@@ -1583,7 +1583,7 @@
     },
     "entry-violation": {
      "title": "未持有效护照·签证入境",
-     "desc": "未具备法律规定的护照与签证而入境的情形（法第7条第1款·第4款），金额随违规次数上升。"
+     "desc": "未具备法律规定的护照与签证而入境的情形，金额随违规次数上升。"
     },
     "employer-report": {
      "title": "违反外国人雇用相关申报义务（雇主）",
@@ -1620,8 +1620,8 @@
     "colPeriod": "违规期间",
     "colCount": "违规次数",
     "colAmount": "基准额",
-    "sectionFine": "罚款（出入境管理法施行规则 别表7·别表8）",
-    "sectionPenalty": "过怠金（出入境管理法施行令 别表2 · 在外同胞法施行令 别表）",
+    "sectionFine": "罚款",
+    "sectionPenalty": "过怠金",
     "lawLabel": "依据法条",
     "basisToggle": "查看法律依据",
     "violatedLabel": "违反条款",
@@ -1644,7 +1644,7 @@
    },
    "seo": {
     "title": "出入境罚款标准 — 韩国罚款·过怠金 16类101档全表",
-    "description": "完整收录出入境管理法施行规则别表7·8与施行令别表2规定的罚款、过怠金基准额，共16类违规、101个档位。涵盖超期滞留、非法就业、未办外国人登记等类型及其依据法条。"
+    "description": "完整收录出入境管理法令规定的罚款、过怠金基准额，共16类违规、101个档位。涵盖超期滞留、非法就业、未办外国人登记等类型。"
    }
   },
   "vi": {
@@ -1733,7 +1733,7 @@
     },
     "entry-violation": {
      "title": "Nhập cảnh khi không có hộ chiếu hoặc visa hợp lệ",
-     "desc": "Nhập cảnh Hàn Quốc mà không có hộ chiếu và visa theo luật định (Điều 7(1) và 7(4)); mức phạt tăng theo số lần vi phạm."
+     "desc": "Nhập cảnh Hàn Quốc mà không có hộ chiếu và visa theo luật định; mức phạt tăng theo số lần vi phạm."
     },
     "employer-report": {
      "title": "Vi phạm nghĩa vụ khai báo khi thuê người nước ngoài (chủ sử dụng)",
@@ -1770,8 +1770,8 @@
     "colPeriod": "Thời gian vi phạm",
     "colCount": "Số lần vi phạm",
     "colAmount": "Mức chuẩn",
-    "sectionFine": "Tiền phạt (Thông tư thi hành Luật Quản lý XNC, Bảng 7 và 8)",
-    "sectionPenalty": "Phạt hành chính (Nghị định thi hành Luật Quản lý XNC, Bảng 2 · Nghị định thi hành Luật Kiều bào, Bảng)",
+    "sectionFine": "Tiền phạt",
+    "sectionPenalty": "Phạt hành chính",
     "lawLabel": "Điều khoản chế tài",
     "basisToggle": "Xem căn cứ pháp lý",
     "violatedLabel": "Nghĩa vụ bị vi phạm",
@@ -1794,7 +1794,7 @@
    },
    "seo": {
     "title": "Mức phạt xuất nhập cảnh Hàn Quốc — 16 loại vi phạm, 101 mức",
-    "description": "Bảng mức phạt xuất nhập cảnh Hàn Quốc: 16 loại vi phạm, 101 mức — ở quá hạn, làm việc trái phép, không đăng ký người nước ngoài — kèm điều luật căn cứ."
+    "description": "Bảng mức phạt xuất nhập cảnh Hàn Quốc: 16 loại vi phạm, 101 mức — ở quá hạn, làm việc trái phép, không đăng ký người nước ngoài — trong một bảng."
    }
   }
  }

@@ -14,7 +14,7 @@ faq:
   - q: "Nhận thông báo hủy tư cách lưu trú thì phải rời Hàn Quốc ngay sao?"
     a: "Không nhất thiết. Việc có phải xuất cảnh trong thời gian khiếu nại hoặc khởi kiện hành chính hay không phụ thuộc vào thời hạn ghi trên thông báo và việc có được quyết định đình chỉ thi hành hay không. Việc nộp kèm đơn xin đình chỉ thi hành là rất quan trọng."
   - q: "Thời hạn khiếu nại là bao lâu?"
-    a: "Phải nộp đơn khiếu nại hoặc khởi kiện hành chính trong vòng 90 ngày kể từ ngày biết có quyết định (Luật Xét xử hành chính Điều 27 khoản 1, Luật Tố tụng hành chính Điều 20 khoản 1). Quá hạn có thể mất quyền khiếu nại, vì vậy hãy tư vấn chuyên gia ngay."
+    a: "Phải nộp đơn khiếu nại hoặc khởi kiện hành chính trong vòng 90 ngày kể từ ngày biết có quyết định. Quá hạn có thể mất quyền khiếu nại, vì vậy hãy tư vấn chuyên gia ngay."
   - q: "Bị hủy tư cách là bị trục xuất (cưỡng chế xuất cảnh) khỏi Hàn Quốc ngay lập tức à?"
     a: "Thủ tục trục xuất có thể khởi động sau khi hủy; việc thi hành có được tạm hoãn trong thời gian khiếu nại hoặc kiện tụng hay không phụ thuộc vào từng vụ việc. Nếu được quyết định đình chỉ thi hành, bạn có thể lưu trú cho đến khi có kết quả vụ kiện."
   - q: "Có gia đình ở Hàn Quốc vẫn bị trục xuất (cưỡng chế xuất cảnh) sao?"
@@ -61,7 +61,7 @@ Thời hạn khiếu nại rất ngắn. Hãy tư vấn chuyên gia ngay bây gi
 ### Bước 1 — Nắm chính xác nội dung thông báo
 
 Trước hết hãy xác nhận lý do hủy, ngày ra quyết định và thời hạn khiếu nại ghi trong thông báo.
-Khiếu nại phải được nộp trong vòng **90 ngày** kể từ ngày biết có quyết định (Luật Xét xử hành chính Điều 27 khoản 1).
+Khiếu nại phải được nộp trong vòng **90 ngày** kể từ ngày biết có quyết định.
 
 ### Bước 2 — Khiếu nại (xét xử hành chính)
 
@@ -75,7 +75,7 @@ Nội dung cần có trong đơn khiếu nại:
 ### Bước 3 — Khởi kiện hành chính
 
 Nếu khiếu nại bị bác, bạn có thể khởi kiện tại tòa án hành chính để yêu cầu hủy quyết định.
-Vụ kiện phải được nộp trong **90 ngày** kể từ ngày nhận thông báo quyết định, hoặc **90 ngày** kể từ ngày nhận kết quả khiếu nại (Luật Tố tụng hành chính Điều 20 khoản 1).
+Vụ kiện phải được nộp trong **90 ngày** kể từ ngày nhận thông báo quyết định, hoặc **90 ngày** kể từ ngày nhận kết quả khiếu nại.
 
 ### Bước 4 — Xin đình chỉ thi hành
 
@@ -111,7 +111,7 @@ Việc nộp kèm đơn xin đình chỉ thi hành là rất quan trọng.
 
 **Q2. Thời hạn khiếu nại là bao lâu?**
 
-Phải nộp trong vòng 90 ngày kể từ ngày biết có quyết định (Luật Xét xử hành chính Điều 27 khoản 1, Luật Tố tụng hành chính Điều 20 khoản 1).
+Phải nộp trong vòng 90 ngày kể từ ngày biết có quyết định.
 Quá hạn có thể mất quyền khiếu nại, hãy tư vấn chuyên gia ngay.
 
 **Q3. Bị hủy tư cách là bị trục xuất ngay lập tức à?**

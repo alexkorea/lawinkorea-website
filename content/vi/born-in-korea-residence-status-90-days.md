@@ -12,9 +12,9 @@ keywords:
   - "Luật Xuất nhập cảnh Điều 23"
 faq:
   - q: "Con sinh tại Hàn Quốc thì chậm nhất khi nào phải có tư cách lưu trú?"
-    a: "Trong vòng 90 ngày kể từ ngày sinh (Luật Xuất nhập cảnh Điều 23 khoản 1 mục 1). Nộp đơn xin cấp tư cách lưu trú tại cơ quan xuất nhập cảnh quản lý nơi cư trú, Bộ trưởng Tư pháp ấn định thời hạn lưu trú (Nghị định thi hành Điều 29). Sổ tay hướng dẫn cũng ghi rằng nếu xuất cảnh trong 90 ngày thì không cần xin phép riêng."
+    a: "Trong vòng 90 ngày kể từ ngày sinh. Nộp đơn xin cấp tư cách lưu trú tại cơ quan xuất nhập cảnh quản lý nơi cư trú, Bộ trưởng Tư pháp ấn định thời hạn lưu trú. Sổ tay hướng dẫn cũng ghi rằng nếu xuất cảnh trong 90 ngày thì không cần xin phép riêng."
   - q: "Nộp đơn sau 90 ngày thì bị xử phạt thế nào?"
-    a: "Vi phạm Điều 23, lưu trú không có tư cách có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (Điều 94 mục 15), thực tế thường được giải quyết bằng thông báo xử phạt (beomchikgeum). Mức chuẩn tại Phụ lục 7 Thông tư thi hành tăng theo thời gian trễ: dưới 1 tháng 500.000 won, 1 đến dưới 3 tháng 1 triệu won, 3 đến dưới 6 tháng 2 triệu won, 6 tháng đến dưới 1 năm 5 triệu won (tính đến tháng 10/2026). Đây cũng là lý do buộc xuất cảnh (Điều 46 khoản 1 mục 8)."
+    a: "Vi phạm Điều 23, lưu trú không có tư cách có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won, thực tế thường được giải quyết bằng thông báo xử phạt (beomchikgeum). Mức chuẩn tại Phụ lục 7 Thông tư thi hành tăng theo thời gian trễ: dưới 1 tháng 500.000 won, 1 đến dưới 3 tháng 1 triệu won, 3 đến dưới 6 tháng 2 triệu won, 6 tháng đến dưới 1 năm 5 triệu won (tính đến tháng 10/2026). Đây cũng là lý do buộc xuất cảnh."
   - q: "Tư cách lưu trú của trẻ có phụ thuộc vào tư cách của cha mẹ không?"
     a: "Có. Sổ tay nêu ví dụ: con của người F-2 sinh tại Hàn Quốc được cấp F-1; con của cha mẹ E-9 và tương tự được cấp thời hạn trong phạm vi thời hạn lưu trú của cha mẹ. Điều kiện và hồ sơ khác nhau theo tư cách của cha mẹ, hãy hỏi cơ quan quản lý trước khi nộp."
 related:
@@ -28,9 +28,9 @@ Khi con chào đời tại Hàn Quốc, ngoài khai sinh còn một việc nữa
 
 ## Điểm chính
 
-- Người nước ngoài sinh tại Hàn Quốc mà lưu trú không có tư cách phải được cấp tư cách lưu trú **trong 90 ngày kể từ ngày sinh** (Điều 23 khoản 1 mục 1).
+- Người nước ngoài sinh tại Hàn Quốc mà lưu trú không có tư cách phải được cấp tư cách lưu trú **trong 90 ngày kể từ ngày sinh**.
 - Sổ tay hướng dẫn lưu trú cũng ghi: người sinh trong nước nộp đơn trong 90 ngày kể từ ngày sinh, nếu xuất cảnh trong 90 ngày thì không cần xin phép riêng.
-- Quá hạn có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (tính đến tháng 10/2026, Điều 94 mục 15) và là lý do buộc xuất cảnh (Điều 46 khoản 1 mục 8).
+- Quá hạn có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (tính đến tháng 10/2026) và là lý do buộc xuất cảnh.
 - Trễ càng lâu mức phạt chuẩn càng cao, nên hãy nộp đơn ngay khi nhận ra.
 
 ## 1. Những trường hợp nào phải nộp đơn?
@@ -55,7 +55,7 @@ Vi phạm Điều 23, lưu trú không có tư cách có thể bị phạt tù �
 | 6 tháng đến dưới 1 năm | 5 triệu won |
 | 1 đến dưới 2 năm | 10 triệu won |
 
-Đây là **mức chuẩn**, có thể giảm hoặc tăng trong phạm vi một nửa tùy tuổi, hoàn cảnh, động cơ và khả năng chi trả (Thông tư thi hành Điều 86 khoản 2). Nhận thông báo phải nộp trong 15 ngày (Điều 105 khoản 1), nộp xong thì không bị xử phạt lại về cùng vụ việc (Điều 106). Đây cũng là lý do buộc xuất cảnh (Điều 46 khoản 1 mục 8), nhưng người muốn tự nguyện xuất cảnh bằng chi phí của mình có thể được ra lệnh xuất cảnh (Điều 68 khoản 1 mục 1). Xem so sánh tại [hướng dẫn tự nguyện xuất cảnh](/vi/blog/foreigner-voluntary-departure-2026).
+Đây là **mức chuẩn**, có thể giảm hoặc tăng trong phạm vi một nửa tùy tuổi, hoàn cảnh, động cơ và khả năng chi trả. Nhận thông báo phải nộp trong 15 ngày, nộp xong thì không bị xử phạt lại về cùng vụ việc. Đây cũng là lý do buộc xuất cảnh, nhưng người muốn tự nguyện xuất cảnh bằng chi phí của mình có thể được ra lệnh xuất cảnh. Xem so sánh tại [hướng dẫn tự nguyện xuất cảnh](/vi/blog/foreigner-voluntary-departure-2026).
 
 ## 4. Khi đơn không được chấp nhận
 

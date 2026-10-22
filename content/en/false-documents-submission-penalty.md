@@ -1,6 +1,6 @@
 ---
-title: "Submitted Forged or False Documents With a Stay Application? Penalties Under Article 26"
-description: "Forged documents or false statements in a stay permit application violate Immigration Act Article 26. Penalties, fines and how it differs from an error."
+title: "Submitted Forged or False Documents With a Stay Application? Penalties and Deportation Risk"
+description: "Forged documents or false statements in a stay permit application violate the Immigration Act. Penalties, fines and how it differs from an error."
 date: "2026-10-17"
 category: "Penalties"
 cluster: "cluster"
@@ -14,9 +14,9 @@ faq:
   - q: "Which applications does the false documents rule cover?"
     a: "Article 26 covers applications for permits under Article 20 (activities outside status), Article 21 (workplace change or addition), and Articles 23 to 25 (grant, change and extension of status), among others. It prohibits improper means such as submitting forged or altered documents as proof or submitting an application containing false statements, and also arranging or encouraging such acts."
   - q: "What are the penalty and the fine amounts?"
-    a: "Up to 3 years in prison or a fine of up to KRW 30 million (Article 94, item 17-2). Enforcement Rule Annex 7 standards are KRW 5 million for the first time, KRW 10 million for the second, KRW 20 million for the third and KRW 30 million for the fourth or more when done directly, and from KRW 10 million for one person to KRW 30 million for 20 or more when arranging or encouraging (as of October 2026). They can be reduced or increased within one half."
+    a: "Up to 3 years in prison or a fine of up to KRW 30 million. Enforcement Rule Annex 7 standards are KRW 5 million for the first time, KRW 10 million for the second, KRW 20 million for the third and KRW 30 million for the fourth or more when done directly, and from KRW 10 million for one person to KRW 30 million for 20 or more when arranging or encouraging (as of October 2026). They can be reduced or increased within one half."
   - q: "Is a mistake made by accident punished the same way?"
-    a: "Article 26 targets applying by improper means. Separately, writing or reporting false facts in applications or reports under the Act can bring a fine of up to KRW 500,000 (as of October 2026) under Article 100(3), item 2 (excluding cases under Article 94, item 17-2). Which applies depends on the facts."
+    a: "Article 26 targets applying by improper means. Separately, writing or reporting false facts in applications or reports under the Act can bring a fine of up to KRW 500,000 (as of October 2026) under Article 100(3), item 2 (except where it is a criminal offense). Which applies depends on the facts."
 related:
   - "immigration-law-penalties-guide"
   - "immigration-offense-review-guide"
@@ -28,9 +28,9 @@ When a document is missing for an extension or a change of status, people get an
 
 ## Key points
 
-- In applications for permits on activities outside status, workplace change or addition, grant or change of status, and extension of stay, you must not apply by improper means such as submitting **forged or altered documents** or **an application with false statements** (Article 26, item 1).
-- **Arranging or encouraging** such applications is also prohibited (Article 26, item 2).
-- Violation can bring up to 3 years in prison or a fine of up to KRW 30 million (as of October 2026, Article 94, item 17-2), and for a foreigner it is a ground for deportation (Article 46(1), item 10-2).
+- In applications for permits on activities outside status, workplace change or addition, grant or change of status, and extension of stay, you must not apply by improper means such as submitting **forged or altered documents** or **an application with false statements**.
+- **Arranging or encouraging** such applications is also prohibited.
+- Violation can bring up to 3 years in prison or a fine of up to KRW 30 million (as of October 2026), and for a foreigner it is a ground for deportation.
 - The standard fine rises with the number of violations or people arranged.
 
 ## 1. Which permit applications are covered?
@@ -42,25 +42,25 @@ Article 26 applies to acts connected with **permit applications** under Articles
 
 ## 2. Penalties and standard fines
 
-Article 94, item 17-2 punishes a person who violates Article 26 with up to 3 years in prison or a fine of up to KRW 30 million (as of October 2026). A complaint from the office head is needed for prosecution (Article 101(1)), and the head may notify a penalty fine once guilt is confirmed (Article 102(1)). The Enforcement Rule Annex 7 standard amounts are below.
+Article 94, item 17-2 punishes a person who violates Article 26 with up to 3 years in prison or a fine of up to KRW 30 million (as of October 2026). A complaint from the office head is needed for prosecution, and the head may notify a penalty fine once guilt is confirmed. The Enforcement Rule Annex 7 standard amounts are below.
 
 | Type | Count or people | Standard fine |
 |---|---|---|
-| Applying directly (item 1) | 1st time | KRW 5 million |
+| Applying directly | 1st time | KRW 5 million |
 | | 2nd time | KRW 10 million |
 | | 3rd time | KRW 20 million |
 | | 4th or more | KRW 30 million |
-| Arranging or encouraging (item 2) | 1 person | KRW 10 million |
+| Arranging or encouraging | 1 person | KRW 10 million |
 | | 2 to 4 | KRW 15 million |
 | | 5 to 9 | KRW 20 million |
 | | 10 to 19 | KRW 25 million |
 | | 20 or more | KRW 30 million |
 
-Amounts can be reduced or increased within one half for age, circumstances, motive, result and ability to pay (Enforcement Rule, Article 86(2)). A notice must be paid within 15 days (Article 105(1)), and after payment you are not punished again for the same matter (Article 106).
+Amounts can be reduced or increased within one half for age, circumstances, motive, result and ability to pay. A notice must be paid within 15 days, and after payment you are not punished again for the same matter.
 
 ## 3. Effect on the foreigner
 
-Article 46(1), item 10-2 makes a foreigner who violated Article 26 subject to deportation. A permanent resident is not deported except in the cases the law lists (Article 46(2)). If you already hold a permit, see also the [visa cancellation response guide](/en/blog/foreigner-visa-cancellation-response). A person who wants to leave at their own expense can be given a departure order (Article 68(1), item 1).
+Article 46(1), item 10-2 makes a foreigner who violated Article 26 subject to deportation. A permanent resident is not deported except in the cases the law lists. If you already hold a permit, see also the [visa cancellation response guide](/en/blog/foreigner-visa-cancellation-response). A person who wants to leave at their own expense can be given a departure order.
 
 ## 4. How does it differ from a simple error?
 

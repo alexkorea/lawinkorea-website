@@ -1,6 +1,6 @@
 ---
 title: "Chế tài Luật Xuất nhập cảnh Hàn Quốc"
-description: "Điều 93-3 và Điều 94 đến 100 Luật Quản lý xuất nhập cảnh theo từng tình huống: lao động trái phép, quá hạn, tuyển dụng sai — mức phạt và ảnh hưởng."
+description: "Các điều khoản xử phạt của Luật Quản lý xuất nhập cảnh theo từng tình huống: lao động trái phép, quá hạn, tuyển dụng sai — mức phạt và ảnh hưởng."
 date: "2026-05-01"
 category: "Chế tài·Mức phạt · Penalties"
 cluster: "cluster"
@@ -17,13 +17,13 @@ faq:
   - q: "Vi phạm hoạt động ngoài tư cách lần đầu bị xử lý thế nào?"
     a: "Vi phạm Điều 20 áp dụng Điều 94 — tù đến 3 năm hoặc phạt đến 30 triệu won (tính đến tháng 10/2026). Ngoài số tiền, quan trọng hơn số tiền là kết quả xem xét vi phạm (giữ tư cách hay bị trục xuất)."
   - q: "Phạt bao nhiêu khi quá hạn lưu trú (cư trú bất hợp pháp, overstay)?"
-    a: "Vi phạm Điều 25 (Điều 94 khoản 17) bị tù đến 3 năm hoặc phạt đến 30 triệu won (tính đến tháng 10/2026). Ngoài ra có thể có lệnh xuất cảnh hoặc trục xuất, cấm nhập cảnh; mức xử lý phụ thuộc vào từng vụ việc."
+    a: "Vi phạm Điều 25 bị tù đến 3 năm hoặc phạt đến 30 triệu won (tính đến tháng 10/2026). Ngoài ra có thể có lệnh xuất cảnh hoặc trục xuất, cấm nhập cảnh; mức xử lý phụ thuộc vào từng vụ việc."
   - q: "Chủ sử dụng tuyển người nước ngoài không đủ tư cách bị phạt bao nhiêu?"
-    a: "Vi phạm Điều 18 khoản 3 (Điều 94 khoản 9) — tù đến 3 năm hoặc phạt đến 30 triệu won (tính đến tháng 10/2026). Ngoài ra theo quy định xử phạt kép tại Điều 99-3, pháp nhân cũng bị phạt. Mức phạt tính cộng dồn theo số lao động và tăng nặng khi tái phạm."
+    a: "Vi phạm Điều 18 khoản 3 — tù đến 3 năm hoặc phạt đến 30 triệu won (tính đến tháng 10/2026). Ngoài ra theo quy định xử phạt kép tại Điều 99-3, pháp nhân cũng bị phạt. Mức phạt tính cộng dồn theo số lao động và tăng nặng khi tái phạm."
   - q: "Không mang hộ chiếu khi bị kiểm tra có bị phạt không?"
     a: "Vi phạm nghĩa vụ mang theo và xuất trình hộ chiếu theo Điều 27 áp dụng Điều 98 — phạt đến 1 triệu won (tính đến tháng 10/2026). Đây là mức nhẹ nhất nhưng tích lũy nhiều lần có thể bất lợi tại buổi xem xét."
   - q: "Không khai báo thay đổi nơi cư trú có bị phạt không?"
-    a: "Vi phạm Điều 36 khoản 1 (khai báo thay đổi nơi cư trú) áp dụng Điều 98 — phạt đến 1 triệu won (tính đến tháng 10/2026). Phải khai báo trong 15 ngày kể từ ngày chuyển đến (Điều 36 khoản 1), áp dụng cho người nước ngoài đã đăng ký người nước ngoài."
+    a: "Vi phạm Điều 36 khoản 1 (khai báo thay đổi nơi cư trú) áp dụng Điều 98 — phạt đến 1 triệu won (tính đến tháng 10/2026). Phải khai báo trong 15 ngày kể từ ngày chuyển đến, áp dụng cho người nước ngoài đã đăng ký người nước ngoài."
   - q: "Bị án phạt tiền rồi vẫn phải qua xem xét vi phạm riêng à?"
     a: "Đúng. Xử lý hình sự và xem xét vi phạm xuất nhập cảnh là hai thủ tục độc lập. Dù chỉ bị phạt 1 triệu won, cơ quan xuất nhập cảnh vẫn quyết định việc gia hạn visa, thay đổi tư cách hay trục xuất theo tiêu chuẩn riêng."
 related:
@@ -44,7 +44,7 @@ Bài viết này trích dẫn nguyên văn các điều khoản chế tài tại
 | Điều khoản | Mức xử lý (tính đến tháng 10/2026) | Vi phạm chính |
 |---|---|---|
 | Điều 93-2 | **Tù đến 7 năm** v.v. | Môi giới nhập cảnh, xuất cảnh trái phép theo nhóm... |
-| Điều 93-3 | **Tù đến 5 năm / phạt đến 50 triệu won** | Nhập cảnh không qua kiểm tra nhập cảnh (vi phạm Điều 12), tiết lộ bí mật biết được trong công vụ... |
+| Điều 93-3 | **Tù đến 5 năm / phạt đến 50 triệu won** | Nhập cảnh không qua kiểm tra nhập cảnh, tiết lộ bí mật biết được trong công vụ... |
 | Điều 94 | **Tù đến 3 năm / phạt đến 30 triệu won** | Hoạt động ngoài tư cách, cư trú bất hợp pháp, tuyển dụng trái phép, nhập cảnh không phép |
 | Điều 95 | **Tù đến 1 năm / phạt đến 10 triệu won** | Vi phạm thủ tục nhập cảnh, nghĩa vụ đăng ký, bỏ trốn |
 | Điều 96 | **Phạt đến 10 triệu won** | Vi phạm lệnh rời cảng, từ chối nộp báo cáo |
@@ -121,7 +121,7 @@ Bài viết này trích dẫn nguyên văn các điều khoản chế tài tại
 
 Trông có vẻ nhẹ nhất, nhưng **tích lũy** có thể bất lợi tại buổi xem xét. Ngoài ra, việc không mang thẻ cư trú kết hợp với vi phạm khác có thể bị tăng nặng.
 
-## 7. Quy định xử phạt kép (Điều 99-3) — pháp nhân và chủ sử dụng cũng bị phạt
+## 7. Quy định xử phạt kép — pháp nhân và chủ sử dụng cũng bị phạt
 
 > **Điều 99-3 (Xử phạt kép) — Khi người đại diện của pháp nhân, hoặc đại lý, người làm công và nhân viên khác của pháp nhân hay cá nhân, thực hiện hành vi vi phạm thuộc một trong các khoản sau liên quan đến công việc của pháp nhân hoặc cá nhân đó, thì ngoài việc xử phạt người thực hiện hành vi, còn áp dụng hình phạt tiền của điều khoản tương ứng đối với pháp nhân hoặc cá nhân đó.**
 
@@ -143,7 +143,7 @@ Tuy nhiên, pháp nhân có thể được miễn trách nếu đã thực hiệ
 
 ### Tình huống C: Làm việc bằng visa du lịch (C-3)
 - Điều khoản áp dụng: vi phạm Điều 18 khoản 1 → **Điều 94 khoản 8** (đến 3 năm / 30 triệu won)
-- Xem xét vi phạm: có thể bị trục xuất; người bị trục xuất không được nhập cảnh trong 5 năm kể từ khi xuất cảnh (Điều 11 khoản 1 điểm 6)
+- Xem xét vi phạm: có thể bị trục xuất; người bị trục xuất không được nhập cảnh trong 5 năm kể từ khi xuất cảnh
 
 ### Tình huống D: Cư trú quá hạn
 - Điều khoản áp dụng: vi phạm Điều 25 → **Điều 94 khoản 17** (đến 3 năm / 30 triệu won)
@@ -155,9 +155,9 @@ Tuy nhiên, pháp nhân có thể được miễn trách nếu đã thực hiệ
 
 ### Tình huống F: Tuyển dụng người nước ngoài trái phép (chủ sử dụng)
 - Điều khoản áp dụng: vi phạm Điều 18 khoản 3 → **Điều 94 khoản 9**
-- Mức chuẩn tiền phạt khi có thông báo xử phạt: 3–30 triệu won theo số người và thời gian vi phạm (tính đến tháng 10/2026, Quy tắc thi hành, Bảng 8)
-- Xử phạt kép: pháp nhân cũng có thể bị phạt tiền (Điều 99-3)
-- Hạn chế tuyển dụng người nước ngoài: có thể đến 3 năm (Luật về việc làm của lao động nước ngoài Điều 20)
+- Mức chuẩn tiền phạt khi có thông báo xử phạt: 3–30 triệu won theo số người và thời gian vi phạm (tính đến tháng 10/2026)
+- Xử phạt kép: pháp nhân cũng có thể bị phạt tiền
+- Hạn chế tuyển dụng người nước ngoài: có thể đến 3 năm
 
 ### Tình huống G: Không mang thẻ cư trú (khi bị kiểm tra)
 - Điều khoản áp dụng: vi phạm Điều 27 → **Điều 98 khoản 1**

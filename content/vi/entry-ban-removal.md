@@ -38,7 +38,7 @@ related:
 ## 1. Tổng quan chế độ cấm nhập cảnh
 
 ### Luật Quản lý xuất nhập cảnh, Điều 11 (cấm nhập cảnh)
-Bộ trưởng Bộ Tư pháp có thể cấm nhập cảnh đối với (tóm tắt khoản 1):
+Bộ trưởng Bộ Tư pháp có thể cấm nhập cảnh đối với (tóm tắt):
 - Người nghiện chất ma túy, người có nguy cơ gây hại cho sức khỏe cộng đồng (điểm 1)
 - Người có lý do đáng kể cho thấy có thể gây hại cho lợi ích quốc gia, an toàn công cộng, trật tự kinh tế, xã hội (điểm 3, 4)
 - Người bị trục xuất mà chưa qua 5 năm kể từ khi xuất cảnh (điểm 6)
@@ -46,7 +46,7 @@ Bộ trưởng Bộ Tư pháp có thể cấm nhập cảnh đối với (tóm t
 
 ### Thời hạn cấm nhập cảnh
 
-Luật chỉ quy định trực tiếp rằng người bị trục xuất không được nhập cảnh trong 5 năm kể từ khi xuất cảnh (Điều 11 khoản 1 điểm 6). Thời hạn cấm theo các lý do khác không được ghi trực tiếp trong Luật và phụ thuộc vào từng trường hợp; hãy kiểm tra thông báo của cơ quan có thẩm quyền.
+Luật chỉ quy định trực tiếp rằng người bị trục xuất không được nhập cảnh trong 5 năm kể từ khi xuất cảnh. Thời hạn cấm theo các lý do khác không được ghi trực tiếp trong Luật và phụ thuộc vào từng trường hợp; hãy kiểm tra thông báo của cơ quan có thẩm quyền.
 
 ## 2. Những lý do có thể được xem xét
 

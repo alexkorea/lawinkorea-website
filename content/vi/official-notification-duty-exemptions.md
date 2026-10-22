@@ -1,5 +1,5 @@
 ---
-title: "Đi bệnh viện, trường học có bị báo cho xuất nhập cảnh không: nghĩa vụ thông báo của công chức và trường hợp miễn (Điều 84)"
+title: "Đi bệnh viện, trường học có bị báo cho xuất nhập cảnh không: nghĩa vụ thông báo của công chức và trường hợp miễn"
 description: "Công chức phát hiện người vi phạm phải thông báo, nhưng trường học, y tế công, hỗ trợ nạn nhân có trường hợp miễn. Phạm vi và giới hạn."
 date: "2026-10-20"
 category: "Hình phạt · Penalties"
@@ -12,11 +12,11 @@ keywords:
   - "miễn nghĩa vụ thông báo"
 faq:
   - q: "Công chức phát hiện người vi phạm Luật Xuất nhập cảnh có bắt buộc phải thông báo không?"
-    a: "Điều 84 khoản 1 quy định công chức nhà nước hoặc chính quyền địa phương, khi thi hành nhiệm vụ phát hiện người thuộc lý do buộc xuất cảnh (Điều 46 khoản 1) hoặc bị coi là vi phạm luật này, phải báo ngay cho trưởng cơ quan. Tuy nhiên nếu việc thông báo khiến không đạt được mục đích cơ bản của nhiệm vụ và thuộc lý do do Sắc lệnh Tổng thống quy định thì không phải thông báo."
+    a: "Điều 84 khoản 1 quy định công chức nhà nước hoặc chính quyền địa phương, khi thi hành nhiệm vụ phát hiện người thuộc lý do buộc xuất cảnh hoặc bị coi là vi phạm luật này, phải báo ngay cho trưởng cơ quan. Tuy nhiên nếu việc thông báo khiến không đạt được mục đích cơ bản của nhiệm vụ và thuộc lý do do Sắc lệnh Tổng thống quy định thì không phải thông báo."
   - q: "Những trường hợp nào được miễn?"
     a: "Điều 92-2 Nghị định thi hành quy định: (1) biết thông tin cá nhân tại trường mẫu giáo, tiểu học, trung học liên quan đến đời sống học đường của học sinh nước ngoài; (2) công chức tại cơ sở y tế công biết thông tin bệnh nhân khi làm hoạt động y tế; (3) khi thực hiện biện pháp bảo vệ theo Luật Phúc lợi trẻ em; (4) trong công việc tư vấn, cứu hộ khẩn cấp tại trung tâm tư vấn thanh thiếu niên; (5) công việc do Bộ Tư pháp quy định như cứu trợ nạn nhân tội phạm, bảo vệ nhân quyền khi cần ưu tiên cứu trợ."
   - q: "Được miễn thì vấn đề lưu trú có được giải quyết không?"
-    a: "Không. Miễn nghĩa vụ thông báo chỉ là ngoại lệ đối với nghĩa vụ của công chức đó, không làm cho tình trạng không có tư cách hay quá hạn lưu trú trở nên hợp pháp. Các kênh khác như điều tra tình hình của công chức xuất nhập cảnh (Điều 81) là riêng biệt, vì vậy hãy tìm hiểu cách giải quyết vấn đề lưu trú."
+    a: "Không. Miễn nghĩa vụ thông báo chỉ là ngoại lệ đối với nghĩa vụ của công chức đó, không làm cho tình trạng không có tư cách hay quá hạn lưu trú trở nên hợp pháp. Các kênh khác như điều tra tình hình của công chức xuất nhập cảnh là riêng biệt, vì vậy hãy tìm hiểu cách giải quyết vấn đề lưu trú."
 related:
   - "foreigner-voluntary-departure-2026"
   - "immigration-law-penalties-guide"
@@ -28,8 +28,8 @@ Người nước ngoài có vấn đề về tư cách hoặc thời hạn lưu 
 
 ## Điểm chính
 
-- **Công chức** nhà nước hoặc chính quyền địa phương khi thi hành nhiệm vụ phát hiện người thuộc lý do buộc xuất cảnh hoặc bị coi là vi phạm luật này phải báo ngay cho trưởng cơ quan (Điều 84 khoản 1 phần chính).
-- **Không phải thông báo** nếu việc thông báo khiến không đạt được mục đích cơ bản của nhiệm vụ và thuộc lý do do Sắc lệnh Tổng thống quy định (Điều 84 khoản 1 phần ngoại lệ, Nghị định thi hành Điều 92-2).
+- **Công chức** nhà nước hoặc chính quyền địa phương khi thi hành nhiệm vụ phát hiện người thuộc lý do buộc xuất cảnh hoặc bị coi là vi phạm luật này phải báo ngay cho trưởng cơ quan.
+- **Không phải thông báo** nếu việc thông báo khiến không đạt được mục đích cơ bản của nhiệm vụ và thuộc lý do do Sắc lệnh Tổng thống quy định.
 - Việc miễn chỉ là ngoại lệ đối với nghĩa vụ của công chức đó, không làm cho tình trạng lưu trú trở nên hợp pháp.
 
 ## 1. Nội dung cơ bản của nghĩa vụ
@@ -52,12 +52,12 @@ Công việc do Bộ Tư pháp quy định ở mục 5 nằm trong Điều 70-2 
 
 - **Đối tượng là 'công chức'.** Điều 84 quy định nghĩa vụ của công chức, nên áp dụng ra sao tùy đó là cơ quan nào và thông tin có biết được trong quá trình thi hành nhiệm vụ hay không.
 - **Miễn chỉ trong các công việc được liệt kê.** Áp dụng với thông tin cá nhân biết được liên quan đến công việc đó; tiếp xúc vì mục đích khác có thể không được miễn.
-- **Còn có các kênh khác.** Công chức xuất nhập cảnh có thể điều tra tình hình xem người nước ngoài lưu trú hợp pháp không (Điều 81 khoản 1) và có thể đến gặp người thuê hoặc cho người nước ngoài ở trọ để hỏi.
-- **Vấn đề lưu trú vẫn còn nguyên.** Không có tư cách hoặc quá hạn lưu trú vẫn là vi phạm. Quá hạn lưu trú vi phạm Điều 94 mục 17, có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won, và là lý do buộc xuất cảnh (tính đến tháng 10/2026, Điều 46 khoản 1 mục 8).
+- **Còn có các kênh khác.** Công chức xuất nhập cảnh có thể điều tra tình hình xem người nước ngoài lưu trú hợp pháp không và có thể đến gặp người thuê hoặc cho người nước ngoài ở trọ để hỏi.
+- **Vấn đề lưu trú vẫn còn nguyên.** Không có tư cách hoặc quá hạn lưu trú vẫn là vi phạm. Quá hạn lưu trú vi phạm Điều 94 mục 17, có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won, và là lý do buộc xuất cảnh (tính đến tháng 10/2026).
 
 ## 4. Nên ứng phó thế nào?
 
-Nếu lưu trú có vấn đề, thay vì trông chờ vào trường hợp miễn, nên tìm hiểu trước cách sắp xếp lại tình trạng lưu trú. Người muốn tự nguyện xuất cảnh bằng chi phí của mình có thể được ra lệnh xuất cảnh (Điều 68 khoản 1 mục 1), xem [hướng dẫn tự nguyện xuất cảnh](/vi/blog/foreigner-voluntary-departure-2026). Mức phạt theo loại vi phạm có trong [tổng quan về xử phạt xuất nhập cảnh](/vi/blog/immigration-law-penalties-guide), thủ tục sau khi nhận thông báo có trong [hướng dẫn ứng phó thông báo xử phạt](/vi/blog/immigration-fine-notice-response-2026).
+Nếu lưu trú có vấn đề, thay vì trông chờ vào trường hợp miễn, nên tìm hiểu trước cách sắp xếp lại tình trạng lưu trú. Người muốn tự nguyện xuất cảnh bằng chi phí của mình có thể được ra lệnh xuất cảnh, xem [hướng dẫn tự nguyện xuất cảnh](/vi/blog/foreigner-voluntary-departure-2026). Mức phạt theo loại vi phạm có trong [tổng quan về xử phạt xuất nhập cảnh](/vi/blog/immigration-law-penalties-guide), thủ tục sau khi nhận thông báo có trong [hướng dẫn ứng phó thông báo xử phạt](/vi/blog/immigration-fine-notice-response-2026).
 
 ## 5. Các bước có thể làm ngay
 

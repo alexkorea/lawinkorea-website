@@ -14,9 +14,9 @@ faq:
   - q: "Nộp đơn đổi tư cách rồi thì có thể bắt đầu hoạt động mới chưa?"
     a: "Chưa. Điều 24 khoản 1 quy định muốn làm hoạt động thuộc tư cách khác phải được Bộ trưởng Tư pháp cho phép đổi tư cách 'trước'. Điều luật không nói nộp đơn là được bắt đầu, nên hãy chờ có giấy phép rồi mới làm. Nếu chưa rõ thời điểm, hãy hỏi cơ quan quản lý."
   - q: "Làm hoạt động của tư cách khác khi chưa có phép thì bị xử phạt bao nhiêu?"
-    a: "Theo Điều 94 mục 16, có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won. Thực tế thường giải quyết bằng thông báo xử phạt (beomchikgeum); mức chuẩn tại Phụ lục 7 Thông tư thi hành là 500.000 won nếu dưới 1 tháng, 1 triệu won từ 1 đến 3 tháng, 2 triệu won từ 3 đến 6 tháng, 5 triệu won từ 6 tháng đến 1 năm (tính đến tháng 10/2026). Đây cũng là lý do buộc xuất cảnh (Điều 46 khoản 1 mục 8)."
+    a: "Theo Điều 94 mục 16, có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won. Thực tế thường giải quyết bằng thông báo xử phạt (beomchikgeum); mức chuẩn tại Phụ lục 7 Thông tư thi hành là 500.000 won nếu dưới 1 tháng, 1 triệu won từ 1 đến 3 tháng, 2 triệu won từ 3 đến 6 tháng, 5 triệu won từ 6 tháng đến 1 năm (tính đến tháng 10/2026). Đây cũng là lý do buộc xuất cảnh."
   - q: "Nếu không được cho phép đổi thì phải xuất cảnh ngay không?"
-    a: "Không nhất thiết. Điều 33 khoản 1 Nghị định thi hành quy định khi không cho phép đổi, người nộp đơn được thông báo và có thể tiếp tục lưu trú theo tư cách đã được cấp. Nếu có ghi hạn xuất cảnh thì không quá 14 ngày kể từ ngày cấp (khoản 2). Hãy đọc kỹ thông báo trước."
+    a: "Không nhất thiết. Điều 33 khoản 1 Nghị định thi hành quy định khi không cho phép đổi, người nộp đơn được thông báo và có thể tiếp tục lưu trú theo tư cách đã được cấp. Nếu có ghi hạn xuất cảnh thì không quá 14 ngày kể từ ngày cấp. Hãy đọc kỹ thông báo trước."
 related:
   - "unauthorized-activity-disposition-2026"
   - "immigration-law-penalties-guide"
@@ -28,13 +28,13 @@ Khi công việc ở Hàn Quốc thay đổi, chẳng hạn từ đi học sang 
 
 ## Điểm chính
 
-- Người nước ngoài lưu trú muốn làm **hoạt động thuộc tư cách khác với tư cách hiện tại** phải được Bộ trưởng Tư pháp cho phép đổi **trước** (Điều 24 khoản 1).
-- Người được miễn đăng ký (Điều 31 khoản 1) khi thay đổi thân phận và cần đổi tư cách phải xin phép trong 30 ngày kể từ ngày thay đổi (Điều 24 khoản 2).
-- Làm hoạt động của tư cách khác khi chưa có phép có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (tính đến tháng 10/2026, Điều 94 mục 16), và là lý do buộc xuất cảnh (Điều 46 khoản 1 mục 8).
+- Người nước ngoài lưu trú muốn làm **hoạt động thuộc tư cách khác với tư cách hiện tại** phải được Bộ trưởng Tư pháp cho phép đổi **trước**.
+- Người được miễn đăng ký khi thay đổi thân phận và cần đổi tư cách phải xin phép trong 30 ngày kể từ ngày thay đổi.
+- Làm hoạt động của tư cách khác khi chưa có phép có thể bị phạt tù đến 3 năm hoặc phạt tiền đến 30 triệu won (tính đến tháng 10/2026), và là lý do buộc xuất cảnh.
 
 ## 1. Khi nào cần xin phép đổi?
 
-Tiêu chí của Điều 24 khoản 1 là 'hoạt động'. Muốn làm hoạt động thuộc tư cách khác, vượt ngoài phạm vi tư cách hiện tại cho phép, phải xin phép trước khi làm. Ví dụ người đang học muốn đi làm có thể thuộc trường hợp này. Với việc vượt phạm vi nhẹ hơn còn có giấy phép hoạt động ngoài tư cách (Điều 20); xem [hướng dẫn về hoạt động ngoài tư cách](/vi/blog/unauthorized-activity-disposition-2026) và hướng dẫn của cơ quan quản lý để biết trường hợp nào áp dụng.
+Tiêu chí của Điều 24 khoản 1 là 'hoạt động'. Muốn làm hoạt động thuộc tư cách khác, vượt ngoài phạm vi tư cách hiện tại cho phép, phải xin phép trước khi làm. Ví dụ người đang học muốn đi làm có thể thuộc trường hợp này. Với việc vượt phạm vi nhẹ hơn còn có giấy phép hoạt động ngoài tư cách; xem [hướng dẫn về hoạt động ngoài tư cách](/vi/blog/unauthorized-activity-disposition-2026) và hướng dẫn của cơ quan quản lý để biết trường hợp nào áp dụng.
 
 ## 2. Thủ tục nộp đơn
 
@@ -52,11 +52,11 @@ Theo Điều 30 Nghị định thi hành, nộp **đơn xin đổi tư cách lư
 | 6 tháng đến dưới 1 năm | 5 triệu won |
 | 1 đến dưới 2 năm | 10 triệu won |
 
-Mức này có thể giảm hoặc tăng trong phạm vi một nửa tùy tuổi, hoàn cảnh, động cơ và khả năng chi trả (Thông tư thi hành Điều 86 khoản 2). Thông báo phải nộp trong 15 ngày (Điều 105 khoản 1), nộp xong thì không bị xử phạt lại về cùng vụ việc (Điều 106). Hồ sơ này có thể ảnh hưởng đến các lần xét duyệt sau, xem thêm [tổng quan về xử phạt xuất nhập cảnh](/vi/blog/immigration-law-penalties-guide).
+Mức này có thể giảm hoặc tăng trong phạm vi một nửa tùy tuổi, hoàn cảnh, động cơ và khả năng chi trả. Thông báo phải nộp trong 15 ngày, nộp xong thì không bị xử phạt lại về cùng vụ việc. Hồ sơ này có thể ảnh hưởng đến các lần xét duyệt sau, xem thêm [tổng quan về xử phạt xuất nhập cảnh](/vi/blog/immigration-law-penalties-guide).
 
 ## 4. Khi không được cho phép đổi
 
-Điều 33 khoản 1 Nghị định thi hành quy định khi không cho phép đổi, người nộp đơn được thông báo và có thể tiếp tục lưu trú theo tư cách đã được cấp. Hạn xuất cảnh, nếu có ghi, không quá 14 ngày kể từ ngày cấp (khoản 2). Lý do từ chối cũng có trong [hướng dẫn khi bị từ chối visa](/vi/blog/visa-denial-response).
+Điều 33 khoản 1 Nghị định thi hành quy định khi không cho phép đổi, người nộp đơn được thông báo và có thể tiếp tục lưu trú theo tư cách đã được cấp. Hạn xuất cảnh, nếu có ghi, không quá 14 ngày kể từ ngày cấp. Lý do từ chối cũng có trong [hướng dẫn khi bị từ chối visa](/vi/blog/visa-denial-response).
 
 ## 5. Thứ tự đúng
 

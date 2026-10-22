@@ -14,9 +14,9 @@ faq:
   - q: "Can I start the new activity once I have applied for a change of status?"
     a: "No. Article 24(1) says that to engage in an activity that falls under a different status, you must obtain the Minister of Justice's permit in advance. The article does not say you may start once the application is filed, so begin only after approval. If unsure about timing, confirm with your immigration office."
   - q: "How much is the penalty for acting without permission?"
-    a: "Up to 3 years in prison or a fine of up to KRW 30 million (Article 94, item 16). In practice it is often settled by a penalty fine notice, and the Enforcement Rule Annex 7 standard amounts are KRW 500,000 for under 1 month, KRW 1 million for 1 to 3 months, KRW 2 million for 3 to 6 months and KRW 5 million for 6 months to 1 year (as of October 2026). It is also a ground for deportation (Article 46(1), item 8)."
+    a: "Up to 3 years in prison or a fine of up to KRW 30 million. In practice it is often settled by a penalty fine notice, and the Enforcement Rule Annex 7 standard amounts are KRW 500,000 for under 1 month, KRW 1 million for 1 to 3 months, KRW 2 million for 3 to 6 months and KRW 5 million for 6 months to 1 year (as of October 2026). It is also a ground for deportation."
   - q: "If the change is refused, must I leave immediately?"
-    a: "Not necessarily. Enforcement Decree Article 33(1) says the applicant is notified and may be allowed to stay in the status already granted. If a departure deadline is written, it is within 14 days of issue (paragraph 2). Read the notice first."
+    a: "Not necessarily. Enforcement Decree Article 33(1) says the applicant is notified and may be allowed to stay in the status already granted. If a departure deadline is written, it is within 14 days of issue. Read the notice first."
 related:
   - "unauthorized-activity-disposition-2026"
   - "immigration-law-penalties-guide"
@@ -28,13 +28,13 @@ When your work in Korea changes, for example from study to employment, your stat
 
 ## Key points
 
-- A foreign national who wants to do **an activity that falls under a status other than the current one** must obtain the Minister of Justice's change permit **in advance** (Article 24(1)).
-- A person exempt from registration (Article 31(1)) whose personal status changes must obtain the permit within 30 days of the change (Article 24(2)).
-- Acting without the permit can bring up to 3 years in prison or a fine of up to KRW 30 million (as of October 2026, Article 94, item 16), and is a ground for deportation (Article 46(1), item 8).
+- A foreign national who wants to do **an activity that falls under a status other than the current one** must obtain the Minister of Justice's change permit **in advance**.
+- A person exempt from registration whose personal status changes must obtain the permit within 30 days of the change.
+- Acting without the permit can bring up to 3 years in prison or a fine of up to KRW 30 million (as of October 2026), and is a ground for deportation.
 
 ## 1. When is a change permit needed?
 
-The test in Article 24(1) is the 'activity'. To do an activity that falls under a different status, going beyond what your current status allows, you need a permit before you do it. For example, a student who wants to take up employment may fall here. For lesser departures from the scope of your status there is a separate permit for activities outside status (Article 20); see the [guide on activities outside status](/en/blog/unauthorized-activity-disposition-2026) and your office's guidance to tell which applies.
+The test in Article 24(1) is the 'activity'. To do an activity that falls under a different status, going beyond what your current status allows, you need a permit before you do it. For example, a student who wants to take up employment may fall here. For lesser departures from the scope of your status there is a separate permit for activities outside status; see the [guide on activities outside status](/en/blog/unauthorized-activity-disposition-2026) and your office's guidance to tell which applies.
 
 ## 2. Application procedure
 
@@ -52,11 +52,11 @@ Article 94, item 16 punishes a person who engages in an activity of another stat
 | 6 months to under 1 year | KRW 5 million |
 | 1 to under 2 years | KRW 10 million |
 
-Amounts can be reduced or increased within one half depending on age, circumstances, motive and ability to pay (Enforcement Rule, Article 86(2)). A notice must be paid within 15 days (Article 105(1)), and after payment you are not punished again for the same matter (Article 106). The record can affect later permit reviews, so see the [overview of immigration penalties](/en/blog/immigration-law-penalties-guide).
+Amounts can be reduced or increased within one half depending on age, circumstances, motive and ability to pay. A notice must be paid within 15 days, and after payment you are not punished again for the same matter. The record can affect later permit reviews, so see the [overview of immigration penalties](/en/blog/immigration-law-penalties-guide).
 
 ## 4. If the change is refused
 
-Enforcement Decree Article 33(1) says the applicant is notified when permission is not granted and may be allowed to stay in the status already granted. A departure deadline, if written, is within 14 days of issue (paragraph 2). Reasons for refusal are also covered in the [visa denial guide](/en/blog/visa-denial-response).
+Enforcement Decree Article 33(1) says the applicant is notified when permission is not granted and may be allowed to stay in the status already granted. A departure deadline, if written, is within 14 days of issue. Reasons for refusal are also covered in the [visa denial guide](/en/blog/visa-denial-response).
 
 ## 5. The right order
 

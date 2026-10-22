@@ -26,16 +26,16 @@ const LAW_NAME: Record<SL, Record<LawKey, string>> = {
   ko: { act: "출입국관리법", decree: "출입국관리법 시행령", rule: "출입국관리법 시행규칙", aaa: "행정심판법" },
   en: {
     act: "Immigration Act (출입국관리법)",
-    decree: "Enforcement Decree of the Immigration Act (출입국관리법 시행령)",
-    rule: "Enforcement Rule of the Immigration Act (출입국관리법 시행규칙)",
+    decree: "Enforcement Decree of the Immigration Act",
+    rule: "Enforcement Rule of the Immigration Act",
     aaa: "Administrative Appeals Act (행정심판법)",
   },
-  ja: { act: "出入国管理法（출입국관리법）", decree: "出入国管理法施行令（출입국관리법 시행령）", rule: "出入国管理法施行規則（출입국관리법 시행규칙）", aaa: "行政審判法（행정심판법）" },
-  zh: { act: "出入境管理法（출입국관리법）", decree: "出入境管理法施行令（출입국관리법 시행령）", rule: "出入境管理法施行规则（출입국관리법 시행규칙）", aaa: "行政审判法（행정심판법）" },
+  ja: { act: "出入国管理法（출입국관리법）", decree: "出入国管理法施行令", rule: "出入国管理法施行規則", aaa: "行政審判法（행정심판법）" },
+  zh: { act: "出入境管理法（출입국관리법）", decree: "出入境管理法施行令", rule: "出入境管理法施行规则", aaa: "行政审判法（행정심판법）" },
   vi: {
     act: "Luật Quản lý xuất nhập cảnh (출입국관리법)",
-    decree: "Nghị định thi hành Luật Quản lý xuất nhập cảnh (출입국관리법 시행령)",
-    rule: "Quy tắc thi hành Luật Quản lý xuất nhập cảnh (출입국관리법 시행규칙)",
+    decree: "Nghị định thi hành Luật Quản lý xuất nhập cảnh",
+    rule: "Quy tắc thi hành Luật Quản lý xuất nhập cảnh",
     aaa: "Luật Thẩm phán hành chính (행정심판법)",
   },
 };
@@ -242,7 +242,7 @@ export const SITUATIONS: Record<SituationSlug, Record<SL, SituationContent>> = {
       lead: "출입국·외국인관서에서 출석해 달라는 연락(출석요구서 또는 전화)을 받았을 때 먼저 확인할 내용을 정리했습니다. 절차와 결과는 개별 사건에 따라 달라질 수 있습니다.",
       now: {
         self: [
-          { t: "출입국관리공무원은 강제퇴거 대상 사유(출입국관리법 제46조제1항 각 호)에 해당한다고 의심되는 외국인(용의자)에 대해 사실을 조사할 수 있고, 조사에 필요하면 출석을 요구하여 신문할 수 있습니다.", s: ["a47", "a48_1"] },
+          { t: "출입국관리공무원은 강제퇴거 대상 사유에 해당한다고 의심되는 외국인(용의자)에 대해 사실을 조사할 수 있고, 조사에 필요하면 출석을 요구하여 신문할 수 있습니다.", s: ["a47", "a48_1"] },
           { t: "출석요구는 출석요구의 취지, 출석일시와 장소 등을 적은 출석요구서로 하도록 되어 있으며, 긴급한 경우에는 구두로 할 수 있습니다.", s: ["d58"] },
           { t: "조사를 마치면 관서의 장이 강제퇴거 대상에 해당하는지 심사하여 결정합니다. 해당하지 않는다고 인정되면 그 뜻을 알리도록 되어 있습니다. 즉 출석 요구를 받은 단계에서 결과가 정해진 것은 아닙니다.", s: ["a58", "a59_1"] },
           { t: "출입국사범 조사 결과에 따라 범칙금을 내도록 통고하는 통고처분 절차가 진행될 수도 있습니다.", s: ["a102_1"] },
@@ -298,7 +298,7 @@ export const SITUATIONS: Record<SituationSlug, Record<SL, SituationContent>> = {
       lead: "This page sets out what to check first when an immigration office asks you to appear (by a written summons or by phone). The procedure and outcome may differ depending on the individual case.",
       now: {
         self: [
-          { t: "Immigration officers may investigate a foreign national suspected of falling under a ground for deportation (Immigration Act Art. 46(1)) — the 'suspect' — and, where needed for the investigation, may request the suspect to appear for questioning.", s: ["a47", "a48_1"] },
+          { t: "Immigration officers may investigate a foreign national suspected of falling under a ground for deportation — the 'suspect' — and, where needed for the investigation, may request the suspect to appear for questioning.", s: ["a47", "a48_1"] },
           { t: "The request to appear is to be made by a written summons stating its purpose and the date, time and place; in urgent cases it may be made orally.", s: ["d58"] },
           { t: "After the investigation, the head of the office reviews and decides whether the person falls under a ground for deportation. If not, the person is to be notified. In other words, the outcome is not decided at the stage of receiving the request to appear.", s: ["a58", "a59_1"] },
           { t: "Depending on the investigation, a notice-of-disposition procedure (a written notice to pay a set amount instead of a fine) may also follow.", s: ["a102_1"] },
@@ -354,7 +354,7 @@ export const SITUATIONS: Record<SituationSlug, Record<SL, SituationContent>> = {
       lead: "出入国・外国人官署から出頭を求める連絡（出頭要求書または電話）を受けたときに、まず確認すべき内容を整理しました。手続と結果は個別の事案によって異なる場合があります。",
       now: {
         self: [
-          { t: "出入国管理公務員は、強制退去（強制送還）の対象事由（出入国管理法第46条第1項各号）に該当すると疑われる外国人（容疑者）について事実を調査でき、調査に必要であれば出頭を求めて尋問することができます。", s: ["a47", "a48_1"] },
+          { t: "出入国管理公務員は、強制退去（強制送還）の対象事由に該当すると疑われる外国人（容疑者）について事実を調査でき、調査に必要であれば出頭を求めて尋問することができます。", s: ["a47", "a48_1"] },
           { t: "出頭要求は、要求の趣旨、出頭日時・場所などを記載した出頭要求書で行うこととされており、緊急の場合は口頭で行うことができます。", s: ["d58"] },
           { t: "調査が終わると、官署の長が強制退去の対象に該当するかを審査して決定します。該当しないと認められればその旨を知らせることとされています。つまり、出頭要求を受けた段階で結果が決まっているわけではありません。", s: ["a58", "a59_1"] },
           { t: "出入国事犯の調査結果によっては、反則金の納付を通告する通告処分の手続が進むこともあります。", s: ["a102_1"] },
@@ -410,7 +410,7 @@ export const SITUATIONS: Record<SituationSlug, Record<SL, SituationContent>> = {
       lead: "本页整理了收到出入境·外国人管理机关要求到场的通知（书面到场要求书或电话）时应首先确认的内容。具体程序和结果可能因个案而异。",
       now: {
         self: [
-          { t: "出入境管理公务员可以对涉嫌属于强制出境（强制遣返）事由（出入境管理法第46条第1款各项）的外国人（嫌疑人）调查事实，并在调查需要时要求其到场接受询问。", s: ["a47", "a48_1"] },
+          { t: "出入境管理公务员可以对涉嫌属于强制出境（强制遣返）事由的外国人（嫌疑人）调查事实，并在调查需要时要求其到场接受询问。", s: ["a47", "a48_1"] },
           { t: "到场要求应以载明要求宗旨、到场日期时间和地点等内容的到场要求书进行；紧急情况下可以口头进行。", s: ["d58"] },
           { t: "调查结束后，由机关负责人审查并决定是否属于强制出境对象。若认定不属于，应将该意旨告知本人。也就是说，在收到到场要求的阶段，结果并未确定。", s: ["a58", "a59_1"] },
           { t: "根据出入境违法案件的调查结果，也可能进入通知缴纳罚款相当金额的通告处分程序。", s: ["a102_1"] },
@@ -466,7 +466,7 @@ export const SITUATIONS: Record<SituationSlug, Record<SL, SituationContent>> = {
       lead: "Trang này tóm tắt những điều cần kiểm tra trước tiên khi cơ quan xuất nhập cảnh yêu cầu bạn đến có mặt (bằng giấy yêu cầu hoặc qua điện thoại). Thủ tục và kết quả có thể khác nhau tùy từng trường hợp cụ thể.",
       now: {
         self: [
-          { t: "Công chức quản lý xuất nhập cảnh có thể điều tra người nước ngoài bị nghi thuộc diện trục xuất (Điều 46 khoản 1 Luật Quản lý xuất nhập cảnh) — gọi là 'người bị nghi vấn' — và khi cần cho việc điều tra, có thể yêu cầu người đó có mặt để thẩm vấn.", s: ["a47", "a48_1"] },
+          { t: "Công chức quản lý xuất nhập cảnh có thể điều tra người nước ngoài bị nghi thuộc diện trục xuất — gọi là 'người bị nghi vấn' — và khi cần cho việc điều tra, có thể yêu cầu người đó có mặt để thẩm vấn.", s: ["a47", "a48_1"] },
           { t: "Yêu cầu có mặt được thực hiện bằng giấy yêu cầu có mặt ghi rõ mục đích, ngày giờ và địa điểm; trong trường hợp khẩn cấp có thể yêu cầu bằng lời nói.", s: ["d58"] },
           { t: "Sau khi điều tra xong, người đứng đầu cơ quan sẽ xem xét và quyết định người đó có thuộc diện trục xuất hay không. Nếu xác định là không thuộc diện này, cơ quan phải thông báo cho người đó. Nói cách khác, kết quả chưa được quyết định ở giai đoạn nhận yêu cầu có mặt.", s: ["a58", "a59_1"] },
           { t: "Tùy kết quả điều tra vi phạm xuất nhập cảnh, thủ tục thông báo xử lý (thông báo nộp khoản tiền tương đương tiền phạt) cũng có thể được tiến hành.", s: ["a102_1"] },
@@ -830,7 +830,7 @@ export const SITUATIONS: Record<SituationSlug, Record<SL, SituationContent>> = {
       lead: "출국명령서를 받았을 때 먼저 확인할 내용을 정리했습니다. 출국명령은 강제퇴거(강제추방)명령과 근거 조문이 다른 처분이며, 절차와 결과는 개별 사건에 따라 달라질 수 있습니다.",
       now: {
         self: [
-          { t: "출국명령은 지방출입국·외국인관서의 장이 출입국관리법 제68조제1항 각 호에 해당하는 외국인에게 하는 처분입니다. 예를 들어 강제퇴거 대상에 해당한다고 인정되나 자기비용으로 자진하여 출국하려는 사람, 출국권고를 받고도 이행하지 않은 사람 등이 여기에 해당합니다.", s: ["a68_1"] },
+          { t: "출국명령은 지방출입국·외국인관서의 장이 출입국관리법이 정한 출국명령 사유에 해당하는 외국인에게 하는 처분입니다. 예를 들어 강제퇴거 대상에 해당한다고 인정되나 자기비용으로 자진하여 출국하려는 사람, 출국권고를 받고도 이행하지 않은 사람 등이 여기에 해당합니다.", s: ["a68_1"] },
           { t: "출국명령을 할 때에는 출국명령서를 발급하도록 되어 있습니다.", s: ["a68_2"] },
           { t: "출국명령서를 발급할 때에는 출국기한을 정하고, 주거의 제한이나 그 밖에 필요한 조건을 붙일 수 있으며, 필요하다고 인정하면 이행보증금을 예치하게 할 수 있습니다.", s: ["a68_3"] },
           { t: "강제퇴거명령은 심사 결과 강제퇴거 대상에 해당한다고 인정될 때 하는 별도의 처분입니다.", s: ["a59_2"] },
@@ -887,7 +887,7 @@ export const SITUATIONS: Record<SituationSlug, Record<SL, SituationContent>> = {
       lead: "This page sets out what to check first after receiving a departure order (exit order, 출국명령서). A departure order is a different measure from a deportation order, with a different legal basis, and the procedure and outcome may differ depending on the individual case.",
       now: {
         self: [
-          { t: "A departure order is issued by the head of the regional immigration office to a foreign national who falls under one of the items of Immigration Act Art. 68(1) — for example, a person found to fall under a ground for deportation who wishes to leave voluntarily at their own expense, or a person who did not comply with a departure recommendation.", s: ["a68_1"] },
+          { t: "A departure order is issued by the head of the regional immigration office to a foreign national who falls under a ground for a departure order under the Immigration Act — for example, a person found to fall under a ground for deportation who wishes to leave voluntarily at their own expense, or a person who did not comply with a departure recommendation.", s: ["a68_1"] },
           { t: "When a departure order is made, a written departure order is to be issued.", s: ["a68_2"] },
           { t: "When issuing the departure order, the office sets a departure deadline, may attach conditions such as a restriction on residence, and, if deemed necessary, may require a performance deposit.", s: ["a68_3"] },
           { t: "A deportation order is a separate measure made when, after review, a person is found to fall under a ground for deportation.", s: ["a59_2"] },
@@ -944,7 +944,7 @@ export const SITUATIONS: Record<SituationSlug, Record<SL, SituationContent>> = {
       lead: "出国命令書を受け取ったときに、まず確認すべき内容を整理しました。出国命令は強制退去（強制送還）命令とは根拠条文が異なる処分であり、手続と結果は個別の事案によって異なる場合があります。",
       now: {
         self: [
-          { t: "出国命令は、地方出入国・外国人官署の長が出入国管理法第68条第1項各号に該当する外国人に対して行う処分です。例えば、強制退去の対象に該当すると認められるものの自己の費用で自ら出国しようとする人、出国勧告を受けても履行しなかった人などが該当します。", s: ["a68_1"] },
+          { t: "出国命令は、地方出入国・外国人官署の長が出入国管理法が定める出国命令事由に該当する外国人に対して行う処分です。例えば、強制退去の対象に該当すると認められるものの自己の費用で自ら出国しようとする人、出国勧告を受けても履行しなかった人などが該当します。", s: ["a68_1"] },
           { t: "出国命令をするときは、出国命令書を発給することとされています。", s: ["a68_2"] },
           { t: "出国命令書を発給するときは出国期限を定め、住居の制限その他必要な条件を付すことができ、必要と認めるときは履行保証金を預託させることができます。", s: ["a68_3"] },
           { t: "強制退去命令は、審査の結果、強制退去の対象に該当すると認められたときに行う別の処分です。", s: ["a59_2"] },
@@ -1001,7 +1001,7 @@ export const SITUATIONS: Record<SituationSlug, Record<SL, SituationContent>> = {
       lead: "本页整理了收到出境命令书时应首先确认的内容。出境命令与强制出境（强制遣返）命令是法律依据不同的处分，具体程序和结果可能因个案而异。",
       now: {
         self: [
-          { t: "出境命令是地方出入境·外国人管理机关负责人对属于出入境管理法第68条第1款各项情形的外国人作出的处分。例如：被认定属于强制出境对象但愿意自费自行出境的人、收到出境劝告后仍未履行的人等。", s: ["a68_1"] },
+          { t: "出境命令是地方出入境·外国人管理机关负责人对属于出入境管理法规定的出境命令事由的外国人作出的处分。例如：被认定属于强制出境对象但愿意自费自行出境的人、收到出境劝告后仍未履行的人等。", s: ["a68_1"] },
           { t: "作出出境命令时，应签发出境命令书。", s: ["a68_2"] },
           { t: "签发出境命令书时，应规定出境期限，可以附加居住限制或其他必要条件；认为必要时，可以要求缴存履行保证金。", s: ["a68_3"] },
           { t: "强制出境命令是经审查认定属于强制出境对象时作出的另一种处分。", s: ["a59_2"] },
@@ -1058,7 +1058,7 @@ export const SITUATIONS: Record<SituationSlug, Record<SL, SituationContent>> = {
       lead: "Trang này tóm tắt những điều cần kiểm tra trước tiên khi nhận lệnh xuất cảnh (출국명령서). Lệnh xuất cảnh là biện pháp khác với lệnh trục xuất, có căn cứ pháp lý khác, và thủ tục, kết quả có thể khác nhau tùy từng trường hợp cụ thể.",
       now: {
         self: [
-          { t: "Lệnh xuất cảnh do người đứng đầu cơ quan xuất nhập cảnh địa phương ban hành đối với người nước ngoài thuộc một trong các điểm của Điều 68 khoản 1 Luật Quản lý xuất nhập cảnh — ví dụ người được xác định thuộc diện trục xuất nhưng muốn tự xuất cảnh bằng chi phí của mình, hoặc người đã nhận khuyến nghị xuất cảnh nhưng không thực hiện.", s: ["a68_1"] },
+          { t: "Lệnh xuất cảnh do người đứng đầu cơ quan xuất nhập cảnh địa phương ban hành đối với người nước ngoài thuộc một trong các trường hợp ra lệnh xuất cảnh theo Luật Quản lý xuất nhập cảnh — ví dụ người được xác định thuộc diện trục xuất nhưng muốn tự xuất cảnh bằng chi phí của mình, hoặc người đã nhận khuyến nghị xuất cảnh nhưng không thực hiện.", s: ["a68_1"] },
           { t: "Khi ra lệnh xuất cảnh, cơ quan phải cấp văn bản lệnh xuất cảnh.", s: ["a68_2"] },
           { t: "Khi cấp lệnh xuất cảnh, cơ quan ấn định thời hạn xuất cảnh, có thể kèm điều kiện như hạn chế nơi ở, và nếu thấy cần thiết có thể yêu cầu ký quỹ bảo đảm thực hiện.", s: ["a68_3"] },
           { t: "Lệnh trục xuất là một biện pháp riêng, được ban hành khi qua xem xét xác định người đó thuộc diện trục xuất.", s: ["a59_2"] },
