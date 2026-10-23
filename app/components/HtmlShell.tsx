@@ -1,5 +1,6 @@
 import { SITE } from "../lib/constants";
 import Webfonts from "@/components/Webfonts";
+import { RSS_TITLE, rssLocale, rssPath } from "../lib/rss-meta";
 
 // <html>·<head>·<body> 셸 — 원래 app/layout.tsx 에 있던 것을 그대로 옮겼다(LAW-V1 P0-3).
 // <html lang> 을 서버 HTML 에서 언어별로 내보내려면 [locale]/layout 이 <html> 을 그려야 하므로,
@@ -15,6 +16,9 @@ export default function HtmlShell({
     <html lang={lang} className="h-full antialiased">
       <head>
         <Webfonts />
+        {RSS_TITLE[rssLocale(lang)] && (
+          <link rel="alternate" type="application/rss+xml" title={RSS_TITLE[rssLocale(lang)].title} href={`${SITE.url}${rssPath(rssLocale(lang))}`} />
+        )}
         {/* Organization JSON-LD 는 [locale]/layout 의 siteGraph(@id #organization) 한 곳에서만 선언한다.
             여기서 같은 @id 로 ProfessionalService 를 또 내면 엔티티가 2번 선언된다(I3b, 맥7 2026-10-03). */}
       </head>
