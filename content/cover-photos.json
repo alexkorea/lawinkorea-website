@@ -63,5 +63,7 @@
   "conditional-entry-permit-guide": { "pexels_id": 2069, "author": "ClickerHappy",
     "alt": { "ko": "수하물 수취장과 입국장 안내판 옆을 걷는 사람들", "en": "People walking past baggage hall and arrivals hall signs", "zh": "走过行李厅和到达厅指示牌的人群", "ja": "手荷物受取所と到着ホールの案内の横を歩く人々", "vi": "Người đi qua biển chỉ dẫn sảnh hành lý và sảnh đến" } },
   "foreigner-political-activity-ban": { "pexels_id": 15904364, "author": "Miguel González",
-    "alt": { "ko": "집회에서 확성기를 높이 든 손", "en": "Hand holding a megaphone aloft at a rally", "zh": "集会上高举扩音器的手", "ja": "集会で拡声器を掲げる手", "vi": "Bàn tay giơ cao loa phóng thanh tại cuộc tụ tập" } }
+    "alt": { "ko": "집회에서 확성기를 높이 든 손", "en": "Hand holding a megaphone aloft at a rally", "zh": "集会上高举扩音器的手", "ja": "集会で拡声器を掲げる手", "vi": "Bàn tay giơ cao loa phóng thanh tại cuộc tụ tập" } },
+  "lodging-foreigner-passport-data-duty": { "pexels_id": 7820321, "author": "Mikhail Nilov",
+    "alt": { "ko": "호텔 직원이 투숙객에게 키 카드를 건네는 모습", "en": "Hotel receptionist handing a key card to a guest", "zh": "酒店前台递给客人房卡", "ja": "ホテルの受付が宿泊客にカードキーを渡す様子", "vi": "Lễ tân khách sạn đưa thẻ phòng cho khách" } }
 }

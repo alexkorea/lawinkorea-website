@@ -207,6 +207,19 @@
       ],
       "at": "2026-10-22T10:02:52.515Z",
       "batch": "20261007"
+    },
+    {
+      "slug": "lodging-foreigner-passport-data-duty",
+      "date": "2026-10-23",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-10-23T10:00:43.565Z",
+      "batch": "20261007"
     }
   ],
   "rejected": []
