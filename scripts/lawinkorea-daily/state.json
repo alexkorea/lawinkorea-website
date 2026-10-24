@@ -220,6 +220,19 @@
       ],
       "at": "2026-10-23T10:00:43.565Z",
       "batch": "20261007"
+    },
+    {
+      "slug": "foreigner-departure-suspension-guide",
+      "date": "2026-10-24",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-10-24T10:02:36.865Z",
+      "batch": "LAW-BANK-1021"
     }
   ],
   "rejected": []
