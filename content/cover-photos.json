@@ -67,5 +67,7 @@
   "lodging-foreigner-passport-data-duty": { "pexels_id": 7820321, "author": "Mikhail Nilov",
     "alt": { "ko": "호텔 직원이 투숙객에게 키 카드를 건네는 모습", "en": "Hotel receptionist handing a key card to a guest", "zh": "酒店前台递给客人房卡", "ja": "ホテルの受付が宿泊客にカードキーを渡す様子", "vi": "Lễ tân khách sạn đưa thẻ phòng cho khách" } },
   "foreigner-departure-suspension-guide": { "pexels_id": 4401167, "author": "Tiago Alvar",
-    "alt": { "ko": "빈 좌석이 늘어선 공항 터미널과 유리창 너머의 비행기", "en": "Airport terminal with empty seats and an airplane beyond the glass", "zh": "排列着空座椅的机场航站楼与玻璃窗外的飞机", "ja": "空席が並ぶ空港ターミナルとガラス越しの飛行機", "vi": "Nhà ga sân bay với hàng ghế trống và máy bay sau ô kính" } }
+    "alt": { "ko": "빈 좌석이 늘어선 공항 터미널과 유리창 너머의 비행기", "en": "Airport terminal with empty seats and an airplane beyond the glass", "zh": "排列着空座椅的机场航站楼与玻璃窗外的飞机", "ja": "空席が並ぶ空港ターミナルとガラス越しの飛行機", "vi": "Nhà ga sân bay với hàng ghế trống và máy bay sau ô kính" } },
+  "permanent-resident-deportation-exception": { "pexels_id": 7054757, "author": "Kindel Media",
+    "alt": { "ko": "안경과 함께 책상 위에 쌓인 서류 더미", "en": "A stack of papers on a desk with a pair of glasses", "zh": "办公桌上叠放的文件和一副眼镜", "ja": "眼鏡とともに机の上に積まれた書類の束", "vi": "Chồng giấy tờ trên bàn cùng một chiếc kính" } }
 }
