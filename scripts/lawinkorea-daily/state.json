@@ -246,6 +246,19 @@
       ],
       "at": "2026-10-25T10:02:38.026Z",
       "batch": "LAW-BANK-1021"
+    },
+    {
+      "slug": "student-part-time-work-permit-hours",
+      "date": "2026-10-26",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-10-26T10:02:25.203Z",
+      "batch": "LAW-BANK-1021"
     }
   ],
   "rejected": []
