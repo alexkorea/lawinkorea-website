@@ -14,7 +14,10 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const RE = /(?<!日本の)行政[書书]士|\b[Ss][Cc][Rr][Ii][Vv][Ee][Nn][Ee][Rr][Ss]?\b|Administrative Agency Office|ADMINISTRATIVE AGENCY\b|Haengjeongsa Act|(?<!Certified )\bAdministrative Agents? Act\b|Certified Administrative Agent Act\b/gu
+// RSC 스트림은 문장을 self.__next_f.push 경계에서 끊는다('…Certified "])</script><script>self.__next_f.push([1,"Administrative Agents Act') — 이어 붙여서 본다.
+const RSC_SPLIT = /"\]\)<\/script><script>self\.__next_f\.push\(\[1,"/g
 export function findGyoseishiViolations(text) {
+  text = text.replace(RSC_SPLIT, '')
   return [...text.matchAll(RE)].map((m) => text.slice(Math.max(0, m.index - 14), m.index + 18).replace(/\s+/g, ' '))
 }
 
