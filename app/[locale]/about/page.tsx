@@ -50,7 +50,7 @@ const CONTENT: Record<L, { title: string; intro: string; points: { label: string
   },
   ja: {
     title: "事務所紹介",
-    intro: "サンシャイン行政書士事務所は、外国人の出入国事犯審査対応を専門とする行政書士事務所です。飲酒運転、刑事事件、不法就労、出国命令など在留危機の状況で、外国人の権益保護のために活動しています。",
+    intro: "サンシャイン行政士事務所は、外国人の出入国事犯審査対応を専門とする行政士事務所です。飲酒運転、刑事事件、不法就労、出国命令など在留危機の状況で、外国人の権益保護のために活動しています。",
     points: [
       { label: "専門分野", desc: "外国人出入国事犯審査疎明対応、在留資格維持支援、出国命令・強制退去異議申し立て補助" },
       { label: "対応言語", desc: "韓国語、英語、日本語、中国語、ベトナム語" },
@@ -91,7 +91,7 @@ const INFO: Record<L, { title: string; name: string; rep: string; repValue: stri
   ko: { title: "사무소 등록 정보", name: "상호", rep: "대표 행정사", repValue: "한경택", addr: "주소", tel: "전화", biz: "사업자등록번호", hours: "상담 시간", hoursValue: "월~금 09:30–17:30 (토·일·공휴일 휴무)", langs: "상담 언어", langsValue: "한국어 · 영어 · 일본어 · 중국어 · 베트남어" },
   en: { title: "Registered office details", name: "Registered name", rep: "Representative administrative scrivener", repValue: "한경택", addr: "Address", tel: "Phone", biz: "Business registration no.", hours: "Hours", hoursValue: "Mon–Fri 09:30–17:30 KST (closed weekends and public holidays)", langs: "Consultation languages", langsValue: "Korean · English · Japanese · Chinese · Vietnamese" },
   zh: { title: "事务所登记信息", name: "商号", rep: "代表行政士", repValue: "한경택", addr: "地址", tel: "电话", biz: "营业执照号码", hours: "咨询时间", hoursValue: "周一至周五 09:30–17:30（周末及法定节假日休息）", langs: "咨询语言", langsValue: "韩语 · 英语 · 日语 · 中文 · 越南语" },
-  ja: { title: "事務所の登録情報", name: "商号", rep: "代表行政書士", repValue: "한경택", addr: "所在地", tel: "電話", biz: "事業者登録番号", hours: "相談時間", hoursValue: "月〜金 09:30–17:30（土日祝休み）", langs: "相談言語", langsValue: "韓国語 · 英語 · 日本語 · 中国語 · ベトナム語" },
+  ja: { title: "事務所の登録情報", name: "商号", rep: "代表行政士", repValue: "한경택", addr: "所在地", tel: "電話", biz: "事業者登録番号", hours: "相談時間", hoursValue: "月〜金 09:30–17:30（土日祝休み）", langs: "相談言語", langsValue: "韓国語 · 英語 · 日本語 · 中国語 · ベトナム語" },
   vi: { title: "Thông tin đăng ký văn phòng", name: "Tên đăng ký", rep: "Hành chính sĩ đại diện", repValue: "한경택", addr: "Địa chỉ", tel: "Điện thoại", biz: "Số đăng ký kinh doanh", hours: "Giờ tư vấn", hoursValue: "Thứ Hai–Thứ Sáu 09:30–17:30 (nghỉ cuối tuần và ngày lễ)", langs: "Ngôn ngữ tư vấn", langsValue: "Tiếng Hàn · tiếng Anh · tiếng Nhật · tiếng Trung · tiếng Việt" },
 };
 
@@ -173,9 +173,9 @@ const FAQ: Record<L, { q: string; a: string }[]> = {
     { q: "费用如何确定？", a: "费用因案件而异，我们会在咨询中了解您的情况后再具体说明。本网站不公布固定价格。" },
   ],
   ja: [
-    { q: "このサイトはどこが運営していますか？", a: "ソウル中区退渓路324、Sungwooビル3階にある行政書士事務所が運営しています。出入国事犯審査や在留に関する処分を受けた外国人のために、必要な書類の作成・提出を支援しています。" },
-    { q: "出入国事犯審査で、行政書士は何を手伝えますか？", a: "韓国行政士法により、行政機関に提出する書類の作成、事実証明に関する書類の作成、行政機関の業務に関する書類の翻訳、作成した書類の提出代行ができます。意見書・反省文・嘆願書の作成支援もこの範囲で行います。" },
-    { q: "刑事裁判の弁護もお願いできますか？", a: "できません。刑事弁護と訴訟代理は行政書士の業務範囲外ですので、お引き受けしていません。" },
+    { q: "このサイトはどこが運営していますか？", a: "ソウル中区退渓路324、Sungwooビル3階にある行政士事務所が運営しています。出入国事犯審査や在留に関する処分を受けた外国人のために、必要な書類の作成・提出を支援しています。" },
+    { q: "出入国事犯審査で、行政士は何を手伝えますか？", a: "韓国行政士法により、行政機関に提出する書類の作成、事実証明に関する書類の作成、行政機関の業務に関する書類の翻訳、作成した書類の提出代行ができます。意見書・反省文・嘆願書の作成支援もこの範囲で行います。" },
+    { q: "刑事裁判の弁護もお願いできますか？", a: "できません。刑事弁護と訴訟代理は行政士の業務範囲外ですので、お引き受けしていません。" },
     { q: "出国命令や強制退去命令に対する行政審判の代理はできますか？", a: "行政審判の代理は行わず、行政審判請求書の作成・提出を支援します。韓国の行政審判法では、処分があったことを知った日から90日以内に書面で請求しなければなりません。" },
     { q: "労働問題や税金の問題も相談できますか？", a: "労働関係法令に基づく申告・陳情などの代理は公認労務士、租税の申告・不服申立ての代理は税務士の業務です。こうした手続きが必要な場合は、該当する専門家をご案内します。" },
     { q: "どの言語で相談できますか？", a: "韓国語・英語・日本語・中国語・ベトナム語で相談できます。" },

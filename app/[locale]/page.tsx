@@ -43,7 +43,7 @@ const titles: Record<L, string> = {
 const descriptions: Record<L, string> = {
   ko: "형사사건이나 출입국법 위반 이후의 체류 문제는 형사처분과 별도로 검토될 수 있습니다. 음주운전·폭행·마약·불법취업·출국명령·강제퇴거 등 상황별 사범심사 대응과 소명자료 준비를 안내합니다.",
   en: "Certified administrative scrivener specializing in immigration offense review — DUI, criminal cases, visa crisis. Sunshine Administrative Agency Office, Seoul.",
-  ja: "飲酒運転・刑事事件・出入国法違反の事犯審査専門行政書士。サンシャイン行政書士事務所、ソウル。",
+  ja: "飲酒運転・刑事事件・出入国法違反の事犯審査専門行政士。サンシャイン行政士事務所、ソウル。",
   zh: "专业行政士，专注出入境违规审查——酒驾、刑事案件、签证危机。Sunshine行政士事务所，首尔。",
   vi: "Chuyên viên hành chính chuyên xem xét vi phạm xuất nhập cảnh — lái xe say rượu, vụ án hình sự, khủng hoảng visa. Văn phòng Sunshine, Seoul.",
 };
@@ -494,7 +494,7 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
       p3: "正確な判断のためには、事件記録と在留記録をまず確認し、どのような事情をどのように説明するかを事前に整理することが重要です。実際の適用は管轄出入国管署の審査によって異なります。",
     },
     how: {
-      title: "サンシャイン行政書士事務所のサポート内容",
+      title: "サンシャイン行政士事務所のサポート内容",
       items: [
         "担当行政士が事件の概要と在留状況を一緒に確認します。",
         "出入国提出用の疎明資料・陳述書・理由書・嘆願書等の行政書類作成をサポートします。",
@@ -502,10 +502,10 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
         "提出資料と相談内容はセキュリティに配慮して管理します。",
         "韓国語・英語・日本語・中国語・ベトナム語での相談に対応しています。",
       ],
-      note: "刑事裁判の弁護を含む訴訟・裁判の代理は行いません(行政書士の業務範囲外)。",
+      note: "刑事裁判の弁護を含む訴訟・裁判の代理は行いません(行政士の業務範囲外)。",
     },
     scope: {
-      title: "行政書士にできること・できないこと(出入国事犯審査)",
+      title: "行政士にできること・できないこと(出入国事犯審査)",
       body: "韓国の行政士法に基づき、出入国官署に提出する書類の作成・提出代行と、事実関係を証明する書類の作成を行います。事犯審査に関する説明資料、意見書・反省文・嘆願書の作成支援や、行政審判請求書の作成・提出支援がこの範囲です。訴訟・裁判の代理は行いません。相談は韓国語・英語・日本語・中国語に対応しています。",
     },
     faq: {

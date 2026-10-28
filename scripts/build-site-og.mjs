@@ -4,7 +4,8 @@
  * 자체 og 이미지가 없는 페이지(홈·위반/처분 유형·절차·상담 등)가 공유될 때 쓰인다.
  * 배경 = 블로그 og 에 이미 쓰고 있는 사진(Pexels 7054505, Kindel Media — 서류 작성). QR 이미지는 쓰지 않는다.
  * 실브라우저로 그린다(build-fines-og.mjs 와 같은 방식) — CJK·베트남어 글자 폴백 문제 방지.
- *   node scripts/build-site-og.mjs   → public/og/site-{ko,en,ja,zh,vi}.jpg
+ *   node scripts/build-site-og.mjs [언어…]   → public/og/site-{ko,en,ja,zh,vi}.jpg (언어를 주면 그 언어만 다시 그린다)
+ * 다시 그린 언어는 app/lib/seo.ts OG_VER 의 값을 올릴 것(엣지·SNS 가 옛 바이트를 계속 준다).
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -22,7 +23,7 @@ const BG = "data:image/jpeg;base64," + fs.readFileSync(path.join(ROOT, "scripts/
 const T = {
   ko: { kicker: "LAW IN KOREA · 선샤인행정사사무소", h1: "외국인 출입국 사범심사,<br>체류 자격을 지키는 첫 단계", sub: "음주운전·형사사건·출국명령·강제퇴거 상황별 준비 안내" },
   en: { kicker: "LAW IN KOREA · SUNSHINE ADMINISTRATIVE AGENCY", h1: "Immigration offense review<br>for foreigners in Korea", sub: "DUI · criminal cases · departure orders · deportation" },
-  ja: { kicker: "LAW IN KOREA · サンシャイン行政書士事務所", h1: "外国人の出入国事犯審査<br>在留資格を守る第一歩", sub: "飲酒運転・刑事事件・出国命令・強制退去の状況別ガイド" },
+  ja: { kicker: "LAW IN KOREA · サンシャイン行政士事務所", h1: "外国人の出入国事犯審査<br>在留資格を守る第一歩", sub: "飲酒運転・刑事事件・出国命令・強制退去の状況別ガイド" },
   zh: { kicker: "LAW IN KOREA · Sunshine行政士事务所", h1: "外国人出入境违规审查<br>守护居留资格的第一步", sub: "酒驾·刑事案件·出境命令·强制驱逐 分情况指南" },
   vi: { kicker: "LAW IN KOREA · VĂN PHÒNG SUNSHINE", h1: "Xem xét vi phạm xuất nhập cảnh<br>cho người nước ngoài tại Hàn Quốc", sub: "Lái xe say rượu · vụ án hình sự · lệnh xuất cảnh · trục xuất" },
 };
@@ -58,7 +59,8 @@ function html(l) {
 
 const browser = await puppeteer.launch({ executablePath: CHROME, headless: "new", args: ["--no-sandbox"] });
 fs.mkdirSync(OUT, { recursive: true });
-for (const l of Object.keys(T)) {
+const ONLY = process.argv.slice(2);
+for (const l of Object.keys(T).filter((x) => !ONLY.length || ONLY.includes(x))) {
   const page = await browser.newPage();
   await page.setViewport({ width: 1200, height: 630, deviceScaleFactor: 1 });
   await page.setContent(html(l), { waitUntil: "load" });

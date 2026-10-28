@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && node scripts/seo-gate.mjs && node scripts/nocite-gate.mjs .next/server/app",
+    "build": "next build && node scripts/seo-gate.mjs && node scripts/nocite-gate.mjs .next/server/app && node scripts/gyoseishi-gate.mjs .next/server/app",
     "start": "next start",
     "blog:data": "node scripts/build-blog-data.mjs",
-    "prebuild": "node scripts/qr-hash-gate.mjs && node scripts/nocite-src.mjs && node scripts/build-blog-data.mjs",
+    "prebuild": "node scripts/qr-hash-gate.mjs && node scripts/nocite-src.mjs && node scripts/gyoseishi-gate.mjs && node scripts/build-blog-data.mjs",
     "seo:gate": "node scripts/seo-gate.mjs",
     "nocite:gate": "node scripts/nocite-src.mjs && node scripts/nocite-gate.mjs .next/server/app"
   },

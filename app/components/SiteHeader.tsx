@@ -36,7 +36,7 @@ const BRAND_BY_LOCALE: Record<string, string> = {
   ko: COMPANY.brandKo,
   en: "Sunshine · Law in Korea",
   zh: "Sunshine行政士事务所",
-  ja: "サンシャイン行政書士事務所",
+  ja: "サンシャイン行政士事務所",
   vi: "Sunshine · Law in Korea",
 };
 

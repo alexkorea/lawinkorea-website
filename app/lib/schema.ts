@@ -65,7 +65,7 @@ const REP_JOB_TITLE: Record<string, string> = {
   ko: "행정사 · 대표",
   en: "Certified Administrative Scrivener, Principal",
   zh: "行政士 · 代表",
-  ja: "行政書士 · 代表",
+  ja: "行政士 · 代表",
   vi: "Hành chính sĩ · Giám đốc",
 };
 

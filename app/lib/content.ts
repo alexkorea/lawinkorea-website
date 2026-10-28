@@ -86,7 +86,7 @@ export const HERO: Record<
     h1_a: "事犯審査の通知が届いたら、",
     h1_b: "落ち着いてください。",
     h1_c: "在留資格を守る最初のステップです。",
-    sub: "飲酒運転・刑事事件・出入国管理法違反 — 初期対応資料から出入国提出書類まで、行政書士が冷静に伴走します。",
+    sub: "飲酒運転・刑事事件・出入国管理法違反 — 初期対応資料から出入国提出書類まで、行政士が冷静に伴走します。",
     cta_primary: "相談を申し込む",
     cta_secondary: "チェックリストを見る",
     trust: ["4 か国語対応", "ソウル本事務所"],
@@ -230,7 +230,7 @@ export const STEPS = [
       ko: "전문 행정사의 검토 및 최종 서류팩 제작",
       en: "Review by certified scrivener and final document pack",
       zh: "专业行政士审核并制作最终材料包",
-      ja: "専門行政書士の検討と最終書類パック作成",
+      ja: "専門行政士の検討と最終書類パック作成",
     },
   },
   {
@@ -447,7 +447,7 @@ export const SECTION_LABELS: Record<
     processIntro:
       "最初の通話から出席対応まで、どの段階も飛ばしません。全ての依頼人に進行状況をリアルタイムで確認できる専用ダッシュボードを提供します。",
     processDisclaimer:
-      "本事務所は行政書士法に基づき書類作成および提出代行を行います。法廷代理・刑事弁護などの訴訟・裁判の代理は行いません(行政書士の業務範囲外)。",
+      "本事務所は行政士法に基づき書類作成および提出代行を行います。法廷代理・刑事弁護などの訴訟・裁判の代理は行いません(行政士の業務範囲外)。",
     servicesEyebrow: "専門行政サービス · Services",
     servicesTitle: "単なる代行ではなく、戦略的行政対応",
     quietEyebrow: "A QUIET WORD ON THIS",
@@ -513,18 +513,18 @@ export const TEAM = [
   {
     name: "한경택",
     nameEn: "한경택",
-    role: { ko: "대표 행정사", en: "Principal Scrivener", zh: "代表行政士", ja: "代表行政書士" },
+    role: { ko: "대표 행정사", en: "Principal Scrivener", zh: "代表行政士", ja: "代表行政士" },
     note: {
       ko: "대한민국 행정사 자격",
       en: "Licensed administrative scrivener",
       zh: "韩国行政士资格",
-      ja: "韓国行政書士資格",
+      ja: "韓国行政士資格",
     },
   },
   {
     name: "전문 팀",
     nameEn: "Specialist Team",
-    role: { ko: "전임 행정사", en: "Senior Scrivener", zh: "专责行政士", ja: "専任行政書士" },
+    role: { ko: "전임 행정사", en: "Senior Scrivener", zh: "专责行政士", ja: "専任行政士" },
     note: {
       ko: "외국인 정책 전문 · 4개 국어 가능",
       en: "Foreign policy specialists · Four languages",
@@ -574,7 +574,7 @@ export const FOOTER: Record<
   },
   ja: {
     disclaimer:
-      "本事務所は専門行政書士事務所です。法廷代理および刑事弁護は行政書士の業務範囲外であり、本所は出入国行政手続および書類代行を専門としています。",
+      "本事務所は専門行政士事務所です。法廷代理および刑事弁護は行政士の業務範囲外であり、本所は出入国行政手続および書類代行を専門としています。",
     columns: [
       { h: "主要サービス", items: ["飲酒運転事犯審査", "刑事事件ビザ防御", "入国禁止解除申請", "在留資格変更·延長"] },
       { h: "企業顧客", items: ["E-7 / E-9 コンサル", "外国人採用事犯対応", "企業顧問契約", "コンプライアンス点検"] },

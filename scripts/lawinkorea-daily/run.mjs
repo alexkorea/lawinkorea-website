@@ -38,6 +38,7 @@ import { fileURLToPath } from 'node:url'
 import { spawnSync } from 'node:child_process'
 import { createRequire } from 'node:module'
 import { findPriceViolations, findSanctionDateViolations } from './price-check.mjs'
+import { findGyoseishiViolations } from '../gyoseishi-gate.mjs' // LAW-JA-NAME(10-28): 한국 행정사=行政士, '行政書士' 원고 거부
 import { findNociteViolations } from './nocite-check.mjs' // NOCITE-ALL-4(10-17): 근거·출처·확인일 블록이 든 원고는 발행·설치(bank-pull --check-all) 거부
 // BANK-FP2(10-10): 제재 금액 기준일은 경고로 시작했다. SANCTION-DATE(10-10): 은행·NAS·inbox 240파일 위반 0 확인 후 차단(rc=3)으로 전환.
 const SANCTION_DATE_STRICT = true
@@ -149,6 +150,7 @@ function checkEntry(e) {
     }
     for (const m of raw.matchAll(C6_RE)) fails.push(`[${loc}] 금지어 "${m[0]}" …${raw.slice(Math.max(0, m.index - 12), m.index + 16).replace(/\n/g, ' ')}…`)
     for (const m of raw.matchAll(BRAND_FORBIDDEN)) fails.push(`[${loc}] 브랜드 E 외 표기 "${m[0]}"`)
+    for (const h of findGyoseishiViolations(raw)) fails.push(`[${loc}] '行政書士' 표기(한국 행정사=行政士) …${h}…`)
     for (const v of findPriceViolations(raw)) fails.push(`[${loc}] 자사 요금 표기: ${v}`) // price-check.mjs(BANK-FP 10-10)
     { const sv = findSanctionDateViolations(raw); if (sv.length) (SANCTION_DATE_STRICT ? fails : warns).push(`[${loc}] 제재 금액 기준일·출처 누락 ${sv.length}곳: ${sv[0]}`) } // price-check.mjs(BANK-FP2 10-10)
     for (const v of findNociteViolations(raw)) fails.push(`[${loc}] 근거·출처 표시(NOCITE) [${v.rule}] …${v.ctx.slice(0, 80)}… — 블록·문장째 빼고 내용 문장만 남길 것`)

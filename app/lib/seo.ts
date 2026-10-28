@@ -46,9 +46,11 @@ const OG_ALT: Record<string, string> = {
   zh: "Law in Korea · 外国人出入境违规审查",
   vi: "Law in Korea · Xem xét vi phạm xuất nhập cảnh",
 };
+/** 다시 그린 언어의 캐시 무효화 값(파일명 고정이라 엣지가 옛 바이트를 준다) — LAW-JA-NAME 10-28 ja 상호 行政士. */
+const OG_VER: Record<string, string> = { ja: "20261028" };
 export function siteOgImages(rawLocale: string) {
   const l = (LOCALES as readonly string[]).includes(rawLocale) ? rawLocale : "ko";
-  return [{ url: `${SITE.url}/og/site-${l}.jpg`, width: 1200, height: 630, alt: OG_ALT[l] }];
+  return [{ url: `${SITE.url}/og/site-${l}.jpg${OG_VER[l] ? `?v=${OG_VER[l]}` : ""}`, width: 1200, height: 630, alt: OG_ALT[l] }];
 }
 
 /** 루트 레이아웃 openGraph — [locale] 레이아웃이 같은 값에 언어별 이미지만 얹어 쓴다(값 단일 원천). */
@@ -81,9 +83,9 @@ export const PAGE_SEO: Record<string, Record<Locale, Seo>> = {
         "Sunshine行政士事务所位于首尔中区，专注于外国人出入境事犯审查应对。介绍我们的专业领域——酒驾、刑事案件、非法就业、出境命令等居留危机应对，以及四种语言的咨询体系。",
     },
     ja: {
-      title: "事務所紹介 — 韓国出入国事犯審査の専門行政書士",
+      title: "事務所紹介 — 韓国出入国事犯審査の専門行政士",
       description:
-        "サンシャイン行政書士事務所はソウル中区に所在し、外国人の出入国事犯審査対応を専門としています。飲酒運転・刑事事件・不法就労・出国命令など在留危機への対応分野と、4か国語対応体制をご案内します。",
+        "サンシャイン行政士事務所はソウル中区に所在し、外国人の出入国事犯審査対応を専門としています。飲酒運転・刑事事件・不法就労・出国命令など在留危機への対応分野と、4か国語対応体制をご案内します。",
     },
     vi: {
       title: "Giới thiệu Sunshine — Chuyên gia xem xét vi phạm XNC Hàn Quốc",
@@ -110,7 +112,7 @@ export const PAGE_SEO: Record<string, Record<Locale, Seo>> = {
     ja: {
       title: "主な対応事例 — 事犯審査・出国命令の処理実例",
       description:
-        "サンシャイン行政書士事務所が支援した出入国事犯審査対応の事例を類型別に整理しました。飲酒運転、刑事事件立件、許可外就労、在留期間超過の自主出国など、実際の流れと争点を匿名・再構成してご紹介します。",
+        "サンシャイン行政士事務所が支援した出入国事犯審査対応の事例を類型別に整理しました。飲酒運転、刑事事件立件、許可外就労、在留期間超過の自主出国など、実際の流れと争点を匿名・再構成してご紹介します。",
     },
     vi: {
       title: "Các trường hợp tiêu biểu — Kết quả xem xét vi phạm XNC",
@@ -191,7 +193,7 @@ export const PAGE_SEO: Record<string, Record<Locale, Seo>> = {
     ja: {
       title: "よくある質問 — 韓国出入国事犯審査Q&A",
       description:
-        "事犯審査と刑事処罰の違い、出国命令を受けた後の対応方法、疎明書の作成主体、飲酒運転後の在留資格維持の可否など、ご相談で最も多い質問に行政書士が直接お答えします。",
+        "事犯審査と刑事処罰の違い、出国命令を受けた後の対応方法、疎明書の作成主体、飲酒運転後の在留資格維持の可否など、ご相談で最も多い質問に行政士が直接お答えします。",
     },
     vi: {
       title: "Câu hỏi thường gặp — Hỏi đáp xem xét vi phạm XNC Hàn Quốc",
@@ -218,7 +220,7 @@ export const PAGE_SEO: Record<string, Record<Locale, Seo>> = {
     ja: {
       title: "相談進行手続き — 受付から事犯審査の同行まで",
       description:
-        "サンシャイン行政書士事務所の相談は、初期診断、資料整理、疎明書作成、出席シミュレーション、事犯審査同行、結果通知後のフォローの順に進みます。各段階で何を準備し、どれくらいかかるかをご案内します。",
+        "サンシャイン行政士事務所の相談は、初期診断、資料整理、疎明書作成、出席シミュレーション、事犯審査同行、結果通知後のフォローの順に進みます。各段階で何を準備し、どれくらいかかるかをご案内します。",
     },
     vi: {
       title: "Quy trình tư vấn — Từ tiếp nhận đến đồng hành buổi xem xét",
