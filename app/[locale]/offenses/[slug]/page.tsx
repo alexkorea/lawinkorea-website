@@ -21,6 +21,32 @@ type SlugContent = {
   render: (l: L, locale: string) => React.ReactNode;
 };
 
+// EYE1027-FIX(맥7 2026-10-28) — /ko/offenses/dui 보강: 준비서류·반성문 작성 요령·관련 글. ko 전용(외국어 판은 종전 그대로).
+// 사실은 도로교통법(0.03%·측정거부·10년 내 재범·면허 취소), 출입국관리법(금고 이상 강제퇴거), 체류 매뉴얼(F-4 제한·E-7 기능인력)과 대조했다.
+const DUI_KO_EXTRA = {
+  docsTitle: "출석·신청 전에 준비할 서류",
+  docsLead: "출입국에 내는 자료는 사건 경위와 그 뒤의 노력을 사실대로 보여 주는 것이 핵심입니다. 아래 자료를 미리 모아 두세요.",
+  docs: [
+    "여권·외국인등록증과 현재 체류자격 관련 서류",
+    "사건 서류: 약식명령문 또는 판결문, 검찰 처분 결과 통지서",
+    "벌금 납부 영수증, 사고가 있었다면 피해자 합의서와 보험 처리 내역",
+    "본인이 쓴 반성문과 가족·직장 동료의 탄원서",
+    "재발 방지 노력 자료: 특별교통안전교육 수료증, 금주 프로그램 참여 기록, 차량 처분 서류 등",
+    "재직증명서·납세증명서·가족관계 서류 등 한국 내 생활 기반 자료",
+  ],
+  letterTitle: "반성문은 이렇게 쓰세요",
+  letter: [
+    "반성문에는 정해진 서식이 없습니다. 사건 날짜와 경위를 숨기지 말고 그대로 쓰고, 왜 운전을 했는지보다 그 뒤에 무엇을 바꿨는지(차량 처분, 대리운전 이용, 교육 수료 등)를 구체적으로 적는 것이 좋습니다.",
+    "한국에서의 직장·가족 관계와 체류가 필요한 이유도 함께 적고, 적은 내용은 수료증·재직증명서 같은 자료로 뒷받침해야 합니다. 같은 말을 되풀이하거나 남 탓으로 읽히는 표현은 피하세요.",
+  ],
+  links: [
+    { t: "사범심사 반성문·탄원서 작성법", href: "/ko/blog/reflection-letter-guide" },
+    { t: "외국인 음주운전 사범심사 절차", href: "/ko/blog/dui-foreigner-visa" },
+    { t: "출석요구서를 받았을 때 알아야 할 권리", href: "/ko/blog/immigration-summons-statement-rights" },
+    { t: "출석 전 준비서류 전체 보기", href: "/ko/documents" },
+  ],
+};
+
 const SLUG_CONTENT: Record<string, SlugContent> = {
   drugs: {
     meta: {
@@ -519,7 +545,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
     },
     render: (l, locale) => {
       const t = {
-        ko: { tag: "음주운전", h1: "음주운전과 비자·체류 자격", lead: "음주운전(DUI)은 한국에서 체류 중인 외국인의 비자 갱신·변경, 체류 자격 유지에 직접적인 영향을 줄 수 있습니다. 특히 반복 음주운전은 사범심사로 이어질 가능성이 높습니다.", s1: "음주운전이 체류 자격에 미치는 영향", p1: "도로교통법은 혈중알코올농도 0.03% 이상을 음주운전으로 규정합니다. 외국인이 음주운전으로 처벌받으면 비자 갱신 심사 시 전과 내역으로 반영될 수 있습니다.", items1: ["초범·BAC 0.03~0.08%: 비자 갱신 시 소명 요구 가능성", "초범·BAC 0.08% 이상 또는 사고 동반: 갱신 불허 또는 사범심사 가능성", "반복 음주운전: 사범심사 및 강제퇴거 위험 증가", "취업비자(E-7 등) 소지자의 경우 고용 자격에도 영향 가능"], s2: "사범심사 절차", p2: "음주운전 전과가 비자 심사에서 드러나거나 재범 시 사범심사가 진행될 수 있습니다.", steps: ["음주운전 적발 → 형사 처분 (벌금·면허정지·실형)", "비자 갱신·변경 신청 시 전과 검토", "필요 시 출입국 사범심사 통보 및 출석 요구", "처분 결정: ① 갱신 허가 ② 조건부 허가 ③ 불허"], s3: "선샤인행정사사무소가 할 수 있는 일", p3: "선샤인행정사사무소는 다음과 같이 지원합니다:", services: ["음주운전 전과 공개 전략 수립 (비자 신청 시)", "정상 참작 자료 준비 (반성문, 음주 교육 수료증 등)", "사범심사 대리 및 의견서 제출", "취업비자 소지자의 고용주 대응 지원"], cta: "지금 상담 예약", back: "사건 유형 목록으로", faqTitle: "자주 묻는 질문", faqs: [{ q: "음주운전 1회로 비자 갱신이 거절될 수 있나요?", a: "가능성이 있습니다. 혈중알코올 수치, 사고 여부, 처벌 수위에 따라 갱신 심사에서 소명 요구 또는 불허가 발생할 수 있습니다." }, { q: "초범과 반복 음주운전의 출입국 처분 차이는?", a: "초범은 주로 비자 갱신 시 소명 수준에서 마무리되는 경우가 많으나, 반복 음주운전은 사범심사 및 강제퇴거 위험이 크게 높아집니다." }, { q: "취업비자로 운전 업무 중 음주운전 적발 시 문제가 되나요?", a: "네. 취업비자로 운전 업무를 수행하는 경우 음주운전은 직무 관련 위반으로 더 중하게 처분될 수 있습니다." }], notice: "※ 이 페이지는 일반적인 법령 정보 제공 목적이며 개별 사건에 대한 법률 조언이 아닙니다." },
+        ko: { tag: "음주운전", h1: "음주운전과 비자·체류 자격", lead: "음주운전은 형사처벌로 끝나지 않고, 외국인에게는 비자 연장·변경 심사와 출입국 사범심사로 이어질 수 있습니다. 같은 음주운전이라도 횟수, 혈중알코올농도, 사고 여부, 받은 형의 종류에 따라 체류에 미치는 영향이 달라집니다.", s1: "음주운전이 체류 자격에 미치는 영향", p1: "도로교통법은 혈중알코올농도 0.03% 이상에서 운전하는 것을 음주운전으로 보고, 경찰의 음주 측정에 응하지 않는 것도 처벌합니다. 벌금 이상의 형이 확정된 날부터 10년 안에 다시 음주운전을 하면 더 무겁게 처벌되고, 음주운전은 운전면허 취소·정지 사유이기도 합니다. 형사처분과 별도로 출입국에서는 다음 사항이 검토됩니다.", items1: ["징역·금고형을 선고받은 경우: 금고 이상의 형을 선고받고 석방된 외국인은 출입국관리법상 강제퇴거 대상이 될 수 있습니다.", "벌금형만 받은 경우: 비자 연장·변경 때 범죄경력으로 확인되어 소명을 요구받거나 허가가 제한될 수 있습니다.", "재외동포(F-4): 3회 이상 상습 음주운전으로 금고 이상의 형을 선고받았거나, 국내에서 받은 벌금 합계가 700만 원 이상이면 일정 기간 자격 부여가 제한됩니다(벌금은 합계가 700만 원이 되는 시점의 벌금을 완납한 날부터 3년).", "기능인력(E-7-3·E-7-4): 국내 체류 중 음주운전 경력이 있으면 사증발급인정서 발급이 억제될 수 있습니다.", "영주(F-5)·귀화: 품행 요건을 볼 때 음주운전 경력이 함께 검토됩니다."], s2: "음주운전 사건의 진행 흐름", p2: "형사절차가 끝난 뒤에 출입국 단계가 시작되는 경우가 많아, 형사처분이 나온 직후부터 준비해 두는 것이 좋습니다.", steps: ["음주 단속 또는 사고 → 경찰 조사와 혈중알코올농도 측정", "검찰 처분 또는 법원 판결(약식명령 벌금·정식재판) 확정 — 운전면허 취소·정지는 별도 행정처분으로 진행", "출입국에 사건이 통보되거나, 비자 연장·변경 신청 때 범죄경력 확인", "출입국 출석 요구 → 면담에서 사건 경위, 재발 방지 노력, 한국 내 생활 기반 확인", "결정: 체류 유지, 연장·변경 불허, 출국명령 또는 강제퇴거"], s3: "선샤인행정사사무소가 할 수 있는 일", p3: "선샤인행정사사무소는 다음과 같이 지원합니다:", services: ["사건 기록과 체류 상황을 함께 보고 비자 연장·변경 때 설명할 내용 정리", "반성문·탄원서·소명자료 작성 지원", "출입국 제출 서류 작성과 제출 대행", "취업비자 소지자의 회사 제출 서류 안내"], cta: "지금 상담 예약", back: "사건 유형 목록으로", faqTitle: "자주 묻는 질문", faqs: [{ q: "음주운전 1회로 비자 연장이 거절될 수 있나요?", a: "가능성이 있습니다. 혈중알코올농도, 사고 여부, 받은 형의 종류와 체류자격에 따라 연장 심사에서 소명을 요구받거나 불허될 수 있습니다. 벌금형만 받았더라도 범죄경력으로 확인되므로 신청 전에 자료를 준비해 두는 것이 좋습니다." }, { q: "초범과 재범은 어떻게 다른가요?", a: "벌금 이상의 형이 확정된 날부터 10년 안에 다시 음주운전을 하면 형사처벌이 무거워집니다. 출입국에서도 반복 여부를 중요하게 보며, 재외동포(F-4) 자격은 3회 이상 상습 음주운전으로 금고 이상의 형을 받으면 자격 부여가 제한됩니다." }, { q: "벌금을 다 냈는데도 출입국 출석 통지가 올 수 있나요?", a: "올 수 있습니다. 형사처분과 출입국 심사는 따로 진행되므로, 벌금 납부로 형사사건이 끝났더라도 출입국에서 사건 경위와 체류 상황을 다시 확인할 수 있습니다." }, { q: "음주 측정을 거부하면 어떻게 되나요?", a: "경찰의 음주 측정 요구에 응하지 않는 것 자체가 처벌 대상이고 운전면허 취소 사유입니다. 측정 거부로 처벌받은 기록도 범죄경력으로 남습니다." }, { q: "취업비자(E-7 등)로 일하는데 회사에도 영향이 있나요?", a: "기능인력(E-7-3·E-7-4)은 국내 체류 중 음주운전 경력이 있으면 사증발급인정서 발급이 억제될 수 있어, 회사가 초청이나 자격 변경을 진행할 때 문제가 될 수 있습니다. 운전이 업무라면 면허 취소로 일을 계속하기 어려울 수도 있습니다." }, { q: "출석 통지를 받았는데 무엇부터 해야 하나요?", a: "통지서에 적힌 출석일과 준비물을 먼저 확인하고, 사건 서류(약식명령문·판결문), 벌금 납부 영수증, 반성문과 생활 기반 자료를 모아 두세요. 출석일을 지키기 어렵다면 미리 관서에 연락해 일정을 조정해야 합니다." }], notice: "※ 이 페이지는 일반적인 법령 정보 제공 목적이며 개별 사건에 대한 법률 조언이 아닙니다." },
         en: { tag: "DUI / Drunk Driving", h1: "DUI Offense & Your Visa Status in Korea", lead: "A drunk driving (DUI) conviction under Korea's Road Traffic Act can affect your visa renewal, status change, and overall residency. Repeat DUI significantly increases immigration enforcement risk.", s1: "How DUI Affects Your Visa", p1: "Korea's Road Traffic Act defines drunk driving at 0.03% BAC and above. A DUI conviction becomes part of your criminal record and may be flagged during visa renewal or change applications.", items1: ["First offense, BAC 0.03–0.08%: Possible request to explain during visa renewal", "First offense, BAC 0.08%+ or accident: Risk of renewal denial or immigration review", "Repeat DUI: Elevated risk of immigration review and forced departure", "Work visa (E-series) holders: Employment qualification may be affected"], s2: "The Review Process", p2: "A DUI conviction can surface during visa renewal screening or trigger an immigration offense review.", steps: ["DUI arrest → Criminal disposition (fine, license suspension, imprisonment)", "DUI conviction reviewed during visa renewal/change application", "If flagged: immigration offense review notice and summons", "Decision: ① Renewal approved ② Conditional approval ③ Denial"], s3: "How Sunshine Can Help", p3: "Our office assists with:", services: ["Strategy for disclosing DUI conviction in visa applications", "Preparation of mitigating documents (reflection letter, DUI education certificate)", "Representation and written opinion for immigration review", "Employer support for work visa holders"], cta: "Book a Consultation", back: "Back to Offense Types", faqTitle: "Frequently Asked Questions", faqs: [{ q: "Can a single DUI cause my visa renewal to be denied?", a: "It depends on BAC level, whether an accident occurred, and the penalty imposed. Low-level first offenses typically result in a request for explanation; more serious ones may lead to denial." }, { q: "What is the difference in immigration consequences between a first and repeat DUI?", a: "A first offense usually surfaces as a question during renewal. Repeat offenses significantly raise the risk of an immigration review and potential forced departure." }, { q: "I drive commercially on a work visa. Will a DUI affect my visa?", a: "Yes. Driving-related work visa holders who receive a DUI face heightened scrutiny as it directly relates to their permitted activities." }], notice: "This page provides general legal information only and does not constitute legal advice." },
         ja: { tag: "飲酒運転", h1: "飲酒運転とビザ・在留資格", lead: "飲酒運転（DUI）は韓国在住の外国人のビザ更新・変更や在留資格維持に直接影響を与える可能性があります。特に繰り返しの飲酒運転は犯則審査につながるリスクがあります。", s1: "飲酒運転が在留資格に与える影響", p1: "道路交通法は血中アルコール濃度0.03%以上を飲酒運転と定めています。外国人が飲酒運転で処罰された場合、ビザ更新時に前科として照会される可能性があります。", items1: ["初犯・BAC 0.03〜0.08%：ビザ更新時に説明要求の可能性", "初犯・BAC 0.08%以上または事故伴う：更新不許可または犯則審査の可能性", "繰り返し飲酒運転：犯則審査および強制退去リスク増大", "就労ビザ（E-7等）保有者の場合：雇用資格に影響の可能性"], s2: "審査手続き", p2: "飲酒運転の前科がビザ審査で発覚するか、再犯の場合に犯則審査が開始される可能性があります。", steps: ["飲酒運転摘発 → 刑事処分（罰金・免許停止・実刑）", "ビザ更新・変更申請時に前科照会", "必要に応じ出入国犯則審査の通知・出頭要求", "処分決定：① 更新許可 ② 条件付き許可 ③ 不許可"], s3: "サンシャインにできること", p3: "当事務所は以下をサポートします：", services: ["ビザ申請時の飲酒運転前科開示戦略の立案", "情状酌量資料の準備（反省文・飲酒教育修了証等）", "犯則審査への代理出席と意見書提出", "就労ビザ保有者の雇用主対応支援"], cta: "今すぐ相談予約", back: "違反の種類一覧へ", faqTitle: "よくある質問", faqs: [{ q: "飲酒運転1回でビザ更新が拒否されますか？", a: "血中アルコール濃度、事故の有無、処罰の程度によります。軽微な初犯は説明要求で終わることが多いですが、重大な場合は不許可になる可能性があります。" }, { q: "初犯と繰り返し飲酒運転では出入国処分にどう違いますか？", a: "初犯は更新時の照会程度で済むことが多いですが、繰り返し飲酒運転は犯則審査・強制退去リスクが大幅に高まります。" }, { q: "就労ビザで業務用車両を運転中に飲酒運転で摘発された場合は？", a: "就労ビザの許可活動に直接関わるため、より重く審査される可能性があります。" }], notice: "※ このページは一般的な法令情報の提供を目的としており、個別事案の法的助言ではありません。" },
         zh: { tag: "酒驾", h1: "酒驾与签证·居留资格", lead: "酒驾（DUI）可能直接影响在韩外国人的签证续签、变更及居留资格维持。反复酒驾将大幅增加被出入境执法的风险。", s1: "酒驾对居留资格的影响", p1: "韩国《道路交通法》规定血液酒精浓度0.03%以上为酒驾。外国人因酒驾受到处罚，续签时可能被列为前科记录审查。", items1: ["初犯·BAC 0.03–0.08%：续签时可能被要求说明", "初犯·BAC 0.08%以上或涉及事故：续签不批或出入境审查风险", "反复酒驾：出入境审查及强制出境风险显著上升", "持就业签证（E-7等）者：雇用资格可能受影响"], s2: "审查程序", p2: "酒驾前科在签证续签审查中被发现，或再犯时可能启动犯罪审查。", steps: ["酒驾被查 → 刑事处分（罚款·吊销驾照·实刑）", "签证续签·变更申请时前科审查", "必要时出入境通知并要求出席", "处分决定：① 批准续签 ② 附条件批准 ③ 不予批准"], s3: "Sunshine能提供的帮助", p3: "本事务所提供以下服务：", services: ["签证申请时酒驾前科披露策略制定", "准备从轻处罚材料（悔过书、酒驾教育证书等）", "代理出席出入境审查并提交书面意见", "就业签证持有人的雇主应对支持"], cta: "立即预约咨询", back: "返回违规类型列表", faqTitle: "常见问题", faqs: [{ q: "一次酒驾会导致签证续签被拒吗？", a: "视血液酒精浓度、是否发生事故及处罚程度而定。轻微初犯通常只需说明，严重情形可能被拒签。" }, { q: "初犯与多次酒驾的出入境处分有何不同？", a: "初犯通常在续签审查中询问了解，多次酒驾将大幅增加出入境审查和强制出境风险。" }, { q: "持就业签证驾驶营业车辆后酒驾被查会有问题吗？", a: "是的。与许可活动直接相关，将受到更严格审查。" }], notice: "※ 本页面仅供一般法律信息参考，不构成针对个案的法律建议。" },
@@ -527,6 +553,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
       };
       const c = t[l] || t.ko;
       const ACCENT = { navy: "#001F3F", primary: "#0056B3", muted: "#475569", border: "#E9ECEF", bg: "#f8f9fb", warn: "#fff8e6", warnBorder: "#f59e0b" };
+      const extra = l === "ko" ? DUI_KO_EXTRA : null;
       return (
         <main style={{ background: ACCENT.bg, minHeight: "100vh" }}>
           <div style={{ maxWidth: 800, margin: "0 auto", padding: "48px 24px 80px" }}>
@@ -539,6 +566,20 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             <h2 style={{ fontSize: 20, fontWeight: 700, color: ACCENT.navy, marginBottom: 14 }}>{c.s2}</h2>
             <p style={{ color: ACCENT.muted, lineHeight: 1.75, marginBottom: 14 }}>{c.p2}</p>
             <ol style={{ paddingLeft: 22, marginBottom: 32 }}>{c.steps.map((step, i) => <li key={i} style={{ color: ACCENT.muted, marginBottom: 8, lineHeight: 1.65 }}>{step}</li>)}</ol>
+            {extra && (
+              <>
+                <h2 style={{ fontSize: 20, fontWeight: 700, color: ACCENT.navy, marginBottom: 14 }}>{extra.docsTitle}</h2>
+                <p style={{ color: ACCENT.muted, lineHeight: 1.75, marginBottom: 14 }}>{extra.docsLead}</p>
+                <ul style={{ paddingLeft: 22, marginBottom: 32 }}>{extra.docs.map((d, i) => <li key={i} style={{ color: ACCENT.muted, marginBottom: 8, lineHeight: 1.65 }}>{d}</li>)}</ul>
+                <h2 style={{ fontSize: 20, fontWeight: 700, color: ACCENT.navy, marginBottom: 14 }}>{extra.letterTitle}</h2>
+                {extra.letter.map((para, i) => <p key={i} style={{ color: ACCENT.muted, lineHeight: 1.75, marginBottom: 14 }}>{para}</p>)}
+                <ul style={{ listStyle: "none", padding: 0, margin: "0 0 32px", display: "flex", flexWrap: "wrap", gap: 8 }}>
+                  {extra.links.map((k) => (
+                    <li key={k.href}><a href={k.href} style={{ display: "inline-flex", alignItems: "center", minHeight: 44, padding: "0 14px", background: "#fff", border: `1px solid ${ACCENT.border}`, borderRadius: 6, color: ACCENT.primary, fontWeight: 600, fontSize: 14, textDecoration: "none" }}>{k.t} →</a></li>
+                  ))}
+                </ul>
+              </>
+            )}
             <h2 style={{ fontSize: 20, fontWeight: 700, color: ACCENT.navy, marginBottom: 14 }}>{c.s3}</h2>
             <p style={{ color: ACCENT.muted, lineHeight: 1.75, marginBottom: 14 }}>{c.p3}</p>
             <ul style={{ paddingLeft: 22, marginBottom: 32 }}>{c.services.map((svc, i) => <li key={i} style={{ color: ACCENT.muted, marginBottom: 8, lineHeight: 1.65 }}>{svc}</li>)}</ul>

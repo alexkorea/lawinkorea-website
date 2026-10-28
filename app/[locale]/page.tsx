@@ -6,6 +6,8 @@ import { faqSchema } from "../lib/schema";
 import ConfidentialityNote from "../components/ConfidentialityNote";
 import ContactChannels, { HoursNotice } from "../components/ContactChannels";
 import RepresentativeCard from "../components/RepresentativeCard";
+import CardPhotoImg from "../components/CardPhotoImg";
+import { HOME_CARD_PHOTOS } from "../lib/card-photos";
 
 // 홈 연락 영역(LAW-V1b 2·4) — 담당 행정사 사진·등록정보 + 메신저·전화·이메일. ko 와 외국어 홈 공통.
 const HomeContactArea = ({ l }: { l: L }) => (
@@ -172,11 +174,15 @@ const KoHomePage = () => (
           { t: "비자 연장·변경 불허", d: "처분 사유 확인과 재신청·구제를 안내합니다.", href: "/ko/dispositions/visa-denial" },
           { t: "입국금지와 재입국", d: "규제 확인과 재입국 준비자료를 안내합니다.", href: "/ko/dispositions/entry-ban" },
         ].map((item) => (
-          <a key={item.href} href={item.href} style={{ display: "flex", flexDirection: "column", background: "#fff", border: "1px solid #e2e8f0", borderRadius: 8, padding: "24px 20px", textDecoration: "none" }}>
-            <p style={{ fontWeight: 600, color: "#0a1628", margin: "0 0 8px" }}>{item.t}</p>
-            {/* QA1014-FIX L4(맥7 2026-10-15) — 설명 2줄 고정(높이 2줄 확보 + 2줄 넘치면 말줄임), 버튼은 카드 바닥 정렬 */}
-            <p style={{ fontSize: 14, color: "#64748b", margin: "0 0 12px", lineHeight: 1.6, minHeight: "3.2em", display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden", wordBreak: "keep-all" }}>{item.d}</p>
-            <span style={{ fontSize: 13, color: "#2563eb", fontWeight: 500, marginTop: "auto" }}>자세히 보기 →</span>
+          <a key={item.href} href={item.href} style={{ display: "flex", flexDirection: "column", background: "#fff", border: "1px solid #e2e8f0", borderRadius: 8, overflow: "hidden", textDecoration: "none" }}>
+            {/* EYE1027-FIX(맥7 2026-10-28) — 주제 사진 카드 */}
+            <CardPhotoImg photo={HOME_CARD_PHOTOS[item.href]} />
+            <div style={{ display: "flex", flexDirection: "column", flex: 1, padding: "20px 20px 22px" }}>
+              <p style={{ fontWeight: 600, color: "#0a1628", margin: "0 0 8px" }}>{item.t}</p>
+              {/* QA1014-FIX L4(맥7 2026-10-15) — 설명 2줄 고정(높이 2줄 확보 + 2줄 넘치면 말줄임), 버튼은 카드 바닥 정렬 */}
+              <p style={{ fontSize: 14, color: "#64748b", margin: "0 0 12px", lineHeight: 1.6, minHeight: "3.2em", display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden", wordBreak: "keep-all" }}>{item.d}</p>
+              <span style={{ fontSize: 13, color: "#2563eb", fontWeight: 500, marginTop: "auto" }}>자세히 보기 →</span>
+            </div>
           </a>
         ))}
       </div>
@@ -186,18 +192,19 @@ const KoHomePage = () => (
     <section style={{ background: "#0a1628", color: "#fff", padding: "64px 24px" }}>
       <div style={{ maxWidth: 800, margin: "0 auto" }}>
         <h2 style={{ fontSize: 26, fontWeight: 700, marginBottom: 8 }}>사범심사 진행 과정(요약)</h2>
-        <p style={{ color: "#94a3b8", marginBottom: 40 }}>자세한 내용은 <a href="/ko/process" style={{ color: "#60a5fa" }}>진행 절차 페이지</a>에서 확인하실 수 있습니다.</p>
-        <ol style={{ paddingLeft: 20, lineHeight: 2 }}>
+        {/* EYE1027-FIX(맥7 2026-10-28) — 단계 설명은 /ko/process(KO_REVIEW_FLOW) 한 곳에 두고 홈은 같은 단계 이름만(중복 정리) */}
+        <p style={{ color: "#94a3b8", marginBottom: 32 }}>단계마다 무엇을 준비하는지는 <a href="/ko/process" style={{ color: "#60a5fa" }}>진행 절차 페이지</a>에서 확인하실 수 있습니다.</p>
+        <ol style={{ listStyle: "none", padding: 0, margin: 0, display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: 12 }}>
           {[
-            "사건과 체류상황 확인 — 여권·외국인등록증·현재 체류자격과 사건 개요를 함께 확인합니다.",
-            "형사사건 자료 확인 — 경찰·검찰·법원 서류와 처분 내용을 검토합니다.",
-            "출입국 위험요소 분석 — 처분 내용, 체류기간, 과거 기록 등을 바탕으로 검토가 필요한 지점을 정리합니다.",
-            "소명자료와 행정서류 준비 — 유리한 사정을 설명할 자료와 진술서·사유서 등을 준비합니다.",
-            "출입국 출석 또는 신청 — 준비한 자료를 바탕으로 출석하거나 관련 신청을 진행합니다.",
-            "결과 확인과 후속 대응 — 결과에 따라 이후 체류절차나 행정구제 여부를 검토합니다.",
+            "형사절차",
+            "출입국 출석 요구",
+            "조사와 진술",
+            "처분 결정",
+            "이의신청·행정구제",
+            "결과 이후",
           ].map((step, i) => (
-            <li key={i} style={{ color: "#cbd5e1", marginBottom: 12 }}>
-              <strong style={{ color: "#fff" }}>단계 {i + 1}.</strong> {step}
+            <li key={i} style={{ color: "#fff", border: "1px solid #1e3a5f", borderRadius: 8, padding: "14px 16px", fontWeight: 600 }}>
+              <span style={{ color: "#60a5fa", marginRight: 8 }}>{i + 1}</span>{step}
             </li>
           ))}
         </ol>

@@ -10,6 +10,32 @@ export async function generateStaticParams() {
   return VALID_LOCALES.map((locale) => ({ locale }));
 }
 
+// EYE1027-FIX(맥7 2026-10-28) — ko 에 서류별 작성 요령·제출 전 확인·관련 글을 더했다(외국어 판은 종전 그대로).
+const KO_DOC_TIPS: { title: string; tips: { doc: string; how: string }[]; checkTitle: string; checks: string[]; links: { t: string; href: string }[] } = {
+  title: "서류별 작성 요령",
+  tips: [
+    { doc: "반성문·소명서", how: "정해진 서식은 없습니다. 사건 날짜와 경위를 사실대로 쓰고, 그 뒤에 달라진 점(교육 수료, 피해 회복, 생활 변화)을 구체적으로 적습니다. 본인이 직접 쓰고 서명하며, 한국어가 어렵다면 모국어로 쓰고 번역문을 함께 냅니다." },
+    { doc: "탄원서", how: "쓰는 사람이 당사자를 어떻게 알게 되었는지, 평소 생활과 태도를 직접 본 대로 적습니다. 작성자의 신분증 사본과 연락처를 붙이면 내용을 확인하기 쉽습니다. 고용주라면 근무 기간과 맡은 일을 함께 적습니다." },
+    { doc: "판결문·처분 결과 통지서", how: "형사사건 결과를 보여 주는 가장 중요한 서류입니다. 약식명령을 받았다면 약식명령문, 기소유예라면 처분 결과 통지서, 재판을 받았다면 판결문을 준비하고, 벌금을 냈다면 납부 영수증을 함께 둡니다." },
+    { doc: "재직증명서·사업자등록증", how: "지금 일하고 있다는 사실과 근무 기간이 드러나야 합니다. 오래전에 받은 서류보다 최근에 발급받은 서류를 냅니다." },
+    { doc: "가족관계 서류", how: "배우자나 자녀가 한국에 있다면 가족관계증명서, 혼인관계증명서, 자녀 재학증명서 등으로 한국 내 생활 기반을 보여 줍니다. 외국에서 발급받은 서류는 번역문과 아포스티유 또는 영사확인이 필요할 수 있습니다." },
+    { doc: "납세·봉사활동 자료", how: "납세증명서, 4대보험 가입 내역, 봉사활동 확인서는 성실하게 생활해 왔다는 사정을 보여 줍니다. 봉사활동은 기간과 시간이 적힌 확인서로 준비합니다." },
+  ],
+  checkTitle: "제출 전에 확인하세요",
+  checks: [
+    "원본을 보여 줘야 하는 서류와 사본만 내는 서류를 나눠 둡니다.",
+    "외국어로 된 서류에는 한국어 번역문을 붙입니다.",
+    "반성문·탄원서·진술 내용이 서로 어긋나지 않는지 맞춰 봅니다.",
+    "출석일이나 보완 기한이 정해져 있다면 그 날짜보다 먼저 준비를 마칩니다.",
+  ],
+  links: [
+    { t: "반성문·탄원서 작성법 자세히 보기", href: "/ko/blog/reflection-letter-guide" },
+    { t: "출석요구서를 받았을 때 알아야 할 권리", href: "/ko/blog/immigration-summons-statement-rights" },
+    { t: "사범심사 진행 절차 보기", href: "/ko/process" },
+    { t: "사건 유형별 대응 보기", href: "/ko/offenses" },
+  ],
+};
+
 const CONTENT: Record<L, { title: string; sub: string; groups: { label: string; items: string[] }[]; note: string }> = {
   ko: {
     title: "준비서류",
@@ -161,6 +187,29 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           </div>
         ))}
       </div>
+
+      {l === "ko" && (
+        <>
+          <h2 style={{ fontSize: 24, fontWeight: 700, color: "#0a1628", margin: "0 0 20px" }}>{KO_DOC_TIPS.title}</h2>
+          <div style={{ display: "grid", gap: 16, marginBottom: 40 }}>
+            {KO_DOC_TIPS.tips.map((t) => (
+              <div key={t.doc} style={{ borderLeft: "3px solid #1e4a8a", padding: "4px 0 4px 16px" }}>
+                <h3 style={{ fontSize: 16, fontWeight: 700, color: "#0a1628", margin: "0 0 6px" }}>{t.doc}</h3>
+                <p style={{ color: "#475569", fontSize: 15, lineHeight: 1.75, margin: 0 }}>{t.how}</p>
+              </div>
+            ))}
+          </div>
+          <h2 style={{ fontSize: 24, fontWeight: 700, color: "#0a1628", margin: "0 0 16px" }}>{KO_DOC_TIPS.checkTitle}</h2>
+          <ul style={{ margin: "0 0 32px", padding: "0 0 0 20px" }}>
+            {KO_DOC_TIPS.checks.map((x, i) => <li key={i} style={{ color: "#475569", fontSize: 15, lineHeight: 1.8 }}>{x}</li>)}
+          </ul>
+          <ul style={{ listStyle: "none", padding: 0, margin: "0 0 40px", display: "flex", flexWrap: "wrap", gap: 8 }}>
+            {KO_DOC_TIPS.links.map((k) => (
+              <li key={k.href}><a href={k.href} style={{ display: "inline-flex", alignItems: "center", minHeight: 44, padding: "0 14px", background: "#fff", border: "1px solid #e2e8f0", borderRadius: 6, color: "#1e40af", fontWeight: 600, fontSize: 14, textDecoration: "none" }}>{k.t} →</a></li>
+            ))}
+          </ul>
+        </>
+      )}
 
       <div style={{ background: "#f0f7ff", border: "1px solid #bdd7f7", borderRadius: 10, padding: "20px 24px", color: "#1e4a8a", fontSize: 15, lineHeight: 1.7 }}>
         {c.note}

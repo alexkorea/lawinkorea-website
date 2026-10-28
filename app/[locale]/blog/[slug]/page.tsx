@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { ACCENT, COMPANY, SITE } from "../../../lib/constants";
 import { getBlogPostData, getBlogPostsByLocale, getLocalesForSlug } from "../../../data/blog-posts-data";
 import { alternatesFor } from "../../../lib/seo";
+import { EXTERNAL_HEADING, splitExternalLinks } from "../../../lib/external-links";
 import { breadcrumbSchema, faqSchema, inLanguage, ORG_ID, PERSON_ID } from "../../../lib/schema";
 
 export const dynamicParams = false;
@@ -153,6 +154,8 @@ export default async function LocaleBlogPost({ params }: { params: Promise<Param
     (p) => p.slug !== slug && !relatedBySlug.some((r) => r.slug === p.slug)
   );
   const related = [...relatedBySlug, ...fallback].slice(0, 3);
+  // EYE1027-FIX — 본문 외부 링크는 글 맨 끝으로(체류시간 원칙)
+  const { html: bodyHtml, links: externalLinks } = splitExternalLinks(post.contentHtml, locale);
 
   return (
     <main style={{ background: ACCENT.bg, minHeight: "100vh" }}>
@@ -278,7 +281,7 @@ export default async function LocaleBlogPost({ params }: { params: Promise<Param
 
         <div
           className="post-body"
-          dangerouslySetInnerHTML={{ __html: post.contentHtml }}
+          dangerouslySetInnerHTML={{ __html: bodyHtml }}
           style={{ fontSize: 16, lineHeight: 1.8, color: ACCENT.text }}
         />
 
@@ -418,6 +421,21 @@ export default async function LocaleBlogPost({ params }: { params: Promise<Param
                 </Link>
               ))}
             </div>
+          </section>
+        )}
+
+        {externalLinks.length > 0 && (
+          <section style={{ marginTop: 48, paddingTop: 24, borderTop: `1px solid ${ACCENT.border}` }}>
+            <h2 style={{ fontSize: 15, fontWeight: 700, color: ACCENT.navy, margin: "0 0 8px" }}>{EXTERNAL_HEADING[locale as LocaleParam]}</h2>
+            <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
+              {externalLinks.map((x) => (
+                <li key={x.url}>
+                  <a href={x.url} target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", minHeight: 44, fontSize: 14, color: ACCENT.primary }}>
+                    {x.label} ↗
+                  </a>
+                </li>
+              ))}
+            </ul>
           </section>
         )}
       </article>

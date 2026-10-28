@@ -10,6 +10,27 @@ export async function generateStaticParams() {
   return VALID_LOCALES.map((locale) => ({ locale }));
 }
 
+// EYE1027-FIX(맥7 2026-10-28) — ko 에 '사범심사는 이렇게 진행됩니다'(출석요구·조사·처분·이의신청)를 더했다.
+// 홈 '진행 과정'은 단계 이름만 남기고 설명은 이 페이지에 둔다(중복 정리). 사실은 출입국관리법(출석요구·조서·출국명령·이의신청 7일·체류허가 특례)과 대조.
+const KO_REVIEW_FLOW: { title: string; lead: string; stages: { label: string; desc: string }[]; links: { t: string; href: string }[] } = {
+  title: "사범심사는 이렇게 진행됩니다",
+  lead: "형사사건이나 출입국관리법 위반이 있으면 형사절차와 별도로 출입국 심사가 이어질 수 있습니다. 단계마다 준비할 것이 다르므로, 지금 어느 단계에 있는지부터 확인하세요.",
+  stages: [
+    { label: "형사절차", desc: "경찰 조사, 검찰 처분(기소유예·약식명령·기소), 법원 판결 순으로 진행됩니다. 이때 받은 처분서와 판결문은 이후 출입국 심사의 기본 자료가 되므로 모두 보관합니다." },
+    { label: "출입국 출석 요구", desc: "출입국관서는 조사가 필요하면 출석을 요구할 수 있습니다. 출석요구서에 적힌 날짜·장소·준비물을 확인하고, 사건 서류와 소명자료를 미리 준비합니다." },
+    { label: "조사와 진술", desc: "출입국관리공무원이 사건 경위와 체류 상황을 묻고 진술을 조서에 적습니다. 조서를 읽어 보고 틀린 내용은 고쳐 달라고 요청할 수 있으며, 한국어가 어려우면 통역을 거쳐 진술합니다." },
+    { label: "처분 결정", desc: "조사 결과에 따라 체류 유지, 범칙금 통고처분, 출국권고, 출국명령, 강제퇴거명령 등이 결정됩니다. 출국명령에는 출국기한이 정해지고, 기한까지 출국하지 않으면 강제퇴거명령서가 발급됩니다." },
+    { label: "이의신청·행정구제", desc: "강제퇴거명령에 대한 이의신청은 명령서를 받은 날부터 7일 이내에 해야 합니다. 이의신청이 받아들여지지 않더라도 한국에 체류해야 할 특별한 사정이 인정되면 체류가 허가될 수 있습니다." },
+    { label: "결과 이후", desc: "체류가 유지되면 다음 연장·변경 때 같은 사건이 다시 확인될 수 있으니 자료를 보관해 둡니다. 출국했다면 입국이 제한되는 기간과 재입국 때 필요한 서류를 확인합니다." },
+  ],
+  links: [
+    { t: "단계별 준비서류 보기", href: "/ko/documents" },
+    { t: "받은 처분의 의미 확인하기", href: "/ko/dispositions" },
+    { t: "출석요구서를 받았을 때 알아야 할 권리", href: "/ko/blog/immigration-summons-statement-rights" },
+    { t: "반성문·탄원서 작성법", href: "/ko/blog/reflection-letter-guide" },
+  ],
+};
+
 const CONTENT: Record<L, {
   title: string;
   sub: string;
@@ -149,6 +170,26 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           </div>
         ))}
       </div>
+
+      {l === "ko" && (
+        <section style={{ marginTop: 56 }}>
+          <h2 style={{ fontSize: 26, fontWeight: 700, color: "#0a1628", marginBottom: 12 }}>{KO_REVIEW_FLOW.title}</h2>
+          <p style={{ color: "#475569", fontSize: 16, lineHeight: 1.75, marginBottom: 24 }}>{KO_REVIEW_FLOW.lead}</p>
+          <ol style={{ listStyle: "none", padding: 0, margin: "0 0 24px", display: "grid", gap: 14 }}>
+            {KO_REVIEW_FLOW.stages.map((st, i) => (
+              <li key={st.label} style={{ background: "#fff", border: "1px solid #e2e8f0", borderRadius: 10, padding: "18px 20px" }}>
+                <h3 style={{ fontSize: 17, fontWeight: 700, color: "#0a1628", margin: "0 0 6px" }}>{i + 1}. {st.label}</h3>
+                <p style={{ color: "#475569", fontSize: 15, lineHeight: 1.75, margin: 0 }}>{st.desc}</p>
+              </li>
+            ))}
+          </ol>
+          <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexWrap: "wrap", gap: 8 }}>
+            {KO_REVIEW_FLOW.links.map((k) => (
+              <li key={k.href}><a href={k.href} style={{ display: "inline-flex", alignItems: "center", minHeight: 44, padding: "0 14px", background: "#fff", border: "1px solid #e2e8f0", borderRadius: 6, color: "#1e40af", fontWeight: 600, fontSize: 14, textDecoration: "none" }}>{k.t} →</a></li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <div style={{
         marginTop: 48,

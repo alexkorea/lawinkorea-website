@@ -3,6 +3,8 @@ import { alternatesFor, brandTitle, siteOgImages } from "../../lib/seo";
 import type { Metadata } from "next";
 import { SITE } from "../../lib/constants";
 import { faqSchema } from "../../lib/schema";
+import CardPhotoImg from "../../components/CardPhotoImg";
+import { OFFENSES_CARD_PHOTOS } from "../../lib/card-photos";
 
 const VALID_LOCALES = ["ko", "en", "ja", "zh", "vi"] as const;
 type L = (typeof VALID_LOCALES)[number];
@@ -126,10 +128,14 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
             ].map((item: { t: string; d: string; href: string | null }) => (
               // href: null — 상세 페이지가 '준비 중'(noindex)이라 링크를 걸지 않는다(LAW-V1 P0-4).
               item.href ? (
-                <a key={item.href} href={item.href} style={{ display: "block", background: "#fff", border: "1px solid #e2e8f0", borderRadius: 8, padding: "20px", textDecoration: "none" }}>
-                  <p style={{ fontWeight: 600, color: "#0a1628", margin: "0 0 8px" }}>{item.t}</p>
-                  <p style={{ fontSize: 13, color: "#64748b", margin: "0 0 12px", lineHeight: 1.6 }}>{item.d}</p>
-                  <span style={{ fontSize: 13, color: "#2563eb" }}>자세히 보기 →</span>
+                <a key={item.href} href={item.href} style={{ display: "block", background: "#fff", border: "1px solid #e2e8f0", borderRadius: 8, overflow: "hidden", textDecoration: "none" }}>
+                  {/* EYE1027-FIX(맥7 2026-10-28) — 주제 사진 카드(홈과 다른 사진) */}
+                  <CardPhotoImg photo={OFFENSES_CARD_PHOTOS[item.href]} />
+                  <div style={{ padding: "18px 20px 20px" }}>
+                    <p style={{ fontWeight: 600, color: "#0a1628", margin: "0 0 8px" }}>{item.t}</p>
+                    <p style={{ fontSize: 13, color: "#64748b", margin: "0 0 12px", lineHeight: 1.6 }}>{item.d}</p>
+                    <span style={{ fontSize: 13, color: "#2563eb" }}>자세히 보기 →</span>
+                  </div>
                 </a>
               ) : (
                 <div key={item.t} style={{ background: "#fff", border: "1px solid #e2e8f0", borderRadius: 8, padding: "20px" }}>
@@ -152,10 +158,14 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
             ].map((item: { t: string; d: string; href: string | null }) => (
               // href: null — 상세 페이지가 '준비 중'(noindex)이라 링크를 걸지 않는다(LAW-V1 P0-4).
               item.href ? (
-                <a key={item.href} href={item.href} style={{ display: "block", background: "#fff", border: "1px solid #e2e8f0", borderRadius: 8, padding: "20px", textDecoration: "none" }}>
-                  <p style={{ fontWeight: 600, color: "#0a1628", margin: "0 0 8px" }}>{item.t}</p>
-                  <p style={{ fontSize: 13, color: "#64748b", margin: "0 0 12px", lineHeight: 1.6 }}>{item.d}</p>
-                  <span style={{ fontSize: 13, color: "#2563eb" }}>자세히 보기 →</span>
+                <a key={item.href} href={item.href} style={{ display: "block", background: "#fff", border: "1px solid #e2e8f0", borderRadius: 8, overflow: "hidden", textDecoration: "none" }}>
+                  {/* EYE1027-FIX(맥7 2026-10-28) — 주제 사진 카드(홈과 다른 사진) */}
+                  <CardPhotoImg photo={OFFENSES_CARD_PHOTOS[item.href]} />
+                  <div style={{ padding: "18px 20px 20px" }}>
+                    <p style={{ fontWeight: 600, color: "#0a1628", margin: "0 0 8px" }}>{item.t}</p>
+                    <p style={{ fontSize: 13, color: "#64748b", margin: "0 0 12px", lineHeight: 1.6 }}>{item.d}</p>
+                    <span style={{ fontSize: 13, color: "#2563eb" }}>자세히 보기 →</span>
+                  </div>
                 </a>
               ) : (
                 <div key={item.t} style={{ background: "#fff", border: "1px solid #e2e8f0", borderRadius: 8, padding: "20px" }}>
