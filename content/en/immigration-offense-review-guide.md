@@ -152,7 +152,7 @@ Reason statements, petitions, mitigation materials. Reviewed by an administrativ
 ### Step 5. Appearance Support and Strategy (day-of + post-decision)
 Office attendance with you, or a thorough simulation. Right after the decision, we propose follow-up strategy (objection, voluntary departure, status change, etc.). An objection to a deportation order must be filed within 7 days of receiving the order.
 
-> This office performs document preparation and submission under the Administrative Agent Act. We do not handle litigation or court representation, including criminal defense (outside the scope of an administrative agent).
+> This office performs document preparation and submission under the Certified Administrative Agents Act. We do not handle litigation or court representation, including criminal defense (outside the scope of an administrative agent).
 
 ## 7. Frequently Asked Questions
 

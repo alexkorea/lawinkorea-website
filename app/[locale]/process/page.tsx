@@ -51,7 +51,7 @@ const CONTENT: Record<L, {
   },
   en: {
     title: "Consultation Process",
-    sub: "Sunshine Administrative Agent Office follows the 5 steps below when handling immigration offense review cases. Our work is limited to document preparation, evidentiary material support, and accompaniment to appearances under the Administrative Agent Act — it does not include courtroom litigation, which is outside the scope of an administrative agent.",
+    sub: "Sunshine Administrative Agent Office follows the 5 steps below when handling immigration offense review cases. Our work is limited to document preparation, evidentiary material support, and accompaniment to appearances under the Certified Administrative Agents Act — it does not include courtroom litigation, which is outside the scope of an administrative agent.",
     steps: [
       { num: "01", label: "Application", desc: "You reach out online or by phone. We take an initial intake — criminal charges filed, an immigration offense notice, or a departure order — and get a brief overview of your case." },
       { num: "02", label: "Brief Information & Basic Consultation", desc: "Based on the intake, we walk you through the likely type of disposition (notice disposition, departure order, deportation, etc.) and the general procedure ahead." },
@@ -59,7 +59,7 @@ const CONTENT: Record<L, {
       { num: "04", label: "Contract", desc: "Based on the analysis, we define the scope of work and each party's role, then sign an engagement agreement." },
       { num: "05", label: "Execution", desc: "Within the agreed scope, we prepare the written opinion and supporting materials, and assist with preparation if an in-person appearance is required." },
     ],
-    note: "Timelines and required documents vary by individual situation. Please consult us for precise procedural guidance. This service is provided within the scope defined by the Administrative Agent Act and does not guarantee any particular outcome.",
+    note: "Timelines and required documents vary by individual situation. Please consult us for precise procedural guidance. This service is provided within the scope defined by the Certified Administrative Agents Act and does not guarantee any particular outcome.",
   },
   zh: {
     title: "咨询进行程序",

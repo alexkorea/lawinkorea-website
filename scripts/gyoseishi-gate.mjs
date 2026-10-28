@@ -6,13 +6,14 @@
  *   node scripts/gyoseishi-gate.mjs <dir> [<dir>…]  → 빌드 산출물 검사 (build·deploy.sh)
  * LAW-JA-NAME-2(2026-10-28, 맥7 승인): en 행정사 = 'Administrative Agent'(상호 'Sunshine Administrative Agent Office').
  *   'Scrivener' 계열·'Administrative Agency Office'·og 'ADMINISTRATIVE AGENCY' 도 같은 함수로 거부한다(정부 'administrative agencies' 는 통과).
+ * TERM-UNIFY-1028(맥7 승인): en 법 이름은 'Certified Administrative Agents Act' 하나 — 'Haengjeongsa Act'·'Administrative Agent Act' 꼴 거부.
  * 원고 은행 발행 검사는 scripts/lawinkorea-daily/run.mjs 가 findGyoseishiViolations 를 직접 쓴다.
  */
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
-const RE = /(?<!日本の)行政[書书]士|\b[Ss][Cc][Rr][Ii][Vv][Ee][Nn][Ee][Rr][Ss]?\b|Administrative Agency Office|ADMINISTRATIVE AGENCY\b/gu
+const RE = /(?<!日本の)行政[書书]士|\b[Ss][Cc][Rr][Ii][Vv][Ee][Nn][Ee][Rr][Ss]?\b|Administrative Agency Office|ADMINISTRATIVE AGENCY\b|Haengjeongsa Act|(?<!Certified )\bAdministrative Agents? Act\b|Certified Administrative Agent Act\b/gu
 export function findGyoseishiViolations(text) {
   return [...text.matchAll(RE)].map((m) => text.slice(Math.max(0, m.index - 14), m.index + 18).replace(/\s+/g, ' '))
 }

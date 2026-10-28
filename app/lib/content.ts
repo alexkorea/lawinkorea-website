@@ -377,7 +377,7 @@ export const SECTION_LABELS: Record<
     processIntro:
       "From the first call to attendance prep, no step is skipped. Every client receives a private dashboard to track real-time progress.",
     processDisclaimer:
-      "This office performs document preparation and submission under the Administrative Agent Act. We do not handle litigation or court representation, including criminal defense (outside the scope of an administrative agent).",
+      "This office performs document preparation and submission under the Certified Administrative Agents Act. We do not handle litigation or court representation, including criminal defense (outside the scope of an administrative agent).",
     servicesEyebrow: "Professional Services",
     servicesTitle: "Not mere agency — strategic administrative response",
     quietEyebrow: "A QUIET WORD ON THIS",
