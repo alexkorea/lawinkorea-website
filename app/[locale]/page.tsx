@@ -7,7 +7,7 @@ import ConfidentialityNote from "../components/ConfidentialityNote";
 import ContactChannels, { HoursNotice } from "../components/ContactChannels";
 import RepresentativeCard from "../components/RepresentativeCard";
 import CardPhotoImg from "../components/CardPhotoImg";
-import { HOME_CARD_PHOTOS } from "../lib/card-photos";
+import { HOME_CARD_ALT, HOME_CARD_PHOTOS } from "../lib/card-photos";
 
 // 홈 연락 영역(LAW-V1b 2·4) — 담당 행정사 사진·등록정보 + 메신저·전화·이메일. ko 와 외국어 홈 공통.
 const HomeContactArea = ({ l }: { l: L }) => (
@@ -773,13 +773,21 @@ const GenericHomePage = ({ l }: { l: Exclude<L, "ko"> }) => {
       <section style={{ maxWidth: 1100, margin: "0 auto", padding: "64px 24px" }}>
         <h2 style={{ fontSize: 24, fontWeight: 700, color: "#0a1628", marginBottom: 28 }}>{c.services.title}</h2>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))", gap: 18 }}>
-          {c.services.items.map((item) => (
-            <a key={item.slug} href={`/${l}/${item.type}/${item.slug}`} style={{ display: "flex", flexDirection: "column", background: "#fff", border: "1px solid #e2e8f0", borderRadius: 8, padding: "22px 18px", textDecoration: "none" }}>
-              <p style={{ fontWeight: 600, color: "#0a1628", margin: "0 0 8px" }}>{item.t}</p>
-              <p style={{ fontSize: 13, color: "#64748b", margin: "0 0 10px", lineHeight: 1.6, flex: "1 0 auto" }}>{item.d}</p>
-              <span style={{ fontSize: 13, color: "#2563eb", fontWeight: 500, marginTop: "auto" }}>{c.services.more}</span>
-            </a>
-          ))}
+          {c.services.items.map((item) => {
+            // EYE1027-FIX-2(맥7 2026-10-28) — ko 홈과 같은 사진, 대체 텍스트는 로캘별
+            const key = `/ko/${item.type}/${item.slug}`;
+            const photo = HOME_CARD_PHOTOS[key];
+            return (
+              <a key={item.slug} href={`/${l}/${item.type}/${item.slug}`} style={{ display: "flex", flexDirection: "column", background: "#fff", border: "1px solid #e2e8f0", borderRadius: 8, overflow: "hidden", textDecoration: "none" }}>
+                {photo && <CardPhotoImg photo={{ file: photo.file, alt: HOME_CARD_ALT[l][key] ?? "" }} />}
+                <div style={{ display: "flex", flexDirection: "column", flex: 1, padding: "22px 18px" }}>
+                  <p style={{ fontWeight: 600, color: "#0a1628", margin: "0 0 8px" }}>{item.t}</p>
+                  <p style={{ fontSize: 13, color: "#64748b", margin: "0 0 10px", lineHeight: 1.6, flex: "1 0 auto" }}>{item.d}</p>
+                  <span style={{ fontSize: 13, color: "#2563eb", fontWeight: 500, marginTop: "auto" }}>{c.services.more}</span>
+                </div>
+              </a>
+            );
+          })}
         </div>
       </section>
 
