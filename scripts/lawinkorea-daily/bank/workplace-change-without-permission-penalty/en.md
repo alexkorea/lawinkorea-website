@@ -91,8 +91,8 @@ Yes. Article 21(2) says no one may hire or arrange employment for a foreigner wh
 4. **Meet deadlines on any summons or notice.** A summons states its purpose, date and place (Enforcement Decree, Article 58), and a fine notice runs 15 days from receipt.
 5. **Document the facts.** How the job change happened, whether the employer advised you, whether the former employer consented to the transfer, with supporting documents.
 
-## 7. What an administrative scrivener can do
+## 7. What an administrative agent can do
 
-We prepare and submit workplace change/addition permission and report documents, draft written statements explaining how the violation occurred, and organize and translate supporting documents. Investigation and criminal trial defense after a complaint is filed is outside the scope of an administrative scrivener and we do not handle it.
+We prepare and submit workplace change/addition permission and report documents, draft written statements explaining how the violation occurred, and organize and translate supporting documents. Investigation and criminal trial defense after a complaint is filed is outside the scope of an administrative agent and we do not handle it.
 
 If your workplace has already changed, first confirm your permission or report status. If you hold a notice or summons, check the dates and review the remaining deadline and supporting materials together.

@@ -69,8 +69,8 @@ Under the Enforcement Decree, when status is not granted, the Minister notifies 
 4. **If you are already late, apply without delay.** The standard amount rises with the delay.
 5. **If you received a notice or summons, check the dates first.** A fine notice runs 15 days from receipt.
 
-## 6. What an administrative scrivener can do
+## 6. What an administrative agent can do
 
-We prepare and submit grant of status applications, check documents against the parents' status, translate foreign documents, and draft an explanation if the deadline has passed. Investigation and criminal trial defense after a complaint is outside the scope of an administrative scrivener and we do not handle it.
+We prepare and submit grant of status applications, check documents against the parents' status, translate foreign documents, and draft an explanation if the deadline has passed. Investigation and criminal trial defense after a complaint is outside the scope of an administrative agent and we do not handle it.
 
 Start by counting how many days have passed since the birth. If the deadline is near or past, we can go through the documents together.

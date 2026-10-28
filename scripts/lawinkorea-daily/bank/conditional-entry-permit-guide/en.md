@@ -81,8 +81,8 @@ The deposit can be forfeited in whole or in part for a breach (Article 13(3)), a
 4. **Answer questions truthfully on the spot.** Do not say anything that differs from your documents. False statements in applications can be punished separately under Articles 7-2 and 26.
 5. **If given a conditional entry permit, follow the conditions exactly.** Note the period, residence restriction and appearance time.
 
-## 6. What an administrative scrivener can do
+## 6. What an administrative agent can do
 
-We check visa issuance certificate and visa application documents, organize material proving your purpose of entry, review entry ban grounds, and translate foreign documents. Acting for you at the airport on a refusal, and criminal investigation and trial defense after a complaint, are outside the scope of an administrative scrivener and we do not handle them.
+We check visa issuance certificate and visa application documents, organize material proving your purpose of entry, review entry ban grounds, and translate foreign documents. Acting for you at the airport on a refusal, and criminal investigation and trial defense after a complaint, are outside the scope of an administrative agent and we do not handle them.
 
 Once your arrival is set, check your documents and entry-purpose materials first. If you are worried about a visa application, see the [visa denial guide](/en/blog/visa-denial-response) too.

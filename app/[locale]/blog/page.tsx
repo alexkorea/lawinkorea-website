@@ -23,7 +23,7 @@ const HEADER_TEXT: Record<LocaleParam, { eyebrow: string; title: string; subtitl
     eyebrow: "BLOG · INSIGHTS",
     title: "Korea Immigration Offense Review — In-Depth Guides",
     subtitle:
-      "Practical strategies for foreigners facing DUI, criminal cases, drug investigations, illegal employment, and visa crisis in Korea. Authored by Sunshine Administrative Agency Office.",
+      "Practical strategies for foreigners facing DUI, criminal cases, drug investigations, illegal employment, and visa crisis in Korea. Authored by Sunshine Administrative Agent Office.",
     cta: "Request a consultation →",
     ctaLead: "Not sure how this applies to your case? Request a consultation and bring the documents you received.",
   },

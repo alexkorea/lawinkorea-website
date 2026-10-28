@@ -66,8 +66,8 @@ The Enforcement Decree of the Immigration Act says the applicant is notified whe
 4. **Read the notice carefully.** On refusal it states a departure deadline or whether your current status continues.
 5. **If you already started, stop and organize what happened.** The longer the period, the higher the standard amount.
 
-## 6. What an administrative scrivener can do
+## 6. What an administrative agent can do
 
-We prepare and submit change of status applications, check documents by status, draft statements explaining how a violation occurred, and translate foreign documents. Investigation and criminal trial defense after a complaint is outside the scope of an administrative scrivener and we do not handle it.
+We prepare and submit change of status applications, check documents by status, draft statements explaining how a violation occurred, and translate foreign documents. Investigation and criminal trial defense after a complaint is outside the scope of an administrative agent and we do not handle it.
 
 If you have not started the new activity yet, check the order of permission first. If you already have, organize the period and seek advice.

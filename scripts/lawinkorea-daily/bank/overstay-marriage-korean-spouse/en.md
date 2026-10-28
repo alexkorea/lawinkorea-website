@@ -81,9 +81,9 @@ To judge whether the marriage is genuine and a normal married life is possible, 
 
 If the couple has a child together, the income and communication requirements are waived. If a visa is refused, you may reapply after 6 months from the refusal date, or earlier if there is an urgent reason such as childbirth. It is best to explain the overstay honestly rather than hide it.
 
-## 6. What an administrative scrivener can do
+## 6. What an administrative agent can do
 
-We check whether a change of status in Korea is possible, prepare departure order applications, help organize the statement of marriage background and relationship history, prepare visa documents such as the invitation and guarantee, and translate foreign documents. Criminal defense and litigation representation are outside the scope of an administrative scrivener and we do not handle them.
+We check whether a change of status in Korea is possible, prepare departure order applications, help organize the statement of marriage background and relationship history, prepare visa documents such as the invitation and guarantee, and translate foreign documents. Criminal defense and litigation representation are outside the scope of an administrative agent and we do not handle them.
 
 The order of steps matters when you are marrying and sorting out your stay, so check your records and documents before you leave.
 

@@ -96,8 +96,8 @@ If a rejected applicant receives a humanitarian stay permit, a one-year period o
 4. **After six months, get the permit before starting a job.** Check that the job is not in a restricted industry and that you have the contract and business registration.
 5. **When you receive a rejection notice, note the date.** Do not miss the 30-day objection or 90-day lawsuit deadline.
 
-## 8. What an administrative scrivener can do
+## 8. What an administrative agent can do
 
-We organize extension documents and proof of residence, prepare applications for permission for activities outside status (the work permit) after six months, handle reapplications when your workplace changes, gather supporting materials for an objection and translate foreign documents. Criminal defense and representation in administrative lawsuits are outside the scope of an administrative scrivener and we do not handle them.
+We organize extension documents and proof of residence, prepare applications for permission for activities outside status (the work permit) after six months, handle reapplications when your workplace changes, gather supporting materials for an objection and translate foreign documents. Criminal defense and representation in administrative lawsuits are outside the scope of an administrative agent and we do not handle them.
 
 Missing a single date narrows your options, so bring your receipt and notices when you seek advice. Residence services are explained on HiKorea: <https://www.hikorea.go.kr>

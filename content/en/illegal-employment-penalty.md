@@ -116,7 +116,7 @@ Difficult cases:
 - Korean family (cannot leave)
 - Home-country danger
 
-→ Use a scrivener-accompanied self-reporting.
+→ Use an administrative agent-accompanied self-reporting.
 
 ## 6. Real Cases
 

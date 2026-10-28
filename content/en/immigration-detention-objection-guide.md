@@ -82,8 +82,8 @@ Even if the objection is found unfounded, the Minister may permit stay where the
 4. **Gather supporting materials.** Proof of family ties, residence and employment, guarantor details and ability to pay a deposit, stated honestly, help the review.
 5. **Confirm the person's wishes.** Whether they wish to leave voluntarily (including under a departure order) or keep their stay changes the choice. See the [voluntary departure guide](/en/blog/foreigner-voluntary-departure-2026) for a comparison.
 
-## 6. What an administrative scrivener can do
+## 6. What an administrative agent can do
 
-We prepare and submit administrative documents such as review requests, objections and temporary release applications, draft statements and opinions, and organize and translate proof of family ties, residence and employment. Investigation and trial defense in criminal cases is outside the scope of an administrative scrivener and we do not handle it.
+We prepare and submit administrative documents such as review requests, objections and temporary release applications, draft statements and opinions, and organize and translate proof of family ties, residence and employment. Investigation and trial defense in criminal cases is outside the scope of an administrative agent and we do not handle it.
 
 Because these procedures have short deadlines, the most important step is to check the dates from the day you receive any document. If you already hold a decision, start by sorting out the remaining deadline and then seek advice.

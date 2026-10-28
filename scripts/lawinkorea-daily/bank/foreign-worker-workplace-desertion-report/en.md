@@ -84,9 +84,9 @@ During the three-year employment period after entry, changes may not exceed thre
 
 If you have already worked elsewhere or overstayed, also check [the review procedure for illegal employment](/en/blog/illegal-employment-penalty).
 
-## 6. How an administrative scrivener can help
+## 6. How an administrative agent can help
 
-We can help employers prepare employment change and unknown-whereabouts reports and check deadlines, help workers prepare documents for a workplace change permit or stay extension, write statements explaining how the departure happened or why it was not the worker's fault, and translate foreign-language documents. Lawsuits over unpaid wages and representation in criminal cases or lawsuits are outside the scope of an administrative scrivener's work, so we do not take them on.
+We can help employers prepare employment change and unknown-whereabouts reports and check deadlines, help workers prepare documents for a workplace change permit or stay extension, write statements explaining how the departure happened or why it was not the worker's fault, and translate foreign-language documents. Lawsuits over unpaid wages and representation in criminal cases or lawsuits are outside the scope of an administrative agent's work, so we do not take them on.
 
 Whether you are the employer or the worker, the first step is to write down the last day of work and the date contact was lost.
 

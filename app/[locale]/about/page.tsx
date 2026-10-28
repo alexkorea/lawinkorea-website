@@ -28,7 +28,7 @@ const CONTENT: Record<L, { title: string; intro: string; points: { label: string
   },
   en: {
     title: "About Us",
-    intro: "Sunshine Administrative Agency Office specializes in immigration offense review support for foreign nationals in Korea. We assist with DUI, criminal charges, unauthorized employment, departure orders, and other visa crisis situations.",
+    intro: "Sunshine Administrative Agent Office specializes in immigration offense review support for foreign nationals in Korea. We assist with DUI, criminal charges, unauthorized employment, departure orders, and other visa crisis situations.",
     points: [
       { label: "Specialization", desc: "Immigration offense review response, visa status preservation, departure order and deportation appeal support" },
       { label: "Languages", desc: "Korean, English, Japanese, Chinese, Vietnamese" },
@@ -89,7 +89,7 @@ const ADDRESS: Record<L, string> = {
 
 const INFO: Record<L, { title: string; name: string; rep: string; repValue: string; addr: string; tel: string; biz: string; hours: string; hoursValue: string; langs: string; langsValue: string }> = {
   ko: { title: "사무소 등록 정보", name: "상호", rep: "대표 행정사", repValue: "한경택", addr: "주소", tel: "전화", biz: "사업자등록번호", hours: "상담 시간", hoursValue: "월~금 09:30–17:30 (토·일·공휴일 휴무)", langs: "상담 언어", langsValue: "한국어 · 영어 · 일본어 · 중국어 · 베트남어" },
-  en: { title: "Registered office details", name: "Registered name", rep: "Representative administrative scrivener", repValue: "한경택", addr: "Address", tel: "Phone", biz: "Business registration no.", hours: "Hours", hoursValue: "Mon–Fri 09:30–17:30 KST (closed weekends and public holidays)", langs: "Consultation languages", langsValue: "Korean · English · Japanese · Chinese · Vietnamese" },
+  en: { title: "Registered office details", name: "Registered name", rep: "Representative administrative agent", repValue: "한경택", addr: "Address", tel: "Phone", biz: "Business registration no.", hours: "Hours", hoursValue: "Mon–Fri 09:30–17:30 KST (closed weekends and public holidays)", langs: "Consultation languages", langsValue: "Korean · English · Japanese · Chinese · Vietnamese" },
   zh: { title: "事务所登记信息", name: "商号", rep: "代表行政士", repValue: "한경택", addr: "地址", tel: "电话", biz: "营业执照号码", hours: "咨询时间", hoursValue: "周一至周五 09:30–17:30（周末及法定节假日休息）", langs: "咨询语言", langsValue: "韩语 · 英语 · 日语 · 中文 · 越南语" },
   ja: { title: "事務所の登録情報", name: "商号", rep: "代表行政士", repValue: "한경택", addr: "所在地", tel: "電話", biz: "事業者登録番号", hours: "相談時間", hoursValue: "月〜金 09:30–17:30（土日祝休み）", langs: "相談言語", langsValue: "韓国語 · 英語 · 日本語 · 中国語 · ベトナム語" },
   vi: { title: "Thông tin đăng ký văn phòng", name: "Tên đăng ký", rep: "Hành chính sĩ đại diện", repValue: "한경택", addr: "Địa chỉ", tel: "Điện thoại", biz: "Số đăng ký kinh doanh", hours: "Giờ tư vấn", hoursValue: "Thứ Hai–Thứ Sáu 09:30–17:30 (nghỉ cuối tuần và ngày lễ)", langs: "Ngôn ngữ tư vấn", langsValue: "Tiếng Hàn · tiếng Anh · tiếng Nhật · tiếng Trung · tiếng Việt" },
@@ -153,9 +153,9 @@ const FAQ: Record<L, { q: string; a: string }[]> = {
     { q: "사업자 정보는 어디서 확인할 수 있나요?", a: "상호 선샤인행정사사무소, 대표 한경택, 사업자등록번호 752-17-01689입니다. 같은 정보가 모든 페이지 하단에도 적혀 있습니다." },
   ],
   en: [
-    { q: "Who runs this website?", a: "An administrative scrivener office located on the 3rd floor of the Sungwoo Building, 324 Toegye-ro, Jung-gu, Seoul. The office prepares and submits documents for foreign nationals facing an immigration offense review or a residence-related disposition." },
-    { q: "What can an administrative scrivener do in an immigration offense review?", a: "Under the Korea's Haengjeongsa Act, an administrative scrivener may draft documents submitted to administrative agencies, draft documents that certify facts, translate documents related to administrative work, and submit the documents so prepared. Help with statements of opinion, letters of apology and petitions falls within this scope." },
-    { q: "Can you defend me in a criminal trial?", a: "No. Criminal defense and representation in lawsuits are outside the scope of an administrative scrivener, so we do not handle them." },
+    { q: "Who runs this website?", a: "An administrative agent office located on the 3rd floor of the Sungwoo Building, 324 Toegye-ro, Jung-gu, Seoul. The office prepares and submits documents for foreign nationals facing an immigration offense review or a residence-related disposition." },
+    { q: "What can an administrative agent do in an immigration offense review?", a: "Under the Korea's Haengjeongsa Act, an administrative agent may draft documents submitted to administrative agencies, draft documents that certify facts, translate documents related to administrative work, and submit the documents so prepared. Help with statements of opinion, letters of apology and petitions falls within this scope." },
+    { q: "Can you defend me in a criminal trial?", a: "No. Criminal defense and representation in lawsuits are outside the scope of an administrative agent, so we do not handle them." },
     { q: "Can you represent me in an administrative appeal against a departure or deportation order?", a: "We do not act as your representative in an administrative appeal, but we help you prepare and file the written petition. Under Korea's Administrative Appeals Act, the petition must be filed in writing within 90 days of the date you learned of the disposition." },
     { q: "Can you help with labor or tax matters?", a: "Acting for you in filings and complaints under labor laws is the work of a certified labor consultant, and acting for you in tax returns and tax appeals is the work of a certified tax accountant. If you need those procedures, we will point you to the right professional." },
     { q: "Which languages can I consult in?", a: "Korean, English, Japanese, Chinese and Vietnamese." },

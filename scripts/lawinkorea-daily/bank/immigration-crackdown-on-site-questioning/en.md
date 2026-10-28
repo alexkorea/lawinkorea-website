@@ -81,8 +81,8 @@ The length of detention afterwards, review requests and objections to a deportat
 4. **If detained, check the reason, place and time on the emergency detention form or detention order.**
 5. **Leave contact details with family or your employer.** Deciding in advance who should receive the 3-day notice helps.
 
-## 7. What an administrative scrivener can do
+## 7. What an administrative agent can do
 
-We review your residence status, organize documents related to employing foreigners, draft statements explaining what happened, prepare documents for temporary release from detention or objections, and translate foreign documents. Criminal defense and litigation representation are outside the scope of an administrative scrivener and we do not handle them.
+We review your residence status, organize documents related to employing foreigners, draft statements explaining what happened, prepare documents for temporary release from detention or objections, and translate foreign documents. Criminal defense and litigation representation are outside the scope of an administrative agent and we do not handle them.
 
 If you received any documents on site, organize the dates and contents first and then seek advice. You can check your status and period of stay on HiKorea: <https://www.hikorea.go.kr>

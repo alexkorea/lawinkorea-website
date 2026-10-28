@@ -47,7 +47,7 @@ const OG_ALT: Record<string, string> = {
   vi: "Law in Korea · Xem xét vi phạm xuất nhập cảnh",
 };
 /** 다시 그린 언어의 캐시 무효화 값(파일명 고정이라 엣지가 옛 바이트를 준다) — LAW-JA-NAME 10-28 ja 상호 行政士. */
-const OG_VER: Record<string, string> = { ja: "20261028" };
+const OG_VER: Record<string, string> = { ja: "20261028", en: "20261028" };
 export function siteOgImages(rawLocale: string) {
   const l = (LOCALES as readonly string[]).includes(rawLocale) ? rawLocale : "ko";
   return [{ url: `${SITE.url}/og/site-${l}.jpg${OG_VER[l] ? `?v=${OG_VER[l]}` : ""}`, width: 1200, height: 630, alt: OG_ALT[l] }];
@@ -75,7 +75,7 @@ export const PAGE_SEO: Record<string, Record<Locale, Seo>> = {
     en: {
       title: "About Sunshine — Korea Immigration Offense Review Specialists",
       description:
-        "Sunshine Administrative Agency Office in Seoul specializes in immigration offense review for foreign nationals in Korea. Learn about our practice areas — DUI, criminal charges, unauthorized employment, departure orders — and four-language support.",
+        "Sunshine Administrative Agent Office in Seoul specializes in immigration offense review for foreign nationals in Korea. Learn about our practice areas — DUI, criminal charges, unauthorized employment, departure orders — and four-language support.",
     },
     zh: {
       title: "事务所介绍 — 韩国出入境事犯审查专业行政士",
@@ -183,7 +183,7 @@ export const PAGE_SEO: Record<string, Record<Locale, Seo>> = {
     en: {
       title: "FAQ — Korea Immigration Offense Review Questions Answered",
       description:
-        "How an immigration offense review differs from criminal punishment, what to do after a departure order, who should write the written explanation, and whether visa status survives a DUI — answered by a certified administrative scrivener.",
+        "How an immigration offense review differs from criminal punishment, what to do after a departure order, who should write the written explanation, and whether visa status survives a DUI — answered by a certified administrative agent.",
     },
     zh: {
       title: "常见问题 — 韩国出入境事犯审查问答",

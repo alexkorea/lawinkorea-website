@@ -60,7 +60,7 @@ A deportation review can follow even a **single simple use**, separately from th
 ## 3. Immediate Action Checklist
 
 ### Step 1. Deal with the criminal proceedings first
-Drug cases require strong criminal defense; outcomes directly shape the offense review. Administrative scriveners cannot perform criminal defense.
+Drug cases require strong criminal defense; outcomes directly shape the offense review. Administrative agents cannot perform criminal defense.
 
 ### Step 2. Surrender + cooperate
 If pre-detection: voluntary surrender → mitigation. If detected: investigative cooperation (co-defendant info, surrender willingness) is mitigation.
@@ -145,7 +145,7 @@ Even with these factors, the result depends on the individual review.
 3. Office attendance support (day-of) — translation, supplemental statement
 4. Post-decision follow-up (30 days)
 
-> The office handles only the administrative offense review. We do not handle litigation or court representation, including criminal defense (outside the scope of an administrative scrivener).
+> The office handles only the administrative offense review. We do not handle litigation or court representation, including criminal defense (outside the scope of an administrative agent).
 
 ## 9. Time Is Critical
 

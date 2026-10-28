@@ -91,8 +91,8 @@ Private tutoring is strictly limited as well. By contrast, safety or play assist
 
 On a first detection for working without a permit, a minor case may end with a fine notice and permission to stay, but illegal work in construction always leads to a departure order, and a second detection leads to deportation. Even with a permit, breaching its conditions escalates from a warning to a ban on part-time work and then cancellation of student status. For penalties and how to respond, see the [foreigner illegal employment penalty guide](/en/blog/illegal-employment-penalty) and [dispositions for unauthorized activity](/en/blog/unauthorized-activity-disposition-2026). If your main activity itself changes, such as taking a job after graduation, check the [change of status permit steps](/en/blog/status-change-permit-before-activity) first.
 
-## 7. What an administrative scrivener can do
+## 7. What an administrative agent can do
 
-We check whether you qualify and how many hours apply, organize the document list, prepare reapplication papers when you change workplaces, draft statements explaining the circumstances if a violation has become an issue, and translate foreign documents. Criminal defense and litigation representation are outside the scope of an administrative scrivener and we do not handle them.
+We check whether you qualify and how many hours apply, organize the document list, prepare reapplication papers when you change workplaces, draft statements explaining the circumstances if a violation has become an issue, and translate foreign documents. Criminal defense and litigation representation are outside the scope of an administrative agent and we do not handle them.
 
 If you have found a job, get the permit before your first shift. Residence services and how to apply are explained on HiKorea: <https://www.hikorea.go.kr>

@@ -66,8 +66,8 @@ If your residence has a problem, it is better to first find out how to put your 
 4. **Find out how to put your status in order.** Check whether extension, change or voluntary departure is an option.
 5. **If you get a summons or fine notice, check the deadline first.** A fine notice runs 15 days from receipt.
 
-## 6. What an administrative scrivener can do
+## 6. What an administrative agent can do
 
-We review your status, prepare documents for extension, change of status or departure order applications, draft statements explaining how a violation occurred, and translate foreign documents. Investigation and criminal trial defense after a complaint is outside the scope of an administrative scrivener and we do not handle it.
+We review your status, prepare documents for extension, change of status or departure order applications, draft statements explaining how a violation occurred, and translate foreign documents. Investigation and criminal trial defense after a complaint is outside the scope of an administrative agent and we do not handle it.
 
 If you are worried, organize the dates and documents first and then seek advice.

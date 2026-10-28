@@ -63,9 +63,9 @@ Under Article 29 of the Immigration Act, the Minister of Justice may suspend the
 4. **Prepare proof of full payment.** Permanent residency requires official documents showing full payment, and submission may be waived if the system shows nothing is unpaid.
 5. **Apply before the expiry date.** If you are refused, check [how to respond to an extension refusal](/en/blog/visa-denial-response) for what to do before your departure deadline. Other conduct requirements, such as criminal records, are covered in [criminal records and permanent residency](/en/blog/criminal-record-pr-impact).
 
-## 6. How an administrative scrivener can help
+## 6. How an administrative agent can help
 
-We can help you check your arrears and stay timeline, prepare documents for a stay extension, status change or permanent residency application, write a statement explaining how the arrears arose and that they have been paid, and translate foreign-language documents. Tax appeals and representation in criminal cases or lawsuits are outside the scope of an administrative scrivener's work, so we do not take them on.
+We can help you check your arrears and stay timeline, prepare documents for a stay extension, status change or permanent residency application, write a statement explaining how the arrears arose and that they have been paid, and translate foreign-language documents. Tax appeals and representation in criminal cases or lawsuits are outside the scope of an administrative agent's work, so we do not take them on.
 
 If you have arrears, settle them and gather the certificates before you file the extension.
 

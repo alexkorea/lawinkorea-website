@@ -159,10 +159,10 @@ Exception: due-diligence and supervision can exempt the corporation.
 
 **Key:** Criminal fine alone ≠ safety. Assuming that **"just paying the fine"** ends the matter is a common misunderstanding. See [Korea Immigration Offense Review Guide](/en/blog/immigration-offense-review-guide).
 
-## 10. Why a Scrivener Matters
+## 10. Why an Administrative Agent Matters
 
 Even with light fine appearance:
-- **Offense review is separate** — scrivener accompanies and communicates with Immigration
+- **Offense review is separate** — administrative agent accompanies and communicates with Immigration
 - **Mitigation organization** — Korean residence, family, employment, language ability
 - **Multilingual interpretation**
 - **Post-decision visa strategy**
@@ -171,7 +171,7 @@ Even with light fine appearance:
 
 If notified for an Immigration Control Act violation, **paying the fine is not the end.** Manage criminal and administrative tracks together to preserve your visa.
 
-Sunshine Administrative Agency Office — immigration practice in Korean / English / Chinese / Japanese / Vietnamese.
+Sunshine Administrative Agent Office — immigration practice in Korean / English / Chinese / Japanese / Vietnamese.
 
 [Initial consultation →](/en)
 

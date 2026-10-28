@@ -60,7 +60,7 @@ export const HERO: Record<
     h1_a: "Received an offense review notice?",
     h1_b: "Stay calm.",
     h1_c: "This is the first step in protecting your status.",
-    sub: "DUI, criminal cases, immigration law violations — from initial evidence to submission packets, a certified administrative scrivener works with you, calmly and methodically.",
+    sub: "DUI, criminal cases, immigration law violations — from initial evidence to submission packets, a certified administrative agent works with you, calmly and methodically.",
     cta_primary: "Request a Consultation",
     cta_secondary: "View Checklist",
     trust: ["Four-language support", "Seoul main office"],
@@ -228,7 +228,7 @@ export const STEPS = [
     titles: { ko: "서류 완성", en: "Documents Finalized", zh: "材料完成", ja: "書類完成" },
     desc: {
       ko: "전문 행정사의 검토 및 최종 서류팩 제작",
-      en: "Review by certified scrivener and final document pack",
+      en: "Review by certified administrative agent and final document pack",
       zh: "专业行政士审核并制作最终材料包",
       ja: "専門行政士の検討と最終書類パック作成",
     },
@@ -377,7 +377,7 @@ export const SECTION_LABELS: Record<
     processIntro:
       "From the first call to attendance prep, no step is skipped. Every client receives a private dashboard to track real-time progress.",
     processDisclaimer:
-      "This office performs document preparation and submission under the Administrative Scrivener Act. We do not handle litigation or court representation, including criminal defense (outside the scope of an administrative scrivener).",
+      "This office performs document preparation and submission under the Administrative Agent Act. We do not handle litigation or court representation, including criminal defense (outside the scope of an administrative agent).",
     servicesEyebrow: "Professional Services",
     servicesTitle: "Not mere agency — strategic administrative response",
     quietEyebrow: "A QUIET WORD ON THIS",
@@ -513,10 +513,10 @@ export const TEAM = [
   {
     name: "한경택",
     nameEn: "한경택",
-    role: { ko: "대표 행정사", en: "Principal Scrivener", zh: "代表行政士", ja: "代表行政士" },
+    role: { ko: "대표 행정사", en: "Principal Administrative Agent", zh: "代表行政士", ja: "代表行政士" },
     note: {
       ko: "대한민국 행정사 자격",
-      en: "Licensed administrative scrivener",
+      en: "Licensed administrative agent",
       zh: "韩国行政士资格",
       ja: "韓国行政士資格",
     },
@@ -524,7 +524,7 @@ export const TEAM = [
   {
     name: "전문 팀",
     nameEn: "Specialist Team",
-    role: { ko: "전임 행정사", en: "Senior Scrivener", zh: "专责行政士", ja: "専任行政士" },
+    role: { ko: "전임 행정사", en: "Senior Administrative Agent", zh: "专责行政士", ja: "専任行政士" },
     note: {
       ko: "외국인 정책 전문 · 4개 국어 가능",
       en: "Foreign policy specialists · Four languages",
@@ -554,13 +554,13 @@ export const FOOTER: Record<
   },
   en: {
     disclaimer:
-      "This is a certified administrative scrivener office. Court representation and criminal defense are outside the scope of an administrative scrivener; we focus on immigration administrative procedures and document preparation.",
+      "This is a certified administrative agent office. Court representation and criminal defense are outside the scope of an administrative agent; we focus on immigration administrative procedures and document preparation.",
     columns: [
       { h: "Services", items: ["DUI Review", "Criminal Visa Defense", "Entry Ban Removal", "Status Change/Extend"] },
       { h: "Corporate", items: ["E-7 / E-9 Consulting", "Foreign Hire Defense", "Retainer Advisory", "Compliance Audit"] },
       { h: "Support", items: ["Privacy Policy", "Terms of Service", "Office Map", "Company Info"] },
     ],
-    copyright: "© 2026 Sunshine Administrative Agency Office (Law in Korea). All rights reserved.",
+    copyright: "© 2026 Sunshine Administrative Agent Office (Law in Korea). All rights reserved.",
   },
   zh: {
     disclaimer:
@@ -570,7 +570,7 @@ export const FOOTER: Record<
       { h: "企业客户", items: ["E-7 / E-9 咨询", "外籍员工事犯应对", "企业顾问合约", "合规审查"] },
       { h: "客户支持", items: ["隐私政策", "服务条款", "办公位置", "企业信息"] },
     ],
-    copyright: "© 2026 Sunshine Administrative Agency Office (Law in Korea). 版权所有。",
+    copyright: "© 2026 Sunshine Administrative Agent Office (Law in Korea). 版权所有。",
   },
   ja: {
     disclaimer:
@@ -580,7 +580,7 @@ export const FOOTER: Record<
       { h: "企業顧客", items: ["E-7 / E-9 コンサル", "外国人採用事犯対応", "企業顧問契約", "コンプライアンス点検"] },
       { h: "顧客サポート", items: ["プライバシーポリシー", "利用規約", "アクセス", "事業者情報"] },
     ],
-    copyright: "© 2026 Sunshine Administrative Agency Office (Law in Korea). All rights reserved.",
+    copyright: "© 2026 Sunshine Administrative Agent Office (Law in Korea). All rights reserved.",
   },
   vi: {
     disclaimer:
@@ -590,6 +590,6 @@ export const FOOTER: Record<
       { h: "Doanh nghiệp", items: ["Tư vấn E-7 / E-9", "Đối phó vi phạm nhân viên nước ngoài", "Hợp đồng cố vấn", "Kiểm tra tuân thủ"] },
       { h: "Hỗ trợ", items: ["Chính sách bảo mật", "Điều khoản sử dụng", "Bản đồ văn phòng", "Thông tin công ty"] },
     ],
-    copyright: "© 2026 Sunshine Administrative Agency Office (Law in Korea). All rights reserved.",
+    copyright: "© 2026 Sunshine Administrative Agent Office (Law in Korea). All rights reserved.",
   },
 };

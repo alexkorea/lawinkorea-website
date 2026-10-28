@@ -78,8 +78,8 @@ Even where Article 46(1) may apply, a person who wants to leave voluntarily at t
 3. **Organize why you were late.** Waiting for a status change, document delays or medical treatment. Record the facts and gather evidence.
 4. **Meet the deadlines on any summons or notice.** A fine notice runs 15 days from receipt.
 
-## 6. What an administrative scrivener can do
+## 6. What an administrative agent can do
 
-We review and prepare the registration application, draft written statements explaining the delay, and organize and translate supporting documents. Investigation and criminal trial defense after a complaint is filed is outside the scope of an administrative scrivener and we do not handle it.
+We review and prepare the registration application, draft written statements explaining the delay, and organize and translate supporting documents. Investigation and criminal trial defense after a complaint is filed is outside the scope of an administrative agent and we do not handle it.
 
 If the 90 days have already passed, the first step is to confirm the registration procedure today. If you hold a notice or summons, check the dates and review the remaining deadline and supporting materials together.

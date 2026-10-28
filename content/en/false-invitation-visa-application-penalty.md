@@ -73,8 +73,8 @@ To prevent illegal entry by false invitation, immigration officers may visit peo
 4. **If you get a summons or fine notice, check the deadline first.** A fine notice runs 15 days from receipt.
 5. **Review the invited person's stay plan separately.** Deportation and entry restrictions differ case by case.
 
-## 6. What an administrative scrivener can do
+## 6. What an administrative agent can do
 
-We check the facts in invitation papers and visa issuance certificate applications, organize evidence, draft statements explaining how an error occurred, and translate foreign documents. Investigation and criminal trial defense after a complaint is outside the scope of an administrative scrivener and we do not handle it.
+We check the facts in invitation papers and visa issuance certificate applications, organize evidence, draft statements explaining how an error occurred, and translate foreign documents. Investigation and criminal trial defense after a complaint is outside the scope of an administrative agent and we do not handle it.
 
 If you have not submitted yet, start with a content check. If you already received a notice to appear, start by checking the dates.

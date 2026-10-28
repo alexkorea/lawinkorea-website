@@ -35,7 +35,7 @@ const T: Record<L, {
       "선샤인행정사사무소는 형사사건 변호, 법원 소송, 행정심판 대리를 하지 않습니다. 이런 절차가 필요하면 해당 전문가 상담을 받으시도록 안내합니다.",
   },
   en: {
-    title: "What an administrative scrivener can and cannot do",
+    title: "What an administrative agent can and cannot do",
     canLabel: "What we can do",
     can: [
       "Prepare and submit documents for an immigration offense review",
@@ -43,7 +43,7 @@ const T: Record<L, {
       "Help you prepare and file a petition for administrative appeal",
     ],
     cannotLabel: "What we cannot do",
-    cannot: ["Defending you in a criminal trial or representing you in a lawsuit is outside the scope of an administrative scrivener."],
+    cannot: ["Defending you in a criminal trial or representing you in a lawsuit is outside the scope of an administrative agent."],
     cannotExtra: [
       "Acting for you in filings and complaints under labor laws is the work of a certified labor consultant.",
       "Acting for you in tax returns and tax appeals is the work of a certified tax accountant.",

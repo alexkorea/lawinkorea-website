@@ -17,7 +17,7 @@ faq:
   - q: "Does self-surrender lighten punishment?"
     a: "Self-surrender and investigation cooperation (co-defendant info) can be considered in sentencing and are mitigation in the immigration review. The outcome depends on the individual case."
   - q: "I responded to a part-time job ad and got pulled in. What now?"
-    a: "Immediate scrivener consultation. Save: ad screenshots, KakaoTalk/messenger logs, transfer history, your earnings. Objective proof of normal-job perception is critical."
+    a: "Immediate administrative agent consultation. Save: ad screenshots, KakaoTalk/messenger logs, transfer history, your earnings. Objective proof of normal-job perception is critical."
   - q: "Entry ban after voice phishing?"
     a: "The entry-ban period is decided by the Ministry of Justice for each case. The role, the amount, self-surrender and cooperation are considered."
   - q: "Voice phishing record impact on F-5?"

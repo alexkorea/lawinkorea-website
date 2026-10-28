@@ -145,7 +145,7 @@ Yes. Unauthorized employment is a separate violation under the Immigration Act, 
 ---
 
 Acting early on overstay matters gives you more options.
-Sunshine Administrative Agency Office guides you through voluntary departure, entry ban removal, and re-entry visa applications — step by step.
+Sunshine Administrative Agent Office guides you through voluntary departure, entry ban removal, and re-entry visa applications — step by step.
 
 **Book your consultation now.**
 

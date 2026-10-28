@@ -22,7 +22,7 @@ const BG = "data:image/jpeg;base64," + fs.readFileSync(path.join(ROOT, "scripts/
 
 const T = {
   ko: { kicker: "LAW IN KOREA · 선샤인행정사사무소", h1: "외국인 출입국 사범심사,<br>체류 자격을 지키는 첫 단계", sub: "음주운전·형사사건·출국명령·강제퇴거 상황별 준비 안내" },
-  en: { kicker: "LAW IN KOREA · SUNSHINE ADMINISTRATIVE AGENCY", h1: "Immigration offense review<br>for foreigners in Korea", sub: "DUI · criminal cases · departure orders · deportation" },
+  en: { kicker: "LAW IN KOREA · SUNSHINE ADMINISTRATIVE AGENT OFFICE", h1: "Immigration offense review<br>for foreigners in Korea", sub: "DUI · criminal cases · departure orders · deportation" },
   ja: { kicker: "LAW IN KOREA · サンシャイン行政士事務所", h1: "外国人の出入国事犯審査<br>在留資格を守る第一歩", sub: "飲酒運転・刑事事件・出国命令・強制退去の状況別ガイド" },
   zh: { kicker: "LAW IN KOREA · Sunshine行政士事务所", h1: "外国人出入境违规审查<br>守护居留资格的第一步", sub: "酒驾·刑事案件·出境命令·强制驱逐 分情况指南" },
   vi: { kicker: "LAW IN KOREA · VĂN PHÒNG SUNSHINE", h1: "Xem xét vi phạm xuất nhập cảnh<br>cho người nước ngoài tại Hàn Quốc", sub: "Lái xe say rượu · vụ án hình sự · lệnh xuất cảnh · trục xuất" },

@@ -131,7 +131,7 @@ Costs vary by case. We provide an accurate estimate during your consultation.
 
 ---
 
-Sunshine Administrative Agency Office specializes in visa status cancellation defense and deportation appeals. We do not handle litigation or court representation (outside the scope of an administrative scrivener).
+Sunshine Administrative Agent Office specializes in visa status cancellation defense and deportation appeals. We do not handle litigation or court representation (outside the scope of an administrative agent).
 Multilingual consultations available in English, Korean, Chinese, Japanese, and Vietnamese.
 
 **[Request a Consultation Now →](/en/contact)**

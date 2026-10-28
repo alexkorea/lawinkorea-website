@@ -80,7 +80,7 @@ Matters likely to move into criminal procedure belong to a separate legal proces
 
 ## 7. Check your situation now
 
-If you've received a fine notice and want to also check how it could affect your future status, Sunshine Administrative Agency Office can guide you from reviewing the notice through preparing supporting materials.
+If you've received a fine notice and want to also check how it could affect your future status, Sunshine Administrative Agent Office can guide you from reviewing the notice through preparing supporting materials.
 
 [→ Request a Consultation](/en/contact)
 

@@ -4,13 +4,15 @@
  * 예외: '日本の行政書士に相当' 꼴의 비교 설명(바로 앞이 '日本の')만 허용. 간체 '行政书士'도 같은 규칙.
  *   node scripts/gyoseishi-gate.mjs                 → 원고·소스(app·content·scripts/lawinkorea-daily/bank·build-site-og) 검사 (prebuild)
  *   node scripts/gyoseishi-gate.mjs <dir> [<dir>…]  → 빌드 산출물 검사 (build·deploy.sh)
+ * LAW-JA-NAME-2(2026-10-28, 맥7 승인): en 행정사 = 'Administrative Agent'(상호 'Sunshine Administrative Agent Office').
+ *   'Scrivener' 계열·'Administrative Agency Office'·og 'ADMINISTRATIVE AGENCY' 도 같은 함수로 거부한다(정부 'administrative agencies' 는 통과).
  * 원고 은행 발행 검사는 scripts/lawinkorea-daily/run.mjs 가 findGyoseishiViolations 를 직접 쓴다.
  */
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
-const RE = /(?<!日本の)行政[書书]士/gu
+const RE = /(?<!日本の)行政[書书]士|\b[Ss][Cc][Rr][Ii][Vv][Ee][Nn][Ee][Rr][Ss]?\b|Administrative Agency Office|ADMINISTRATIVE AGENCY\b/gu
 export function findGyoseishiViolations(text) {
   return [...text.matchAll(RE)].map((m) => text.slice(Math.max(0, m.index - 14), m.index + 18).replace(/\s+/g, ' '))
 }
@@ -36,5 +38,5 @@ if (isMain) {
   }
   for (const r of roots) visit(r)
   console.log(`[gyoseishi-gate] files=${files} hits=${bad}`)
-  if (bad) { console.error("✗ LAW-JA-NAME: '行政書士' 표기 — 한국 행정사는 '行政士'(예외: '日本の行政書士に相当' 비교 설명). 원고 파일에서 고칠 것"); process.exit(1) }
+  if (bad) { console.error("✗ LAW-JA-NAME: '行政書士'·'Scrivener' 표기 — 한국 행정사는 ja '行政士'(예외: '日本の行政書士に相当' 비교 설명)·en 'Administrative Agent'(상호 Sunshine Administrative Agent Office). 원고 파일에서 고칠 것"); process.exit(1) }
 }

@@ -20,7 +20,7 @@ faq:
   - q: "Where do I apply?"
     a: "Korean consulate in your home country, or local Immigration Office (if applicant is in Korea). Reviewed by Minister of Justice. Processing time varies by authority and filing date — confirm individually."
   - q: "Cost?"
-    a: "Check the government fee with the consulate or immigration office when you apply. Scrivener fee varies by complexity. Initial consultation available."
+    a: "Check the government fee with the consulate or immigration office when you apply. Administrative agent fee varies by complexity. Initial consultation available."
   - q: "Can I reapply after a denial?"
     a: "Yes, with new evidence. Analyzing the denial reason is critical."
 related:

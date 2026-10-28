@@ -25,8 +25,8 @@ faq:
     a: "The Ministry of Justice may refuse to issue Certificates for Confirmation of Visa Issuance to an inviter for three years after paying a fine or criminal fine of KRW 5 million or more for an illegal-hiring violation, or for one year if the amount was under KRW 5 million (as of October 2026). The period can be shortened."
   - q: "Does this affect hiring under the Employment Permit System (E-9)?"
     a: "Under the Act on the Employment of Foreign Workers, the employment security office may restrict an employer who was punished for violating that Act or the Immigration Act from hiring foreign workers for three years from the date of the event."
-  - q: "What can an administrative scrivener handle for me?"
-    a: "Drafting and submitting written explanations and statements of opinion to the immigration office, and organizing and translating supporting documents. Defense in a criminal investigation or trial after a complaint is filed is outside the scope of an administrative scrivener."
+  - q: "What can an administrative agent handle for me?"
+    a: "Drafting and submitting written explanations and statements of opinion to the immigration office, and organizing and translating supporting documents. Defense in a criminal investigation or trial after a complaint is filed is outside the scope of an administrative agent."
 related:
   - "illegal-employment-penalty"
   - "immigration-fine-notice-response-2026"
@@ -122,7 +122,7 @@ Statements that do not match the record of your interview can hurt you, so inclu
 - **Organizing supporting documents** such as contracts and payroll records, and **translating** foreign-language documents
 - **Preparing invitation documents** for foreign workers after any restriction period ends
 
-Defense in a criminal investigation or trial after a complaint is filed is **outside the scope of an administrative scrivener**, so we do not handle it. Acting for you in procedures under labor laws such as the employment permit system is the work of a certified labor consultant, so we recommend consulting one.
+Defense in a criminal investigation or trial after a complaint is filed is **outside the scope of an administrative agent**, so we do not handle it. Acting for you in procedures under labor laws such as the employment permit system is the work of a certified labor consultant, so we recommend consulting one.
 
 **Related pages**
 - [Korea immigration fine schedule — by violation type](/en/offenses/immigration-fines)

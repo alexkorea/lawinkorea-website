@@ -20,9 +20,9 @@ faq:
   - q: "What if I don't leave Korea after denial?"
     a: "You must leave by the departure deadline stated in the denial notice or start another procedure. Staying beyond it is an overstay (illegal stay) and can lead to deportation and an entry ban. Voluntary departure can be considered favorably later."
   - q: "Why doesn't the notice explain the denial reason in detail?"
-    a: "Use Information Disclosure Request (정보공개청구) at the Immigration Office for detailed reason. Scrivener accompaniment enables direct officer interview."
+    a: "Use Information Disclosure Request (정보공개청구) at the Immigration Office for detailed reason. Administrative agent accompaniment enables direct officer interview."
   - q: "Supplementary order received — what documents to add?"
-    a: "Submit exactly the items listed. Typically: financial capacity, activity proof, family relationship, Korean residence justification. Scrivener review helps check for missing items."
+    a: "Submit exactly the items listed. Typically: financial capacity, activity proof, family relationship, Korean residence justification. Administrative agent review helps check for missing items."
 related:
   - "immigration-offense-review-guide"
   - "criminal-case-visa-defense"
@@ -93,7 +93,7 @@ This guide sets out an action plan by stage.
 **Channels:**
 - Foreigner Comprehensive Support Center 1345
 - Local Immigration Office direct visit
-- Scrivener-accompanied interview
+- Agent-accompanied interview
 
 ### Day 3–7: Decide response option
 
@@ -132,7 +132,7 @@ Choose among 4:
 ### Day 21–28: Additional supplements / interview
 
 - Immigration may request more (respond by the deadline given)
-- Direct visit possible — scrivener accompaniment recommended
+- Direct visit possible — administrative agent accompaniment recommended
 
 ### Day 29–30: Final decision or departure prep
 
@@ -187,7 +187,7 @@ Central Administrative Appeal Commission (file online through its Online Adminis
 4. Decision (due within 60 days of the appeal being received, extendable by 30 days)
 
 ### Cost
-No filing fee for the claim; scrivener fee separate.
+No filing fee for the claim; administrative agent fee separate.
 
 ## 6. Status-Change Options
 

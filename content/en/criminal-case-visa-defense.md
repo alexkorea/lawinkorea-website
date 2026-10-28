@@ -138,7 +138,7 @@ The difference is **not the offense or fine**. It's **document depth from the im
 
 ## 6. What Sunshine Adds
 
-[Sunshine Administrative Agency Office](/en) protocol:
+[Sunshine Administrative Agent Office](/en) protocol:
 1. Case analysis (same day)
 2. Document collection and packaging (5–7 days)
 3. Reason letter / petition drafting (3–5 days)

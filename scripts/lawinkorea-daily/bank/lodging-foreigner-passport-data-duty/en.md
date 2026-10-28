@@ -93,8 +93,8 @@ The office head imposes and collects the fine (Article 100(4)), and the Minister
 3. Record the 12-hour deadline and confirm the substitute submission method for network failures.
 4. Manage collected data under the Personal Information Protection Act.
 
-## 6. What an administrative scrivener can do
+## 6. What an administrative agent can do
 
-We check the facts in a fine notice, draft statements of opinion, review a lodging business's procedures for foreign guests, and translate notices into foreign languages. Investigation and criminal trial defense after a complaint is outside the scope of an administrative scrivener and we do not handle it.
+We check the facts in a fine notice, draft statements of opinion, review a lodging business's procedures for foreign guests, and translate notices into foreign languages. Investigation and criminal trial defense after a complaint is outside the scope of an administrative agent and we do not handle it.
 
 If you received a fine notice, start by checking the dates and how to object.

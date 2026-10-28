@@ -87,8 +87,8 @@ Criteria differ by status, so if you plan an extension, change or permanent resi
 3. **Meet the deadlines on any summons or notice.** A summons states its purpose, date and place, and a fine notice runs 15 days from receipt.
 4. **Organize your explanation.** Reasons for the delay such as hospitalization or document delays, with evidence, and your family and work circumstances. Stick to facts; statements that do not match the record can hurt you.
 
-## 7. What an administrative scrivener can do
+## 7. What an administrative agent can do
 
-We prepare and submit residence-related applications, draft written statements explaining how the delay happened, and organize and translate supporting documents. Investigation and criminal trial defense after a complaint is filed is outside the scope of an administrative scrivener and we do not handle it.
+We prepare and submit residence-related applications, draft written statements explaining how the delay happened, and organize and translate supporting documents. Investigation and criminal trial defense after a complaint is filed is outside the scope of an administrative agent and we do not handle it.
 
 If your period has already passed, the fine bracket can move up the longer you wait. If you hold a notice or summons, check the dates on it first, then review the remaining deadline and your supporting materials together.

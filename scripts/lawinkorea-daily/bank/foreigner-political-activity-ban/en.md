@@ -66,8 +66,8 @@ Under Article 22, the Minister of Justice may restrict a foreigner's residence o
 4. **If you get a summons, check the schedule and purpose.** A summons states its purpose, date and place (Enforcement Decree, Article 58).
 5. **Organize how you took part and to what extent.** It helps if you need to explain later.
 
-## 6. What an administrative scrivener can do
+## 6. What an administrative agent can do
 
-We review your status and activity, draft statements and opinions in response to summonses or stop orders, prepare documents for departure order and residence applications, and translate foreign documents. Criminal investigation by investigative authorities and defense at trial are outside the scope of an administrative scrivener and we do not handle them.
+We review your status and activity, draft statements and opinions in response to summonses or stop orders, prepare documents for departure order and residence applications, and translate foreign documents. Criminal investigation by investigative authorities and defense at trial are outside the scope of an administrative agent and we do not handle them.
 
 If you are worried about an activity, start before you begin; if you already hold a written order, start by checking the dates.

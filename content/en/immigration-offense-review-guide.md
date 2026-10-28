@@ -10,16 +10,16 @@ keywords:
   - "Korea DUI visa review"
   - "Korea deportation defense"
   - "Korea visa denial appeal"
-  - "Sunshine Administrative Agency Office"
+  - "Sunshine Administrative Agent Office"
 faq:
   - q: "What is an Immigration Offense Review (사범심사)?"
     a: "A separate administrative procedure conducted by the Korea Immigration Office to re-examine a foreigner's residence status after a violation of immigration law or a criminal case. It runs independently from criminal proceedings, and outcomes include visa renewal denial, departure order, deportation, or entry ban."
   - q: "I already paid the criminal fine — do I still face an offense review?"
     a: "Yes. Criminal punishment (including fines) and administrative offense reviews are separate procedures. Even a fine under 1 million KRW does not exempt you. Immigration evaluates your status under its own standards."
   - q: "How many days do I have to appear after receiving a notice?"
-    a: "The appearance date is stated on the notice — read it carefully and check it first. Failure to appear without justification may result in unfavorable decisions. If language is a barrier, request a certified administrative scrivener with multilingual support immediately."
-  - q: "Can an administrative scrivener (행정사) handle the offense review?"
-    a: "Yes. Administrative scriveners are statutorily authorized to prepare and submit immigration documents. We do not handle litigation or court representation, including criminal defense (outside the scope of an administrative scrivener)."
+    a: "The appearance date is stated on the notice — read it carefully and check it first. Failure to appear without justification may result in unfavorable decisions. If language is a barrier, request a certified administrative agent with multilingual support immediately."
+  - q: "Can an administrative agent (행정사) handle the offense review?"
+    a: "Yes. Administrative agents are statutorily authorized to prepare and submit immigration documents. We do not handle litigation or court representation, including criminal defense (outside the scope of an administrative agent)."
   - q: "If deportation is decided, is everything over?"
     a: "No. You can file an objection (행정심판) within 90 days, or convert to voluntary departure (which can be considered when the entry-ban period is set), or apply for status change. Speed is critical — an objection to a deportation order must be filed within 7 days of receiving the order."
   - q: "My visa expires soon and the review is pending — what happens?"
@@ -28,7 +28,7 @@ faq:
     a: "Only the principal subject is deported. Family members on dependent visas (F-1, F-3) face separate processing — but their status often depends on yours, so it can also be affected."
   - q: "Can I still apply for permanent residency (F-5) after a review?"
     a: "Depends on the disposition. Minor violations may allow F-5 application after a waiting period; deportation or a criminal conviction is weighed heavily, and a waiting period applies under the Ministry of Justice criteria in force. Case-by-case assessment is mandatory."
-  - q: "How much does an administrative scrivener charge?"
+  - q: "How much does an administrative agent charge?"
     a: "Fees vary by case complexity and required documentation. We offer an initial consultation and provide a clear quote afterward. Government fees (e.g., KRW 200,000 for a change to permanent residency, as of October 2026) are separate."
   - q: "Can I get a pre-emptive consultation if I haven't received a notice yet?"
     a: "Yes, and we recommend it. Foreigners with prior DUI or criminal records should be evaluated before their visa-renewal date. Early preparation gives you more time to gather evidence."
@@ -54,7 +54,7 @@ An Immigration Offense Review is an administrative procedure under **the Immigra
 Three core points:
 
 - **It is independent from criminal proceedings.** A finalized criminal fine or even an acquittal does not end the review.
-- **The Immigration Office decides unilaterally.** Professional representation is not legally required; an administrative scrivener can help organize documents and mitigation.
+- **The Immigration Office decides unilaterally.** Professional representation is not legally required; an administrative agent can help organize documents and mitigation.
 - **Possible outcomes include:** continued status, visa change, departure order, deportation, and entry ban.
 
 In short, this single procedure can determine whether you can continue your life in Korea.
@@ -92,7 +92,7 @@ If you were deported and try to re-enter, an entry-ban removal is required first
 > **Check the dates first.**
 
 ### (1) Read the Summons Carefully
-Date, location, reasons, required documents. Photograph and store every page. If language is a barrier, immediately retain a multilingual administrative scrivener.
+Date, location, reasons, required documents. Photograph and store every page. If language is a barrier, immediately retain a multilingual administrative agent.
 
 ### (2) Organize All Case-Related Documents
 - Criminal records (judgments, summary orders, disposition notices)
@@ -107,7 +107,7 @@ Materials that allow an Immigration officer to conclude "this foreigner contribu
 ### (4) Draft a Reason Statement (사유서) and Petition (탄원서)
 Not a generic apology — a logically structured argument from Immigration's perspective: **why this incident will not recur, and why this foreigner's continued residence benefits Korean society.**
 
-### (5) Consult an Administrative Scrivener Immediately
+### (5) Consult an Administrative Agent Immediately
 A solo appearance often misses what to emphasize. Pre-appearance simulation with someone who knows Immigration practice helps you prepare.
 
 [Request an initial consultation →](/en)
@@ -124,16 +124,16 @@ A solo appearance often misses what to emphasize. Pre-appearance simulation with
 
 The biggest distinction is between **departure order** and **deportation**. A departure order treats your exit as voluntary with relatively light entry restrictions; deportation is **weighed heavily** in later permanent residency / nationality applications.
 
-## 5. What an Administrative Scrivener Does — and Does Not Do
+## 5. What an Administrative Agent Does — and Does Not Do
 
-| Domain | Administrative Scrivener (행정사) |
+| Domain | Administrative Agent (행정사) |
 |---|---|
 | Immigration administrative procedures (review attendance, documents) | Handled |
-| Criminal court representation | Not handled (outside the scope of an administrative scrivener) |
+| Criminal court representation | Not handled (outside the scope of an administrative agent) |
 | Visa applications/extensions/changes | Handled |
 | Administrative appeals/litigation | Administrative appeals possible (litigation is outside the scope) |
 
-**Many Immigration Offense Reviews are administrative procedures that follow the conclusion of criminal cases**, making administrative scriveners the cost-effective primary partner. Even when criminal proceedings are still under way (e.g., trial in progress), Sunshine Administrative Agency Office handles only the administrative track; we do not handle litigation or court representation (outside the scope of an administrative scrivener).
+**Many Immigration Offense Reviews are administrative procedures that follow the conclusion of criminal cases**, making administrative agents the cost-effective primary partner. Even when criminal proceedings are still under way (e.g., trial in progress), Sunshine Administrative Agent Office handles only the administrative track; we do not handle litigation or court representation (outside the scope of an administrative agent).
 
 ## 6. Sunshine's Five-Step Response Protocol
 
@@ -147,12 +147,12 @@ Detailed analysis of criminal record, immigration history, visa lineage. We iden
 Document list and collection methods specific to your case. We separate items the client can collect from items we will gather on your behalf.
 
 ### Step 4. Document Completion (7–10 days before appearance)
-Reason statements, petitions, mitigation materials. Reviewed by an administrative scrivener; final document pack assembled.
+Reason statements, petitions, mitigation materials. Reviewed by an administrative agent; final document pack assembled.
 
 ### Step 5. Appearance Support and Strategy (day-of + post-decision)
 Office attendance with you, or a thorough simulation. Right after the decision, we propose follow-up strategy (objection, voluntary departure, status change, etc.). An objection to a deportation order must be filed within 7 days of receiving the order.
 
-> This office performs document preparation and submission under the Administrative Scrivener Act. We do not handle litigation or court representation, including criminal defense (outside the scope of an administrative scrivener).
+> This office performs document preparation and submission under the Administrative Agent Act. We do not handle litigation or court representation, including criminal defense (outside the scope of an administrative agent).
 
 ## 7. Frequently Asked Questions
 
@@ -171,4 +171,4 @@ The 10 essential Q&A above (FAQ section) cover the core questions. Case-specific
 
 Among foreigners who have received an Immigration Offense Review, a regret we often hear is, **"I should have called a professional sooner."**
 
-Sunshine Administrative Agency Office offers an initial consultation. **Reach out without commitment.** Korean, English, Chinese, Japanese, Vietnamese — all supported.
+Sunshine Administrative Agent Office offers an initial consultation. **Reach out without commitment.** Korean, English, Chinese, Japanese, Vietnamese — all supported.

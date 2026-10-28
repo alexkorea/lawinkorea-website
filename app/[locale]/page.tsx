@@ -42,7 +42,7 @@ const titles: Record<L, string> = {
 
 const descriptions: Record<L, string> = {
   ko: "형사사건이나 출입국법 위반 이후의 체류 문제는 형사처분과 별도로 검토될 수 있습니다. 음주운전·폭행·마약·불법취업·출국명령·강제퇴거 등 상황별 사범심사 대응과 소명자료 준비를 안내합니다.",
-  en: "Certified administrative scrivener specializing in immigration offense review — DUI, criminal cases, visa crisis. Sunshine Administrative Agency Office, Seoul.",
+  en: "Certified administrative agent specializing in immigration offense review — DUI, criminal cases, visa crisis. Sunshine Administrative Agent Office, Seoul.",
   ja: "飲酒運転・刑事事件・出入国法違反の事犯審査専門行政士。サンシャイン行政士事務所、ソウル。",
   zh: "专业行政士，专注出入境违规审查——酒驾、刑事案件、签证危机。Sunshine行政士事务所，首尔。",
   vi: "Chuyên viên hành chính chuyên xem xét vi phạm xuất nhập cảnh — lái xe say rượu, vụ án hình sự, khủng hoảng visa. Văn phòng Sunshine, Seoul.",
@@ -394,19 +394,19 @@ const GENERIC_CONTENT: Record<Exclude<L, "ko">, LangContent> = {
       p3: "The right approach is to review your case record and residency history first, then determine what to explain and how. Actual outcomes depend on the discretion of the relevant immigration authority.",
     },
     how: {
-      title: "How Sunshine Administrative Agency Office can help",
+      title: "How Sunshine Administrative Agent Office can help",
       items: [
-        "Our administrative scrivener reviews your case and residency situation together.",
+        "Our administrative agent reviews your case and residency situation together.",
         "We assist with preparing explanatory statements, supporting documents, and administrative paperwork for immigration submissions.",
         "We review your documents before your immigration appointment and guide you through residency procedures.",
         "All consultation content and submitted materials are handled with strict confidentiality.",
         "Consultations available in Korean, English, Japanese, Chinese, and Vietnamese.",
       ],
-      note: "We do not handle litigation or court representation, including criminal defense (outside the scope of an administrative scrivener).",
+      note: "We do not handle litigation or court representation, including criminal defense (outside the scope of an administrative agent).",
     },
     scope: {
-      title: "What an immigration consultant (administrative scrivener) can and cannot do for foreigners with a criminal record",
-      body: "In Korea, an administrative scrivener (행정사) prepares and submits documents to administrative agencies such as immigration, and prepares documents that establish facts. For foreigners with a criminal record, this covers mitigation materials, statements and reason letters, reflection letters and petitions, document review before the immigration appearance, and drafting administrative appeal petitions. We do not represent clients in litigation or trials; where such proceedings are needed, we say so and suggest consulting the appropriate professional. Consultations are available in Korean, English, Japanese and Chinese.",
+      title: "What an immigration consultant (administrative agent) can and cannot do for foreigners with a criminal record",
+      body: "In Korea, an administrative agent (행정사) prepares and submits documents to administrative agencies such as immigration, and prepares documents that establish facts. For foreigners with a criminal record, this covers mitigation materials, statements and reason letters, reflection letters and petitions, document review before the immigration appearance, and drafting administrative appeal petitions. We do not represent clients in litigation or trials; where such proceedings are needed, we say so and suggest consulting the appropriate professional. Consultations are available in Korean, English, Japanese and Chinese.",
     },
     faq: {
       title: "Frequently Asked Questions",

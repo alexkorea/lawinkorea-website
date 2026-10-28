@@ -91,8 +91,8 @@ The Immigration Act requires a registered foreigner to **surrender** the registr
 4. **Carry your passport until the card is reissued.** Having other documents to confirm your identity helps.
 5. **Record how it was lost.** Place and time of loss, and whether you filed a police report, help with later explanations.
 
-## 7. What an administrative scrivener can do
+## 7. What an administrative agent can do
 
-We prepare and submit registration card reissue applications, draft written statements explaining how the violation occurred, and organize and translate supporting documents. Investigation and criminal trial defense after a complaint is filed is outside the scope of an administrative scrivener and we do not handle it.
+We prepare and submit registration card reissue applications, draft written statements explaining how the violation occurred, and organize and translate supporting documents. Investigation and criminal trial defense after a complaint is filed is outside the scope of an administrative agent and we do not handle it.
 
 The longer you go without the card, the more inconvenient it gets, so if you lost it, confirm the reissue procedure today. If you hold a notice or summons, check the dates and review the remaining deadline and supporting materials together.

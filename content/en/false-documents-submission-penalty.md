@@ -74,8 +74,8 @@ Separately, the Immigration Act provides for a fine of up to KRW 500,000 on a pe
 4. **If you get a summons or fine notice, check the deadline first.** A fine notice runs 15 days from receipt.
 5. **Organize explanatory materials.** The [letter of reflection guide](/en/blog/reflection-letter-guide) helps in writing out the facts, your reflection and a plan to prevent recurrence.
 
-## 6. What an administrative scrivener can do
+## 6. What an administrative agent can do
 
-We check the facts in applications and supporting documents, guide you on correction procedures, draft statements explaining how a violation occurred, and translate foreign documents. Investigation and criminal trial defense after a complaint is outside the scope of an administrative scrivener and we do not handle it.
+We check the facts in applications and supporting documents, guide you on correction procedures, draft statements explaining how a violation occurred, and translate foreign documents. Investigation and criminal trial defense after a complaint is outside the scope of an administrative agent and we do not handle it.
 
 If you know a document has a problem, begin the review before submitting, or as soon as possible if you already have.

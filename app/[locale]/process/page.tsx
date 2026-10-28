@@ -51,7 +51,7 @@ const CONTENT: Record<L, {
   },
   en: {
     title: "Consultation Process",
-    sub: "Sunshine Administrative Agency Office follows the 5 steps below when handling immigration offense review cases. Our work is limited to document preparation, evidentiary material support, and accompaniment to appearances under the Administrative Agent Act — it does not include courtroom litigation, which is outside the scope of an administrative scrivener.",
+    sub: "Sunshine Administrative Agent Office follows the 5 steps below when handling immigration offense review cases. Our work is limited to document preparation, evidentiary material support, and accompaniment to appearances under the Administrative Agent Act — it does not include courtroom litigation, which is outside the scope of an administrative agent.",
     steps: [
       { num: "01", label: "Application", desc: "You reach out online or by phone. We take an initial intake — criminal charges filed, an immigration offense notice, or a departure order — and get a brief overview of your case." },
       { num: "02", label: "Brief Information & Basic Consultation", desc: "Based on the intake, we walk you through the likely type of disposition (notice disposition, departure order, deportation, etc.) and the general procedure ahead." },

@@ -24,8 +24,8 @@ faq:
     a: "You must pay within 15 days of receiving the notice. If you do not pay in time, the office must file a criminal complaint. Once you pay as notified, you cannot be punished again for the same case."
   - q: "I received an advance notice of an administrative fine. Can I explain my situation?"
     a: "Before imposing an administrative fine, the agency must give you at least 10 days to submit your opinion, and it may decide not to impose the fine or change it if your reasons are substantial. If you pay voluntarily within that period, the fine may be reduced by up to 20%."
-  - q: "What can an administrative scrivener do for me?"
-    a: "We can prepare the change of address report or change of registration information form, prepare and submit written statements explaining how the delay happened, and organize and translate supporting documents such as your lease. Defense in a criminal investigation or trial after a complaint is filed is outside the scope of an administrative scrivener."
+  - q: "What can an administrative agent do for me?"
+    a: "We can prepare the change of address report or change of registration information form, prepare and submit written statements explaining how the delay happened, and organize and translate supporting documents such as your lease. Defense in a criminal investigation or trial after a complaint is filed is outside the scope of an administrative agent."
 related:
   - "immigration-fine-notice-response-2026"
   - "immigration-law-penalties-guide"
@@ -116,7 +116,7 @@ Statements that do not match the facts are compared with the interview record an
 - **Preparing and submitting** written statements and opinions that explain how the delay happened
 - **Organizing** evidence such as your lease and **translating** foreign-language documents
 
-Defense in a criminal investigation or trial after a complaint is filed is **outside the scope of an administrative scrivener**, and we do not take on that work.
+Defense in a criminal investigation or trial after a complaint is filed is **outside the scope of an administrative agent**, and we do not take on that work.
 
 **Related pages**
 - [Immigration fines table — explained by violation type](/en/offenses/immigration-fines)

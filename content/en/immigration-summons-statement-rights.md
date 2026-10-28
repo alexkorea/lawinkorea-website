@@ -82,8 +82,8 @@ A person who is asked questions or for materials must not refuse without proper 
 
 If the investigation confirms the offense, the office head may notify a penalty fine equivalent to a criminal fine. You must pay within 15 days of receiving the notice, and once paid, you cannot be punished again for the same case. If the offense warrants imprisonment or more, a complaint is filed immediately. Separately, if a deportation ground is found, the matter can proceed to deportation procedures. For what to do when you get a notice, see our [guide on responding to a fine notice](/en/blog/immigration-fine-notice-response-2026).
 
-## 7. What an administrative scrivener can do
+## 7. What an administrative agent can do
 
-We review the summons, organize the facts and evidence, draft and submit written statements, opinions and letters of reflection explaining how the matter arose, and translate foreign-language documents. Our [letter of reflection guide](/en/blog/reflection-letter-guide) covers drafting tips. Criminal investigation and trial defense is outside the scope of an administrative scrivener and we do not handle it.
+We review the summons, organize the facts and evidence, draft and submit written statements, opinions and letters of reflection explaining how the matter arose, and translate foreign-language documents. Our [letter of reflection guide](/en/blog/reflection-letter-guide) covers drafting tips. Criminal investigation and trial defense is outside the scope of an administrative agent and we do not handle it.
 
 If you received a summons, first confirm the schedule on it, then organize the documents you need and what you will explain.

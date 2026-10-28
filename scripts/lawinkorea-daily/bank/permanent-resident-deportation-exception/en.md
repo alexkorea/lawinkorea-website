@@ -84,9 +84,9 @@ Before revoking, the authorities may call the person in to hear their opinion, a
 3. **Prepare as soon as you get a hearing notice.** Notice can come just 7 days before the hearing. Organize evidence of family ties in Korea, your living and economic base, and why you need to stay.
 4. **Check the requirements for a general status of stay in advance.** Make sure there is a status you could apply for after revocation and that you can document its requirements.
 
-## 6. What an administrative scrivener can do
+## 6. What an administrative agent can do
 
-We draft statements and opinions for revocation hearings, organize and translate proof of family ties and your life in Korea, prepare general status of stay applications, and draft objections to deportation orders. Investigation and trial defense in criminal cases, and representation in lawsuits, are outside the scope of an administrative scrivener and we do not handle them.
+We draft statements and opinions for revocation hearings, organize and translate proof of family ties and your life in Korea, prepare general status of stay applications, and draft objections to deportation orders. Investigation and trial defense in criminal cases, and representation in lawsuits, are outside the scope of an administrative agent and we do not handle them.
 
 A hearing notice only has to arrive 7 days before the hearing, and the deadline to object to a deportation order is 7 days. Start by writing down the dates you received the judgment and any notice.
 

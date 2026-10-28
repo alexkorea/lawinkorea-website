@@ -76,8 +76,8 @@ The Minister of Justice may waive the fine considering age, circumstances, motiv
 4. **Book a visit to the office for your place of residence.** Go to the office with jurisdiction over it.
 5. **If you are already late, report right away.** The standard amount rises with the delay.
 
-## 5. What an administrative scrivener can do
+## 5. What an administrative agent can do
 
-We prepare and submit change report forms, check whether a change is reportable, translate foreign documents, and draft an explanation if you receive a fine notice. Investigation and criminal trial defense after a complaint is outside the scope of an administrative scrivener and we do not handle it.
+We prepare and submit change report forms, check whether a change is reportable, translate foreign documents, and draft an explanation if you receive a fine notice. Investigation and criminal trial defense after a complaint is outside the scope of an administrative agent and we do not handle it.
 
 If your passport or affiliation changed recently, start by counting the days. If 15 days have already passed, check how to report now.

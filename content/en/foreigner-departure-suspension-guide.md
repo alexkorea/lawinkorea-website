@@ -105,9 +105,9 @@ A foreigner who could not leave by the end of the permitted stay because of a de
 
 A departure suspension stops you from leaving; an entry ban stops someone who has left from coming back, and it is a different system. For entry bans, see [how to apply to lift an entry ban](/en/blog/entry-ban-removal).
 
-## 7. What an administrative scrivener can do
+## 7. What an administrative agent can do
 
-We review the ground and period of a suspension, draft and file objections, prepare statements explaining that the ground has ended or why you need to travel, and organize evidence and translate foreign documents. Investigation and trial defense in criminal cases, and representation in lawsuits, are outside the scope of an administrative scrivener and we do not handle them.
+We review the ground and period of a suspension, draft and file objections, prepare statements explaining that the ground has ended or why you need to travel, and organize evidence and translate foreign documents. Investigation and trial defense in criminal cases, and representation in lawsuits, are outside the scope of an administrative agent and we do not handle them.
 
 The 10-day objection deadline is short. Write down the date on the notice, or the date you were told at the airport, and start preparing right away.
 

@@ -7,7 +7,7 @@ type L = "ko" | "en" | "ja" | "zh" | "vi";
 
 const TEXT: Record<L, { heading: string; role: string; bizName: string; rep: string; bizNo: string }> = {
   ko: { heading: "담당 행정사", role: "대표 행정사", bizName: "상호", rep: "대표", bizNo: "사업자등록번호" },
-  en: { heading: "Your administrative scrivener", role: "Representative administrative scrivener", bizName: "Business name", rep: "Representative", bizNo: "Business registration no." },
+  en: { heading: "Your administrative agent", role: "Representative administrative agent", bizName: "Business name", rep: "Representative", bizNo: "Business registration no." },
   ja: { heading: "担当行政士", role: "代表行政士", bizName: "商号", rep: "代表", bizNo: "事業者登録番号" },
   zh: { heading: "负责行政士", role: "代表行政士", bizName: "商号", rep: "代表", bizNo: "营业执照号码" },
   vi: { heading: "Hành chính sĩ phụ trách", role: "Hành chính sĩ đại diện", bizName: "Tên doanh nghiệp", rep: "Người đại diện", bizNo: "Số đăng ký kinh doanh" },

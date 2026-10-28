@@ -392,7 +392,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
           ],
           faqTitle: "Frequently Asked Questions",
           cta: "Book a Consultation",
-          ctaBody: "For fine notices, illegal employment issues, overstay, or any immigration matter, contact Sunshine Administrative Agency Office for immediate assistance.",
+          ctaBody: "For fine notices, illegal employment issues, overstay, or any immigration matter, contact Sunshine Administrative Agent Office for immediate assistance.",
           back: "Back to Offense Types",
           notice: "The amounts on this page are those fixed in the statutory schedules. The sum actually imposed may be increased or reduced according to the circumstances, repeat violations and the number of workers employed, and the decision depends on the reviewing officer's judgement. This page is general information, not legal advice on an individual case.",
         },

@@ -71,8 +71,8 @@ Also remember that foreigners aged 17 or older must **always carry** their passp
 3. **You can report to an immigration office.** Under the Immigration Act, anyone who finds a person suspected of violating the Act may report it to an immigration officer.
 4. **If you are a non-professional employment (E-9) worker, check whether you can change workplaces.** Where the Minister of Employment and Labor has announced that you cannot reasonably keep working for reasons not your fault, such as the employer's breach of working conditions or unfair treatment, you may apply to change workplaces. You apply at a Ministry of Employment and Labor job center, then obtain a permit to change workplace from the immigration office. Ask the job center whether your case qualifies. The risks of moving jobs without permission are in the [guide to changing workplaces without permission](/en/blog/workplace-change-without-permission-penalty).
 
-## 5. What an administrative scrivener can do
+## 5. What an administrative agent can do
 
-We draft statements setting out how your passport or card came to be held and the evidence, prepare documents for the immigration office, prepare applications for a workplace change permit after changing employers, and translate foreign documents. Acting for you in a criminal complaint or in litigation is outside the scope of an administrative scrivener and we do not handle it.
+We draft statements setting out how your passport or card came to be held and the evidence, prepare documents for the immigration office, prepare applications for a workplace change permit after changing employers, and translate foreign documents. Acting for you in a criminal complaint or in litigation is outside the scope of an administrative agent and we do not handle it.
 
 Your passport and alien registration card are documents you are meant to carry yourself. You can check applications related to status and workplace on HiKorea: <https://www.hikorea.go.kr>

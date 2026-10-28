@@ -69,8 +69,8 @@ If illness or other unavoidable reasons prevent re-entry within the permitted pe
 4. **Check what to do with your registration card on departure.** The return duty does not apply if you hold a re-entry permit or are exempt and will return within the period.
 5. **If returning gets difficult, ask about an extension before the period ends.** Use an overseas mission.
 
-## 6. What an administrative scrivener can do
+## 6. What an administrative agent can do
 
-We prepare and submit re-entry permit applications, check whether you are exempt, guide you on extension procedures, and translate foreign documents. Investigation and criminal trial defense after a complaint is outside the scope of an administrative scrivener and we do not handle it.
+We prepare and submit re-entry permit applications, check whether you are exempt, guide you on extension procedures, and translate foreign documents. Investigation and criminal trial defense after a complaint is outside the scope of an administrative agent and we do not handle it.
 
 Once your departure date is set, check exemption and remaining stay first. If you are worried about entry restrictions, see the [entry ban removal guide](/en/blog/entry-ban-removal) too.

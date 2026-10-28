@@ -89,7 +89,7 @@ The immigration outcome is not set by BAC alone. Mitigation evidence (family, em
 
 ### At the Review
 - Formal attire
-- Multilingual scrivener or interpreter on standby (advance notice required)
+- Multilingual administrative agent or interpreter on standby (advance notice required)
 - Concise, clear answers — no excuses
 - Express remorse and concrete prevention plans
 
@@ -116,9 +116,9 @@ The immigration outcome is not set by BAC alone. Mitigation evidence (family, em
 
 The difference is **not BAC**. It's **document depth and preparation**.
 
-## 5. What an Administrative Scrivener Adds
+## 5. What an Administrative Agent Adds
 
-[Sunshine Administrative Agency Office](/en) brings:
+[Sunshine Administrative Agent Office](/en) brings:
 
 ### (1) Pre-attendance simulation
 Typical questions are practiced. Saying "I only had one drink" creates greater risk.
@@ -127,7 +127,7 @@ Typical questions are practiced. Saying "I only had one drink" creates greater r
 Mitigation isn't just submitted — it's indexed and summarized so the officer can grasp the key points quickly.
 
 ### (3) Verbal support during attendance
-Where the foreigner's Korean may not capture nuance, the scrivener supplements from an administrative-law perspective.
+Where the foreigner's Korean may not capture nuance, the administrative agent supplements from an administrative-law perspective.
 
 ### (4) Post-decision strategy
 As soon as the result arrives, we initiate objection (within 7 days of receiving a deportation order), status change, or voluntary-departure timing.
@@ -144,7 +144,7 @@ As soon as the result arrives, we initiate objection (within 7 days of receiving
 
 If you've been caught for DUI, **start preparing for the review even before the criminal track ends.** Starting after the criminal case closes can leave little time before the appearance.
 
-Sunshine Administrative Agency Office offers an **initial consultation** — Korean, English, Chinese, Japanese, Vietnamese all supported.
+Sunshine Administrative Agent Office offers an **initial consultation** — Korean, English, Chinese, Japanese, Vietnamese all supported.
 
 [Request a consultation →](/en)
 

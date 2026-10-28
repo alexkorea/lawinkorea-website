@@ -87,9 +87,9 @@ The industrial accident, treatment, lawsuit and unpaid wage types are not on thi
 - **Changing to other statuses may be restricted.** The manual restricts G-1 holders (other than humanitarian stay holders and some others) from changing to Student (D-2), and in principle bars in-country change to Marriage Migrant (F-6) for people who received G-1 while overstaying or in similar situations.
 - **Employment permit workers have a restoration route.** Foreign workers who switched to G-1 for industrial accident treatment and still have time left under their stay limit can follow the procedure to restore Non-professional Employment (E-9) status.
 
-## 6. What an administrative scrivener can do
+## 6. What an administrative agent can do
 
-We check whether G-1 applies, prepare change and extension applications, organize proof such as medical certificates, labor complaints and court documents, draft statements explaining your situation, and translate foreign documents. Litigation representation and criminal defense are outside the scope of an administrative scrivener and we do not handle them.
+We check whether G-1 applies, prepare change and extension applications, organize proof such as medical certificates, labor complaints and court documents, draft statements explaining your situation, and translate foreign documents. Litigation representation and criminal defense are outside the scope of an administrative agent and we do not handle them.
 
 If your expiry date is close, start gathering treatment or court documents and prepare early.
 

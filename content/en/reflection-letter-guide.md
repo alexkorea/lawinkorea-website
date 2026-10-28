@@ -22,9 +22,9 @@ faq:
   - q: "Will an apology letter reduce my fine?"
     a: "No outcome can be promised. The law allows the office to reduce or increase a fine by up to one half after considering the circumstances and allows the Minister of Justice to waive the fine notice. The letter supplies the facts needed for that decision."
   - q: "Can I write it in my own language?"
-    a: "Write in the language you can express yourself in most accurately and attach a Korean translation so the officer can read it as written. Translating documents related to administrative work is within the scope of an administrative scrivener."
-  - q: "Can an administrative scrivener write the letter for me?"
-    a: "We help structure and word the letter based on facts you confirm, translate it and submit it. The content must be your actual situation. Defense in a criminal trial is outside the scope of an administrative scrivener."
+    a: "Write in the language you can express yourself in most accurately and attach a Korean translation so the officer can read it as written. Translating documents related to administrative work is within the scope of an administrative agent."
+  - q: "Can an administrative agent write the letter for me?"
+    a: "We help structure and word the letter based on facts you confirm, translate it and submit it. The content must be your actual situation. Defense in a criminal trial is outside the scope of an administrative agent."
 related:
   - "immigration-offense-review-guide"
   - "dui-foreigner-visa"
@@ -38,7 +38,7 @@ An apology letter or petition in a Korean immigration offense review is **not a 
 > - Petition: a letter from family, an employer or acquaintances describing your life and circumstances and asking for leniency
 > - Write to the statutory factors (age and circumstances, motive and consequences, ability to pay, number of violations) and attach evidence
 > - Anything that contradicts what you said in your interview record will hurt you
-> - An administrative scrivener can help draft, translate and submit; criminal defense is outside the scope of an administrative scrivener
+> - An administrative agent can help draft, translate and submit; criminal defense is outside the scope of an administrative agent
 
 ## 1. What role do apology letters and petitions play in an offense review?
 
@@ -110,7 +110,7 @@ Letters matter before the disposition is decided. If you have a summons, bring t
 - **Korean translation** of letters and supporting documents written in another language
 - **Submission** to the immigration office and preparation before your interview
 
-An administrative scrivener may draft documents submitted to administrative agencies, draft documents certifying facts, translate them and submit them. Defense in a criminal trial and representation in lawsuits are **outside the scope of an administrative scrivener**, so we do not handle them.
+An administrative agent may draft documents submitted to administrative agencies, draft documents certifying facts, translate them and submit them. Defense in a criminal trial and representation in lawsuits are **outside the scope of an administrative agent**, so we do not handle them.
 
 **Related pages**
 - [What is an immigration offense review, and what should you prepare?](/en/immigration-offense-review)
