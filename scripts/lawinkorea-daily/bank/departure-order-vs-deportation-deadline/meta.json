@@ -1,0 +1,27 @@
+{
+ "order": 34,
+ "batch": "BANK-REFILL-1029",
+ "pexels_id": 16737434,
+ "pexels_author": "Earl Andre Roca",
+ "cover_alt": {
+  "ko": "공항 체크인 카운터 앞에 줄을 선 여행객들의 흑백 사진",
+  "en": "Black-and-white photo of travelers queuing at airport check-in counters",
+  "zh": "机场值机柜台前排队的旅客黑白照片",
+  "ja": "空港のチェックインカウンターに並ぶ旅行者のモノクロ写真",
+  "vi": "Ảnh đen trắng hành khách xếp hàng trước quầy làm thủ tục sân bay"
+ },
+ "og_category": {
+  "ko": "강제퇴거",
+  "en": "Removal",
+  "zh": "强制驱逐",
+  "ja": "強制退去",
+  "vi": "Buộc xuất cảnh"
+ },
+ "imageTitle": {
+  "ko": "출국명령 기한을 넘기면",
+  "en": "Missing a departure order deadline",
+  "zh": "超过出境命令期限",
+  "ja": "出国命令の期限を過ぎたら",
+  "vi": "Quá hạn lệnh xuất cảnh"
+ }
+}

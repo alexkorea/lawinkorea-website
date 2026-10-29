@@ -1,0 +1,27 @@
+{
+ "order": 40,
+ "batch": "BANK-REFILL-1029",
+ "pexels_id": 8730982,
+ "pexels_author": "Mikhail Nilov",
+ "cover_alt": {
+  "ko": "서류에 펜으로 서명하는 손",
+  "en": "Hand signing a document with a pen",
+  "zh": "用笔在文件上签字的手",
+  "ja": "ペンで書類に署名する手",
+  "vi": "Bàn tay đang ký vào tài liệu bằng bút"
+ },
+ "og_category": {
+  "ko": "신원보증",
+  "en": "Identity Guarantee",
+  "zh": "身份保证",
+  "ja": "身元保証",
+  "vi": "Bảo lãnh nhân thân"
+ },
+ "imageTitle": {
+  "ko": "신원보증서 책임 범위",
+  "en": "Identity guarantee liability",
+  "zh": "身份保证书责任范围",
+  "ja": "身元保証書の責任範囲",
+  "vi": "Phạm vi trách nhiệm bảo lãnh"
+ }
+}

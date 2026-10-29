@@ -1,0 +1,27 @@
+{
+ "order": 30,
+ "batch": "BANK-REFILL-1029",
+ "pexels_id": 9663847,
+ "pexels_author": "Malcolm Garret",
+ "cover_alt": {
+  "ko": "어두운 방 안으로 자연광이 들어오는 열린 문",
+  "en": "Open door letting natural light into a dark room",
+  "zh": "让自然光照进昏暗房间的敞开的门",
+  "ja": "暗い部屋に自然光が差し込む開いたドア",
+  "vi": "Cánh cửa mở cho ánh sáng tự nhiên vào căn phòng tối"
+ },
+ "og_category": {
+  "ko": "강제퇴거",
+  "en": "Removal",
+  "zh": "强制驱逐",
+  "ja": "強制退去",
+  "vi": "Buộc xuất cảnh"
+ },
+ "imageTitle": {
+  "ko": "보호 일시해제 신청 절차",
+  "en": "Temporary release from detention",
+  "zh": "保护临时解除申请流程",
+  "ja": "保護の一時解除の手続",
+  "vi": "Thủ tục tạm thả khỏi bảo hộ"
+ }
+}

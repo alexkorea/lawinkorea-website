@@ -1,0 +1,27 @@
+{
+ "order": 39,
+ "batch": "BANK-REFILL-1029",
+ "pexels_id": 12932752,
+ "pexels_author": "Atlantic Ambience",
+ "cover_alt": {
+  "ko": "공항 터미널 안을 걸어가는 여행객들",
+  "en": "Travelers walking inside an airport terminal",
+  "zh": "在机场航站楼内行走的旅客",
+  "ja": "空港ターミナルを歩く旅行者たち",
+  "vi": "Hành khách đi bộ trong nhà ga sân bay"
+ },
+ "og_category": {
+  "ko": "입국·출국",
+  "en": "Entry",
+  "zh": "入境·出境",
+  "ja": "入国・出国",
+  "vi": "Nhập cảnh·Xuất cảnh"
+ },
+ "imageTitle": {
+  "ko": "공항 출국심사에서 걸렸을 때",
+  "en": "Overstay found at departure",
+  "zh": "出境审查时被查出超期",
+  "ja": "出国審査で超過が発覚したら",
+  "vi": "Bị phát hiện quá hạn lúc xuất cảnh"
+ }
+}

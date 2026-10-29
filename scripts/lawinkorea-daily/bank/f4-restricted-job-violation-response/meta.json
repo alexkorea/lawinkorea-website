@@ -1,0 +1,27 @@
+{
+ "order": 36,
+ "batch": "BANK-REFILL-1029",
+ "pexels_id": 11790051,
+ "pexels_author": "Karan Wang",
+ "cover_alt": {
+  "ko": "안전모와 반사 조끼를 입고 서 있는 건설 현장 근로자들",
+  "en": "Construction workers in hard hats and reflective vests",
+  "zh": "戴安全帽、穿反光背心的建筑工地工人",
+  "ja": "ヘルメットと反射ベストを着けた建設現場の作業員たち",
+  "vi": "Công nhân công trường đội mũ bảo hộ và mặc áo phản quang"
+ },
+ "og_category": {
+  "ko": "불법취업",
+  "en": "Employment",
+  "zh": "非法就业",
+  "ja": "不法就労",
+  "vi": "Làm việc bất hợp pháp"
+ },
+ "imageTitle": {
+  "ko": "F-4 취업제한 분야 위반",
+  "en": "F-4 restricted jobs",
+  "zh": "F-4受限行业违规",
+  "ja": "F-4の就労制限違反",
+  "vi": "F-4 làm nghề bị hạn chế"
+ }
+}

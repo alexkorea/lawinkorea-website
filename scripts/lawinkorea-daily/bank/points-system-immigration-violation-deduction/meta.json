@@ -1,0 +1,27 @@
+{
+ "order": 28,
+ "batch": "BANK-REFILL-1029",
+ "pexels_id": 590022,
+ "pexels_author": "Lukas Blazek",
+ "cover_alt": {
+  "ko": "펜을 든 손이 차트가 인쇄된 종이를 점검하는 모습",
+  "en": "Hand with a pen reviewing charts printed on paper",
+  "zh": "手持笔查看纸上图表",
+  "ja": "ペンを持った手が紙のグラフを確認している様子",
+  "vi": "Bàn tay cầm bút xem biểu đồ in trên giấy"
+ },
+ "og_category": {
+  "ko": "벌칙·벌금",
+  "en": "Penalties",
+  "zh": "处罚·罚款",
+  "ja": "罰則・罰金",
+  "vi": "Hình phạt"
+ },
+ "imageTitle": {
+  "ko": "점수제 감점 항목 확인",
+  "en": "Points system deductions",
+  "zh": "积分制扣分项目",
+  "ja": "ポイント制の減点項目",
+  "vi": "Các mục trừ điểm"
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "order": 32,
+ "batch": "BANK-REFILL-1029",
+ "pexels_id": 6170644,
+ "pexels_author": "RDNE Stock project",
+ "cover_alt": {
+  "ko": "책상 위 달력에 날짜를 적는 손",
+  "en": "Hand writing a date on a desk calendar",
+  "zh": "在桌上日历上写日期的手",
+  "ja": "机の上のカレンダーに日付を書く手",
+  "vi": "Bàn tay ghi ngày lên lịch để bàn"
+ },
+ "og_category": {
+  "ko": "벌칙·벌금",
+  "en": "Penalties",
+  "zh": "处罚·罚款",
+  "ja": "罰則・罰金",
+  "vi": "Hình phạt"
+ },
+ "imageTitle": {
+  "ko": "영주증 유효기간 지났을 때",
+  "en": "Expired permanent resident card",
+  "zh": "永住证有效期已过",
+  "ja": "永住証の有効期間が過ぎたら",
+  "vi": "Thẻ vĩnh trú hết hạn"
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "order": 27,
+ "batch": "BANK-REFILL-1029",
+ "pexels_id": 5668485,
+ "pexels_author": "Sora Shimazaki",
+ "cover_alt": {
+  "ko": "책상 위에 쌓아 둔 검은색 서류 바인더",
+  "en": "Black office binders stacked on a desk",
+  "zh": "桌上叠放的黑色文件夹",
+  "ja": "机の上に積まれた黒いファイルバインダー",
+  "vi": "Những chiếc bìa hồ sơ màu đen xếp chồng trên bàn"
+ },
+ "og_category": {
+  "ko": "벌칙·벌금",
+  "en": "Penalties",
+  "zh": "处罚·罚款",
+  "ja": "罰則・罰金",
+  "vi": "Hình phạt"
+ },
+ "imageTitle": {
+  "ko": "위반 이력과 비자 심사",
+  "en": "Violation record and visa review",
+  "zh": "违法记录与签证审查",
+  "ja": "違反履歴とビザ審査",
+  "vi": "Tiền sử vi phạm và xét visa"
+ }
+}

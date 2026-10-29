@@ -1,0 +1,27 @@
+{
+ "order": 35,
+ "batch": "BANK-REFILL-1029",
+ "pexels_id": 1670723,
+ "pexels_author": "Git Stephen Gitau",
+ "cover_alt": {
+  "ko": "그림자가 드리운 두 개의 금반지",
+  "en": "Two gold rings casting shadows",
+  "zh": "投下阴影的两枚金戒指",
+  "ja": "影を落とす二つの金の指輪",
+  "vi": "Hai chiếc nhẫn vàng đổ bóng"
+ },
+ "og_category": {
+  "ko": "체류자격",
+  "en": "Residence Status",
+  "zh": "居留资格",
+  "ja": "在留資格",
+  "vi": "Tư cách lưu trú"
+ },
+ "imageTitle": {
+  "ko": "혼인단절 후 F-6 체류",
+  "en": "F-6 stay after marriage ends",
+  "zh": "婚姻终止后的F-6居留",
+  "ja": "婚姻断絶後のF-6在留",
+  "vi": "Lưu trú F-6 sau khi hôn nhân chấm dứt"
+ }
+}

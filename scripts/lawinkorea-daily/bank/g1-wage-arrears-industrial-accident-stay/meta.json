@@ -1,0 +1,27 @@
+{
+ "order": 37,
+ "batch": "BANK-REFILL-1029",
+ "pexels_id": 34670929,
+ "pexels_author": "Murat IŞIK",
+ "cover_alt": {
+  "ko": "안전모와 조끼를 착용한 건설 현장 근로자들",
+  "en": "Construction workers in safety helmets and vests on site",
+  "zh": "在工地上佩戴安全帽和反光背心的工人",
+  "ja": "ヘルメットとベストを着用した建設現場の作業員",
+  "vi": "Công nhân đội mũ bảo hộ và mặc áo phản quang tại công trường"
+ },
+ "og_category": {
+  "ko": "입국·출국",
+  "en": "Entry",
+  "zh": "入境·出境",
+  "ja": "入国・出国",
+  "vi": "Nhập cảnh·Xuất cảnh"
+ },
+ "imageTitle": {
+  "ko": "임금체불·산재 중 체류(G-1)",
+  "en": "Staying during wage arrears or injury claims",
+  "zh": "欠薪·工伤期间居留(G-1)",
+  "ja": "賃金未払い・労災中の在留(G-1)",
+  "vi": "Lưu trú khi nợ lương, tai nạn lao động (G-1)"
+ }
+}

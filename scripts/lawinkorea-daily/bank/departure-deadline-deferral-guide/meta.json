@@ -1,0 +1,27 @@
+{
+ "order": 29,
+ "batch": "BANK-REFILL-1029",
+ "pexels_id": 17947934,
+ "pexels_author": "Sam Tan",
+ "cover_alt": {
+  "ko": "공항 창가에 여행 가방과 함께 앉아 있는 사람의 실루엣",
+  "en": "Silhouette of a person sitting by an airport window with a suitcase",
+  "zh": "坐在机场窗边、身旁放着行李箱的人影",
+  "ja": "空港の窓辺でスーツケースとともに座る人のシルエット",
+  "vi": "Bóng người ngồi cạnh cửa sổ sân bay cùng vali"
+ },
+ "og_category": {
+  "ko": "입국·출국",
+  "en": "Entry & Exit",
+  "zh": "入境·出境",
+  "ja": "入国・出国",
+  "vi": "Nhập cảnh · Xuất cảnh"
+ },
+ "imageTitle": {
+  "ko": "출국기한 유예·출국 연장",
+  "en": "Departure deadline deferral",
+  "zh": "出境期限宽限与延期",
+  "ja": "出国期限の猶予と延長",
+  "vi": "Gia hạn thời hạn xuất cảnh"
+ }
+}

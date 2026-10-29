@@ -1,0 +1,27 @@
+{
+ "order": 33,
+ "batch": "BANK-REFILL-1029",
+ "pexels_id": 33497885,
+ "pexels_author": "Jakub Zerdzicki",
+ "cover_alt": {
+  "ko": "탁자 위에 놓인 여권과 여행 서류",
+  "en": "Passports and travel documents on a table",
+  "zh": "桌上的护照和出行文件",
+  "ja": "テーブルに置かれたパスポートと渡航書類",
+  "vi": "Hộ chiếu và giấy tờ đi lại trên bàn"
+ },
+ "og_category": {
+  "ko": "입국·출국",
+  "en": "Entry",
+  "zh": "入境·出境",
+  "ja": "入国・出国",
+  "vi": "Xuất nhập cảnh"
+ },
+ "imageTitle": {
+  "ko": "출입국사실증명서 발급받는 법",
+  "en": "Entry and departure certificate",
+  "zh": "出入境事实证明书申请",
+  "ja": "出入国事実証明書の取り方",
+  "vi": "Xin giấy xác nhận xuất nhập cảnh"
+ }
+}
