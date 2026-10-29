@@ -33,7 +33,7 @@ Có thể bạn từng nộp tiền phạt xuất nhập cảnh hoặc từng nh
 
 - Tiền sử beomchikgeum thường bị xếp vào diện hạn chế cấp phép lưu trú khi **lần đầu từ 5 triệu won trở lên, tái phạm thì tổng 3 năm gần nhất từ 7 triệu won trở lên (tính đến tháng 10/2026, Sổ tay hướng dẫn lưu trú của Bộ Tư pháp).**
 - Tùy tư cách còn có điều kiện về thời gian như **vi phạm từ 3 lần trong 5 năm gần nhất (không tính gwataeryo)**, 7 năm sau lệnh trục xuất, 5 năm sau lệnh xuất cảnh.
-- Với visa làm việc theo diện thăm viếng (H-2), nhận beomchikgeum 3 lần trong 3 năm gần nhất thì bất kể số tiền đều không cho lưu trú và yêu cầu xuất cảnh.
+- Với visa làm việc theo diện thăm viếng (H-2), nhận beomchikgeum từ 3 lần trong 3 năm gần nhất thì bất kể số tiền đều không cho lưu trú và yêu cầu xuất cảnh.
 - "Từ 1 lần trở xuống, 1 triệu won trở xuống, qua 10 năm" không gỡ hạn chế nào cả. Đó là điều kiện được miễn **giáo dục công dân tuân thủ pháp luật**.
 
 ## Trước hết: beomchikgeum và gwataeryo là hai thứ khác nhau
@@ -66,7 +66,7 @@ Một hiểu lầm thường gặp là nghĩ rằng phạt 1 triệu hay 2 tri�
 | Cư trú (F-2) cho nhà đầu tư | Không đủ điều kiện nếu trong 3 năm nhận beomchikgeum và có lý do cần hạn chế cấp phép lưu trú |
 | Nhân tài theo vùng (F-2) | Không đủ điều kiện nếu tổng beomchikgeum trong 3 năm từ 5 triệu won, hoặc bị xử phạt beomchikgeum từ 3 lần trong 3 năm gần nhất |
 | Vĩnh trú (F-5) | Bị chặn nếu vi phạm từ 3 lần trong 5 năm (không tính gwataeryo), beomchikgeum từ 5 triệu won trong 3 năm hoặc tổng từ 7 triệu won, chưa đủ 7 năm sau lệnh trục xuất hoặc 5 năm sau lệnh xuất cảnh, v.v. |
-| Làm việc theo diện thăm viếng (H-2) | Lần đầu từ 5 triệu won, hoặc tái phạm tổng 3 năm từ 7 triệu won thì không cho lưu trú và yêu cầu xuất cảnh. Nhận beomchikgeum 3 lần trong 3 năm thì cũng vậy, bất kể số tiền |
+| Làm việc theo diện thăm viếng (H-2) | Lần đầu từ 5 triệu won, hoặc tái phạm tổng 3 năm từ 7 triệu won thì không cho lưu trú và yêu cầu xuất cảnh. Nhận beomchikgeum từ 3 lần trong 3 năm thì cũng vậy, bất kể số tiền |
 | Kiều bào (F-4) | Nếu tổng beomchikgeum từ 7 triệu won, hạn chế cấp tư cách trong 3 năm kể từ ngày nộp đủ khoản beomchikgeum khiến tổng đạt 7 triệu won |
 
 Bảng trông phức tạp nhưng thực ra chỉ có ba trục: **số tiền** (5 triệu, 7 triệu won), **số lần** (3 lần) và **thời gian đã qua** (3, 5, 7 năm). Hãy xem trước tư cách bạn định xin nhìn vào trục nào. Với F-4, nếu chứng minh được từ 100 giờ tình nguyện trải trong ít nhất 6 tháng thì thời hạn hạn chế 3 năm được giảm xuống 1 năm.

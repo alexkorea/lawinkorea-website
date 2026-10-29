@@ -33,7 +33,7 @@ You probably came here because you once paid an immigration fine or received a d
 
 - A fine record usually triggers the residence-restriction standard at **KRW 5 million or more for a first offense, or a combined KRW 7 million or more within the last three years for repeat offenses (as of October 2026, Ministry of Justice residence manual).**
 - Depending on the visa type, extra rules apply: **three or more violations in the last five years (administrative penalties excluded)**, 7 years after a deportation order, 5 years after a departure order, and so on.
-- For the Visiting Employment visa (H-2), three fines within the last three years means refusal and a departure measure, whatever the amounts.
+- For the Visiting Employment visa (H-2), three or more fines within the last three years means refusal and a departure measure, whatever the amounts.
 - "One violation or fewer, KRW 1 million or less, 10 years passed" does not lift any restriction. It is a condition for skipping the **law-abiding citizen education**.
 
 ## First, a fine and an administrative penalty are not the same thing
@@ -66,7 +66,7 @@ A common misunderstanding: people think a fine of KRW 1 million or 2 million is 
 | Residence (F-2) for investors | Disqualified if you received a fine within 3 years and there is a reason to restrict the permit |
 | Region-specific talent (F-2) | Disqualified if fines within 3 years total KRW 5 million or more, or if you received three or more fines within the last 3 years |
 | Permanent residence (F-5) | Blocked by three or more violations in 5 years (administrative penalties excluded), fines of KRW 5 million or more in 3 years or a combined KRW 7 million or more, less than 7 years since leaving under a deportation order or 5 years under a departure order, and so on |
-| Visiting Employment (H-2) | First offense KRW 5 million or more, or repeat offenses combined KRW 7 million or more in 3 years, means refusal and a departure measure. Three fines within 3 years has the same result whatever the amount |
+| Visiting Employment (H-2) | First offense KRW 5 million or more, or repeat offenses combined KRW 7 million or more in 3 years, means refusal and a departure measure. Three or more fines within 3 years have the same result whatever the amount |
 | Overseas Korean (F-4) | If total fines reach KRW 7 million, status grants are restricted for 3 years from the day you fully paid the fine that took the total to KRW 7 million |
 
 The table looks complicated, but there are only three axes: **amount** (KRW 5 million, 7 million), **count** (three times) and **elapsed time** (3, 5 and 7 years). First find out which of them your target visa looks at. For F-4, if you can show 100 or more hours of volunteering over at least six months, the 3-year restriction is reduced to 1 year.
