@@ -75,5 +75,7 @@
   "refugee-applicant-stay-work-permit": { "pexels_id": 34930983, "author": "Bastian Riccardi",
     "alt": { "ko": "서류에 글씨를 쓰는 손의 흑백 사진", "en": "Black-and-white photo of a hand writing on a document", "zh": "手在文件上书写的黑白照片", "ja": "書類に文字を書く手のモノクロ写真", "vi": "Ảnh đen trắng bàn tay đang viết trên giấy tờ" } },
   "immigration-crackdown-on-site-questioning": { "pexels_id": 34718922, "author": "Yetkin Ağaç",
-    "alt": { "ko": "기계와 작업대가 늘어선 넓은 공장 내부", "en": "Wide factory floor with machinery and workstations", "zh": "摆满机器和工作台的宽敞工厂内部", "ja": "機械と作業台が並ぶ広い工場の内部", "vi": "Bên trong nhà xưởng rộng với máy móc và bàn làm việc" } }
+    "alt": { "ko": "기계와 작업대가 늘어선 넓은 공장 내부", "en": "Wide factory floor with machinery and workstations", "zh": "摆满机器和工作台的宽敞工厂内部", "ja": "機械と作業台が並ぶ広い工場の内部", "vi": "Bên trong nhà xưởng rộng với máy móc và bàn làm việc" } },
+  "passport-id-card-retention-ban": { "pexels_id": 37717005, "author": "panumas nikhomkhai",
+    "alt": { "ko": "금속 캐비닛 문 자물쇠에 꽂힌 열쇠", "en": "Key inserted into the lock of a metal cabinet door", "zh": "插在金属柜门锁上的钥匙", "ja": "金属キャビネットの扉の鍵穴に差し込まれた鍵", "vi": "Chìa khóa cắm trong ổ khóa cửa tủ kim loại" } }
 }
