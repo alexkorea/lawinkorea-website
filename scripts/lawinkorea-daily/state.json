@@ -298,6 +298,19 @@
       ],
       "at": "2026-10-29T10:04:57.802Z",
       "batch": "LAW-BANK-1021"
+    },
+    {
+      "slug": "overstay-marriage-korean-spouse",
+      "date": "2026-10-30",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-10-30T10:05:03.053Z",
+      "batch": "LAW-BANK-1021"
     }
   ],
   "rejected": []
