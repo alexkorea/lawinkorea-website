@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { alternatesFor, ogFor } from "../../lib/seo";
 import { COMPANY, ACCENT } from "../../lib/constants";
+import { breadcrumbSchema } from "../../lib/schema";
 
 // QA01-FIX3(맥7 2026-10-05) — "Coming soon" 자리에 정식 개인정보 처리방침(5언어).
 // 운영 주체 = NAS team-relay/brand_registry.md 브랜드 E(선샤인행정사사무소). 외국어 사무소명은 Boss 미확정이라 국문 그대로 쓴다.
@@ -171,6 +172,8 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   const d = DOCS[locale as L];
   return (
     <main style={{ maxWidth: 800, margin: "0 auto", padding: "64px 24px" }}>
+      {/* NAVER-SEO-FIX-1031: BreadcrumbList(홈 › 개인정보처리방침) */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema(locale, [{ name: d.title, path: "/privacy" }])) }} />
       <h1 style={{ fontSize: 36, fontWeight: 700, color: "#0a1628" }}>{d.title}</h1>
       <p style={{ ...pStyle, marginTop: 16 }}>{d.intro}</p>
       {d.sections.map((s) => (
