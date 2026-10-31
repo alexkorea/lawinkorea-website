@@ -311,6 +311,19 @@
       ],
       "at": "2026-10-30T10:05:03.053Z",
       "batch": "LAW-BANK-1021"
+    },
+    {
+      "slug": "g1-stay-lawsuit-medical-treatment",
+      "date": "2026-10-31",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-10-31T10:04:01.396Z",
+      "batch": "LAW-BANK-1021"
     }
   ],
   "rejected": []

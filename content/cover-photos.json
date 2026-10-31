@@ -79,5 +79,7 @@
   "passport-id-card-retention-ban": { "pexels_id": 37717005, "author": "panumas nikhomkhai",
     "alt": { "ko": "금속 캐비닛 문 자물쇠에 꽂힌 열쇠", "en": "Key inserted into the lock of a metal cabinet door", "zh": "插在金属柜门锁上的钥匙", "ja": "金属キャビネットの扉の鍵穴に差し込まれた鍵", "vi": "Chìa khóa cắm trong ổ khóa cửa tủ kim loại" } },
   "overstay-marriage-korean-spouse": { "pexels_id": 34583565, "author": "Breno Cardoso",
-    "alt": { "ko": "펼친 책 위에 놓인 두 개의 금색 결혼반지", "en": "Two gold wedding rings resting on an open book", "zh": "放在翻开的书上的两枚金色婚戒", "ja": "開いた本の上に置かれた二つの金の結婚指輪", "vi": "Hai chiếc nhẫn cưới vàng đặt trên cuốn sách mở" } }
+    "alt": { "ko": "펼친 책 위에 놓인 두 개의 금색 결혼반지", "en": "Two gold wedding rings resting on an open book", "zh": "放在翻开的书上的两枚金色婚戒", "ja": "開いた本の上に置かれた二つの金の結婚指輪", "vi": "Hai chiếc nhẫn cưới vàng đặt trên cuốn sách mở" } },
+  "g1-stay-lawsuit-medical-treatment": { "pexels_id": 11660581, "author": "adrian vieriu",
+    "alt": { "ko": "빈 침대가 줄지어 놓인 조용한 병원 복도", "en": "Quiet hospital hallway with empty beds lined up", "zh": "整齐摆放着空病床的安静医院走廊", "ja": "空のベッドが並ぶ静かな病院の廊下", "vi": "Hành lang bệnh viện yên tĩnh với những chiếc giường trống" } }
 }
