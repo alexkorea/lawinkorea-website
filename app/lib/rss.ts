@@ -2,7 +2,8 @@
 // 요약에서 빼는 것은 인용·확인일 형태(콜론 붙은 근거/출처, 확인일·기준일, 매뉴얼)뿐 — '자금 출처' 같은 본문 낱말은 둔다.
 // 코드 속 비-ASCII 는 \u 이스케이프 — 폰트 서브셋 코퍼스(소스 글자 수집)에 새 글자가 끼지 않게.
 // pubDate 는 RFC 822 KST(+0900), 요약은 1~2문장이고 근거·확인일 류 문장은 뺀다(NOCITE 보스 영구지침).
-export type RssItem = { title: string; link: string; description: string; date: string | Date }
+// image: absolute same-site URL of the lead image -> <enclosure> + <media:content> (NAVER-SEO-FIX-1031: Naver RSS wants summary + lead image).
+export type RssItem = { title: string; link: string; description: string; date: string | Date; image?: string }
 export type RssChannel = { title: string; link: string; description: string; language: string; self: string }
 
 export const RSS_LIMIT = 50
@@ -11,6 +12,21 @@ export const RSS_HEADERS = { 'Content-Type': 'application/rss+xml; charset=utf-8
 const esc = (s: string) =>
   String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 const BAN = /(\uADFC\uAC70|\uCD9C\uCC98|\u6839\u62E0|\u51FA\u5178|\u51FA\u5904|\u4F9D\u636E|\u6765\u6E90|Source|Basis|Legal basis)\s*[:\uFF1A]|\uD655\uC778\uC77C|\uAE30\uC900\uC77C|\uCD5C\uC885 \uD655\uC778|\uB9E4\uB274\uC5BC|\u78BA\u8A8D\u65E5|\u57FA\u6E96\u65E5|\u786E\u8BA4\u65E5|\u624B\u518C|\u30DE\u30CB\u30E5\u30A2\u30EB|\u624B\u518A|\bas of\b|verified on|last checked|\bmanual\b/i
+const IMG_TYPE: Record<string, string> = { jpg: 'image/jpeg', jpeg: 'image/jpeg', png: 'image/png', webp: 'image/webp', gif: 'image/gif', avif: 'image/avif' }
+function imageType(url: string): string | null {
+  const m = /\.([a-z0-9]+)(?:[?#].*)?$/i.exec(url)
+  return m ? IMG_TYPE[m[1].toLowerCase()] ?? null : null
+}
+// Only absolute https URLs with an image extension. Byte length is unknown, so enclosure length=0 (common RSS 2.0 practice).
+function imageLines(i: RssItem): string[] {
+  if (!i.image || !/^https:\/\//.test(i.image)) return []
+  const t = imageType(i.image)
+  if (!t) return []
+  return [
+    `      <enclosure url="${esc(i.image)}" length="0" type="${t}"/>`,
+    `      <media:content url="${esc(i.image)}" medium="image" type="${t}"/>`,
+  ]
+}
 const DAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 const MONS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 
@@ -50,13 +66,14 @@ export function buildRss(ch: RssChannel, items: RssItem[]): string {
         `      <guid isPermaLink="true">${esc(i.link)}</guid>`,
         `      <pubDate>${rfc822Kst(i.date)}</pubDate>`,
         `      <description>${esc(describe(i))}</description>`,
+        ...imageLines(i),
         '    </item>',
       ].join('\n')
     )
     .join('\n')
   const last = list[0] ? rfc822Kst(list[0].date) : rfc822Kst(new Date())
   return `<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>${esc(ch.title)}</title>
     <link>${esc(ch.link)}</link>

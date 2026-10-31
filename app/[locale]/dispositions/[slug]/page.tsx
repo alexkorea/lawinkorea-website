@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import HubBlogLinks, { HUB_POSTS, appendToMain } from "../../../components/HubBlogLinks";
-import { alternatesFor, brandTitle } from "../../../lib/seo";
+import { alternatesFor, brandTitle, ogFor } from "../../../lib/seo";
 import { faqSchema } from "../../../lib/schema";
 import type { Metadata } from "next";
 import React from "react";
@@ -859,7 +859,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const content = SLUG_CONTENT[slug];
   if (content) {
     const m = content.meta[l];
-    return { title: brandTitle(m.title), description: m.description, alternates: alternatesFor(l, `/dispositions/${slug}`) };
+    return { title: brandTitle(m.title), description: m.description, alternates: alternatesFor(l, `/dispositions/${slug}`),
+      openGraph: ogFor(l, `/dispositions/${slug}`, { title: m.title, description: m.description }) };
   }
   if (!COMING_SOON_SLUGS.includes(slug)) return {};
   return {

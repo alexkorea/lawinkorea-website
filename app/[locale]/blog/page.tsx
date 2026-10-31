@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getBlogPostsByLocale } from "../../data/blog-posts-data";
 import { ACCENT } from "../../lib/constants";
-import { alternatesFor } from "../../lib/seo";
+import { alternatesFor, ogFor } from "../../lib/seo";
 import { breadcrumbSchema } from "../../lib/schema";
 import BlogCategoryTabs from "../../components/BlogCategoryTabs";
 
@@ -65,6 +65,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title: { absolute: t.title },
     description: t.subtitle,
     alternates: alternatesFor(locale, "/blog"),
+    openGraph: ogFor(locale, "/blog", { title: t.title, description: t.subtitle }),
   };
 }
 

@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import BLOG_POSTS_DATA, { getLocalesForSlug } from "./data/blog-posts-data";
+import { PAGE_LASTMOD } from "./data/page-lastmod.generated";
 
 const locales = ["ko", "en", "ja", "zh", "vi"] as const;
 
@@ -28,7 +29,7 @@ const pages = [
 const detailHubs = [
   "/offenses/dui",
   "/offenses/drugs",
-  "/offenses/immigration-fines",
+  // "/offenses/immigration-fines" — NAVER-SEO-FIX-1031: /fines 와 중복이라 canonical=/fines, 사이트맵에서 뺀다.
   "/dispositions/entry-ban",
   "/dispositions/deportation-order",
   // LAW-V1 P0-5 — 5로캘 모두 본문이 있고 index 인 서비스 페이지 9종
@@ -59,7 +60,8 @@ function languagesFor(path: string, onlyLocales: readonly string[] = locales) {
 
 // lastmod 는 실제 날짜가 있는 곳에만 쓴다(SITEMAP-LASTMOD-2, 2026-10-17 — kocation KOC-LASTMOD 와 같은 처방).
 // 종전엔 고정·허브 165건이 new Date()(빌드 시각)라 배포할 때마다 전부 '방금 수정'이 됐다.
-// 글 = 원고 frontmatter(updated, 없으면 date), /blog 목록 = 그 언어 최신 글 날짜, 고정 페이지 = 생략.
+// 글 = 원고 frontmatter(updated, 없으면 date), /blog 목록 = 그 언어 최신 글 날짜.
+// 고정·허브 페이지 = (NAVER-SEO-FIX-1031) 쪽 파일·데이터 파일 마지막 커밋일(prebuild scripts/page-lastmod.mjs → PAGE_LASTMOD).
 const postDate = (post: (typeof BLOG_POSTS_DATA)[number]) => post.updated || post.date || "";
 
 const latestPostDate: Record<string, string> = {};
@@ -75,7 +77,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const page of pages) {
       entries.push({
         url: `${baseUrl}/${locale}${page}`,
-        ...(page === "/blog" && latestPostDate[locale] ? { lastModified: new Date(latestPostDate[locale]) } : {}),
+        ...(page === "/blog" && latestPostDate[locale]
+          ? { lastModified: new Date(latestPostDate[locale]) }
+          : page !== "/blog" && PAGE_LASTMOD[page] ? { lastModified: new Date(PAGE_LASTMOD[page]) } : {}),
         changeFrequency: "weekly",
         priority: page === "" ? 1.0 : 0.8,
         alternates: { languages: languagesFor(page) },
@@ -87,6 +91,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const page of detailHubs) {
       entries.push({
         url: `${baseUrl}/${locale}${page}`,
+        ...(PAGE_LASTMOD[page] ? { lastModified: new Date(PAGE_LASTMOD[page]) } : {}),
         changeFrequency: "weekly",
         priority: 0.8,
         alternates: { languages: languagesFor(page) },

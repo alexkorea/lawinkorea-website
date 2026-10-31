@@ -22,6 +22,7 @@ export async function GET(_req: Request, { params }: { params: Promise<{ locale:
       link: `${SITE.url}/${locale}/blog/${p.slug}`,
       description: p.description,
       date: p.date,
+      image: p.cover ? `${SITE.url}${p.cover}` : undefined,
     }))
   )
   return new Response(xml, { headers: RSS_HEADERS })

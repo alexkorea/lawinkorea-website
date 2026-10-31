@@ -125,6 +125,8 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
       title: post.title,
       description: post.description,
       type: "article",
+      url: `${SITE.url}/${locale}/blog/${slug}`,
+      siteName: "Law in Korea",
       publishedTime: post.date,
       modifiedTime: post.updated || post.date,
       images: [{ url: `${SITE.url}${post.cover}`, width: 1200, height: 630, alt: post.coverAlt || post.title }],

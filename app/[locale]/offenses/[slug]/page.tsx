@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import HubBlogLinks, { HUB_POSTS, appendToMain } from "../../../components/HubBlogLinks";
 import { fineLabels, finesFor, FINE_TIER_COUNT } from "../../../lib/fines";
-import { alternatesFor, brandTitle } from "../../../lib/seo";
+import { alternatesFor, brandTitle, ogFor } from "../../../lib/seo";
 import { breadcrumbSchema, faqSchema } from "../../../lib/schema";
 import type { Metadata } from "next";
 
@@ -942,7 +942,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const content = SLUG_CONTENT[slug];
   if (content) {
     const m = content.meta[l];
-    return { title: brandTitle(m.title), description: m.description, alternates: alternatesFor(l, `/offenses/${slug}`) };
+    // NAVER-SEO-FIX-1031: immigration-fines 는 /fines(16유형 101구간 전체 기준표)와 본문 70% 중복 → 대표 /fines 로 canonical.
+    const path = slug === "immigration-fines" ? "/fines" : `/offenses/${slug}`;
+    return { title: brandTitle(m.title), description: m.description, alternates: alternatesFor(l, path),
+      openGraph: ogFor(l, path, { title: m.title, description: m.description }) };
   }
   if (!COMING_SOON_SLUGS.includes(slug)) return {};
   return {

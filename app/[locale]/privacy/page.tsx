@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { alternatesFor } from "../../lib/seo";
+import { alternatesFor, ogFor } from "../../lib/seo";
 import { COMPANY, ACCENT } from "../../lib/constants";
 
 // QA01-FIX3(맥7 2026-10-05) — "Coming soon" 자리에 정식 개인정보 처리방침(5언어).
@@ -153,6 +153,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title: { absolute: `${DOCS[l].title} | ${NAME}` },
     description: DOCS[l].description,
     alternates: alternatesFor(l, "/privacy"),
+    openGraph: ogFor(l, "/privacy", { title: DOCS[l].title, description: DOCS[l].description }),
   };
 }
 

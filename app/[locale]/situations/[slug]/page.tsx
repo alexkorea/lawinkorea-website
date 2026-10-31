@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
-import { alternatesFor, brandTitle } from "../../../lib/seo";
+import { alternatesFor, brandTitle, ogFor } from "../../../lib/seo";
 import { breadcrumbSchema } from "../../../lib/schema";
 import {
   SITUATION_LOCALES,
@@ -37,6 +37,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title: brandTitle(c.metaTitle),
     description: c.metaDesc,
     alternates: alternatesFor(locale, `/situations/${slug}`),
+    openGraph: ogFor(locale, `/situations/${slug}`, { title: c.metaTitle, description: c.metaDesc }),
   };
 }
 

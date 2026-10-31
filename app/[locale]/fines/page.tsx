@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { alternatesFor, OG_LOCALE } from "../../lib/seo";
+import { alternatesFor, OG_LOCALE, ogFor } from "../../lib/seo";
 import { SITE, ACCENT } from "../../lib/constants";
 import {
   FINES,
@@ -34,6 +34,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     description: seo.description,
     alternates: alternatesFor(l, "/fines"),
     openGraph: {
+      ...ogFor(l, "/fines"),
       type: "website",
       title: seo.title,
       description: seo.description,

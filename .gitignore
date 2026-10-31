@@ -43,3 +43,5 @@ next-env.d.ts
 # open-next / wrangler 빌드 산출물
 /.open-next/
 /.wrangler/
+# NAVER-SEO-FIX-1031: prebuild 생성(커밋일 기반) — 추적하면 커밋마다 작업트리가 더러워져 19:00 배포가 보류된다
+app/data/page-lastmod.generated.ts

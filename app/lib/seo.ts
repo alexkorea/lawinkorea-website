@@ -53,6 +53,21 @@ export function siteOgImages(rawLocale: string) {
   return [{ url: `${SITE.url}/og/site-${l}.jpg${OG_VER[l] ? `?v=${OG_VER[l]}` : ""}`, width: 1200, height: 630, alt: OG_ALT[l] }];
 }
 
+/**
+ * 쪽별 openGraph(NAVER-SEO-FIX-1031): og:url = canonical, og:type·siteName·locale·기본 이미지를 항상 채운다.
+ * openGraph 는 레이아웃 값과 얕게 합쳐지지 않고 통째로 바뀌므로, 쪽에서 openGraph 를 줄 때는 이 헬퍼를 거친다.
+ */
+export function ogFor(rawLocale: string, path: string, over: Record<string, unknown> = {}): NonNullable<Metadata["openGraph"]> {
+  const l = (LOCALES as readonly string[]).includes(rawLocale) ? rawLocale : "ko";
+  return {
+    ...ROOT_OPEN_GRAPH,
+    locale: OG_LOCALE[l],
+    url: `${SITE.url}/${l}${path}`,
+    images: siteOgImages(l),
+    ...over,
+  } as NonNullable<Metadata["openGraph"]>;
+}
+
 /** 루트 레이아웃 openGraph — [locale] 레이아웃이 같은 값에 언어별 이미지만 얹어 쓴다(값 단일 원천). */
 export const ROOT_OPEN_GRAPH = {
   type: "website",
