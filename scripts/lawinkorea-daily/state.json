@@ -324,6 +324,19 @@
       ],
       "at": "2026-10-31T10:04:01.396Z",
       "batch": "LAW-BANK-1021"
+    },
+    {
+      "slug": "stay-extension-tax-arrears-limit",
+      "date": "2026-11-01",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-11-01T10:04:24.151Z",
+      "batch": "LAW-BANK-1021"
     }
   ],
   "rejected": []
