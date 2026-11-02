@@ -337,6 +337,19 @@
       ],
       "at": "2026-11-01T10:04:24.151Z",
       "batch": "LAW-BANK-1021"
+    },
+    {
+      "slug": "foreign-worker-workplace-desertion-report",
+      "date": "2026-11-02",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-11-02T10:05:04.039Z",
+      "batch": "LAW-BANK-1021"
     }
   ],
   "rejected": []

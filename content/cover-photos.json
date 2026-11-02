@@ -83,5 +83,7 @@
   "g1-stay-lawsuit-medical-treatment": { "pexels_id": 11660581, "author": "adrian vieriu",
     "alt": { "ko": "빈 침대가 줄지어 놓인 조용한 병원 복도", "en": "Quiet hospital hallway with empty beds lined up", "zh": "整齐摆放着空病床的安静医院走廊", "ja": "空のベッドが並ぶ静かな病院の廊下", "vi": "Hành lang bệnh viện yên tĩnh với những chiếc giường trống" } },
   "stay-extension-tax-arrears-limit": { "pexels_id": 7111546, "author": "Tara Winstead",
-    "alt": { "ko": "계산기와 동전, 메모장, 세금 서류 폴더가 놓인 책상", "en": "Calculator, coins, notepad and a tax folder on a desk", "zh": "桌上的计算器、硬币、记事本和税务文件夹", "ja": "電卓、硬貨、メモ帳、税金書類のフォルダーが置かれた机", "vi": "Máy tính, tiền xu, sổ tay và bìa hồ sơ thuế trên bàn" } }
+    "alt": { "ko": "계산기와 동전, 메모장, 세금 서류 폴더가 놓인 책상", "en": "Calculator, coins, notepad and a tax folder on a desk", "zh": "桌上的计算器、硬币、记事本和税务文件夹", "ja": "電卓、硬貨、メモ帳、税金書類のフォルダーが置かれた机", "vi": "Máy tính, tiền xu, sổ tay và bìa hồ sơ thuế trên bàn" } },
+  "foreign-worker-workplace-desertion-report": { "pexels_id": 4481329, "author": "Tiger Lily",
+    "alt": { "ko": "물류창고에서 팔레트와 재고를 정리하는 작업자들", "en": "Workers organizing pallets and inventory in a warehouse", "zh": "在仓库里整理托盘和库存的工人", "ja": "倉庫でパレットと在庫を整理する作業員", "vi": "Công nhân sắp xếp pallet và hàng tồn kho trong nhà kho" } }
 }
