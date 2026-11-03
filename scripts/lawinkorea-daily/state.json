@@ -350,6 +350,19 @@
       ],
       "at": "2026-11-02T10:05:04.039Z",
       "batch": "LAW-BANK-1021"
+    },
+    {
+      "slug": "immigration-violation-history-visa-extension",
+      "date": "2026-11-03",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-11-03T10:03:44.854Z",
+      "batch": "BANK-REFILL-1029"
     }
   ],
   "rejected": []
