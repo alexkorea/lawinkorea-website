@@ -1,0 +1,13 @@
+{
+  "name": "선샤인행정사사무소 · Law in Korea",
+  "short_name": "Law in Korea",
+  "start_url": "/ko",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#8e0f2a",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/logo-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

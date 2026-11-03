@@ -26,6 +26,110 @@
 - [Visa Cancellation Response Procedure](https://lawinkorea.com/en/blog/foreigner-visa-cancellation-response)
 - [Voluntary Departure for Overstaying Foreigners 2026](https://lawinkorea.com/en/blog/foreigner-voluntary-departure-2026)
 
+<!-- reco-units:begin -->
+
+## 업무 항목별 페이지 (한국어) — 처리 업무
+
+- [출입국사범심사 대응 행정 서비스](https://lawinkorea.com/ko/immigration-offense-review): 출입국사범심사 출석 통지 내용 확인·준비 일정 정리 · 출입국사범심사 소명자료(의견서·반성문·탄원서) 작성 · 가족·고용주 탄원서 작성 안내 및 관계 증빙 정리 · 용의자 신문 대비 사실관계·진술 요지 정리 · 기소유예·벌금 등 형사처분 결과 서류 정리·제출 · 보호의 일시해제 신청서 작성·제출 대행 · 사범심사 진행 중 체류기간 연장허가 신청 대행 · 영주(F-5) 자격자 사범심사 소명자료 작성 · 강제퇴거명령 이의신청서 작성·제출 대행 · 출국명령 출국기한·이행 관련 서류 대응 · 범칙금 통고처분 감경 소명서 작성 · 입국규제 해제 요청 서류 작성
+- [출입국 범칙금·과태료 대응 행정 서비스](https://lawinkorea.com/ko/fines): 범칙금·과태료·벌금형 처분 서류 확인 및 구분 · 범칙금 통고서 납부기한·납부 방법 확인 · 통고처분 감경·면제 요청 정상 소명서 작성 · 과태료 면제 요청 경위서 작성 · 범칙금 납부 후 체류기간 연장허가 신청 대행 · 출국 전 범칙금 임시납부 신청 안내 · 벌금 납부·노역장 유치 종료일 기준 영주(F-5) 신청 시점 확인 · 통고처분 후 체류 처분 대비 소명자료 작성 · 출국명령 출국기한·이행 관련 서류 대응 · 형사처분이 체류허가에 미치는 영향 확인 · 출입국사범심사 소명자료(의견서·반성문·탄원서) 작성
+- [음주운전 외국인 사범심사·체류허가 대응 행정 서비스](https://lawinkorea.com/ko/offenses/dui): 출입국사범심사 소명자료(의견서·반성문·탄원서) 작성 · 음주운전 벌금형 이후 체류기간 연장허가 신청 대행 · 출입국 조사 출석·진술 준비(통역·진술조서 확인) · 재외동포(F-4) 체류기간 연장허가 신청 대행 · 숙련기능인력(E-7-4) 체류자격 변경허가 서류 검토 · 영주(F-5) 체류자격 변경허가 품행단정 소명자료 준비 · 결혼이민(F-6) 체류기간 연장허가 신청 대행 · 구직(D-10) 체류자격 변경허가 신청 대행 · 출국명령 출국기한 유예 신청서 작성 · 강제퇴거명령 이의신청서 작성·제출 대행 · 입국규제 해제 요청 서류 작성
+- [마약류 사건 외국인 강제퇴거·사범심사 대응 행정 서비스](https://lawinkorea.com/ko/offenses/drugs): 출입국사범심사 의견서·치료 이력 소명자료 작성 · 강제퇴거명령 이의신청서 작성·제출 대행 · 보호 일시해제 신청서·신원보증 서류 작성 · 영주자격 취소 의견청취 소명자료 준비 · 영주자격 취소 후 일반 체류자격 신청 대행 · 재외동포(F-4) 자격 부여 제한 해당 여부 검토 · 해외 범죄경력 관련 체류자격 신청 서류 검토 · 초청자 사증발급인정서 제한 기간 검토 · 석방 전 출입국 대응 서류 준비 · 입국규제 해제 요청 서류 작성 · 출국명령 출국기한 유예 신청서 작성
+- [폭행·상해 사건 외국인 사범심사·체류허가 대응 행정 서비스](https://lawinkorea.com/ko/offenses/assault): 출입국사범심사 소명자료(의견서·반성문·탄원서) 작성 · 피해자 합의서·피해 회복 자료 정리 · 수사 중 체류기간 연장허가 신청 대행 · 출입국 조사 출석·진술조서 확인 준비 · 특정활동(E-7) 사증발급인정서 신청 서류 검토 · 재외동포(F-4) 체류기간 연장허가 신청 대행 · 영주자격 취소 의견청취 소명자료 준비 · 강제퇴거명령 이의신청서 작성·제출 대행 · 보호 일시해제 신청서·보호기간 연장 의견서 작성 · 결혼이민(F-6) 가정폭력 피해자 체류기간 연장허가 신청 대행 · 입국규제 해제 요청 서류 작성
+- [성범죄 사건 외국인 강제퇴거·영주자격 취소 대응 행정 서비스](https://lawinkorea.com/ko/offenses/sexual-offense): 출입국사범심사 의견서·정상자료 작성 · 영주자격 취소 의견청취 소명자료 준비 · 영주자격 취소 후 일반 체류자격 신청 대행 · 강제퇴거명령 이의신청서 작성·제출 대행 · 보호 일시해제 신청서·보호기간 연장 의견서 작성 · 성폭력 피해 외국인 체류기간 연장허가 신청 대행 · 성폭력 피해자 등 기타(G-1) 체류자격 신청 대행 · 초청자 사증발급인정서 제한 기간 검토 · 해외 범죄경력 관련 체류자격 변경 서류 검토 · 입국규제 해제 요청 서류 작성
+- [절도·사기·횡령 사건 외국인 사범심사·체류허가 대응 행정 서비스](https://lawinkorea.com/ko/offenses/property-crime): 출입국사범심사 의견서·피해 변제 소명자료 작성 · 유학(D-2) 체류기간 연장허가 신청 대행 · 구직(D-10) 체류자격 변경허가 신청 대행 · 재외동포(F-4) 체류기간 연장허가 신청 대행 · 영주(F-5) 체류자격 변경허가 결격사유 검토 · 영주자격 취소 의견청취 소명자료 준비 · 기업투자(D-8) 체류허가 취소 의견청취 대응 서류 작성 · 강제퇴거명령 이의신청서 작성·제출 대행 · 출국명령 이행보증금·출국기한 관련 서류 작성 · 입국규제 해제 요청 서류 작성
+- [보이스피싱 연루 외국인 사범심사·강제퇴거 대응 행정 서비스](https://lawinkorea.com/ko/offenses/voice-phishing): 출입국사범심사 의견서(가담 경위·피해 변제) 작성 · 통장 대여 사건 고의 없음 소명자료 정리 · 유학(D-2) 체류자격 외 활동 위반 소명자료 작성 · 재외동포(F-4) 자격 부여 제한 해당 여부 검토 · 영주(F-5) 체류자격 변경허가 신청 시기 검토 · 강제퇴거명령 이의신청서 작성·제출 대행 · 보호 일시해제 신청서·신원보증 서류 작성 · 출국기한 유예 신청서 작성 · 해외 범죄경력 관련 체류자격 신청 서류 검토 · 입국규제 해제 요청 서류 작성
+- [외국인 불법취업·불법고용 사범심사·범칙금 대응 행정 서비스](https://lawinkorea.com/ko/offenses/unauthorized-employment): 불법고용 사업주 출입국 조사 대응 서류 작성 · 범칙금 통고처분 관련 경감 소명자료 작성 · 초청 제한 기간 검토 및 사증발급인정서 신청 대행 · 근무처 변경·추가 허가 신청 대행 · 유학(D-2) 체류자격 외 활동허가(시간제 취업) 신청 대행 · 재외동포(F-4) 취업 제한 범위 검토·체류자격 외 활동허가 신청 · 출입국사범심사 소명자료(경위서·반성문) 작성 · 범칙금 처분 이후 체류기간 연장허가 신청 대행 · 출국명령 출국기한 유예 신청서 작성 · 범칙금 기준·납부 절차 확인
+- [체류기간 초과(불법체류) 외국인 범칙금·출국명령 대응 행정 서비스](https://lawinkorea.com/ko/offenses/overstay): 체류기간 초과 사범심사 소명자료(경위서) 작성 · 범칙금 경감 사유 소명자료 작성 · 체류기간 연장허가 신청 대행 · 연장 불허 후 출국기한 유예 신청서 작성 · 출국명령 이행보증금·출국기한 관련 서류 작성 · 외국인등록 신청 대행 · 국내 출생 자녀 체류자격 부여 신청 대행 · 보호 일시해제 신청서·신원보증 서류 작성 · 입국규제 해제 요청 서류 작성 · 범칙금 기준·납부 절차 확인
+- [허위서류·위변조 문서 제출 외국인 사범심사·허가취소 대응 행정 서비스](https://lawinkorea.com/ko/offenses/false-documents): 허위서류 혐의 출입국 조사 출석·진술 준비 · 출입국사범심사 소명자료(경위서·의견서) 작성 · 체류허가 취소 의견청취 소명자료 준비 · 신청서 기재 정정 신청 및 경위서 작성 · 결혼이민(F-6) 혼인 진정성 소명자료 준비 · 초청자 사증발급인정서 제한 기간 검토 · 거주(F-2) 체류자격 변경허가 결격사유 검토 · 번역 서류 정정 제출 대행 · 강제퇴거명령 이의신청서 작성·제출 대행 · 입국규제 해제 요청 서류 작성
+- [강제퇴거명령 이의신청 대응 행정 서비스](https://lawinkorea.com/ko/dispositions/deportation-order): 강제퇴거명령 이의신청서 작성·제출 대행 · 강제퇴거명령서·심사결정 내용 확인과 쟁점 정리 · 이의신청 이유서와 첨부 소명자료 작성 · 체류허가 특례 사유(국적 보유 이력·국내 가족관계) 소명자료 정리 · 보호 일시해제 신청서 작성·제출 대행 · 보호 일시해제 보증금 납부능력 소명자료 준비 · 보호에 대한 심사청구서 작성 · 영주(F-5) 자격자 강제퇴거 예외 해당 여부 검토 · 출국명령서 확인·출국기한 유예 신청 대행 · 입국규제 해제 요청 서류 작성 · 출입국사범심사 소명자료(의견서·반성문·탄원서) 작성
+- [출국명령 대응 행정 서비스](https://lawinkorea.com/ko/dispositions/departure-order): 출국명령서의 출국기한·조건·이행보증금 확인과 정리 · 출국기한유예신청서 작성·제출 대행 · 출국기한 유예 사유 소명자료(진단서·입원 확인 자료 등) 준비 · 이행보증금 예치·반환 절차 확인 · 주거 제한 등 출국명령 조건 변경 사유서 작성 · 체류허가 취소 의견청취 출석 준비와 의견서 작성 · 체류기간 초과자 자진 출국 의사 소명자료 작성 · 영주(F-5) 결격 사유 해당 여부 검토 · 범칙금 통고처분 대응 · 강제퇴거명령 이의신청서 작성·제출 대행 · 출국 후 사증 재신청 서류 준비
+- [출국권고 대응 행정 서비스](https://lawinkorea.com/ko/dispositions/departure-recommendation): 출국권고서의 위반 사유·출국기한 확인과 정리 · 출국기한유예신청서 작성·제출 대행 · 가족 질병 등 부득이한 사유 소명자료 준비 · 체류기간 초과 경위서 작성 · 유학(D-2) 시간제 취업 위반 경위서 작성 · 출국권고 사유에 대한 사실관계 의견서 작성 · 출국 후 재입국·사증 신청 서류 준비 · 출국명령서 확인·출국기한 유예 신청 대행 · 체류기간 초과(불법체류) 사범심사 대응 · 범칙금 통고처분 대응
+- [입국금지(입국규제) 해제 요청 서류 작성 행정 서비스](https://lawinkorea.com/ko/dispositions/entry-ban): 입국규제 해제 요청 서류(사유서·소명자료) 작성 · 금지 사유 소멸·사정 변경 증빙 정리 · 다른 행정기관 요청에 따른 입국금지의 해제 요청 경로 확인 · 인도적 사유(가족 장례·병문안) 소명서 작성 · 재외공관 사증 신청 서류 준비 · 결혼이민(F-6) 배우자 초청 사증 서류 준비 · 입국규제자 재입국허가 신청 대행 · 공항 입국 불허 후 사증 신청 준비 · 강제퇴거명령 이의신청서 작성·제출 대행 · 사증발급 거부 사유 확인·재신청 서류 준비
+- [사증발급 거부 대응 행정 서비스](https://lawinkorea.com/ko/dispositions/visa-denial): 사증발급 거부 사유 확인·분석 · 사증발급인정서 재신청 서류 작성(초청자 신청) · 결혼이민(F-6) 사증 재신청 서류 보완 · 초청인 결격 사유 해당 여부 검토 · 입국목적·귀국 예정 소명자료 작성 · 체류자격별 사증발급 기준 서류 보완 · 과거 국내 체류 위반 이력 소명서 작성 · 비전문취업(E-9) 사증발급인정서 요건 검토 · 입국규제 해제 요청 서류 작성 · 형사처벌 이력의 체류 영향 검토
+- [형사처분·위반 기록에 따른 체류허가 영향 대응 행정 서비스](https://lawinkorea.com/ko/visa-impact): 체류기간 연장허가 신청 대행(형사처분 이력 소명 포함) · 영주(F-5) 체류자격 변경허가 신청 대행 · 영주자격 취소 의견청취 대비 의견서 작성 · 거주(F-2) 체류기간 연장허가 신청 대행(준법시민교육 대상 확인) · 국민의 배우자(F-6-1) 체류자격 변경허가 신청 대행 · 재외동포(F-4) 체류자격 변경허가 신청 대행 · 숙련기능인력(E-7-4) 체류자격 변경허가 신청 서류 작성 · 구직(D-10) 체류자격 변경허가 신청 대행 · 체류허가 취소·변경 의견청취 대비 소명서 작성 · 체류기간 연장 불허 후 출국기한 확인·후속 서류 준비 · 귀화허가 신청 전 품행 요건 관련 서류 정리 · 출입국사범심사 소명자료(의견서·반성문·탄원서) 작성
+
+## Service pages by matter (English)
+
+- [Immigration Offense Review (출입국사범심사) Support Service](https://lawinkorea.com/en/immigration-offense-review)
+- [Immigration Fine and Administrative Fine Support Service](https://lawinkorea.com/en/fines)
+- [DUI Immigration Offense Review and Stay Permit Support Service for Foreigners](https://lawinkorea.com/en/offenses/dui)
+- [Deportation and Immigration Offense Review Support Service for Foreigners in Drug Cases](https://lawinkorea.com/en/offenses/drugs)
+- [Immigration Offense Review and Stay Permit Support for Foreigners in Assault and Injury Cases](https://lawinkorea.com/en/offenses/assault)
+- [Deportation and Permanent Residency Cancellation Support for Foreigners in Sexual Offense Cases](https://lawinkorea.com/en/offenses/sexual-offense)
+- [Immigration Offense Review and Stay Permit Support for Foreigners in Theft, Fraud, and Embezzlement Cases](https://lawinkorea.com/en/offenses/property-crime)
+- [Immigration Offense Review and Deportation Support for Foreigners Involved in Voice Phishing](https://lawinkorea.com/en/offenses/voice-phishing)
+- [Administrative Support for Immigration Offense Reviews and Fines Involving Unauthorized Employment of Foreign Nationals](https://lawinkorea.com/en/offenses/unauthorized-employment)
+- [Administrative Support for Immigration Fines and Departure Orders for Foreign Nationals Who Overstayed](https://lawinkorea.com/en/offenses/overstay)
+- [Administrative Support for Immigration Offense Reviews and Permit Cancellations Involving False or Forged Documents](https://lawinkorea.com/en/offenses/false-documents)
+- [Administrative Support for Objections to Deportation Orders](https://lawinkorea.com/en/dispositions/deportation-order)
+- [Departure Order Response Service](https://lawinkorea.com/en/dispositions/departure-order)
+- [Departure Recommendation Response Service](https://lawinkorea.com/en/dispositions/departure-recommendation)
+- [Entry Ban (Entry Restriction) Lifting Request Document Service](https://lawinkorea.com/en/dispositions/entry-ban)
+- [Visa Denial Response Service](https://lawinkorea.com/en/dispositions/visa-denial)
+- [Service for the Impact of Criminal Dispositions and Violation Records on Stay Permits](https://lawinkorea.com/en/visa-impact)
+
+## 按业务分类的页面（中文）
+
+- [出入境违规审查（출입국사범심사）应对行政服务](https://lawinkorea.com/zh/immigration-offense-review)
+- [出入境罚款（범칙금）·过怠金（과태료）应对行政服务](https://lawinkorea.com/zh/fines)
+- [外国人酒驾出入境违规审查及滞留许可应对行政服务](https://lawinkorea.com/zh/offenses/dui)
+- [外国人毒品案件强制驱逐·出入境违规审查应对行政服务](https://lawinkorea.com/zh/offenses/drugs)
+- [外国人暴力·伤害案件出入境违规审查及滞留许可应对行政服务](https://lawinkorea.com/zh/offenses/assault)
+- [外国人性犯罪案件强制驱逐·永住资格取消应对行政服务](https://lawinkorea.com/zh/offenses/sexual-offense)
+- [盗窃·诈骗·侵占案件外国人出入境违规审查·滞留许可应对行政服务](https://lawinkorea.com/zh/offenses/property-crime)
+- [涉电信诈骗外国人出入境违规审查·强制驱逐应对行政服务](https://lawinkorea.com/zh/offenses/voice-phishing)
+- [外国人非法就业·非法雇佣出入境违规审查·罚款应对行政服务](https://lawinkorea.com/zh/offenses/unauthorized-employment)
+- [超期滞留（非法滞留）外国人罚款·出国命令应对行政服务](https://lawinkorea.com/zh/offenses/overstay)
+- [提交虚假材料·伪造变造文件外国人出入境违规审查·许可撤销应对行政服务](https://lawinkorea.com/zh/offenses/false-documents)
+- [强制驱逐令异议申请应对行政服务](https://lawinkorea.com/zh/dispositions/deportation-order)
+- [出国命令应对行政服务](https://lawinkorea.com/zh/dispositions/departure-order)
+- [出国劝告应对行政服务](https://lawinkorea.com/zh/dispositions/departure-recommendation)
+- [入境禁令（입국금지·입국규제）解除申请材料撰写行政服务](https://lawinkorea.com/zh/dispositions/entry-ban)
+- [韩国签证拒签（사증발급 거부）应对行政服务](https://lawinkorea.com/zh/dispositions/visa-denial)
+- [刑事处分·违规记录对滞留许可影响的应对行政服务](https://lawinkorea.com/zh/visa-impact)
+
+## 業務別ページ（日本語）
+
+- [出入国事犯審査への対応サポート](https://lawinkorea.com/ja/immigration-offense-review)
+- [出入国反則金・過料への対応サポート](https://lawinkorea.com/ja/fines)
+- [飲酒運転をした外国人の出入国事犯審査・在留許可への対応サポート](https://lawinkorea.com/ja/offenses/dui)
+- [薬物事件の外国人向け 強制退去・出入国事犯審査対応の行政サービス](https://lawinkorea.com/ja/offenses/drugs)
+- [暴行・傷害事件の外国人向け 出入国事犯審査・在留許可対応の行政サービス](https://lawinkorea.com/ja/offenses/assault)
+- [性犯罪事件の外国人向け 強制退去・永住資格取消し対応の行政サービス](https://lawinkorea.com/ja/offenses/sexual-offense)
+- [窃盗・詐欺・横領事件の外国人向け出入国事犯審査・在留許可対応サービス](https://lawinkorea.com/ja/offenses/property-crime)
+- [ボイスフィッシングに関与した外国人の出入国事犯審査・強制退去対応サービス](https://lawinkorea.com/ja/offenses/voice-phishing)
+- [外国人の不法就労・不法雇用に関する出入国事犯審査・反則金対応サービス](https://lawinkorea.com/ja/offenses/unauthorized-employment)
+- [在留期間超過（不法滞在）の外国人のための反則金・出国命令対応サポート](https://lawinkorea.com/ja/offenses/overstay)
+- [虚偽書類・偽変造文書を提出した外国人の出入国事犯審査・許可取消への対応サポート](https://lawinkorea.com/ja/offenses/false-documents)
+- [強制退去命令への異議申立て対応サポート](https://lawinkorea.com/ja/dispositions/deportation-order)
+- [出国命令への対応サポート](https://lawinkorea.com/ja/dispositions/departure-order)
+- [出国勧告への対応サポート](https://lawinkorea.com/ja/dispositions/departure-recommendation)
+- [入国禁止(入国規制)解除の要請書類作成サポート](https://lawinkorea.com/ja/dispositions/entry-ban)
+- [韓国ビザ（査証）発給拒否への対応サポート](https://lawinkorea.com/ja/dispositions/visa-denial)
+- [刑事処分・違反歴が在留許可に与える影響への対応サポート](https://lawinkorea.com/ja/visa-impact)
+
+## Trang theo từng nghiệp vụ (Tiếng Việt)
+
+- [Dịch vụ hành chính hỗ trợ thẩm tra vi phạm xuất nhập cảnh (출입국사범심사)](https://lawinkorea.com/vi/immigration-offense-review)
+- [Dịch vụ hành chính hỗ trợ xử lý tiền phạt vi phạm và tiền phạt hành chính xuất nhập cảnh](https://lawinkorea.com/vi/fines)
+- [Dịch vụ hành chính hỗ trợ thẩm tra vi phạm và xin phép lưu trú cho người nước ngoài lái xe khi say rượu](https://lawinkorea.com/vi/offenses/dui)
+- [Dịch vụ hành chính ứng phó trục xuất và thẩm tra vi phạm xuất nhập cảnh cho người nước ngoài liên quan đến vụ án ma túy](https://lawinkorea.com/vi/offenses/drugs)
+- [Dịch vụ hành chính ứng phó thẩm tra vi phạm xuất nhập cảnh và xin phép lưu trú cho người nước ngoài liên quan đến vụ án hành hung, gây thương tích](https://lawinkorea.com/vi/offenses/assault)
+- [Dịch vụ hành chính ứng phó trục xuất và hủy tư cách định cư cho người nước ngoài liên quan đến vụ án tội phạm tình dục](https://lawinkorea.com/vi/offenses/sexual-offense)
+- [Dịch vụ hành chính hỗ trợ thẩm tra vi phạm xuất nhập cảnh và xin phép lưu trú cho người nước ngoài liên quan vụ trộm cắp, lừa đảo, biển thủ](https://lawinkorea.com/vi/offenses/property-crime)
+- [Dịch vụ hành chính hỗ trợ thẩm tra vi phạm xuất nhập cảnh và trục xuất cho người nước ngoài liên quan lừa đảo qua điện thoại (voice phishing)](https://lawinkorea.com/vi/offenses/voice-phishing)
+- [Dịch vụ hành chính hỗ trợ thẩm tra vi phạm xuất nhập cảnh và tiền phạt vi phạm (범칙금) về lao động bất hợp pháp, tuyển dụng bất hợp pháp người nước ngoài](https://lawinkorea.com/vi/offenses/unauthorized-employment)
+- [Dịch vụ hành chính xử lý tiền phạt vi phạm và lệnh xuất cảnh cho người nước ngoài ở quá hạn lưu trú (cư trú bất hợp pháp)](https://lawinkorea.com/vi/offenses/overstay)
+- [Dịch vụ hành chính hỗ trợ người nước ngoài nộp giấy tờ giả hoặc tài liệu giả mạo, sửa đổi trong thẩm tra vi phạm xuất nhập cảnh và thủ tục hủy giấy phép](https://lawinkorea.com/vi/offenses/false-documents)
+- [Dịch vụ hành chính hỗ trợ khiếu nại lệnh trục xuất](https://lawinkorea.com/vi/dispositions/deportation-order)
+- [Dịch vụ hành chính hỗ trợ khi nhận lệnh xuất cảnh](https://lawinkorea.com/vi/dispositions/departure-order)
+- [Dịch vụ hành chính hỗ trợ khi nhận khuyến cáo xuất cảnh](https://lawinkorea.com/vi/dispositions/departure-recommendation)
+- [Dịch vụ hành chính soạn hồ sơ đề nghị gỡ bỏ lệnh cấm nhập cảnh (hạn chế nhập cảnh)](https://lawinkorea.com/vi/dispositions/entry-ban)
+- [Dịch vụ hành chính hỗ trợ khi bị từ chối cấp thị thực Hàn Quốc](https://lawinkorea.com/vi/dispositions/visa-denial)
+- [Dịch vụ hành chính hỗ trợ khi tiền án, hồ sơ vi phạm ảnh hưởng đến giấy phép lưu trú tại Hàn Quốc](https://lawinkorea.com/vi/visa-impact)
+
+<!-- reco-units:end -->
+
 ## 사이트 정보
 
 - 홈페이지: https://lawinkorea.com

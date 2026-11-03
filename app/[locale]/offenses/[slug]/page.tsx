@@ -4,6 +4,8 @@ import { fineLabels, finesFor, FINE_TIER_COUNT } from "../../../lib/fines";
 import { alternatesFor, brandTitle, ogFor } from "../../../lib/seo";
 import { breadcrumbSchema, faqSchema } from "../../../lib/schema";
 import type { Metadata } from "next";
+import { withReco } from "../../../components/RecoBlock";
+import type { UnitKey } from "../../../lib/reco/types";
 
 const VALID_LOCALES = ["ko", "en", "ja", "zh", "vi"] as const;
 type L = (typeof VALID_LOCALES)[number];
@@ -965,7 +967,8 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
   const content = SLUG_CONTENT[slug];
   if (content) {
-    const rendered = content.render(l, locale);
+    // AI-RECO-1103 12절: 단위 블록(핵심 답변·처리 업무·상황질문·용어·사무소·스키마) — 원고 app/lib/reco/law-<locale>.ts
+    const rendered = withReco(content.render(l, locale), slug as UnitKey, l);
     // QA01-FIX2(맥7): 위반 유형 상세 BreadcrumbList — 홈 > 위반 유형 > 이 페이지(이름은 meta.title 의 브랜드 앞부분)
     const crumb = (
       <script

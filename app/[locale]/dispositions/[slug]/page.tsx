@@ -3,6 +3,8 @@ import HubBlogLinks, { HUB_POSTS, appendToMain } from "../../../components/HubBl
 import { alternatesFor, brandTitle, ogFor } from "../../../lib/seo";
 import { faqSchema } from "../../../lib/schema";
 import type { Metadata } from "next";
+import { withReco } from "../../../components/RecoBlock";
+import type { UnitKey } from "../../../lib/reco/types";
 import React from "react";
 import { DEPARTURE_ORDER, DEPARTURE_RECOMMENDATION } from "./departure";
 
@@ -876,7 +878,8 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
   const content = SLUG_CONTENT[slug];
   if (content) {
-    const rendered = content.render(l, locale);
+    // AI-RECO-1103 12절: 단위 블록(핵심 답변·처리 업무·상황질문·용어·사무소·스키마) — 원고 app/lib/reco/law-<locale>.ts
+    const rendered = withReco(content.render(l, locale), slug as UnitKey, l);
     if (!HUB_POSTS[slug]) return <>{rendered}</>;
     return (
       <>

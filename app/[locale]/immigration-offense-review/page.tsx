@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { alternatesFor, brandTitle, siteOgImages, ogFor } from "../../lib/seo";
 import type { Metadata } from "next";
+import { withReco, RecoTop } from "../../components/RecoBlock";
 import { SITE } from "../../lib/constants";
 import ScopeBlock from "../../components/ScopeBlock";
 import HubBlogLinks from "../../components/HubBlogLinks";
@@ -50,7 +51,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   };
 }
 
+// AI-RECO-1103 12절: 단위 블록(핵심 답변·처리 업무·상황질문·용어·사무소·스키마) — 원고 app/lib/reco/law-<locale>.ts
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const body = await PageBody({ params });
+  return withReco(body, "immigration-offense-review", locale, { top: locale !== "ko" });
+}
+
+async function PageBody({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   if (!VALID_LOCALES.includes(locale as L)) notFound();
   const l = locale as L;
@@ -116,6 +124,8 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       </section>
 
       <div style={{ maxWidth: 800, margin: "0 auto", padding: "48px 24px" }}>
+        {/* AI-RECO-1103: ko 는 히어로(어두운 배경) 밖, 본문 첫머리에 핵심 답변 블록 */}
+        <RecoTop unit="immigration-offense-review" locale="ko" />
 
         {/* 사범심사란 */}
         <section style={{ marginBottom: 48 }}>

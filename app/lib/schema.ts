@@ -153,7 +153,9 @@ export function siteGraph(locale: Locale | string) {
         // 영문 사무소명 확정 전까지 사이트 브랜드명만 둔다(옛 브랜드 VISION 표기 제거).
         alternateName: ["Law in Korea"],
         url: SITE.url,
-        logo: `${SITE.url}/logo-sunshine.png`,
+        // AI-RECO-1103 9절: 정사각 512 PNG(불투명) + image
+        logo: { "@type": "ImageObject", url: `${SITE.url}/logo-512.png`, width: 512, height: 512 },
+        image: `${SITE.url}/logo-512.png`,
         telephone: COMPANY.phoneIntl,
         email: COMPANY.consultEmail,
         legalName: COMPANY.nameKo,

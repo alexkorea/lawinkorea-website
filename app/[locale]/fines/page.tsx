@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import { withReco } from "../../components/RecoBlock";
 import { alternatesFor, OG_LOCALE, ogFor } from "../../lib/seo";
 import { SITE, ACCENT } from "../../lib/constants";
 import {
@@ -58,7 +59,14 @@ const A = {
 
 const SEVERITY: Record<string, string> = { high: A.red, mid: A.primary, low: A.navy };
 
+// AI-RECO-1103 12절: 단위 블록(핵심 답변·처리 업무·상황질문·용어·사무소·스키마) — 원고 app/lib/reco/law-<locale>.ts
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const body = await PageBody({ params });
+  return withReco(body, "fines", locale);
+}
+
+async function PageBody({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   if (!(FINE_LOCALES as readonly string[]).includes(locale)) notFound();
   const l = fineLocale(locale);

@@ -9,10 +9,14 @@ export const metadata: Metadata = {
     icon: [
       { url: "/icon.svg", type: "image/svg+xml" },
       { url: "/icon-32.png", type: "image/png", sizes: "32x32" },
+      // AI-RECO-1103 9절: 192·512 아이콘(logo-sunshine 을 2색 재구성한 불투명 판)
+      { url: "/icon-192.png", type: "image/png", sizes: "192x192" },
+      { url: "/icon-512.png", type: "image/png", sizes: "512x512" },
     ],
     apple: [{ url: "/apple-icon.png", sizes: "180x180" }],
     shortcut: [{ url: "/icon-32.png" }],
   },
+  manifest: "/manifest.webmanifest",
   title: {
     default: "대한민국 출입국사범심사 · Law in Korea",
     template: "%s · Law in Korea",
