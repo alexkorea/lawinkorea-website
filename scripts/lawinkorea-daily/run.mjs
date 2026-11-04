@@ -141,6 +141,8 @@ function checkEntry(e) {
       if (f && !FINE_IDS.has(f[1])) fails.push(`[${loc}] 범칙금표 앵커 없음 ${u}`)
     }
     for (const m of body.matchAll(/\]\((https?:\/\/[^)\s]+)\)/g)) if (!/lawinkorea\.com$/.test(new URL(m[1]).hostname)) warns.push(`[${loc}] 외부 링크 ${m[1]} (DWELL-RULE: 상세는 맨 끝 공식링크 1곳만)`)
+    // QA1103-FIX 4 — 링크 없이 글자로 적은 공공 도메인(본문·FAQ)도 경고. 화면에서는 app/lib/external-links.ts 가 빼서 글 끝 '참고할 공식 사이트'로 모은다.
+    for (const m of [body, ...(d.faq || []).map((f) => f.a || '')].join('\n').replace(/\]\((https?:\/\/[^)\s]+)\)/g, '').matchAll(/(?:www\.)?[a-z0-9-]+\.(?:go|or|re)\.kr\b/gi)) warns.push(`[${loc}] 글자 주소 ${m[0]} (DWELL-RULE: 렌더 단계에서 글 끝으로 이동)`)
     // 언어 누출
     if (loc !== 'ko') {
       const meta = [d.title, d.description, d.category, ...(d.keywords || []), ...(d.faq || []).flatMap((f) => [f.q, f.a])].join('\n')

@@ -491,8 +491,9 @@ main > section > div:first-child:not([class*="hero"]):not([class*="full"]) {
   display: none;
 }
 
-/* 데스크톱 1024px 에서는 가로 메뉴를 유지하고, 900px 이하에서만 드로어로 전환 */
-@media (max-width: 900px) {
+/* QA1103-FIX 5(맥7 2026-11-04) — '사건 유형'·'받은 처분' 드롭다운이 더해져 가로 메뉴 8칸. 900~1279px 에서는
+   (기존 6칸도) en·ja·vi 메뉴가 헤더 폭을 넘쳤다(11-04 실측 920px en 84px·vi 94px) → 1279px 이하는 드로어. 하단 연락 바는 900px 그대로. */
+@media (max-width: 1279px) {
   .site-nav {
     display: none;
   }
@@ -645,4 +646,74 @@ main > section > div:first-child:not([class*="hero"]):not([class*="full"]) {
   .mcb-phone { background: #0a1628; }
   .mcb-wa { background: #128c4a; }
   .mcb-form { background: #2563eb; }
+}
+
+/* QA1103-FIX 5(맥7 2026-11-04) — PC 헤더 '사건 유형'·'받은 처분' 드롭다운(메가메뉴) */
+.mega { position: relative; display: inline-flex; }
+.mega-trigger { gap: 4px; border: 0; background: none; cursor: pointer; font-family: inherit; }
+.mega-trigger svg { transition: transform 0.15s ease; }
+.mega.is-open .mega-trigger { color: #0056b3; background: #e6effa; }
+.mega.is-open .mega-trigger svg { transform: rotate(180deg); }
+.mega-panel {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 16px;
+  margin-top: 0;
+  min-width: 240px;
+  background: #fff;
+  border: 1px solid #e9ecef;
+  border-radius: 16px;
+  box-shadow: 0 16px 40px rgba(0, 31, 63, 0.12);
+  z-index: 70;
+}
+.mega-panel[hidden] { display: none; }
+.mega-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 0 16px; }
+.mega-list.is-cols { grid-template-columns: repeat(2, minmax(200px, 1fr)); min-width: 460px; }
+.mega-link {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #191c1d;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.mega-link:hover, .mega-link:focus-visible { background: #e6effa; color: #0056b3; }
+.mega-all {
+  display: block;
+  margin-top: 8px;
+  padding: 12px 12px 0;
+  border-top: 1px solid #e9ecef;
+  font-size: 14px;
+  font-weight: 600;
+  color: #0056b3;
+  text-decoration: none;
+}
+.mega-trigger:focus-visible { outline: 2px solid #0056b3; outline-offset: 2px; }
+.drawer-group summary { cursor: pointer; list-style: none; justify-content: space-between; }
+.drawer-group summary::-webkit-details-marker { display: none; }
+.drawer-group summary::after { content: "+"; font-weight: 400; color: #43474e; }
+.drawer-group[open] summary::after { content: "−"; }
+.drawer-group ul { list-style: none; margin: 0; padding: 4px 0 8px 16px; border-bottom: 1px solid #e9ecef; }
+.drawer-sublink {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 8px;
+  font-size: 16px;
+  color: #43474e;
+  text-decoration: none;
+}
+.sit-card { transition: border-color 0.15s ease, box-shadow 0.15s ease; }
+.sit-card:hover, .sit-card:focus-visible { border-color: #93c5fd !important; box-shadow: 0 4px 16px rgba(30, 64, 175, 0.08); }
+/* QA1103-FIX 5 — 8칸 가로 메뉴: 칸 사이·안쪽 여백만 줄인다(글자 크기 16px 유지) */
+@media (min-width: 1280px) {
+  .site-header-inner { max-width: 1248px; }
+  .site-nav { gap: 0; }
+  .site-nav .site-nav-link { padding: 0 8px; }
+  .site-nav .site-nav-link.is-active::after { left: 8px; right: 8px; }
 }

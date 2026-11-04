@@ -7,6 +7,7 @@ import ConfidentialityNote from "../components/ConfidentialityNote";
 import ContactChannels, { HoursNotice } from "../components/ContactChannels";
 import RepresentativeCard from "../components/RepresentativeCard";
 import CardPhotoImg from "../components/CardPhotoImg";
+import SituationIcon, { MORE_LABEL, SITUATION_TARGETS } from "../components/SituationIcon";
 import { HOME_CARD_ALT, HOME_CARD_PHOTOS } from "../lib/card-photos";
 
 // 홈 연락 영역(LAW-V1b 2·4) — 담당 행정사 사진·등록정보 + 메신저·전화·이메일. ko 와 외국어 홈 공통.
@@ -136,11 +137,14 @@ const KoHomePage = () => (
           { t: "강제퇴거·입국금지 문제가 있는 외국인", d: "이의신청·행정구제 가능성과 준비자료를 확인해야 합니다." },
           { t: "불법취업·자격 외 활동 문제가 있는 외국인", d: "위반 경위와 자진신고 여부에 따라 대응 방향이 달라질 수 있습니다." },
           { t: "외국인을 고용한 사업주", d: "고용 과정과 신고 의무 이행 여부에 따라 사업주의 대응도 함께 검토됩니다." },
-        ].map((item) => (
-          <div key={item.t} style={{ background: "#fff", border: "1px solid #e2e8f0", borderRadius: 8, padding: "24px 20px" }}>
-            <p style={{ fontWeight: 600, color: "#0a1628", margin: "0 0 8px" }}>{item.t}</p>
+        ].map((item, i) => (
+          // QA1103-FIX 1(맥7 2026-11-04) — 칸마다 해당 상세 페이지 링크 + 작은 아이콘
+          <a key={item.t} href={`/ko${SITUATION_TARGETS[i].path}`} className="sit-card" style={{ display: "flex", flexDirection: "column", gap: 12, background: "#fff", border: "1px solid #e2e8f0", borderRadius: 8, padding: "24px 20px", textDecoration: "none" }}>
+            <SituationIcon name={SITUATION_TARGETS[i].icon} />
+            <p style={{ fontWeight: 600, color: "#0a1628", margin: 0 }}>{item.t}</p>
             <p style={{ fontSize: 14, color: "#64748b", margin: 0, lineHeight: 1.6 }}>{item.d}</p>
-          </div>
+            <span style={{ fontSize: 13, color: "#2563eb", fontWeight: 500, marginTop: "auto" }}>{MORE_LABEL.ko}</span>
+          </a>
         ))}
       </div>
     </section>
@@ -754,11 +758,14 @@ const GenericHomePage = ({ l }: { l: Exclude<L, "ko"> }) => {
       <section style={{ maxWidth: 1100, margin: "0 auto", padding: "64px 24px" }}>
         <h2 style={{ fontSize: 24, fontWeight: 700, color: "#0a1628", marginBottom: 28 }}>{c.situations.title}</h2>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(260px, 1fr))", gap: 18 }}>
-          {c.situations.items.map((item) => (
-            <div key={item.t} style={{ background: "#fff", border: "1px solid #e2e8f0", borderRadius: 8, padding: "22px 18px" }}>
-              <p style={{ fontWeight: 600, color: "#0a1628", margin: "0 0 8px" }}>{item.t}</p>
+          {c.situations.items.map((item, i) => (
+            // QA1103-FIX 1 — ko 와 같은 순서·같은 상세 페이지(로캘 접두만 다름)
+            <a key={item.t} href={`/${l}${SITUATION_TARGETS[i].path}`} className="sit-card" style={{ display: "flex", flexDirection: "column", gap: 12, background: "#fff", border: "1px solid #e2e8f0", borderRadius: 8, padding: "22px 18px", textDecoration: "none" }}>
+              <SituationIcon name={SITUATION_TARGETS[i].icon} />
+              <p style={{ fontWeight: 600, color: "#0a1628", margin: 0 }}>{item.t}</p>
               <p style={{ fontSize: 14, color: "#64748b", margin: 0, lineHeight: 1.6 }}>{item.d}</p>
-            </div>
+              <span style={{ fontSize: 13, color: "#2563eb", fontWeight: 500, marginTop: "auto" }}>{MORE_LABEL[l]}</span>
+            </a>
           ))}
         </div>
       </section>

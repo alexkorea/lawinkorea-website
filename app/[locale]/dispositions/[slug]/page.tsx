@@ -4,6 +4,7 @@ import { alternatesFor, brandTitle, ogFor } from "../../../lib/seo";
 import { faqSchema } from "../../../lib/schema";
 import type { Metadata } from "next";
 import { withReco } from "../../../components/RecoBlock";
+import { heroPhotoFor, withHero } from "../../../components/DetailHero";
 import type { UnitKey } from "../../../lib/reco/types";
 import React from "react";
 import { DEPARTURE_ORDER, DEPARTURE_RECOMMENDATION } from "./departure";
@@ -879,7 +880,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   const content = SLUG_CONTENT[slug];
   if (content) {
     // AI-RECO-1103 12절: 단위 블록(핵심 답변·처리 업무·상황질문·용어·사무소·스키마) — 원고 app/lib/reco/law-<locale>.ts
-    const rendered = withReco(content.render(l, locale), slug as UnitKey, l);
+    const rendered = withHero(withReco(content.render(l, locale), slug as UnitKey, l), heroPhotoFor("dispositions", slug, l)); // QA1103-FIX 3 상단 히어로
     if (!HUB_POSTS[slug]) return <>{rendered}</>;
     return (
       <>

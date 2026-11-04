@@ -30,6 +30,8 @@ export const OFFENSES_CARD_PHOTOS: Record<string, CardPhoto> = {
   "/ko/offenses/unauthorized-employment": { file: "employment-warehouse-4483556", alt: "물류창고 지게차 옆의 작업자들" },
   "/ko/offenses/overstay": { file: "overstay-date-mark-11773871", alt: "달력 날짜에 동그라미를 치는 손" },
   "/ko/offenses/false-documents": { file: "false-doc-signing-30268251", alt: "책상에서 서류에 서명하는 사람" },
+  // QA1103-FIX 2(맥7 2026-11-04) — '외국인등록·체류지·신고의무 위반' 칸(상세 = /ko/fines 범칙금 기준표). Pexels 6169647, 사이트·ik og 와 dHash 최근접 17.
+  "/ko/fines": { file: "reporting-form-parcels-6169647", alt: "택배 상자 옆에서 신고 서류를 작성하는 사람" },
 };
 
 // EYE1027-FIX-2(맥7 2026-10-28) — 외국어 홈(en/ja/zh/vi) '주요 업무' 카드는 ko 홈과 같은 사진을 쓴다(같은 페이지의 다른 언어판은 동일 사진 허용).

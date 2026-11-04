@@ -5,6 +5,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { ACCENT, COMPANY } from "../lib/constants";
 import { LANG_LABELS } from "../lib/content";
+import { MEGA_HUB_READY, MEGA_ITEMS, MEGA_LABEL, type MegaGroupKey, type MegaLoc } from "../lib/nav-mega";
 
 type NavKey = "home" | "review" | "fines" | "cases" | "process" | "blog";
 
@@ -46,7 +47,9 @@ export default function SiteHeader() {
 
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
+  const [megaOpen, setMegaOpen] = useState<MegaGroupKey | null>(null);
   const langRef = useRef<HTMLDivElement>(null);
+  const megaRef = useRef<HTMLDivElement>(null);
 
   const localeMatch = pathname.match(/^\/(en|zh|ja|vi)(\/|$)/);
   const locale = localeMatch ? localeMatch[1] : "ko";
@@ -72,6 +75,7 @@ export default function SiteHeader() {
   useEffect(() => {
     setDrawerOpen(false);
     setLangOpen(false);
+    setMegaOpen(null);
   }, [pathname]);
 
   // Lock body scroll while the full-screen drawer is open.
@@ -88,10 +92,12 @@ export default function SiteHeader() {
       if (e.key === "Escape") {
         setDrawerOpen(false);
         setLangOpen(false);
+        setMegaOpen(null);
       }
     }
     function onClick(e: MouseEvent) {
       if (langRef.current && !langRef.current.contains(e.target as Node)) setLangOpen(false);
+      if (megaRef.current && !megaRef.current.contains(e.target as Node)) setMegaOpen(null);
     }
     document.addEventListener("keydown", onKey);
     document.addEventListener("mousedown", onClick);
@@ -109,6 +115,9 @@ export default function SiteHeader() {
   }
 
   const current = LANG_LABELS.find((l) => l.code === locale) ?? LANG_LABELS[0];
+  const mloc = (["ko", "en", "ja", "zh", "vi"].includes(locale) ? locale : "ko") as MegaLoc;
+  const megaGroups: MegaGroupKey[] = ["offenses", "dispositions"];
+  const megaHref = (g: MegaGroupKey, slug: string) => `${base}/${g}/${slug}`;
 
   return (
     <>
@@ -121,16 +130,56 @@ export default function SiteHeader() {
             <span className="site-brand-name">{brand}</span>
           </Link>
 
-          <nav className="site-nav" aria-label="Primary">
+          <nav className="site-nav" aria-label="Primary" ref={megaRef}>
             {items.map((item) => (
-              <Link
-                key={item.key}
-                href={item.href}
-                className={`site-nav-link${isActive(item) ? " is-active" : ""}`}
-                aria-current={isActive(item) ? "page" : undefined}
-              >
-                {t[item.key]}
-              </Link>
+              <span key={item.key} style={{ display: "contents" }}>
+                <Link
+                  href={item.href}
+                  className={`site-nav-link${isActive(item) ? " is-active" : ""}`}
+                  aria-current={isActive(item) ? "page" : undefined}
+                >
+                  {t[item.key]}
+                </Link>
+                {/* QA1103-FIX 5(맥7 2026-11-04) — '사건 유형'·'받은 처분' 드롭다운. 마우스 올림·클릭·키보드(Enter/Space·Esc) 모두 연다 */}
+                {item.key === "review" &&
+                  megaGroups.map((g) => (
+                    <div
+                      key={g}
+                      className={`mega${megaOpen === g ? " is-open" : ""}`}
+                      onMouseEnter={() => setMegaOpen(g)}
+                      onMouseLeave={() => setMegaOpen((v) => (v === g ? null : v))}
+                    >
+                      <button
+                        type="button"
+                        className={`site-nav-link mega-trigger${pathname.includes(`/${g}`) ? " is-active" : ""}`}
+                        aria-expanded={megaOpen === g}
+                        aria-controls={`mega-${g}`}
+                        onClick={() => setMegaOpen((v) => (v === g ? null : g))}
+                      >
+                        {MEGA_LABEL[mloc][g]}
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                          <path d="M6 9l6 6 6-6" />
+                        </svg>
+                      </button>
+                      <div id={`mega-${g}`} className="mega-panel" hidden={megaOpen !== g}>
+                        <ul className={`mega-list${MEGA_ITEMS[g].length > 5 ? " is-cols" : ""}`}>
+                          {MEGA_ITEMS[g].map((it) => (
+                            <li key={it.slug}>
+                              <Link href={megaHref(g, it.slug)} className="mega-link">
+                                {it.t[mloc]}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                        {MEGA_HUB_READY[g].includes(mloc) && (
+                          <Link href={`${base}/${g}`} className="mega-all">
+                            {MEGA_LABEL[mloc].all} →
+                          </Link>
+                        )}
+                      </div>
+                    </div>
+                  ))}
+              </span>
             ))}
           </nav>
 
@@ -204,14 +253,37 @@ export default function SiteHeader() {
       <div id="site-drawer" className={`site-drawer${drawerOpen ? " is-open" : ""}`} hidden={!drawerOpen}>
         <nav className="drawer-nav" aria-label="Primary mobile">
           {items.map((item) => (
-            <Link
-              key={item.key}
-              href={item.href}
-              className={`drawer-link${isActive(item) ? " is-active" : ""}`}
-              aria-current={isActive(item) ? "page" : undefined}
-            >
-              {t[item.key]}
-            </Link>
+            <span key={item.key} style={{ display: "contents" }}>
+              <Link
+                href={item.href}
+                className={`drawer-link${isActive(item) ? " is-active" : ""}`}
+                aria-current={isActive(item) ? "page" : undefined}
+              >
+                {t[item.key]}
+              </Link>
+              {item.key === "review" &&
+                megaGroups.map((g) => (
+                  <details key={g} className="drawer-group">
+                    <summary className="drawer-link">{MEGA_LABEL[mloc][g]}</summary>
+                    <ul>
+                      {MEGA_ITEMS[g].map((it) => (
+                        <li key={it.slug}>
+                          <Link href={megaHref(g, it.slug)} className="drawer-sublink">
+                            {it.t[mloc]}
+                          </Link>
+                        </li>
+                      ))}
+                      {MEGA_HUB_READY[g].includes(mloc) && (
+                        <li>
+                          <Link href={`${base}/${g}`} className="drawer-sublink">
+                            {MEGA_LABEL[mloc].all} →
+                          </Link>
+                        </li>
+                      )}
+                    </ul>
+                  </details>
+                ))}
+            </span>
           ))}
         </nav>
 

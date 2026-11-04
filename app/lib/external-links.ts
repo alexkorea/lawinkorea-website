@@ -96,5 +96,45 @@ export function splitExternalLinks(html: string, locale: string): { html: string
     if (!s.replace(/<[^>]+>/g, "").trim()) return "";
     return `<${tagName}>${s}</${tagName}>`;
   });
-  return { html: out, links: Array.from(found.values()) };
+  // QA1103-FIX 4(맥7 2026-11-04) — 링크 없이 글자로만 적힌 공식 도메인("HiKorea（www.hikorea.go.kr）")도 본문에서 빼고 끝 목록으로.
+  const out2 = out.replace(/>([^<]+)</g, (whole, text: string) => {
+    const r = stripBareDomains(text, l, (url, label) => note(url, label));
+    return r === text ? whole : `>${r}<`;
+  });
+  return { html: out2, links: Array.from(found.values()) };
+}
+
+// 공공기관 도메인(.go.kr·.or.kr·.re.kr)만 대상 — 일반 글자 속 'example.com' 류 오탐을 피한다.
+const BARE = "(?:https?:\\/\\/)?(?:www\\.)?[a-z0-9-]+(?:\\.[a-z0-9-]+)*\\.(?:go|or|re)\\.kr(?:\\/[\\w./?=&%-]*)?";
+const BARE_PAREN = new RegExp(`\\s*[(（]\\s*(${BARE})\\s*[)）]`, "gi");
+const BARE_COLON = new RegExp(`\\s*[:：]\\s*(${BARE})(?=\\s*$|[\\s.。])`, "gi");
+const BARE_ANY = new RegExp(`(${BARE})`, "gi");
+const toUrl = (d: string) => (/^https?:\/\//i.test(d) ? d : `https://${d}`);
+
+export function stripBareDomains(text: string, l: Loc, collect: (url: string, label: string) => void): string {
+  if (!BARE_ANY.test(text)) return text;
+  BARE_ANY.lastIndex = 0;
+  let s = text.replace(BARE_PAREN, (_w, d: string) => (collect(toUrl(d), d), ""));
+  s = s.replace(BARE_COLON, (_w, d: string) => (collect(toUrl(d), d), STOP[l]));
+  s = s.replace(BARE_ANY, (d: string) => (collect(toUrl(d), d), ""));
+  return s.replace(/\s{2,}/g, " ").replace(new RegExp(`\\${STOP[l]}{2,}`, "g"), STOP[l]);
+}
+
+// FAQ 답변(frontmatter)도 같은 규칙 — 화면·FAQPage 가 같은 글자를 쓰도록 둘 다 이 결과를 쓴다.
+export function splitExternalLinksWithFaq<T extends { q: string; a: string }>(
+  html: string,
+  faq: T[] | undefined,
+  locale: string,
+): { html: string; faq: T[] | undefined; links: ExternalLink[] } {
+  const l = (["ko", "en", "ja", "zh", "vi"].includes(locale) ? locale : "ko") as Loc;
+  const { html: body, links } = splitExternalLinks(html, locale);
+  const seen = new Set(links.map((x) => hostOf(x.url)));
+  const add = (url: string) => {
+    const host = hostOf(url);
+    if (seen.has(host)) return;
+    seen.add(host);
+    links.push({ label: SITE_NAMES[host]?.[l] ?? host, url });
+  };
+  const outFaq = faq?.map((f) => ({ ...f, a: stripBareDomains(f.a, l, add) }));
+  return { html: body, faq: outFaq, links };
 }

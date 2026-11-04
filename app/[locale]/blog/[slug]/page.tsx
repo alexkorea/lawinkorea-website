@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { ACCENT, COMPANY, SITE } from "../../../lib/constants";
 import { getBlogPostData, getBlogPostsByLocale, getLocalesForSlug } from "../../../data/blog-posts-data";
 import { alternatesFor } from "../../../lib/seo";
-import { EXTERNAL_HEADING, splitExternalLinks } from "../../../lib/external-links";
+import { EXTERNAL_HEADING, splitExternalLinksWithFaq } from "../../../lib/external-links";
 import { breadcrumbSchema, faqSchema, inLanguage, ORG_ID, PERSON_ID } from "../../../lib/schema";
 
 export const dynamicParams = false;
@@ -157,7 +157,8 @@ export default async function LocaleBlogPost({ params }: { params: Promise<Param
   );
   const related = [...relatedBySlug, ...fallback].slice(0, 3);
   // EYE1027-FIX — 본문 외부 링크는 글 맨 끝으로(체류시간 원칙)
-  const { html: bodyHtml, links: externalLinks } = splitExternalLinks(post.contentHtml, locale);
+  // QA1103-FIX 4 — FAQ 답변 속 글자 주소도 같이 뺀다(화면·FAQPage 동일 글자).
+  const { html: bodyHtml, faq: postFaq, links: externalLinks } = splitExternalLinksWithFaq(post.contentHtml, post.faq, locale);
 
   return (
     <main style={{ background: ACCENT.bg, minHeight: "100vh" }}>
@@ -200,10 +201,10 @@ export default async function LocaleBlogPost({ params }: { params: Promise<Param
           ),
         }}
       />
-      {post.faq && post.faq.length > 0 && (
+      {postFaq && postFaq.length > 0 && (
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(post.faq)) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(postFaq ?? [])) }}
         />
       )}
 
@@ -287,7 +288,7 @@ export default async function LocaleBlogPost({ params }: { params: Promise<Param
           style={{ fontSize: 16, lineHeight: 1.8, color: ACCENT.text }}
         />
 
-        {post.faq && post.faq.length > 0 && (
+        {postFaq && postFaq.length > 0 && (
           <section
             style={{
               marginTop: 64,
@@ -301,7 +302,7 @@ export default async function LocaleBlogPost({ params }: { params: Promise<Param
               {t.faqHeading}
             </h2>
             <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
-              {post.faq.map((q, i) => (
+              {postFaq.map((q, i) => (
                 <details
                   key={i}
                   style={{
