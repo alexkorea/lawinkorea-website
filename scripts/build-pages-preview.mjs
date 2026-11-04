@@ -10,6 +10,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
+import { withPagesDevGate } from './pagesdev-gate.mjs'
 
 // ── CH-01: HTML 문서에 장기 s-maxage 가 실려 나가는 것을 차단한다 ──────────────
 // Next 는 프리렌더된 페이지 응답에 `Cache-Control: s-maxage=31536000`(1년) 을 붙인다.
@@ -139,7 +140,7 @@ if (!fs.existsSync(path.join(OUT, "worker.js"))) {
 
 // 1) worker 진입점을 Pages 규약(_worker.js)으로 복사
 fs.copyFileSync(path.join(OUT, 'worker.js'), path.join(ASSETS, '_worker-opennext.js'))
-fs.writeFileSync(path.join(ASSETS, '_worker.js'), WORKER_WRAPPER)
+fs.writeFileSync(path.join(ASSETS, '_worker.js'), withPagesDevGate(WORKER_WRAPPER, 'lawinkorea-pages', 'https://lawinkorea.com'))  // PAGESDEV-301(11-04): *.pages.dev 프로덕션 별칭 301·미리보기 noindex
 // 0951b: Next 청크 실행을 관측 LCP 페인트 뒤로 미루는 모듈(래퍼가 import). 원본은 scripts/defer-next-js.worker.js
 fs.copyFileSync(path.join(process.cwd(), 'scripts', 'defer-next-js.worker.js'), path.join(ASSETS, '_defer-next-js.js'))
 
