@@ -21,7 +21,7 @@ const PHONE = COMPANY.phone;
 const NAME = COMPANY.nameKo;
 const REP = COMPANY.representative;
 const BIZ = COMPANY.bizRegNo;
-const ADDR_KO = "서울특별시 중구 퇴계로 324, 3층 (광희동2가, 성우빌딩)";
+const ADDR_KO = "서울특별시 중구 퇴계로 324, 3층(광희동2가, 성우빌딩)";
 const ADDR_EN = COMPANY.addressEn;
 
 const DOCS: Record<L, Doc> = {

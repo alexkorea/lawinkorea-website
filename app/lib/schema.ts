@@ -155,7 +155,8 @@ export function siteGraph(locale: Locale | string) {
         url: SITE.url,
         // AI-RECO-1103 9절: 정사각 512 PNG(불투명) + image
         logo: { "@type": "ImageObject", url: `${SITE.url}/logo-512.png`, width: 512, height: 512 },
-        image: `${SITE.url}/logo-512.png`,
+        // AI-RECO-2 C-1: image 는 실사진 og(logo 와 구분)
+        image: `${SITE.url}/og/site-ko.jpg`,
         telephone: COMPANY.phoneIntl,
         email: COMPANY.consultEmail,
         legalName: COMPANY.nameKo,
@@ -169,7 +170,7 @@ export function siteGraph(locale: Locale | string) {
         founder: { "@id": PERSON_ID },
         address: {
           "@type": "PostalAddress",
-          streetAddress: "퇴계로 324, 3층 (성우빌딩)",
+          streetAddress: "퇴계로 324, 3층(광희동2가, 성우빌딩)",
           addressLocality: "중구",
           addressRegion: "서울특별시",
           postalCode: "04614",

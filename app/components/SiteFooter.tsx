@@ -13,7 +13,7 @@ const NAV: Record<string, {
 }> = {
   ko: {
     about: "소개", cases: "사례", process: "절차", blog: "블로그", offenses: "위반 유형", dispositions: "처분 유형", contact: "상담 문의",
-    address: "서울특별시 중구 퇴계로 324, 3층 (성우빌딩)",
+    address: "서울특별시 중구 퇴계로 324, 3층(광희동2가, 성우빌딩)",
     addressDetail: "(우) 04614",
     tel: "대표전화",
     hours: "운영시간",
@@ -25,7 +25,7 @@ const NAV: Record<string, {
   },
   en: {
     about: "About", cases: "Cases", process: "Process", blog: "Blog", offenses: "Offense Types", dispositions: "Disposition Types", contact: "Contact",
-    address: "3F, 324 Toegye-ro, Jung-gu, Seoul (Sungwoo Bldg.)",
+    address: "3F Sungwoo Bldg, 324 Toegye-ro, Jung-gu, Seoul",
     addressDetail: "04614, Republic of Korea",
     tel: "Phone",
     hours: "Hours",
@@ -35,7 +35,7 @@ const NAV: Record<string, {
   },
   ja: {
     about: "紹介", cases: "事例", process: "手続き", blog: "ブログ", offenses: "違反の種類", dispositions: "処分の種類", contact: "お問い合わせ",
-    address: "ソウル特別市中区退渓路324 3階（成友ビル）",
+    address: "ソウル特別市 中区 退渓路 324, 3階 (Sungwoo ビル)",
     addressDetail: "〒04614 大韓民国",
     tel: "電話",
     hours: "営業時間",
@@ -45,7 +45,7 @@ const NAV: Record<string, {
   },
   zh: {
     about: "简介", cases: "案例", process: "流程", blog: "博客", offenses: "违规类型", dispositions: "处分类型", contact: "联系咨询",
-    address: "首尔特别市中区退溪路324, 3楼（成友大厦）",
+    address: "首尔特别市 中区 退溪路 324, 3层 (Sungwoo大厦)",
     addressDetail: "邮编 04614，大韩民国",
     tel: "电话",
     hours: "营业时间",
@@ -55,7 +55,7 @@ const NAV: Record<string, {
   },
   vi: {
     about: "Giới thiệu", cases: "Trường hợp", process: "Quy trình", blog: "Blog", offenses: "Loại vi phạm", dispositions: "Loại xử lý", contact: "Tư vấn",
-    address: "Tầng 3, 324 Toegye-ro, Jung-gu, Seoul (Tòa nhà Sungwoo)",
+    address: "Tầng 3, tòa Sungwoo, 324 Toegye-ro, Jung-gu, Seoul",
     addressDetail: "04614, Đại Hàn Dân Quốc",
     tel: "Điện thoại",
     hours: "Giờ làm việc",

@@ -14,6 +14,10 @@ export default function robots(): MetadataRoute.Robots {
       { userAgent: "anthropic-ai", allow: "/" },
       { userAgent: "PerplexityBot", allow: "/" },
       { userAgent: "Google-Extended", allow: "/" },
+      // AI-RECO-2 A-3(맥7 2026-11-04): 검색봇 명시 Allow — * 그룹에 Disallow 가 없으므로 Allow / 만 둔다
+      { userAgent: "Bingbot", allow: "/" },
+      { userAgent: "Claude-SearchBot", allow: "/" },
+      { userAgent: "Googlebot", allow: "/" },
     ],
     sitemap: `${SITE.url}/sitemap.xml`,
     host: SITE.url,
