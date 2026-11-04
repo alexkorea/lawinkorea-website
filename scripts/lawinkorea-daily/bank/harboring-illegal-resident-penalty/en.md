@@ -98,4 +98,4 @@ The fine must be paid within 15 days of receiving the notice, and if it is not p
 
 Sunshine Administrative Agent Office (선샤인행정사사무소) prepares and submits immigration-related applications, drafts written statements explaining what happened, and organizes and translates supporting documents. Defense or representation in investigations and criminal trials is outside the scope of an administrative agent and we do not handle it.
 
-Consultation hours are weekdays 09:30~17:30. Call 02-363-2251 or email help@lawinkorea.com.
+Consultation hours are weekdays 09:30~17:30. Call 02-309-3107 or email help@lawinkorea.com.

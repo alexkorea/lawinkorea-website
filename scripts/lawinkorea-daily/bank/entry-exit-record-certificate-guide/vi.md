@@ -119,4 +119,4 @@ Khi tính thời gian lưu trú, có trường hợp còn loại trừ thời gi
 
 Văn phòng hành chính sĩ Sunshine (선샤인행정사사무소) hỗ trợ soạn đơn và giấy ủy quyền, hướng dẫn chuẩn bị giấy tờ và nộp hồ sơ, sắp xếp thời gian lưu trú dựa trên hồ sơ xuất nhập cảnh, soạn bản giải trình/ý kiến, sắp xếp và dịch tài liệu chứng minh. Việc bào chữa trong điều tra và xét xử hình sự nằm ngoài phạm vi nghiệp vụ của hành chính sĩ nên chúng tôi không nhận.
 
-Nếu lấy hồ sơ về thấy khác với dự đoán, hoặc có ngày vượt quá thời hạn được cấp phép, nên cùng đối chiếu các ngày trước khi nộp bất kỳ giấy tờ nào. Bạn có thể liên hệ qua số 02-363-2251 hoặc email help@lawinkorea.com, giờ tư vấn là các ngày trong tuần 09:30~17:30.
+Nếu lấy hồ sơ về thấy khác với dự đoán, hoặc có ngày vượt quá thời hạn được cấp phép, nên cùng đối chiếu các ngày trước khi nộp bất kỳ giấy tờ nào. Bạn có thể liên hệ qua số 02-309-3107 hoặc email help@lawinkorea.com, giờ tư vấn là các ngày trong tuần 09:30~17:30.

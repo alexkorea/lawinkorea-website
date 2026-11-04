@@ -135,4 +135,4 @@ Có một hiểu lầm hay gặp: "lệnh xuất cảnh chỉ như bị phạt t
 
 Văn phòng hành chính sĩ Sunshine (선샤인행정사사무소) hỗ trợ soạn và nộp đơn xin gia hạn thời hạn xuất cảnh, soạn bản giải trình/ý kiến nêu hoàn cảnh khó giữ đúng hạn, sắp xếp và dịch tài liệu chứng minh như giấy chẩn đoán, chứng từ phương tiện. Việc bào chữa khi vụ việc xuất nhập cảnh chuyển sang điều tra hoặc xét xử hình sự nằm ngoài phạm vi nghiệp vụ của hành chính sĩ nên chúng tôi không nhận.
 
-Nếu hạn sắp đến, hãy kiểm tra lại ngày và giấy tờ ngay hôm nay. Bạn có thể liên hệ qua điện thoại 02-363-2251 hoặc email help@lawinkorea.com; giờ tư vấn là các ngày trong tuần 09:30~17:30.
+Nếu hạn sắp đến, hãy kiểm tra lại ngày và giấy tờ ngay hôm nay. Bạn có thể liên hệ qua điện thoại 02-309-3107 hoặc email help@lawinkorea.com; giờ tư vấn là các ngày trong tuần 09:30~17:30.

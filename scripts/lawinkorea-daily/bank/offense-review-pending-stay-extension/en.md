@@ -109,4 +109,4 @@ In the end, "will this extension be granted" and "how will this look in a perman
 
 Sunshine Administrative Agent Office (선샤인행정사사무소) prepares and submits applications such as stay extensions, drafts written statements and opinions explaining how a violation occurred, and organizes and translates supporting documents. Defense or representation in investigations and criminal trials is outside the scope of an administrative agent, and we do not provide it.
 
-If your expiry date is close and an investigation overlaps, it helps to start by working out the dates together. Call 02-363-2251 or email help@lawinkorea.com. Consultation hours are weekdays 09:30~17:30.
+If your expiry date is close and an investigation overlaps, it helps to start by working out the dates together. Call 02-309-3107 or email help@lawinkorea.com. Consultation hours are weekdays 09:30~17:30.

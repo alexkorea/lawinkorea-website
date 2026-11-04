@@ -111,4 +111,4 @@ Sometimes the deduction disappears with a difference of a single day, so conside
 
 Sunshine Administrative Agent Office (선샤인행정사사무소) prepares and submits residence applications, drafts written statements and opinions explaining how a violation happened, organizes disposition papers and supporting documents, and handles translation. Defense in investigations or criminal trials is not the work of an administrative agent, so we do not take it on.
 
-If you are unsure how many points your disposition costs, gather the notice, the receipt and the judgment first and contact us. Consultation hours are weekdays 09:30~17:30. Call 02-363-2251 or email help@lawinkorea.com.
+If you are unsure how many points your disposition costs, gather the notice, the receipt and the judgment first and contact us. Consultation hours are weekdays 09:30~17:30. Call 02-309-3107 or email help@lawinkorea.com.

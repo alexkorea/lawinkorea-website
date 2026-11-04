@@ -103,4 +103,4 @@ Changes of guarantor are regulated. If a guarantor who is a Korean national inte
 
 Sunshine Administrative Agent Office (선샤인행정사사무소) helps with preparing and submitting visa and stay application documents including identity guarantees, drafting written statements and opinions explaining the circumstances of a guarantee, and organizing and translating supporting documents. Defense at the investigation or criminal trial stage is not part of an administrative agent's work, and we do not handle it.
 
-If you have signed and are unsure how far your liability goes, have received a reimbursement notice, or want to wind down a guarantee, contact us with the documents. Phone: 02-363-2251. Email: help@lawinkorea.com. Consultation hours: weekdays 09:30~17:30.
+If you have signed and are unsure how far your liability goes, have received a reimbursement notice, or want to wind down a guarantee, contact us with the documents. Phone: 02-309-3107. Email: help@lawinkorea.com. Consultation hours: weekdays 09:30~17:30.

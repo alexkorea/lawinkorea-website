@@ -329,7 +329,7 @@ export async function POST(req: Request) {
     if (!notionOk && !mailOk) {
       console.error("[contact API] 접수 경로 전부 실패", { name, email: customerEmail });
       return NextResponse.json(
-        { ok: false, error: "접수에 실패했습니다. 02-363-2251 로 연락해 주세요." },
+        { ok: false, error: "접수에 실패했습니다. 02-309-3107 로 연락해 주세요." },
         { status: 500 },
       );
     }

@@ -52,7 +52,7 @@ const PEXELS_KEY_FILE = '/Users/mac4/.secrets/pexels_api_key.txt'
 const matter = createRequire(path.join(REPO, 'package.json'))('gray-matter')
 
 const LOCALES = ['ko', 'en', 'zh', 'ja', 'vi']
-const PHONE = '02-363-2251'
+const PHONE = '02-309-3107'
 const EMAILS = ['help@lawinkorea.com']
 const SEO = JSON.parse(fs.readFileSync(path.join(REPO, 'scripts', 'seo-gate.config.json'), 'utf8'))
 const DESC_MIN = SEO.descMin ?? 70, DESC_MAX = SEO.descMax ?? 160

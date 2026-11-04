@@ -114,4 +114,4 @@ locale: "ko"
 
 선샤인행정사사무소는 영주증 재발급 신청서 작성과 서류 점검, 법에서 허용되는 범위의 제출 대행, 기한을 넘긴 경위를 설명하는 소명서 작성, 증빙 정리와 번역을 도와드려요. 수사나 형사재판에서의 변호는 하지 않습니다.
 
-영주증 기한이 헷갈리거나 이미 지난 것 같다면 전화 02-363-2251, 이메일 help@lawinkorea.com 으로 문의하세요. 상담시간은 평일 09:30~17:30 예요. 영주권을 오래 비워 둔 경우의 영주자격 문제가 걱정이라면 [영주권자 강제퇴거 예외 글](/ko/blog/permanent-resident-deportation-exception)과 [재입국허가 면제 글](/ko/blog/reentry-permit-exemption-guide)도 함께 보세요.
+영주증 기한이 헷갈리거나 이미 지난 것 같다면 전화 02-309-3107, 이메일 help@lawinkorea.com 으로 문의하세요. 상담시간은 평일 09:30~17:30 예요. 영주권을 오래 비워 둔 경우의 영주자격 문제가 걱정이라면 [영주권자 강제퇴거 예외 글](/ko/blog/permanent-resident-deportation-exception)과 [재입국허가 면제 글](/ko/blog/reentry-permit-exemption-guide)도 함께 보세요.

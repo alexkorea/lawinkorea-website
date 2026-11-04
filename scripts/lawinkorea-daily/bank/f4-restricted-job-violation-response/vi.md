@@ -104,4 +104,4 @@ Cách xử lý chung với làm việc bất hợp pháp và hoạt động ngo�
 
 Chúng tôi hỗ trợ soạn và nộp hồ sơ như gia hạn lưu trú F-4, xin phép hoạt động ngoài tư cách lưu trú, soạn bản giải trình/ý kiến nêu rõ quá trình vi phạm, sắp xếp và dịch chứng cứ việc làm. Việc ứng phó trong giai đoạn điều tra và bào chữa trong xét xử hình sự sau khi bị tố cáo nằm ngoài phạm vi nghiệp vụ của hành chính sĩ nên chúng tôi không nhận.
 
-Nếu chưa chắc công việc của mình có thuộc ngành bị hạn chế không, hãy gửi tên nghề và nội dung công việc thực tế để được tư vấn. Điện thoại 02-363-2251, email help@lawinkorea.com, giờ tư vấn các ngày trong tuần 09:30~17:30, tại Văn phòng Hành chính sĩ Sunshine (선샤인행정사사무소).
+Nếu chưa chắc công việc của mình có thuộc ngành bị hạn chế không, hãy gửi tên nghề và nội dung công việc thực tế để được tư vấn. Điện thoại 02-309-3107, email help@lawinkorea.com, giờ tư vấn các ngày trong tuần 09:30~17:30, tại Văn phòng Hành chính sĩ Sunshine (선샤인행정사사무소).

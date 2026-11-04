@@ -107,4 +107,4 @@ This course **does not apply to people who already fall under a disqualification
 
 Sunshine Administrative Agent Office (선샤인행정사사무소) prepares and submits extension, change and permanent residence applications, organizes your record, drafts explanatory statements and opinion letters, and arranges and translates supporting documents. Representation or defense in an investigation or criminal trial is outside the scope of an administrative agent, and we do not handle it.
 
-If you are unsure which standard your record falls under, bring the disposition notice and the payment receipt and ask us. You can reach us at 02-363-2251 or help@lawinkorea.com, on weekdays 09:30~17:30.
+If you are unsure which standard your record falls under, bring the disposition notice and the payment receipt and ask us. You can reach us at 02-309-3107 or help@lawinkorea.com, on weekdays 09:30~17:30.

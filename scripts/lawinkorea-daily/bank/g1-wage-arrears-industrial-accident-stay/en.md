@@ -102,4 +102,4 @@ Permission to work must be obtained in advance; it cannot be obtained after you 
 
 At Sunshine Administrative Agent Office (선샤인행정사사무소) we prepare and submit G-1 change and extension applications, draft statements and written opinions that explain your circumstances, organize evidence such as complaints, medical certificates and lawsuit documents, and translate documents. Representing you in the labor complaint, acting for you in a lawsuit, and defense in investigations or criminal trials are outside an administrative agent's scope, and we do not handle them.
 
-If your stay is running short, contact us before all the documents are ready. Phone 02-363-2251, email help@lawinkorea.com, consultation hours weekdays 09:30~17:30.
+If your stay is running short, contact us before all the documents are ready. Phone 02-309-3107, email help@lawinkorea.com, consultation hours weekdays 09:30~17:30.

@@ -102,4 +102,4 @@ Giấy phép làm việc phải xin trước, không thể xin sau khi đã bắ
 
 Văn phòng Hành chính sĩ Sunshine (선샤인행정사사무소) hỗ trợ soạn và nộp đơn đổi/gia hạn G-1, soạn bản giải trình/ý kiến nêu rõ hoàn cảnh lưu trú, sắp xếp chứng từ như đơn khiếu nại, giấy chẩn đoán, tài liệu vụ kiện và dịch tài liệu. Việc đại diện trong thủ tục khiếu nại lên cơ quan lao động, đại diện tố tụng, và bào chữa trong điều tra hay xét xử hình sự nằm ngoài phạm vi nghiệp vụ của hành chính sĩ nên chúng tôi không nhận.
 
-Nếu thời hạn lưu trú còn ít, đừng chờ gom đủ giấy tờ mà hãy liên hệ trước. Điện thoại 02-363-2251, email help@lawinkorea.com, giờ tư vấn các ngày trong tuần 09:30~17:30.
+Nếu thời hạn lưu trú còn ít, đừng chờ gom đủ giấy tờ mà hãy liên hệ trước. Điện thoại 02-309-3107, email help@lawinkorea.com, giờ tư vấn các ngày trong tuần 09:30~17:30.

@@ -135,4 +135,4 @@ One misunderstanding comes up often: "a departure order is only about a fine, so
 
 Sunshine Administrative Agent Office (선샤인행정사사무소) prepares and submits the application for a departure deadline grace period, drafts written statements and opinions explaining why the deadline is hard to meet, and organizes and translates supporting documents such as medical certificates and transport records. Defense in an investigation or criminal trial that follows an immigration case is outside the scope of an administrative agent, and we do not handle it.
 
-If the deadline is close, check the date and your papers today. You can reach us at 02-363-2251 or help@lawinkorea.com, and consultation hours are weekdays 09:30~17:30.
+If the deadline is close, check the date and your papers today. You can reach us at 02-309-3107 or help@lawinkorea.com, and consultation hours are weekdays 09:30~17:30.

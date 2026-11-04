@@ -109,4 +109,4 @@ Nếu không nộp đơn mà cũng không đi, tình hình sẽ khác.
 
 Văn phòng Hành chính sĩ Sunshine (선샤인행정사사무소) hỗ trợ soạn và nộp thay đơn xin gia hạn thời hạn xuất cảnh và đơn xin cấp phép gia hạn lưu trú, soạn bản giải trình/ý kiến nêu rõ lý do không đi được, sắp xếp và dịch tài liệu chứng minh. Việc bào chữa trong điều tra hoặc xét xử hình sự nằm ngoài phạm vi nghiệp vụ của hành chính sĩ nên chúng tôi không nhận.
 
-Nếu thời hạn đã sát, từng ngày đều quý. Hãy liên hệ số 02-363-2251 hoặc email help@lawinkorea.com, chúng tôi sẽ cùng xem nội dung thông báo và hướng dẫn chế độ nào phù hợp. Giờ tư vấn: các ngày trong tuần 09:30~17:30.
+Nếu thời hạn đã sát, từng ngày đều quý. Hãy liên hệ số 02-309-3107 hoặc email help@lawinkorea.com, chúng tôi sẽ cùng xem nội dung thông báo và hướng dẫn chế độ nào phù hợp. Giờ tư vấn: các ngày trong tuần 09:30~17:30.

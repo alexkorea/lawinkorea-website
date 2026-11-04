@@ -114,4 +114,4 @@ locale: "zh"
 
 阳光行政士事务所（선샤인행정사사무소）可以协助填写永住证换发申请书并检查材料、在法律允许的范围内代为提交、撰写说明逾期原因的说明书，以及整理并翻译证明材料。侦查·刑事审判中的辩护不在我们的业务范围内。
 
-如果对永住证的期限拿不准，或觉得已经过期，请致电 02-363-2251，或发邮件至 help@lawinkorea.com。咨询时间为工作日 09:30~17:30。如果您还担心长期离开韩国后的永住资格问题，也请看[永住者强制驱逐例外一文](/zh/blog/permanent-resident-deportation-exception)和[再入境许可免除一文](/zh/blog/reentry-permit-exemption-guide)。
+如果对永住证的期限拿不准，或觉得已经过期，请致电 02-309-3107，或发邮件至 help@lawinkorea.com。咨询时间为工作日 09:30~17:30。如果您还担心长期离开韩国后的永住资格问题，也请看[永住者强制驱逐例外一文](/zh/blog/permanent-resident-deportation-exception)和[再入境许可免除一文](/zh/blog/reentry-permit-exemption-guide)。

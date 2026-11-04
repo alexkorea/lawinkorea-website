@@ -103,4 +103,4 @@ Ngoài ra, 20 triệu won là mức trần chứ không phải số tiền chu�
 
 Văn phòng hành chính sĩ Sunshine (선샤인행정사사무소) hỗ trợ soạn và nộp đơn xin tạm thả bảo hộ, soạn bản giải trình nêu lý do, sắp xếp tài liệu chứng minh khả năng nộp tiền cọc, quan hệ gia đình và nơi cư trú, cũng như dịch giấy tờ tiếng nước ngoài. Việc bào chữa trong điều tra và xét xử hình sự nằm ngoài phạm vi nghiệp vụ của hành chính sĩ nên chúng tôi không nhận.
 
-Bạn có thể liên hệ qua điện thoại 02-363-2251 hoặc email help@lawinkorea.com, giờ tư vấn các ngày trong tuần 09:30~17:30. Nếu chuẩn bị sẵn ngày nhận thông báo bị giữ và ảnh chụp các giấy tờ đã nhận thì việc sắp xếp sẽ nhanh hơn nhiều.
+Bạn có thể liên hệ qua điện thoại 02-309-3107 hoặc email help@lawinkorea.com, giờ tư vấn các ngày trong tuần 09:30~17:30. Nếu chuẩn bị sẵn ngày nhận thông báo bị giữ và ảnh chụp các giấy tờ đã nhận thì việc sắp xếp sẽ nhanh hơn nhiều.

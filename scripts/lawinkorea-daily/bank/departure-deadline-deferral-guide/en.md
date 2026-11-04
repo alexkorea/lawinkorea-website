@@ -109,4 +109,4 @@ The pros and cons of leaving voluntarily are covered in [our voluntary departure
 
 Sunshine Administrative Agent Office (선샤인행정사사무소) prepares and submits the departure deadline deferral application and the stay extension application, drafts statements explaining why you cannot leave, and organizes and translates supporting documents. Defense in an investigation or criminal trial is outside the scope of an administrative agent and we do not handle it.
 
-If the deadline is close, every day counts. Call 02-363-2251 or email help@lawinkorea.com, and we will go through your notice with you and explain which system fits. Consultation hours are weekdays 09:30~17:30.
+If the deadline is close, every day counts. Call 02-309-3107 or email help@lawinkorea.com, and we will go through your notice with you and explain which system fits. Consultation hours are weekdays 09:30~17:30.

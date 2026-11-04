@@ -350,7 +350,7 @@ export const SECTION_LABELS: Record<
     quietDesc:
       "출입국 사무소의 사범심사는 비자 연장 거부, 영주권 탈락, 나아가 강제 퇴거 명령으로 이어질 수 있는 별개의 행정 절차입니다. 먼저 상황을 정확히 진단하는 것에서 시작합니다.",
     quietCtaPrimary: "내 상황 진단받기",
-    quietCtaPhone: "전화 상담 · 02-363-2251",
+    quietCtaPhone: "전화 상담 · 02-309-3107",
     quietCtaPhoneNote: "평일 09–18시",
     teamEyebrow: "전문가 소개 · Team",
     teamTitle: "당신의 사건을 직접 다룰 사람",
@@ -385,7 +385,7 @@ export const SECTION_LABELS: Record<
     quietDesc:
       "An immigration offense review is a separate administrative procedure that can lead to visa denial, permanent residency rejection, or even deportation. The first step is an accurate diagnosis of your situation.",
     quietCtaPrimary: "Diagnose my situation",
-    quietCtaPhone: "Call · +82-2-363-2251",
+    quietCtaPhone: "Call · +82-2-309-3107",
     quietCtaPhoneNote: "Weekdays 09–18 KST",
     teamEyebrow: "Team",
     teamTitle: "The people who will handle your case",
@@ -420,7 +420,7 @@ export const SECTION_LABELS: Record<
     quietDesc:
       "出入境事务所的事犯审查是独立的行政程序，可能导致签证延期被拒、永居申请落选，乃至强制驱逐令。第一步是准确诊断您的处境。",
     quietCtaPrimary: "评估我的情况",
-    quietCtaPhone: "电话咨询 · +82-2-363-2251",
+    quietCtaPhone: "电话咨询 · +82-2-309-3107",
     quietCtaPhoneNote: "工作日 09–18 KST",
     teamEyebrow: "专家团队 · Team",
     teamTitle: "亲自处理您案件的人",
@@ -455,7 +455,7 @@ export const SECTION_LABELS: Record<
     quietDesc:
       "出入国事務所の事犯審査は、ビザ延長拒否、永住資格不許可、さらには強制退去命令にもつながり得る別個の行政手続です。まずは状況を正確に診断することから始まります。",
     quietCtaPrimary: "状況を診断する",
-    quietCtaPhone: "電話相談 · +82-2-363-2251",
+    quietCtaPhone: "電話相談 · +82-2-309-3107",
     quietCtaPhoneNote: "平日 09–18 KST",
     teamEyebrow: "専門家紹介 · Team",
     teamTitle: "あなたの案件を直接担当する人",
@@ -490,7 +490,7 @@ export const SECTION_LABELS: Record<
     quietDesc:
       "Xem xét vi phạm xuất nhập cảnh là một thủ tục hành chính riêng biệt có thể dẫn đến từ chối gia hạn visa, bác bỏ thường trú, thậm chí lệnh trục xuất. Bước đầu tiên là chẩn đoán chính xác tình huống của bạn.",
     quietCtaPrimary: "Chẩn đoán tình huống của tôi",
-    quietCtaPhone: "Tư vấn qua điện thoại · +82-2-363-2251",
+    quietCtaPhone: "Tư vấn qua điện thoại · +82-2-309-3107",
     quietCtaPhoneNote: "Thứ Hai – Thứ Sáu 09–18 KST",
     teamEyebrow: "Giới thiệu chuyên gia · Team",
     teamTitle: "Người sẽ trực tiếp xử lý vụ việc của bạn",

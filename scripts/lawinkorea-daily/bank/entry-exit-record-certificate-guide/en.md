@@ -119,4 +119,4 @@ Some stay-period calculations also exclude stays abroad of 91 days or more, peri
 
 At Sunshine Administrative Agent Office (선샤인행정사사무소) we help prepare the application and authorization letter, guide you through gathering documents and applying, organize your stay periods based on entry and departure records, draft written statements, and organize and translate supporting documents. Investigation and criminal trial defense is outside the scope of an administrative agent and we do not handle it.
 
-If the record does not match what you expected, or you find days past your permitted period, it helps to line up the dates before submitting anything. You can reach us at 02-363-2251 or help@lawinkorea.com, and our consultation hours are 09:30~17:30 on weekdays.
+If the record does not match what you expected, or you find days past your permitted period, it helps to line up the dates before submitting anything. You can reach us at 02-309-3107 or help@lawinkorea.com, and our consultation hours are 09:30~17:30 on weekdays.

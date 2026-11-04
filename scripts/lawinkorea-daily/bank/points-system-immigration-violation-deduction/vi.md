@@ -111,4 +111,4 @@ Có khi chỉ lệch một ngày là điểm trừ biến mất, nên hãy cân 
 
 Văn phòng Hành chính sĩ Sunshine (선샤인행정사사무소) hỗ trợ soạn và nộp hồ sơ lưu trú, soạn bản giải trình và ý kiến nêu rõ diễn biến vi phạm, sắp xếp giấy tờ xử lý và tài liệu chứng minh, cũng như dịch thuật. Việc bào chữa trong điều tra hay xét xử hình sự không thuộc nghiệp vụ của hành chính sĩ nên chúng tôi không nhận.
 
-Nếu chưa rõ quyết định xử lý của mình bị trừ bao nhiêu điểm, hãy chuẩn bị thông báo xử phạt, biên lai và bản án rồi liên hệ. Giờ tư vấn là các ngày trong tuần 09:30~17:30, điện thoại 02-363-2251, email help@lawinkorea.com.
+Nếu chưa rõ quyết định xử lý của mình bị trừ bao nhiêu điểm, hãy chuẩn bị thông báo xử phạt, biên lai và bản án rồi liên hệ. Giờ tư vấn là các ngày trong tuần 09:30~17:30, điện thoại 02-309-3107, email help@lawinkorea.com.

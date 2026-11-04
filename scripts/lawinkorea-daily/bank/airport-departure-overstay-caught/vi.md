@@ -110,4 +110,4 @@ Khác biệt giữa chỉ nộp phạt và bị kèm lệnh xuất cảnh, buộ
 
 Văn phòng hành chính sĩ Sunshine (선샤인행정사사무소) hỗ trợ soạn và nộp hồ sơ liên quan đến lưu trú, soạn đơn xin gia hạn thời hạn xuất cảnh, bản giải trình và ý kiến, cũng như sắp xếp và dịch tài liệu chứng minh. Việc đại diện hoặc bào chữa trong điều tra và xét xử hình sự không thuộc nghiệp vụ của hành chính sĩ nên chúng tôi không nhận.
 
-Nếu bạn đã nhận thông báo nộp phạt hoặc giấy lệnh xuất cảnh, hãy kiểm tra hạn ghi trên đó trước. Điện thoại tư vấn 02-363-2251, email help@lawinkorea.com, giờ tư vấn các ngày trong tuần 09:30~17:30.
+Nếu bạn đã nhận thông báo nộp phạt hoặc giấy lệnh xuất cảnh, hãy kiểm tra hạn ghi trên đó trước. Điện thoại tư vấn 02-309-3107, email help@lawinkorea.com, giờ tư vấn các ngày trong tuần 09:30~17:30.

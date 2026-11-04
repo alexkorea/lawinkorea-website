@@ -82,7 +82,7 @@ export default function SiteFooter() {
           <div style={{ fontSize: 13, lineHeight: 1.7 }}>
             <div>{t.address}</div>
             <div>{t.addressDetail}</div>
-            <div style={{ marginTop: 8 }}>{t.tel}: 02-363-2251</div>
+            <div style={{ marginTop: 8 }}>{t.tel}: 02-309-3107</div>
             <div>{t.hours}: {t.hoursVal}</div>
           </div>
         </div>

@@ -124,4 +124,4 @@ For permanent residence (F-5) in the long run, a person whose normal marriage co
 
 We prepare and submit applications for extension of stay and change of status, draft written statements and opinions explaining the circumstances of the breakdown, and organize and translate supporting documents. Representing or defending you in divorce litigation or in a criminal investigation or trial is not the work of an administrative agent, so we do not take it on.
 
-Consultation hours are weekdays 09:30~17:30. Call 02-363-2251 or write to help@lawinkorea.com with your expiry date and the documents you now hold.
+Consultation hours are weekdays 09:30~17:30. Call 02-309-3107 or write to help@lawinkorea.com with your expiry date and the documents you now hold.

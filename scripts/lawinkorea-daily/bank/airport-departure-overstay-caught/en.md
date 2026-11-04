@@ -110,4 +110,4 @@ This is where paying a fine only differs most from getting a departure or deport
 
 Sunshine Administrative Agent Office (선샤인행정사사무소) prepares and submits residence-related applications, drafts departure deadline deferral applications, written statements and opinions, and organizes and translates supporting documents. Representation or defense in investigations and criminal trials is outside the scope of an administrative agent, and we do not handle it.
 
-If you already hold a fine notice or departure order, check the deadline written on it first. Call 02-363-2251 or email help@lawinkorea.com. Consultation hours are weekdays 09:30~17:30.
+If you already hold a fine notice or departure order, check the deadline written on it first. Call 02-309-3107 or email help@lawinkorea.com. Consultation hours are weekdays 09:30~17:30.

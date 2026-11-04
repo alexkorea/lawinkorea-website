@@ -103,4 +103,4 @@ Also, the 20 million won is a ceiling, not a standard amount. The law sets no sp
 
 Sunshine Administrative Agent Office (선샤인행정사사무소) prepares and submits the temporary release application, drafts a written statement explaining the reasons, organizes proof of ability to pay the bond, family ties and residence, and translates foreign-language documents. Defense in criminal investigations and trials is outside the scope of an administrative agent and we do not handle it.
 
-You can reach us at 02-363-2251 or help@lawinkorea.com, with consultation hours on weekdays 09:30~17:30. If you have the date you were notified of the detention and photos of the documents you received, things can be sorted out much faster.
+You can reach us at 02-309-3107 or help@lawinkorea.com, with consultation hours on weekdays 09:30~17:30. If you have the date you were notified of the detention and photos of the documents you received, things can be sorted out much faster.

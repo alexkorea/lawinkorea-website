@@ -109,4 +109,4 @@ Rốt cuộc, "đợt gia hạn này có được không" và "3 năm, 5 năm sa
 
 Văn phòng hành chính sĩ Sunshine (선샤인행정사사무소) hỗ trợ soạn và nộp hồ sơ như gia hạn lưu trú, soạn bản giải trình/ý kiến nêu rõ diễn biến vi phạm, sắp xếp và dịch tài liệu chứng minh. Việc bào chữa và đại diện trong điều tra và xét xử hình sự nằm ngoài phạm vi nghiệp vụ của hành chính sĩ nên chúng tôi không thực hiện.
 
-Nếu ngày hết hạn đã gần mà lại có điều tra chồng lên, nên bắt đầu bằng việc cùng tính lại các mốc ngày. Điện thoại 02-363-2251, email help@lawinkorea.com. Giờ tư vấn: các ngày trong tuần 09:30~17:30.
+Nếu ngày hết hạn đã gần mà lại có điều tra chồng lên, nên bắt đầu bằng việc cùng tính lại các mốc ngày. Điện thoại 02-309-3107, email help@lawinkorea.com. Giờ tư vấn: các ngày trong tuần 09:30~17:30.

@@ -103,4 +103,4 @@ Việc đổi người bảo lãnh thì có quy định. Khi người bảo lãn
 
 Văn phòng hành chính sĩ Sunshine (선샤인행정사사무소) hỗ trợ soạn và nộp hồ sơ visa, lưu trú gồm cả giấy bảo lãnh nhân thân, soạn bản giải trình/ý kiến nêu rõ hoàn cảnh liên quan đến bảo lãnh, sắp xếp và dịch tài liệu chứng minh. Việc bào chữa ở giai đoạn điều tra hoặc xét xử hình sự không thuộc phạm vi nghiệp vụ của hành chính sĩ nên chúng tôi không nhận.
 
-Nếu đã ký mà chưa rõ trách nhiệm đến đâu, đã nhận thông báo truy thu, hoặc muốn kết thúc bảo lãnh, hãy mang giấy tờ đến trao đổi. Điện thoại 02-363-2251, email help@lawinkorea.com. Giờ tư vấn: ngày thường 09:30~17:30.
+Nếu đã ký mà chưa rõ trách nhiệm đến đâu, đã nhận thông báo truy thu, hoặc muốn kết thúc bảo lãnh, hãy mang giấy tờ đến trao đổi. Điện thoại 02-309-3107, email help@lawinkorea.com. Giờ tư vấn: ngày thường 09:30~17:30.

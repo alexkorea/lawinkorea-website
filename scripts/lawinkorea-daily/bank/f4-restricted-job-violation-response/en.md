@@ -104,4 +104,4 @@ General handling of illegal work and activities outside status is covered in [Ha
 
 We prepare and submit F-4 extension and activity-outside-status permission applications, draft written statements and opinions explaining how the violation came about, and organize and translate employment evidence. Responding during an investigation and defense in criminal trial after a complaint fall outside the scope of an administrative agent and we do not handle them.
 
-If you are unsure whether your job is in a restricted field, send us the occupation name and what you actually do. Phone 02-363-2251, email help@lawinkorea.com, consultation hours weekdays 09:30~17:30, at Sunshine Administrative Agent Office (선샤인행정사사무소).
+If you are unsure whether your job is in a restricted field, send us the occupation name and what you actually do. Phone 02-309-3107, email help@lawinkorea.com, consultation hours weekdays 09:30~17:30, at Sunshine Administrative Agent Office (선샤인행정사사무소).

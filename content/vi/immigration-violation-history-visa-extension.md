@@ -107,4 +107,4 @@ Khóa này **không áp dụng cho người đã thuộc diện không đủ đi
 
 Văn phòng Hành chính sĩ Sunshine (선샤인행정사사무소) hỗ trợ soạn và nộp hồ sơ gia hạn, đổi tư cách, vĩnh trú, sắp xếp tiền sử, soạn bản giải trình và văn bản ý kiến, sắp xếp và dịch tài liệu chứng minh. Việc đại diện hay bào chữa trong điều tra và xét xử hình sự nằm ngoài phạm vi nghiệp vụ của hành chính sĩ nên chúng tôi không nhận.
 
-Nếu chưa rõ tiền sử của mình vướng tiêu chí nào, hãy mang theo quyết định xử phạt và biên lai nộp tiền để hỏi chúng tôi. Liên hệ qua số 02-363-2251 hoặc email help@lawinkorea.com, giờ tư vấn các ngày trong tuần 09:30~17:30.
+Nếu chưa rõ tiền sử của mình vướng tiêu chí nào, hãy mang theo quyết định xử phạt và biên lai nộp tiền để hỏi chúng tôi. Liên hệ qua số 02-309-3107 hoặc email help@lawinkorea.com, giờ tư vấn các ngày trong tuần 09:30~17:30.

@@ -124,4 +124,4 @@ Nếu về lâu dài tính đến thường trú (F-5), người không thể du
 
 Chúng tôi hỗ trợ soạn và nộp hồ sơ gia hạn thời hạn lưu trú, đổi tư cách lưu trú, soạn bản giải trình/ý kiến nêu rõ quá trình đổ vỡ hôn nhân, sắp xếp và dịch tài liệu chứng minh. Việc đại diện hoặc bào chữa trong vụ kiện ly hôn, điều tra hay xét xử hình sự không thuộc nghiệp vụ của hành chính sĩ nên chúng tôi không nhận.
 
-Giờ tư vấn: các ngày trong tuần 09:30~17:30. Gọi 02-363-2251 hoặc gửi mail tới help@lawinkorea.com, kèm ngày hết hạn lưu trú và những giấy tờ bạn đang có.
+Giờ tư vấn: các ngày trong tuần 09:30~17:30. Gọi 02-309-3107 hoặc gửi mail tới help@lawinkorea.com, kèm ngày hết hạn lưu trú và những giấy tờ bạn đang có.

@@ -9,8 +9,8 @@ export const COMPANY = {
   addressKoExtra: "동대문역사문화공원역 4번출구 10미터",
   addressEn: "3F Sungwoo Bldg, 324 Toegye-ro, Jung-gu, Seoul",
   addressEnExtra: "10m from Dongdaemun History & Culture Park Stn, Exit 4",
-  phone: "02-363-2251",
-  phoneIntl: "+82-2-363-2251",
+  phone: "02-309-3107",
+  phoneIntl: "+82-2-309-3107",
   // 대외 표기용 이메일(보스 msg 1816, 2026-10-04 — 맥7 수신 시험 통과). 개인 Gmail 주소는 사이트에 노출하지 않는다.
   email: "help@lawinkorea.com",
   consultEmail: "help@lawinkorea.com",

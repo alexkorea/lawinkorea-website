@@ -318,7 +318,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             <div style={{ background: ACCENT.primary, color: "#fff", borderRadius: 10, padding: "28px 32px", display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap" as const, gap: 18, marginBottom: 40 }}>
               <div>
                 <div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div>
-                <div style={{ opacity: 0.9, fontSize: 15 }}>서울특별시 중구 퇴계로 324, 3층(광희동2가, 성우빌딩) · +82-2-363-2251</div>
+                <div style={{ opacity: 0.9, fontSize: 15 }}>서울특별시 중구 퇴계로 324, 3층(광희동2가, 성우빌딩) · +82-2-309-3107</div>
               </div>
               <a href={`/${locale}/contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
             </div>
@@ -560,7 +560,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             <p style={{ color: ACCENT.muted, lineHeight: 1.75, marginBottom: 14 }}>{c.p3}</p>
             <ul style={{ paddingLeft: 22, marginBottom: 32 }}>{c.services.map((svc, i) => <li key={i} style={{ color: ACCENT.muted, marginBottom: 8, lineHeight: 1.65 }}>{svc}</li>)}</ul>
             <div style={{ background: ACCENT.primary, color: "#fff", borderRadius: 10, padding: "28px 32px", display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap" as const, gap: 18, marginBottom: 40 }}>
-              <div><div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div><div style={{ opacity: 0.9, fontSize: 15 }}>서울특별시 중구 퇴계로 324, 3층(광희동2가, 성우빌딩) · +82-2-363-2251</div></div>
+              <div><div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div><div style={{ opacity: 0.9, fontSize: 15 }}>서울특별시 중구 퇴계로 324, 3층(광희동2가, 성우빌딩) · +82-2-309-3107</div></div>
               <a href={`/${locale}/contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
             </div>
             {/* FAQPage — 화면에 그리는 같은 c.faqs 배열에서 생성(1:1, I3b 2026-10-03) */}
@@ -623,7 +623,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             <p style={{ color: ACCENT.muted, lineHeight: 1.75, marginBottom: 14 }}>{c.p3}</p>
             <ul style={{ paddingLeft: 22, marginBottom: 32 }}>{c.services.map((svc, i) => <li key={i} style={{ color: ACCENT.muted, marginBottom: 8, lineHeight: 1.65 }}>{svc}</li>)}</ul>
             <div style={{ background: ACCENT.primary, color: "#fff", borderRadius: 10, padding: "28px 32px", display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap" as const, gap: 18, marginBottom: 40 }}>
-              <div><div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div><div style={{ opacity: 0.9, fontSize: 15 }}>서울특별시 중구 퇴계로 324, 3층(광희동2가, 성우빌딩) · +82-2-363-2251</div></div>
+              <div><div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div><div style={{ opacity: 0.9, fontSize: 15 }}>서울특별시 중구 퇴계로 324, 3층(광희동2가, 성우빌딩) · +82-2-309-3107</div></div>
               <a href={`/${locale}/contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
             </div>
             {/* FAQPage — 화면에 그리는 같은 c.faqs 배열에서 생성(1:1, I3b 2026-10-03) */}
@@ -671,7 +671,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             <p style={{ color: ACCENT.muted, lineHeight: 1.75, marginBottom: 14 }}>{c.p3}</p>
             <ul style={{ paddingLeft: 22, marginBottom: 32 }}>{c.services.map((svc, i) => <li key={i} style={{ color: ACCENT.muted, marginBottom: 8, lineHeight: 1.65 }}>{svc}</li>)}</ul>
             <div style={{ background: ACCENT.primary, color: "#fff", borderRadius: 10, padding: "28px 32px", display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap" as const, gap: 18, marginBottom: 40 }}>
-              <div><div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div><div style={{ opacity: 0.9, fontSize: 15 }}>서울특별시 중구 퇴계로 324, 3층(광희동2가, 성우빌딩) · +82-2-363-2251</div></div>
+              <div><div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div><div style={{ opacity: 0.9, fontSize: 15 }}>서울특별시 중구 퇴계로 324, 3층(광희동2가, 성우빌딩) · +82-2-309-3107</div></div>
               <a href={`/${locale}/contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
             </div>
             {/* FAQPage — 화면에 그리는 같은 c.faqs 배열에서 생성(1:1, I3b 2026-10-03) */}
@@ -719,7 +719,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             <p style={{ color: ACCENT.muted, lineHeight: 1.75, marginBottom: 14 }}>{c.p3}</p>
             <ul style={{ paddingLeft: 22, marginBottom: 32 }}>{c.services.map((svc, i) => <li key={i} style={{ color: ACCENT.muted, marginBottom: 8, lineHeight: 1.65 }}>{svc}</li>)}</ul>
             <div style={{ background: ACCENT.primary, color: "#fff", borderRadius: 10, padding: "28px 32px", display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap" as const, gap: 18, marginBottom: 40 }}>
-              <div><div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div><div style={{ opacity: 0.9, fontSize: 15 }}>서울특별시 중구 퇴계로 324, 3층(광희동2가, 성우빌딩) · +82-2-363-2251</div></div>
+              <div><div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div><div style={{ opacity: 0.9, fontSize: 15 }}>서울특별시 중구 퇴계로 324, 3층(광희동2가, 성우빌딩) · +82-2-309-3107</div></div>
               <a href={`/${locale}/contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
             </div>
             {/* FAQPage — 화면에 그리는 같은 c.faqs 배열에서 생성(1:1, I3b 2026-10-03) */}
@@ -767,7 +767,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             <p style={{ color: ACCENT.muted, lineHeight: 1.75, marginBottom: 14 }}>{c.p3}</p>
             <ul style={{ paddingLeft: 22, marginBottom: 32 }}>{c.services.map((svc, i) => <li key={i} style={{ color: ACCENT.muted, marginBottom: 8, lineHeight: 1.65 }}>{svc}</li>)}</ul>
             <div style={{ background: ACCENT.primary, color: "#fff", borderRadius: 10, padding: "28px 32px", display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap" as const, gap: 18, marginBottom: 40 }}>
-              <div><div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div><div style={{ opacity: 0.9, fontSize: 15 }}>서울특별시 중구 퇴계로 324, 3층(광희동2가, 성우빌딩) · +82-2-363-2251</div></div>
+              <div><div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div><div style={{ opacity: 0.9, fontSize: 15 }}>서울특별시 중구 퇴계로 324, 3층(광희동2가, 성우빌딩) · +82-2-309-3107</div></div>
               <a href={`/${locale}/contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
             </div>
             {/* FAQPage — 화면에 그리는 같은 c.faqs 배열에서 생성(1:1, I3b 2026-10-03) */}
@@ -815,7 +815,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             <p style={{ color: ACCENT.muted, lineHeight: 1.75, marginBottom: 14 }}>{c.p3}</p>
             <ul style={{ paddingLeft: 22, marginBottom: 32 }}>{c.services.map((svc, i) => <li key={i} style={{ color: ACCENT.muted, marginBottom: 8, lineHeight: 1.65 }}>{svc}</li>)}</ul>
             <div style={{ background: ACCENT.primary, color: "#fff", borderRadius: 10, padding: "28px 32px", display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap" as const, gap: 18, marginBottom: 40 }}>
-              <div><div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div><div style={{ opacity: 0.9, fontSize: 15 }}>서울특별시 중구 퇴계로 324, 3층(광희동2가, 성우빌딩) · +82-2-363-2251</div></div>
+              <div><div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div><div style={{ opacity: 0.9, fontSize: 15 }}>서울특별시 중구 퇴계로 324, 3층(광희동2가, 성우빌딩) · +82-2-309-3107</div></div>
               <a href={`/${locale}/contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
             </div>
             {/* FAQPage — 화면에 그리는 같은 c.faqs 배열에서 생성(1:1, I3b 2026-10-03) */}
@@ -863,7 +863,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             <p style={{ color: ACCENT.muted, lineHeight: 1.75, marginBottom: 14 }}>{c.p3}</p>
             <ul style={{ paddingLeft: 22, marginBottom: 32 }}>{c.services.map((svc, i) => <li key={i} style={{ color: ACCENT.muted, marginBottom: 8, lineHeight: 1.65 }}>{svc}</li>)}</ul>
             <div style={{ background: ACCENT.primary, color: "#fff", borderRadius: 10, padding: "28px 32px", display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap" as const, gap: 18, marginBottom: 40 }}>
-              <div><div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div><div style={{ opacity: 0.9, fontSize: 15 }}>서울특별시 중구 퇴계로 324, 3층(광희동2가, 성우빌딩) · +82-2-363-2251</div></div>
+              <div><div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div><div style={{ opacity: 0.9, fontSize: 15 }}>서울특별시 중구 퇴계로 324, 3층(광희동2가, 성우빌딩) · +82-2-309-3107</div></div>
               <a href={`/${locale}/contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
             </div>
             {/* FAQPage — 화면에 그리는 같은 c.faqs 배열에서 생성(1:1, I3b 2026-10-03) */}
@@ -911,7 +911,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
             <p style={{ color: ACCENT.muted, lineHeight: 1.75, marginBottom: 14 }}>{c.p3}</p>
             <ul style={{ paddingLeft: 22, marginBottom: 32 }}>{c.services.map((svc, i) => <li key={i} style={{ color: ACCENT.muted, marginBottom: 8, lineHeight: 1.65 }}>{svc}</li>)}</ul>
             <div style={{ background: ACCENT.primary, color: "#fff", borderRadius: 10, padding: "28px 32px", display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap" as const, gap: 18, marginBottom: 40 }}>
-              <div><div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div><div style={{ opacity: 0.9, fontSize: 15 }}>서울특별시 중구 퇴계로 324, 3층(광희동2가, 성우빌딩) · +82-2-363-2251</div></div>
+              <div><div style={{ fontWeight: 700, fontSize: 18, marginBottom: 6 }}>선샤인행정사사무소</div><div style={{ opacity: 0.9, fontSize: 15 }}>서울특별시 중구 퇴계로 324, 3층(광희동2가, 성우빌딩) · +82-2-309-3107</div></div>
               <a href={`/${locale}/contact`} style={{ background: "#fff", color: ACCENT.primary, padding: "11px 24px", borderRadius: 6, fontWeight: 700, fontSize: 14, textDecoration: "none", whiteSpace: "nowrap" as const }}>{c.cta}</a>
             </div>
             {/* FAQPage — 화면에 그리는 같은 c.faqs 배열에서 생성(1:1, I3b 2026-10-03) */}
