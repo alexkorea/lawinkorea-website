@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ACCENT, COMPANY } from "../lib/constants";
+import { CATALOG_LINK_LABEL } from "../lib/reco/catalog";
 
 const NAV: Record<string, {
   about: string; cases: string; process: string; blog: string; offenses: string; dispositions: string; contact: string;
@@ -97,6 +98,7 @@ export default function SiteFooter() {
               { href: `${base}/cases`, label: t.cases },
               { href: `${base}/process`, label: t.process },
               { href: `${base}/blog`, label: t.blog },
+              { href: `${base}/services`, label: CATALOG_LINK_LABEL[locale as keyof typeof CATALOG_LINK_LABEL] ?? CATALOG_LINK_LABEL.ko },
               { href: `${base}/contact`, label: t.contact },
             ].map((item) => (
               <Link key={item.href} href={item.href} style={{ color: "#94a3b8", fontSize: 13, textDecoration: "none", display: "flex", alignItems: "center", minHeight: 36 }}>

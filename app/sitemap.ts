@@ -22,6 +22,7 @@ const pages = [
   "/urgent-consultation",
   "/blog",
   "/privacy",
+  "/services", // AI-RECO-2 E-2 처리 업무 전체 목록
 ] as const;
 
 // 상세 허브 — 5로캘 모두 200·index 인데 사이트맵에서 빠져 있던 쪽(맥7 K-exec 2026-10-03, 13장 6번).

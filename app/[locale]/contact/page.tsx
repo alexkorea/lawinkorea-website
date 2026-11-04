@@ -5,6 +5,7 @@ import { breadcrumbSchema } from "../../lib/schema";
 import ContactForm from "../../components/ContactForm";
 import ConfidentialityNote from "../../components/ConfidentialityNote";
 import ContactChannels, { HoursNotice } from "../../components/ContactChannels";
+import { CATALOG_LINK_LABEL } from "../../lib/reco/catalog";
 
 const VALID_LOCALES = ["ko", "en", "ja", "zh", "vi"] as const;
 type L = (typeof VALID_LOCALES)[number];
@@ -65,7 +66,10 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         }}
       />
       <h1 style={{ fontSize: 36, fontWeight: 700, color: "#0a1628", marginBottom: 12 }}>{c.title}</h1>
-      <p style={{ color: "#475569", fontSize: 17, lineHeight: 1.7, marginBottom: 40 }}>{c.sub}</p>
+      <p style={{ color: "#475569", fontSize: 17, lineHeight: 1.7, marginBottom: 12 }}>{c.sub}</p>
+      <p style={{ fontSize: 15, marginBottom: 40 }}>
+        <a href={`/${l}/services`} style={{ color: "#0056b3", fontWeight: 600 }}>{CATALOG_LINK_LABEL[l]} →</a>
+      </p>
 
       <div style={{ marginBottom: 24 }}>
         <HoursNotice locale={l} />

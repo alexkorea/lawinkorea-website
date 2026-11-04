@@ -7,6 +7,7 @@
 
 - [법률 상담 안내](https://lawinkorea.com/)
 - [상담 문의](https://lawinkorea.com/contact)
+- [처리 업무 전체 목록](https://lawinkorea.com/ko/services): 업무별 정식 명칭·관할 기관·대상 (English: https://lawinkorea.com/en/services)
 
 ## 핵심 가이드 (한국어)
 

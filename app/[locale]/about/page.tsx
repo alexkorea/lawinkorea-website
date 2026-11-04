@@ -6,6 +6,7 @@ import { COMPANY } from "../../lib/constants";
 import ScopeBlock from "../../components/ScopeBlock";
 import HubBlogLinks from "../../components/HubBlogLinks";
 import RepresentativeCard from "../../components/RepresentativeCard";
+import { CATALOG_LINK_LABEL } from "../../lib/reco/catalog";
 
 const VALID_LOCALES = ["ko", "en", "ja", "zh", "vi"] as const;
 type L = (typeof VALID_LOCALES)[number];
@@ -253,6 +254,9 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
             </li>
           ))}
         </ul>
+        <p style={{ margin: "14px 0 0", fontSize: 15 }}>
+          <a href={`/${l}/services`} style={{ color: "#0056b3", fontWeight: 600 }}>{CATALOG_LINK_LABEL[l]} →</a>
+        </p>
       </section>
 
       <section style={{ marginBottom: 48 }}>

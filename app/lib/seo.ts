@@ -162,6 +162,33 @@ export const PAGE_SEO: Record<string, Record<Locale, Seo>> = {
         "Nếu bạn nhận được thông báo xem xét vi phạm xuất nhập cảnh, phản hồi đúng hạn sẽ quyết định kết quả. Hãy gửi tình huống qua điện thoại, email hoặc KakaoTalk — chúng tôi trả lời trong 1 giờ vào ngày làm việc.",
     },
   },
+  services: {
+    ko: {
+      title: "처리 업무 전체 목록 — 선샤인행정사사무소",
+      description:
+        "선샤인행정사사무소가 처리하는 출입국사범심사·범칙금·출국명령·출국권고·강제퇴거·입국금지·사증발급 거부 대응 등 업무를 정식 명칭, 관할 기관, 대상과 함께 한 페이지에 정리했습니다.",
+    },
+    en: {
+      title: "Full List of Services — Sunshine Administrative Agent Office",
+      description:
+        "Every immigration service Sunshine Administrative Agent Office handles — offense review, immigration fines, departure orders, deportation orders, entry bans and visa denials — with the formal name, competent authority and who it is for.",
+    },
+    zh: {
+      title: "全部办理业务一览 — Sunshine行政士事务所",
+      description:
+        "汇总Sunshine行政士事务所办理的出入境违规审查、罚款、出国命令、出国劝告、强制出境、入境禁止、签证拒签应对等业务，列出正式名称、管辖机关与适用对象。",
+    },
+    ja: {
+      title: "取扱業務一覧 — サンシャイン行政士事務所",
+      description:
+        "サンシャイン行政士事務所が取り扱う出入国事犯審査・犯則金・出国命令・出国勧告・強制退去・入国禁止・査証発給拒否への対応などの業務を、正式名称・管轄機関・対象とあわせて一覧にしました。",
+    },
+    vi: {
+      title: "Danh sách toàn bộ công việc — Law in Korea",
+      description:
+        "Tổng hợp các công việc văn phòng hành chính sĩ Sunshine xử lý: thẩm tra vi phạm xuất nhập cảnh, tiền phạt, lệnh xuất cảnh, khuyến cáo xuất cảnh, lệnh trục xuất, cấm nhập cảnh, bị từ chối thị thực — kèm tên chính thức, cơ quan có thẩm quyền và đối tượng.",
+    },
+  },
   documents: {
     ko: {
       title: "준비서류 — 출입국사범심사 제출 서류 체크리스트",

@@ -1,6 +1,7 @@
 import { Children, Fragment, cloneElement, isValidElement, type ReactElement, type ReactNode } from "react";
 import { COMPANY, SITE } from "../lib/constants";
-import { ORG_ID, inLanguage } from "../lib/schema";
+import { ORG_ID, WEBSITE_ID, inLanguage } from "../lib/schema";
+import { PAGE_LASTMOD } from "../data/page-lastmod.generated";
 import { getReco, type RecoLocale } from "../lib/reco";
 import { UNIT_PATH, type RecoUnit, type UnitKey } from "../lib/reco/types";
 
@@ -18,6 +19,8 @@ const UI: Record<RecoLocale, {
   office: string; clients: string; name: string; rep: string; scope: string; scopeValue: string;
   langs: string; address: string; phone: string; hours: string; hoursValue: string; contact: string;
   termsSetName: (s: string) => string;
+  /** AI-RECO-2 E-1 첫 화면 '어떤 상황의 고객이 의뢰하는가' 소제목 / E-4 최종 수정일 */
+  askHeading: string; updated: string;
 }> = {
   ko: {
     pick: "내 상황 고르기", glance: "한눈에 보기", situations: "상황별 질문",
@@ -27,6 +30,7 @@ const UI: Record<RecoLocale, {
     scopeValue: "출입국사범심사 대응, 범칙금·과태료 통고 대응, 출국명령·출국권고·강제퇴거 대응, 입국규제 해제 요청, 체류허가 신청 대행",
     langs: "상담 언어", address: "주소", phone: "대표전화", hours: "상담시간", hoursValue: "평일 09:30~17:30",
     contact: "상담 신청", termsSetName: (s) => `${s} 용어 설명`,
+    askHeading: "이런 상황에서 의뢰하십니다", updated: "최종 수정일",
   },
   en: {
     pick: "Find your situation", glance: "At a glance", situations: "Questions by situation",
@@ -36,6 +40,7 @@ const UI: Record<RecoLocale, {
     scopeValue: "Immigration offense review (출입국사범심사), immigration fine notices, departure orders, departure recommendations and deportation orders, requests to lift entry restrictions, and stay permit applications",
     langs: "Languages", address: "Address", phone: "Phone", hours: "Hours", hoursValue: "Weekdays 09:30–17:30 (KST)",
     contact: "Request a consultation", termsSetName: (s) => `${s} — key terms`,
+    askHeading: "Situations clients bring to us", updated: "Last updated",
   },
   zh: {
     pick: "选择我的情况", glance: "一览表", situations: "按情况分类的问题",
@@ -45,6 +50,7 @@ const UI: Record<RecoLocale, {
     scopeValue: "出入境违规审查（출입국사범심사）应对、罚款（범칙금）·过怠金通知应对、出国命令·出国劝告·强制出境应对、入境限制解除申请、滞留许可申请代办",
     langs: "咨询语言", address: "地址", phone: "电话", hours: "咨询时间", hoursValue: "工作日 09:30–17:30（韩国时间）",
     contact: "预约咨询", termsSetName: (s) => `${s} 术语说明`,
+    askHeading: "客户通常在这些情况下委托我们", updated: "最后更新",
   },
   ja: {
     pick: "自分の状況を選ぶ", glance: "早見表", situations: "状況別の質問",
@@ -54,6 +60,7 @@ const UI: Record<RecoLocale, {
     scopeValue: "出入国事犯審査（출입국사범심사）対応、反則金（범칙금）・過料の通告対応、出国命令・出国勧告・強制退去対応、入国規制解除の要請、在留許可申請の代行",
     langs: "相談言語", address: "住所", phone: "代表電話", hours: "相談時間", hoursValue: "平日 09:30–17:30（韓国時間）",
     contact: "相談を申し込む", termsSetName: (s) => `${s} 用語解説`,
+    askHeading: "このような状況でご依頼いただいています", updated: "最終更新日",
   },
   vi: {
     pick: "Chọn tình huống của bạn", glance: "Tóm tắt nhanh", situations: "Câu hỏi theo tình huống",
@@ -63,6 +70,7 @@ const UI: Record<RecoLocale, {
     scopeValue: "Ứng phó xem xét vi phạm xuất nhập cảnh (출입국사범심사), thông báo tiền phạt (범칙금)·tiền phạt hành chính, lệnh xuất cảnh·khuyến cáo xuất cảnh·lệnh trục xuất, đề nghị gỡ hạn chế nhập cảnh, đại diện nộp hồ sơ xin phép lưu trú",
     langs: "Ngôn ngữ tư vấn", address: "Địa chỉ", phone: "Điện thoại", hours: "Giờ tư vấn", hoursValue: "Ngày thường 09:30–17:30 (giờ Hàn Quốc)",
     contact: "Đăng ký tư vấn", termsSetName: (s) => `${s} — giải thích thuật ngữ`,
+    askHeading: "Khách hàng thường nhờ chúng tôi trong những tình huống này", updated: "Cập nhật lần cuối",
   },
 };
 
@@ -84,6 +92,14 @@ function absHref(href: string, locale: string, unitUrl: string) {
   return href.startsWith("#") ? `${unitUrl}${href}` : `${SITE.url}/${locale}${href}`;
 }
 
+/** E-4: 업무 페이지 최종 수정일 = 쪽 파일·데이터·단위 원고(law-*.ts)·RecoBlock 의 마지막 커밋일(prebuild page-lastmod, [lastmod-skip] 제외). 빌드일 아님. */
+export function unitModified(unit: UnitKey): string | undefined {
+  return PAGE_LASTMOD[UNIT_PATH[unit]];
+}
+
+/** E-1: 첫 화면에 보일 고객 질문 수 */
+const ASK_COUNT = 5;
+
 const h2: React.CSSProperties = { fontSize: 20, fontWeight: 700, color: C.navy, margin: "0 0 14px", lineHeight: 1.35 };
 
 export function RecoTop({ unit, locale }: { unit: UnitKey; locale: RecoLocale }) {
@@ -92,9 +108,25 @@ export function RecoTop({ unit, locale }: { unit: UnitKey; locale: RecoLocale })
   const t = UI[locale];
   return (
     <section id="reco-summary" data-reco-unit={unit} style={{ margin: "0 0 36px" }}>
+      {unitModified(unit) && (
+        <p data-last-modified style={{ fontSize: 13, color: C.muted, margin: "0 0 12px" }}>
+          {t.updated} <time dateTime={unitModified(unit)}>{unitModified(unit)}</time>
+        </p>
+      )}
       <p style={{ fontSize: 17, lineHeight: 1.8, color: "#1f2937", fontWeight: 500, margin: "0 0 28px", background: C.soft, borderLeft: `4px solid ${C.primary}`, padding: "16px 18px", borderRadius: 6 }}>
         {p.coreAnswer}
       </p>
+
+      <h2 id="client-situations" style={h2}>{t.askHeading}</h2>
+      <div style={{ margin: "0 0 28px", display: "grid", gap: 8 }}>
+        {p.situations.slice(0, ASK_COUNT).map((s) => (
+          <h3 key={s.id} style={{ margin: 0, fontSize: 15.5, fontWeight: 600, lineHeight: 1.5 }}>
+            <a href={`#${s.id}`} style={{ display: "block", background: "#fff", border: `1px solid ${C.border}`, borderRadius: 8, padding: "10px 14px", color: C.navy, textDecoration: "none" }}>
+              <span aria-hidden style={{ color: C.primary, marginRight: 6 }}>Q.</span>{s.q}
+            </a>
+          </h3>
+        ))}
+      </div>
 
       <h2 id="services" style={h2}>{p.servicesHeading}</h2>
       <ul style={{ listStyle: "none", padding: 0, margin: "0 0 28px", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: 8 }}>
@@ -234,8 +266,22 @@ export function RecoJsonLd({ unit, locale }: { unit: UnitKey; locale: RecoLocale
       inDefinedTermSet: `${url}#terms`,
     })),
   };
+  const modified = unitModified(unit);
+  const webpage = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${url}#webpage`,
+    url,
+    name: p.serviceName,
+    inLanguage: inLanguage(locale),
+    isPartOf: { "@id": WEBSITE_ID },
+    about: { "@id": `${url}#unit-service` },
+    mainEntity: { "@id": `${url}#unit-service` },
+    ...(modified ? { dateModified: modified } : {}),
+  };
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webpage) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(service) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(terms) }} />
     </>

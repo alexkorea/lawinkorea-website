@@ -6,7 +6,8 @@
  *
  * config = { "out": "lib/page-lastmod.generated.ts", "roots": ["app/[locale]"], "paths": ["", "/about", "/offenses/dui", ...],
  *            "files": { "<키>": ["lib/services-data.ts", ...] },            (선택) 키별 원천 파일 묶음
- *            "dirs": [{ "prefix": "ind:", "dir": "content/x", "re": "\\.json$" }] }  (선택) 폴더 안 파일마다 키 = prefix+파일명(확장자 뺌)
+ *            "dirs": [{ "prefix": "ind:", "dir": "content/x", "re": "\\.json$" }],  (선택) 폴더 안 파일마다 키 = prefix+파일명(확장자 뺌)
+ *            "extra": { "<path>": ["app/lib/reco/law-ko.ts", ...] } }   (선택, AI-RECO-2 E-4) 그 경로의 쪽 파일 묶음에 더할 원고 파일
  * 경로마다 쪽 파일(<root><path>/page.tsx, 없으면 부모의 [slug]/page.tsx)과 그 파일이 import 하는
  * 데이터·원고 파일(경로에 /data/ /content/ /messages/ 가 든 것, 1단계)의 마지막 커밋 날짜(KST) 중 가장 늦은 날을 쓴다.
  * 커밋 메시지에 [lastmod-skip] 이 있는 커밋은 문구 변경이 아니므로 건너뛴다(f6 build-lastmod.mjs 와 같은 약속).
@@ -67,6 +68,10 @@ for (const path of cfg.paths || []) {
   for (const m of src.matchAll(/(?:from|import)\s*\(?\s*["']([^"']+)["']/g)) {
     const f = resolveImport(file, m[1])
     if (f && CONTENT_RE.test('/' + relative(ROOT, f))) files.push(f)
+  }
+  for (const f of (cfg.extra || {})[path] || []) {
+    if (!existsSync(join(ROOT, f))) { errors.push(`extra 파일 없음: ${path} ${f}`); continue }
+    files.push(join(ROOT, f))
   }
   const d = gitDate(files.map((f) => relative(ROOT, f)))
   if (!/^\d{4}-\d{2}-\d{2}$/.test(d)) { errors.push(`커밋 날짜 없음: ${path} (${relative(ROOT, file)})`); continue }

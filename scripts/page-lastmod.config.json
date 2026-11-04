@@ -19,6 +19,7 @@
   "/urgent-consultation",
   "/blog",
   "/privacy",
+  "/services",
   "/offenses/dui",
   "/offenses/drugs",
   "/dispositions/entry-ban",
@@ -36,5 +37,169 @@
   "/situations/immigration-summons",
   "/situations/family-in-detention",
   "/situations/departure-order-received"
- ]
+ ],
+ "extra": {
+  "/immigration-offense-review": [
+   "app/lib/reco/law-ko.ts",
+   "app/lib/reco/law-en.ts",
+   "app/lib/reco/law-zh.ts",
+   "app/lib/reco/law-ja.ts",
+   "app/lib/reco/law-vi.ts",
+   "app/lib/reco/types.ts",
+   "app/components/RecoBlock.tsx"
+  ],
+  "/fines": [
+   "app/lib/reco/law-ko.ts",
+   "app/lib/reco/law-en.ts",
+   "app/lib/reco/law-zh.ts",
+   "app/lib/reco/law-ja.ts",
+   "app/lib/reco/law-vi.ts",
+   "app/lib/reco/types.ts",
+   "app/components/RecoBlock.tsx"
+  ],
+  "/offenses/dui": [
+   "app/lib/reco/law-ko.ts",
+   "app/lib/reco/law-en.ts",
+   "app/lib/reco/law-zh.ts",
+   "app/lib/reco/law-ja.ts",
+   "app/lib/reco/law-vi.ts",
+   "app/lib/reco/types.ts",
+   "app/components/RecoBlock.tsx"
+  ],
+  "/offenses/drugs": [
+   "app/lib/reco/law-ko.ts",
+   "app/lib/reco/law-en.ts",
+   "app/lib/reco/law-zh.ts",
+   "app/lib/reco/law-ja.ts",
+   "app/lib/reco/law-vi.ts",
+   "app/lib/reco/types.ts",
+   "app/components/RecoBlock.tsx"
+  ],
+  "/offenses/assault": [
+   "app/lib/reco/law-ko.ts",
+   "app/lib/reco/law-en.ts",
+   "app/lib/reco/law-zh.ts",
+   "app/lib/reco/law-ja.ts",
+   "app/lib/reco/law-vi.ts",
+   "app/lib/reco/types.ts",
+   "app/components/RecoBlock.tsx"
+  ],
+  "/offenses/sexual-offense": [
+   "app/lib/reco/law-ko.ts",
+   "app/lib/reco/law-en.ts",
+   "app/lib/reco/law-zh.ts",
+   "app/lib/reco/law-ja.ts",
+   "app/lib/reco/law-vi.ts",
+   "app/lib/reco/types.ts",
+   "app/components/RecoBlock.tsx"
+  ],
+  "/offenses/property-crime": [
+   "app/lib/reco/law-ko.ts",
+   "app/lib/reco/law-en.ts",
+   "app/lib/reco/law-zh.ts",
+   "app/lib/reco/law-ja.ts",
+   "app/lib/reco/law-vi.ts",
+   "app/lib/reco/types.ts",
+   "app/components/RecoBlock.tsx"
+  ],
+  "/offenses/voice-phishing": [
+   "app/lib/reco/law-ko.ts",
+   "app/lib/reco/law-en.ts",
+   "app/lib/reco/law-zh.ts",
+   "app/lib/reco/law-ja.ts",
+   "app/lib/reco/law-vi.ts",
+   "app/lib/reco/types.ts",
+   "app/components/RecoBlock.tsx"
+  ],
+  "/offenses/unauthorized-employment": [
+   "app/lib/reco/law-ko.ts",
+   "app/lib/reco/law-en.ts",
+   "app/lib/reco/law-zh.ts",
+   "app/lib/reco/law-ja.ts",
+   "app/lib/reco/law-vi.ts",
+   "app/lib/reco/types.ts",
+   "app/components/RecoBlock.tsx"
+  ],
+  "/offenses/overstay": [
+   "app/lib/reco/law-ko.ts",
+   "app/lib/reco/law-en.ts",
+   "app/lib/reco/law-zh.ts",
+   "app/lib/reco/law-ja.ts",
+   "app/lib/reco/law-vi.ts",
+   "app/lib/reco/types.ts",
+   "app/components/RecoBlock.tsx"
+  ],
+  "/offenses/false-documents": [
+   "app/lib/reco/law-ko.ts",
+   "app/lib/reco/law-en.ts",
+   "app/lib/reco/law-zh.ts",
+   "app/lib/reco/law-ja.ts",
+   "app/lib/reco/law-vi.ts",
+   "app/lib/reco/types.ts",
+   "app/components/RecoBlock.tsx"
+  ],
+  "/dispositions/deportation-order": [
+   "app/lib/reco/law-ko.ts",
+   "app/lib/reco/law-en.ts",
+   "app/lib/reco/law-zh.ts",
+   "app/lib/reco/law-ja.ts",
+   "app/lib/reco/law-vi.ts",
+   "app/lib/reco/types.ts",
+   "app/components/RecoBlock.tsx"
+  ],
+  "/dispositions/departure-order": [
+   "app/lib/reco/law-ko.ts",
+   "app/lib/reco/law-en.ts",
+   "app/lib/reco/law-zh.ts",
+   "app/lib/reco/law-ja.ts",
+   "app/lib/reco/law-vi.ts",
+   "app/lib/reco/types.ts",
+   "app/components/RecoBlock.tsx"
+  ],
+  "/dispositions/departure-recommendation": [
+   "app/lib/reco/law-ko.ts",
+   "app/lib/reco/law-en.ts",
+   "app/lib/reco/law-zh.ts",
+   "app/lib/reco/law-ja.ts",
+   "app/lib/reco/law-vi.ts",
+   "app/lib/reco/types.ts",
+   "app/components/RecoBlock.tsx"
+  ],
+  "/dispositions/entry-ban": [
+   "app/lib/reco/law-ko.ts",
+   "app/lib/reco/law-en.ts",
+   "app/lib/reco/law-zh.ts",
+   "app/lib/reco/law-ja.ts",
+   "app/lib/reco/law-vi.ts",
+   "app/lib/reco/types.ts",
+   "app/components/RecoBlock.tsx"
+  ],
+  "/dispositions/visa-denial": [
+   "app/lib/reco/law-ko.ts",
+   "app/lib/reco/law-en.ts",
+   "app/lib/reco/law-zh.ts",
+   "app/lib/reco/law-ja.ts",
+   "app/lib/reco/law-vi.ts",
+   "app/lib/reco/types.ts",
+   "app/components/RecoBlock.tsx"
+  ],
+  "/visa-impact": [
+   "app/lib/reco/law-ko.ts",
+   "app/lib/reco/law-en.ts",
+   "app/lib/reco/law-zh.ts",
+   "app/lib/reco/law-ja.ts",
+   "app/lib/reco/law-vi.ts",
+   "app/lib/reco/types.ts",
+   "app/components/RecoBlock.tsx"
+  ],
+  "/services": [
+   "app/lib/reco/law-ko.ts",
+   "app/lib/reco/law-en.ts",
+   "app/lib/reco/law-zh.ts",
+   "app/lib/reco/law-ja.ts",
+   "app/lib/reco/law-vi.ts",
+   "app/lib/reco/types.ts",
+   "app/lib/reco/catalog.ts"
+  ]
+ }
 }
