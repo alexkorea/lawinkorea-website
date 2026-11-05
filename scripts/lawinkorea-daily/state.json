@@ -376,6 +376,19 @@
       ],
       "at": "2026-11-04T10:06:00.818Z",
       "batch": "BANK-REFILL-1029"
+    },
+    {
+      "slug": "departure-deadline-deferral-guide",
+      "date": "2026-11-05",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-11-05T10:06:52.837Z",
+      "batch": "BANK-REFILL-1029"
     }
   ],
   "rejected": []
