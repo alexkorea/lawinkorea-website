@@ -91,5 +91,7 @@
   "points-system-immigration-violation-deduction": { "pexels_id": 590022, "author": "Lukas Blazek",
     "alt": { "ko": "펜을 든 손이 차트가 인쇄된 종이를 점검하는 모습", "en": "Hand with a pen reviewing charts printed on paper", "zh": "手持笔查看纸上图表", "ja": "ペンを持った手が紙のグラフを確認している様子", "vi": "Bàn tay cầm bút xem biểu đồ in trên giấy" } },
   "departure-deadline-deferral-guide": { "pexels_id": 17947934, "author": "Sam Tan",
-    "alt": { "ko": "공항 창가에 여행 가방과 함께 앉아 있는 사람의 실루엣", "en": "Silhouette of a person sitting by an airport window with a suitcase", "zh": "坐在机场窗边、身旁放着行李箱的人影", "ja": "空港の窓辺でスーツケースとともに座る人のシルエット", "vi": "Bóng người ngồi cạnh cửa sổ sân bay cùng vali" } }
+    "alt": { "ko": "공항 창가에 여행 가방과 함께 앉아 있는 사람의 실루엣", "en": "Silhouette of a person sitting by an airport window with a suitcase", "zh": "坐在机场窗边、身旁放着行李箱的人影", "ja": "空港の窓辺でスーツケースとともに座る人のシルエット", "vi": "Bóng người ngồi cạnh cửa sổ sân bay cùng vali" } },
+  "detention-temporary-release-guide": { "pexels_id": 9663847, "author": "Malcolm Garret",
+    "alt": { "ko": "어두운 방 안으로 자연광이 들어오는 열린 문", "en": "Open door letting natural light into a dark room", "zh": "让自然光照进昏暗房间的敞开的门", "ja": "暗い部屋に自然光が差し込む開いたドア", "vi": "Cánh cửa mở cho ánh sáng tự nhiên vào căn phòng tối" } }
 }

@@ -389,6 +389,19 @@
       ],
       "at": "2026-11-05T10:06:52.837Z",
       "batch": "BANK-REFILL-1029"
+    },
+    {
+      "slug": "detention-temporary-release-guide",
+      "date": "2026-11-06",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-11-06T10:06:06.654Z",
+      "batch": "BANK-REFILL-1029"
     }
   ],
   "rejected": []
