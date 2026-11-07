@@ -93,5 +93,7 @@
   "departure-deadline-deferral-guide": { "pexels_id": 17947934, "author": "Sam Tan",
     "alt": { "ko": "공항 창가에 여행 가방과 함께 앉아 있는 사람의 실루엣", "en": "Silhouette of a person sitting by an airport window with a suitcase", "zh": "坐在机场窗边、身旁放着行李箱的人影", "ja": "空港の窓辺でスーツケースとともに座る人のシルエット", "vi": "Bóng người ngồi cạnh cửa sổ sân bay cùng vali" } },
   "detention-temporary-release-guide": { "pexels_id": 9663847, "author": "Malcolm Garret",
-    "alt": { "ko": "어두운 방 안으로 자연광이 들어오는 열린 문", "en": "Open door letting natural light into a dark room", "zh": "让自然光照进昏暗房间的敞开的门", "ja": "暗い部屋に自然光が差し込む開いたドア", "vi": "Cánh cửa mở cho ánh sáng tự nhiên vào căn phòng tối" } }
+    "alt": { "ko": "어두운 방 안으로 자연광이 들어오는 열린 문", "en": "Open door letting natural light into a dark room", "zh": "让自然光照进昏暗房间的敞开的门", "ja": "暗い部屋に自然光が差し込む開いたドア", "vi": "Cánh cửa mở cho ánh sáng tự nhiên vào căn phòng tối" } },
+  "harboring-illegal-resident-penalty": { "pexels_id": 5485767, "author": "cottonbro studio",
+    "alt": { "ko": "하얀 나무 문 열쇠구멍에 꽂힌 오래된 열쇠", "en": "Old key in the keyhole of a white wooden door", "zh": "白色木门锁孔中的旧钥匙", "ja": "白い木のドアの鍵穴に差し込まれた古い鍵", "vi": "Chiếc chìa khóa cũ trong ổ khóa cửa gỗ màu trắng" } }
 }

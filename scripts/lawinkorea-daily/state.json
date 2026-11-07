@@ -402,6 +402,19 @@
       ],
       "at": "2026-11-06T10:06:06.654Z",
       "batch": "BANK-REFILL-1029"
+    },
+    {
+      "slug": "harboring-illegal-resident-penalty",
+      "date": "2026-11-07",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-11-07T10:05:51.223Z",
+      "batch": "BANK-REFILL-1029"
     }
   ],
   "rejected": []
