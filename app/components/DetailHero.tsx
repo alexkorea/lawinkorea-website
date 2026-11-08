@@ -8,7 +8,23 @@ import { HOME_CARD_ALT, HOME_CARD_PHOTOS, OFFENSES_CARD_PHOTOS, type CardPhoto }
 // 사진은 이미 있는 480·960 webp 만 쓴다(새 파일 없음). 첫 화면 이미지라 lazy 아님.
 type AnyEl = ReactElement<{ children?: ReactNode; style?: Record<string, unknown> }>;
 
+// QA1108-F4-LAW 4(맥7 2026-11-08): 960px 히어로가 PC(필요 1,354px)에서 흐렸던 두 쪽만 1600px 원본 전용 사진으로.
+// 옛 사진은 글자가 많아(단속 표지판·출발 안내판) 새 Pexels 사진(미사용 ID, OCR 0)으로 바꿨다. 허브 카드 사진은 그대로.
+type HiresHero = CardPhoto & { hires: true };
+const HIRES_HEROES: Record<string, { file: string; alt: Record<string, string> }> = {
+  "offenses/dui": {
+    file: "dui-hero-silhouette-car-10975618",
+    alt: { ko: "운전석에서 병째 술을 마시는 사람의 실루엣", en: "Silhouette of a person drinking from a bottle in the driver's seat", ja: "運転席で瓶から酒を飲む人のシルエット", zh: "在驾驶座上对瓶饮酒的人的剪影", vi: "Bóng người uống rượu từ chai ở ghế lái" },
+  },
+  "dispositions/departure-order": {
+    file: "departure-hero-sunset-plane-10357472",
+    alt: { ko: "노을 진 하늘을 나는 여객기 실루엣", en: "Silhouette of a passenger plane against a sunset sky", ja: "夕焼け空を飛ぶ旅客機のシルエット", zh: "晚霞中飞行的客机剪影", vi: "Bóng máy bay chở khách trên nền trời hoàng hôn" },
+  },
+};
+
 export function heroPhotoFor(kind: "offenses" | "dispositions", slug: string, locale: string): CardPhoto | null {
+  const hi = HIRES_HEROES[`${kind}/${slug}`];
+  if (hi) return { file: hi.file, alt: hi.alt[locale] ?? "", hires: true } as HiresHero;
   if (kind === "offenses") {
     const key = slug === "immigration-fines" ? "/ko/fines" : `/ko/offenses/${slug}`;
     const p = OFFENSES_CARD_PHOTOS[key];
@@ -24,11 +40,12 @@ export function heroPhotoFor(kind: "offenses" | "dispositions", slug: string, lo
 
 function Hero({ photo }: { photo: CardPhoto }) {
   const base = `/cards/${photo.file}`;
+  const hires = (photo as Partial<HiresHero>).hires === true;
   return (
     <figure style={{ margin: "0 0 28px" }}>
       <img
-        src={`${base}-960.webp`}
-        srcSet={`${base}-480.webp 480w, ${base}-960.webp 960w`}
+        src={`${base}-${hires ? 1600 : 960}.webp`}
+        srcSet={`${base}-480.webp 480w, ${base}-960.webp 960w${hires ? `, ${base}-1600.webp 1600w` : ""}`}
         sizes="(max-width: 848px) calc(100vw - 48px), 752px"
         width={960}
         height={400}

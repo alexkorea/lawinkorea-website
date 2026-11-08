@@ -36,7 +36,7 @@ export const SITUATION_TARGETS: { path: string; icon: string }[] = [
   { path: "/dispositions/departure-order", icon: "departure" }, // 출국명령
   { path: "/dispositions/deportation-order", icon: "deportation" }, // 강제퇴거·입국금지
   { path: "/offenses/unauthorized-employment", icon: "work" }, // 불법취업·자격 외 활동
-  { path: "/offenses/unauthorized-employment", icon: "employer" }, // 외국인 고용 사업주(고용주 처벌 포함)
+  { path: "/blog/illegal-employer-penalty", icon: "employer" }, // 외국인 고용 사업주 → 사업주 처벌 글(QA1108-F4-LAW 2, 맥7 11-08: 근로자용 offenses/unauthorized-employment 에서 변경)
 ];
 
 export const MORE_LABEL: Record<string, string> = { ko: "자세히 보기 →", en: "Learn more →", ja: "詳しく見る →", zh: "查看详情 →", vi: "Xem chi tiết →" };

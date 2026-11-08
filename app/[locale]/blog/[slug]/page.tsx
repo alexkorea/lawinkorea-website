@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { ACCENT, COMPANY, SITE } from "../../../lib/constants";
 import { getBlogPostData, getBlogPostsByLocale, getLocalesForSlug } from "../../../data/blog-posts-data";
 import { alternatesFor } from "../../../lib/seo";
-import { EXTERNAL_HEADING, splitExternalLinksWithFaq } from "../../../lib/external-links";
+import { EXTERNAL_HEADING, EXT_LINKS_FOLD_SLUGS, splitExternalLinksWithFaq } from "../../../lib/external-links";
 import { breadcrumbSchema, faqSchema, inLanguage, ORG_ID, PERSON_ID } from "../../../lib/schema";
 
 export const dynamicParams = false;
@@ -427,7 +427,24 @@ export default async function LocaleBlogPost({ params }: { params: Promise<Param
           </section>
         )}
 
-        {externalLinks.length > 0 && (
+        {externalLinks.length > 0 && EXT_LINKS_FOLD_SLUGS.has(slug) && (
+          // QA1108-F4-LAW 3(맥7 11-08): 이 글은 외부 링크를 글 맨 끝 '접기' 안에 둔다(체류시간 규칙). 다른 글은 승인 후 확대.
+          <section data-ext-links="fold" style={{ marginTop: 48, paddingTop: 24, borderTop: `1px solid ${ACCENT.border}` }}>
+            <details>
+              <summary style={{ fontSize: 15, fontWeight: 700, color: ACCENT.navy, cursor: "pointer", minHeight: 44, display: "flex", alignItems: "center" }}>{EXTERNAL_HEADING[locale as LocaleParam]}</summary>
+              <ul style={{ listStyle: "none", padding: 0, margin: "4px 0 0" }}>
+                {externalLinks.map((x) => (
+                  <li key={x.url}>
+                    <a href={x.url} target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", minHeight: 44, fontSize: 14, color: ACCENT.primary }}>
+                      {x.label} ↗
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </details>
+          </section>
+        )}
+        {externalLinks.length > 0 && !EXT_LINKS_FOLD_SLUGS.has(slug) && (
           <section style={{ marginTop: 48, paddingTop: 24, borderTop: `1px solid ${ACCENT.border}` }}>
             <h2 style={{ fontSize: 15, fontWeight: 700, color: ACCENT.navy, margin: "0 0 8px" }}>{EXTERNAL_HEADING[locale as LocaleParam]}</h2>
             <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>

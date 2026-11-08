@@ -36,6 +36,9 @@ export const EXTERNAL_HEADING: Record<Loc, string> = {
 
 const STOP: Record<Loc, string> = { ko: ".", en: ".", ja: "。", zh: "。", vi: "." };
 
+// QA1108-F4-LAW 3(맥7 2026-11-08): 외부 링크 목록을 글 맨 끝 접기(<details>) 안에 넣는 글. 지시받은 글만 — 다른 글 확대는 승인 후보.
+export const EXT_LINKS_FOLD_SLUGS = new Set<string>(["student-part-time-work-permit-hours"]);
+
 export type ExternalLink = { label: string; url: string };
 
 const hostOf = (url: string) => new URL(url).hostname.replace(/^www\./, "");
