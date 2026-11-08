@@ -46,7 +46,7 @@ export const MESSENGER_TEXT: Record<
 // href = QR 이미지 디코드 값 그대로(BEYE-1008-FIX #14, 이미지 바이트 무변경). whatsapp.jpg 는 QR 이 아니라 그림이라 디코드 값 없음.
 export const MESSENGER_QR: { key: string; src: string; label: string; width: number; height: number; href: string | null }[] = [
   { key: "kakao", src: "/qr/kakao.jpg", label: "kakao" as const, width: 300, height: 290, href: "http://qr.kakao.com/talk/CWF_29N7_JX5HWDsv1B5JmMcoXE-" },
-  { key: "line", src: "/qr/line.jpg", label: "LINE", width: 150, height: 150, href: "https://line.me/ti/p/sCj883thak" },
+  { key: "line", src: "/qr/line-20261108-765.jpg", label: "LINE", width: 150, height: 150, href: "https://line.me/ti/p/sCj883thak" },
   { key: "wechat", src: "/qr/wechat.jpg", label: "WeChat", width: 300, height: 300, href: "https://u.wechat.com/IAiTg5y9w0856GlBt3zMfqw" },
   { key: "whatsapp", src: "/qr/whatsapp.jpg", label: "WhatsApp", width: 300, height: 300, href: null },
 ];
