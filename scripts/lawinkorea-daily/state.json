@@ -415,6 +415,19 @@
       ],
       "at": "2026-11-07T10:05:51.223Z",
       "batch": "BANK-REFILL-1029"
+    },
+    {
+      "slug": "pr-card-validity-renewal-penalty",
+      "date": "2026-11-08",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-11-08T10:07:41.739Z",
+      "batch": "BANK-REFILL-1029"
     }
   ],
   "rejected": []

@@ -95,5 +95,7 @@
   "detention-temporary-release-guide": { "pexels_id": 9663847, "author": "Malcolm Garret",
     "alt": { "ko": "어두운 방 안으로 자연광이 들어오는 열린 문", "en": "Open door letting natural light into a dark room", "zh": "让自然光照进昏暗房间的敞开的门", "ja": "暗い部屋に自然光が差し込む開いたドア", "vi": "Cánh cửa mở cho ánh sáng tự nhiên vào căn phòng tối" } },
   "harboring-illegal-resident-penalty": { "pexels_id": 5485767, "author": "cottonbro studio",
-    "alt": { "ko": "하얀 나무 문 열쇠구멍에 꽂힌 오래된 열쇠", "en": "Old key in the keyhole of a white wooden door", "zh": "白色木门锁孔中的旧钥匙", "ja": "白い木のドアの鍵穴に差し込まれた古い鍵", "vi": "Chiếc chìa khóa cũ trong ổ khóa cửa gỗ màu trắng" } }
+    "alt": { "ko": "하얀 나무 문 열쇠구멍에 꽂힌 오래된 열쇠", "en": "Old key in the keyhole of a white wooden door", "zh": "白色木门锁孔中的旧钥匙", "ja": "白い木のドアの鍵穴に差し込まれた古い鍵", "vi": "Chiếc chìa khóa cũ trong ổ khóa cửa gỗ màu trắng" } },
+  "pr-card-validity-renewal-penalty": { "pexels_id": 6170644, "author": "RDNE Stock project",
+    "alt": { "ko": "책상 위 달력에 날짜를 적는 손", "en": "Hand writing a date on a desk calendar", "zh": "在桌上日历上写日期的手", "ja": "机の上のカレンダーに日付を書く手", "vi": "Bàn tay ghi ngày lên lịch để bàn" } }
 }
