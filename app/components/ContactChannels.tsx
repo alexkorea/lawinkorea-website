@@ -32,6 +32,10 @@ export function HoursNotice({ locale, tone = "light" }: { locale: ContactLocale;
 
 // 메신저(WhatsApp 바로가기 + 카카오톡·LINE·WeChat·WhatsApp QR) · 전화 · 이메일 — LAW-V1b 2·7.
 // visaskorea.com 과 같은 계정. '채널을 검색하세요' 류 안내는 쓰지 않는다.
+// LINEQR-SIZE(11-08 보스 5765 ②): 보스 LINE 원본(무늬 77.5%, 흰 여백)을 옆 QR(무늬 93~95%)과 같은 무늬 크기로.
+// 칸이 격자 폭(minmax 120px)에 묶여 칸을 키울 자리가 없어, 같은 칸 안에서 1.25배로 보이고 칸 밖 흰 여백만 clip-path 로 가린다. 이미지 파일은 그대로.
+const LINE_FIT = { transform: "scale(1.25)", clipPath: "inset(10%)" } as const;
+
 export default function ContactChannels({ locale, showEmail = true }: { locale: ContactLocale; showEmail?: boolean }) {
   const t = MESSENGER_TEXT[locale];
   const phoneLabel = locale === "ko" ? COMPANY.phone : COMPANY.phoneIntl;
@@ -77,7 +81,7 @@ export default function ContactChannels({ locale, showEmail = true }: { locale: 
                   height={q.height}
                   loading="lazy"
                   decoding="async"
-                  style={{ width: "100%", maxWidth: 140, height: "auto", display: "block", margin: "0 auto 6px" }}
+                  style={{ width: "100%", maxWidth: 140, height: "auto", display: "block", margin: "0 auto 6px", ...(q.key === "line" ? LINE_FIT : null) }}
                 />
                   <span style={{ fontSize: 13, fontWeight: 600, color: "#0a1628" }}>{label}</span>
                 </a>
@@ -90,7 +94,7 @@ export default function ContactChannels({ locale, showEmail = true }: { locale: 
                   height={q.height}
                   loading="lazy"
                   decoding="async"
-                  style={{ width: "100%", maxWidth: 140, height: "auto", display: "block", margin: "0 auto 6px" }}
+                  style={{ width: "100%", maxWidth: 140, height: "auto", display: "block", margin: "0 auto 6px", ...(q.key === "line" ? LINE_FIT : null) }}
                 />
                   <span style={{ fontSize: 13, fontWeight: 600, color: "#0a1628" }}>{label}</span>
                 </>
