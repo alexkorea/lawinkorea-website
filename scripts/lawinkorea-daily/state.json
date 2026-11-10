@@ -441,6 +441,19 @@
       ],
       "at": "2026-11-09T10:10:08.835Z",
       "batch": "BANK-REFILL-1029"
+    },
+    {
+      "slug": "departure-order-vs-deportation-deadline",
+      "date": "2026-11-10",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-11-10T10:09:07.386Z",
+      "batch": "BANK-REFILL-1029"
     }
   ],
   "rejected": []
