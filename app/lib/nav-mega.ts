@@ -25,6 +25,8 @@ export const MEGA_ITEMS: Record<MegaGroupKey, { slug: string; t: Record<MegaLoc,
     { slug: "false-documents", t: { ko: "허위서류와 허위신고", en: "False & Forged Documents", ja: "書類偽造・変造", zh: "文件伪造·变造", vi: "Tài liệu giả mạo" } },
   ],
   dispositions: [
+    // EYE1111-5(맥7 11-11): 허브 처분 비교 순서대로 출국권고를 출국명령 앞에. 라벨 = 상세 H1 앞말(5로캘)
+    { slug: "departure-recommendation", t: { ko: "출국권고", en: "Departure Recommendation", ja: "出国勧告", zh: "出境建议", vi: "Khuyến nghị xuất cảnh" } },
     { slug: "departure-order", t: { ko: "출국명령", en: "Departure Order", ja: "出国命令", zh: "出境命令", vi: "Lệnh xuất cảnh" } },
     { slug: "deportation-order", t: { ko: "강제퇴거", en: "Deportation Order", ja: "強制退去", zh: "强制驱逐", vi: "Lệnh trục xuất" } },
     { slug: "visa-denial", t: { ko: "사증발급거부", en: "Visa Denial", ja: "査証発給拒否", zh: "签证发放拒绝", vi: "Từ chối cấp thị thực" } },

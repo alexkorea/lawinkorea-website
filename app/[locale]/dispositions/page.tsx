@@ -139,7 +139,8 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               { t: "출국명령", d: "출국을 명하는 처분으로, 기한과 재입국 영향을 확인해야 합니다.", href: "/ko/dispositions/departure-order" },
               { t: "강제퇴거명령", d: "강제로 출국시키는 처분. 보호와 함께 이루어질 수 있습니다.", href: "/ko/dispositions/deportation-order" },
               { t: "보호 및 보호의 일시해제", d: "강제퇴거 절차 중 신병 확보를 위한 처분입니다.", href: null },
-              { t: "체류기간 연장 불허 / 변경 불허", d: "신청에 대한 거부 처분. 재신청·구제 가능 여부를 확인합니다.", href: "/ko/dispositions/visa-denial" },
+              { t: "체류기간 연장 불허 / 변경 불허", d: "신청에 대한 거부 처분. 재신청·구제 가능 여부를 확인합니다.", href: null },
+              { t: "사증발급거부", d: "비자(사증) 신청이 거부된 경우입니다. 거부 사유와 이의신청·재신청 방법을 확인합니다.", href: "/ko/dispositions/visa-denial" },
               { t: "체류허가(자격) 취소", d: "이미 부여된 체류자격이 취소될 수 있는 처분입니다.", href: null },
               { t: "입국금지 및 사증발급 거절", d: "재입국과 비자 신청에 영향을 줍니다.", href: "/ko/dispositions/entry-ban" },
             ].map((item) => (
@@ -212,7 +213,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               { t: "출국권고의 의미와 기한", href: "/ko/dispositions/departure-recommendation" },
               { t: "출국명령의 의미와 대응", href: "/ko/dispositions/departure-order" },
               { t: "강제퇴거명령과 행정구제", href: "/ko/dispositions/deportation-order" },
-              { t: "비자 연장·변경 불허 대응", href: "/ko/dispositions/visa-denial" },
+              { t: "사증발급거부 대응", href: "/ko/dispositions/visa-denial" },
               { t: "입국금지와 재입국 준비", href: "/ko/dispositions/entry-ban" },
               { t: "사범심사가 무엇인지 확인", href: "/ko/immigration-offense-review" },
             ].map((item) => (
