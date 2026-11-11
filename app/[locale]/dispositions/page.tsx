@@ -142,7 +142,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               { t: "체류기간 연장 불허 / 변경 불허", d: "신청에 대한 거부 처분. 재신청·구제 가능 여부를 확인합니다.", href: null },
               { t: "사증발급거부", d: "비자(사증) 신청이 거부된 경우입니다. 거부 사유와 이의신청·재신청 방법을 확인합니다.", href: "/ko/dispositions/visa-denial" },
               { t: "체류허가(자격) 취소", d: "이미 부여된 체류자격이 취소될 수 있는 처분입니다.", href: null },
-              { t: "입국금지 및 사증발급 거절", d: "재입국과 비자 신청에 영향을 줍니다.", href: "/ko/dispositions/entry-ban" },
+              { t: "입국금지", d: "재입국과 비자 신청에 영향을 줍니다.", href: "/ko/dispositions/entry-ban" },
             ].map((item) => (
               item.href ? (
                 <a key={item.t} href={item.href} style={{ display: "block", background: "#fff", border: "1px solid #e2e8f0", borderRadius: 8, padding: "20px", textDecoration: "none" }}>
