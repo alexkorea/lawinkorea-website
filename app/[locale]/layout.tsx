@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { siteGraph } from "../lib/schema";
-import { ROOT_OPEN_GRAPH, siteOgImages } from "../lib/seo";
+import { ROOT_OPEN_GRAPH, hreflangOf, siteOgImages } from "../lib/seo";
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
 import HtmlShell from "../components/HtmlShell";
@@ -35,7 +35,7 @@ export async function generateMetadata({
     // openGraph 는 얕게 덮어써지므로 값은 ROOT_OPEN_GRAPH 단일 원천에서 가져온다.
     openGraph: { ...ROOT_OPEN_GRAPH, images: siteOgImages(locale) },
     other: {
-      "content-language": locale,
+      "content-language": hreflangOf(locale),
     },
   };
 }
