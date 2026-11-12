@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import HubBlogLinks, { HUB_POSTS, appendToMain } from "../../../components/HubBlogLinks";
 import { fineLabels, finesFor, FINE_TIER_COUNT } from "../../../lib/fines";
-import { alternatesFor, brandTitle, ogFor } from "../../../lib/seo";
+import { alternatesFor, brandTitle, hreflangOf, ogFor } from "../../../lib/seo";
 import { breadcrumbSchema, faqSchema } from "../../../lib/schema";
 import type { Metadata } from "next";
 import { withReco } from "../../../components/RecoBlock";
@@ -462,7 +462,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
       };
       const c = t[l] || t.ko;
       return (
-        <main lang={l} style={{ background: A.bg, minHeight: "100vh", wordBreak: l === "ko" ? "keep-all" : "normal" }}>
+        <main lang={hreflangOf(l)} style={{ background: A.bg, minHeight: "100vh", wordBreak: l === "ko" ? "keep-all" : "normal" }}>
           <div style={{ maxWidth: 900, margin: "0 auto", padding: "48px 24px 80px" }}>
             <div style={{ fontSize: 12, fontWeight: 600, letterSpacing: "0.08em", textTransform: "uppercase" as const, color: A.primary, marginBottom: 8 }}>{c.tag}</div>
             <h1 style={{ fontSize: "clamp(22px, 3vw, 34px)", fontWeight: 700, color: A.navy, lineHeight: 1.25, marginBottom: 18 }}>{c.h1}</h1>

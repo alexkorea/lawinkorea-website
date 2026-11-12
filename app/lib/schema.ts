@@ -1,5 +1,6 @@
 import { COMPANY, SITE } from "./constants";
 import type { Locale } from "./content";
+import { hreflangOf } from "./seo";
 
 export const ORG_ID = `${SITE.url}/#organization`;
 export const PERSON_ID = `${SITE.url}/#representative`;
@@ -8,7 +9,7 @@ export const WEBSITE_ID = `${SITE.url}/#website`;
 const IN_LANGUAGE: Record<string, string> = {
   ko: "ko-KR",
   en: "en-US",
-  zh: "zh-CN",
+  zh: hreflangOf("zh"), // hreflang 단일 원천(seo.ts HREFLANG) — zh-Hans
   ja: "ja-JP",
   vi: "vi-VN",
 };

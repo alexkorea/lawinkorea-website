@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { withReco } from "../../components/RecoBlock";
-import { alternatesFor, OG_LOCALE, ogFor } from "../../lib/seo";
+import { alternatesFor, hreflangOf, OG_LOCALE, ogFor } from "../../lib/seo";
 import { SITE, ACCENT } from "../../lib/constants";
 import {
   FINES,
@@ -152,7 +152,7 @@ async function PageBody({ params }: { params: Promise<{ locale: string }> }) {
         url,
         name: L.seo.title,
         description: L.seo.description,
-        inLanguage: l,
+        inLanguage: hreflangOf(l),
         isPartOf: { "@type": "WebSite", url: SITE.url, name: "Law in Korea" },
         dateModified: FINES.checkedOn,
         primaryImageOfPage: `${SITE.url}/og/fines-${l}.png`,
@@ -170,7 +170,7 @@ async function PageBody({ params }: { params: Promise<{ locale: string }> }) {
   };
 
   return (
-    <main lang={l} style={{ background: A.bg, minHeight: "100vh", wordBreak: l === "ko" ? "keep-all" : "normal" }}>
+    <main lang={hreflangOf(l)} style={{ background: A.bg, minHeight: "100vh", wordBreak: l === "ko" ? "keep-all" : "normal" }}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <div style={{ maxWidth: 900, margin: "0 auto", padding: "28px 18px 80px" }}>
         <nav aria-label="breadcrumb" style={{ fontSize: 13, color: A.muted, marginBottom: 14 }}>
