@@ -26,6 +26,12 @@ type SlugContent = {
 
 // EYE1027-FIX(맥7 2026-10-28) — /ko/offenses/dui 보강: 준비서류·반성문 작성 요령·관련 글. 외국어판은 EYE1027-FIX-2 에서 같은 내용으로 맞춤(DUI_EXTRA).
 // 사실은 도로교통법(0.03%·측정거부·10년 내 재범·면허 취소), 출입국관리법(금고 이상 강제퇴거), 체류 매뉴얼(F-4 제한·E-7 기능인력)과 대조했다.
+// KW-GAP(2026-11-12, 맥7→mac4) — ko immigration-fines 에 '통고처분' 소제목 1개. 출입국관리법 제101조·제102조·제105조·제106조 원문과 대조. 화면에 출처 표시 금지.
+const IMM_NOTICE_KO = {
+  title: "출입국관리법 통고처분 — 범칙금 납부 기한과 미납 시 절차",
+  body: "지방출입국·외국인관서의 장은 조사 결과 위반 사실을 확인하면 벌금에 상당하는 금액인 범칙금을 지정한 곳에 내라고 통고서로 서면 통지합니다. 통고서를 송달받으면 15일 이내에 범칙금을 내야 하며, 이 기간에 내지 않으면 관서의 장이 고발하게 되고 고발 전에 내면 고발하지 않습니다. 통고한 대로 범칙금을 내면 같은 사건으로 다시 처벌받지 않으며, 강제퇴거 여부는 이와 별도로 심사됩니다. 다만 금고 이상의 형에 해당할 것으로 인정되는 사건은 범칙금 통지 없이 즉시 고발되고, 강제퇴거명령서가 발급된 경우에는 미납을 이유로 고발하지 않습니다.",
+};
+
 const DUI_KO_EXTRA = {
   docsTitle: "출석·신청 전에 준비할 서류",
   docsLead: "출입국에 내는 자료는 사건 경위와 그 뒤의 노력을 사실대로 보여 주는 것이 핵심입니다. 아래 자료를 미리 모아 두세요.",
@@ -501,6 +507,13 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
               <div style={{ fontWeight: 700, marginBottom: 6, fontSize: 15, color: A.red }}>{c.tip2}</div>
               <p style={{ fontSize: 14, color: "#7f1d1d", lineHeight: 1.65, margin: 0 }}>{c.tip2body}</p>
             </div>
+
+            {l === "ko" && (
+              <section style={{ marginBottom: 36 }}>
+                <h2 style={{ fontSize: 20, fontWeight: 700, color: A.navy, marginBottom: 12 }}>{IMM_NOTICE_KO.title}</h2>
+                <p style={{ fontSize: 15, color: A.muted, lineHeight: 1.75, margin: 0 }}>{IMM_NOTICE_KO.body}</p>
+              </section>
+            )}
 
             {/* FAQPage — 화면에 그리는 같은 c.faqs 배열에서 생성(1:1, I3b 2026-10-03) */}
             {c.faqs.length > 0 && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(c.faqs)) }} />}
