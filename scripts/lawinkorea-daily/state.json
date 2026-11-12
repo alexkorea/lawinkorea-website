@@ -467,6 +467,19 @@
       ],
       "at": "2026-11-11T10:09:27.305Z",
       "batch": "BANK-REFILL-1029"
+    },
+    {
+      "slug": "f4-restricted-job-violation-response",
+      "date": "2026-11-12",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-11-12T10:07:39.432Z",
+      "batch": "BANK-REFILL-1029"
     }
   ],
   "rejected": []
