@@ -51,7 +51,7 @@ const DOCS: Record<L, Doc> = {
   },
   en: {
     title: "Privacy Policy",
-    description: `How ${NAME} (lawinkorea.com) handles the personal information you send through the consultation form: items collected, purpose, 1-year retention, processors and overseas transfer, your rights and contact.`,
+    description: `How ${NAME} handles the personal information you send through the consultation form: items collected, purpose, 1-year retention, your rights and contact.`,
     intro: `${NAME} ("the Office"), which operates lawinkorea.com, publishes this Privacy Policy under Korea's Personal Information Protection Act to protect your personal information and handle related requests promptly.`,
     sections: [
       { h: "1. Operator", list: [`Name: ${NAME}`, `Representative administrative agent: ${REP}`, `Business registration no.: ${BIZ}`, `Address: ${ADDR_EN}`, `Phone: ${PHONE}`, `Email: ${EMAIL}`] },
@@ -123,7 +123,7 @@ const DOCS: Record<L, Doc> = {
   },
   vi: {
     title: "Chính sách bảo mật",
-    description: `Cách ${NAME} (lawinkorea.com) xử lý thông tin cá nhân gửi qua biểu mẫu tư vấn: mục thu thập, mục đích, thời hạn lưu 1 năm, ủy thác và chuyển ra nước ngoài, quyền của bạn và đầu mối liên hệ.`,
+    description: `Cách ${NAME} xử lý thông tin cá nhân gửi qua biểu mẫu tư vấn: mục thu thập, mục đích, thời hạn lưu 1 năm, quyền của bạn và đầu mối liên hệ.`,
     intro: `${NAME} ("Văn phòng"), đơn vị vận hành lawinkorea.com, công bố Chính sách bảo mật này theo Luật Bảo vệ thông tin cá nhân của Hàn Quốc để bảo vệ thông tin cá nhân của người dùng và xử lý kịp thời các yêu cầu liên quan.`,
     sections: [
       { h: "1. Đơn vị vận hành", list: [`Tên: ${NAME}`, `Hành chính sĩ đại diện: ${REP}`, `Số đăng ký kinh doanh: ${BIZ}`, `Địa chỉ: ${ADDR_EN}`, `Điện thoại: ${PHONE}`, `Email: ${EMAIL}`] },

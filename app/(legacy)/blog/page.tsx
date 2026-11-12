@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { getAllPosts } from "../../lib/blog";
 import { ACCENT } from "../../lib/constants";
+import { HREFLANG } from "../../lib/seo";
 import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
 
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
     languages: {
       ko: "/ko/blog",
       en: "/en/blog",
-      zh: "/zh/blog",
+      [HREFLANG.zh]: "/zh/blog",
       ja: "/ja/blog",
       vi: "/vi/blog",
       "x-default": "/ko/blog",

@@ -17,7 +17,7 @@ const metaData: Record<L, { title: string; description: string }> = {
   en: { title: "Immigration Offense Review Guide · Law in Korea", description: "Learn what an immigration offense review is and how to prepare." },
   ja: { title: "出入国事犯審査とは · 案内", description: "事犯審査の意味と準備事項をご案内します。" },
   zh: { title: "出入境事犯审查是什么 · 指南", description: "了解出入境事犯审查的含义和准备事项。" },
-  vi: { title: "Xem xét vi phạm xuất nhập cảnh là gì · Hướng dẫn", description: "Tìm hiểu về quy trình xem xét vi phạm xuất nhập cảnh." },
+  vi: { title: "Xem xét vi phạm xuất nhập cảnh là gì", description: "Tìm hiểu về quy trình xem xét vi phạm xuất nhập cảnh." },
 };
 
 const KO_FAQ = [

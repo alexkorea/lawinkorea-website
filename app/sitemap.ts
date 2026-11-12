@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import BLOG_POSTS_DATA, { getLocalesForSlug } from "./data/blog-posts-data";
 import { PAGE_LASTMOD } from "./data/page-lastmod.generated";
+import { hreflangOf } from "./lib/seo";
 
 const locales = ["ko", "en", "ja", "zh", "vi"] as const;
 
@@ -54,7 +55,7 @@ const baseUrl = "https://lawinkorea.com";
 
 function languagesFor(path: string, onlyLocales: readonly string[] = locales) {
   const languages: Record<string, string> = {};
-  for (const l of onlyLocales) languages[l] = `${baseUrl}/${l}${path}`;
+  for (const l of onlyLocales) languages[hreflangOf(l)] = `${baseUrl}/${l}${path}`;
   languages["x-default"] = `${baseUrl}/ko${path}`;
   return languages;
 }

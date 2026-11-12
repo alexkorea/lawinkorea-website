@@ -655,9 +655,9 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
     meta: {
       ko: { title: "체류기간 초과(불법체류·오버스테이) 대응 가이드 · Law in Korea", description: "한국에서 체류기간을 초과한 외국인을 위한 처분 안내, 자진 출국 전략, 재입국 금지 기간 단축 방법 — 선샤인행정사사무소." },
       en: { title: "Overstaying Your Visa in Korea — What Happens & What To Do · Law in Korea", description: "Consequences of overstaying a Korean visa, voluntary departure strategy, and how to minimize re-entry bans." },
-      ja: { title: "在留期間超過（不法滞在・オーバーステイ）対応ガイド · Law in Korea", description: "韓国での在留期間超過に対する処分、自進出国戦略、再入国禁止期間短縮方法の解説。" },
+      ja: { title: "在留期間超過（オーバーステイ）対応 · Law in Korea", description: "韓国での在留期間超過に対する処分、自進出国戦略、再入国禁止期間短縮方法の解説。" },
       zh: { title: "超期滞留（非法滞留·黑户）应对指南 · Law in Korea", description: "在韩超期滞留的处分说明、自愿出境策略及缩短再入境禁止期的方法。" },
-      vi: { title: "Ở quá hạn visa tại Hàn Quốc — Hậu quả & Cách ứng phó · Law in Korea", description: "Hậu quả của việc ở quá hạn visa Hàn Quốc, chiến lược tự nguyện xuất cảnh và cách giảm thiểu lệnh cấm tái nhập cảnh." },
+      vi: { title: "Ở quá hạn visa tại Hàn Quốc — Cách ứng phó · Law in Korea", description: "Hậu quả của việc ở quá hạn visa Hàn Quốc, chiến lược tự nguyện xuất cảnh và cách giảm thiểu lệnh cấm tái nhập cảnh." },
     },
     render: (l, locale) => {
       const t = {
@@ -705,7 +705,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
       en: { title: "Sexual Offense & Immigration Consequences in Korea · Law in Korea", description: "How sexual offense convictions trigger mandatory immigration review, the court notification system, and visa bars for registered sex offenders in Korea." },
       ja: { title: "性犯罪と強制退去（強制送還）・入国禁止 · Law in Korea", description: "性犯罪の有罪判決が外国人の在留資格に与える影響、法院通報制度、登録対象者の入国禁止について。" },
       zh: { title: "性犯罪与强制出境（强制遣返）·入境禁止 · Law in Korea", description: "性犯罪定罪对外国人居留资格的影响、法院通报制度及登记对象入境禁止规定。" },
-      vi: { title: "Tội phạm tình dục & Hậu quả xuất nhập cảnh tại Hàn Quốc · Law in Korea", description: "Bị kết án tội phạm tình dục kích hoạt xem xét xuất nhập cảnh bắt buộc như thế nào, hệ thống thông báo tòa án và lệnh cấm nhập cảnh." },
+      vi: { title: "Tội phạm tình dục & Hậu quả xuất nhập cảnh · Law in Korea", description: "Bị kết án tội phạm tình dục kích hoạt xem xét xuất nhập cảnh bắt buộc như thế nào, hệ thống thông báo tòa án và lệnh cấm nhập cảnh." },
     },
     render: (l, locale) => {
       const t = {
@@ -751,9 +751,9 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
     meta: {
       ko: { title: "보이스피싱 가담과 외국인 출입국 제재 · Law in Korea", description: "보이스피싱 범죄에 가담한 외국인의 형사 처벌 및 강제퇴거 위험, 모든 단계 가담자의 공범 책임 — 선샤인행정사사무소." },
       en: { title: "Voice Phishing Offenses & Immigration Consequences in Korea · Law in Korea", description: "Foreign nationals involved in voice phishing (telephone fraud) at any level face serious immigration consequences in Korea." },
-      ja: { title: "ボイスフィッシング（電話詐欺）と外国人出入国制裁 · Law in Korea", description: "ボイスフィッシング犯罪に加担した外国人の刑事処罰と強制退去リスク、共犯責任について。" },
+      ja: { title: "ボイスフィッシングと出入国制裁 · Law in Korea", description: "ボイスフィッシング犯罪に加担した外国人の刑事処罰と強制退去リスク、共犯責任について。" },
       zh: { title: "电话诈骗（Voice Phishing）与外国人出入境制裁 · Law in Korea", description: "参与电话诈骗犯罪的外国人面临的刑事处罚及强制出境风险，各环节参与者的共犯责任。" },
-      vi: { title: "Tội phạm Voice Phishing & Hậu quả xuất nhập cảnh tại Hàn Quốc · Law in Korea", description: "Người nước ngoài tham gia vào tội phạm lừa đảo qua điện thoại ở bất kỳ cấp độ nào đều đối mặt với hậu quả xuất nhập cảnh nghiêm trọng tại Hàn Quốc." },
+      vi: { title: "Voice Phishing & Hậu quả xuất nhập cảnh · Law in Korea", description: "Người nước ngoài tham gia vào tội phạm lừa đảo qua điện thoại ở bất kỳ cấp độ nào đều đối mặt với hậu quả xuất nhập cảnh nghiêm trọng tại Hàn Quốc." },
     },
     render: (l, locale) => {
       const t = {
@@ -799,7 +799,7 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
     meta: {
       ko: { title: "서류 위·변조와 비자 취소·입국금지(입국규제) · Law in Korea", description: "비자 신청 등에 위조·변조 서류 제출 시 형사처벌, 비자 취소, 입국금지 위험 — 선샤인행정사사무소." },
       en: { title: "False & Forged Documents — Visa Cancellation & Entry Ban in Korea · Law in Korea", description: "Submitting forged or falsified documents for visa applications in Korea leads to criminal prosecution, visa cancellation, and potential entry ban." },
-      ja: { title: "書類偽造・変造とビザ取り消し・入国禁止（入国規制） · Law in Korea", description: "ビザ申請等での偽造・変造書類提出時の刑事処罰、ビザ取り消し、入国禁止のリスク。" },
+      ja: { title: "書類偽造とビザ取り消し・入国禁止 · Law in Korea", description: "ビザ申請等での偽造・変造書類提出時の刑事処罰、ビザ取り消し、入国禁止のリスク。" },
       zh: { title: "文件伪造·变造与签证取消·入境禁止（入境限制） · Law in Korea", description: "在韩申请签证时提交伪造·变造文件面临的刑事处罚、签证取消及入境禁止风险。" },
       vi: { title: "Tài liệu giả mạo & Hủy visa và Cấm nhập cảnh tại Hàn Quốc · Law in Korea", description: "Nộp tài liệu giả mạo hoặc bị làm giả để xin visa Hàn Quốc dẫn đến truy tố hình sự, hủy visa và có thể cấm nhập cảnh." },
     },
@@ -845,10 +845,10 @@ const SLUG_CONTENT: Record<string, SlugContent> = {
   },
   "property-crime": {
     meta: {
-      ko: { title: "절도·사기·횡령과 체류 자격 심사 · Law in Korea", description: "재산범죄(절도·사기·횡령)가 외국인의 체류 자격에 미치는 영향, 조직적·반복적 범죄의 강제퇴거 위험 — 선샤인행정사사무소." },
+      ko: { title: "절도·사기·횡령과 체류 자격 · Law in Korea", description: "재산범죄(절도·사기·횡령)가 외국인의 체류 자격에 미치는 영향, 조직적·반복적 범죄의 강제퇴거 위험 — 선샤인행정사사무소." },
       en: { title: "Property Crime & Visa Status in Korea (Theft, Fraud, Embezzlement) · Law in Korea", description: "How theft, fraud, and embezzlement convictions affect foreign nationals' visa and residency in Korea — especially investment visa holders." },
       ja: { title: "財産犯罪（窃盗・詐欺・横領）と在留資格審査 · Law in Korea", description: "財産犯罪の有罪判決が外国人の在留資格に与える影響と、組織的・反復的犯罪の強制退去リスク。" },
-      zh: { title: "财产犯罪（盗窃·诈骗·侵占）与居留资格审查 · Law in Korea", description: "财产犯罪定罪对外国人居留资格的影响，有组织·反复犯罪的强制出境风险。" },
+      zh: { title: "盗窃·诈骗·侵占与居留资格审查 · Law in Korea", description: "财产犯罪定罪对外国人居留资格的影响，有组织·反复犯罪的强制出境风险。" },
       vi: { title: "Tội phạm tài sản & Tư cách lưu trú tại Hàn Quốc · Law in Korea", description: "Bị kết án trộm cắp, gian lận và biển thủ ảnh hưởng thế nào đến visa và cư trú của người nước ngoài tại Hàn Quốc." },
     },
     render: (l, locale) => {

@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ACCENT, COMPANY, SITE } from "../../../lib/constants";
+import { HREFLANG } from "../../../lib/seo";
 import BLOG_POSTS_DATA, { getBlogPostData, getBlogPostsByLocale } from "../../../data/blog-posts-data";
 import SiteHeader from "../../../components/SiteHeader";
 import SiteFooter from "../../../components/SiteFooter";
@@ -28,7 +29,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
       languages: {
         ko: `/ko/blog/${slug}`,
         en: `/en/blog/${slug}`,
-        zh: `/zh/blog/${slug}`,
+        [HREFLANG.zh]: `/zh/blog/${slug}`,
         ja: `/ja/blog/${slug}`,
         vi: `/vi/blog/${slug}`,
         "x-default": `/ko/blog/${slug}`,

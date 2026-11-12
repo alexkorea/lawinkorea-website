@@ -662,7 +662,7 @@ export const DEPARTURE_ORDER: DepartureContent = {
   meta: {
     ko: { title: "출국명령 — 출국기한·조건·이행보증금 · Law in Korea", description: "출국명령을 받았을 때 확인할 출국기한·주거 제한 등 조건·이행보증금, 기한을 넘기면 강제퇴거명령서가 발급되는 점, 출국권고와의 차이를 법령 원문 기준으로 안내합니다." },
     en: { title: "Departure Order in Korea — Deadline, Conditions & Bond · Law in Korea", description: "What a Korean departure order means: the deadline, residence conditions, performance bond, what happens if you miss the deadline, and how it differs from a departure recommendation." },
-    ja: { title: "出国命令 — 出国期限・条件・履行保証金 · Law in Korea", description: "韓国の出国命令の出国期限・住居制限などの条件・履行保証金、期限を過ぎると強制退去命令書が発給される点、出国勧告との違いを法令原文に基づいて解説します。" },
+    ja: { title: "出国命令 — 出国期限・履行保証金 · Law in Korea", description: "韓国の出国命令の出国期限・住居制限などの条件・履行保証金、期限を過ぎると強制退去命令書が発給される点、出国勧告との違いを法令原文に基づいて解説します。" },
     zh: { title: "出境命令 — 出境期限·条件·履约保证金 · Law in Korea", description: "依据法令原文说明韩国出境命令的出境期限、居住限制等条件、履约保证金，逾期将被发给强制驱逐命令书，以及与出境建议的区别。" },
     vi: { title: "Lệnh xuất cảnh tại Hàn Quốc — Thời hạn, điều kiện, tiền bảo đảm · Law in Korea", description: "Lệnh xuất cảnh theo Luật Quản lý Xuất nhập cảnh: thời hạn, điều kiện cư trú, tiền bảo đảm, hậu quả khi quá hạn và khác biệt với khuyến nghị xuất cảnh, theo nguyên văn luật." },
   },
@@ -671,10 +671,10 @@ export const DEPARTURE_ORDER: DepartureContent = {
 
 export const DEPARTURE_RECOMMENDATION: DepartureContent = {
   meta: {
-    ko: { title: "출국권고 — 의미·출국기한 5일·불이행 시 · Law in Korea", description: "출국권고는 어떤 경우에 받는지, 출국권고서 발급일부터 5일의 범위에서 정하는 출국기한, 이행하지 않으면 출국명령 대상이 되는 점을 법령 원문 기준으로 안내합니다." },
+    ko: { title: "출국권고 — 출국기한·불이행 시 · Law in Korea", description: "출국권고는 어떤 경우에 받는지, 출국권고서 발급일부터 5일의 범위에서 정하는 출국기한, 이행하지 않으면 출국명령 대상이 되는 점을 법령 원문 기준으로 안내합니다." },
     en: { title: "Departure Recommendation in Korea — Meaning & 5-Day Deadline · Law in Korea", description: "What a Korean departure recommendation means: when it is issued, the deadline of up to 5 days from issue, and why non-compliance makes you subject to a departure order." },
     ja: { title: "出国勧告 — 意味・出国期限5日・履行しない場合 · Law in Korea", description: "韓国の出国勧告が出される場合、出国勧告書の発給日から5日の範囲で定める出国期限、履行しないと出国命令の対象になる点を法令原文に基づいて解説します。" },
-    zh: { title: "出境建议 — 含义·5日出境期限·不履行后果 · Law in Korea", description: "依据法令原文说明韩国出境建议的适用情形、自出境建议书发给之日起5日范围内的出境期限，以及不履行将成为出境命令对象。" },
+    zh: { title: "出境建议 — 出境期限·不履行后果 · Law in Korea", description: "依据法令原文说明韩国出境建议的适用情形、自出境建议书发给之日起5日范围内的出境期限，以及不履行将成为出境命令对象。" },
     vi: { title: "Khuyến nghị xuất cảnh tại Hàn Quốc — Ý nghĩa, thời hạn 5 ngày · Law in Korea", description: "Khuyến nghị xuất cảnh theo Luật Quản lý Xuất nhập cảnh: khi nào được ban hành, thời hạn trong phạm vi 5 ngày kể từ ngày cấp, và vì sao không thực hiện sẽ dẫn tới lệnh xuất cảnh." },
   },
   render: (l, locale) => renderDoc(RECOMMENDATION[l] || RECOMMENDATION.ko, locale),

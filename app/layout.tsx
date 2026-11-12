@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { COMPANY, SITE } from "./lib/constants";
-import { ROOT_OPEN_GRAPH, siteOgImages } from "./lib/seo";
+import { HREFLANG, ROOT_OPEN_GRAPH, siteOgImages } from "./lib/seo";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     languages: {
       ko: `${SITE.url}/ko`,
       en: `${SITE.url}/en`,
-      zh: `${SITE.url}/zh`,
+      [HREFLANG.zh]: `${SITE.url}/zh`,
       ja: `${SITE.url}/ja`,
       vi: `${SITE.url}/vi`,
       "x-default": `${SITE.url}/ko`,

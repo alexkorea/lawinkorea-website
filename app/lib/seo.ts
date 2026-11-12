@@ -5,6 +5,13 @@ import type { Locale } from "./content";
 export const LOCALES: readonly Locale[] = ["ko", "en", "zh", "ja", "vi"] as const;
 
 /**
+ * hreflang 값(BCP 47) 단일 원천 — 페이지 <link rel=alternate>·사이트맵 xhtml:link 가 모두 여기를 쓴다.
+ * URL·폴더의 로캘 코드(zh)는 그대로 두고 hreflang 값만 간체 zh-Hans(1SEO 3장, 2026-11-12). 번체(zh-Hant) 페이지는 없음.
+ */
+export const HREFLANG: Record<string, string> = { ko: "ko", en: "en", zh: "zh-Hans", ja: "ja", vi: "vi" };
+export const hreflangOf = (l: string): string => HREFLANG[l] ?? l;
+
+/**
  * WEBSITE STANDARD v2.0 §3 — canonical/hreflang 정확성.
  * path 는 로케일 접두사를 뺀 경로("", "/about", "/blog/foo").
  * onlyLocales 를 주면 실제로 그 언어판이 존재하는 로케일에만 hreflang 을 건다.
@@ -15,7 +22,7 @@ export function alternatesFor(
   onlyLocales: readonly string[] = LOCALES
 ): Metadata["alternates"] {
   const languages: Record<string, string> = {};
-  for (const l of onlyLocales) languages[l] = `${SITE.url}/${l}${path}`;
+  for (const l of onlyLocales) languages[hreflangOf(l)] = `${SITE.url}/${l}${path}`;
   languages["x-default"] = `${SITE.url}/ko${path}`;
   return {
     canonical: `${SITE.url}/${locale}${path}`,
@@ -103,9 +110,9 @@ export const PAGE_SEO: Record<string, Record<Locale, Seo>> = {
         "サンシャイン行政士事務所はソウル中区に所在し、外国人の出入国事犯審査対応を専門としています。飲酒運転・刑事事件・不法就労・出国命令など在留危機への対応分野と、4か国語対応体制をご案内します。",
     },
     vi: {
-      title: "Giới thiệu Sunshine — Chuyên gia xem xét vi phạm XNC Hàn Quốc",
+      title: "Chuyên gia xem xét vi phạm XNC Hàn Quốc — Sunshine",
       description:
-        "Văn phòng Hành chính sĩ Sunshine tại Jung-gu, Seoul chuyên hỗ trợ xem xét vi phạm xuất nhập cảnh cho người nước ngoài. Tìm hiểu lĩnh vực chuyên môn — DUI, án hình sự, lao động trái phép, lệnh xuất cảnh — và hỗ trợ 4 ngôn ngữ.",
+        "Văn phòng Hành chính sĩ Sunshine tại Jung-gu, Seoul chuyên hỗ trợ xem xét vi phạm xuất nhập cảnh cho người nước ngoài.",
     },
   },
   cases: {
@@ -132,7 +139,7 @@ export const PAGE_SEO: Record<string, Record<Locale, Seo>> = {
     vi: {
       title: "Các trường hợp tiêu biểu — Kết quả xem xét vi phạm XNC",
       description:
-        "Tóm tắt các vụ việc đã ẩn danh và tái dựng từ thực tiễn xem xét vi phạm xuất nhập cảnh của Sunshine: DUI, án hình sự, lao động ngoài phạm vi cho phép, xuất cảnh tự nguyện do quá hạn — vấn đề và cách chuẩn bị hồ sơ.",
+        "Tóm tắt các vụ việc đã ẩn danh và tái dựng từ thực tiễn xem xét vi phạm xuất nhập cảnh của Sunshine: DUI, án hình sự, xuất cảnh tự nguyện do quá hạn.",
     },
   },
   contact: {
@@ -159,7 +166,7 @@ export const PAGE_SEO: Record<string, Record<Locale, Seo>> = {
     vi: {
       title: "Liên hệ Sunshine — Yêu cầu tư vấn hồ sơ XNC",
       description:
-        "Nếu bạn nhận được thông báo xem xét vi phạm xuất nhập cảnh, phản hồi đúng hạn sẽ quyết định kết quả. Hãy gửi tình huống qua điện thoại, email hoặc KakaoTalk — chúng tôi trả lời trong 1 giờ vào ngày làm việc.",
+        "Nếu bạn nhận được thông báo xem xét vi phạm xuất nhập cảnh, phản hồi đúng hạn sẽ quyết định kết quả. Hãy gửi qua điện thoại, email hoặc KakaoTalk.",
     },
   },
   services: {
@@ -171,7 +178,7 @@ export const PAGE_SEO: Record<string, Record<Locale, Seo>> = {
     en: {
       title: "Full List of Services — Sunshine Administrative Agent Office",
       description:
-        "Every immigration service Sunshine Administrative Agent Office handles — offense review, immigration fines, departure orders, deportation orders, entry bans and visa denials — with the formal name, competent authority and who it is for.",
+        "Every service Sunshine Administrative Agent Office handles — offense review, fines, departure orders, deportation orders, entry bans and visa denials.",
     },
     zh: {
       title: "全部办理业务一览 — Sunshine行政士事务所",
@@ -186,7 +193,7 @@ export const PAGE_SEO: Record<string, Record<Locale, Seo>> = {
     vi: {
       title: "Danh sách toàn bộ công việc — Law in Korea",
       description:
-        "Tổng hợp các công việc văn phòng hành chính sĩ Sunshine xử lý: thẩm tra vi phạm xuất nhập cảnh, tiền phạt, lệnh xuất cảnh, khuyến cáo xuất cảnh, lệnh trục xuất, cấm nhập cảnh, bị từ chối thị thực — kèm tên chính thức, cơ quan có thẩm quyền và đối tượng.",
+        "Tổng hợp các công việc Sunshine xử lý: thẩm tra vi phạm xuất nhập cảnh, tiền phạt, lệnh xuất cảnh, lệnh trục xuất, cấm nhập cảnh, bị từ chối thị thực.",
     },
   },
   documents: {
@@ -213,7 +220,7 @@ export const PAGE_SEO: Record<string, Record<Locale, Seo>> = {
     vi: {
       title: "Hồ sơ cần chuẩn bị — Danh mục nộp khi xem xét vi phạm XNC",
       description:
-        "Danh mục từng bước những giấy tờ cần chuẩn bị trước buổi xem xét vi phạm xuất nhập cảnh tại Hàn Quốc: giấy tờ nhân thân và lưu trú, kết quả xử lý hình sự, và tài liệu giảm nhẹ như việc làm, gia đình, biên bản hòa giải.",
+        "Danh mục những giấy tờ cần chuẩn bị trước buổi xem xét vi phạm xuất nhập cảnh: giấy tờ nhân thân và lưu trú, kết quả xử lý hình sự, và tài liệu giảm nhẹ.",
     },
   },
   faq: {
@@ -240,7 +247,7 @@ export const PAGE_SEO: Record<string, Record<Locale, Seo>> = {
     vi: {
       title: "Câu hỏi thường gặp — Hỏi đáp xem xét vi phạm XNC Hàn Quốc",
       description:
-        "Xem xét vi phạm xuất nhập cảnh khác xử phạt hình sự thế nào, làm gì sau khi nhận lệnh xuất cảnh, ai nên viết bản giải trình, có giữ được tư cách lưu trú sau DUI — được hành chính sĩ giải đáp trực tiếp.",
+        "Xem xét vi phạm xuất nhập cảnh khác xử phạt hình sự thế nào, có giữ được tư cách lưu trú sau DUI — được hành chính sĩ giải đáp trực tiếp.",
     },
   },
   process: {
@@ -267,7 +274,7 @@ export const PAGE_SEO: Record<string, Record<Locale, Seo>> = {
     vi: {
       title: "Quy trình tư vấn — Từ tiếp nhận đến đồng hành buổi xem xét",
       description:
-        "Quy trình của Sunshine gồm chẩn đoán ban đầu, tập hợp tài liệu, soạn bản giải trình, diễn tập phỏng vấn, đồng hành tại buổi xem xét vi phạm và xử lý tiếp sau khi có kết quả. Xem mỗi bước cần gì và mất bao lâu.",
+        "Quy trình của Sunshine gồm chẩn đoán ban đầu, tập hợp tài liệu, soạn bản giải trình, đồng hành tại buổi xem xét vi phạm và xử lý tiếp sau khi có kết quả.",
     },
   },
   "urgent-consultation": {
@@ -294,7 +301,7 @@ export const PAGE_SEO: Record<string, Record<Locale, Seo>> = {
     vi: {
       title: "Tư vấn khẩn cấp — Ứng phó lệnh xuất cảnh và trục xuất",
       description:
-        "Lệnh xuất cảnh và thông báo trục xuất có thời hạn phản hồi rất ngắn. Hãy gọi +82-2-309-3107 hoặc liên hệ qua KakaoTalk — chúng tôi sẽ xác định trước thời hạn còn lại và các phương án còn khả thi.",
+        "Lệnh xuất cảnh và thông báo trục xuất có thời hạn phản hồi rất ngắn. Hãy gọi +82-2-309-3107 hoặc liên hệ qua KakaoTalk.",
     },
   },
   "visa-impact": {
@@ -306,7 +313,7 @@ export const PAGE_SEO: Record<string, Record<Locale, Seo>> = {
     en: {
       title: "Visa Impact by Type — How Status Changes Review Outcomes",
       description:
-        "The same violation plays out differently on an E-9, E-7, D-2, F-2 or F-6 status. This page sets out what helps and what hurts under each visa category, and which documents to prepare first for your immigration offense review.",
+        "The same violation plays out differently on an E-9, E-7, D-2, F-2 or F-6 status. This page sets out what helps and what hurts under each visa category.",
     },
     zh: {
       title: "签证影响 — 居留资格不同，事犯审查结果也不同",
