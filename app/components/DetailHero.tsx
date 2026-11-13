@@ -22,12 +22,19 @@ const HIRES_HEROES: Record<string, { file: string; alt: Record<string, string> }
   },
 };
 
+// QA01-FIX-1114 2(맥7 2026-11-14): 허브 카드와 같은 사진을 그대로 쓰되 1600px 판만 더한 쪽(사진 교체 없음).
+// 원본 Pexels 에서 12:5 가운데를 다시 잘라 만든 파일 — 지시 범위가 ko 쪽뿐이라 ko 에만 붙인다(다른 언어는 후보 보고).
+const HIRES_SAME_PHOTO: Record<string, string[]> = {
+  "offenses/property-crime": ["ko"],
+};
+
 export function heroPhotoFor(kind: "offenses" | "dispositions", slug: string, locale: string): CardPhoto | null {
   const hi = HIRES_HEROES[`${kind}/${slug}`];
   if (hi) return { file: hi.file, alt: hi.alt[locale] ?? "", hires: true } as HiresHero;
   if (kind === "offenses") {
     const key = slug === "immigration-fines" ? "/ko/fines" : `/ko/offenses/${slug}`;
     const p = OFFENSES_CARD_PHOTOS[key];
+    if (p && HIRES_SAME_PHOTO[`${kind}/${slug}`]?.includes(locale)) return { file: p.file, alt: locale === "ko" ? p.alt : "", hires: true } as HiresHero;
     // 사건 유형 허브 사진의 대체 텍스트는 ko 만 있다 → 외국어판은 장식 이미지(alt="")로 둔다(제목이 바로 아래 있음).
     return p ? { file: p.file, alt: locale === "ko" ? p.alt : "" } : null;
   }
