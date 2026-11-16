@@ -9,6 +9,17 @@ import { breadcrumbSchema, faqSchema, inLanguage, ORG_ID, PERSON_ID } from "../.
 
 export const dynamicParams = false;
 
+// 빵부스러기 링크: 터치 영역 최소 44px 높이·24px 가로(EYE-FIX-1116)
+const CRUMB_LINK = {
+  color: ACCENT.primary,
+  fontWeight: 600,
+  display: "inline-flex",
+  alignItems: "center",
+  justifyContent: "center",
+  minHeight: 44,
+  minWidth: 24,
+} as const;
+
 const VALID_LOCALES = ["ko", "en", "zh", "ja", "vi"] as const;
 type LocaleParam = (typeof VALID_LOCALES)[number];
 
@@ -211,13 +222,14 @@ export default async function LocaleBlogPost({ params }: { params: Promise<Param
       <article style={{ maxWidth: 760, margin: "0 auto", padding: "64px 24px 96px" }}>
         <nav
           aria-label="Breadcrumb"
-          style={{ marginBottom: 24, fontSize: 14, color: ACCENT.textMuteSoft, display: "flex", gap: 8, flexWrap: "wrap" }}
+          style={{ marginBottom: 24, fontSize: 14, color: ACCENT.textMuteSoft, display: "flex", gap: 8, flexWrap: "wrap", alignItems: "center" }}
         >
-          <Link href={`/${locale}`} style={{ color: ACCENT.primary, fontWeight: 600 }}>
+          {/* EYE-FIX-1116: 빵부스러기 링크 터치 영역 높이 44px·가로 24px 이상(홈 12×21·블로그 36×21 이었다) */}
+          <Link href={`/${locale}`} style={CRUMB_LINK}>
             {locale === "ko" ? "홈" : locale === "ja" ? "ホーム" : locale === "zh" ? "首页" : locale === "vi" ? "Trang chủ" : "Home"}
           </Link>
           <span aria-hidden="true">/</span>
-          <Link href={`/${locale}/blog`} style={{ color: ACCENT.primary, fontWeight: 600 }}>
+          <Link href={`/${locale}/blog`} style={CRUMB_LINK}>
             {t.breadcrumbBlog}
           </Link>
           <span aria-hidden="true">/</span>
