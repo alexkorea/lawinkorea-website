@@ -66,8 +66,9 @@ async function PageBody({ params }: { params: Promise<{ locale: string }> }) {
   if (l !== "ko") {
     return (
       <main style={{ maxWidth: 800, margin: "0 auto", padding: "64px 24px" }}>
+        {/* QAFIX-1117: 빵부스러기 '홈' 링크 터치 영역 44px(11×15 이었다, EYE-1116 후보 1) */}
         <nav style={{ fontSize: 13, color: "#64748b", marginBottom: 32 }}>
-          <a href={`/${l}`} style={{ color: "#2563eb", textDecoration: "none" }}>Home</a> &gt; Immigration Offense Review
+          <a href={`/${l}`} style={{ color: "#2563eb", textDecoration: "none", display: "inline-flex", alignItems: "center", justifyContent: "center", minHeight: 44, minWidth: 24 }}>Home</a> &gt; Immigration Offense Review
         </nav>
         <h1 style={{ fontSize: 36, fontWeight: 700, color: "#0a1628" }}>{metaData[l].title}</h1>
         {l === "zh" ? (
@@ -92,7 +93,7 @@ async function PageBody({ params }: { params: Promise<{ locale: string }> }) {
       {/* Breadcrumb */}
       <div style={{ maxWidth: 800, margin: "0 auto", padding: "24px 24px 0" }}>
         <nav style={{ fontSize: 13, color: "#64748b" }}>
-          <a href="/ko" style={{ color: "#2563eb", textDecoration: "none" }}>홈</a>
+          <a href="/ko" style={{ color: "#2563eb", textDecoration: "none", display: "inline-flex", alignItems: "center", justifyContent: "center", minHeight: 44, minWidth: 24 }}>홈</a>
           <span style={{ margin: "0 8px" }}>&gt;</span>
           <span>사범심사 안내</span>
         </nav>

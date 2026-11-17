@@ -173,8 +173,9 @@ async function PageBody({ params }: { params: Promise<{ locale: string }> }) {
     <main lang={hreflangOf(l)} style={{ background: A.bg, minHeight: "100vh", wordBreak: l === "ko" ? "keep-all" : "normal" }}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <div style={{ maxWidth: 900, margin: "0 auto", padding: "28px 18px 80px" }}>
+        {/* QAFIX-1117: 빵부스러기 '홈' 링크 터치 영역 44px(11×15 이었다, EYE-1116 후보 1) */}
         <nav aria-label="breadcrumb" style={{ fontSize: 13, color: A.muted, marginBottom: 14 }}>
-          <a href={base} style={{ color: A.primary, textDecoration: "none" }}>{ui.home}</a>
+          <a href={base} style={{ color: A.primary, textDecoration: "none", display: "inline-flex", alignItems: "center", justifyContent: "center", minHeight: 44, minWidth: 24 }}>{ui.home}</a>
           <span style={{ margin: "0 8px" }}>›</span>
           <span>{ui.h1}</span>
         </nav>

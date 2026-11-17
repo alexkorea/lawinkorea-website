@@ -95,8 +95,9 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   return (
     <main style={{ minHeight: "100vh", background: "#fff" }}>
       <div style={{ maxWidth: 900, margin: "0 auto", padding: "24px 24px 0" }}>
+        {/* QAFIX-1117: 빵부스러기 '홈' 링크 터치 영역 44px(11×15 이었다, EYE-1116 후보 1) */}
         <nav style={{ fontSize: 13, color: "#64748b" }}>
-          <a href="/ko" style={{ color: "#2563eb", textDecoration: "none" }}>홈</a>
+          <a href="/ko" style={{ color: "#2563eb", textDecoration: "none", display: "inline-flex", alignItems: "center", justifyContent: "center", minHeight: 44, minWidth: 24 }}>홈</a>
           <span style={{ margin: "0 8px" }}>&gt;</span>
           <span>처분 유형별 대응</span>
         </nav>
