@@ -180,12 +180,34 @@ function render(e, docs) {
 }
 
 // ── OG 썸네일 + 커버 alt ─────────────────────────────────────────────────────
-async function ensurePexels(id) {
-  const dst = path.join(OG_TOOL, 'cache', 'pexels', `${id}.jpg`)
-  if (fs.existsSync(dst)) return dst
+// [2026-11-18 BLOGFAIL-1118] 11-15~18 4일 연속 'reading large2x' 실패: order 37 원고의 pexels_id 34670929 가 Pexels 에서 삭제돼
+// API 가 404 {"status":404} 를 돌려줬는데 j.src.large2x 를 그대로 읽었다. 이제 응답·사진을 검사하고(PhotoError) main 이 다음 원고로 넘어간다.
+class PhotoError extends Error {}
+const pexelsCache = (id) => path.join(OG_TOOL, 'cache', 'pexels', `${id}.jpg`)
+async function pexelsSrc(id) {
   const key = fs.readFileSync(PEXELS_KEY_FILE, 'utf8').trim()
-  const j = await (await fetch(`https://api.pexels.com/v1/photos/${id}`, { headers: { Authorization: key }, signal: AbortSignal.timeout(30000) })).json()
-  const buf = Buffer.from(await (await fetch(j.src.large2x, { signal: AbortSignal.timeout(60000) })).arrayBuffer())
+  let res, j
+  try {
+    res = await fetch(`https://api.pexels.com/v1/photos/${id}`, { headers: { Authorization: key }, signal: AbortSignal.timeout(30000) })
+    j = await res.json().catch(() => null)
+  } catch (err) { throw new PhotoError(`Pexels ${id} API 요청 실패: ${err.message}`) }
+  if (!res.ok) throw new PhotoError(`Pexels ${id} API HTTP ${res.status}${res.status === 404 ? ' (사진 삭제됨)' : ''}`)
+  const url = j?.src?.large2x || j?.src?.large || j?.src?.original
+  if (typeof url !== 'string' || !/^https:\/\//.test(url)) throw new PhotoError(`Pexels ${id} 응답 형식 다름(src.large2x 없음): ${JSON.stringify(j).slice(0, 120)}`)
+  return url
+}
+async function ensurePexels(id) {
+  const dst = pexelsCache(id)
+  if (fs.existsSync(dst)) return dst
+  const url = await pexelsSrc(id)
+  let buf
+  try {
+    const r = await fetch(url, { signal: AbortSignal.timeout(60000) })
+    if (!r.ok) throw new Error(`HTTP ${r.status}`)
+    if (!/^image\//.test(r.headers.get('content-type') || '')) throw new Error(`content-type ${r.headers.get('content-type')}`)
+    buf = Buffer.from(await r.arrayBuffer())
+  } catch (err) { throw new PhotoError(`Pexels ${id} 사진 받기 실패: ${err.message}`) }
+  if (buf.length < 10000) throw new PhotoError(`Pexels ${id} 사진 ${buf.length}B — 너무 작음`)
   fs.mkdirSync(path.dirname(dst), { recursive: true }); fs.writeFileSync(dst, buf)
   return dst
 }
@@ -268,6 +290,7 @@ async function main() {
   const today = state.published.find((p) => p.date === DATE)
   if (today) { console.log(`= 오늘(${DATE}) 이미 발행: ${today.slug} — 아무것도 쓰지 않는다`); return 0 }
 
+  const photoSkips = []
   for (const e of bank.filter((x) => !done.has(x.slug) && !rejected.has(x.slug))) {
     const ex = existing(e.slug)
     if (ex.length) {
@@ -281,6 +304,17 @@ async function main() {
       for (const f of fails) console.log(`  ✗ ${f}`)
       console.log(`✗ 원고 검사 FAIL ${fails.length}건 — ${e.slug} (bank/${e.slug}/ 수정 필요)`)
       return 3
+    }
+    // 사진 사전 확인 — 사진 없음·응답 형식 다름이면 이 원고는 건너뛰고(거부 기록 안 함: pexels_id 교체 후 재사용) 다음 원고로.
+    // dry-run 은 API 응답만 본다(파일 무기록), --write 는 캐시에 받아 둔다(makeOg 가 그 캐시를 쓴다).
+    if (e.meta.pexels_id && !fs.existsSync(pexelsCache(e.meta.pexels_id))) {
+      try { if (WRITE) await ensurePexels(e.meta.pexels_id); else await pexelsSrc(e.meta.pexels_id) }
+      catch (err) {
+        if (!(err instanceof PhotoError)) throw err
+        photoSkips.push(`${e.slug}: ${err.message}`)
+        console.log(`✗ 사진 확인 실패 — ${e.slug}: ${err.message} → 다음 원고로 (bank/${e.slug}/meta.json 의 pexels_id·pexels_author·cover_alt 교체 필요)`)
+        continue
+      }
     }
     const files = render(e, docs)
     console.log(`→ 선택: ${e.slug} (order ${e.order}, ${e.meta.batch || '-'}) × ${LOCALES.length} locales`)
@@ -318,6 +352,7 @@ async function main() {
     console.log(`✅ published ${e.slug} (${LOCALES.length} locales)`)
     return 0
   }
+  if (photoSkips.length) { console.log(`✗ 발행 가능한 원고 없음 — 사진 확인 실패로 ${photoSkips.length}편 건너뜀:\n   - ${photoSkips.join('\n   - ')}`); return 5 }
   console.log(`✗ 원고 은행 비어 있음 — lawinkorea: 미발행 원고 0 (은행 ${bank.length} · 발행 ${done.size} · 거부 ${rejected.size}). scripts/lawinkorea-daily/bank/<slug>/ 에 5로캘 원고를 넣어야 재개된다`)
   return 1
 }
