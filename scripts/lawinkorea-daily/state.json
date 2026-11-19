@@ -480,6 +480,19 @@
       ],
       "at": "2026-11-12T10:07:39.432Z",
       "batch": "BANK-REFILL-1029"
+    },
+    {
+      "slug": "offense-review-pending-stay-extension",
+      "date": "2026-11-19",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-11-19T10:09:11.259Z",
+      "batch": "BANK-REFILL-1029"
     }
   ],
   "rejected": []
