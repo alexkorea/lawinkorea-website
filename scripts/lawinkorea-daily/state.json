@@ -493,6 +493,19 @@
       ],
       "at": "2026-11-19T10:09:11.259Z",
       "batch": "BANK-REFILL-1029"
+    },
+    {
+      "slug": "airport-departure-overstay-caught",
+      "date": "2026-11-20",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-11-20T10:09:10.442Z",
+      "batch": "BANK-REFILL-1029"
     }
   ],
   "rejected": []

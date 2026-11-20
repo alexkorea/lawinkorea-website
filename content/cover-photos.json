@@ -107,5 +107,7 @@
   "f4-restricted-job-violation-response": { "pexels_id": 11790051, "author": "Karan Wang",
     "alt": { "ko": "안전모와 반사 조끼를 입고 서 있는 건설 현장 근로자들", "en": "Construction workers in hard hats and reflective vests", "zh": "戴安全帽、穿反光背心的建筑工地工人", "ja": "ヘルメットと反射ベストを着けた建設現場の作業員たち", "vi": "Công nhân công trường đội mũ bảo hộ và mặc áo phản quang" } },
   "offense-review-pending-stay-extension": { "pexels_id": 5408818, "author": "Leeloo The First",
-    "alt": { "ko": "책상 위 탁상 달력과 검은색 볼펜", "en": "Desk calendar beside a black click pen", "zh": "桌上的台历和黑色按动笔", "ja": "机の上の卓上カレンダーと黒いペン", "vi": "Lịch để bàn và bút bi đen trên bàn" } }
+    "alt": { "ko": "책상 위 탁상 달력과 검은색 볼펜", "en": "Desk calendar beside a black click pen", "zh": "桌上的台历和黑色按动笔", "ja": "机の上の卓上カレンダーと黒いペン", "vi": "Lịch để bàn và bút bi đen trên bàn" } },
+  "airport-departure-overstay-caught": { "pexels_id": 12932752, "author": "Atlantic Ambience",
+    "alt": { "ko": "공항 터미널 안을 걸어가는 여행객들", "en": "Travelers walking inside an airport terminal", "zh": "在机场航站楼内行走的旅客", "ja": "空港ターミナルを歩く旅行者たち", "vi": "Hành khách đi bộ trong nhà ga sân bay" } }
 }
