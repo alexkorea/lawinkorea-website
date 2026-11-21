@@ -109,5 +109,7 @@
   "offense-review-pending-stay-extension": { "pexels_id": 5408818, "author": "Leeloo The First",
     "alt": { "ko": "책상 위 탁상 달력과 검은색 볼펜", "en": "Desk calendar beside a black click pen", "zh": "桌上的台历和黑色按动笔", "ja": "机の上の卓上カレンダーと黒いペン", "vi": "Lịch để bàn và bút bi đen trên bàn" } },
   "airport-departure-overstay-caught": { "pexels_id": 12932752, "author": "Atlantic Ambience",
-    "alt": { "ko": "공항 터미널 안을 걸어가는 여행객들", "en": "Travelers walking inside an airport terminal", "zh": "在机场航站楼内行走的旅客", "ja": "空港ターミナルを歩く旅行者たち", "vi": "Hành khách đi bộ trong nhà ga sân bay" } }
+    "alt": { "ko": "공항 터미널 안을 걸어가는 여행객들", "en": "Travelers walking inside an airport terminal", "zh": "在机场航站楼内行走的旅客", "ja": "空港ターミナルを歩く旅行者たち", "vi": "Hành khách đi bộ trong nhà ga sân bay" } },
+  "identity-guarantee-liability-guide": { "pexels_id": 8730982, "author": "Mikhail Nilov",
+    "alt": { "ko": "서류에 펜으로 서명하는 손", "en": "Hand signing a document with a pen", "zh": "用笔在文件上签字的手", "ja": "ペンで書類に署名する手", "vi": "Bàn tay đang ký vào tài liệu bằng bút" } }
 }

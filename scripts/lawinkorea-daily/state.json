@@ -506,6 +506,19 @@
       ],
       "at": "2026-11-20T10:09:10.442Z",
       "batch": "BANK-REFILL-1029"
+    },
+    {
+      "slug": "identity-guarantee-liability-guide",
+      "date": "2026-11-21",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-11-21T10:09:04.064Z",
+      "batch": "BANK-REFILL-1029"
     }
   ],
   "rejected": []
