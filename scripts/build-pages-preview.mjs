@@ -189,6 +189,8 @@ fs.writeFileSync(
         // (워커는 정적파일을 모른다). 헤더 로고를 webp 로 바꾸면서 같이 넣는다.
         "/*.webp",
         "/*.ico",
+        // LAW-QA-1123 #10: 준비서류 빈 양식 PDF(public/forms) — 빠뜨리면 워커로 가서 404
+        "/forms/*",
       ],
     },
     null,
