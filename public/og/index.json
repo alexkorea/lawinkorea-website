@@ -15,7 +15,8 @@
    "lang": "ko",
    "slug": "criminal-case-visa-defense",
    "generated_at": "2026-10-05T12:17:46.680Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "70b6fa43"
   },
   "ko/criminal-record-pr-impact": {
    "hash": "6959335feb8b57938986e4e5040fe1c92a0277265591aecda360474d0120596e",
@@ -31,7 +32,8 @@
    "lang": "ko",
    "slug": "criminal-record-pr-impact",
    "generated_at": "2026-10-05T12:17:47.566Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "b02cfd68"
   },
   "ko/drug-case-deportation": {
    "hash": "748b126f856b0b726b1f513f6bad7b25930d9d3c5fef6417d6e2358a15b50acb",
@@ -47,7 +49,8 @@
    "lang": "ko",
    "slug": "drug-case-deportation",
    "generated_at": "2026-10-05T12:17:48.018Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "1c2a0d43"
   },
   "ko/dui-foreigner-visa": {
    "hash": "9342e04aace2bab7f09366051e5427820c77feaf5d8725414f1360dd9fff15f0",
@@ -63,7 +66,8 @@
    "lang": "ko",
    "slug": "dui-foreigner-visa",
    "generated_at": "2026-10-05T12:17:48.440Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "9e9f7e0c"
   },
   "ko/entry-ban-removal": {
    "hash": "ff41dacf5f2122019bb4ac108223e65831f59539aef2d4e2b0776f999417c42d",
@@ -79,7 +83,8 @@
    "lang": "ko",
    "slug": "entry-ban-removal",
    "generated_at": "2026-10-05T12:17:48.866Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "245c0520"
   },
   "ko/foreigner-visa-cancellation-response": {
    "hash": "42e2ff2847230746b5e1a96e8a55d4ecd79113ff79106203bebe5dc744fcebce",
@@ -95,7 +100,8 @@
    "lang": "ko",
    "slug": "foreigner-visa-cancellation-response",
    "generated_at": "2026-10-05T12:17:49.577Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "ed6e22f0"
   },
   "ko/immigration-law-penalties-guide": {
    "hash": "ceec083004d177b8447f91a7516354ac1b45ae2dbae092df416dcf0760118301",
@@ -111,7 +117,8 @@
    "lang": "ko",
    "slug": "immigration-law-penalties-guide",
    "generated_at": "2026-10-05T12:17:53.000Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "0945affe"
   },
   "ko/immigration-offense-review-guide": {
    "hash": "d48f7c0b0a2020463d6bef39f209ee60a29d7f44e0dd0b6ee6eb6c3ec722345d",
@@ -127,7 +134,8 @@
    "lang": "ko",
    "slug": "immigration-offense-review-guide",
    "generated_at": "2026-10-05T12:17:53.435Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "d77c0b41"
   },
   "ko/visa-denial-response": {
    "hash": "9c2f126d714dd48f83b2a2ff72454ee9dd3ef45e4104e651f74f5d53e3f0f3d7",
@@ -143,7 +151,8 @@
    "lang": "ko",
    "slug": "visa-denial-response",
    "generated_at": "2026-10-05T12:17:55.117Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "25ca00f7"
   },
   "en/criminal-case-visa-defense": {
    "hash": "88195339a12643ae7946a6bf4b15c2bc55c490c7592131ee77e56808ad66beb8",
@@ -159,7 +168,8 @@
    "lang": "en",
    "slug": "criminal-case-visa-defense",
    "generated_at": "2026-10-05T12:17:56.002Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "2ed11857"
   },
   "en/criminal-record-pr-impact": {
    "hash": "1045918d0e4505fb41888aa46694f838ddff7e0515eca0ce4fb7f9338edf87c4",
@@ -175,7 +185,8 @@
    "lang": "en",
    "slug": "criminal-record-pr-impact",
    "generated_at": "2026-10-05T12:17:56.880Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "e3d56bdc"
   },
   "en/drug-case-deportation": {
    "hash": "a2359586f9ed2aad9cf0f3ba457aed5194fa1fae726bab824f7dd8a019984794",
@@ -191,7 +202,8 @@
    "lang": "en",
    "slug": "drug-case-deportation",
    "generated_at": "2026-10-05T12:17:57.338Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "70627c2f"
   },
   "en/dui-foreigner-visa": {
    "hash": "b641b9461455ebf7b214b4827a11d4df9d03c76eb305c7962f5f8cee7b17d983",
@@ -207,7 +219,8 @@
    "lang": "en",
    "slug": "dui-foreigner-visa",
    "generated_at": "2026-10-05T12:17:57.768Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "60a7c81e"
   },
   "en/entry-ban-removal": {
    "hash": "6ae0fdfef4084879f464b208b7ed583df75a69dbd7cb171b05cce415e938888a",
@@ -223,7 +236,8 @@
    "lang": "en",
    "slug": "entry-ban-removal",
    "generated_at": "2026-10-05T12:17:58.209Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "3cd9ea7d"
   },
   "en/foreigner-visa-cancellation-response": {
    "hash": "e4ed98d61eeffe8796c81613cc71cc5413a2dceb1cb2434474194777b2d3c646",
@@ -239,7 +253,8 @@
    "lang": "en",
    "slug": "foreigner-visa-cancellation-response",
    "generated_at": "2026-10-05T12:17:58.955Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "7a10a6e9"
   },
   "en/immigration-law-penalties-guide": {
    "hash": "d0b07349c31a80012f73de170dce2a960ff5b722bacd0fba758019d34028fece",
@@ -255,7 +270,8 @@
    "lang": "en",
    "slug": "immigration-law-penalties-guide",
    "generated_at": "2026-10-05T12:18:02.367Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "061e8c4c"
   },
   "en/immigration-offense-review-guide": {
    "hash": "74be261ed50dae257bdbad4c7d8cb1ec540c6a3db3c66a5ba785cc61911faea5",
@@ -271,7 +287,8 @@
    "lang": "en",
    "slug": "immigration-offense-review-guide",
    "generated_at": "2026-10-05T12:18:02.823Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "dc366356"
   },
   "en/visa-denial-response": {
    "hash": "dc83d99a3a26715047a2df752113d6e0a87e976dfc74be8654e3ede7df81b0fd",
@@ -287,7 +304,8 @@
    "lang": "en",
    "slug": "visa-denial-response",
    "generated_at": "2026-10-05T12:18:04.751Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "83554c64"
   },
   "zh/criminal-case-visa-defense": {
    "hash": "4491cd5f946db0443bca64522e32c757e12df12eeff3f2195131e29b298fe30d",
@@ -303,7 +321,8 @@
    "lang": "zh",
    "slug": "criminal-case-visa-defense",
    "generated_at": "2026-10-05T12:18:05.786Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "e7037662"
   },
   "zh/criminal-record-pr-impact": {
    "hash": "625a47d861150bc2b80c5657c9ec672f19a8170e58c6747675d0dbf4e2b75f5c",
@@ -319,7 +338,8 @@
    "lang": "zh",
    "slug": "criminal-record-pr-impact",
    "generated_at": "2026-10-05T12:18:06.684Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "74eaa018"
   },
   "zh/drug-case-deportation": {
    "hash": "e8ea467b414d583d6530c420762737b134d8be9b0f2c2953bc2c1306634102ca",
@@ -335,7 +355,8 @@
    "lang": "zh",
    "slug": "drug-case-deportation",
    "generated_at": "2026-10-05T12:18:07.164Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "624608c9"
   },
   "zh/entry-ban-removal": {
    "hash": "b3dfbf93c960a800fc62519c9ab4f3625b4dce79e69e1be031a6d273dea5024d",
@@ -351,7 +372,8 @@
    "lang": "zh",
    "slug": "entry-ban-removal",
    "generated_at": "2026-10-05T12:18:08.099Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "a5c0aa11"
   },
   "zh/foreigner-visa-cancellation-response": {
    "hash": "8bb75c5e6fa33c29bafe403db8483b1dbb6b3b793b5052be01c2e88ce4a1d3e1",
@@ -367,7 +389,8 @@
    "lang": "zh",
    "slug": "foreigner-visa-cancellation-response",
    "generated_at": "2026-10-05T12:18:08.856Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "9536345d"
   },
   "zh/immigration-law-penalties-guide": {
    "hash": "8912aa439bbff662c5521f9d85bfafb70b9e3c5fa815d0fd130aeedb6f67c54a",
@@ -383,7 +406,8 @@
    "lang": "zh",
    "slug": "immigration-law-penalties-guide",
    "generated_at": "2026-10-05T12:18:12.227Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "eb438a1a"
   },
   "zh/immigration-offense-review-guide": {
    "hash": "558ea8d3b5e1afdb69c84aefec7f1fa0262d1b93936408323150483293693f78",
@@ -399,7 +423,8 @@
    "lang": "zh",
    "slug": "immigration-offense-review-guide",
    "generated_at": "2026-10-05T12:18:12.627Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "54be25f8"
   },
   "zh/visa-denial-response": {
    "hash": "850fc030b590775bb4deaf1f12b3654f9b508fd50b597ed5c534e6596bbbcb11",
@@ -415,7 +440,8 @@
    "lang": "zh",
    "slug": "visa-denial-response",
    "generated_at": "2026-10-05T12:18:14.409Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "97d620ea"
   },
   "ja/criminal-case-visa-defense": {
    "hash": "c3a022ea9c3361c191dfd99e4542f9a282424fecb15a8bdb9f465ddcf366b7c5",
@@ -431,7 +457,8 @@
    "lang": "ja",
    "slug": "criminal-case-visa-defense",
    "generated_at": "2026-10-05T12:18:15.422Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "c7e26f67"
   },
   "ja/criminal-record-pr-impact": {
    "hash": "c369a16dd4bcd8708e1013170c0917c525e7ca76c90add04fb9c399df182928c",
@@ -447,7 +474,8 @@
    "lang": "ja",
    "slug": "criminal-record-pr-impact",
    "generated_at": "2026-10-05T12:18:16.330Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "5b9fe683"
   },
   "ja/drug-case-deportation": {
    "hash": "9d10a1c9ff85af9cbb900624c757b04750da813bb7a50289ec9293caaf4b6e92",
@@ -463,7 +491,8 @@
    "lang": "ja",
    "slug": "drug-case-deportation",
    "generated_at": "2026-10-05T12:18:16.818Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "48c5cc6e"
   },
   "ja/entry-ban-removal": {
    "hash": "6c273baced74b6abde61ff581652f9c54b5f530ff768c0a15ebcc62930d55320",
@@ -479,7 +508,8 @@
    "lang": "ja",
    "slug": "entry-ban-removal",
    "generated_at": "2026-10-05T12:18:17.725Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "ce2c061a"
   },
   "ja/foreigner-visa-cancellation-response": {
    "hash": "fb695c9cd3c8e458ab5db4022770810a55b4abbf55a7e82fb4af355b313ab13f",
@@ -495,7 +525,8 @@
    "lang": "ja",
    "slug": "foreigner-visa-cancellation-response",
    "generated_at": "2026-10-05T12:18:18.501Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "c27079d1"
   },
   "ja/immigration-law-penalties-guide": {
    "hash": "b65afcbe5d6f655ba1d94437792cbab3ec12b24e6dc36fc42154b2267f623ae3",
@@ -511,7 +542,8 @@
    "lang": "ja",
    "slug": "immigration-law-penalties-guide",
    "generated_at": "2026-10-05T12:18:22.089Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "d5516102"
   },
   "ja/immigration-offense-review-guide": {
    "hash": "c5dd85e2921f641cd71a3f26c6160d88a917b1d20a64e691bff2adceee5796dc",
@@ -527,7 +559,8 @@
    "lang": "ja",
    "slug": "immigration-offense-review-guide",
    "generated_at": "2026-10-05T12:18:22.586Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "843c4d7a"
   },
   "ja/visa-denial-response": {
    "hash": "8f8b1e42bf9816dc6832f3d042ef953b8b262b4d6b30eee9f93b1c05e6620eb9",
@@ -543,7 +576,8 @@
    "lang": "ja",
    "slug": "visa-denial-response",
    "generated_at": "2026-10-05T12:18:24.379Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "adbaa95e"
   },
   "vi/criminal-case-visa-defense": {
    "hash": "94a5163f980c9ed2994bea95ad3ebe245d54bdf2bf53658b28baac7bd4ca19ab",
@@ -559,7 +593,8 @@
    "lang": "vi",
    "slug": "criminal-case-visa-defense",
    "generated_at": "2026-10-05T12:18:25.457Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "22911d1f"
   },
   "vi/criminal-record-pr-impact": {
    "hash": "9548ed6b49fe6c1942d91cf9bbdf7d44a0a41faad79a6a214cf9f793cb90fe95",
@@ -575,7 +610,8 @@
    "lang": "vi",
    "slug": "criminal-record-pr-impact",
    "generated_at": "2026-10-05T12:18:26.802Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "bed01055"
   },
   "vi/drug-case-deportation": {
    "hash": "7931751f3364b9ec7b174476d8aeb47e7f1866a5beaac097cf593d62280a7629",
@@ -591,7 +627,8 @@
    "lang": "vi",
    "slug": "drug-case-deportation",
    "generated_at": "2026-10-05T12:18:27.538Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "7b4e0f5c"
   },
   "vi/dui-foreigner-visa": {
    "hash": "e97d66b45acdcfa6b5df36edc022cce1d412571a60f8eda70fba930f5bf19c27",
@@ -607,7 +644,8 @@
    "lang": "vi",
    "slug": "dui-foreigner-visa",
    "generated_at": "2026-10-05T12:18:28.169Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "36b19af3"
   },
   "vi/entry-ban-removal": {
    "hash": "ef96a7e468c3c3681b85510a27a718356dc42efe4e750133c89ab4d8c760364f",
@@ -623,7 +661,8 @@
    "lang": "vi",
    "slug": "entry-ban-removal",
    "generated_at": "2026-10-05T12:18:28.897Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "632e1fac"
   },
   "vi/foreigner-visa-cancellation-response": {
    "hash": "35db9f8e2657585903bf02b77be6118b4ea4b9fe35988b5e7bb1d62a5be5f223",
@@ -639,7 +678,8 @@
    "lang": "vi",
    "slug": "foreigner-visa-cancellation-response",
    "generated_at": "2026-10-05T12:18:29.807Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "f627a29a"
   },
   "vi/immigration-law-penalties-guide": {
    "hash": "b8cba764e493be1c684d46fbd49887260209fad15d6deeb78372aea2a67427e5",
@@ -655,7 +695,8 @@
    "lang": "vi",
    "slug": "immigration-law-penalties-guide",
    "generated_at": "2026-10-05T12:18:33.399Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "b9924b78"
   },
   "vi/immigration-offense-review-guide": {
    "hash": "6474b7aebf0b8065d51269b631856bae3008d3cefe956a6a46f12b99c07faab9",
@@ -671,7 +712,8 @@
    "lang": "vi",
    "slug": "immigration-offense-review-guide",
    "generated_at": "2026-10-05T12:18:33.836Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "cbec127a"
   },
   "vi/visa-denial-response": {
    "hash": "4d633a866cddde3fb02f153458d3bd89c56b14ed5a5b97e4a9d64b6adac74ae9",
@@ -687,7 +729,8 @@
    "lang": "vi",
    "slug": "visa-denial-response",
    "generated_at": "2026-10-05T12:18:35.577Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "2355c92f"
   },
   "ko/foreigner-voluntary-departure-2026": {
    "hash": "bb80718e19cbd5cb74f24535efcc9e4a7b03a088c5e6ad4eb4d21fc5a9bb41b7",
@@ -703,7 +746,8 @@
    "lang": "ko",
    "slug": "foreigner-voluntary-departure-2026",
    "generated_at": "2026-10-05T12:17:50.376Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "b3fda3d9"
   },
   "ko/illegal-employment-penalty": {
    "hash": "cd7c5b022a6ddcc98a745a29b559879ed63e7e7da28a1ebd154d30750850e011",
@@ -719,7 +763,8 @@
    "lang": "ko",
    "slug": "illegal-employment-penalty",
    "generated_at": "2026-10-05T12:17:51.952Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "3c8e3c61"
   },
   "ko/voice-phishing-foreigners": {
    "hash": "426f2e9ed2b603d8ef1932c73c0d8e1261606274c199b48b049749361bf75ba0",
@@ -735,7 +780,8 @@
    "lang": "ko",
    "slug": "voice-phishing-foreigners",
    "generated_at": "2026-10-05T12:17:55.544Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "3ed4ec23"
   },
   "en/foreigner-voluntary-departure-2026": {
    "hash": "0e6abac7474000d1bdb4999f041d3e6c00ef5e299a358404c43f4fddd90bdc2b",
@@ -751,7 +797,8 @@
    "lang": "en",
    "slug": "foreigner-voluntary-departure-2026",
    "generated_at": "2026-10-05T12:17:59.762Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "d67e0f7c"
   },
   "en/illegal-employment-penalty": {
    "hash": "e24d92a6944301e65741711e33650ce0f2dc11aae7857bfbb39cb5835a3d0f6f",
@@ -767,7 +814,8 @@
    "lang": "en",
    "slug": "illegal-employment-penalty",
    "generated_at": "2026-10-05T12:18:01.403Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "932e9349"
   },
   "en/voice-phishing-foreigners": {
    "hash": "ab3488d2c87c7de543389710380699dfcbd8aaf41d77521488d23a200615d578",
@@ -783,7 +831,8 @@
    "lang": "en",
    "slug": "voice-phishing-foreigners",
    "generated_at": "2026-10-05T12:18:05.231Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "bb69468b"
   },
   "zh/dui-foreigner-visa": {
    "hash": "885a435545ed3ffe26fc946ed3a8bccd242df8b02ed0eea44273988948b182a0",
@@ -799,7 +848,8 @@
    "lang": "zh",
    "slug": "dui-foreigner-visa",
    "generated_at": "2026-10-05T12:18:07.621Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "6fdd629e"
   },
   "zh/foreigner-voluntary-departure-2026": {
    "hash": "d6b0b9d030f9377206a72ce4c03b07da500b4a6f06b8d3b78662ef28f09e8e34",
@@ -815,7 +865,8 @@
    "lang": "zh",
    "slug": "foreigner-voluntary-departure-2026",
    "generated_at": "2026-10-05T12:18:09.769Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "baa2f8dd"
   },
   "zh/illegal-employment-penalty": {
    "hash": "0b3b67156a5483b96213ccfd729734d832d5a02182180625a3f6aec6ece7e352",
@@ -831,7 +882,8 @@
    "lang": "zh",
    "slug": "illegal-employment-penalty",
    "generated_at": "2026-10-05T12:18:11.336Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "2cbbbd0b"
   },
   "zh/voice-phishing-foreigners": {
    "hash": "72e12610ba90300ab55a3ccd793848ccd01cdf88d01c063219acfd557983c18d",
@@ -847,7 +899,8 @@
    "lang": "zh",
    "slug": "voice-phishing-foreigners",
    "generated_at": "2026-10-05T12:18:14.894Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "39c1268a"
   },
   "ja/dui-foreigner-visa": {
    "hash": "1fbe830191c1e0107bcf04929b599113ab6376be33ef82b6b6a2ac4d20ba08c8",
@@ -863,7 +916,8 @@
    "lang": "ja",
    "slug": "dui-foreigner-visa",
    "generated_at": "2026-10-05T12:18:17.271Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "c3dc3984"
   },
   "ja/foreigner-voluntary-departure-2026": {
    "hash": "41da3247fbd58a9f75ee1442691feb1df4f798637b2c514ad1bee809d5cc1ea2",
@@ -879,7 +933,8 @@
    "lang": "ja",
    "slug": "foreigner-voluntary-departure-2026",
    "generated_at": "2026-10-05T12:18:19.404Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "b40b9c22"
   },
   "ja/illegal-employment-penalty": {
    "hash": "af35dbcf21335cae7fc5156a1ae81fc6aefbedc918c83df62567a3e8d871b7cc",
@@ -895,7 +950,8 @@
    "lang": "ja",
    "slug": "illegal-employment-penalty",
    "generated_at": "2026-10-05T12:18:21.132Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "aa80cf0f"
   },
   "ja/voice-phishing-foreigners": {
    "hash": "2e4c38536939463b376eb489dc88f47557976ee2d7af4c1c22609e1d9fb75ffd",
@@ -911,7 +967,8 @@
    "lang": "ja",
    "slug": "voice-phishing-foreigners",
    "generated_at": "2026-10-05T12:18:24.843Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "b43e5a74"
   },
   "vi/foreigner-voluntary-departure-2026": {
    "hash": "7b37f006f17630d0e30f6356508c96a5b24605cb1a6b724a6633a385b8158c4b",
@@ -927,7 +984,8 @@
    "lang": "vi",
    "slug": "foreigner-voluntary-departure-2026",
    "generated_at": "2026-10-05T12:18:30.722Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "cecf1ff6"
   },
   "vi/illegal-employment-penalty": {
    "hash": "d8314ae18102327db19eab5edaf5712ab33068eef60fcb76910623713770b49a",
@@ -943,7 +1001,8 @@
    "lang": "vi",
    "slug": "illegal-employment-penalty",
    "generated_at": "2026-10-05T12:18:32.443Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "f0bcbf35"
   },
   "vi/voice-phishing-foreigners": {
    "hash": "036c731ed84b4280d417ff39b9894f61619c4f0c3b3c276e86d76d00ebc24a82",
@@ -959,7 +1018,8 @@
    "lang": "vi",
    "slug": "voice-phishing-foreigners",
    "generated_at": "2026-10-05T12:18:36.046Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "f20a4698"
   },
   "ko/immigration-fine-notice-response-2026": {
    "hash": "258c9306c99fff3c7102ef7ea4ec2abfe4901fdc52d0d90f3e41cff816927fa0",
@@ -975,7 +1035,8 @@
    "lang": "ko",
    "slug": "immigration-fine-notice-response-2026",
    "generated_at": "2026-10-05T12:17:52.475Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "c20709cb"
   },
   "en/immigration-fine-notice-response-2026": {
    "hash": "319c6a406851f0dd8b0ce234f21444e35a3aad0a17397512b03603dbce284b5b",
@@ -991,7 +1052,8 @@
    "lang": "en",
    "slug": "immigration-fine-notice-response-2026",
    "generated_at": "2026-10-05T12:18:01.858Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "04b126c4"
   },
   "zh/immigration-fine-notice-response-2026": {
    "hash": "7cd271c8c9d8803d1e5c7e3b3da37a2f592011977102c0b822d7b80572bab643",
@@ -1007,7 +1069,8 @@
    "lang": "zh",
    "slug": "immigration-fine-notice-response-2026",
    "generated_at": "2026-10-05T12:18:11.763Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "a881412b"
   },
   "ja/immigration-fine-notice-response-2026": {
    "hash": "b23838302f7cda195f3a5dfdb08ebf65f8739bb86faf32f1829dbee03dc069ac",
@@ -1023,7 +1086,8 @@
    "lang": "ja",
    "slug": "immigration-fine-notice-response-2026",
    "generated_at": "2026-10-05T12:18:21.587Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "2a425047"
   },
   "vi/immigration-fine-notice-response-2026": {
    "hash": "00f5d29be3241137472236701d6cf7dbfe49b403a621d0c042a324d997a500e9",
@@ -1039,7 +1103,8 @@
    "lang": "vi",
    "slug": "immigration-fine-notice-response-2026",
    "generated_at": "2026-10-05T12:18:32.909Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "543108de"
   },
   "ko/unauthorized-activity-disposition-2026": {
    "hash": "5a3abd5fe7dff788c1322f95121360f200ea3640a866ba018992e9f152543bb2",
@@ -1055,7 +1120,8 @@
    "lang": "ko",
    "slug": "unauthorized-activity-disposition-2026",
    "generated_at": "2026-10-05T12:17:54.301Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "d7deaf43"
   },
   "en/unauthorized-activity-disposition-2026": {
    "hash": "4262e4e719308779c7cd0207f1f49dc87b14d358b0d3722fb614ad2f2ec45a80",
@@ -1071,7 +1137,8 @@
    "lang": "en",
    "slug": "unauthorized-activity-disposition-2026",
    "generated_at": "2026-10-05T12:18:03.874Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "9a8d837e"
   },
   "zh/unauthorized-activity-disposition-2026": {
    "hash": "7f68e3f3ce070750753b6030677270db944cadcd5cf0e1be0919099dd86cc57b",
@@ -1087,7 +1154,8 @@
    "lang": "zh",
    "slug": "unauthorized-activity-disposition-2026",
    "generated_at": "2026-10-05T12:18:13.496Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "d8a23c28"
   },
   "ja/unauthorized-activity-disposition-2026": {
    "hash": "2ae971768276e6a88e194a08c13ac08327977ff621c9fe26324042a150bc6f88",
@@ -1103,7 +1171,8 @@
    "lang": "ja",
    "slug": "unauthorized-activity-disposition-2026",
    "generated_at": "2026-10-05T12:18:23.520Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "e8f081c6"
   },
   "vi/unauthorized-activity-disposition-2026": {
    "hash": "5a75d60a023c7b3ecc4c7ab9b8ae981cabb08de4a67bd2f3b7bfca5d4066a30e",
@@ -1119,7 +1188,8 @@
    "lang": "vi",
    "slug": "unauthorized-activity-disposition-2026",
    "generated_at": "2026-10-05T12:18:34.734Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "2f4a7ae9"
   },
   "ko/illegal-employer-penalty": {
    "hash": "64f83bd4898c8de22cd8c8f822a5750e21e310beb16bdce2320d403e11f440b6",
@@ -1135,7 +1205,8 @@
    "lang": "ko",
    "slug": "illegal-employer-penalty",
    "generated_at": "2026-10-05T12:17:51.102Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "b43c5416"
   },
   "en/illegal-employer-penalty": {
    "hash": "5d99df67076164d008263a6a4352d42bc74239045d344f9d22ae2a01ac34ccb3",
@@ -1151,7 +1222,8 @@
    "lang": "en",
    "slug": "illegal-employer-penalty",
    "generated_at": "2026-10-05T12:18:00.543Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "c35ba252"
   },
   "zh/illegal-employer-penalty": {
    "hash": "bddf0232e61d3270211751786f5817b6ddee173bef1ff3b9b597921dc02c2e7e",
@@ -1167,7 +1239,8 @@
    "lang": "zh",
    "slug": "illegal-employer-penalty",
    "generated_at": "2026-10-05T12:18:10.508Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "b83f0cc4"
   },
   "ja/illegal-employer-penalty": {
    "hash": "c1b47e7c43bd6c29b87d346669a7b7bd50581cfeaf886ea29501d9ed52a21c86",
@@ -1183,7 +1256,8 @@
    "lang": "ja",
    "slug": "illegal-employer-penalty",
    "generated_at": "2026-10-05T12:18:20.226Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "481187b2"
   },
   "vi/illegal-employer-penalty": {
    "hash": "eb7163db8a999a873a2b1bc4b60d309b34e47a4b4d04b1c4d0ac8a3b91a6e860",
@@ -1199,7 +1273,8 @@
    "lang": "vi",
    "slug": "illegal-employer-penalty",
    "generated_at": "2026-10-05T12:18:31.545Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "d2f1152f"
   },
   "ko/reflection-letter-guide": {
    "hash": "9d492d2eea0e8240ae3d9cd014c8bad30cf74c5d5ee034add67110e9f47f3920",
@@ -1215,7 +1290,8 @@
    "lang": "ko",
    "slug": "reflection-letter-guide",
    "generated_at": "2026-10-05T12:17:53.867Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "2fd8e6b5"
   },
   "en/reflection-letter-guide": {
    "hash": "63aa72067b5a3d2ec32e01bd3f9e2ec9378d26d40eae0753a07b579d3c8003aa",
@@ -1231,7 +1307,8 @@
    "lang": "en",
    "slug": "reflection-letter-guide",
    "generated_at": "2026-10-05T12:18:03.367Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "d77487f6"
   },
   "zh/reflection-letter-guide": {
    "hash": "242e85f799a3d452d1db1723ff8903818117c8d12b0eeae38eb40c716f5d233b",
@@ -1247,7 +1324,8 @@
    "lang": "zh",
    "slug": "reflection-letter-guide",
    "generated_at": "2026-10-05T12:18:13.057Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "7aa58967"
   },
   "ja/reflection-letter-guide": {
    "hash": "0cd34ad359a0cae1c92a3d73b959b1761ac0afe5f0f4eb86e257ee83ae836ef3",
@@ -1263,7 +1341,8 @@
    "lang": "ja",
    "slug": "reflection-letter-guide",
    "generated_at": "2026-10-05T12:18:23.082Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "720dc0d1"
   },
   "vi/reflection-letter-guide": {
    "hash": "af32bbb85b2b2c86d53afec670e7c2d7462a744c4324fc73cfdc3672da9949de",
@@ -1279,7 +1358,8 @@
    "lang": "vi",
    "slug": "reflection-letter-guide",
    "generated_at": "2026-10-05T12:18:34.292Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "25f52458"
   },
   "ko/residence-change-report-fine": {
    "hash": "8ea2eba7c423519842ba6a1f6143c64323b280cfaf8db463678afb351a6eb101",
@@ -1295,7 +1375,8 @@
    "lang": "ko",
    "slug": "residence-change-report-fine",
    "generated_at": "2026-10-07T00:30:02.397Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "8ec59580"
   },
   "en/residence-change-report-fine": {
    "hash": "e43968a40a3e8ce1de534d03a71169ae235725c5a9719dad35dd8efebf04e075",
@@ -1311,7 +1392,8 @@
    "lang": "en",
    "slug": "residence-change-report-fine",
    "generated_at": "2026-10-07T00:30:02.887Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "dbf6b8fe"
   },
   "zh/residence-change-report-fine": {
    "hash": "a75c21af7d0463739bc1a20f6ff846d9c8ebf4a33c46643803ad265ced8a16fb",
@@ -1327,7 +1409,8 @@
    "lang": "zh",
    "slug": "residence-change-report-fine",
    "generated_at": "2026-10-07T00:30:03.426Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "164b1641"
   },
   "ja/residence-change-report-fine": {
    "hash": "4eea0bf1433c67a45913a10f7e040d2e3acd00e5af616965b179690ba241ec85",
@@ -1343,7 +1426,8 @@
    "lang": "ja",
    "slug": "residence-change-report-fine",
    "generated_at": "2026-10-07T00:30:03.929Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "e45e929d"
   },
   "vi/residence-change-report-fine": {
    "hash": "f092e986fb949c734b5d7aa091e7ad8d0baf5af97d16d48722201862febfb662",
@@ -1359,7 +1443,8 @@
    "lang": "vi",
    "slug": "residence-change-report-fine",
    "generated_at": "2026-10-07T00:30:04.421Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "d7ccbb82"
   },
   "ko/alien-registration-90-days-penalty": {
    "hash": "b7cf9b1b1a15038079168fb0eed286d71c471f10fe25606aed688c209c718eb8",
@@ -1375,7 +1460,8 @@
    "lang": "ko",
    "slug": "alien-registration-90-days-penalty",
    "generated_at": "2026-10-22T02:14:16.726Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "36587535"
   },
   "en/alien-registration-90-days-penalty": {
    "hash": "1ccc0682784fc3d872efe07f3b2facf792a2493b4d628dd450040db88955071a",
@@ -1391,7 +1477,8 @@
    "lang": "en",
    "slug": "alien-registration-90-days-penalty",
    "generated_at": "2026-10-22T02:14:17.204Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "3bef912e"
   },
   "zh/alien-registration-90-days-penalty": {
    "hash": "68edfe582ef6b77aed3dcf7c0bb8e594a6c9e0964f0c82a31288b7455f19d9c7",
@@ -1407,7 +1494,8 @@
    "lang": "zh",
    "slug": "alien-registration-90-days-penalty",
    "generated_at": "2026-10-22T02:14:17.749Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "59478dca"
   },
   "ja/alien-registration-90-days-penalty": {
    "hash": "a53926ebd79b3d1d8cd852b9ba599b4a07c98ae15b99bac3a3178cd0e1d116cd",
@@ -1423,7 +1511,8 @@
    "lang": "ja",
    "slug": "alien-registration-90-days-penalty",
    "generated_at": "2026-10-22T02:14:18.267Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "d3b75d46"
   },
   "vi/alien-registration-90-days-penalty": {
    "hash": "67cc56f8685292ccf3cc1e2a207de4387ad6741f78015441e8fdb959db9da9a0",
@@ -1439,7 +1528,8 @@
    "lang": "vi",
    "slug": "alien-registration-90-days-penalty",
    "generated_at": "2026-10-22T02:14:18.743Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "08944e37"
   },
   "ko/overstay-penalty-extension-missed": {
    "hash": "767c50afe158ebf8be2e05998c450b1cc8cb91ec1b4df8c7674e34b23e4f7568",
@@ -1455,7 +1545,8 @@
    "lang": "ko",
    "slug": "overstay-penalty-extension-missed",
    "generated_at": "2026-10-09T10:03:01.652Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "fcf3b387"
   },
   "en/overstay-penalty-extension-missed": {
    "hash": "34f7fec415e742ae63ef65c20ec6d5cab8b7cfbfa6518596c99990d7b021d935",
@@ -1471,7 +1562,8 @@
    "lang": "en",
    "slug": "overstay-penalty-extension-missed",
    "generated_at": "2026-10-09T10:03:02.051Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "cdfdb6fe"
   },
   "zh/overstay-penalty-extension-missed": {
    "hash": "29a71ce523cb757f9737a5d185d47214d500b2e827e418a5b71290301397047a",
@@ -1487,7 +1579,8 @@
    "lang": "zh",
    "slug": "overstay-penalty-extension-missed",
    "generated_at": "2026-10-09T10:03:02.499Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "dc12d04e"
   },
   "ja/overstay-penalty-extension-missed": {
    "hash": "f9043202b676c3fd53094b28db33804bdb5f4b565649b7697e7d091dd26ef9dc",
@@ -1503,7 +1596,8 @@
    "lang": "ja",
    "slug": "overstay-penalty-extension-missed",
    "generated_at": "2026-10-09T10:03:02.923Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "8b8331b9"
   },
   "vi/overstay-penalty-extension-missed": {
    "hash": "c66601dcabc8f7bdd5b283ab8c49ff55bc95498890500a5ed68ee6409582ec48",
@@ -1519,7 +1613,8 @@
    "lang": "vi",
    "slug": "overstay-penalty-extension-missed",
    "generated_at": "2026-10-09T10:03:03.321Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "e32929d4"
   },
   "ko/workplace-change-without-permission-penalty": {
    "hash": "6efd27be3207c1ea7e0e33eb43287f0f250991bfba5e500799aaa5cf2bd1a5b6",
@@ -1535,7 +1630,8 @@
    "lang": "ko",
    "slug": "workplace-change-without-permission-penalty",
    "generated_at": "2026-10-10T10:02:55.830Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "710457b8"
   },
   "en/workplace-change-without-permission-penalty": {
    "hash": "ed1978e5474004016761984ff7fc1222b13c34888c98fc92a5ebc6af3d88e306",
@@ -1551,7 +1647,8 @@
    "lang": "en",
    "slug": "workplace-change-without-permission-penalty",
    "generated_at": "2026-10-10T10:02:56.298Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "9bd2a099"
   },
   "zh/workplace-change-without-permission-penalty": {
    "hash": "0df086a5c11344b9ea26c68b436be2008343cc5f51d114a23281c74e85a3203f",
@@ -1567,7 +1664,8 @@
    "lang": "zh",
    "slug": "workplace-change-without-permission-penalty",
    "generated_at": "2026-10-10T10:02:56.797Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "3119d4e3"
   },
   "ja/workplace-change-without-permission-penalty": {
    "hash": "b3cf9c8c15ad0650de3bd5a3a0519bfb136aa410a3424e7f2b7fb37b2f06a370",
@@ -1583,7 +1681,8 @@
    "lang": "ja",
    "slug": "workplace-change-without-permission-penalty",
    "generated_at": "2026-10-10T10:02:57.274Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "2cddba68"
   },
   "vi/workplace-change-without-permission-penalty": {
    "hash": "b12ef65d12394bdb7b73390d7894b45cc79e49d7ea7c9593ad7d735365b4a834",
@@ -1599,7 +1698,8 @@
    "lang": "vi",
    "slug": "workplace-change-without-permission-penalty",
    "generated_at": "2026-10-10T10:02:57.740Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "4a39064a"
   },
   "ko/foreigner-id-card-carry-lost-reissue": {
    "hash": "0c3b796ed3b7de77a44371a99a6086f8c9b99dcfdc088a76a9c3fec619a7e22d",
@@ -1615,7 +1715,8 @@
    "lang": "ko",
    "slug": "foreigner-id-card-carry-lost-reissue",
    "generated_at": "2026-10-11T10:02:43.742Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "d4934568"
   },
   "en/foreigner-id-card-carry-lost-reissue": {
    "hash": "7d7cf485a9bef9d38232a30929a617d7be707b96e139e3bca10087b7c0fa5437",
@@ -1631,7 +1732,8 @@
    "lang": "en",
    "slug": "foreigner-id-card-carry-lost-reissue",
    "generated_at": "2026-10-11T10:02:44.541Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "8949034a"
   },
   "zh/foreigner-id-card-carry-lost-reissue": {
    "hash": "a58b9e4fb4328bf2a8b07c2878d1bdf520b44af025cdcc5a5496ab69acc193f5",
@@ -1647,7 +1749,8 @@
    "lang": "zh",
    "slug": "foreigner-id-card-carry-lost-reissue",
    "generated_at": "2026-10-11T10:02:45.387Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "81c59942"
   },
   "ja/foreigner-id-card-carry-lost-reissue": {
    "hash": "f0a10867a396d256fb67163ec87f9c9fddfe21fa24d67be2cc49d5d6cadabf12",
@@ -1663,7 +1766,8 @@
    "lang": "ja",
    "slug": "foreigner-id-card-carry-lost-reissue",
    "generated_at": "2026-10-11T10:02:46.200Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "ee8588f6"
   },
   "vi/foreigner-id-card-carry-lost-reissue": {
    "hash": "806d4d0dca846bdd1dbc92a993cb8aaf29e5282341810d7c429ec74061fcabe9",
@@ -1679,7 +1783,8 @@
    "lang": "vi",
    "slug": "foreigner-id-card-carry-lost-reissue",
    "generated_at": "2026-10-11T10:02:47.000Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "ab2636b2"
   },
   "ko/immigration-summons-statement-rights": {
    "hash": "0dafdfa98968a295d0bd70a180ce6ae6ec8905228bd039777a7a3bdd84431cce",
@@ -1695,7 +1800,8 @@
    "lang": "ko",
    "slug": "immigration-summons-statement-rights",
    "generated_at": "2026-10-12T10:02:48.886Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "b60ceb9f"
   },
   "en/immigration-summons-statement-rights": {
    "hash": "0149385dbe5efa53c822cf55f3bf0f22f76a587cc7ffaad8375376677917ea17",
@@ -1711,7 +1817,8 @@
    "lang": "en",
    "slug": "immigration-summons-statement-rights",
    "generated_at": "2026-10-12T10:02:49.729Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "82d4f8b4"
   },
   "zh/immigration-summons-statement-rights": {
    "hash": "156f4408d884214e1bbe7db1a3cb8c53441429d59166ccc8992a000c89b54197",
@@ -1727,7 +1834,8 @@
    "lang": "zh",
    "slug": "immigration-summons-statement-rights",
    "generated_at": "2026-10-12T10:02:50.619Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "bc65fe8a"
   },
   "ja/immigration-summons-statement-rights": {
    "hash": "81a9ba073e493727a424911bfb2fc59a1db8d2a439c221bf6a25aba2d3cbb8fd",
@@ -1743,7 +1851,8 @@
    "lang": "ja",
    "slug": "immigration-summons-statement-rights",
    "generated_at": "2026-10-12T10:02:51.479Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "365d11ac"
   },
   "vi/immigration-summons-statement-rights": {
    "hash": "c19a2dae59a7a94a60e2c1e4c6c0a4ac2adc2df6772e04d2e439beaeb4cade94",
@@ -1759,7 +1868,8 @@
    "lang": "vi",
    "slug": "immigration-summons-statement-rights",
    "generated_at": "2026-10-12T10:02:52.316Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "27016992"
   },
   "ko/immigration-detention-objection-guide": {
    "hash": "ad5bd39abc6534fd6cd8e9b986ca667106170d60affc9113d7645f6743e4bb70",
@@ -1775,7 +1885,8 @@
    "lang": "ko",
    "slug": "immigration-detention-objection-guide",
    "generated_at": "2026-10-13T10:03:04.182Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "9fb2cc6e"
   },
   "en/immigration-detention-objection-guide": {
    "hash": "90d06c32f2e0442c1888963edafc74b3aed5dc41243c1974c8383b5021f0a052",
@@ -1791,7 +1902,8 @@
    "lang": "en",
    "slug": "immigration-detention-objection-guide",
    "generated_at": "2026-10-13T10:03:04.634Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "58b97619"
   },
   "zh/immigration-detention-objection-guide": {
    "hash": "42f18c8a12548b981e5693be1f1f4ad3890daac09a0c4289d3e0bcccc639875d",
@@ -1807,7 +1919,8 @@
    "lang": "zh",
    "slug": "immigration-detention-objection-guide",
    "generated_at": "2026-10-13T10:03:05.136Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "5c98392b"
   },
   "ja/immigration-detention-objection-guide": {
    "hash": "19ac32ca27330f38b16de131d1e7cee70e736848cea752bd39356a547e437569",
@@ -1823,7 +1936,8 @@
    "lang": "ja",
    "slug": "immigration-detention-objection-guide",
    "generated_at": "2026-10-13T10:03:05.603Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "d58de5c2"
   },
   "vi/immigration-detention-objection-guide": {
    "hash": "6040781f8ba3d34981199f5f75e6b7f2a7ffa09220eb25274c8a517a20d08eae",
@@ -1839,7 +1953,8 @@
    "lang": "vi",
    "slug": "immigration-detention-objection-guide",
    "generated_at": "2026-10-13T10:03:06.055Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "fdfb247c"
   },
   "ko/born-in-korea-residence-status-90-days": {
    "hash": "9d9ab888fa35369cc791407e890e1eb654bd2d6234920f67659eca8c3907f0b1",
@@ -1855,7 +1970,8 @@
    "lang": "ko",
    "slug": "born-in-korea-residence-status-90-days",
    "generated_at": "2026-10-14T10:03:02.676Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "2d611134"
   },
   "en/born-in-korea-residence-status-90-days": {
    "hash": "bcc0bcaaf04f7ad1ac66d4c7b57c8ff35d4c1115c9acd9b7a946adeffe855eed",
@@ -1871,7 +1987,8 @@
    "lang": "en",
    "slug": "born-in-korea-residence-status-90-days",
    "generated_at": "2026-10-14T10:03:03.109Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "369f63e0"
   },
   "zh/born-in-korea-residence-status-90-days": {
    "hash": "01c91efc71f8788d0e23f51c3a8bc6e834d7dc40b69241c373c016cc477ef780",
@@ -1887,7 +2004,8 @@
    "lang": "zh",
    "slug": "born-in-korea-residence-status-90-days",
    "generated_at": "2026-10-14T10:03:03.587Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "e1de56c1"
   },
   "ja/born-in-korea-residence-status-90-days": {
    "hash": "87a146bf0d0b8fa175f0049b10b97cf2a05e91595dae520687fda51bc3db2fe1",
@@ -1903,7 +2021,8 @@
    "lang": "ja",
    "slug": "born-in-korea-residence-status-90-days",
    "generated_at": "2026-10-14T10:03:04.041Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "06dd450f"
   },
   "vi/born-in-korea-residence-status-90-days": {
    "hash": "3013068644c4d7f327d1274bc9c195bcfcfca411e3eb3db424778fac94ac29b2",
@@ -1919,87 +2038,103 @@
    "lang": "vi",
    "slug": "born-in-korea-residence-status-90-days",
    "generated_at": "2026-10-14T10:03:04.484Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "f5837f35"
   },
   "ko/status-change-permit-before-activity": {
-   "hash": "ca21c7a761f04fe149fd977e20342a9e6d53468badb901a0bdef00cc0be668e3",
+   "hash": "17d214f453e1c66f0e78edec305f55f19f5b09ee5ef2add7511d573897681e56",
    "source": "pexels",
    "seed": 2681215475,
    "theme": "default",
    "prompt_subject": "seoul city skyline",
    "map_version": null,
-   "pexels_id": 8524948,
-   "pexels_author": "Olia Danilevich",
+   "pexels_id": 9487228,
+   "pexels_author": "Monstera Production",
    "category": "체류허가",
    "visa": null,
    "lang": "ko",
    "slug": "status-change-permit-before-activity",
-   "generated_at": "2026-10-15T10:03:12.974Z",
-   "version": "1.4"
+   "title": "체류자격 변경은 허가 먼저",
+   "site_name": "lawinkorea.com",
+   "generated_at": "2026-11-23T02:33:38.368Z",
+   "version": "1.4",
+   "card1280": "5949ba88"
   },
   "en/status-change-permit-before-activity": {
-   "hash": "684eff2fe4adcfd87f2c486c8c1026720d929569bd51b1381d9d9ef9db6be746",
+   "hash": "c72c26c27360b993fe0f16f5e8e56ed544a851b75beef42c3655090ca6a343bb",
    "source": "pexels",
    "seed": 2681215475,
    "theme": "default",
    "prompt_subject": "seoul city skyline",
    "map_version": null,
-   "pexels_id": 8524948,
-   "pexels_author": "Olia Danilevich",
+   "pexels_id": 9487228,
+   "pexels_author": "Monstera Production",
    "category": "Residence",
    "visa": null,
    "lang": "en",
    "slug": "status-change-permit-before-activity",
-   "generated_at": "2026-10-15T10:03:13.448Z",
-   "version": "1.4"
+   "title": "Permit before status change",
+   "site_name": "lawinkorea.com",
+   "generated_at": "2026-11-23T02:33:38.867Z",
+   "version": "1.4",
+   "card1280": "096b48e8"
   },
   "zh/status-change-permit-before-activity": {
-   "hash": "23e4f15ea6b227f68818844ba1f79f3a79e6c1f1dbcd2ab51d729a36cb3dcf34",
+   "hash": "cc384fa01a13b2c2c8284608d04d76a37501a0c69a83f5808922b391f021d081",
    "source": "pexels",
    "seed": 2681215475,
    "theme": "default",
    "prompt_subject": "seoul city skyline",
    "map_version": null,
-   "pexels_id": 8524948,
-   "pexels_author": "Olia Danilevich",
+   "pexels_id": 9487228,
+   "pexels_author": "Monstera Production",
    "category": "居留许可",
    "visa": null,
    "lang": "zh",
    "slug": "status-change-permit-before-activity",
-   "generated_at": "2026-10-15T10:03:13.965Z",
-   "version": "1.4"
+   "title": "先获许可再变更资格",
+   "site_name": "lawinkorea.com",
+   "generated_at": "2026-11-23T02:33:39.453Z",
+   "version": "1.4",
+   "card1280": "2fbf7a97"
   },
   "ja/status-change-permit-before-activity": {
-   "hash": "34105911ca3b28a10055095b1f98247ddc4172f151db7db841ad522775a34f57",
+   "hash": "0a40c58c1cc0af7ac86882b7f8c74cb322c1f47cdd56ea502fc8d4b6b5414bb9",
    "source": "pexels",
    "seed": 2681215475,
    "theme": "default",
    "prompt_subject": "seoul city skyline",
    "map_version": null,
-   "pexels_id": 8524948,
-   "pexels_author": "Olia Danilevich",
+   "pexels_id": 9487228,
+   "pexels_author": "Monstera Production",
    "category": "在留許可",
    "visa": null,
    "lang": "ja",
    "slug": "status-change-permit-before-activity",
-   "generated_at": "2026-10-15T10:03:14.461Z",
-   "version": "1.4"
+   "title": "在留資格変更は許可が先",
+   "site_name": "lawinkorea.com",
+   "generated_at": "2026-11-23T02:33:40.002Z",
+   "version": "1.4",
+   "card1280": "2c0e69f6"
   },
   "vi/status-change-permit-before-activity": {
-   "hash": "e01ffe0fcc5a7b7d68da7448b13e7708c2249bb439dbe00e118a8f17780b60b2",
+   "hash": "2707726b6e220257372fae52ea10d08eac2022ee906b12f616f67e34c6668684",
    "source": "pexels",
    "seed": 2681215475,
    "theme": "default",
    "prompt_subject": "seoul city skyline",
    "map_version": null,
-   "pexels_id": 8524948,
-   "pexels_author": "Olia Danilevich",
+   "pexels_id": 9487228,
+   "pexels_author": "Monstera Production",
    "category": "Cư trú",
    "visa": null,
    "lang": "vi",
    "slug": "status-change-permit-before-activity",
-   "generated_at": "2026-10-15T10:03:14.935Z",
-   "version": "1.4"
+   "title": "Xin phép trước khi đổi tư cách",
+   "site_name": "lawinkorea.com",
+   "generated_at": "2026-11-23T02:33:40.499Z",
+   "version": "1.4",
+   "card1280": "799d35ce"
   },
   "ko/false-invitation-visa-application-penalty": {
    "hash": "a0adeb757bfe9fb1e762cafd0d9a403e3959a94e7892c3bb942c4bc83dcd1244",
@@ -2015,7 +2150,8 @@
    "lang": "ko",
    "slug": "false-invitation-visa-application-penalty",
    "generated_at": "2026-10-16T10:03:32.303Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "d5297735"
   },
   "en/false-invitation-visa-application-penalty": {
    "hash": "dfe5fa9bac1a7872a84c97568204001006c8674941d9ea6e36ef8936e8afefeb",
@@ -2031,7 +2167,8 @@
    "lang": "en",
    "slug": "false-invitation-visa-application-penalty",
    "generated_at": "2026-10-16T10:03:32.802Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "2bfd8bf2"
   },
   "zh/false-invitation-visa-application-penalty": {
    "hash": "c579b16a1329fe03e48083a6ca1337a9fdbf81a2056e284b851162e2c6a51dc8",
@@ -2047,7 +2184,8 @@
    "lang": "zh",
    "slug": "false-invitation-visa-application-penalty",
    "generated_at": "2026-10-16T10:03:33.350Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "9f0efaea"
   },
   "ja/false-invitation-visa-application-penalty": {
    "hash": "3a28618e5ba2cab03ff77e97b030c46a471cccd74c8da635f99bfba3e1c54909",
@@ -2063,7 +2201,8 @@
    "lang": "ja",
    "slug": "false-invitation-visa-application-penalty",
    "generated_at": "2026-10-16T10:03:33.873Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "21e0b840"
   },
   "vi/false-invitation-visa-application-penalty": {
    "hash": "daba533958f87913120225736a82be2870e177c991344d1544065818e743d24b",
@@ -2079,7 +2218,8 @@
    "lang": "vi",
    "slug": "false-invitation-visa-application-penalty",
    "generated_at": "2026-10-16T10:03:34.370Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "f77e07a1"
   },
   "ko/false-documents-submission-penalty": {
    "hash": "e6461a90b6c425438e9e16a27708a05fbe553c8a59df58b91674869a60b00e4d",
@@ -2095,7 +2235,8 @@
    "lang": "ko",
    "slug": "false-documents-submission-penalty",
    "generated_at": "2026-10-17T10:03:13.605Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "b5555c2b"
   },
   "en/false-documents-submission-penalty": {
    "hash": "34c53ca681c4c462fbea6abe600cdad4ab3b990878988d26a98af0dcd48c9966",
@@ -2111,7 +2252,8 @@
    "lang": "en",
    "slug": "false-documents-submission-penalty",
    "generated_at": "2026-10-17T10:03:14.047Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "11c66f35"
   },
   "zh/false-documents-submission-penalty": {
    "hash": "b74d14ca9a9627717b3df92fe91c6c7aa61ee84d81a66fe8b8b1179ddc3cf5a1",
@@ -2127,7 +2269,8 @@
    "lang": "zh",
    "slug": "false-documents-submission-penalty",
    "generated_at": "2026-10-17T10:03:14.535Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "20787718"
   },
   "ja/false-documents-submission-penalty": {
    "hash": "8b085d3f950455aa94811a43e434762665025f7875f1821597b94056ca5ed959",
@@ -2143,7 +2286,8 @@
    "lang": "ja",
    "slug": "false-documents-submission-penalty",
    "generated_at": "2026-10-17T10:03:14.998Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "3cdd39cb"
   },
   "vi/false-documents-submission-penalty": {
    "hash": "f366085335ec4c930953491b8ae89792761e14c7d390061acc716a47e9545058",
@@ -2159,7 +2303,8 @@
    "lang": "vi",
    "slug": "false-documents-submission-penalty",
    "generated_at": "2026-10-17T10:03:15.441Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "7eacfa1e"
   },
   "ko/alien-registration-info-change-15days": {
    "hash": "fe96a6c2ca552f8329a5ab645cae4e08ca05b052328b4562a5cf530a7ccd927b",
@@ -2175,7 +2320,8 @@
    "lang": "ko",
    "slug": "alien-registration-info-change-15days",
    "generated_at": "2026-10-18T10:03:09.423Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "ce9f98b9"
   },
   "en/alien-registration-info-change-15days": {
    "hash": "69878b888c7a7be68b671ac3f12912e28de7afa8785b76e7fcef63aee7f09ec5",
@@ -2191,7 +2337,8 @@
    "lang": "en",
    "slug": "alien-registration-info-change-15days",
    "generated_at": "2026-10-18T10:03:09.878Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "ecd205f0"
   },
   "zh/alien-registration-info-change-15days": {
    "hash": "29f85f4368c6654569f94d6ae8f5da8c9c91d8357e23b165c7347280ddd1f639",
@@ -2207,7 +2354,8 @@
    "lang": "zh",
    "slug": "alien-registration-info-change-15days",
    "generated_at": "2026-10-18T10:03:10.378Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "cfe31b3a"
   },
   "ja/alien-registration-info-change-15days": {
    "hash": "ebd521499b1cedb48b233e3e714109ed8f87c074413e1ccd1e627b107ce361cf",
@@ -2223,7 +2371,8 @@
    "lang": "ja",
    "slug": "alien-registration-info-change-15days",
    "generated_at": "2026-10-18T10:03:10.853Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "9bdaea07"
   },
   "vi/alien-registration-info-change-15days": {
    "hash": "43111d742a7279e04e4c027ee896bdb2ed6995a8a2da81ae9a7a55f58dd344fe",
@@ -2239,7 +2388,8 @@
    "lang": "vi",
    "slug": "alien-registration-info-change-15days",
    "generated_at": "2026-10-18T10:03:11.303Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "99172083"
   },
   "ko/reentry-permit-exemption-guide": {
    "hash": "e596d0706c270d8d0ed00f2b1d7c24b84fce9338f00a28f5bf22af45b1e3d709",
@@ -2255,7 +2405,8 @@
    "lang": "ko",
    "slug": "reentry-permit-exemption-guide",
    "generated_at": "2026-10-19T10:02:36.218Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "c6d9bc86"
   },
   "en/reentry-permit-exemption-guide": {
    "hash": "650bbc548bab24660ab020da42f3484e48e0c5101032eeb1e5966f6a71245794",
@@ -2271,7 +2422,8 @@
    "lang": "en",
    "slug": "reentry-permit-exemption-guide",
    "generated_at": "2026-10-19T10:02:36.701Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "cb27f23a"
   },
   "zh/reentry-permit-exemption-guide": {
    "hash": "52c7f9a89f8345b03c0862fb23d35c5edef47eabcb3a51c144e47549078cbeec",
@@ -2287,7 +2439,8 @@
    "lang": "zh",
    "slug": "reentry-permit-exemption-guide",
    "generated_at": "2026-10-19T10:02:37.227Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "0881d07d"
   },
   "ja/reentry-permit-exemption-guide": {
    "hash": "e3d8d8d0972d20169f545d7e1738ec3c68ae4d2a5489f6b43bfa2fd21b5b542c",
@@ -2303,7 +2456,8 @@
    "lang": "ja",
    "slug": "reentry-permit-exemption-guide",
    "generated_at": "2026-10-19T10:02:37.726Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "bc27a5fe"
   },
   "vi/reentry-permit-exemption-guide": {
    "hash": "348707fb25716febad49ff526480cba812a2687fe9dd443ac90b1f0009671568",
@@ -2319,7 +2473,8 @@
    "lang": "vi",
    "slug": "reentry-permit-exemption-guide",
    "generated_at": "2026-10-19T10:02:38.212Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "fc1f98ed"
   },
   "ko/official-notification-duty-exemptions": {
    "hash": "0340b3502ba90afcedc744ebac26c76c0146d791326e4540f09930cf9bf59118",
@@ -2335,7 +2490,8 @@
    "lang": "ko",
    "slug": "official-notification-duty-exemptions",
    "generated_at": "2026-10-22T02:14:19.129Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "e1fd705a"
   },
   "en/official-notification-duty-exemptions": {
    "hash": "8fc7b835fc72e12cf02289bbb65ca3244d6d97ec905287cafb07045d16be42fb",
@@ -2351,7 +2507,8 @@
    "lang": "en",
    "slug": "official-notification-duty-exemptions",
    "generated_at": "2026-10-22T02:14:19.517Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "1dec9c99"
   },
   "zh/official-notification-duty-exemptions": {
    "hash": "3fdf477ee6085d540f2ef44612ae4b15828b1da6cf063fc839aaff22a65584a4",
@@ -2367,7 +2524,8 @@
    "lang": "zh",
    "slug": "official-notification-duty-exemptions",
    "generated_at": "2026-10-22T02:14:19.902Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "2334dfe6"
   },
   "ja/official-notification-duty-exemptions": {
    "hash": "291b9e7012e7ae7322d559c10da002aedc6127d49af30873fb20c33b34e850d0",
@@ -2383,7 +2541,8 @@
    "lang": "ja",
    "slug": "official-notification-duty-exemptions",
    "generated_at": "2026-10-22T02:14:20.287Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "6863de30"
   },
   "vi/official-notification-duty-exemptions": {
    "hash": "0807fab9ad78f9ae1279e218511827263a28162dca54b5d23107c9e079dfb31d",
@@ -2399,7 +2558,8 @@
    "lang": "vi",
    "slug": "official-notification-duty-exemptions",
    "generated_at": "2026-10-22T02:14:20.677Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "22fef350"
   },
   "ko/conditional-entry-permit-guide": {
    "hash": "5d8aba0f93e6364ae84d6191e237687668ab552ab6cdf4e9f4590fc643a889a4",
@@ -2415,7 +2575,8 @@
    "lang": "ko",
    "slug": "conditional-entry-permit-guide",
    "generated_at": "2026-10-21T10:02:52.403Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "70fdbb68"
   },
   "en/conditional-entry-permit-guide": {
    "hash": "d23b42d8a0012b68e5474b3f5c17df2baf643c2522f56365948719738d2ad405",
@@ -2431,7 +2592,8 @@
    "lang": "en",
    "slug": "conditional-entry-permit-guide",
    "generated_at": "2026-10-21T10:02:53.196Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "73e7a74b"
   },
   "zh/conditional-entry-permit-guide": {
    "hash": "119d06d5ee2b00023acade83ecba911c11bbc304494f26c58ef49deb5406ce85",
@@ -2447,7 +2609,8 @@
    "lang": "zh",
    "slug": "conditional-entry-permit-guide",
    "generated_at": "2026-10-21T10:02:54.061Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "820ff144"
   },
   "ja/conditional-entry-permit-guide": {
    "hash": "ae35ec49c770b88e7ac11279baacde3e0bc065bbfb872a61fa9eb884aa32175f",
@@ -2463,7 +2626,8 @@
    "lang": "ja",
    "slug": "conditional-entry-permit-guide",
    "generated_at": "2026-10-21T10:02:54.905Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "578de788"
   },
   "vi/conditional-entry-permit-guide": {
    "hash": "57f0d3abb181636512b83e7b39ccf57aab162e94c440edb2b7dd3d7b3d995df3",
@@ -2479,7 +2643,8 @@
    "lang": "vi",
    "slug": "conditional-entry-permit-guide",
    "generated_at": "2026-10-21T10:02:55.708Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "e7d8a8e8"
   },
   "ko/foreigner-political-activity-ban": {
    "hash": "790128bf6f8c18956443e019b0fdc2ad137fc52634ee1cf1613d50eabc1461ac",
@@ -2495,7 +2660,8 @@
    "lang": "ko",
    "slug": "foreigner-political-activity-ban",
    "generated_at": "2026-10-22T10:02:49.972Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "376dae86"
   },
   "en/foreigner-political-activity-ban": {
    "hash": "716f4a3bf5455a002b321eb134f63e5f8793340ccc7202481a028c7f3e8a9624",
@@ -2511,7 +2677,8 @@
    "lang": "en",
    "slug": "foreigner-political-activity-ban",
    "generated_at": "2026-10-22T10:02:50.442Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "92085766"
   },
   "zh/foreigner-political-activity-ban": {
    "hash": "37d790aa36bf55530f6c45882e1c9777a395437f67922c043eff6e1016674434",
@@ -2527,7 +2694,8 @@
    "lang": "zh",
    "slug": "foreigner-political-activity-ban",
    "generated_at": "2026-10-22T10:02:50.984Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "360cfdd7"
   },
   "ja/foreigner-political-activity-ban": {
    "hash": "f86f03779e58a0f49d932b73ae93102d680f9680bb157b5d2f0a9f45fa8b9cf4",
@@ -2543,7 +2711,8 @@
    "lang": "ja",
    "slug": "foreigner-political-activity-ban",
    "generated_at": "2026-10-22T10:02:51.498Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "17c1164d"
   },
   "vi/foreigner-political-activity-ban": {
    "hash": "986e47a743d068801395083068e0984e10419000bdecc0bf5070291e635d4469",
@@ -2559,7 +2728,8 @@
    "lang": "vi",
    "slug": "foreigner-political-activity-ban",
    "generated_at": "2026-10-22T10:02:51.970Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "96b5764f"
   },
   "ko/lodging-foreigner-passport-data-duty": {
    "hash": "b5fcd76fe47b1deef0c37a14ec994a3470b907a061c5ff48bdb29b2213f65fe8",
@@ -2575,7 +2745,8 @@
    "lang": "ko",
    "slug": "lodging-foreigner-passport-data-duty",
    "generated_at": "2026-10-23T10:00:41.175Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "add0eb5f"
   },
   "en/lodging-foreigner-passport-data-duty": {
    "hash": "1e17abd9ec01c26f72df7e6c713f8d10db1047e229598fd7860253b93a31683d",
@@ -2591,7 +2762,8 @@
    "lang": "en",
    "slug": "lodging-foreigner-passport-data-duty",
    "generated_at": "2026-10-23T10:00:41.602Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "d29fc87f"
   },
   "zh/lodging-foreigner-passport-data-duty": {
    "hash": "ddbfc89b5da724d668be7acfececf1b2b68ae6a597156b0d6400c74a3ba29b9b",
@@ -2607,7 +2779,8 @@
    "lang": "zh",
    "slug": "lodging-foreigner-passport-data-duty",
    "generated_at": "2026-10-23T10:00:42.102Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "40d34ade"
   },
   "ja/lodging-foreigner-passport-data-duty": {
    "hash": "9a49a78486a1d817abb91a7c0fd3db24f03b133c81ba3d7d8b152cf9c0800bf1",
@@ -2623,7 +2796,8 @@
    "lang": "ja",
    "slug": "lodging-foreigner-passport-data-duty",
    "generated_at": "2026-10-23T10:00:42.576Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "ed3f3b48"
   },
   "vi/lodging-foreigner-passport-data-duty": {
    "hash": "6377b5c304f2045d137450a1524c58a7228fb6d71d1ff8cfc3057d1772851f1e",
@@ -2639,7 +2813,8 @@
    "lang": "vi",
    "slug": "lodging-foreigner-passport-data-duty",
    "generated_at": "2026-10-23T10:00:43.003Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "0c669c6a"
   },
   "ko/foreigner-departure-suspension-guide": {
    "hash": "5f271c9358e5cf633a713d6f86d86b7355678b0c1b984a71cc0623fa9c8336d0",
@@ -2655,7 +2830,8 @@
    "lang": "ko",
    "slug": "foreigner-departure-suspension-guide",
    "generated_at": "2026-10-24T10:02:32.972Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "9bb4fd93"
   },
   "en/foreigner-departure-suspension-guide": {
    "hash": "9a75d71dfe92de7317689e6844f5e2df475a1c07261d9e3342b8cecb49621ef8",
@@ -2671,7 +2847,8 @@
    "lang": "en",
    "slug": "foreigner-departure-suspension-guide",
    "generated_at": "2026-10-24T10:02:33.768Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "a84c4b92"
   },
   "zh/foreigner-departure-suspension-guide": {
    "hash": "e3d6441f6d11876c58e9e459dc0a9d04cee62a481a7e539a61dbbd6134c7ff91",
@@ -2687,7 +2864,8 @@
    "lang": "zh",
    "slug": "foreigner-departure-suspension-guide",
    "generated_at": "2026-10-24T10:02:34.645Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "3aa790dc"
   },
   "ja/foreigner-departure-suspension-guide": {
    "hash": "bca6f1e75a5c88df20037b7b1980358f16e796e6786dc5e77ddaef433c3316eb",
@@ -2703,7 +2881,8 @@
    "lang": "ja",
    "slug": "foreigner-departure-suspension-guide",
    "generated_at": "2026-10-24T10:02:35.494Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "0201a1ec"
   },
   "vi/foreigner-departure-suspension-guide": {
    "hash": "8c2fcd7a44ffe3d9fe307847c9a29443c890b298d2a2fb4747568f3c57302ce8",
@@ -2719,7 +2898,8 @@
    "lang": "vi",
    "slug": "foreigner-departure-suspension-guide",
    "generated_at": "2026-10-24T10:02:36.298Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "dfe39a97"
   },
   "ko/permanent-resident-deportation-exception": {
    "hash": "d75db178f24ab192fc831163b66d844ebd50da3bdbe35e31e13460f96538dbe1",
@@ -2735,7 +2915,8 @@
    "lang": "ko",
    "slug": "permanent-resident-deportation-exception",
    "generated_at": "2026-10-25T10:02:34.089Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "73728715"
   },
   "en/permanent-resident-deportation-exception": {
    "hash": "0d14b6b65d738ca37f0bf0f59d6f028c5a5c89ec68d91fead1be3a0dc5523e8d",
@@ -2751,7 +2932,8 @@
    "lang": "en",
    "slug": "permanent-resident-deportation-exception",
    "generated_at": "2026-10-25T10:02:34.866Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "dcaddb63"
   },
   "zh/permanent-resident-deportation-exception": {
    "hash": "904b34661df2b4103f5caf1b54b25b469ffba199d79914e432c08fb900067376",
@@ -2767,7 +2949,8 @@
    "lang": "zh",
    "slug": "permanent-resident-deportation-exception",
    "generated_at": "2026-10-25T10:02:35.739Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "5b799096"
   },
   "ja/permanent-resident-deportation-exception": {
    "hash": "8ad135ae5d1c0df6506316d4d2ac3252baa2e0f64786ddf2acd8b402f615c159",
@@ -2783,7 +2966,8 @@
    "lang": "ja",
    "slug": "permanent-resident-deportation-exception",
    "generated_at": "2026-10-25T10:02:36.647Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "60f46da2"
   },
   "vi/permanent-resident-deportation-exception": {
    "hash": "385980c35a625b3ab4865f7948a07c3e0969688cccf9cf738e10d83ed0a8bca2",
@@ -2799,7 +2983,8 @@
    "lang": "vi",
    "slug": "permanent-resident-deportation-exception",
    "generated_at": "2026-10-25T10:02:37.428Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "c063ed2b"
   },
   "ko/student-part-time-work-permit-hours": {
    "hash": "65b67d709659fddb0ab0faafc64a762610ad62cce08fbe25df1b2c6fb51fb2d6",
@@ -2815,7 +3000,8 @@
    "lang": "ko",
    "slug": "student-part-time-work-permit-hours",
    "generated_at": "2026-10-26T10:02:22.668Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "1a34d29f"
   },
   "en/student-part-time-work-permit-hours": {
    "hash": "2d54c90cbc516d0093677af327118b21579049a97b516b55062ae69425827610",
@@ -2831,7 +3017,8 @@
    "lang": "en",
    "slug": "student-part-time-work-permit-hours",
    "generated_at": "2026-10-26T10:02:23.127Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "f995d990"
   },
   "zh/student-part-time-work-permit-hours": {
    "hash": "82e1fc0c7c9c0a0f6edcf8ecf67994aff60426404973ae2ca3a5c914f7130697",
@@ -2847,7 +3034,8 @@
    "lang": "zh",
    "slug": "student-part-time-work-permit-hours",
    "generated_at": "2026-10-26T10:02:23.655Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "a05dcb53"
   },
   "ja/student-part-time-work-permit-hours": {
    "hash": "e90f359e87688c89d832531249f3ca46fe0a351880466cbab2682dfc4c4d6a11",
@@ -2863,7 +3051,8 @@
    "lang": "ja",
    "slug": "student-part-time-work-permit-hours",
    "generated_at": "2026-10-26T10:02:24.156Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "15aaf3ae"
   },
   "vi/student-part-time-work-permit-hours": {
    "hash": "0fb7ce26d0fa9d97f8293bca915f04bb8d981a34878e52912b242bb9804c8246",
@@ -2879,7 +3068,8 @@
    "lang": "vi",
    "slug": "student-part-time-work-permit-hours",
    "generated_at": "2026-10-26T10:02:24.612Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "bc530321"
   },
   "ko/refugee-applicant-stay-work-permit": {
    "hash": "eb48833364213cbd4a62cc99bb3374141f638eaab46b8039ad06e5cc60176bed",
@@ -2895,7 +3085,8 @@
    "lang": "ko",
    "slug": "refugee-applicant-stay-work-permit",
    "generated_at": "2026-10-27T10:03:50.491Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "1ebe25c6"
   },
   "en/refugee-applicant-stay-work-permit": {
    "hash": "efc4105ff70cf5c550ace20570017c3d2f82148d2e52b4400bad507c6763248a",
@@ -2911,7 +3102,8 @@
    "lang": "en",
    "slug": "refugee-applicant-stay-work-permit",
    "generated_at": "2026-10-27T10:03:50.931Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "8b751671"
   },
   "zh/refugee-applicant-stay-work-permit": {
    "hash": "747a98cce99941699a47ce46da64414ead8143bf8d1984e8a41ee1548ab42ee5",
@@ -2927,7 +3119,8 @@
    "lang": "zh",
    "slug": "refugee-applicant-stay-work-permit",
    "generated_at": "2026-10-27T10:03:51.440Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "8b4eaa89"
   },
   "ja/refugee-applicant-stay-work-permit": {
    "hash": "712e53d224549dfed635f27ba4812a880641cce5c6869c651956ab1667294c83",
@@ -2943,7 +3136,8 @@
    "lang": "ja",
    "slug": "refugee-applicant-stay-work-permit",
    "generated_at": "2026-10-27T10:03:51.922Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "8810003e"
   },
   "vi/refugee-applicant-stay-work-permit": {
    "hash": "89daec7d5d566520d8af8a93cc9783b41d919bc5b29dade988c3fb620bda1b18",
@@ -2959,7 +3153,8 @@
    "lang": "vi",
    "slug": "refugee-applicant-stay-work-permit",
    "generated_at": "2026-10-27T10:03:52.366Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "58c66ab7"
   },
   "ko/immigration-crackdown-on-site-questioning": {
    "hash": "009c541bd07ffb8680ea444eb78dd3278c2384cef9efea0eef30ee989ab9dcf3",
@@ -2975,7 +3170,8 @@
    "lang": "ko",
    "slug": "immigration-crackdown-on-site-questioning",
    "generated_at": "2026-10-28T10:02:19.646Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "acdfc7f1"
   },
   "en/immigration-crackdown-on-site-questioning": {
    "hash": "5c0dc2146d7e46798920f8140bbb8226f7006cd9cae615c8bc69c103ffa0822b",
@@ -2991,7 +3187,8 @@
    "lang": "en",
    "slug": "immigration-crackdown-on-site-questioning",
    "generated_at": "2026-10-28T10:02:20.474Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "1f20a618"
   },
   "zh/immigration-crackdown-on-site-questioning": {
    "hash": "fe93b603cfc27b43c811d66c0422d3869e211e966f4fecd967ad8e1977c2dc7b",
@@ -3007,7 +3204,8 @@
    "lang": "zh",
    "slug": "immigration-crackdown-on-site-questioning",
    "generated_at": "2026-10-28T10:02:21.377Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "9fb3240d"
   },
   "ja/immigration-crackdown-on-site-questioning": {
    "hash": "844aeb4102fd5c6b5d387bbd3ccbebda02a5428d3439321c9787a8babf1d6322",
@@ -3023,7 +3221,8 @@
    "lang": "ja",
    "slug": "immigration-crackdown-on-site-questioning",
    "generated_at": "2026-10-28T10:02:22.251Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "3f2cb72a"
   },
   "vi/immigration-crackdown-on-site-questioning": {
    "hash": "4d1754748001e2df57f83936fe727e7e150566e28024344136a14aa0e085b9fe",
@@ -3039,7 +3238,8 @@
    "lang": "vi",
    "slug": "immigration-crackdown-on-site-questioning",
    "generated_at": "2026-10-28T10:02:23.077Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "54f2c2e3"
   },
   "ko/passport-id-card-retention-ban": {
    "hash": "c456b4d31dfbd748955344b57360163114935d4aff30c6ecee0b9f71c60b7cf8",
@@ -3055,7 +3255,8 @@
    "lang": "ko",
    "slug": "passport-id-card-retention-ban",
    "generated_at": "2026-10-29T10:04:55.291Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "907eaf8a"
   },
   "en/passport-id-card-retention-ban": {
    "hash": "30bf7ae1f59cac754f3de094fed57e6d498fed69613ff436eabf3ab727bea1f6",
@@ -3071,7 +3272,8 @@
    "lang": "en",
    "slug": "passport-id-card-retention-ban",
    "generated_at": "2026-10-29T10:04:55.727Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "e2e20bca"
   },
   "zh/passport-id-card-retention-ban": {
    "hash": "9b71ed688388e8143ccd118d5424c50abf16d3e76347d0435e045272a56aba99",
@@ -3087,7 +3289,8 @@
    "lang": "zh",
    "slug": "passport-id-card-retention-ban",
    "generated_at": "2026-10-29T10:04:56.232Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "9bef4af9"
   },
   "ja/passport-id-card-retention-ban": {
    "hash": "891648410ea09c2c954e605f71e7cfa7d0c0c1aba6d526d6d06fcbdd9fad553e",
@@ -3103,7 +3306,8 @@
    "lang": "ja",
    "slug": "passport-id-card-retention-ban",
    "generated_at": "2026-10-29T10:04:56.708Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "cf089623"
   },
   "vi/passport-id-card-retention-ban": {
    "hash": "feabbe16e2ce4762d28430aafa0adfdf01058703146e932e45b44df19a9d5387",
@@ -3119,7 +3323,8 @@
    "lang": "vi",
    "slug": "passport-id-card-retention-ban",
    "generated_at": "2026-10-29T10:04:57.135Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "9afe73f6"
   },
   "ko/overstay-marriage-korean-spouse": {
    "hash": "68c74ff942f93a2f28d7f51c6180a0d4e659c7526849c7838a49444436d7c641",
@@ -3135,7 +3340,8 @@
    "lang": "ko",
    "slug": "overstay-marriage-korean-spouse",
    "generated_at": "2026-10-30T10:05:00.565Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "a724c6cb"
   },
   "en/overstay-marriage-korean-spouse": {
    "hash": "af92ac5e6cda7ebb47e87d2555d825171f5d321fbb7322a840fdedc3c74a328a",
@@ -3151,7 +3357,8 @@
    "lang": "en",
    "slug": "overstay-marriage-korean-spouse",
    "generated_at": "2026-10-30T10:05:00.999Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "cce775a5"
   },
   "zh/overstay-marriage-korean-spouse": {
    "hash": "37b225ffd193cce1cd1b6dc40dad0b853af5d060c06fed3303838d372e7c22df",
@@ -3167,7 +3374,8 @@
    "lang": "zh",
    "slug": "overstay-marriage-korean-spouse",
    "generated_at": "2026-10-30T10:05:01.505Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "7963a281"
   },
   "ja/overstay-marriage-korean-spouse": {
    "hash": "93440434730df5a19cdad832b840db0fda66860a4ed726ee4d90102afc3a8740",
@@ -3183,7 +3391,8 @@
    "lang": "ja",
    "slug": "overstay-marriage-korean-spouse",
    "generated_at": "2026-10-30T10:05:01.988Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "fafe803a"
   },
   "vi/overstay-marriage-korean-spouse": {
    "hash": "a2c3162cce183d3fe6540975141303f889dd9faf67496112f758048c41a209ce",
@@ -3199,7 +3408,8 @@
    "lang": "vi",
    "slug": "overstay-marriage-korean-spouse",
    "generated_at": "2026-10-30T10:05:02.429Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "02d8f6a8"
   },
   "ko/g1-stay-lawsuit-medical-treatment": {
    "hash": "963cd61cf43744d3238f475c3ef5600568efee3affe7ab2c44d445af6ff3eedd",
@@ -3215,7 +3425,8 @@
    "lang": "ko",
    "slug": "g1-stay-lawsuit-medical-treatment",
    "generated_at": "2026-10-31T10:03:57.448Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "28ce9723"
   },
   "en/g1-stay-lawsuit-medical-treatment": {
    "hash": "b0ffd78611a90b378b4fd4b69fbf1206168303cb9a649802fec9cf78d80cd571",
@@ -3231,7 +3442,8 @@
    "lang": "en",
    "slug": "g1-stay-lawsuit-medical-treatment",
    "generated_at": "2026-10-31T10:03:58.247Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "50b9e8b0"
   },
   "zh/g1-stay-lawsuit-medical-treatment": {
    "hash": "6c5465f3ad39e70a96173566bc76a780671a0569116dbc49de580d4765dd60d0",
@@ -3247,7 +3459,8 @@
    "lang": "zh",
    "slug": "g1-stay-lawsuit-medical-treatment",
    "generated_at": "2026-10-31T10:03:59.115Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "f31e3d9e"
   },
   "ja/g1-stay-lawsuit-medical-treatment": {
    "hash": "f4f329128ba39cca335d5609ce5386477e6f4a716f40459b91a7c0d435c22444",
@@ -3263,7 +3476,8 @@
    "lang": "ja",
    "slug": "g1-stay-lawsuit-medical-treatment",
    "generated_at": "2026-10-31T10:03:59.960Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "98286c10"
   },
   "vi/g1-stay-lawsuit-medical-treatment": {
    "hash": "5008ff0ef4a964aa414c3930d4334969c77d84e863a7705559b467dc1716f0d7",
@@ -3279,7 +3493,8 @@
    "lang": "vi",
    "slug": "g1-stay-lawsuit-medical-treatment",
    "generated_at": "2026-10-31T10:04:00.760Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "8c8e8dcf"
   },
   "ko/stay-extension-tax-arrears-limit": {
    "hash": "00b9c8d35e8d38bdf729d3b40c71bab91a80e91ae8eb0c5f62b36aef11b0d8c1",
@@ -3295,7 +3510,8 @@
    "lang": "ko",
    "slug": "stay-extension-tax-arrears-limit",
    "generated_at": "2026-11-01T10:04:21.729Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "b54ad40c"
   },
   "en/stay-extension-tax-arrears-limit": {
    "hash": "bcc9375be44d4d9b976ddfe1fb5c37534d824f1dcc48053e123ce1e83ada47db",
@@ -3311,7 +3527,8 @@
    "lang": "en",
    "slug": "stay-extension-tax-arrears-limit",
    "generated_at": "2026-11-01T10:04:22.147Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "510d98df"
   },
   "zh/stay-extension-tax-arrears-limit": {
    "hash": "c0aa4e39415a03502623d4acb4d7d9dd4140b2ed352c70452ce46df7ddf2ecac",
@@ -3327,7 +3544,8 @@
    "lang": "zh",
    "slug": "stay-extension-tax-arrears-limit",
    "generated_at": "2026-11-01T10:04:22.632Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "972f752c"
   },
   "ja/stay-extension-tax-arrears-limit": {
    "hash": "1366393b6d92a5a56b407dd2fa6b1b0acf49eaadb1124c4976a7e4dec367bc66",
@@ -3343,7 +3561,8 @@
    "lang": "ja",
    "slug": "stay-extension-tax-arrears-limit",
    "generated_at": "2026-11-01T10:04:23.088Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "5b71b674"
   },
   "vi/stay-extension-tax-arrears-limit": {
    "hash": "9c2039c7da79cf1f358f490079adfd57527269669db722442723fa0884c0f78a",
@@ -3359,7 +3578,8 @@
    "lang": "vi",
    "slug": "stay-extension-tax-arrears-limit",
    "generated_at": "2026-11-01T10:04:23.506Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "43910157"
   },
   "ko/foreign-worker-workplace-desertion-report": {
    "hash": "668f84af32a8ec8fa79617260a85e47ccf5edb5de2810b5c0ebadb4c48abc6fb",
@@ -3375,7 +3595,8 @@
    "lang": "ko",
    "slug": "foreign-worker-workplace-desertion-report",
    "generated_at": "2026-11-02T10:04:59.947Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "4b24ec58"
   },
   "en/foreign-worker-workplace-desertion-report": {
    "hash": "391abff20714b2e50feb092af77d1b2759c75beb7c5feff445ec47ad6107f3b2",
@@ -3391,7 +3612,8 @@
    "lang": "en",
    "slug": "foreign-worker-workplace-desertion-report",
    "generated_at": "2026-11-02T10:05:00.780Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "5cff5781"
   },
   "zh/foreign-worker-workplace-desertion-report": {
    "hash": "08fa6a5ad47aae9ed669e5431c90b4883ed3025251b3bd4c4df347e56bacef5c",
@@ -3407,7 +3629,8 @@
    "lang": "zh",
    "slug": "foreign-worker-workplace-desertion-report",
    "generated_at": "2026-11-02T10:05:01.682Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "7eb24479"
   },
   "ja/foreign-worker-workplace-desertion-report": {
    "hash": "2f5b0492f9e07da5df84340886b1be79952a5d1bb7188d104a0e8024d8099902",
@@ -3423,7 +3646,8 @@
    "lang": "ja",
    "slug": "foreign-worker-workplace-desertion-report",
    "generated_at": "2026-11-02T10:05:02.555Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "3e676f2e"
   },
   "vi/foreign-worker-workplace-desertion-report": {
    "hash": "ae52b0ad0e4b4e8c2b7b15b659eabd8c25cd4156e60f81c1761990426d32c11a",
@@ -3439,7 +3663,8 @@
    "lang": "vi",
    "slug": "foreign-worker-workplace-desertion-report",
    "generated_at": "2026-11-02T10:05:03.386Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "898e705c"
   },
   "ko/immigration-violation-history-visa-extension": {
    "hash": "728e33d2202d4a99fa59db006a388089b6a3a4d3382e11c8d58e44fb1b46b68e",
@@ -3455,7 +3680,8 @@
    "lang": "ko",
    "slug": "immigration-violation-history-visa-extension",
    "generated_at": "2026-11-03T10:03:42.178Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "47b1c464"
   },
   "en/immigration-violation-history-visa-extension": {
    "hash": "3886baabd9c4d68726d400cfe9860a99302514f36eb571e00c4f1fcabf08a142",
@@ -3471,7 +3697,8 @@
    "lang": "en",
    "slug": "immigration-violation-history-visa-extension",
    "generated_at": "2026-11-03T10:03:42.651Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "1c2872d0"
   },
   "zh/immigration-violation-history-visa-extension": {
    "hash": "6cbfed33b844788ccbc07ca3ff01b0ee4513ea4a7af34896959a7a38255d26f1",
@@ -3487,7 +3714,8 @@
    "lang": "zh",
    "slug": "immigration-violation-history-visa-extension",
    "generated_at": "2026-11-03T10:03:43.192Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "dc4f6935"
   },
   "ja/immigration-violation-history-visa-extension": {
    "hash": "9f39054c4c449a018f83af42f4d20bfb90557a9a4b37fea69490fa9eef05b351",
@@ -3503,7 +3731,8 @@
    "lang": "ja",
    "slug": "immigration-violation-history-visa-extension",
    "generated_at": "2026-11-03T10:03:43.716Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "4696a42e"
   },
   "vi/immigration-violation-history-visa-extension": {
    "hash": "3a5bada54c4acde0bc3cba59221f6c18fdf1bebeafd1faf2fe18442b087dbcc0",
@@ -3519,7 +3748,8 @@
    "lang": "vi",
    "slug": "immigration-violation-history-visa-extension",
    "generated_at": "2026-11-03T10:03:44.184Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "bbaf682f"
   },
   "ko/points-system-immigration-violation-deduction": {
    "hash": "9879036f69f453ce22de530e9cde492df81d0cd8026f8373b28ee99bb4f51173",
@@ -3535,7 +3765,8 @@
    "lang": "ko",
    "slug": "points-system-immigration-violation-deduction",
    "generated_at": "2026-11-04T10:05:58.278Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "46005c31"
   },
   "en/points-system-immigration-violation-deduction": {
    "hash": "a7172b6415c89d7210e9fececc10556cd9f3e0046341204058d0b50d0424e567",
@@ -3551,7 +3782,8 @@
    "lang": "en",
    "slug": "points-system-immigration-violation-deduction",
    "generated_at": "2026-11-04T10:05:58.717Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "e8c72426"
   },
   "zh/points-system-immigration-violation-deduction": {
    "hash": "a7d1a3e17366a26d483f4713e0552eed322cb056127b0fea9b7a6a6132ca6041",
@@ -3567,7 +3799,8 @@
    "lang": "zh",
    "slug": "points-system-immigration-violation-deduction",
    "generated_at": "2026-11-04T10:05:59.222Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "d6a43c20"
   },
   "ja/points-system-immigration-violation-deduction": {
    "hash": "2ecce0acf7d9877bd310e341cf37833e5b0ea8ed2d02378f1d98dcc9f3e56f8d",
@@ -3583,7 +3816,8 @@
    "lang": "ja",
    "slug": "points-system-immigration-violation-deduction",
    "generated_at": "2026-11-04T10:05:59.707Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "3e2e5e4a"
   },
   "vi/points-system-immigration-violation-deduction": {
    "hash": "e7d6585ddb29980baac18b92adbebef962ec3228f7e8082294b2396814217ae7",
@@ -3599,7 +3833,8 @@
    "lang": "vi",
    "slug": "points-system-immigration-violation-deduction",
    "generated_at": "2026-11-04T10:06:00.146Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "1c5ef22a"
   },
   "ko/departure-deadline-deferral-guide": {
    "hash": "25f6ae192c592661033fb24838f461b61eef3935fb4b8c6f2beb22157eaefb50",
@@ -3615,7 +3850,8 @@
    "lang": "ko",
    "slug": "departure-deadline-deferral-guide",
    "generated_at": "2026-11-05T10:06:50.331Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "cbdf9037"
   },
   "en/departure-deadline-deferral-guide": {
    "hash": "81fddc6fc31843ed556921fc22debde20da0fbcd67da40dba275f84de38879ce",
@@ -3631,7 +3867,8 @@
    "lang": "en",
    "slug": "departure-deadline-deferral-guide",
    "generated_at": "2026-11-05T10:06:50.756Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "7fceeaab"
   },
   "zh/departure-deadline-deferral-guide": {
    "hash": "e94df8e64705002c6e7c613636bf77252eb8c675b7ec29dc59ed03501c81662e",
@@ -3647,7 +3884,8 @@
    "lang": "zh",
    "slug": "departure-deadline-deferral-guide",
    "generated_at": "2026-11-05T10:06:51.249Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "d515605b"
   },
   "ja/departure-deadline-deferral-guide": {
    "hash": "c9060d199af0c354b30caa055a66a18a28000e1959a0a7b13141486452db495d",
@@ -3663,7 +3901,8 @@
    "lang": "ja",
    "slug": "departure-deadline-deferral-guide",
    "generated_at": "2026-11-05T10:06:51.717Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "4ff93053"
   },
   "vi/departure-deadline-deferral-guide": {
    "hash": "54fedd570fbb2d9c3a49492f1106b9a23a81ebede56549b639d55a6b7ae508d5",
@@ -3679,7 +3918,8 @@
    "lang": "vi",
    "slug": "departure-deadline-deferral-guide",
    "generated_at": "2026-11-05T10:06:52.149Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "010617b5"
   },
   "ko/detention-temporary-release-guide": {
    "hash": "4195ed709047d2ca1db5a261beef1ab6badd330ac5679fb22ad7f4dc0a6d36a8",
@@ -3695,7 +3935,8 @@
    "lang": "ko",
    "slug": "detention-temporary-release-guide",
    "generated_at": "2026-11-06T10:06:04.315Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "6e598655"
   },
   "en/detention-temporary-release-guide": {
    "hash": "190444f61a875c63bc35b6ed532b4a7cc51618c7946ef71b71f4e9b4c2da201d",
@@ -3711,7 +3952,8 @@
    "lang": "en",
    "slug": "detention-temporary-release-guide",
    "generated_at": "2026-11-06T10:06:04.701Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "fd4e9c7e"
   },
   "zh/detention-temporary-release-guide": {
    "hash": "f726644f406fabec7d9569a805ad8648e6e6b03b894544a2416bcb07a1451b36",
@@ -3727,7 +3969,8 @@
    "lang": "zh",
    "slug": "detention-temporary-release-guide",
    "generated_at": "2026-11-06T10:06:05.158Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "ca8f427b"
   },
   "ja/detention-temporary-release-guide": {
    "hash": "9ab716b6cbbb8f47aa0d558a0c90c9b282cbcf820d87b5ad5f820121edad5d52",
@@ -3743,7 +3986,8 @@
    "lang": "ja",
    "slug": "detention-temporary-release-guide",
    "generated_at": "2026-11-06T10:06:05.580Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "9db76065"
   },
   "vi/detention-temporary-release-guide": {
    "hash": "f3ef41aa9ead7348068597501b8aa399714fbb25249f996f22d824acc01923e8",
@@ -3759,7 +4003,8 @@
    "lang": "vi",
    "slug": "detention-temporary-release-guide",
    "generated_at": "2026-11-06T10:06:05.959Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "fcca495c"
   },
   "ko/harboring-illegal-resident-penalty": {
    "hash": "78d6f9768cce12b926124a2b56c7093f998eb47399a72622670f708d5615ae8c",
@@ -3775,7 +4020,8 @@
    "lang": "ko",
    "slug": "harboring-illegal-resident-penalty",
    "generated_at": "2026-11-07T10:05:48.758Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "c7afb54f"
   },
   "en/harboring-illegal-resident-penalty": {
    "hash": "d08fa1370d16c3cc1431426869d0b2ded6ce1a6722868255dcf49aa20e8ff6c5",
@@ -3791,7 +4037,8 @@
    "lang": "en",
    "slug": "harboring-illegal-resident-penalty",
    "generated_at": "2026-11-07T10:05:49.170Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "1991425a"
   },
   "zh/harboring-illegal-resident-penalty": {
    "hash": "ed245c3d5d78ee798e0f0eabd5082356b997c4463387711d467964534a924c17",
@@ -3807,7 +4054,8 @@
    "lang": "zh",
    "slug": "harboring-illegal-resident-penalty",
    "generated_at": "2026-11-07T10:05:49.654Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "0960ab13"
   },
   "ja/harboring-illegal-resident-penalty": {
    "hash": "87c662d1ba14066b596f8b37a8a05ceffb6d6a8dd8019b90f3cd5c2e0f1842f0",
@@ -3823,7 +4071,8 @@
    "lang": "ja",
    "slug": "harboring-illegal-resident-penalty",
    "generated_at": "2026-11-07T10:05:50.108Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "2eb7b8bf"
   },
   "vi/harboring-illegal-resident-penalty": {
    "hash": "17067d0b71f0ff5d7e554ef6f7103847e04a8f8e9648c3706469f7ea999c740d",
@@ -3839,7 +4088,8 @@
    "lang": "vi",
    "slug": "harboring-illegal-resident-penalty",
    "generated_at": "2026-11-07T10:05:50.524Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "e837f8ee"
   },
   "ko/pr-card-validity-renewal-penalty": {
    "hash": "212059daf4d292cccf58ba8805d28f62fa6f5d8a797e69ccc9813dd1bbd05103",
@@ -3857,7 +4107,8 @@
    "title": "영주증 유효기간 지났을 때",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-08T10:07:39.134Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "a2442710"
   },
   "en/pr-card-validity-renewal-penalty": {
    "hash": "1d4263533362f2c423e5cf67c84c1d063ea28f875bd70e9a1bf3b89c76b8e926",
@@ -3875,7 +4126,8 @@
    "title": "Expired permanent resident card",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-08T10:07:39.582Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "e2f17de6"
   },
   "zh/pr-card-validity-renewal-penalty": {
    "hash": "7345e0bd2b011eab1a55898f748888b4d5e0526c4f30a9f72bacd06e68b0d60a",
@@ -3893,7 +4145,8 @@
    "title": "永住证有效期已过",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-08T10:07:40.101Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "68330c31"
   },
   "ja/pr-card-validity-renewal-penalty": {
    "hash": "a976354b8b8ad3a0103146bdfe6f6c72ea43a41c8368721167f92deb6f32f7a8",
@@ -3911,7 +4164,8 @@
    "title": "永住証の有効期間が過ぎたら",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-08T10:07:40.586Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "a38563ec"
   },
   "vi/pr-card-validity-renewal-penalty": {
    "hash": "847c906f8158186f6705da8ed41a23502c4ff259755a5a829c2e45297d015cd7",
@@ -3929,7 +4183,8 @@
    "title": "Thẻ vĩnh trú hết hạn",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-08T10:07:41.028Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "4ff76032"
   },
   "ko/entry-exit-record-certificate-guide": {
    "hash": "51190f544658399cfe63a72baef294d8b14f076df33c41981259477618283847",
@@ -3947,7 +4202,8 @@
    "title": "출입국사실증명서 발급받는 법",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-09T10:10:06.213Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "57f818e6"
   },
   "en/entry-exit-record-certificate-guide": {
    "hash": "6be8aa59df70075773ab1ff1906c6016d18eeba2a596f7f1f7ca765edee08ddf",
@@ -3965,7 +4221,8 @@
    "title": "Entry and departure certificate",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-09T10:10:06.655Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "da0e6592"
   },
   "zh/entry-exit-record-certificate-guide": {
    "hash": "a9d304f76e3915e214216f65a52b8ce9c870bbfcf59b0c9a164d058f466d6fde",
@@ -3983,7 +4240,8 @@
    "title": "出入境事实证明书申请",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-09T10:10:07.172Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "dcb40702"
   },
   "ja/entry-exit-record-certificate-guide": {
    "hash": "a062e1f9d47903dd2d926d989744f0940de3382988cf42cd17fc1f640aca9867",
@@ -4001,7 +4259,8 @@
    "title": "出入国事実証明書の取り方",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-09T10:10:07.660Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "b4946b83"
   },
   "vi/entry-exit-record-certificate-guide": {
    "hash": "130602859f73a034492cbd1f60664a109579b3e921ec6cb72b66b9a44f691d09",
@@ -4019,7 +4278,8 @@
    "title": "Xin giấy xác nhận xuất nhập cảnh",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-09T10:10:08.110Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "1c16cddc"
   },
   "ko/departure-order-vs-deportation-deadline": {
    "hash": "13241d3e76d95d31638239a62695cefae723a75e984035651910e5149b824660",
@@ -4037,7 +4297,8 @@
    "title": "출국명령 기한을 넘기면",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-10T10:09:03.277Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "9aa4b644"
   },
   "en/departure-order-vs-deportation-deadline": {
    "hash": "7f0e9fc8f1154ade836da7d86b9b42fea56feb0995e31458784a74c733f75b8e",
@@ -4055,7 +4316,8 @@
    "title": "Missing a departure order deadline",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-10T10:09:04.095Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "e70bb95f"
   },
   "zh/departure-order-vs-deportation-deadline": {
    "hash": "444b49bee089e9608659dcc1c27c316a5409d9c62cd04d46de4bd5f979cd0e1e",
@@ -4073,7 +4335,8 @@
    "title": "超过出境命令期限",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-10T10:09:04.981Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "f5dbab8c"
   },
   "ja/departure-order-vs-deportation-deadline": {
    "hash": "81205616c940a003cae21ca8bccd207cdfee9749522d1d8628ec91004f74f1c5",
@@ -4091,7 +4354,8 @@
    "title": "出国命令の期限を過ぎたら",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-10T10:09:05.841Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "ae8e77af"
   },
   "vi/departure-order-vs-deportation-deadline": {
    "hash": "00ea99a0954558f4a334f23b8f76c0b94e35155f203c7726faec9bf58f2b808b",
@@ -4109,7 +4373,8 @@
    "title": "Quá hạn lệnh xuất cảnh",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-10T10:09:06.649Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "551b7b26"
   },
   "ko/f6-marriage-breakdown-stay-no-fault": {
    "hash": "29acd61e4959b881db6e41ee382336277185e59b4cfa29fbf150f808d2d9cef7",
@@ -4127,7 +4392,8 @@
    "title": "혼인단절 후 F-6 체류",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-11T10:09:24.685Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "8e4499e1"
   },
   "en/f6-marriage-breakdown-stay-no-fault": {
    "hash": "44906f6157a1ae9e23792eb7f17f8ed0ef635d89198831946304c5afe8926a55",
@@ -4145,7 +4411,8 @@
    "title": "F-6 stay after marriage ends",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-11T10:09:25.124Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "a28eb0af"
   },
   "zh/f6-marriage-breakdown-stay-no-fault": {
    "hash": "b96a8218fb66099067458a942d2f11f796dda1e5ce2f5b845416cf29b388942c",
@@ -4163,7 +4430,8 @@
    "title": "婚姻终止后的F-6居留",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-11T10:09:25.630Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "52895869"
   },
   "ja/f6-marriage-breakdown-stay-no-fault": {
    "hash": "15929ebda16b5f0196aea2059d2c911a3428b28befc1b29c352c51cb1d55387e",
@@ -4181,7 +4449,8 @@
    "title": "婚姻断絶後のF-6在留",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-11T10:09:26.114Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "d51eb255"
   },
   "vi/f6-marriage-breakdown-stay-no-fault": {
    "hash": "6b7d4679b4f305df3313ee012f4e73b48b738837d44e2d0fde299ab248de1991",
@@ -4199,7 +4468,8 @@
    "title": "Lưu trú F-6 sau khi hôn nhân chấm dứt",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-11T10:09:26.559Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "22c42a03"
   },
   "ko/f4-restricted-job-violation-response": {
    "hash": "ddc342725ad97b6397459cfe829afc9946c2147a42d9b5e515673e6d18018e62",
@@ -4217,7 +4487,8 @@
    "title": "F-4 취업제한 분야 위반",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-12T10:07:36.851Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "e72500b7"
   },
   "en/f4-restricted-job-violation-response": {
    "hash": "539c2f1eed1ff29c6830365cfbc8141abfd9368cf616f0fca168a9756852840c",
@@ -4235,7 +4506,8 @@
    "title": "F-4 restricted jobs",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-12T10:07:37.279Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "fd3808eb"
   },
   "zh/f4-restricted-job-violation-response": {
    "hash": "eeab210088d50eac516f55bd753773609eea1918a2cfdc7b6fe934d5cc450a0b",
@@ -4253,7 +4525,8 @@
    "title": "F-4受限行业违规",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-12T10:07:37.777Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "8fb70931"
   },
   "ja/f4-restricted-job-violation-response": {
    "hash": "785a15619e8e96ab149e0675563fac80f287adb27cf815fb3932e3f35682c6d4",
@@ -4271,7 +4544,8 @@
    "title": "F-4の就労制限違反",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-12T10:07:38.243Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "216dd3de"
   },
   "vi/f4-restricted-job-violation-response": {
    "hash": "43441738dff1c552bac6873e8ca66f882d5e570d6d6c1c986abbb080fac6b9c6",
@@ -4289,7 +4563,8 @@
    "title": "F-4 làm nghề bị hạn chế",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-12T10:07:38.668Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "16b705ce"
   },
   "ko/offense-review-pending-stay-extension": {
    "hash": "4a3b1da3b5f195d7c3efd31b0bc9e2ddd93f2d76dac8c347935103932e8074c1",
@@ -4307,7 +4582,8 @@
    "title": "조사 중 체류기간 연장",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-19T10:09:08.470Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "51d9280c"
   },
   "en/offense-review-pending-stay-extension": {
    "hash": "88f47255afb9d786fa5d60f3a7b283cc87de23349cd3470272ae2df63f9d5d7d",
@@ -4325,7 +4601,8 @@
    "title": "Stay extension during review",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-19T10:09:08.923Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "6d206f8c"
   },
   "zh/offense-review-pending-stay-extension": {
    "hash": "ac6ad33642b6d7b3b28922d2d6e928b5e82b644e0094b1631cb04e48470b724c",
@@ -4343,7 +4620,8 @@
    "title": "审查期间居留延期",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-19T10:09:09.451Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "e6ddcf8d"
   },
   "ja/offense-review-pending-stay-extension": {
    "hash": "6fe44b3c80ea494f3a553f08d1d02efdc17380356bc322c5684079ab6344e70f",
@@ -4361,7 +4639,8 @@
    "title": "審査中の在留期間更新",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-19T10:09:09.951Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "94451ba7"
   },
   "vi/offense-review-pending-stay-extension": {
    "hash": "ac24b46be6cd5fa4d744822f51dc664fa9fd657df3b6b28807400fb35c33c1b9",
@@ -4379,7 +4658,8 @@
    "title": "Gia hạn khi đang bị xét",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-19T10:09:10.404Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "94e4e5a6"
   },
   "ko/airport-departure-overstay-caught": {
    "hash": "1009dd73f25be066a25438e349eec59d9e9434b8362506cc57348ca8616ea666",
@@ -4397,7 +4677,8 @@
    "title": "공항 출국심사에서 걸렸을 때",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-20T10:09:05.681Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "05794520"
   },
   "en/airport-departure-overstay-caught": {
    "hash": "de84b73498faf5004fcd000ef411005641c067936b1c000873c4ec6ddf4b2d64",
@@ -4415,7 +4696,8 @@
    "title": "Overstay found at departure",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-20T10:09:06.608Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "186348d5"
   },
   "zh/airport-departure-overstay-caught": {
    "hash": "6a2fb26d51db9551efcc9bdffd91b688a8d2e4492097164a8fba64661b39f53f",
@@ -4433,7 +4715,8 @@
    "title": "出境审查时被查出超期",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-20T10:09:07.617Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "e63ccb5d"
   },
   "ja/airport-departure-overstay-caught": {
    "hash": "b3d686c648e5cbdd25cdd914f5908c66302e71dee229a9d461d3d541054bab58",
@@ -4451,7 +4734,8 @@
    "title": "出国審査で超過が発覚したら",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-20T10:09:08.606Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "42cea495"
   },
   "vi/airport-departure-overstay-caught": {
    "hash": "0b89a75727c21c98347dd7d657e54ede55cb5df783944eb56f2e9b9fd05ca56b",
@@ -4469,7 +4753,8 @@
    "title": "Bị phát hiện quá hạn lúc xuất cảnh",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-20T10:09:09.541Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "52bb5401"
   },
   "ko/identity-guarantee-liability-guide": {
    "hash": "21fcc9a4830c33a073df0bbbbbf80ed76f27ae2c2f4e01abaccb6bd569f3540f",
@@ -4487,7 +4772,8 @@
    "title": "신원보증서 책임 범위",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-21T10:09:01.129Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "c515d46a"
   },
   "en/identity-guarantee-liability-guide": {
    "hash": "5bc989a36762b762aa4528d731de216174db0b169b164c1d400f59368fb3632a",
@@ -4505,7 +4791,8 @@
    "title": "Identity guarantee liability",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-21T10:09:01.608Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "ef88a05b"
   },
   "zh/identity-guarantee-liability-guide": {
    "hash": "b549b1ea9033a82aadc851ec84b56744f4629cf3d8ffcf6470c879a1affd8a65",
@@ -4523,7 +4810,8 @@
    "title": "身份保证书责任范围",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-21T10:09:02.153Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "9c121493"
   },
   "ja/identity-guarantee-liability-guide": {
    "hash": "20e7ac33ee1cba2719ea9aa3468617d51e759be3ed3fefbc4db5abdee3f2bb6b",
@@ -4541,7 +4829,8 @@
    "title": "身元保証書の責任範囲",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-21T10:09:02.673Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "3e0306b8"
   },
   "vi/identity-guarantee-liability-guide": {
    "hash": "b5aa5705aa075c5f699001a65773faf0f170107770888da60bf086d7250837f0",
@@ -4559,7 +4848,8 @@
    "title": "Phạm vi trách nhiệm bảo lãnh",
    "site_name": "lawinkorea.com",
    "generated_at": "2026-11-21T10:09:03.140Z",
-   "version": "1.4"
+   "version": "1.4",
+   "card1280": "ec9d6c95"
   }
  }
 }

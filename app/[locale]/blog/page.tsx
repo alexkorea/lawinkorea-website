@@ -159,7 +159,7 @@ export default async function LocaleBlogIndex({ params }: { params: Promise<{ lo
         ) : (
           <BlogCategoryTabs
             locale={locale}
-            posts={posts.map((p) => ({ slug: p.slug, title: p.title, description: p.description, date: p.date, category: p.category, cover: p.cover, coverAlt: p.coverAlt }))}
+            posts={posts.map((p) => ({ slug: p.slug, title: p.title, description: p.description, date: p.date, category: p.category, cover: p.cover, cover1280: p.cover1280, coverAlt: p.coverAlt }))}
           />
         )}
 

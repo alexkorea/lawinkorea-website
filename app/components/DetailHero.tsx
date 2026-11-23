@@ -45,6 +45,20 @@ export function heroPhotoFor(kind: "offenses" | "dispositions", slug: string, lo
   return { file: p.file, alt };
 }
 
+// LAW-QA-1123 #25(맥7 2026-11-23): 허브 3쪽(ko 사범심사·벌금기준·준비서류) 상단 주제 사진 — 새 Pexels 사진(전사이트 미사용 ID, 원본에서 12:5 잘라 1600/960/480).
+//  8465063 cottonbro studio(사무 창구) · 5466808 olia danilevich(계산기, 지폐 빠지게 왼쪽 자름) · 17065813 Jakub Zerdzicki(서류철).
+const PAGE_HEROES: Record<string, { file: string; alt: string }> = {
+  "immigration-offense-review": { file: "page-offense-review-counter-8465063", alt: "사무실 창구에서 직원과 민원인이 이야기하고 뒤에서 순서를 기다리는 사람들" },
+  fines: { file: "page-fines-calculator-5466808", alt: "책상 위 계산기 자판을 누르는 손" },
+  documents: { file: "page-documents-binders-17065813", alt: "색 띠지를 붙여 겹쳐 놓은 검은 서류철" },
+};
+export function PageHero({ page, locale, maxWidth }: { page: string; locale: string; maxWidth?: number }) {
+  const p = PAGE_HEROES[page];
+  if (!p || locale !== "ko") return null; // 지시 범위가 ko 쪽뿐(다른 언어는 후보 보고)
+  const photo = { file: p.file, alt: p.alt, hires: true } as HiresHero;
+  return maxWidth ? <div style={{ maxWidth, margin: "16px auto 0", padding: "0 24px" }}><Hero photo={photo} /></div> : <Hero photo={photo} />;
+}
+
 function Hero({ photo }: { photo: CardPhoto }) {
   const base = `/cards/${photo.file}`;
   const hires = (photo as Partial<HiresHero>).hires === true;

@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { withReco } from "../../components/RecoBlock";
+import { PageHero } from "../../components/DetailHero";
 import { alternatesFor, hreflangOf, OG_LOCALE, ogFor } from "../../lib/seo";
 import { SITE, ACCENT } from "../../lib/constants";
 import {
@@ -180,6 +181,7 @@ async function PageBody({ params }: { params: Promise<{ locale: string }> }) {
           <span>{ui.h1}</span>
         </nav>
 
+        <PageHero page="fines" locale={l} />
         <h1 style={{ fontSize: "clamp(22px, 3.2vw, 34px)", fontWeight: 700, color: A.navy, lineHeight: 1.25, margin: "0 0 10px" }}>
           {ui.h1}
         </h1>

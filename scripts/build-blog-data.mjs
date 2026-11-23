@@ -42,6 +42,13 @@ function coverFor(locale, slug) {
   const it = ogIndex[`${locale}/${slug}`];
   return it ? `/og/${locale}/${slug}.png${it.hash ? `?v=${it.hash.slice(0, 8)}` : ""}` : "";
 }
+// LAW-QA-1123 #2 — 목록 카드 1280w 판(og-pipeline render-card-1280.mjs, index 의 card1280 = 해시 8자).
+// 키가 다시 그려지면 index 항목이 통째로 바뀌어 card1280 이 사라진다 → srcset 없이 800 카드만(옛 1280 노출 없음).
+function cover1280For(locale, slug) {
+  const it = ogIndex[`${locale}/${slug}`];
+  if (!it?.card1280 || !fs.existsSync(path.join(ROOT, `public/og/${locale}/${slug}-card-1280.webp`))) return "";
+  return `/og/${locale}/${slug}-card-1280.webp?v=${it.card1280}`;
+}
 // QA01-FIX3 — 커버 배경 사진 설명(content/cover-photos.json). alt = "사진 설명: 글 제목".
 // 이미지에 제목 글자가 들어 있어 제목은 그대로 두고, 무슨 사진인지를 앞에 붙인다.
 const COVER_PHOTOS_FILE = path.join(CONTENT_ROOT, "cover-photos.json");
@@ -73,6 +80,7 @@ for (const locale of LOCALES) {
       related: data.related ?? [],
       faq: data.faq ?? [],
       cover: coverFor(locale, slug),
+      cover1280: cover1280For(locale, slug),
       coverAlt: coverAltFor(locale, slug, data.title ?? ""),
       contentHtml: await toHtml(content),
     });
@@ -98,6 +106,7 @@ const body = posts
     related: ${JSON.stringify(p.related)},
     faq: ${JSON.stringify(p.faq)},
     cover: ${JSON.stringify(p.cover)},
+    cover1280: ${JSON.stringify(p.cover1280)},
     coverAlt: ${JSON.stringify(p.coverAlt)},
     contentHtml: ${JSON.stringify(p.contentHtml)},
   },`
@@ -118,6 +127,7 @@ export interface BlogPostData {
   related: string[];
   faq: { q: string; a: string }[];
   cover: string;
+  cover1280: string;
   coverAlt: string;
   contentHtml: string;
 }

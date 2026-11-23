@@ -5,6 +5,7 @@ import { withReco, RecoTop } from "../../components/RecoBlock";
 import { SITE } from "../../lib/constants";
 import ScopeBlock from "../../components/ScopeBlock";
 import HubBlogLinks from "../../components/HubBlogLinks";
+import { PageHero } from "../../components/DetailHero";
 
 const VALID_LOCALES = ["ko", "en", "ja", "zh", "vi"] as const;
 type L = (typeof VALID_LOCALES)[number];
@@ -98,6 +99,8 @@ async function PageBody({ params }: { params: Promise<{ locale: string }> }) {
           <span>사범심사 안내</span>
         </nav>
       </div>
+
+      <PageHero page="immigration-offense-review" locale={l} maxWidth={848} />
 
       {/* Hero */}
       <section style={{ background: "#0a1628", color: "#fff", padding: "64px 24px 56px", marginTop: 24 }}>

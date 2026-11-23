@@ -14,6 +14,7 @@ export type BlogCard = {
   date: string;
   category: string;
   cover: string;
+  cover1280?: string;
   coverAlt: string;
 };
 
@@ -102,6 +103,9 @@ export default function BlogCategoryTabs({ locale, posts }: { locale: string; po
             {/* 목록 카드 썸네일 = og:image 와 같은 파일(THUMBNAIL_STANDARD 1장 카드 렌더) */}
             <img
               src={p.cover.replace(/\.png(\?|$)/, "-card.png$1")}
+              // LAW-QA-1123 #2: 모바일 DPR3(390×3≈1170) 은 1280w 판, 그 밖은 800 카드
+              srcSet={p.cover1280 ? `${p.cover.replace(/\.png(\?|$)/, "-card.png$1")} 800w, ${p.cover1280} 1280w` : undefined}
+              sizes={p.cover1280 ? "(max-width: 720px) calc(100vw - 32px), 420px" : undefined}
               alt={p.coverAlt || p.title}
               width={800}
               height={450}

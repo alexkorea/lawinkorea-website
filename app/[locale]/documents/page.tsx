@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { pageMetadata } from "../../lib/seo";
 import { breadcrumbSchema } from "../../lib/schema";
+import { PageHero } from "../../components/DetailHero";
 
 const VALID_LOCALES = ["ko", "en", "ja", "zh", "vi"] as const;
 type L = (typeof VALID_LOCALES)[number];
@@ -35,6 +36,44 @@ const KO_DOC_TIPS: { title: string; tips: { doc: string; how: string }[]; checkT
     { t: "사건 유형별 대응 보기", href: "/ko/offenses" },
   ],
 };
+
+// LAW-QA-1123 #10(맥7 2026-11-23): 반성문·탄원서·재직증명서 빈 양식(PDF, public/forms) + 칸별 작성 요령.
+// 칸이 무엇을 적는 자리인지만 설명한다 — 지어낸 사례·예시 문장·금액은 넣지 않는다.
+const KO_FORMS: { name: string; file: string; who: string; fields: { f: string; how: string }[] }[] = [
+  {
+    name: "반성문", file: "/forms/reflection-letter-form.pdf", who: "당사자 본인이 직접 쓰고 서명합니다.",
+    fields: [
+      { f: "인적사항", how: "여권·외국인등록증에 적힌 그대로 씁니다. 체류자격은 외국인등록증에 표시된 자격을 적습니다." },
+      { f: "사건 날짜·처분 내용", how: "통지서나 결정문에 적힌 날짜와 처분 이름을 그대로 옮깁니다." },
+      { f: "1. 사건 경위", how: "언제, 어디서, 무슨 일이 있었는지 순서대로 사실만 적습니다. 수사기관에서 진술한 내용과 어긋나지 않게 씁니다." },
+      { f: "2. 잘못을 인정하고 반성하는 점", how: "무엇이 잘못이었는지 본인의 말로 적습니다. 다른 사람 탓으로 돌리는 표현은 피합니다." },
+      { f: "3. 그 뒤 달라진 점", how: "사건 뒤 실제로 한 일(교육 이수, 피해 회복, 생활 변화)을 적고, 증빙 서류가 있으면 함께 붙입니다." },
+      { f: "4. 앞으로의 생활 계획", how: "한국에서 계속 지내야 하는 사정과 앞으로 지킬 일을 적습니다." },
+      { f: "날짜·서명", how: "제출하는 날짜를 쓰고 본인이 서명합니다. 한국어가 어렵다면 모국어로 쓰고 번역문을 함께 냅니다." },
+    ],
+  },
+  {
+    name: "탄원서", file: "/forms/petition-letter-form.pdf", who: "당사자를 아는 사람(가족·고용주·지인 등)이 쓰고 서명합니다.",
+    fields: [
+      { f: "탄원인 인적사항", how: "쓰는 사람의 성명·생년월일·직업·연락처·주소를 적습니다. 대상자와의 관계 칸에는 가족, 직장 상사처럼 관계를 적습니다." },
+      { f: "대상자", how: "탄원을 받는 당사자의 성명·국적·생년월일·외국인등록번호를 적습니다." },
+      { f: "1. 알게 된 경위와 기간", how: "언제부터 어떤 계기로 알게 되었는지 적습니다." },
+      { f: "2. 직접 보아 온 생활과 태도", how: "쓰는 사람이 직접 보고 겪은 일만 적습니다. 들은 이야기는 적지 않습니다." },
+      { f: "3. 탄원하는 내용", how: "관서에 바라는 점을 적습니다." },
+      { f: "붙임·서명", how: "탄원인 신분증 사본을 붙이고, 날짜를 쓴 뒤 탄원인이 서명합니다." },
+    ],
+  },
+  {
+    name: "재직증명서", file: "/forms/employment-certificate-form.pdf", who: "회사가 작성하고 대표자 도장을 찍습니다. 회사 고유 양식이 있으면 그 양식을 써도 됩니다.",
+    fields: [
+      { f: "인적사항", how: "근로자의 성명·국적·생년월일·외국인등록번호·주소를 적습니다." },
+      { f: "재직사항", how: "회사명·사업자등록번호·소재지는 사업자등록증과 같게 적고, 부서·직위·담당 업무를 적습니다." },
+      { f: "재직 기간", how: "입사한 날짜를 적습니다. 지금도 다니고 있다는 사실이 드러나야 합니다." },
+      { f: "제출처·용도", how: "서류를 낼 관서 이름과 쓰임을 적습니다." },
+      { f: "발급일·회사·대표자", how: "발급한 날짜를 쓰고 대표자 도장(인)을 찍습니다. 담당자 연락처를 적어 두면 관서가 사실을 확인하기 쉽습니다." },
+    ],
+  },
+];
 
 const CONTENT: Record<L, { title: string; sub: string; groups: { label: string; items: string[] }[]; note: string }> = {
   ko: {
@@ -172,6 +211,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           __html: JSON.stringify(breadcrumbSchema(l, [{ name: c.title, path: "/documents" }])),
         }}
       />
+      <PageHero page="documents" locale={l} />
       <h1 style={{ fontSize: 36, fontWeight: 700, color: "#0a1628", marginBottom: 12 }}>{c.title}</h1>
       <p style={{ color: "#475569", fontSize: 17, lineHeight: 1.7, marginBottom: 40 }}>{c.sub}</p>
 
@@ -197,6 +237,27 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                 <h3 style={{ fontSize: 16, fontWeight: 700, color: "#0a1628", margin: "0 0 6px" }}>{t.doc}</h3>
                 <p style={{ color: "#475569", fontSize: 15, lineHeight: 1.75, margin: 0 }}>{t.how}</p>
               </div>
+            ))}
+          </div>
+          <h2 id="forms" style={{ fontSize: 24, fontWeight: 700, color: "#0a1628", margin: "0 0 8px" }}>빈 양식 내려받기</h2>
+          <p style={{ color: "#475569", fontSize: 15, lineHeight: 1.75, margin: "0 0 20px" }}>내려받아 인쇄한 뒤 손으로 쓰거나, 칸을 그대로 옮겨 컴퓨터로 작성해도 됩니다. 아래에는 칸마다 무엇을 적는지만 정리했습니다.</p>
+          <div style={{ display: "grid", gap: 16, marginBottom: 40 }}>
+            {KO_FORMS.map((fm) => (
+              <section key={fm.file} style={{ border: "1px solid #e2e8f0", borderRadius: 10, padding: "20px 24px", background: "#fff" }}>
+                <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", justifyContent: "space-between", gap: 12, marginBottom: 8 }}>
+                  <h3 style={{ fontSize: 18, fontWeight: 700, color: "#0a1628", margin: 0 }}>{fm.name} 양식</h3>
+                  <a href={fm.file} download style={{ display: "inline-flex", alignItems: "center", minHeight: 44, padding: "0 16px", background: "#1e4a8a", borderRadius: 6, color: "#fff", fontWeight: 600, fontSize: 14, textDecoration: "none" }}>{fm.name} 빈 양식 PDF 내려받기</a>
+                </div>
+                <p style={{ color: "#475569", fontSize: 14, lineHeight: 1.7, margin: "0 0 12px" }}>{fm.who}</p>
+                <dl style={{ margin: 0, display: "grid", gap: 8 }}>
+                  {fm.fields.map((x) => (
+                    <div key={x.f}>
+                      <dt style={{ fontWeight: 700, fontSize: 15, color: "#1e4a8a" }}>{x.f}</dt>
+                      <dd style={{ margin: "2px 0 0", color: "#475569", fontSize: 15, lineHeight: 1.7 }}>{x.how}</dd>
+                    </div>
+                  ))}
+                </dl>
+              </section>
             ))}
           </div>
           <h2 style={{ fontSize: 24, fontWeight: 700, color: "#0a1628", margin: "0 0 16px" }}>{KO_DOC_TIPS.checkTitle}</h2>
