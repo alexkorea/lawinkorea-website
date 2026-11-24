@@ -720,3 +720,16 @@ main > section > div:first-child:not([class*="hero"]):not([class*="full"]) {
 
 /* CODEWRAP-1124: 체류자격 코드(F-4 등) 하이픈 뒤 줄바꿈 금지 — app/lib/visa-code.tsx 가 감싼다 */
 .vc { white-space: nowrap; }
+
+/* CW-FOLLOWUP-1124: /<언어>/visa-impact 모바일 잘림.
+   ① 전역 word-break:keep-all 은 공백 없는 중·일 문장을 한 단어로 만들어 요약 상자·FAQ 줄이 화면 밖으로 나갔다 → 이 쪽의 ja·zh 만 normal.
+   ② 자격 카드는 배지(flex-shrink:0)가 폭을 먹어 본문 칸이 38~91px 로 좁아지거나(en 은 넘침) → 640px 이하에서 배지를 위, 본문을 아래로. */
+html:lang(ja) .vi-page,
+html:lang(zh) .vi-page {
+  word-break: normal;
+  overflow-wrap: anywhere;
+}
+@media (max-width: 640px) {
+  .vi-page .vi-card { flex-direction: column; gap: 8px !important; }
+  .vi-page .vi-card > p { min-width: 0; }
+}

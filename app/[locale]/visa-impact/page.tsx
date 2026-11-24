@@ -115,7 +115,7 @@ async function PageBody({ params }: { params: Promise<{ locale: string }> }) {
   const l = locale as L;
   const c = CONTENT[l];
   return (
-    <main style={{ maxWidth: 860, margin: "0 auto", padding: "64px 24px" }}>
+    <main className="vi-page" style={{ maxWidth: 860, margin: "0 auto", padding: "64px 24px" }}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -127,7 +127,7 @@ async function PageBody({ params }: { params: Promise<{ locale: string }> }) {
 
       <div style={{ display: "grid", gap: 16, marginBottom: 40 }}>
         {c.visas.map((v, i) => (
-          <div key={i} style={{ border: "1px solid #e2e8f0", borderRadius: 10, padding: "16px 24px", background: "#fff", display: "flex", gap: 16, alignItems: "flex-start" }}>
+          <div key={i} className="vi-card" style={{ border: "1px solid #e2e8f0", borderRadius: 10, padding: "16px 24px", background: "#fff", display: "flex", gap: 16, alignItems: "flex-start" }}>
             <div style={{ fontWeight: 700, fontSize: 13, color: "#fff", background: "#1e4a8a", borderRadius: 6, padding: "3px 10px", flexShrink: 0, marginTop: 2 }}>{v.type}</div>
             <p style={{ color: "#475569", fontSize: 15, lineHeight: 1.7, margin: 0 }}>{v.impact}</p>
           </div>
