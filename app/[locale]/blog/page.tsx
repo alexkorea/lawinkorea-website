@@ -6,6 +6,7 @@ import { ACCENT } from "../../lib/constants";
 import { alternatesFor, ogFor } from "../../lib/seo";
 import { breadcrumbSchema } from "../../lib/schema";
 import BlogCategoryTabs from "../../components/BlogCategoryTabs";
+import { codeWrapPage } from "../../lib/visa-code"; // CODEWRAP-1124
 
 const VALID_LOCALES = ["ko", "en", "zh", "ja", "vi"] as const;
 type LocaleParam = (typeof VALID_LOCALES)[number];
@@ -69,7 +70,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   };
 }
 
-export default async function LocaleBlogIndex({ params }: { params: Promise<{ locale: string }> }) {
+async function LocaleBlogIndex({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   if (!VALID_LOCALES.includes(locale as LocaleParam)) notFound();
   const t = HEADER_TEXT[locale as LocaleParam];
@@ -194,3 +195,6 @@ export default async function LocaleBlogIndex({ params }: { params: Promise<{ lo
     </main>
   );
 }
+
+// CODEWRAP-1124: 쪽 안 글자의 체류자격 코드를 nowrap 스팬으로(app/lib/visa-code.tsx)
+export default codeWrapPage(LocaleBlogIndex);

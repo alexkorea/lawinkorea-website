@@ -6,6 +6,7 @@ import { getBlogPostData, getBlogPostsByLocale, getLocalesForSlug } from "../../
 import { alternatesFor } from "../../../lib/seo";
 import { EXTERNAL_HEADING, EXT_LINKS_FOLD_SLUGS, splitExternalLinksWithFaq } from "../../../lib/external-links";
 import { breadcrumbSchema, faqSchema, inLanguage, ORG_ID, PERSON_ID } from "../../../lib/schema";
+import { codeWrapPage, wrapCodesHtml } from "../../../lib/visa-code"; // CODEWRAP-1124
 
 export const dynamicParams = false;
 
@@ -151,7 +152,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   };
 }
 
-export default async function LocaleBlogPost({ params }: { params: Promise<Params> }) {
+async function LocaleBlogPost({ params }: { params: Promise<Params> }) {
   const { locale, slug } = await params;
   if (!VALID_LOCALES.includes(locale as LocaleParam)) notFound();
   const t = CTA_TEXT[locale as LocaleParam];
@@ -296,7 +297,7 @@ export default async function LocaleBlogPost({ params }: { params: Promise<Param
 
         <div
           className="post-body"
-          dangerouslySetInnerHTML={{ __html: bodyHtml }}
+          dangerouslySetInnerHTML={{ __html: wrapCodesHtml(bodyHtml) }} /* CODEWRAP-1124: FAQ 분리 뒤 본문 HTML 글자만 */
           style={{ fontSize: 16, lineHeight: 1.8, color: ACCENT.text }}
         />
 
@@ -474,3 +475,6 @@ export default async function LocaleBlogPost({ params }: { params: Promise<Param
     </main>
   );
 }
+
+// CODEWRAP-1124: 쪽 안 글자의 체류자격 코드를 nowrap 스팬으로(app/lib/visa-code.tsx)
+export default codeWrapPage(LocaleBlogPost);

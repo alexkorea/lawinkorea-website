@@ -717,3 +717,6 @@ main > section > div:first-child:not([class*="hero"]):not([class*="full"]) {
   .site-nav .site-nav-link { padding: 0 8px; }
   .site-nav .site-nav-link.is-active::after { left: 8px; right: 8px; }
 }
+
+/* CODEWRAP-1124: 체류자격 코드(F-4 등) 하이픈 뒤 줄바꿈 금지 — app/lib/visa-code.tsx 가 감싼다 */
+.vc { white-space: nowrap; }

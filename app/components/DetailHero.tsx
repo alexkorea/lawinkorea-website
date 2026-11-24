@@ -1,5 +1,6 @@
 import { cloneElement, isValidElement, type ReactElement, type ReactNode } from "react";
 import { HOME_CARD_ALT, HOME_CARD_PHOTOS, OFFENSES_CARD_PHOTOS, type CardPhoto } from "../lib/card-photos";
+import { withCodeWrap } from "../lib/visa-code"; // CODEWRAP-1124
 
 // QA1103-FIX 3(맥7 2026-11-04) — 상세 페이지(사건 유형·받은 처분) 본문 사진 0 → 허브 카드 사진을 상단 히어로로.
 // 같은 주제의 사진을 그 주제 상세에서 크게 보여 주는 것이라 '돌려쓰기'(다른 주제에 같은 사진)가 아니다.
@@ -52,7 +53,7 @@ const PAGE_HEROES: Record<string, { file: string; alt: string }> = {
   fines: { file: "page-fines-calculator-5466808", alt: "책상 위 계산기 자판을 누르는 손" },
   documents: { file: "page-documents-binders-17065813", alt: "색 띠지를 붙여 겹쳐 놓은 검은 서류철" },
 };
-export function PageHero({ page, locale, maxWidth }: { page: string; locale: string; maxWidth?: number }) {
+function PageHero__Raw({ page, locale, maxWidth }: { page: string; locale: string; maxWidth?: number }) {
   const p = PAGE_HEROES[page];
   if (!p || locale !== "ko") return null; // 지시 범위가 ko 쪽뿐(다른 언어는 후보 보고)
   const photo = { file: p.file, alt: p.alt, hires: true } as HiresHero;
@@ -108,3 +109,6 @@ export function withHero(node: ReactNode, photo: CardPhoto | null): ReactNode {
   }
   return node;
 }
+
+// CODEWRAP-1124: 체류자격 코드 nowrap 스팬(app/lib/visa-code.tsx)
+export const PageHero = withCodeWrap(PageHero__Raw);

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { ACCENT } from "../lib/constants";
+import { withCodeWrap } from "../lib/visa-code"; // CODEWRAP-1124
 
 // 블로그 목록 분류 탭(QA1014-FIX L6, 맥7 2026-10-15) — 카드의 분류 글씨를 '전체/분류별' 필터로 쓴다.
 // 서버 HTML 은 '전체'(모든 글)로 그려지므로 크롤러가 보는 목록·링크는 그대로다. 탭은 새 URL 을 만들지 않는다.
@@ -50,7 +51,7 @@ function buildTabs(posts: BlogCard[]) {
   return { tabs, labelOf: (p: BlogCard) => keyToLabel.get(tabOf(p.category).key)! };
 }
 
-export default function BlogCategoryTabs({ locale, posts }: { locale: string; posts: BlogCard[] }) {
+function BlogCategoryTabs__Raw({ locale, posts }: { locale: string; posts: BlogCard[] }) {
   const [active, setActive] = useState<string | null>(null);
   const { tabs, labelOf } = buildTabs(posts);
   const shown = active === null ? posts : posts.filter((p) => labelOf(p) === active);
@@ -156,3 +157,6 @@ export default function BlogCategoryTabs({ locale, posts }: { locale: string; po
     </>
   );
 }
+
+// CODEWRAP-1124: 체류자격 코드 nowrap 스팬(app/lib/visa-code.tsx)
+export default withCodeWrap(BlogCategoryTabs__Raw);

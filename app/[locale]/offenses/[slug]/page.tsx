@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { withReco } from "../../../components/RecoBlock";
 import { heroPhotoFor, withHero } from "../../../components/DetailHero";
 import type { UnitKey } from "../../../lib/reco/types";
+import { codeWrapPage } from "../../../lib/visa-code"; // CODEWRAP-1124
 
 const VALID_LOCALES = ["ko", "en", "ja", "zh", "vi"] as const;
 type L = (typeof VALID_LOCALES)[number];
@@ -974,7 +975,7 @@ import React from "react";
 
 const OFFENSES_LABEL: Record<string, string> = { ko: "위반 유형", en: "Offense Types", ja: "違反の種類", zh: "违规类型", vi: "Loại vi phạm" };
 
-export default async function Page({ params }: { params: Promise<{ locale: string; slug: string }> }) {
+async function Page({ params }: { params: Promise<{ locale: string; slug: string }> }) {
   const { locale, slug } = await params;
   if (!VALID_LOCALES.includes(locale as L)) notFound();
   const l = locale as L;
@@ -1022,3 +1023,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
     </main>
   );
 }
+
+// CODEWRAP-1124: 쪽 안 글자의 체류자격 코드를 nowrap 스팬으로(app/lib/visa-code.tsx)
+export default codeWrapPage(Page);

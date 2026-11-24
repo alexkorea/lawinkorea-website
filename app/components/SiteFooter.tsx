@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ACCENT, COMPANY } from "../lib/constants";
 import { CATALOG_LINK_LABEL } from "../lib/reco/catalog";
+import { withCodeWrap } from "../lib/visa-code"; // CODEWRAP-1124
 
 const NAV: Record<string, {
   about: string; cases: string; process: string; blog: string; offenses: string; dispositions: string; contact: string;
@@ -66,7 +67,7 @@ const NAV: Record<string, {
   },
 };
 
-export default function SiteFooter() {
+function SiteFooter__Raw() {
   const pathname = usePathname();
   const localeMatch = pathname.match(/^\/(ko|en|zh|ja|vi)(\/|$)/);
   const locale = localeMatch ? localeMatch[1] : "ko";
@@ -142,3 +143,6 @@ export default function SiteFooter() {
     </footer>
   );
 }
+
+// CODEWRAP-1124: 체류자격 코드 nowrap 스팬(app/lib/visa-code.tsx)
+export default withCodeWrap(SiteFooter__Raw);

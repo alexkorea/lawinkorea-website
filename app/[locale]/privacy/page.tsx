@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { alternatesFor, ogFor } from "../../lib/seo";
 import { COMPANY, ACCENT } from "../../lib/constants";
 import { breadcrumbSchema } from "../../lib/schema";
+import { codeWrapPage } from "../../lib/visa-code"; // CODEWRAP-1124
 
 // QA01-FIX3(맥7 2026-10-05) — "Coming soon" 자리에 정식 개인정보 처리방침(5언어).
 // 운영 주체 = NAS team-relay/brand_registry.md 브랜드 E(선샤인행정사사무소). 외국어 사무소명은 Boss 미확정이라 국문 그대로 쓴다.
@@ -166,7 +167,7 @@ const h2Style = { fontSize: 20, fontWeight: 700, color: ACCENT.navy, margin: "36
 const pStyle = { color: ACCENT.textMute, lineHeight: 1.75, margin: "8px 0" } as const;
 const cell = { border: `1px solid ${ACCENT.border}`, padding: "8px 10px", textAlign: "left" as const, verticalAlign: "top" as const };
 
-export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
+async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   if (!VALID_LOCALES.includes(locale as L)) notFound();
   const d = DOCS[locale as L];
@@ -203,3 +204,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
     </main>
   );
 }
+
+// CODEWRAP-1124: 쪽 안 글자의 체류자격 코드를 nowrap 스팬으로(app/lib/visa-code.tsx)
+export default codeWrapPage(Page);

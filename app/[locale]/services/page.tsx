@@ -7,6 +7,7 @@ import { getReco, type RecoLocale } from "../../lib/reco";
 import { UNIT_KEYS, UNIT_PATH } from "../../lib/reco/types";
 import { CATALOG_UI, agencyOf } from "../../lib/reco/catalog";
 import { PAGE_LASTMOD } from "../../data/page-lastmod.generated";
+import { codeWrapPage } from "../../lib/visa-code"; // CODEWRAP-1124
 
 /**
  * AI-RECO-2 E-2(2026-11-04) — 처리 업무 전체 목록(정식 명칭·관할 기관·대상·관련 페이지).
@@ -26,7 +27,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 const C = { navy: "#0a1628", primary: "#0056b3", muted: "#475569", border: "#e2e8f0" };
 
-export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
+async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   if (!VALID_LOCALES.includes(locale as L)) notFound();
   const l = locale as RecoLocale;
@@ -112,3 +113,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
     </main>
   );
 }
+
+// CODEWRAP-1124: 쪽 안 글자의 체류자격 코드를 nowrap 스팬으로(app/lib/visa-code.tsx)
+export default codeWrapPage(Page);

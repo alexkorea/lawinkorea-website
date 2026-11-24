@@ -1,3 +1,4 @@
+import { withCodeWrap } from "../lib/visa-code"; // CODEWRAP-1124
 // 상담 내용 비밀 유지 안내(LAW-V1 P1-3) — 홈·문의·긴급상담 공통.
 // 결과를 약속하지 않고 법적 의무 사실만 적는다. 조문 문언은 국가법령정보센터 현행판에서 확인:
 // 행정사법(법률 제19034호, 2022-11-15 시행) 제23조(비밀엄수), 2026-10-04 확인.
@@ -28,7 +29,7 @@ const TEXT: Record<L, { title: string; body: string }> = {
   },
 };
 
-export default function ConfidentialityNote({ locale }: { locale: string }) {
+function ConfidentialityNote__Raw({ locale }: { locale: string }) {
   const t = TEXT[(locale in TEXT ? locale : "ko") as L];
   return (
     <section
@@ -40,3 +41,6 @@ export default function ConfidentialityNote({ locale }: { locale: string }) {
     </section>
   );
 }
+
+// CODEWRAP-1124: 체류자격 코드 nowrap 스팬(app/lib/visa-code.tsx)
+export default withCodeWrap(ConfidentialityNote__Raw);

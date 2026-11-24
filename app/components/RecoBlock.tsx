@@ -4,6 +4,7 @@ import { ORG_ID, WEBSITE_ID, inLanguage } from "../lib/schema";
 import { PAGE_LASTMOD } from "../data/page-lastmod.generated";
 import { getReco, type RecoLocale } from "../lib/reco";
 import { UNIT_PATH, type RecoUnit, type UnitKey } from "../lib/reco/types";
+import { withCodeWrap } from "../lib/visa-code"; // CODEWRAP-1124
 
 /**
  * AI-RECO-1103 12절 — 업무 항목(단위) 페이지 보강 블록 (표준 1~7·10·11절).
@@ -102,7 +103,7 @@ const ASK_COUNT = 5;
 
 const h2: React.CSSProperties = { fontSize: 20, fontWeight: 700, color: C.navy, margin: "0 0 14px", lineHeight: 1.35 };
 
-export function RecoTop({ unit, locale }: { unit: UnitKey; locale: RecoLocale }) {
+function RecoTop__Raw({ unit, locale }: { unit: UnitKey; locale: RecoLocale }) {
   const p = getReco(locale, unit);
   if (!p) return null;
   const t = UI[locale];
@@ -168,7 +169,7 @@ export function RecoTop({ unit, locale }: { unit: UnitKey; locale: RecoLocale })
   );
 }
 
-export function RecoBottom({ unit, locale }: { unit: UnitKey; locale: RecoLocale }) {
+function RecoBottom__Raw({ unit, locale }: { unit: UnitKey; locale: RecoLocale }) {
   const p = getReco(locale, unit);
   if (!p) return null;
   const t = UI[locale];
@@ -382,3 +383,7 @@ export function withReco(node: ReactNode, unit: UnitKey, locale: string, opts: {
   }
   return out;
 }
+
+// CODEWRAP-1124: 체류자격 코드 nowrap 스팬(app/lib/visa-code.tsx)
+export const RecoTop = withCodeWrap(RecoTop__Raw);
+export const RecoBottom = withCodeWrap(RecoBottom__Raw);

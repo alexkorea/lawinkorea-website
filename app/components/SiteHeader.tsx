@@ -6,6 +6,7 @@ import { useEffect, useRef, useState } from "react";
 import { ACCENT, COMPANY } from "../lib/constants";
 import { LANG_LABELS } from "../lib/content";
 import { MEGA_HUB_READY, MEGA_ITEMS, MEGA_LABEL, type MegaGroupKey, type MegaLoc } from "../lib/nav-mega";
+import { withCodeWrap } from "../lib/visa-code"; // CODEWRAP-1124
 
 type NavKey = "home" | "review" | "fines" | "cases" | "process" | "blog";
 
@@ -41,7 +42,7 @@ const BRAND_BY_LOCALE: Record<string, string> = {
   vi: "Sunshine · Law in Korea",
 };
 
-export default function SiteHeader() {
+function SiteHeader__Raw() {
   const pathname = usePathname();
   const router = useRouter();
 
@@ -312,3 +313,6 @@ export default function SiteHeader() {
     </>
   );
 }
+
+// CODEWRAP-1124: 체류자격 코드 nowrap 스팬(app/lib/visa-code.tsx)
+export default withCodeWrap(SiteHeader__Raw);

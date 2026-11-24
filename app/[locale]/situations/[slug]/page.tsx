@@ -14,6 +14,7 @@ import {
   type SituationSlug,
   type SrcKey,
 } from "../../../lib/situations";
+import { codeWrapPage } from "../../../lib/visa-code"; // CODEWRAP-1124
 
 // P1-6 상황별 진입 페이지 — 3 슬러그 × 5 로캘 정적 생성, 그 밖의 경로는 404.
 export const dynamicParams = false;
@@ -90,7 +91,7 @@ function AudienceBox({ label, children }: { label: string; children: ReactNode }
   );
 }
 
-export default async function Page({ params }: { params: Promise<{ locale: string; slug: string }> }) {
+async function Page({ params }: { params: Promise<{ locale: string; slug: string }> }) {
   const { locale, slug } = await params;
   if (!isLocale(locale) || !isSlug(slug)) notFound();
   const l = locale;
@@ -175,3 +176,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
     </main>
   );
 }
+
+// CODEWRAP-1124: 쪽 안 글자의 체류자격 코드를 nowrap 스팬으로(app/lib/visa-code.tsx)
+export default codeWrapPage(Page);

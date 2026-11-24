@@ -7,9 +7,10 @@ import {
   REPLY_NOTICE,
   type ContactLocale,
 } from "../lib/contact-info";
+import { withCodeWrap } from "../lib/visa-code"; // CODEWRAP-1124
 
 // 운영시간 외 안내 + 회신 기준(LAW-V1b 6) — 홈 첫 화면·문의·긴급상담 공통.
-export function HoursNotice({ locale, tone = "light" }: { locale: ContactLocale; tone?: "light" | "dark" }) {
+function HoursNotice__Raw({ locale, tone = "light" }: { locale: ContactLocale; tone?: "light" | "dark" }) {
   const dark = tone === "dark";
   return (
     <div
@@ -36,7 +37,7 @@ export function HoursNotice({ locale, tone = "light" }: { locale: ContactLocale;
 // 칸이 격자 폭(minmax 120px)에 묶여 칸을 키울 자리가 없어, 같은 칸 안에서 1.25배로 보이고 칸 밖 흰 여백만 clip-path 로 가린다. 이미지 파일은 그대로.
 const LINE_FIT = { transform: "scale(1.25)", clipPath: "inset(10%)" } as const;
 
-export default function ContactChannels({ locale, showEmail = true }: { locale: ContactLocale; showEmail?: boolean }) {
+function ContactChannels__Raw({ locale, showEmail = true }: { locale: ContactLocale; showEmail?: boolean }) {
   const t = MESSENGER_TEXT[locale];
   const phoneLabel = locale === "ko" ? COMPANY.phone : COMPANY.phoneIntl;
   return (
@@ -108,3 +109,7 @@ export default function ContactChannels({ locale, showEmail = true }: { locale: 
     </section>
   );
 }
+
+// CODEWRAP-1124: 체류자격 코드 nowrap 스팬(app/lib/visa-code.tsx)
+export const HoursNotice = withCodeWrap(HoursNotice__Raw);
+export default withCodeWrap(ContactChannels__Raw);

@@ -5,6 +5,7 @@ import { SITE } from "../../lib/constants";
 import { faqSchema } from "../../lib/schema";
 import CardPhotoImg from "../../components/CardPhotoImg";
 import { OFFENSES_CARD_PHOTOS } from "../../lib/card-photos";
+import { codeWrapPage } from "../../lib/visa-code"; // CODEWRAP-1124
 
 const VALID_LOCALES = ["ko", "en", "ja", "zh", "vi"] as const;
 type L = (typeof VALID_LOCALES)[number];
@@ -50,7 +51,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   };
 }
 
-export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
+async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   if (!VALID_LOCALES.includes(locale as L)) notFound();
   const l = locale as L;
@@ -242,3 +243,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
     </main>
   );
 }
+
+// CODEWRAP-1124: 쪽 안 글자의 체류자격 코드를 nowrap 스팬으로(app/lib/visa-code.tsx)
+export default codeWrapPage(Page);

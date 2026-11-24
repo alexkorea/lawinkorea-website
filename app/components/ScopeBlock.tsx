@@ -1,3 +1,4 @@
+import { withCodeWrap } from "../lib/visa-code"; // CODEWRAP-1124
 /**
  * 업무범위 블록 — "행정사가 할 수 있는 일 / 할 수 없는 일" (맥7 K-exec 2026-10-03 지시 4·7장).
  * about(회사허브)·사범심사 허브가 같은 원천을 쓴다. 문구를 페이지에 다시 적지 말 것.
@@ -104,7 +105,7 @@ const T: Record<L, {
   },
 };
 
-export default function ScopeBlock({ locale, extended = false }: { locale: string; extended?: boolean }) {
+function ScopeBlock__Raw({ locale, extended = false }: { locale: string; extended?: boolean }) {
   const t = T[(locale in T ? locale : "ko") as L];
   const cannot = extended ? [...t.cannot, ...t.cannotExtra] : t.cannot;
   return (
@@ -128,3 +129,6 @@ export default function ScopeBlock({ locale, extended = false }: { locale: strin
     </section>
   );
 }
+
+// CODEWRAP-1124: 체류자격 코드 nowrap 스팬(app/lib/visa-code.tsx)
+export default withCodeWrap(ScopeBlock__Raw);

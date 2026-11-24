@@ -14,6 +14,7 @@ import {
   finesFor,
   type FineLocale,
 } from "../../lib/fines";
+import { codeWrapPage } from "../../lib/visa-code"; // CODEWRAP-1124
 
 /**
  * 벌금기준 — 출입국 범칙금·과태료 기준표 전체(16유형 101구간).
@@ -61,7 +62,7 @@ const A = {
 const SEVERITY: Record<string, string> = { high: A.red, mid: A.primary, low: A.navy };
 
 // AI-RECO-1103 12절: 단위 블록(핵심 답변·처리 업무·상황질문·용어·사무소·스키마) — 원고 app/lib/reco/law-<locale>.ts
-export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
+async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const body = await PageBody({ params });
   return withReco(body, "fines", locale);
@@ -239,3 +240,6 @@ async function PageBody({ params }: { params: Promise<{ locale: string }> }) {
     </main>
   );
 }
+
+// CODEWRAP-1124: 쪽 안 글자의 체류자격 코드를 nowrap 스팬으로(app/lib/visa-code.tsx)
+export default codeWrapPage(Page);

@@ -1,4 +1,5 @@
 import { COMPANY } from "../lib/constants";
+import { withCodeWrap } from "../lib/visa-code"; // CODEWRAP-1124
 
 // 대표 프로필(LAW-V1b 4, 보스 msg 1808) — 소개 페이지·홈 담당자 영역 공통.
 // 사진 = visaskorea.com 공식 사진(public/team/hankt.jpg). 등록 정보는 사업자등록번호만 적는다 —
@@ -16,7 +17,7 @@ const TEXT: Record<L, { heading: string; role: string; bizName: string; rep: str
 export const REP_PHOTO = "/team/hankt.jpg";
 export const REP_PHOTO_ALT = "한경택 대표 행정사";
 
-export default function RepresentativeCard({ locale, showHeading = true }: { locale: L; showHeading?: boolean }) {
+function RepresentativeCard__Raw({ locale, showHeading = true }: { locale: L; showHeading?: boolean }) {
   const t = TEXT[locale];
   return (
     <section className="rep-card" style={{ margin: "0 0 32px" }}>
@@ -44,3 +45,6 @@ export default function RepresentativeCard({ locale, showHeading = true }: { loc
     </section>
   );
 }
+
+// CODEWRAP-1124: 체류자격 코드 nowrap 스팬(app/lib/visa-code.tsx)
+export default withCodeWrap(RepresentativeCard__Raw);

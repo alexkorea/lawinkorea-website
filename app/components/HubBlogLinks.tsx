@@ -1,5 +1,6 @@
 import { isValidElement, cloneElement, type ReactElement, type ReactNode } from "react";
 import { getBlogPostData } from "../data/blog-posts-data";
+import { withCodeWrap } from "../lib/visa-code"; // CODEWRAP-1124
 
 /**
  * 12장 — 서비스 허브 본문(<main>) → 관련 블로그 3개 (맥7 K-exec 2026-10-03 지시 5).
@@ -28,7 +29,7 @@ const HEADING: Record<string, string> = {
   vi: "Bài viết liên quan",
 };
 
-export default function HubBlogLinks({ hub, locale }: { hub: string; locale: string }) {
+function HubBlogLinks__Raw({ hub, locale }: { hub: string; locale: string }) {
   const posts = (HUB_POSTS[hub] ?? [])
     .map((slug) => getBlogPostData(slug, locale))
     .filter((p): p is NonNullable<typeof p> => Boolean(p));
@@ -81,3 +82,6 @@ export function appendToMain(node: ReactNode, extra: ReactNode): ReactNode {
     </>
   );
 }
+
+// CODEWRAP-1124: 체류자격 코드 nowrap 스팬(app/lib/visa-code.tsx)
+export default withCodeWrap(HubBlogLinks__Raw);

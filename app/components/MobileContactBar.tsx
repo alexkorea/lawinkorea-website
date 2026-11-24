@@ -1,5 +1,6 @@
 import { COMPANY } from "../lib/constants";
 import { type ContactLocale } from "../lib/contact-info";
+import { withCodeWrap } from "../lib/visa-code"; // CODEWRAP-1124
 
 // 모바일 하단 고정 바(LAW-V1b 2): 전화 · WhatsApp · 문의 폼. 바 위 운영시간 안내문은 BEYE-1008-FIX #14 로 내림(안내는 첫 화면·문의 페이지 HoursNotice).
 // 900px 이하에서만 보인다(globals.css .mobile-contact-bar). 바 높이만큼 .mobile-contact-spacer 로 본문을 밀어 풋터가 가려지지 않게 한다.
@@ -11,7 +12,7 @@ const LABEL: Record<ContactLocale, { phone: string; whatsapp: string; form: stri
   vi: { phone: "Gọi điện", whatsapp: "WhatsApp", form: "Biểu mẫu", aria: "Liên hệ nhanh" },
 };
 
-export default function MobileContactBar({ locale }: { locale: ContactLocale }) {
+function MobileContactBar__Raw({ locale }: { locale: ContactLocale }) {
   const t = LABEL[locale];
   return (
     <>
@@ -26,3 +27,6 @@ export default function MobileContactBar({ locale }: { locale: ContactLocale }) 
     </>
   );
 }
+
+// CODEWRAP-1124: 체류자격 코드 nowrap 스팬(app/lib/visa-code.tsx)
+export default withCodeWrap(MobileContactBar__Raw);

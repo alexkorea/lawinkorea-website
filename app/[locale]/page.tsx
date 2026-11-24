@@ -9,6 +9,7 @@ import RepresentativeCard from "../components/RepresentativeCard";
 import CardPhotoImg from "../components/CardPhotoImg";
 import SituationIcon, { MORE_LABEL, SITUATION_TARGETS } from "../components/SituationIcon";
 import { HOME_CARD_ALT, HOME_CARD_PHOTOS } from "../lib/card-photos";
+import { codeWrapPage } from "../lib/visa-code"; // CODEWRAP-1124
 
 // 홈 연락 영역(LAW-V1b 2·4) — 담당 행정사 사진·등록정보 + 메신저·전화·이메일. ko 와 외국어 홈 공통.
 const HomeContactArea = ({ l }: { l: L }) => (
@@ -884,10 +885,13 @@ const GenericHomePage = ({ l }: { l: Exclude<L, "ko"> }) => {
   );
 };
 
-export default async function LocaleHomePage({ params }: { params: Promise<{ locale: string }> }) {
+async function LocaleHomePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   if (!VALID_LOCALES.includes(locale as L)) notFound();
   const l = locale as L;
   if (l === "ko") return <KoHomePage />;
   return <GenericHomePage l={l} />;
 }
+
+// CODEWRAP-1124: 쪽 안 글자의 체류자격 코드를 nowrap 스팬으로(app/lib/visa-code.tsx)
+export default codeWrapPage(LocaleHomePage);

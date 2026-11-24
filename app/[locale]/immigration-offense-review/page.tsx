@@ -6,6 +6,7 @@ import { SITE } from "../../lib/constants";
 import ScopeBlock from "../../components/ScopeBlock";
 import HubBlogLinks from "../../components/HubBlogLinks";
 import { PageHero } from "../../components/DetailHero";
+import { codeWrapPage } from "../../lib/visa-code"; // CODEWRAP-1124
 
 const VALID_LOCALES = ["ko", "en", "ja", "zh", "vi"] as const;
 type L = (typeof VALID_LOCALES)[number];
@@ -53,7 +54,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 }
 
 // AI-RECO-1103 12절: 단위 블록(핵심 답변·처리 업무·상황질문·용어·사무소·스키마) — 원고 app/lib/reco/law-<locale>.ts
-export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
+async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const body = await PageBody({ params });
   return withReco(body, "immigration-offense-review", locale, { top: locale !== "ko" });
@@ -297,3 +298,6 @@ async function PageBody({ params }: { params: Promise<{ locale: string }> }) {
     </main>
   );
 }
+
+// CODEWRAP-1124: 쪽 안 글자의 체류자격 코드를 nowrap 스팬으로(app/lib/visa-code.tsx)
+export default codeWrapPage(Page);
