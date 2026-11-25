@@ -220,7 +220,7 @@ async function LocaleBlogPost({ params }: { params: Promise<Params> }) {
         />
       )}
 
-      <article style={{ maxWidth: 760, margin: "0 auto", padding: "64px 24px 96px" }}>
+      <article className="post-article" style={{ maxWidth: 760, margin: "0 auto", padding: "64px 24px 96px" }}>
         <nav
           aria-label="Breadcrumb"
           style={{ marginBottom: 24, fontSize: 14, color: ACCENT.textMuteSoft, display: "flex", gap: 8, flexWrap: "wrap", alignItems: "center" }}
