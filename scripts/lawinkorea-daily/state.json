@@ -519,6 +519,19 @@
       ],
       "at": "2026-11-21T10:09:04.064Z",
       "batch": "BANK-REFILL-1029"
+    },
+    {
+      "slug": "student-leave-of-absence-school-report-stay",
+      "date": "2026-11-25",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-11-25T10:07:35.398Z",
+      "batch": "20261125"
     }
   ],
   "rejected": []

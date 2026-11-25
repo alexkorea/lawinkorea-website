@@ -111,5 +111,7 @@
   "airport-departure-overstay-caught": { "pexels_id": 12932752, "author": "Atlantic Ambience",
     "alt": { "ko": "공항 터미널 안을 걸어가는 여행객들", "en": "Travelers walking inside an airport terminal", "zh": "在机场航站楼内行走的旅客", "ja": "空港ターミナルを歩く旅行者たち", "vi": "Hành khách đi bộ trong nhà ga sân bay" } },
   "identity-guarantee-liability-guide": { "pexels_id": 8730982, "author": "Mikhail Nilov",
-    "alt": { "ko": "서류에 펜으로 서명하는 손", "en": "Hand signing a document with a pen", "zh": "用笔在文件上签字的手", "ja": "ペンで書類に署名する手", "vi": "Bàn tay đang ký vào tài liệu bằng bút" } }
+    "alt": { "ko": "서류에 펜으로 서명하는 손", "en": "Hand signing a document with a pen", "zh": "用笔在文件上签字的手", "ja": "ペンで書類に署名する手", "vi": "Bàn tay đang ký vào tài liệu bằng bút" } },
+  "student-leave-of-absence-school-report-stay": { "pexels_id": 7973039, "author": "George Pak",
+    "alt": { "ko": "캠퍼스를 함께 걷는 대학생들", "en": "University students walking together on campus", "zh": "一起走在校园里的大学生", "ja": "キャンパスを一緒に歩く大学生", "vi": "Sinh viên cùng đi bộ trong khuôn viên trường" } }
 }
