@@ -1,0 +1,27 @@
+{
+ "order": 43,
+ "batch": "20261125",
+ "pexels_id": 6726195,
+ "pexels_author": "Magic K",
+ "cover_alt": {
+  "ko": "공항 터미널에서 짐을 든 여행객들",
+  "en": "Travelers with luggage in an airport terminal",
+  "zh": "机场航站楼里带着行李的旅客",
+  "ja": "空港ターミナルで荷物を持つ旅行者",
+  "vi": "Hành khách mang hành lý trong nhà ga sân bay"
+ },
+ "og_category": {
+  "ko": "벌칙·벌금",
+  "en": "Penalties",
+  "zh": "处罚·罚款",
+  "ja": "罰則・罰金",
+  "vi": "Hình phạt"
+ },
+ "imageTitle": {
+  "ko": "등록증 반납 의무",
+  "en": "Returning your ID card",
+  "zh": "外国人登记证的交还义务",
+  "ja": "登録証の返納義務",
+  "vi": "Nghĩa vụ nộp lại thẻ đăng ký"
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "order": 41,
+ "batch": "20261125",
+ "pexels_id": 7973039,
+ "pexels_author": "George Pak",
+ "cover_alt": {
+  "ko": "캠퍼스를 함께 걷는 대학생들",
+  "en": "University students walking together on campus",
+  "zh": "一起走在校园里的大学生",
+  "ja": "キャンパスを一緒に歩く大学生",
+  "vi": "Sinh viên cùng đi bộ trong khuôn viên trường"
+ },
+ "og_category": {
+  "ko": "유학·체류",
+  "en": "Student stay",
+  "zh": "留学·居留",
+  "ja": "留学・在留",
+  "vi": "Du học·Lưu trú"
+ },
+ "imageTitle": {
+  "ko": "유학생 휴학·제적과 체류",
+  "en": "Student leave and stay",
+  "zh": "留学生休学与居留",
+  "ja": "留学生の休学と在留",
+  "vi": "Du học sinh bảo lưu và lưu trú"
+ }
+}

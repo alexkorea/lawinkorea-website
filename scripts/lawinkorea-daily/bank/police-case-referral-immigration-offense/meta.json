@@ -1,0 +1,27 @@
+{
+ "order": 45,
+ "batch": "20261125",
+ "pexels_id": 7715198,
+ "pexels_author": "Kindel Media",
+ "cover_alt": {
+  "ko": "수첩에 내용을 적는 경찰관",
+  "en": "Police officer writing notes on a notepad",
+  "zh": "在记事本上记录的警察",
+  "ja": "メモ帳に書き込む警察官",
+  "vi": "Cảnh sát viên ghi chép vào sổ tay"
+ },
+ "og_category": {
+  "ko": "사범심사",
+  "en": "Offense review",
+  "zh": "违法审查",
+  "ja": "違反審査",
+  "vi": "Xét xử vi phạm"
+ },
+ "imageTitle": {
+  "ko": "경찰에서 출입국으로 인계",
+  "en": "Police referral to immigration",
+  "zh": "警方移交出入境机关",
+  "ja": "警察から出入国への引き継ぎ",
+  "vi": "Cảnh sát chuyển sang xuất nhập cảnh"
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "order": 42,
+ "batch": "20261125",
+ "pexels_id": 5242822,
+ "pexels_author": "Anna Tarazevich",
+ "cover_alt": {
+  "ko": "카드를 다른 사람에게 건네는 손",
+  "en": "A hand passing a card to another person",
+  "zh": "把卡片递给另一个人的手",
+  "ja": "カードを別の人に手渡す手",
+  "vi": "Bàn tay đưa thẻ cho người khác"
+ },
+ "og_category": {
+  "ko": "벌칙·벌금",
+  "en": "Penalties",
+  "zh": "处罚·罚款",
+  "ja": "罰則・罰金",
+  "vi": "Hình phạt"
+ },
+ "imageTitle": {
+  "ko": "등록증 대여와 처벌",
+  "en": "ID card lending penalty",
+  "zh": "外国人登记证出借处罚",
+  "ja": "登録証の貸与と処罰",
+  "vi": "Cho mượn thẻ đăng ký và xử phạt"
+ }
+}

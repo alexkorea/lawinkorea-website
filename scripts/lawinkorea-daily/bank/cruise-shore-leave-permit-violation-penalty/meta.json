@@ -1,0 +1,27 @@
+{
+ "order": 44,
+ "batch": "20261125",
+ "pexels_id": 21832848,
+ "pexels_author": "Miguel Cuenca",
+ "cover_alt": {
+  "ko": "항구에 정박한 대형 크루즈선",
+  "en": "Large cruise ship docked in port",
+  "zh": "停靠在港口的大型邮轮",
+  "ja": "港に停泊する大型クルーズ船",
+  "vi": "Tàu du lịch lớn neo đậu tại cảng"
+ },
+ "og_category": {
+  "ko": "벌칙·벌금",
+  "en": "Penalties",
+  "zh": "处罚·罚款",
+  "ja": "罰則・罰金",
+  "vi": "Hình phạt"
+ },
+ "imageTitle": {
+  "ko": "크루즈 상륙허가 위반",
+  "en": "Cruise shore leave violations",
+  "zh": "邮轮上岸许可违规",
+  "ja": "クルーズ上陸許可の違反",
+  "vi": "Vi phạm giấy phép lên bờ du thuyền"
+ }
+}
