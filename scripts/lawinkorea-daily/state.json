@@ -532,6 +532,19 @@
       ],
       "at": "2026-11-25T10:07:35.398Z",
       "batch": "20261125"
+    },
+    {
+      "slug": "foreigner-id-card-lending-misuse-penalty",
+      "date": "2026-11-26",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-11-26T10:09:07.306Z",
+      "batch": "20261125"
     }
   ],
   "rejected": []

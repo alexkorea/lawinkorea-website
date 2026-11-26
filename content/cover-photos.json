@@ -113,5 +113,7 @@
   "identity-guarantee-liability-guide": { "pexels_id": 8730982, "author": "Mikhail Nilov",
     "alt": { "ko": "서류에 펜으로 서명하는 손", "en": "Hand signing a document with a pen", "zh": "用笔在文件上签字的手", "ja": "ペンで書類に署名する手", "vi": "Bàn tay đang ký vào tài liệu bằng bút" } },
   "student-leave-of-absence-school-report-stay": { "pexels_id": 7973039, "author": "George Pak",
-    "alt": { "ko": "캠퍼스를 함께 걷는 대학생들", "en": "University students walking together on campus", "zh": "一起走在校园里的大学生", "ja": "キャンパスを一緒に歩く大学生", "vi": "Sinh viên cùng đi bộ trong khuôn viên trường" } }
+    "alt": { "ko": "캠퍼스를 함께 걷는 대학생들", "en": "University students walking together on campus", "zh": "一起走在校园里的大学生", "ja": "キャンパスを一緒に歩く大学生", "vi": "Sinh viên cùng đi bộ trong khuôn viên trường" } },
+  "foreigner-id-card-lending-misuse-penalty": { "pexels_id": 5242822, "author": "Anna Tarazevich",
+    "alt": { "ko": "카드를 다른 사람에게 건네는 손", "en": "A hand passing a card to another person", "zh": "把卡片递给另一个人的手", "ja": "カードを別の人に手渡す手", "vi": "Bàn tay đưa thẻ cho người khác" } }
 }
