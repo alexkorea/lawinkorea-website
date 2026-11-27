@@ -115,5 +115,7 @@
   "student-leave-of-absence-school-report-stay": { "pexels_id": 7973039, "author": "George Pak",
     "alt": { "ko": "캠퍼스를 함께 걷는 대학생들", "en": "University students walking together on campus", "zh": "一起走在校园里的大学生", "ja": "キャンパスを一緒に歩く大学生", "vi": "Sinh viên cùng đi bộ trong khuôn viên trường" } },
   "foreigner-id-card-lending-misuse-penalty": { "pexels_id": 5242822, "author": "Anna Tarazevich",
-    "alt": { "ko": "카드를 다른 사람에게 건네는 손", "en": "A hand passing a card to another person", "zh": "把卡片递给另一个人的手", "ja": "カードを別の人に手渡す手", "vi": "Bàn tay đưa thẻ cho người khác" } }
+    "alt": { "ko": "카드를 다른 사람에게 건네는 손", "en": "A hand passing a card to another person", "zh": "把卡片递给另一个人的手", "ja": "カードを別の人に手渡す手", "vi": "Bàn tay đưa thẻ cho người khác" } },
+  "foreigner-id-card-return-departure-naturalization": { "pexels_id": 6726195, "author": "Magic K",
+    "alt": { "ko": "공항 터미널에서 짐을 든 여행객들", "en": "Travelers with luggage in an airport terminal", "zh": "机场航站楼里带着行李的旅客", "ja": "空港ターミナルで荷物を持つ旅行者", "vi": "Hành khách mang hành lý trong nhà ga sân bay" } }
 }

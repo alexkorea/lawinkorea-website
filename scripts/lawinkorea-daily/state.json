@@ -545,6 +545,19 @@
       ],
       "at": "2026-11-26T10:09:07.306Z",
       "batch": "20261125"
+    },
+    {
+      "slug": "foreigner-id-card-return-departure-naturalization",
+      "date": "2026-11-27",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-11-27T10:09:09.584Z",
+      "batch": "20261125"
     }
   ],
   "rejected": []
