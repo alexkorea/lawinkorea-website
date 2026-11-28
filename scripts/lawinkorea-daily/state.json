@@ -558,6 +558,19 @@
       ],
       "at": "2026-11-27T10:09:09.584Z",
       "batch": "20261125"
+    },
+    {
+      "slug": "g1-wage-arrears-industrial-accident-stay",
+      "date": "2026-11-28",
+      "locales": [
+        "ko",
+        "en",
+        "zh",
+        "ja",
+        "vi"
+      ],
+      "at": "2026-11-28T10:09:20.372Z",
+      "batch": "BANK-REFILL-1029"
     }
   ],
   "rejected": []

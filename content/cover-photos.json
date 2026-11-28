@@ -117,5 +117,7 @@
   "foreigner-id-card-lending-misuse-penalty": { "pexels_id": 5242822, "author": "Anna Tarazevich",
     "alt": { "ko": "카드를 다른 사람에게 건네는 손", "en": "A hand passing a card to another person", "zh": "把卡片递给另一个人的手", "ja": "カードを別の人に手渡す手", "vi": "Bàn tay đưa thẻ cho người khác" } },
   "foreigner-id-card-return-departure-naturalization": { "pexels_id": 6726195, "author": "Magic K",
-    "alt": { "ko": "공항 터미널에서 짐을 든 여행객들", "en": "Travelers with luggage in an airport terminal", "zh": "机场航站楼里带着行李的旅客", "ja": "空港ターミナルで荷物を持つ旅行者", "vi": "Hành khách mang hành lý trong nhà ga sân bay" } }
+    "alt": { "ko": "공항 터미널에서 짐을 든 여행객들", "en": "Travelers with luggage in an airport terminal", "zh": "机场航站楼里带着行李的旅客", "ja": "空港ターミナルで荷物を持つ旅行者", "vi": "Hành khách mang hành lý trong nhà ga sân bay" } },
+  "g1-wage-arrears-industrial-accident-stay": { "pexels_id": 10395785, "author": "Elif",
+    "alt": { "ko": "작업장에서 팔에 붕대를 감고 응급처치를 받는 근로자", "en": "Injured worker receiving first aid with a bandaged arm at a worksite", "zh": "在工作场地手臂缠着绷带接受急救的工人", "ja": "作業現場で腕に包帯を巻いて応急手当を受ける作業員", "vi": "Công nhân bị thương được sơ cứu, băng tay tại nơi làm việc" } }
 }
